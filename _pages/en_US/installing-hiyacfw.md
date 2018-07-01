@@ -1,5 +1,7 @@
 ---
 title: Installing HiyaCFW
+redirect_from:
+  - /guide/installing-hiyacfw
 ---
 
 You will need [Unlaunch](installing-unlaunch/) installed before proceeding.
