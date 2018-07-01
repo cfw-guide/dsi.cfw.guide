@@ -4,6 +4,8 @@ redirect_from:
   - /guide/installing-unlaunch
 ---
 
+{% include toc title="Table of Contents" %}
+
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
 {: .notice--info}
 

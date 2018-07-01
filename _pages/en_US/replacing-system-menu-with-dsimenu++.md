@@ -4,6 +4,8 @@ redirect_from:
   - more/replacing-system-menu
 ---
 
+{% include toc title="Table of Contents" %}
+
 You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
