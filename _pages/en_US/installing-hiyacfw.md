@@ -4,6 +4,8 @@ redirect_from:
   - /guide/installing-hiyacfw
 ---
 
+{% include toc title="Table of Contents" %}
+
 You will need [Unlaunch](installing-unlaunch/) installed before proceeding.
 {: .notice--info}
 

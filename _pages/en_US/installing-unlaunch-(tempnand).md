@@ -1,7 +1,8 @@
 ---
 title: Installing Unlaunch (TempNAND)
-toc: true
 ---
+
+{% include toc title="Table of Contents" %}
 
 If you do not have a DSiWare exploit already installed, you must have a USA console with Flipnote Studio installed, or a hardware modification capable of installing DSiWare.
 {: .notice--info}

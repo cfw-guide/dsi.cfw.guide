@@ -4,6 +4,8 @@ redirect_from:
   - more/dumping-dsiware-from-3ds
 ---
 
+{% include toc title="Table of Contents" %}
+
 This guide requires a hacked 3DS with [Luma3DS](https://github.com/AuroraWright/Luma3DS){:target="_blank"} and [FBI](https://github.com/Steveice10/FBI){:target="_blank"} installed. Follow [3ds.hacks.guide](3ds.hacks.guide){:target="_blank"} to hack your 3DS.
 {: .notice--info}
 
