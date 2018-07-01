@@ -1,55 +1,11 @@
 ---
 main:
   -
-    title: DSi Guide
+    title: CFW Guide
     url: /
-  -
-    title: FAQ
-    url: faq
   -
     title: Donations
     url: donations
-  -
-    title: Credits
-    url: credits
-  -
-    title: Dumping DSiWare
-    url: dumping-dsiware
-  -
-    title: Installing DSiWare
-    url: installing-dsiware
-  -
-    title: Replacing System Menu with DSiMenu++
-    url: replacing-system-menu-with-dsimenu++
-  -
-    title: Site Navigation
-    url: site-navigation
-bottom:
-  -
-    title: If you need help, ask the <a href="https://discord.gg/w4SKAr8">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/C29hYvh">Nintendo Homebrew</a> Discord servers.
 footer:
   -
     title: Source
-  -
-    title: Site Navigation
-  -
-    title: Why Ads?
-sidebar_title:
-  -
-    title: Overall Progress
-sidebar_pages:
-  -
-    title: Home
-    url: /
-  -
-    title: Installing Unlaunch
-    url: installing-unlaunch
-  -
-    title: Installing Unlaunch (TempNAND)
-    url: installing-unlaunch-(tempnand)
-  -
-    title: Installing HiyaCFW
-    url: installing-hiyacfw
-  -
-    title: Finalizing Setup
-    url: finalizing-setup

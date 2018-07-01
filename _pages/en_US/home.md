@@ -1,48 +1,46 @@
 ---
 layout: splash
-title: DSi Guide
-excerpt: "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
+excerpt: "Hacking and Homebrew Guides"
 header:
   overlay_color: "#1a1d24"
-  cta_label: "Get Started"
-  cta_url: installing-unlaunch
+permalink: /
+feature_row:
+  - alt: "Vita Guide"
+    title: "Vita Guide"
+    excerpt: "A complete PS Vita hacking guide, from stock to Ensō."
+    image_path: /assets/images/vita.jpg
+    url: "https://vita.cfw.guide/"
+  - alt: "DSi Guide"
+    title: "DSi Guide"
+    excerpt: "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
+    image_path: /assets/images/dsi.png
+    url: "https://dsi.cfw.guide/"
+  - alt: "Switch Guide"
+    title: "Switch Guide"
+    excerpt: 'A complete guide to Switch homebrew and homebrew development by <a href="https://github.com/Plailect/" target="_blank">Plailect</a>.'
+    image_path: /assets/images/switch.jpg
+    url: "https://switch.hacks.guide/"
+  - alt: "3DS Guide"
+    title: "3DS Guide"
+    excerpt: 'A complete guide to 3DS custom firmware, from stock to boot9strap by <a href="https://github.com/Plailect/" target="_blank">Plailect</a>.'
+    image_path: /assets/images/3ds.jpg
+    url: "https://3ds.hacks.guide/"
+  - alt: "Wii U Guide"
+    title: "Wii U Guide"
+    excerpt: 'A complete guide to Wii U CFW, from stock to Coldboot Haxchi by <a href="https://github.com/Plailect/" target="_blank">Plailect</a>.'
+    image_path: /assets/images/wiiu.jpg
+    url: "https://3ds.hacks.guide/"
+  - alt: "Discord Server"
+    title: "CFW.Guide Discord"
+    excerpt: "Ask for help regarding the guides on this site."
+    image_path: /assets/images/discord.jpg
+    url: "https://discord.gg/4BsnVJW"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
+{% include feature_row %}
+
+If you appreciate this guide, we accept <a href="donations" style="text-decoration: none !important;">Donations</a>.
 {: .notice--info}
 
-This guide is not compatible with development DSi consoles or Chinese iQue DSi consoles.
-{: .notice--info}
-
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
-{: .notice--info}
-
-{% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/dsi-guide) to help to keep these translations up to date.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-## What is homebrew?
-
-Homebrew applications are custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
-
-Homebrew can be run for free on your DSi as long as you have a copy of Flipnote Studio or a previous DSiWare exploit installed.
-
-## What does this guide install?
-
-This guide will install HiyaCFW, a custom firmware for the DSi. CFW can be set up on any console on any version.
-
-Custom firmware enables you to use more advanced hacks that userland homebrew can’t easily do. For instance, signature patches let you install unsigned titles that appear right on your System Menu.
-
-## What should I know before starting?
-
-- Homebrew allows you to modify your system, which could easily result in a brick if done improperly
-- Keep your console plugged in at all times during this process to avoid sudden power loss
-- You will need an SD card to use this guide
-  - Your console should come with one
-  
-Continue to [Installing Unlaunch](installing-unlaunch)
+While these guides should be safe, you and you alone are responsible for any damages to your console while following these guides.
 {: .notice--info}

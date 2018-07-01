@@ -24,23 +24,6 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
     <section class="page__content" itemprop="text">
-        
-      {% assign split_path = page.path | split: "/" %}
-      {% assign locale = split_path[1] %}
-
-      {% for link in site.data.navigation[locale].bottom %}
-        {% if link.url contains 'http' %}
-          {% assign domain = '' %}
-        {% else %}
-          {% assign domain = site.url | append: site.baseurl %}
-        {% endif %}
-        <div class ="notice">{{ link.title }}</div>
-      {% endfor %}
-
-      <center>
-        {% include ad.html %}
-      </center>
-      
       {{ content }}
     </section>
   </article>

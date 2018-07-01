@@ -56,6 +56,13 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  a {
+	color: #eaeaea !important;
+	text-decoration: none;
+  }
+  a:hover { 
+	text-decoration: underline !important;
+  }
 
   & + p {
     text-indent: 0;

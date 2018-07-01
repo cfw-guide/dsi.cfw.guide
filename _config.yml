@@ -9,14 +9,14 @@ minimal_mistakes_skin    : "nord"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DSi Guide"
+title                    : "CFW Guide"
 title_separator          : "-"
-name                     : "jerbear64 & emiyl"
-description              : "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
-url                      : "https://dsi.cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "dsi.cfw.guide"
+name                     : "emiyl"
+description              : "Hacking and Homebrew Guides"
+url                      : "https://cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "cfw.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "emiyl/dsi.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "emiyl/cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
