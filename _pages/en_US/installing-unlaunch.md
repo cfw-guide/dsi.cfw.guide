@@ -1,5 +1,7 @@
 ---
 title: Installing Unlaunch
+redirect_from:
+  - /guide/installing-unlaunch
 ---
 
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!

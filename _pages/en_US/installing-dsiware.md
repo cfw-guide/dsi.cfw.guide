@@ -1,5 +1,7 @@
 ---
 title: Installing DSiWare
+redirect_from:
+  - more/installing-dsiware
 ---
 
 You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.

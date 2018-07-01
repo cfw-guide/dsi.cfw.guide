@@ -1,5 +1,7 @@
 ---
 title: Finalizing Setup
+redirect_from:
+  - /guide/finalizing-setup
 ---
 
 We will now install DSiMenu++ to the System Menu by copying it to your SD card.

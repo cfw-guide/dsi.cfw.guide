@@ -1,5 +1,7 @@
 ---
 title: "FAQ"
+redirect_from:
+  - help/faq
 ---
 
 <a name="faq_fatmismatch" />**Q:** *Unlaunch freezes at* `MISMATCH IN FAT COPIES`*. What do I do?*    

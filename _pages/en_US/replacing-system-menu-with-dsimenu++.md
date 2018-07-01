@@ -1,5 +1,7 @@
 ---
 title: Replacing the System Menu with DSiMenu++
+redirect_from:
+  - more/replacing-system-menu
 ---
 
 You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
