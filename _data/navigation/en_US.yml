@@ -18,12 +18,12 @@ main:
   -
     title: Installing DSiWare
     url: installing-dsiware
- -
-   title: Replacing System Menu with DSiMenu++
-   url: replacing-system-menu-with-dsimenu++
- -
-   title: Site Navigation
-   url: site-navigation
+  -
+    title: Replacing System Menu with DSiMenu++
+    url: replacing-system-menu-with-dsimenu++
+  -
+    title: Site Navigation
+    url: site-navigation
 bottom:
   -
     title: If you need help, ask the <a href="https://discord.gg/w4SKAr8">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/C29hYvh">Nintendo Homebrew</a> Discord servers.
