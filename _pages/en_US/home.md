@@ -6,6 +6,7 @@ header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
   cta_url: installing-unlaunch
+permlink: /
 ---
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
