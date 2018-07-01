@@ -27,3 +27,6 @@ This guide will install your 3DS DSiWare dumps to your DSi console's home menu. 
 1. Power on your DSi, and "unwrap" the new DSiWare
     - If you boot to an "error has occured" screen, you have exceeded the amount of allowed DSiWare blocks on your system
     - DSiMenu++ can get around this limitation, see the link below for more information
+
+[Replacing System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++)
+{: .notice--info}
