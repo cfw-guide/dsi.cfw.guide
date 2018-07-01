@@ -56,49 +56,16 @@ layout: default
         {% endfor %}
 
         <center>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-8267943526926430"
-          data-ad-slot="8645643953"
-          data-ad-format="auto">
-        </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-          <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-8267943526926430"
-          data-ad-slot="8645643953"
-          data-ad-format="auto">
-        </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        {% include ad.html %}
+        {% include ad.html %}
         </center>
 
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
         <center>
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-8267943526926430"
-          data-ad-slot="8645643953"
-          data-ad-format="horizontal">
-        </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-6670011780914577"
-          data-ad-slot="9147356245"
-          data-ad-format="horizontal">
-        </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        {% include ad.html %}
+        {% include ad.html %}
         </center>
 
       </section>
