@@ -34,18 +34,14 @@ If you already have DSiMenu++ installed, skip to step 5
 4. Copy *the contents of* the `DSiWare (your region)` folder to `_nds/dsimenuplusplus/dsiware` on your SD card
 5. In the `Autoboot for HiyaCFW` folder in the DSiMenuPlusPlus `.7z`, copy `autoboot.bin` to the `hiya` folder on your SD card
 6. Navigate to the `shared1` folder on your SD card
-7. Mark `TWLCFG0.dat` and `TWLCFG1.dat` as **read-only**
-    - On Windows, this can be done by right clicking them, going to Properties, then checking "Read-only"
-    - This works around a bug that can break the SDNAND
-    - You will need to make these writeable again temporarily when you want to change system settings
-8. Navigate to `title/00030004` on your SD card
-9. Copy `argvgen.exe` or `argvgen.py` to `title/00030004` on your SD card
-10. Run `argvgen`
+7. Navigate to `title/00030004` on your SD card
+8. Copy `argvgen.exe` or `argvgen.py` to `title/00030004` on your SD card
+9. Run `argvgen`
     - A new `dsiware` folder will be created
     - These contain `.argv` files, which tell DSiMenu++ where it can find DSiWare
-11. Move the `dsiware` folder to `_nds/dsimenuplusplus/dsiware` on your SD card
+10. Move the `dsiware` folder to `_nds/dsimenuplusplus/dsiware` on your SD card
     - The two folders should be *merged*
-12. Eject your SD card, and insert it in your DSi
+11. Eject your SD card, and insert it in your DSi
 
 ## Instructions
 1. Power on your DSi while holding **SELECT**
