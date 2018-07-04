@@ -21,7 +21,7 @@ Unlaunch is currently in a beta state. Please proceed with caution.
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 
 ## Downloads
-- The latest release of [Unlaunch](https://problemkaputt.de/unlau08.zip)
+- v0.8 of [Unlaunch](https://problemkaputt.de/unlau08.zip)
 	- We are currently using Unlaunch v0.8, as 0.9 is incompatible with HiyaCFW
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
@@ -84,6 +84,6 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
 
 With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, adding a very resilient layer of brick protection.
-  
+
 Continue to [Installing HiyaCFW](installing-hiyacfw)
 {: .notice--info}
