@@ -19,8 +19,10 @@ Unlaunch is currently in a beta state. Please proceed with caution.
 {: .notice--info}
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
-
+Due to a bug in the v0.9 installer, we will install Unlaunch v0.8, and use it to upgrade to the latest release.
 ## Downloads
+- v0.8 of [Unlaunch](https://problemkaputt.de/unlau08.zip)
+  - We need this in order to install the latest release of Unlaunch
 - The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
@@ -57,32 +59,39 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - **JPN:** Click on the paste button. This should launch fwTool
 13. **USA/EUR/AUS:** Select "Erase" and then "Paste"
   - This will launch HBMenu
-14. Navigate to `fwtool.nds`, and press **A**
+14. Navigate to `fwtool.nds`, and press (A)
   - fwTool will appear
-15. Navigate to `Backup DSi NAND`, and press **A**
+15. Navigate to `Backup DSi NAND`, and press (A)
   - This will take a few minutes
   - Store this NAND backup in a safe location, it is a critical backup and we will need it later to install HiyaCFW
   - When `saved nand.bin.sha1.` appears, the backup is finished
-16. Navigate to `Exit`, press **A**, and power off your system
+16. Navigate to `Exit`, press (A), and power off your system
 
 ## Installation
 
 1. Insert your system's SD card into your computer
-2. Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to the root of your SD card
+2. Copy `UNLAUNCH.DSI` from the Unlaunch **v0.8** `.zip` file to the root of your SD card
 3. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
-4. Unplug your SD card, and insert it in your DSi
-5. Power on your DSi, and repeat steps 1 through 13 in **Creating a NAND backup**
+3. Copy `UNLAUNCH.DSI` from the  Unlaunch *latest release* `.zip` file to the root of your SD card
+4. Rename `UNLAUNCH.DSI` to `bootcode.dsi`
+5. Unplug your SD card, and insert it in your DSi
+6. Power on your DSi, and repeat steps 1 through 13 in **Creating a NAND backup**
   - HBMenu will appear
-6. Navigate to `unlaunch.nds`, and press **A**
+6. Navigate to `unlaunch.nds`, and press (A)
   - Unlaunch's installer will appear
-7. Navigate to `INSTALL NOW` and press **A**
+7. Navigate to `INSTALL NOW` and press (A)
   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/help/faq)
-8. When done, navigate to `POWER DOWN` and press **A**
+8. When done, navigate to `POWER DOWN` and press (A)
   - Your system will power off
-9. Turn your system on, to verify Unlaunch installed properly
+9. Power on your system again
+  - Unlaunch's installer will appear again- this is the latest release
+10. Repeat steps 7 and 8
+11. Hold (A) while powering on your system, to verify Unlaunch installed properly
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
 
 With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, adding a very resilient layer of brick protection.
+
+You may now delete the `bootcode.dsi` present on your SD card. This will make it so that you don't need to hold A while powering on.
 
 Continue to [Installing HiyaCFW](installing-hiyacfw)
 {: .notice--info}
