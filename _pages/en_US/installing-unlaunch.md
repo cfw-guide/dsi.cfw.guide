@@ -72,21 +72,21 @@ Due to a bug in the v0.9 installer, we will install Unlaunch v0.8, and use it to
 1. Insert your system's SD card into your computer
 2. Copy `UNLAUNCH.DSI` from the Unlaunch **v0.8** `.zip` file to the root of your SD card
 3. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
-3. Copy `UNLAUNCH.DSI` from the  Unlaunch *latest release* `.zip` file to the root of your SD card
-4. Rename `UNLAUNCH.DSI` to `bootcode.dsi`
-5. Unplug your SD card, and insert it in your DSi
-6. Power on your DSi, and repeat steps 1 through 13 in **Creating a NAND backup**
+4. Copy `UNLAUNCH.DSI` from the  Unlaunch *latest release* `.zip` file to the root of your SD card
+5. Rename `UNLAUNCH.DSI` to `bootcode.dsi`
+6. Unplug your SD card, and insert it in your DSi
+7. Power on your DSi, and repeat steps 1 through 13 in **Creating a NAND backup**
   - HBMenu will appear
-6. Navigate to `unlaunch.nds`, and press (A)
+8. Navigate to `unlaunch.nds`, and press (A)
   - Unlaunch's installer will appear
-7. Navigate to `INSTALL NOW` and press (A)
+9. Navigate to `INSTALL NOW` and press (A)
   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/help/faq)
-8. When done, navigate to `POWER DOWN` and press (A)
+10. When done, navigate to `POWER DOWN` and press (A)
   - Your system will power off
-9. Power on your system again
+11. Power on your system again
   - Unlaunch's installer will appear again- this is the latest release
-10. Repeat steps 8 and 9 of this section
-11. Hold (A) while powering on your system, to verify Unlaunch installed properly
+12. Repeat steps 9 and 10 of this section
+13. Hold (A) while powering on your system, to verify Unlaunch installed properly
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
 
 With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, adding a very resilient layer of brick protection.
