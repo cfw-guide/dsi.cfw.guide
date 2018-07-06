@@ -27,6 +27,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 - The latest release of [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html){:target="_blank"}
   - This can be substituted for the `mount` utility on non-Windows systems
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
+  - If you're using Unlaunch v0.9, download **both** the `bootcode.dsi` and `HiyaCFW.7z`; otherwise, just download `HiyaCFW.7z`
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 - A NAND backup taken from your device, with the NO$GBA Footer
   - fwTool 2.0 will create this footer automatically when it makes a backup
@@ -76,6 +77,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 ## Finalization
 1. Copy *the contents of* the HiyaCFW `for SDNAND SD card` folder to the root of your SD card
   - If asked to replace any files, do so
+  - If you are using Unlaunch v0.9, Replace `bootcode.dsi` on your SD card with the `bootcode.dsi` you previously downloaded
 2. Open the `Modified Files` folder from the HiyaCFW `for PC` folder
 3. Copy `bootloader.nds` to the `hiya` folder on your SD card
 4. Copy 00000002.app to `title` -> `00030017` -> `484e41XX` -> `content` folder on your SD card
