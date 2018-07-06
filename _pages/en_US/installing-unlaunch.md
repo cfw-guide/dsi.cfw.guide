@@ -85,7 +85,7 @@ Due to a bug in the v0.9 installer, we will install Unlaunch v0.8, and use it to
   - Your system will power off
 9. Power on your system again
   - Unlaunch's installer will appear again- this is the latest release
-10. Repeat steps 7 and 8
+10. Repeat steps 8 and 9 of this section
 11. Hold (A) while powering on your system, to verify Unlaunch installed properly
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
 
