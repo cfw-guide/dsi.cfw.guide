@@ -12,8 +12,7 @@ This method **severely degrades** the NAND and should only be used as a **last r
 
 ## Requirements
 
-- v0.8 of [Unlaunch](https://problemkaputt.de/unlau08.zip)
-	- We are currently using Unlaunch v0.8, as 0.9 is incompatible with HiyaCFW
+- The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
   - Only for USA consoles
 - The latest release of [fwTool](/assets/files/fwTool_1.6.zip)
