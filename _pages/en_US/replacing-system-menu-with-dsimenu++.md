@@ -9,7 +9,7 @@ redirect_from:
 You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
-This will replace your DSi's Home Menu with DSiMenu++ and run it whenever you power on your DSi console.
+This will replace your DSi's System Menu with DSiMenu++, and run it whenever you power on your DSi console.
 
 Replacing the System Menu with DSiMenu++ will allow for a few advantages over the built-in System Menu:
 * DSiMenu++ can allow for more DSiWare than the System Menu
@@ -21,12 +21,12 @@ In this configuration, DSiMenu++ is effectively acting as an open source alterna
 
 ## Downloads
 - The latest release of [DSiMenu++](https://github.com/Robz8/DSiMenuPlusPlus/releases){:target="_blank"}
-- [argvgen](/assets/files/argvgen.zip)
+- [appgen](/assets/files/appgen.zip)
   - Windows users may use the .EXE
   - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})
 
 ## Preparation
-If you already have DSiMenu++ installed, skip to step 5
+If you already have DSiMenu++ installed, skip to step 5.
 {: .notice--info}
 1. Open the DSiMenuPlusPlus `.7z` file
 2. Copy *the contents of* the `CFW - SDNAND root` folder to the root of your SD card
@@ -39,12 +39,11 @@ If you already have DSiMenu++ installed, skip to step 5
     - This works around a bug that can break the SDNAND
     - You will need to make these writeable again temporarily when you want to change system settings
 8. Navigate to `title/00030004` on your SD card
-9. Copy `argvgen.exe` or `argvgen.py` to `title/00030004` on your SD card
-10. Run `argvgen`
+9. Copy `appgen.exe` or `appgen.py` to `title/00030004` on your SD card
+10. Run `appgen`
     - A new `dsiware` folder will be created
-    - These contain `.argv` files, which tell DSiMenu++ where it can find DSiWare
-11. Move the `dsiware` folder to `_nds/dsimenuplusplus/dsiware` on your SD card
-    - The two folders should be *merged*
+11. Move the `dsiware` folder to `roms/dsiware` on your SD card
+    - The two folders should be *merged*, if prompted
 12. Eject your SD card, and insert it in your DSi
 
 ## Instructions
@@ -53,6 +52,4 @@ If you already have DSiMenu++ installed, skip to step 5
 3. Press **START** to save and continue booting
     - DSiMenu++ will appear
 
-DSiMenu++ is now your System Menu. You can press **DOWN** to access your DSiWare.
-
-Due to a limitation in EasyGL2D, the graphics library that DSiMenu++ uses, some DSiWare images will be blank, unless if DSi icon animation is disabled.
+DSiMenu++ is now your System Menu. Navigate to the `roms/dsiware` folder to access your DSiWare. 
