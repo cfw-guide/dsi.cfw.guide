@@ -56,7 +56,7 @@ Due to a bug in the v0.9 installer, we will install Unlaunch v0.8, and use it to
 12. Based on your region, do the following:
   - **USA:** Click on the paste button exactly 122 times.
   - **EUR/AUS:** Click on the paste button exactly 2 times.
-  - **JPN:** Click on the paste button. This should launch fwTool
+  - **JPN:** Click on the paste button.
 13. **USA/EUR/AUS:** Select "Erase" and then "Paste"
   - This will launch HBMenu
 14. Navigate to `fwtool.nds`, and press (A)
