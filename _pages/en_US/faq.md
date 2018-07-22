@@ -13,6 +13,9 @@ redirect_from:
 <a name="faq_2gbsd" />**Q:** *Can I use an SD card higher than 2GB with HiyaCFW yet?*
 **A:** Yes, using DSiMenu++. See the [Replacing System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++) page for more information. Low-level "full" formatting your SD card with a tool like GUIFormat can help as well, but this will not get you around the DSi Menu's block limit, whereas DSiMenu++ does.
 
+<a name="faq_nodsimenupp" />**Q:** *Why don't I see DSiMenu++?*
+**A:** While in the DSi System Menu, move to the DSi Camera app, take out the SD card, then launch the DSi Camera app. If you're in the app, then you're in SysNAND. If not, then something went wrong when trying to install DSiMenu++.
+
 <a name="faq_uninstall" />**Q:** *Is there a safe way to remove Unlaunch?*
 **A:** Unfortunately, not at this time. Ideally there would be a tool, or an update to the Unlaunch installer itself, that allows for a direct uninstallation. Currently no such tool exists. Until one exists, all methods of installing Unlaunch either require unsafe tools like twlnf, or restoring a NAND backup. Uninstalling via twlnf would trigger twlnf's NAND update bug, breaking the option to install unlaunch in the future, and NAND backups are not only dangerous but is also very stressful on the DSi's components.
 
