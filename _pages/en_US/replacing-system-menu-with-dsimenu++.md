@@ -27,7 +27,7 @@ In this configuration, DSiMenu++ is effectively acting as an open source alterna
   - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})
 
 ## Preparation
-If you already have DSiMenu++ installed, skip to step 5.
+If you already have DSiMenu++ installed, skip to step 6.
 {: .notice--info}
 1. Open the DSiMenuPlusPlus `.7z` file
 2. Copy *the contents of* the `CFW - SDNAND root` folder to the root of your SD card
