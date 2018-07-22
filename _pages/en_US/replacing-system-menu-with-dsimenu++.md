@@ -43,7 +43,7 @@ If you already have DSiMenu++ installed, skip to step 6.
 9. Copy `appgen.exe` or `appgen.py` to `title/00030004` on your SD card
 10. Run `appgen`
     - A new `dsiware` folder will be created
-11. Move the `dsiware` folder to `roms/dsiware` on your SD card
+11. Move the `dsiware` folder to `roms` on your SD card
     - The two folders should be *merged*, if prompted
 12. Eject your SD card, and insert it in your DSi
 
