@@ -22,7 +22,6 @@ In this configuration, DSiMenu++ is effectively acting as an open source alterna
 ## Downloads
 - The latest release of [DSiMenu++](https://github.com/Robz8/DSiMenuPlusPlus/releases){:target="_blank"}
 - [launcharggen](/assets/files/launcharggen.zip)
-- [appgen](/assets/files/appgen.zip)
   - Windows users may use the .EXE
   - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})
 
@@ -40,12 +39,13 @@ If you already have DSiMenu++ installed, skip to step 6.
     - This works around a bug that can break the SDNAND
     - You will need to make these writeable again temporarily when you want to change system settings
 8. Navigate to `title/00030004` on your SD card
-9. Copy `appgen.exe` or `appgen.py` to `title/00030004` on your SD card
-10. Run `appgen`
+9. Copy `launcharggen` to `title/00030004` on your SD card
+10. Run `launcharggen`
     - A new `dsiware` folder will be created
+    - These contain `.launcharg` files, which tell DSiMenu++ where it can find DSiWare
 11. Move the `dsiware` folder to `roms` on your SD card
     - The two folders should be *merged*, if prompted
-12. Eject your SD card, and insert it in your DSi
+12. Eject your SD card, and insert it in your DSi 
 
 ## Instructions
 1. Power on your DSi while holding **SELECT**
@@ -53,14 +53,4 @@ If you already have DSiMenu++ installed, skip to step 6.
 3. Press **START** to save and continue booting
     - DSiMenu++ will appear
 
-DSiMenu++ is now your System Menu. Navigate to the `roms/dsiware` folder to access your DSiWare. 
-
-## Issues with DSiWare?
-If touch input is not working, or if the game shows an error message, then follow these steps:
-1. Copy `launcharggen.py` to `title/00030004` on your SD card
-2. Run `launcharggen`
-    - A new `dsiware` folder will be created
-    - These contain `.launcharg` files, which tell DSiMenu++ where it can find DSiWare
-3. Move the `dsiware` folder to `roms` on your SD card
-    - The two folders should be *merged*
-4. Eject your SD card, and insert it in your DSi
+DSiMenu++ is now your System Menu. Press (DOWN) to access your DSiWare.
