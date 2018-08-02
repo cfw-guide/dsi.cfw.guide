@@ -26,6 +26,4 @@ This method will install your 3DS DSiWare dumps to your DSi console's home menu.
     - If your System Menu has been replaced with DSiMenu++, you will need to rerun the launcharg generator and place the new launcharg files in `roms/dsiware` once more
 8. Power on your DSi, and "unwrap" the new DSiWare
     - If you boot to an "error has occured" screen, you have exceeded the amount of allowed DSiWare blocks on your system
-    - DSiMenu++ can get around this limitation, see 
-Replacing the System Menu with DSiMenu++ for more 
-information
+    - DSiMenu++ can get around this limitation, see [Replacing the System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++) for more information
