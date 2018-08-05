@@ -53,4 +53,4 @@ If you already have DSiMenu++ installed, skip to step 6.
 3. Press **START** to save and continue booting
     - DSiMenu++ will appear
 
-DSiMenu++ is now your System Menu. Press (DOWN) to access your DSiWare.
+DSiMenu++ is now your System Menu. Navigate to **roms -> dsiware** to access your DSiWare.
