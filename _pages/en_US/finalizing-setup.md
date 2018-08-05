@@ -37,7 +37,6 @@ DSiMenu++ should now be on your System Menu, as any other DSiWare would be.
 3. You will now see a list of your NDS ROMs
   - Press (Y) to launch homebrew applications without nds-bootstrap
   - Press (A) to launch commercial/homebrew ROMs using nds-bootstrap (Homebrew with DSi-extended header will not be ran by bootstrap)
-  - Press (UP) or (DOWN) to toggle between NDS ROMs and DSiWare
   - Press (START), then navigate to "Start GBARunner2" to run GBA ROMs
   - Press (X) in the DSi/3DS theme's START menu, to return to the DSi Menu
 4. (optional) DSiMenu++ can completely replace your System Menu. This can help work around several bugs with SD card sizes and the DSiWare block limit.
