@@ -17,12 +17,12 @@ redirect_from:
 <a name="faq_2gbsd" />**Q:** Can I use an SD card higher than 2GB with HiyaCFW yet?
 {: .notice--info}
 
-**A:** Yes, using DSiMenu++. See the [Replacing System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++) page for more information. Low-level "full" formatting your SD card with a tool like GUIFormat can help as well, but this will not get you around the DSi Menu's block limit, whereas DSiMenu++ does.
+**A:** Yes, using TWiLight Menu++. See the [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) page for more information. Low-level "full" formatting your SD card with a tool like GUIFormat can help as well, but this will not get you around the DSi Menu's block limit, whereas TWiLight Menu++ does.
 
-<a name="faq_nodsimenupp" />**Q:** Why don't I see DSiMenu++?
+<a name="faq_notwlmenupp" />**Q:** Why don't I see TWiLight Menu++?
 {: .notice--info}
 
-**A:** While in the DSi System Menu, move to the DSi Camera app, take out the SD card, then launch the DSi Camera app. If you're in the app, then you're in SysNAND. If not, then something went wrong when trying to install DSiMenu++.
+**A:** While in the DSi System Menu, move to the DSi Camera app, take out the SD card, then launch the DSi Camera app. If you're in the app, then you're in SysNAND. If not, then something went wrong when trying to install TWiLight Menu++.
 
 <a name="faq_uninstall" />**Q:** Is there a safe way to remove Unlaunch?
 {: .notice--info}

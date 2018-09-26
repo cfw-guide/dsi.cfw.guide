@@ -10,7 +10,7 @@ sitemap: false
 + [Installing Unlaunch](installing-unlaunch)
 + [Installing HiyaCFW](installing-hiyacfw)
 + [Finalizing Setup](finalizing-setup)
-+ [Replacing System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++)
++ [Replacing System Menu with DSiMenu++](replacing-system-menu-with-twlmenu++)
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
