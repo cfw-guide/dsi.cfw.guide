@@ -1,7 +1,8 @@
 ---
-title: Replacing the System Menu with DSiMenu++
+title: Replacing the System Menu with TWiLight Menu++
 redirect_from:
   - more/replacing-system-menu
+  - replacing-system-menu-with-dsimenu++
 ---
 
 {% include toc title="Table of Contents" %}
@@ -9,24 +10,24 @@ redirect_from:
 You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
-This will replace your DSi's System Menu with DSiMenu++, and run it whenever you power on your DSi console.
+This will replace your DSi's System Menu with TWiLight Menu++, and run it whenever you power on your DSi console.
 
-Replacing the System Menu with DSiMenu++ will allow for a few advantages over the built-in System Menu:
-* DSiMenu++ can allow for more DSiWare than the System Menu
-* DSiMenu++, in many cases, can allow for SD cards greater than 2 GB to work
+Replacing the System Menu with TWiLight Menu++ will allow for a few advantages over the built-in System Menu:
+* TWiLight Menu++ can allow for more DSiWare than the System Menu
+* TWiLight Menu++, in many cases, can allow for SD cards greater than 2 GB to work
     - You can copy your entire SDNAND to a larger SD card once this process is done, and it will likely work out of the box
-* DSiMenu++ provides a unified interface for launching NES, GB(C), DS, and DSiWare titles
+* TWiLight Menu++ provides a unified interface for launching NES, GB(C), DS, and DSiWare titles
 
-In this configuration, DSiMenu++ is effectively acting as an open source alternative to the System Menu.
+In this configuration, TWiLight Menu++ is effectively acting as an open source alternative to the System Menu.
 
 ## Downloads
-- The latest release of [DSiMenu++](https://github.com/Robz8/DSiMenuPlusPlus/releases){:target="_blank"}
+- The latest release of [TWiLight Menu++](https://github.com/Robz8/TWiLightMenu/releases){:target="_blank"}
 - [launcharggen](/assets/files/launcharggen.zip)
   - Windows users may use the .EXE
   - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})
 
 ## Preparation
-If you already have DSiMenu++ installed, skip to step 6.
+If you already have TWiLight Menu++ installed, skip to step 6.
 {: .notice--info}
 1. Open the DSiMenuPlusPlus `.7z` file
 2. Copy *the contents of* the `CFW - SDNAND root` folder to the root of your SD card
@@ -42,7 +43,7 @@ If you already have DSiMenu++ installed, skip to step 6.
 9. Copy `launcharggen` to `title/00030004` on your SD card
 10. Run `launcharggen`
     - A new `dsiware` folder will be created
-    - These contain `.launcharg` files, which tell DSiMenu++ where it can find DSiWare
+    - These contain `.launcharg` files, which tell TWiLight Menu++ where it can find DSiWare
 11. Move the `dsiware` folder to `roms` on your SD card
     - The two folders should be *merged*, if prompted
 12. Eject your SD card, and insert it in your DSi 
@@ -51,6 +52,6 @@ If you already have DSiMenu++ installed, skip to step 6.
 1. Power on your DSi while holding **SELECT**
 2. If `Autoboot title` is not checked, navigate to it and press **A**
 3. Press **START** to save and continue booting
-    - DSiMenu++ will appear
+    - TWiLight Menu++ will appear
 
-DSiMenu++ is now your System Menu. Navigate to **roms -> dsiware** to access your DSiWare.
+TWiLight Menu++ is now your System Menu. Navigate to **roms -> dsiware** to access your DSiWare.

@@ -16,12 +16,12 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 - Booting the system from the SD card
 - Installing homebrew applications to the System Menu with ease
 - Including a custom splash screen on boot
-- Automatically booting into another application, such as DSiMenu++
+- Automatically booting into another application, such as TWiLight Menu++
 
 
 ## Requirements
 - **[OPTIONAL, BUT RECOMMENDED]** An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
-  - If you cannot fulfill this requirement, or do not wish to, follow [Replacing System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++) once you are finished with this page
+  - If you cannot fulfill this requirement, or do not wish to, follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) once you are finished with this page
 - The latest release of [fuse-3ds](https://github.com/ihaveamac/fuse-3ds/releases){:target="_blank"}
   - Windows users will need to install [WinFsp](http://www.secfs.net/winfsp/download/){:target="_blank"} as well
 - The latest release of [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html){:target="_blank"}
@@ -84,7 +84,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 6. Power on your console
   - HiyaCFW's settings screen should appear
 7. Change the settings to your liking, and press (START) to continue
-  - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with DSiMenu++](replacing-system-menu-with-dsimenu++) as noted at the top of the page
+  - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) as noted at the top of the page
 
 Your system will now boot from the SD card instead of the internal NAND.
 You may press (A) while booting to bypass HiyaCFW and boot from the internal NAND, using Unlaunch.
