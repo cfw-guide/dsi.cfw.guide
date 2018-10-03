@@ -2,6 +2,7 @@
 title: Dumping DSiWare
 redirect_from:
   - more/dumping-dsiware-from-3ds
+  - more/dumping-dsiware
 ---
 
 {% include toc title="Table of Contents" %}
