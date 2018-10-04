@@ -32,12 +32,11 @@ TWiLight Menu++ should now be on your System Menu, as any other DSiWare would be
   - Place NDS roms in `/roms/nds`
   - Place NES roms in `/roms/nes`
   - For GBA, make a folder in `roms` named `gba` and place roms there
-  - GBA requires a copy of the GBA BIOS named `bios.bin` on the root of your SD card, and currently has no saving support
+  - GBA requires a copy of the GBA BIOS named `bios.bin` on the root of your SD card
 2. Launch TWiLight Menu++ from the Home Menu
 3. You will now see a list of your NDS ROMs
-  - Press (Y) to launch homebrew applications without nds-bootstrap
-  - Press (A) to launch commercial/homebrew ROMs using nds-bootstrap (Homebrew with DSi-extended header will not be ran by bootstrap)
-  - Press (START), then navigate to "Start GBARunner2" to run GBA ROMs
-  - Press (X) in the DSi/3DS theme's START menu, to return to the DSi Menu
+  - Press (A) to launch ROMs
+  - Touch the GBA icon, which starts GBARunner2, to run GBA ROMs
+  - Touch the HOME icon to return to the DSi Menu
 4. (optional) TWiLight Menu++ can completely replace your System Menu. This can help work around several bugs with SD card sizes and the DSiWare block limit.
   - [Replacing System Menu](replacing-system-menu-with-twlmenu++)
