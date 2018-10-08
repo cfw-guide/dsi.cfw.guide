@@ -20,7 +20,7 @@ Unlaunch is currently in a beta state. Please proceed with caution.
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 ## Downloads
-- The latest release of [Unlaunch](https://problemkaputt.de/unlau14.zip)
+- The latest release of [Unlaunch](https://problemkaputt.de/unlau17.zip)
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
 - The latest release of [fwTool](/assets/files/fwTool.nds)
