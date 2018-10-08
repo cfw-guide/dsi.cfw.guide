@@ -27,7 +27,7 @@ redirect_from:
 <a name="faq_uninstall" />**Q:** Is there a safe way to remove Unlaunch?
 {: .notice--info}
 
-**A:** Yes, Unlaunch v1.5's installer can uninstall Unlaunch. However, 1.5 currently isn't stable, causes issues with HiyaCFW, isn't in use by this guide as a result of the instability, and we haven't tested the uninstaller as a result. This answer will be updated once a safer version of Unlaunch with the uninstallation feature is out.
+**A:** Yes, Unlaunch v1.5 and higher's installer can uninstall Unlaunch. Keep in mind that this may result in an **irrecoverable brick** if you have installed any arbitrary DSiWare to your system NAND, or have otherwise messed with system files.
 
 <a name="faq_fuse3ds" />**Q:** fuse-3ds fails to launch, or to mount my NAND backup!
 {: .notice--info}
