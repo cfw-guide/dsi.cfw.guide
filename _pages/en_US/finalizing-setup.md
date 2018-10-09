@@ -12,7 +12,7 @@ TWiLight Menu++ is a homebrew application that can launch homebrew and retail RO
 
 ## Downloads
 
-- The latest release of [TWiLight Menu++](https://github.com/Robz8/TWiLightMenu/releases){:target="_blank"}
+- The latest release of [TWiLight Menu++](https://github.com/RocketRobz/TWiLightMenu/releases){:target="_blank"}
 
 ## Instructions
 

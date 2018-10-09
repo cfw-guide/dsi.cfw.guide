@@ -12,7 +12,7 @@ If I forgot you here, contact me and I'll add your name.
     + jerbear64
     + pokecraft98
     + emiyl
-    + Robz8
+    + RocketRobz
     + Jhynjhiruu
     + GhostLatte
     + HamBone41801
