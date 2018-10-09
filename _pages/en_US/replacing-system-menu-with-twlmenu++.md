@@ -21,7 +21,7 @@ Replacing the System Menu with TWiLight Menu++ will allow for a few advantages o
 In this configuration, TWiLight Menu++ is effectively acting as an open source alternative to the System Menu.
 
 ## Downloads
-- The latest release of [TWiLight Menu++](https://github.com/Robz8/TWiLightMenu/releases){:target="_blank"}
+- The latest release of [TWiLight Menu++](https://github.com/RocketRobz/TWiLightMenu/releases){:target="_blank"}
 - [launcharggen](/assets/files/launcharggen.zip)
   - Windows users may use the .EXE
   - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})

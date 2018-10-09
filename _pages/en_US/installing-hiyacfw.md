@@ -26,7 +26,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
   - Windows users will need to install [WinFsp](http://www.secfs.net/winfsp/download/){:target="_blank"} as well
 - The latest release of [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html){:target="_blank"}
   - This can be substituted for the `mount` utility on non-Windows systems
-- The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
+- The latest release of [HiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases){:target="_blank"}
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 - A NAND backup taken from your device, with the NO$GBA Footer
   - fwTool 2.0 will create this footer automatically when it makes a backup
