@@ -28,24 +28,3 @@ redirect_from:
 {: .notice--info}
 
 **A:** Yes, Unlaunch v1.5 and higher's installer can uninstall Unlaunch. Keep in mind that this may result in an **irrecoverable brick** if you have installed any arbitrary DSiWare to your system NAND, or have otherwise messed with system files.
-
-<a name="faq_fuse3ds" />**Q:** fuse-3ds fails to launch, or to mount my NAND backup!
-{: .notice--info}
-
-**A:** This can happen for several reasons, but the most common is that your PC is missing Windows Updates that are required for the program to run. 
-
-If fuse-3ds shows nothing but a black command prompt screen, just wait a while longer- the program can be slow to start.
-
-If fuse-3ds shows the following error at startup:
-
-`The procedure entry point ucrtbase.terminate could not be located in the dynamic link library api-ms-win-crt-runtime-l1-1-0.dll.`
-
-You are missing the following Windows Update: https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
-
-If fuse-3ds fails to mount with the error message:
-
-`Cannot create WinFsp-FUSE file system: unspecified error.`
-
-You are missing the following Windows Update: https://technet.microsoft.com/en-us/library/security/3033929.aspx
-
-Both of these updates are several years old. If you're missing them, it is highly recommended that you enable Windows Update on your machine in order to keep your system updated and secure, and to avoid issues like this in the future.

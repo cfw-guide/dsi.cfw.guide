@@ -12,6 +12,9 @@ You will need [Unlaunch](installing-unlaunch/) installed before proceeding.
 Do not system update after installing HiyaCFW. This will remove HiyaCFW's SD patches.
 {: .notice--danger}
 
+If your SD card is larger than 2 GB, keep in mind that HiyaCFW may not boot in to the System Menu. You will need to install TWiLight Menu++ as a System Menu replacement when the option is given.
+{: .notice--info}
+
 HiyaCFW has several advantages that only having Unlaunch on your system will not allow for. These include:
 - Booting the system from the SD card
 - Installing homebrew applications to the System Menu with ease
@@ -20,9 +23,6 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 
 
 ## Requirements
-
-- **[OPTIONAL, BUT RECOMMENDED]** An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
-  - If you cannot fulfill this requirement, or do not wish to, install TWiLight Menu++ later in the instructions
 
 - A NAND backup taken from your device, with the NO$GBA Footer
   - fwTool 2.0 will create this footer automatically when it makes a backup
@@ -34,15 +34,14 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 
 ## Instructions
 
-1. Insert your SDNAND SD card into your PC
+1. Insert your SD card into your PC
 2. Copy *the contents of* the HiyaCFW Helper `.zip` file to a folder on your PC
 3. Navigate to the extracted folder
 4. Open HiyaCFW Helper as admin
   - This can be done on Windows by right-clicking -> `Run as administrator`
 6. Click the `...` button in the `NAND file with No$GBA footer` box
 7. Navigate to your NAND backup, and click `Open`
-8. If you wish to install TWiLight Menu++, check the `Install latest TWiLight Menu++ on latest firmware` box
-9. Press `Start`
+8. If you wish to install TWiLight Menu++ as a DSi Menu replacement, check the `Install latest TWiLight Menu++ on latest firmware` box
   - The process may take several minutes
   - When the HiyaCFW Helper window says `Done!`, the process is complete
 10. Close HiyaCFW Helper
@@ -55,6 +54,3 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 
 Your system will now boot from the SD card instead of the internal NAND.
 You may press (A) while booting to bypass HiyaCFW and boot from the internal NAND, using Unlaunch.
-  
-Continue to [Finalizing Setup](finalizing-setup)
-{: .notice--info}

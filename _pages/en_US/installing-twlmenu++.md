@@ -1,9 +1,12 @@
 ---
-title: Installing TWiLight Menu++
+title: Finalizing Setup
 redirect_from:
   - /guide/finalizing-setup
-  - /finalizing-setup
 ---
+
+{% include toc title="Table of Contents" %}
+
+We will now install TWiLight Menu++ to the System Menu by copying it to your SD card.
 
 TWiLight Menu++ is a homebrew application that can launch homebrew and retail ROMs, and has several emulators built in.
 
