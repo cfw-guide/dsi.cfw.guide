@@ -42,6 +42,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 6. Click the `...` button in the `NAND file with No$GBA footer` box
 7. Navigate to your NAND backup, and click `Open`
 8. If you wish to install TWiLight Menu++ as a DSi Menu replacement, check the `Install latest TWiLight Menu++ on latest firmware` box
+9. Press `Start`
   - The process may take several minutes
   - When the HiyaCFW Helper window says `Done!`, the process is complete
 10. Close HiyaCFW Helper
