@@ -19,8 +19,8 @@ main:
     title: Installing DSiWare
     url: installing-dsiware
   -
-    title: Replacing System Menu with DSiMenu++
-    url: replacing-system-menu-with-dsimenu++
+    title: Replacing System Menu with TWiLight Menu++
+    url: replacing-system-menu-with-twlmenu++
   -
     title: Site Navigation
     url: site-navigation
@@ -51,5 +51,5 @@ sidebar_pages:
     title: Installing HiyaCFW
     url: installing-hiyacfw
   -
-    title: Finalizing Setup
-    url: finalizing-setup
+    title: Installing TWiLight Menu++
+    url: installing-twlmenu++
