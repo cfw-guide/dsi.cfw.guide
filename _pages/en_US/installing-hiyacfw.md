@@ -15,6 +15,9 @@ Do not system update after installing HiyaCFW. This will remove HiyaCFW's SD pat
 If your SD card is larger than 2 GB, keep in mind that HiyaCFW may not boot in to the System Menu. You will need to install TWiLight Menu++ as a System Menu replacement when the option is given.
 {: .notice--info}
 
+If you do not see TWiLight Menu++ on the System Menu, or if you see the "An error has occured" screen after installing TWiLight Menu++ as a System Menu replacement, then the HiyaCFW Helper isn't applying the CFW's patches properly. Please wait for a fix in the helper.
+{: .notice--info}
+
 HiyaCFW has several advantages that only having Unlaunch on your system will not allow for. These include:
 - Booting the system from the SD card
 - Installing homebrew applications to the System Menu with ease
