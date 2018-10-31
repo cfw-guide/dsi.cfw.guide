@@ -3,7 +3,7 @@ layout: splash
 title: DSi Guide
 excerpt: "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
 header:
-  overlay_color: "#1a1d24"
+  overlay_color: "#3E1C33"
   cta_label: "Get Started"
   cta_url: installing-unlaunch
 ---
@@ -43,6 +43,6 @@ Custom firmware enables you to use more advanced hacks that userland homebrew ca
 - Keep your console plugged in at all times during this process to avoid sudden power loss
 - You will need an SD card to use this guide
   - Your console should come with one
-  
+
 Continue to [Installing Unlaunch](installing-unlaunch)
 {: .notice--info}
