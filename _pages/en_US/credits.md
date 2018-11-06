@@ -2,9 +2,6 @@
 title: "Credits"
 ---
 
-Special thanks to all of [the translators](https://crowdin.com/project/dsi-guide) for being awesome!
-{: .notice--info}
-
 If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}<pre>
@@ -31,7 +28,7 @@ If I forgot you here, contact me and I'll add your name.
     + Fra
     + takusan
     + smileyhead
-	+ Plailect
+    + Plailect
 
 </pre>{% endcapture %}
 

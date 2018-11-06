@@ -22,7 +22,7 @@ redirect_from:
 <a name="faq_notwlmenupp" />**Q:** Why don't I see TWiLight Menu++?
 {: .notice--info}
 
-**A:** While in the DSi System Menu, move to the DSi Camera app, take out the SD card, then launch the DSi Camera app. If you're in the app, then you're in SysNAND. If not, then something went wrong when trying to install TWiLight Menu++.
+**A:** You're in SysNAND instead of the SDNAND. The HiyaCFW Helper isn't applying the CFW's patches properly, so please wait for a fix in the helper.
 
 <a name="faq_uninstall" />**Q:** Is there a safe way to remove Unlaunch?
 {: .notice--info}
