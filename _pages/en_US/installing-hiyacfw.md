@@ -50,23 +50,18 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
   - The process may take several minutes
   - When the HiyaCFW Helper window says `Done!`, the process is complete
 11. Close HiyaCFW Helper
-12. Copy *the contents of* the `out` folder in your HiyaCFW Helper folder to the root of your SD card
-13. Unplug your SD card, and insert it in your DSi
-14. Power on your console
+12. Unplug your SD card, and insert it in your DSi
+13. Power on your console
   - Unlaunch's GUI should appear
-15. Navigate to `OPTIONS`, and press (A)
-16. Press (A) to configure a default software to boot in to when no button is held
-17. Navigate to `HIYACFW`, and press (A)
-18. Navigate to `SAVE & EXIT`, and press (A)
-19. Power off your console, and turn it back on
+14. Navigate to `OPTIONS`, and press (A)
+15. Press (A) to configure a default software to boot in to when no button is held
+16. Navigate to `HIYACFW`, and press (A)
+17. Navigate to `SAVE & EXIT`, and press (A)
+18. Power off your console, and turn it back on
   - HiyaCFW's settings screen should appear
-20. Change the settings to your liking, and press (START) to continue
+19. Change the settings to your liking, and press (START) to continue
   - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) to work around this issue
 
 Your system will now boot from the SD card instead of the internal NAND.
-<<<<<<< HEAD
-You may press (A) while booting to bypass HiyaCFW and boot from the internal NAND, using Unlaunch.
-=======
 
 If you want to boot in to the internal storage, you may configure `LAUNCHER` to a hotkey in a similar manner to the one you just did for HiyaCFW.
->>>>>>> a2f46e62398d880deba2b5a343893c1f8faf946e
