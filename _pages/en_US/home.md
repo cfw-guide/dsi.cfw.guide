@@ -9,10 +9,10 @@ header:
 ---
 
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
-{: .notice--info}
+{: .notice--primary}
 
 This guide is not compatible with development DSi consoles or Chinese iQue DSi consoles.
-{: .notice--info}
+{: .notice--danger}
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--info}
@@ -43,6 +43,6 @@ Custom firmware enables you to use more advanced hacks that userland homebrew ca
 - Keep your console plugged in at all times during this process to avoid sudden power loss
 - You will need an SD card to use this guide
   - Your console should come with one
-  
+
 Continue to [Installing Unlaunch](installing-unlaunch)
 {: .notice--info}

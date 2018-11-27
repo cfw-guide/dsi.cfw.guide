@@ -7,16 +7,19 @@ redirect_from:
 {% include toc title="Table of Contents" %}
 
 Before starting, Windows users should enable the option to show file extensions using [File Extensions (Windows)](file-extensions-(windows))!
-{: .notice--info}
+{: .notice--primary}
 
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
-{: .notice--info}
+{: .notice--primary}
 
 Before proceeding, if your system region is USA, make sure your console language is set to English.
 {: .notice--info}
 
-Unlaunch is currently in a beta state. Please proceed with caution.
+Ensure your SD card is formatted to FAT32 before proceeding.
 {: .notice--info}
+
+Unlaunch is currently in a beta state. Please proceed with caution.
+{: .notice--danger}
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 ## Downloads
@@ -69,7 +72,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 2. Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to the root of your SD card
 3. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
 4. Unplug your SD card, and insert it in your DSi
-5. Power on your DSi, and repeat steps 1 through 13 in 
+5. Power on your DSi, and repeat steps 1 through 13 in
 **Creating a NAND backup**
   - HBMenu will appear
 6. Navigate to `unlaunch.nds`, and press (A)
