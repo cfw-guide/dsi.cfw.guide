@@ -7,7 +7,7 @@ redirect_from:
 {% include toc title="Table of Contents" %}
 
 You will need [Unlaunch](installing-unlaunch/) installed before proceeding.
-{: .notice--info}
+{: .notice--primary}
 
 Do not system update after installing HiyaCFW. This will remove HiyaCFW's SD patches.
 {: .notice--danger}
@@ -64,5 +64,9 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
   - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) to work around this issue
 
 Your system will now boot from the SD card instead of the internal NAND.
+<<<<<<< HEAD
+You may press (A) while booting to bypass HiyaCFW and boot from the internal NAND, using Unlaunch.
+=======
 
 If you want to boot in to the internal storage, you may configure `LAUNCHER` to a hotkey in a similar manner to the one you just did for HiyaCFW.
+>>>>>>> a2f46e62398d880deba2b5a343893c1f8faf946e
