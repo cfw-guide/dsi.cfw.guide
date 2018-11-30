@@ -18,21 +18,17 @@ Before proceeding, if your system region is USA, make sure your console language
 Ensure your SD card is formatted to FAT32 before proceeding.
 {: .notice--info}
 
-Unlaunch is currently in a beta state. Please proceed with caution.
-{: .notice--danger}
-
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 ## Downloads
-- The latest release of [Unlaunch](https://problemkaputt.de/unlau18.zip)
+- The latest release of [Unlaunch](https://problemkaputt.de/unlau18.zip){:target="_blank"}
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
-- The latest release of [ugopwn](/assets/files/ugopwn.zip)
-- The latest release of [fwTool](/assets/files/fwTool.nds)
+- The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
 
 ## Preparing your SD card
 
 1. Insert your system's SD card into your PC
-2. Copy the contents of the ugopwn `.zip` file to the root of your SD card
-3. Copy the fwTool `.nds` file to the root of your SD card
+2. Copy the `private` folder from the Flipnote Lenny `.zip` file to the root of your SD card
+3. Copy `fwTool.nds` from the `nds` folder in the Flipnote Lenny `.zip` file to the root of your SD card
 4. Copy `BOOT.NDS` from the `hbmenu` folder in the HBMenu `.tar.bz2` file to the root of your SD card
 5. Eject your SD card, and insert it back into your DSi
 
@@ -40,32 +36,26 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 
 1. Open the Flipnote Studio application
   - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
-  - If you already have another DSiWare exploit installed, open that and skip to Step 14
+  - If you already have another DSiWare exploit installed, open that and skip to Step 12
   - Note that Sudokuhax *cannot* adequately make a backup with the required footer!
-2. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
-3. Click on the note with the red bottom half
+2. Select **View Flipnote > SD Card**
+3. Click on the lenny corresponding to your region (USA, JPN or EUR)
 4. Select "Edit"
 5. Click on the Flipnote frog icon in the bottom left
 6. Click on the film roll icon
-7. Select **Copy > Back > Quit**
-8. Click the second note, and select "Edit"
+7. Select **Copy > Back > Exit**
+8. Click the second note with a larger lenny face, and select "Edit"
 9. Click on the Flipnote frog icon in the bottom left
-10. Click on the film roll icon.
-11. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
-  - You will see a new frame be created
-12. Based on your region, do the following:
-  - **USA:** Click on the paste button exactly 122 times.
-  - **EUR/AUS:** Click on the paste button exactly 2 times.
-  - **JPN:** Click on the paste button.
-13. **USA/EUR/AUS:** Select "Erase" and then "Paste"
+10. Click on the film roll icon
+11. Select **Paste**
   - This will launch HBMenu
-14. Navigate to `fwtool.nds`, and press (A)
+12. Navigate to `fwTool.nds`, and press (A)
   - fwTool will appear
-15. Navigate to `Backup DSi NAND`, and press (A)
+13. Navigate to `Backup DSi NAND`, and press (A)
   - This will take a few minutes
   - Store this NAND backup in a safe location, it is a critical backup and we will need it later to install HiyaCFW
   - When `saved nand.bin.sha1.` appears, the backup is finished
-16. Navigate to `Exit`, press (A), and power off your system
+14. Navigate to `Exit`, press (A), and power off your system
 
 ## Installation
 1. Insert your system's SD card into your computer
