@@ -32,22 +32,23 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 4. Copy `BOOT.NDS` from the `hbmenu` folder in the HBMenu `.tar.bz2` file to the root of your SD card
 5. Eject your SD card, and insert it back into your DSi
 
+<a name="creating-a-nand-backup"/>
 ## Creating a NAND backup
 
 1. Open the Flipnote Studio application
   - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
   - If you already have another DSiWare exploit installed, open that and skip to Step 12
   - Note that Sudokuhax *cannot* adequately make a backup with the required footer!
-2. Select **View Flipnote > SD Card**
+2. Select `View Flipnote` -> `SD Card`
 3. Click on the lenny corresponding to your region (USA, JPN or EUR)
 4. Select "Edit"
 5. Click on the Flipnote frog icon in the bottom left
 6. Click on the film roll icon
-7. Select **Copy > Back > Exit**
+7. Select `Copy` -> `Back` -> `Exit`
 8. Click the second note with a larger lenny face, and select "Edit"
 9. Click on the Flipnote frog icon in the bottom left
 10. Click on the film roll icon
-11. Select **Paste**
+11. Select `Paste`
   - This will launch HBMenu
 12. Navigate to `fwTool.nds`, and press (A)
   - fwTool will appear
@@ -63,7 +64,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 3. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
 4. Unplug your SD card, and insert it in your DSi
 5. Power on your DSi, and repeat steps 1 through 13 in
-**Creating a NAND backup**
+[Creating a NAND backup](#creating-a-nand-backup)
   - HBMenu will appear
 6. Navigate to `unlaunch.nds`, and press (A)
   - Unlaunch's installer will appear
