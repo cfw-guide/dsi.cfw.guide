@@ -60,7 +60,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 18. Power off your console, and turn it back on
   - HiyaCFW's settings screen should appear
 19. Change the settings to your liking, and press (START) to continue
-  - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) to work around this issue
+  - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twilight-menu++) to work around this issue
 
 Your system will now boot from the SD card instead of the internal NAND.
 

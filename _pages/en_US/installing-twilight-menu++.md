@@ -3,6 +3,7 @@ title: Installing TWiLight Menu++
 redirect_from:
   - /guide/finalizing-setup
   - /finalizing-setup
+  - /installing-twlmenu++
 ---
 
 TWiLight Menu++ is a homebrew application that can launch homebrew and retail ROMs, and has several emulators built in.

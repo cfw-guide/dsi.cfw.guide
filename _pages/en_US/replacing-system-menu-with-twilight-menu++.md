@@ -3,6 +3,7 @@ title: Replacing the System Menu with TWiLight Menu++
 redirect_from:
   - more/replacing-system-menu
   - replacing-system-menu-with-dsimenu++
+  - replacing-system-menu-with-twlmenu++
 ---
 
 {% include toc title="Table of Contents" %}
@@ -46,12 +47,12 @@ If you already have TWiLight Menu++ installed, skip to step 6.
     - These contain `.launcharg` files, which tell TWiLight Menu++ where it can find DSiWare
 11. Move the `dsiware` folder to `roms` on your SD card
     - The two folders should be *merged*, if prompted
-12. Eject your SD card, and insert it in your DSi 
+12. Eject your SD card, and insert it in your DSi
 
 ## Instructions
-1. Power on your DSi while holding **SELECT**
-2. If `Autoboot title` is not checked, navigate to it and press **A**
-3. Press **START** to save and continue booting
+1. Power on your DSi while holding (SELECT)
+2. If `Autoboot title` is not checked, navigate to it and press (A)
+3. Press (START) to save and continue booting
     - TWiLight Menu++ will appear
 
-TWiLight Menu++ is now your System Menu. Navigate to **roms -> dsiware** to access your DSiWare.
+TWiLight Menu++ is now your System Menu. Navigate to `roms` -> `dsiware` to access your DSiWare.
