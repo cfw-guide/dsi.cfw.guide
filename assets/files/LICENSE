@@ -1,13 +1,3 @@
-Many files in this directory are not covered by the MIT license that the rest of the guide is. This is due to some of the files not being our own.
-Files are here because they are either not distributed in binary form and have been compiled separately, have been repacked to make installation easier, or are written by us to make things more comprehensible for the end-user.
+In some cases, files will be in this repository that are not by us and are as such not covered under the MIT License. They are as follows:
 
-appgen.zip - Written by us. MIT licensed.
-
-fwTool.nds - No binary release on GitHub. This particular release of fwTool doesn't yet appear to have source code released for it, either.
-
-hiyacfw_helper.zip - Written by us. MIT licensed.
-
-NUSDownloader - Upstream source at (https://code.google.com/archive/p/nusdownloader/). Binary releases are available, but they are outdated. This is a compiled release of the latest available source.
-
-ugopwn.zip - Repacked ugopwn, to make installation a drag-and-drop process.
-Ugopwn is by shutterbug2000. Original thread and non-repacked copy available at https://gbatemp.net/threads/release-ugopwn.488702/
+dsi_srl_extract - Upstream source at (https://github.com/einstein95/dsi_srl_extract). No binary release available in the source repo.
