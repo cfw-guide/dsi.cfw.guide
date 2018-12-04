@@ -20,7 +20,7 @@ main:
     url: installing-dsiware
   -
     title: Replacing System Menu with TWiLight Menu++
-    url: replacing-system-menu-with-twlmenu++
+    url: replacing-system-menu-with-twilight-menu++
   -
     title: Site Navigation
     url: site-navigation
@@ -52,4 +52,8 @@ sidebar_pages:
     url: installing-hiyacfw
   -
     title: Installing TWiLight Menu++
+<<<<<<< HEAD
     url: installing-twlmenu++
+=======
+    url: installing-twlmenu++
+>>>>>>> 21c62063e0887031cf957dfe6a8be059351e3b37
