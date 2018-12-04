@@ -30,11 +30,11 @@ In this configuration, TWiLight Menu++ is effectively acting as an open source a
 ## Preparation
 If you already have TWiLight Menu++ installed, skip to step 6.
 {: .notice--info}
-1. Open the DSiMenuPlusPlus `.7z` file
+1. Open the TWiLight Menu++ `.7z` file
 2. Copy *the contents of* the `CFW - SDNAND root` folder to the root of your SD card
 3. Copy the `_nds` and `roms` folders, and `BOOT.NDS` to the root of your SD card
 4. Copy *the contents of* the `DSiWare (your region)` folder to `roms/dsiware` on your SD card
-5. In the `Autoboot for HiyaCFW` folder in the DSiMenuPlusPlus `.7z`, copy `autoboot.bin` to the `hiya` folder on your SD card
+5. In the `Autoboot for HiyaCFW` folder in the TWiLight Menu++ `.7z`, copy `autoboot.bin` to the `hiya` folder on your SD card
 6. Navigate to the `shared1` folder on your SD card
 7. Mark `TWLCFG0.dat` and `TWLCFG1.dat` as **read-only**
     - On Windows, this can be done by right clicking them, going to Properties, then checking "Read-only"
@@ -50,9 +50,9 @@ If you already have TWiLight Menu++ installed, skip to step 6.
 12. Eject your SD card, and insert it in your DSi
 
 ## Instructions
-1. Power on your DSi while holding (SELECT)
-2. If `Autoboot title` is not checked, navigate to it and press (A)
-3. Press (START) to save and continue booting
+1. Power on your DSi while holding **SELECT**
+2. If `Autoboot title` is not checked, navigate to it and press **A**
+3. Press **START** to save and continue booting
     - TWiLight Menu++ will appear
 
-TWiLight Menu++ is now your System Menu. Navigate to `roms` -> `dsiware` to access your DSiWare.
+TWiLight Menu++ is now your System Menu. Navigate to **roms -> dsiware** to access your DSiWare.
