@@ -63,7 +63,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 2. Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to the root of your SD card
 3. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
 4. Unplug your SD card, and insert it in your DSi
-5. Power on your DSi, and repeat steps 1 through 13 in
+5. Power on your DSi, and repeat steps 1 through 11 in
 [Creating a NAND backup](#creating-a-nand-backup)
   - HBMenu will appear
 6. Navigate to `unlaunch.nds`, and press (A)
