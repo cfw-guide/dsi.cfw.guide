@@ -41,6 +41,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - Note that Sudokuhax *cannot* adequately make a backup with the required footer!
 2. Select `View Flipnote` -> `SD Card`
 3. Click on the lenny corresponding to your region (USA, JPN or EUR)
+  - If you're on an AUS console, then select EUR
 4. Select "Edit"
 5. Click on the Flipnote frog icon in the bottom left
 6. Click on the film roll icon
