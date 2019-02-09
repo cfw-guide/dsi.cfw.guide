@@ -24,12 +24,8 @@ In this configuration, TWiLight Menu++ is effectively acting as an open source a
 
 ## Downloads
 - The latest release of [TWiLight Menu++](https://github.com/RocketRobz/TWiLightMenu/releases){:target="_blank"}
-- [launcharggen](/assets/files/launcharggen.zip)
-  - Windows users may use the .EXE
-  - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})
 
 ## Preparation
-If you already have TWiLight Menu++ installed, skip to step 6.
 {: .notice--info}
 1. Open the TWiLight Menu++ `.7z` file
 2. Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
