@@ -12,15 +12,11 @@ redirect_from:
 You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
-This will replace your DSi's System Menu with TWiLight Menu++, and run it whenever you power on your DSi console.
-
-Replacing the System Menu with TWiLight Menu++ will allow for a few advantages over the built-in System Menu:
-* TWiLight Menu++ can allow for more DSiWare than the System Menu
-* TWiLight Menu++, in many cases, can allow for SD cards greater than 2 GB to work
+TWiLightMenu++ is an open-source alternative to the Nintendo DSi's System Menu. Using HiyaCFW, you can make it run whenever you power on your console. There are also other advantages, such as:
+* Allowing more DSiWare titles than the System Menu.
+* Allowing for SD cards greater than 2 GB to work.
     - You can copy your entire SDNAND to a larger SD card once this process is done, and it will likely work out of the box
-* TWiLight Menu++ provides a unified interface for launching NES, GB(C), DS, and DSiWare titles
-
-In this configuration, TWiLight Menu++ is effectively acting as an open source alternative to the System Menu.
+* Using a unified interface for launching NES, GB(C), SNES, GameGear, Genesis, DS, and DSiWare titles
 
 ## Downloads
 - The latest release of [TWiLight Menu++](https://github.com/RocketRobz/TWiLightMenu/releases){:target="_blank"}
