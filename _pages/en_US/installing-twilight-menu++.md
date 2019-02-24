@@ -7,6 +7,7 @@ redirect_from:
   - more/replacing-system-menu
   - replacing-system-menu-with-srloader
   - replacing-system-menu-with-dsimenu++
+  - replacing-system-menu-with-twilight-menu++
   - replacing-system-menu-with-twlmenu++
 ---
 
