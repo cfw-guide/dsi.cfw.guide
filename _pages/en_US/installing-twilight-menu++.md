@@ -4,9 +4,15 @@ redirect_from:
   - /guide/finalizing-setup
   - /finalizing-setup
   - /installing-twlmenu++
+  - more/replacing-system-menu
+  - replacing-system-menu-with-srloader
+  - replacing-system-menu-with-dsimenu++
+  - replacing-system-menu-with-twlmenu++
 ---
 
-TWiLight Menu++ is a homebrew application that can launch homebrew and retail ROMs, and has several emulators built in.
+{% include toc title="Table of Contents" %}
+
+TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It can be used as a frontend for either nds-bootstrap or supported flashcards. It also provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
 
 ## Downloads
 
@@ -14,10 +20,11 @@ TWiLight Menu++ is a homebrew application that can launch homebrew and retail RO
 
 ## Instructions
 
-1. Insert your SD card into your PC
-2. Copy *the contents of* `CFW - SDNAND root` from the TWiLight Menu++ `.7z` file to the root of your SD card
-3. Copy the `_nds` and `roms` folders from the TWiLight Menu++ `.7z` file to the root of your SD card
-4. Unplug your SD card, and insert it in your DSi
+1. Open the TWiLight Menu++ `.7z` file
+2. Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
+3. Copy the `_nds` and `roms` folders to the root of your SD card
+4. Copy the `_nds` folder and `boot.nds` file from `DSi&3DS - SD card users` folder to the root of your SD card
+    - On Windows, merge files when asked to
 5. Power on your system
     - TWiLight Menu++ should now be a DSiWare on your system
 
@@ -36,5 +43,16 @@ TWiLight Menu++ should now be on your System Menu, as any other DSiWare would be
   - Press (A) to launch ROMs
   - Touch the GBA icon, which starts GBARunner2, to run GBA ROMs
   - Touch the HOME icon to return to the DSi Menu
-4. (optional) TWiLight Menu++ can completely replace your System Menu. This can help work around several bugs with SD card sizes and the DSiWare block limit.
-  - [Replacing System Menu](replacing-system-menu-with-twlmenu++)
+4. (optional) If you have Unlaunch and HiyaCFW, TWiLight Menu++ can completely replace your System Menu. This can help work around several bugs with SD card sizes and the DSiWare block limit.
+
+## (optional) Replacing the System Menu
+
+You must have [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
+{: .notice--info}
+
+1. Power on your DSi while holding **SELECT**
+2. If `Autoboot title` is not checked, navigate to it and press **A**
+3. Press **START** to save and continue booting
+    - TWiLight Menu++ will appear
+
+TWiLight Menu++ is now your System Menu. If you want to run DSiWare, wait for steps on how to run them to appear.
