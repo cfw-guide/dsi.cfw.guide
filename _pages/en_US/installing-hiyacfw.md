@@ -33,7 +33,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 - [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"}
   - Windows users may use the .EXE
   - Users of other operating systems may use the .py (requires [Python 2](https://www.python.org/downloads/){:target="_blank"})
-  - Windows users will additionally need the latest release of [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html){:target="_blank"}
+  - Windows users will additionally need `V2.0.1001` of [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html){:target="_blank"} (Download links are slightly below main download button)
 
 ## Instructions
 
