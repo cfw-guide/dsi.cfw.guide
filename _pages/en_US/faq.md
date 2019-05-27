@@ -9,10 +9,10 @@ redirect_from:
 
 **A:** This error is caused by twlnf. It has a critical bug that doesn't properly update the entire NAND after modifying it. This causes certain homebrew (like the Unlaunch installer) to throw an error. Fortunately, this is fixable. Unfortunately, the *method* to fix it isn't set in stone, and largely varies from system to system. Generally, deleting any DSiWare installed via twlnf in the past does the job, but make sure you have another homebrew entrypoint available if you delete an entrypoint. It has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
-<a name="faq_noflipnote" />**Q:** Can I install HiyaCFW without Flipnote Studio?
+<a name="faq_noflipnote" />**Q:** Can I hardmod?
 {: .notice--info}
 
-**A:** No, you will need a hardmod to install HiyaCFW. Follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
+**A:** Yes. Follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
 
 <a name="faq_2gbsd" />**Q:** Can I use an SD card higher than 2GB with HiyaCFW yet?
 {: .notice--info}
