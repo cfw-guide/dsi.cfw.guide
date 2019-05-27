@@ -12,7 +12,7 @@ Before starting, Windows users should enable the option to show file extensions 
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--primary}
 
-Before proceeding, if your system region is USA, make sure your console language is set to English.
+Before proceeding, if you don't have an existing DSiWare exploit installed, make sure your system firmware is up to date (latest is v1.4.5).
 {: .notice--info}
 
 Ensure your SD card is formatted to FAT32 before proceeding.
