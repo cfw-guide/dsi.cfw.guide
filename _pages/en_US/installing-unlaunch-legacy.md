@@ -20,44 +20,51 @@ Ensure your SD card is formatted to FAT32 before proceeding.
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 ## Downloads
-- The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
+- The latest release of [Unlaunch](https://problemkaputt.de/unlau18.zip){:target="_blank"}
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
-  - We are only using this archive for fwTool- a copy of Flipnote Studio is **not** required
-- The latest release of [Memory Pit](https://cdn.discordapp.com/attachments/332659801458868234/582497493913305114/pit.bin)
 
 ## Preparing your SD card
 
 1. Insert your system's SD card into your PC
-2. Copy `fwTool.nds` from the `nds` folder in the Flipnote Lenny `.zip` file to the root of your SD card
-3. Copy `BOOT.NDS` from the `hbmenu` folder in the HBMenu `.tar.bz2` file to the root of your SD card
-4. Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A11` folder on your SD card
-  - Create this folder if it doesn't exist
+2. Copy the `private` folder from the Flipnote Lenny `.zip` file to the root of your SD card
+3. Copy `fwTool.nds` from the `nds` folder in the Flipnote Lenny `.zip` file to the root of your SD card
+4. Copy `BOOT.NDS` from the `hbmenu` folder in the HBMenu `.tar.bz2` file to the root of your SD card
 5. Eject your SD card, and insert it back into your DSi
 
 <a name="creating-a-nand-backup"/>
 ## Creating a NAND backup
 
-1. Open the DSi Camera application
-  - If you already have another DSiWare exploit installed, open that and skip to step 4
+1. Open the Flipnote Studio application
+  - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
+  - If you already have another DSiWare exploit installed, open that and skip to Step 12
   - Note that Sudokuhax *cannot* adequately make a backup with the required footer!
-2. Select `SD Card` at the top right
-3. Tap `Album`
+2. Select `View Flipnote` -> `SD Card`
+3. Click on the lenny corresponding to your region (USA, JPN or EUR)
+  - If you're on an AUS console, then select EUR
+4. Select "Edit"
+5. Click on the Flipnote frog icon in the bottom left
+6. Click on the film roll icon
+7. Select `Copy` -> `Back` -> `Exit`
+8. Click the second note with a larger lenny face, and select "Edit"
+9. Click on the Flipnote frog icon in the bottom left
+10. Click on the film roll icon
+11. Select `Paste`
   - This will launch HBMenu
-4. Navigate to `fwTool.nds`, and press (A)
+12. Navigate to `fwTool.nds`, and press (A)
   - fwTool will appear
-5. Navigate to `Backup DSi NAND`, and press (A)
+13. Navigate to `Backup DSi NAND`, and press (A)
   - This will take a few minutes
   - Store this NAND backup in a safe location, it is a critical backup and we will need it later to install HiyaCFW
   - When `saved nand.bin.sha1.` appears, the backup is finished
-6. Navigate to `Exit`, press (A), and power off your system
+14. Navigate to `Exit`, press (A), and power off your system
 
 ## Installation
 1. Insert your system's SD card into your computer
 2. Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to the root of your SD card
 3. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
 4. Unplug your SD card, and insert it in your DSi
-5. Power on your DSi, and repeat steps 1 through 3 in
+5. Power on your DSi, and repeat steps 1 through 11 in
 [Creating a NAND backup](#creating-a-nand-backup)
   - HBMenu will appear
 6. Navigate to `unlaunch.nds`, and press (A)

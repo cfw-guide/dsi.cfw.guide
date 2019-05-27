@@ -29,6 +29,7 @@ sitemap: false
 + [Installing HiyaCFW](installing-hiyacfw)
 + [Installing TWiLight Menu++](installing-twilight-menu++)
 + [Installing Unlaunch (TempNAND)](installing-unlaunch-(tempnand))
++ [Installing Unlaunch (Flipnote)](installing-unlaunch-legacy)
 + [Installing Unlaunch](installing-unlaunch)
 + [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twilight-menu++)
 {% endcapture %}

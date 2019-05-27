@@ -29,7 +29,7 @@ Alternatively, click [here](https://crowdin.com/project/dsi-guide) to help to ke
 
 Homebrew applications are custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
 
-Homebrew can be run for free on your DSi as long as you have a copy of Flipnote Studio or a previous DSiWare exploit installed.
+Homebrew can be run for free on any DSi system, regardless of firmware version or region.
 
 ## What does this guide install?
 
