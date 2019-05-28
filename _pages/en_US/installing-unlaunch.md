@@ -24,7 +24,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
   - We are only using this archive for fwTool- a copy of Flipnote Studio is **not** required
-- The latest release of [Memory Pit](https://cdn.discordapp.com/attachments/332659801458868234/582497493913305114/pit.bin)
+- The latest release of [Memory Pit](https://cdn.discordapp.com/attachments/332659801458868234/582497493913305114/pit.bin){:target="_blank"}
 
 ## Preparing your SD card
 

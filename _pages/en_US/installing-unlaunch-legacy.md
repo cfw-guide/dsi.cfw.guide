@@ -1,7 +1,7 @@
 ---
-title: Installing Unlaunch
+title: Installing Unlaunch (Flipnote)
 redirect_from:
-  - /guide/installing-unlaunch
+  - /guide/installing-unlaunch-legacy
 ---
 
 {% include toc title="Table of Contents" %}
@@ -20,7 +20,7 @@ Ensure your SD card is formatted to FAT32 before proceeding.
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 ## Downloads
-- The latest release of [Unlaunch](https://problemkaputt.de/unlau18.zip){:target="_blank"}
+- The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
 
