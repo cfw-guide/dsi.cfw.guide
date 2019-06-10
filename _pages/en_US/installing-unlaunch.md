@@ -12,9 +12,6 @@ Before starting, Windows users should enable the option to show file extensions 
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--primary}
 
-Before proceeding, if you don't have an existing DSiWare exploit installed, make sure your system firmware is up to date (latest is v1.4.5).
-{: .notice--info}
-
 Ensure your SD card is formatted to FAT32 before proceeding.
 {: .notice--info}
 
@@ -24,7 +21,9 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
   - We are only using this archive for fwTool- a copy of Flipnote Studio is **not** required
-- The latest release of [Memory Pit](https://cdn.discordapp.com/attachments/332659801458868234/582497493913305114/pit.bin){:target="_blank"}
+- The latest release of Memory Pit{:target="_blank"}
+  - [for firmware 1.0-1.3](/guide/assets/files/memory_pit/256/pit.bin)
+  - [for firmware 1.4 - 1.4.5](/guide/assets/files/memory_pit/768_1024/pit.bin)
 
 ## Preparing your SD card
 
