@@ -11,7 +11,7 @@ header:
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
 {: .notice--primary}
 
-This guide is not compatible with development DSi consoles or Chinese iQue DSi consoles.
+This guide is not compatible with development DSi consoles.
 {: .notice--danger}
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
