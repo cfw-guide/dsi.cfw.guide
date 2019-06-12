@@ -46,14 +46,14 @@ Custom firmware enables you to use more advanced hacks that userland homebrew ca
 
 ## Which method should I use?
 
-There are currently two major methods of running homebrew, and therefore running custom firmware:
-- Memory Pit, a DSi Camera exploit for firmware version 1.4.5
-- Flipnote Lenny, a firmware-agnostic Flipnote exploit
+There are currently two methods of running homebrew, and therefore running custom firmware:
+- Memory Pit, a DSi Camera exploit for all retail systems, firmware versions, and regions
+- Flipnote Lenny, a firmware-agnostic Flipnote exploit that can't be used unless you already have it due to DSi Shop closure
 
-Memory Pit is much easier to set up, and as a result it is recommended to update to 1.4.5 if you're not already on that version, and use that method.
+Memory Pit is the easiest and most widely available exploit to set up, and is the default method of this guide
 Continue to [Installing Unlaunch](installing-unlaunch)
 {: .notice--info}
-However, if for whatever reason you don't want to update, or cannot update, and have a functional copy of Flipnote Studio, you may proceed with Flipnote Lenny.
+However, if for whatever reason you have a functional copy of Flipnote Studio and prefer use it instead of DSi Camera, you may proceed with Flipnote Lenny.
 Continue to [Installing Unlaunch (Flipnote)](installing-unlaunch-legacy)
 {: .notice--info}
 
