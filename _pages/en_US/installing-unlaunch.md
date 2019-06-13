@@ -32,7 +32,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 2. Copy `fwTool.nds` from the `nds` folder in the Flipnote Lenny `.zip` file to the root of your SD card
 3. Copy `BOOT.NDS` from the `hbmenu` folder in the HBMenu `.tar.bz2` file to the root of your SD card
 4. Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A` folder on your SD card
-  - If it doesn't exist, make a photo on the console and copy it to the SD card
+  - If it doesn't exist, take a photo on the console and copy it to the SD card
 5. Eject your SD card, and insert it back into your DSi
 
 <a name="creating-a-nand-backup"/>
