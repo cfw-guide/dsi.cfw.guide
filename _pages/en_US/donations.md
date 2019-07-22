@@ -11,8 +11,3 @@ In any case, here are the PayPal links for the guide maintainers you can use if 
 paypal.me/jerbear64
 {: .text-center}
 {: .notice--info}
-
-[![Paypal]({{ "/assets/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/emiyl){: .align-center}{:target="_blank"}
-paypal.me/emiyl
-{: .text-center}
-{: .notice--info}
