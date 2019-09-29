@@ -23,7 +23,7 @@ This method will install your 3DS DSiWare dumps to your DSi console's home menu.
 6. Drag and drop the `.app` file onto the maketmd program
     - You will see a new file named `title.tmd` be created
 7. Copy the DSiWare folder to the `/title/00030004` folder on your DSi's SD card
-    - If your System Menu has been replaced with TWiLight Menu++, you will need to rerun the launcharg generator and place the new launcharg files in `roms/dsiware` once more
+    - If your System Menu has been replaced with TWiLight Menu++, you can place the .app file anywhere on the SD card, and just launch it. In this case, you're done!
 8. Power on your DSi, and "unwrap" the new DSiWare
     - If you boot to an "error has occured" screen, you have exceeded the amount of allowed DSiWare blocks on your system
     - TWiLight Menu++ can get around this limitation, see [Replacing the System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) for more information
