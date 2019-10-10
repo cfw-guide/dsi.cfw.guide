@@ -17,7 +17,7 @@ TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi'
 
 ## Downloads
 
-- The latest release of [TWiLight Menu++](https://github.com/RocketRobz/TWiLightMenu/releases){:target="_blank"}
+- The latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases){:target="_blank"}
 
 ## Instructions
 
