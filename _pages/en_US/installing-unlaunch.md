@@ -52,6 +52,9 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - When `saved nand.bin.sha1.` appears, the backup is finished
 6. Navigate to `Exit`, press (A), and power off your system
 
+SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because fwTool adds additional data to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
+{: .notice--info}
+
 ## Installation
 1. Insert your system's SD card into your computer
 2. Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to the root of your SD card
