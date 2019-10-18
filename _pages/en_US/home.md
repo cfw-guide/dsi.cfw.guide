@@ -19,7 +19,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 {% capture notice-1 %}
 This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
 Alternatively, click [here](https://crowdin.com/project/dsi-guide) to help to keep these translations up to date.
 {% endcapture %}
 
@@ -33,9 +33,11 @@ Homebrew can be run for free on any DSi system, regardless of firmware version o
 
 ## What does this guide install?
 
-This guide will install HiyaCFW, a custom firmware for the DSi. CFW can be set up on any console on any version.
+This guide will install HiyaCFW, a custom firmware for the DSi, and/or TWiLight Menu++, a homebrew home menu replacement. TWiLight Menu++ and HiyaCFW can both be set up on any console on any version.
 
 Custom firmware enables you to use more advanced hacks that userland homebrew can’t easily do. For instance, signature patches let you install unsigned titles that appear right on your System Menu.
+
+TWiLight Menu++ is a homebrew that functions as a complete home menu replacement with many additional features such as rom loading and custom themes.
 
 ## What should I know before starting?
 
@@ -50,10 +52,10 @@ There are currently two methods of running homebrew, and therefore running custo
 - Memory Pit, a DSi Camera exploit for all retail systems, firmware versions, and regions
 - Flipnote Lenny, a firmware-agnostic Flipnote exploit that can't be used unless you already have it due to DSi Shop closure
 
-Memory Pit is the easiest and most widely available exploit to set up, and is the default method of this guide.  
+Memory Pit is the easiest and most widely available exploit to set up, and is the default method of this guide.
 Continue to [Installing Unlaunch](installing-unlaunch)
 {: .notice--info}
-However, if for whatever reason you have a functional copy of Flipnote Studio and prefer use it instead of DSi Camera, you may proceed with Flipnote Lenny.  
+However, if for whatever reason you have a functional copy of Flipnote Studio and prefer use it instead of DSi Camera, you may proceed with Flipnote Lenny.
 Continue to [Installing Unlaunch (Flipnote)](installing-unlaunch-legacy)
 {: .notice--info}
 

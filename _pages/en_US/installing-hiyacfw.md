@@ -55,13 +55,21 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
   - Unlaunch's GUI should appear
 14. Navigate to `OPTIONS`, and press (A)
 15. Press (A) to configure a default software to boot in to when no button is held
-16. Navigate to `HIYACFW`, and press (A)
+16. Navigate to `hiyaCFW`, and press (A)
 17. Navigate to `SAVE & EXIT`, and press (A)
 18. Power off your console, and turn it back on
   - HiyaCFW's settings screen should appear
 19. Change the settings to your liking, and press (START) to continue
-  - If you boot to "An error has occured" screen, it's most likely because your SD card is larger than 2GB; follow [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twilight-menu++) to work around this issue
+  - If you boot to "An error has occured" screen, it's most likely because your SD card has more than 2GB of free space
+  - To fix this you can create dummy files to fill up your SD card, use the following command for your OS to create 1GB files until your SD has less than 2GB free, changing `dummy0` to another name for each one:
+    - Windows:<br>
+    `fsutil file createnew dummy0 1073741824`
+    - Linux/macOS:<br>
+    `dd if=/dev/zero of=dummy0 count=1024 bs=1048576`
 
 Your system will now boot from the SD card instead of the internal NAND.
 
 If you want to boot in to the internal storage, you may configure `LAUNCHER` to a hotkey in a similar manner to the one you just did for HiyaCFW.
+
+If you'd like to install TWiLight Menu ++, continue to [Installing TWiLight Menu++](installing-twilight-menu++)
+{: .notice--info}
