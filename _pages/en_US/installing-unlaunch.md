@@ -15,7 +15,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 Ensure your SD card is formatted to FAT32 before proceeding.
 {: .notice--info}
 
-Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
+Unlaunch is a DSi bootcode exploit which will allow you to run HiyaCFW, a DSi Custom Firmware, and homebrew with full access to your console.
 ## Downloads
 - The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
@@ -35,7 +35,6 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - If it doesn't exist, take a photo on the console and copy it to the SD card
 5. Eject your SD card, and insert it back into your DSi
 
-<a name="creating-a-nand-backup"/>
 ## Creating a NAND backup
 
 1. Open the DSi Camera application
@@ -72,7 +71,20 @@ SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. T
 9. Power on your system, to verify Unlaunch installed properly
   - You should now see Unlaunch's management screen
 
-With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, adding a very resilient layer of brick protection.
+With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed, which Unlaunch has protections to prevent from happening.
 
-Continue to [Installing HiyaCFW](installing-hiyacfw)
+---
+
+You may now choose whether you would like to install HiyaCFW, or only TWiLight Menu++.
+
+TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It can be used as a frontend for either nds-bootstrap or supported flashcards. It also provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
+
+HiyaCFW is a custom firmware that will allow you to install custom titles to your home menu using your SD card as an SDNAND to prevent dangerous writing to the system's internal NAND storage.
+
+If you install HiyaCFW you can also install TWiLight Menu++ if you'd like, however HiyaCFW requires you to fill your SD so that less than 2GB are free and will boot slowly on larger cards. Installing HiyaCFW will also require a computer with Windows, macOS, or Linux.
+
+Continue to [Installing only TWiLight Menu++](installing-twilight-menu++)
+{: .notice--info}
+
+Continue to [Installing HiyaCFW (and optionally TWiLight Menu++)](installing-hiyacfw)
 {: .notice--info}
