@@ -42,24 +42,24 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 3. Navigate to the extracted folder
 4. Open HiyaCFW Helper as admin
   - This can be done on Windows by right-clicking -> `Run as administrator`
-6. Click the `...` button in the `NAND file with No$GBA footer` box
-7. Navigate to your NAND backup, and click `Open`
-8. If you wish to install TWiLight Menu++ as a DSi Menu replacement, check the `Install latest TWiLight Menu++ on latest firmware` box
-9. Press `Start`
-10. In the new pop-up window, navigate to your SD card, and press `OK`
+5. Click the `...` button in the `NAND file with No$GBA footer` box
+6. Navigate to your NAND backup, and click `Open`
+7. If you wish to install TWiLight Menu++ as a DSi Menu replacement, check the `Install latest TWiLight Menu++ on latest firmware` box
+8. Press `Start`
+9. In the new pop-up window, navigate to the root of your SD card, and press `OK`
   - The process may take several minutes
   - When the HiyaCFW Helper window says `Done!`, the process is complete
-11. Close HiyaCFW Helper
-12. Unplug your SD card, and insert it in your DSi
-13. Power on your console
+10. Close HiyaCFW Helper
+11. Unplug your SD card, and insert it in your DSi
+12. Power on your console
   - Unlaunch's GUI should appear
-14. Navigate to `OPTIONS`, and press (A)
-15. Press (A) to configure a default software to boot in to when no button is held
-16. Navigate to `hiyaCFW`, and press (A)
-17. Navigate to `SAVE & EXIT`, and press (A)
-18. Power off your console, and turn it back on
+13. Navigate to `OPTIONS`, and press (A)
+14. Press (A) to configure a default software to boot in to when no button is held
+15. Navigate to `hiyaCFW`, and press (A)
+16. Navigate to `SAVE & EXIT`, and press (A)
+17. Power off your console, and turn it back on
   - HiyaCFW's settings screen should appear
-19. Change the settings to your liking, and press (START) to continue
+18. Change the settings to your liking, and press (START) to continue
   - If you boot to "An error has occured" screen, it's most likely because your SD card has more than 2GB of free space
   - To fix this you can create dummy files to fill up your SD card, use the following command for your OS to create 1GB files until your SD has less than 2GB free, changing `dummy0` to another name for each one:
     - Windows:<br>
