@@ -24,7 +24,7 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
     <section class="page__content" itemprop="text">
-        
+
       {% assign split_path = page.path | split: "/" %}
       {% assign locale = split_path[1] %}
 
@@ -37,17 +37,13 @@ layout: default
         <div class ="notice">{{ link.title }}</div>
       {% endfor %}
 
-      <center>
-        {% include ad.html %}
-      </center>
-      
+      {% include ad.html %}
+
       {{ content }}
     </section>
   </article>
-  
-  <center>
+
 	{% include ad.html %}
 	{% include ad.html %}
-  </center>
 
 </div>
