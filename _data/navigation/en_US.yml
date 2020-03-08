@@ -7,26 +7,17 @@ main:
     title: FAQ
     url: faq
   -
-    title: Donations
-    url: donations
-  -
-    title: Credits
-    url: credits
-  -
     title: Dumping DSiWare
     url: dumping-dsiware
   -
     title: Installing DSiWare
     url: installing-dsiware
   -
-    title: Replacing System Menu with TWiLight Menu++
-    url: replacing-system-menu-with-twilight-menu++
-  -
-    title: Site Navigation
-    url: site-navigation
+    title: Installing TWiLight Menu++
+    url: installing-twilight-menu++
 bottom:
   -
-    title: If you need help, ask the <a href="https://discord.gg/XRXjzY5">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/C29hYvh">Nintendo Homebrew</a> Discord servers.
+    title: If you need help, ask the <a href="https://discord.gg/XRXjzY5">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/yD3spjv">TWL Mode Hacking</a> Discord servers.
 footer:
   -
     title: Source
@@ -34,6 +25,10 @@ footer:
     title: Site Navigation
   -
     title: Why Ads?
+  -
+    title: Credits
+  -
+    title: Donations
 sidebar_title:
   -
     title: Overall Progress
