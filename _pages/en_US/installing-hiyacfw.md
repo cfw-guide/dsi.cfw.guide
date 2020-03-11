@@ -61,7 +61,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
   - HiyaCFW's settings screen should appear
 18. Change the settings to your liking, and press (START) to continue
   - If you boot to "An error has occured" screen, it's most likely because your SD card has more than 2GB of free space
-  - To fix this you can create dummy files to fill up your SD card, use the following command for your OS to create 1GB files until your SD has less than 2GB free, changing `dummy0` to another name for each one:
+  - To fix this you can create dummy files to fill up your SD card, use the following command for your OS to create 1GB files until your SD has less than 2GB free[*](#an-error-has-occured-detailed-explanation), changing `dummy0` to another name for each one:
     - Windows:<br>
     `fsutil file createnew dummy0 1073741824`
     - Linux/macOS:<br>
@@ -73,3 +73,21 @@ If you want to boot in to the internal storage, you may configure `LAUNCHER` to 
 
 If you'd like to install TWiLight Menu ++, continue to [Installing TWiLight Menu++](installing-twilight-menu++)
 {: .notice--info}
+
+---
+
+## An error has occured... (detailed explanation)
+The simplest way to keep your SD working it to simply fill it so less than 2GB are free, but it actually works at every other range of two gigabytes, so 0GB-2GB free is fine, while 2GB-4GB is not.
+
+Enter the free space on your SD in the box below, press enter, and it will tell you if your SD has a working amount of free space.
+
+If your SD needs dummy files, run the command above for your OS until its within a range that works. (each time you run the commands above they will create a 1GB dummy file, so subtract 1 from your number below)
+<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" onchange="updateWillWork()">
+Your SD <span id="willWork">...</span>
+
+<script>
+function updateWillWork() {
+  let freeSpace = document.getElementById("sdSpace").value;
+  document.getElementById("willWork").innerHTML = freeSpace % 4 < 2 ? "will work!" : "needs dummy files...";
+}
+</script>
