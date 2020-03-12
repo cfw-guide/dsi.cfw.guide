@@ -13,7 +13,7 @@ main:
     title: Installing DSiWare
     url: installing-dsiware
   -
-    title: Installing TWiLight Menu++
+    title: TWiLight Menu++
     url: installing-twilight-menu++
 bottom:
   -
@@ -21,14 +21,16 @@ bottom:
 footer:
   -
     title: Source
+    url: https://github.com/emiyl/dsi.cfw.guide
   -
     title: Site Navigation
-  -
-    title: Why Ads?
+    url: site-navigation
   -
     title: Credits
+    url: credits
   -
     title: Donations
+    url: donations
 sidebar_title:
   -
     title: Overall Progress
