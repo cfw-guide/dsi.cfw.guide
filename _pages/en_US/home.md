@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: DSi Guide
-excerpt: "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
+excerpt: "A complete Nintendo DSi homebrew guide, from stock to hiyaCFW."
 header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
@@ -17,11 +17,8 @@ This guide is not compatible with development DSi consoles.
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--info}
 
-{% capture notice-1 %}
-This guide is available in other languages!
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
-Alternatively, click [here](https://crowdin.com/project/dsi-guide) to help to keep these translations up to date.
-{% endcapture %}
+Translators, please help us with translations. Join our [Crowdin Project](https://crowdin.com/project/dsi-guide) to translate this guide to other languages.
+{: .notice--info}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
@@ -33,29 +30,14 @@ Homebrew can be run for free on any DSi system, regardless of firmware version o
 
 ## What does this guide install?
 
-This guide will install HiyaCFW, a custom firmware for the DSi, and/or TWiLight Menu++, a homebrew home menu replacement. TWiLight Menu++ and HiyaCFW can both be set up on any console on any version.
+This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It removes RSA, whitelist and region checks, allowing you to run any DSi executable on your console. Additionally, you can install hiyaCFW and/or TWiLight Menu++:
 
-Custom firmware enables you to use more advanced hacks that userland homebrew can’t easily do. For instance, signature patches let you install unsigned titles that appear right on your System Menu.
-
-TWiLight Menu++ is a homebrew that functions as a complete home menu replacement with many additional features such as rom loading and custom themes.
+- hiyaCFW is a custom firmware for the DSi allowing you to redirect your NAND to the SD card and have a launch splash before boot.
+- TWiLight Menu++ is a homebrew made by RocketRobz that can act as a home menu replacement. It has many additional features, such as custom themes and file management. It's also an all in one menu for different many emulators, such as .nds file loading with nds-bootstrap.
 
 ## What should I know before starting?
 
 - Homebrew allows you to modify your system, which could easily result in a brick if done improperly
-- Keep your console plugged in at all times during this process to avoid sudden power loss
-- You will need an SD card to use this guide
-  - Your console should come with one
-
-## Which method should I use?
-
-There are currently two methods of running homebrew, and therefore running custom firmware:
-- Memory Pit, a DSi Camera exploit for all retail systems, firmware versions, and regions
-- Flipnote Lenny, a firmware-agnostic Flipnote exploit that can't be used unless you already have it due to DSi Shop closure
-
-Memory Pit is the easiest and most widely available exploit to set up, and is the default method of this guide.
-Continue to [Installing Unlaunch](installing-unlaunch)
-{: .notice--info}
-However, if for whatever reason you have a functional copy of Flipnote Studio and prefer use it instead of DSi Camera, you may proceed with Flipnote Lenny.
-Continue to [Installing Unlaunch (Flipnote)](installing-unlaunch-legacy)
-{: .notice--info}
-
+- Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
+- The recommended method is to use Memory Pit, a DSi Camera exploit for all retail systems, firmware versions and regions. However, if it doesn't work and you have a functioning copy of Flipnote Studios, you could try using [Flipnote Lenny](installing-unlaunch-legacy)
+- You will need an SD card to follow this guide
