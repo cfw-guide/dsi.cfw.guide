@@ -20,8 +20,6 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 Translators, please help us with translations. Join our [Crowdin Project](https://crowdin.com/project/dsi-guide) to translate this guide to other languages.
 {: .notice--info}
 
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
 ## What is homebrew?
 
 Homebrew applications are custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
@@ -41,3 +39,6 @@ This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It rem
 - Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
 - The recommended method is to use Memory Pit, a DSi Camera exploit for all retail systems, firmware versions and regions. However, if it doesn't work and you have a functioning copy of Flipnote Studios, you could try using [Flipnote Lenny](installing-unlaunch-legacy)
 - You will need an SD card to follow this guide
+
+Continue to the [Memory Pit Guide](installing-unlaunch).
+{: .notice--info}
