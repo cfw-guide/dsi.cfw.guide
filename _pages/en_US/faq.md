@@ -14,10 +14,10 @@ redirect_from:
 
 **A:** Yes. Follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
 
-<a name="faq_2gbsd" />**Q:** Can I use an SD card higher than 2GB with HiyaCFW yet?
+<a name="faq_2gbsd" />**Q:** Why do I boot into "An Error Has Occurred" when I use hiyaCFW with the default DSi Menu, and how can I fix it?
 {: .notice--info}
 
-**A:** Yes, using TWiLight Menu++. See the [Replacing System Menu with TWiLight Menu++](replacing-system-menu-with-twlmenu++) page for more information. Low-level "full" formatting your SD card with a tool like GUIFormat can help as well, but this will not get you around the DSi Menu's block limit, whereas TWiLight Menu++ does.
+**A:** The reason that the DSi Menu throws an error is due to a signed integer overflow. It detects the amount of free space available, but when it goes above a certain value, it goes back to the lowest. Unfortunately, since it's a signed integer, it goes into a negative number. This is fine on an actual NAND, since the NAND size will never go above 128 MB. However, with NAND redirection to the SD card, it does go over the max limit. In order to work around this, you'd have to either use a replacement menu or adjust the free size to accomodate. You could do the latter by either creating dummy files or partitioning your SD card. The recommended way is to simply replace your system menu with [TWiLight Menu++](installing-twilight-menu++) though, as it's a full replacement of the System Menu with much more functionality (Custom Themes and an all-in-one GUI for emulators).
 
 <a name="faq_notwlmenupp" />**Q:** Why don't I see TWiLight Menu++?
 {: .notice--info}
