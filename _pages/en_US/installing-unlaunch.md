@@ -7,6 +7,10 @@ redirect_from:
 {% include toc title="Table of Contents" %}
 
 ## Downloads
+
+The source code is not needed. You only need the actual files.
+{: .notice--info}
+
 - The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
