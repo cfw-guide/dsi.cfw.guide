@@ -33,7 +33,7 @@ The source code is not needed. You only need the actual files.
 
 ## Launching the exploit
 
-If this method doesn't work, you could use [Flipnote Lenny](installing-unlaunch-legacy) instead, provided you have Flipnote Stuido.
+If this method doesn't work, you could use [Flipnote Lenny](installing-unlaunch-legacy) instead, provided you have Flipnote Studio.
 
 1. Open the DSi Camera application
   - If you already have another DSiWare exploit installed, open that and skip to step 4
