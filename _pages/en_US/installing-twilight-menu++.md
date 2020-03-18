@@ -18,44 +18,36 @@ TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi'
 ## Downloads
 
 - The latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases){:target="_blank"}
+ - It doesn't matter if you use the .zip or the .7z. One is just a more common archive format while the other is one with a lesser file size
 
 ## Instructions
 
-1. Open the TWiLight Menu++ `.7z` file
-2. Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
-3. Copy the `_nds` and `roms` folders to the root of your SD card
-4. Copy the `_nds` folder and `boot.nds` file from `DSi&3DS - SD card users` folder to the root of your SD card
-    - On Windows, merge files when asked to
-5. If using HiyaCFW, Power on your system. Otherwise continue on to [Replacing the System Menu](replacing-the-system-menu-if-not-using-hiyacfw)
-    - TWiLight Menu++ should now be a DSiWare on your system
+- Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
+- Copy the `_nds` folder to the root of your SD card
+- Copy the `boot.nds` file and the `_nds` folder from the `DSi&3DS - SD card users` folder to the root of your SD card
+ - Replace files and merge folders, if asked.
+  - Replacing HBMENU's `boot.nds` is perfectly fine, since TWiLight's launching code is based on HBMENU's launching code.
+
+Yes, there are two `_nds` folders. While the first one contained all the TWiLight Menu++ files, those are universal to flashcarts as well. The second `_nds` folder contains DSi/3DS specific files, such as the homebrew version of nds-boostrap.
+{: .notice--info}
 
 ## Replacing the System Menu (If not using HiyaCFW)
 
 You must have [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
 {: .notice--info}
 
-1. Power on your DSi while holding **A** and **B**
-14. Navigate to `OPTIONS`, and press (A)
-15. Press (A) to configure a default software to boot in to when no button is held
-16. Navigate to the first `TWiLight Menu++`, and press (A)
+1. Power on your DSi while holding **(A)** & **(B)**
+2. Navigate to `OPTIONS`, and press (A)
+3. Press (A) to configure a default software to boot in to when no button is held
+4. Navigate to the first `TWiLight Menu++`, and press (A)
   - It should say `sdmc:/boot.nds` on the bottom screen
-17. Navigate to `SAVE & EXIT`, and press (A)
+5. Navigate to `SAVE & EXIT`, and press (A)
 
-TWiLight Menu++ is now your System Menu. If you want to run DSiWare, wait for steps on how to run them to appear.
+TWiLight Menu++ is now automatically launched when you launch your console. If you want to run DSiWare, wait for steps on how to run them to appear.
 
 ## Usage
 
-1. Copy ROMs to their respective folders
-  - Place Gameboy roms in `/roms/gb`
-  - Place NDS roms in `/roms/nds`
-  - Place NES roms in `/roms/nes`
-  - For GBA, make a folder in the root of your SD named `gba` and place roms there
-  - GBA requires a copy of the GBA BIOS named `bios.bin` on the root of your SD card, in `sd:/gba` or in `sd:/_gba`
-  - Note: Using these folders in not required, it is simply a recommended way to organize your games
-2. Power on your DSi
-3. If using HiyaCFW, Launch TWiLight Menu++ from the Home Menu
-4. You will now see a list of files and folders in the root of your SD
-  - Press (A) to launch ROMs and enter folders
-  - Press Select, then choose `Launch GBARunner2` to play GBA games
-  - Press Select, then choose `DSi Menu` to go to the DSi Menu
-  - You will need to configure your launcher version in TWiLight Menu++ settings if not using HiyaCFW
+- TWiLight Menu++ is an SD card navigator. You can launch the available applications anywhere on the SD cards.
+- If files don't appear, they are most likely hidden using the FAT attributes of the filesystem. You can check via Windows or MacOS
+ - You can view hidden files on TWiLight Menu++ by enabling the option in the TWiLight Menu++ Settings Application
+- To launch GBA applications, you'll need a `bios.bin` file. This can be located either on the root of your SD card, a `gba` folder or a `_gba` folder.
