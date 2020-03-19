@@ -18,15 +18,14 @@ TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi'
 ## Downloads
 
 - The latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases){:target="_blank"}
- - It doesn't matter if you use the .zip or the .7z. One is just a more common archive format while the other is one with a lesser file size
 
 ## Instructions
 
 - Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
 - Copy the `_nds` folder to the root of your SD card
 - Copy the `boot.nds` file and the `_nds` folder from the `DSi&3DS - SD card users` folder to the root of your SD card
- - Replace files and merge folders, if asked.
-  - Replacing HBMENU's `boot.nds` is perfectly fine, since TWiLight's launching code is based on HBMENU's launching code.
+   - Replace files and merge folders, if asked.
+         - Replacing HBMENU's `boot.nds` is perfectly fine, since TWiLight's launching code is based on HBMENU's launching code.
 
 Yes, there are two `_nds` folders. While the first one contained all the TWiLight Menu++ files, those are universal to flashcarts as well. The second `_nds` folder contains DSi/3DS specific files, such as the homebrew version of nds-boostrap.
 {: .notice--info}
@@ -49,5 +48,5 @@ TWiLight Menu++ is now automatically launched when you launch your console. If y
 
 - TWiLight Menu++ is an SD card navigator. You can launch the available applications anywhere on the SD cards.
 - If files don't appear, they are most likely hidden using the FAT attributes of the filesystem. You can check via Windows or MacOS
- - You can view hidden files on TWiLight Menu++ by enabling the option in the TWiLight Menu++ Settings Application
+   - You can view hidden files on TWiLight Menu++ by enabling the option in the TWiLight Menu++ Settings Application
 - To launch GBA applications, you'll need a `bios.bin` file. This can be located either on the root of your SD card, a `gba` folder or a `_gba` folder.
