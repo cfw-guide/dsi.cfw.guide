@@ -2,37 +2,19 @@
 title: "Credits"
 ---
 
-If I forgot you here, contact me and I'll add your name.
+This is the credits for those who have helped out with the guide website, homebrew, and other things.
 
 {% capture notice-1 %}
-- jerbear64
-- pokecraft98
-- emiyl
-- RocketRobz
-- Jhynjhiruu
-- GhostLatte
-- HamBone41801
-- CatmanFan
-- LukeHasAWii
-- ThisIsDaAccount
-- pandavova
-- MyDePain
-- Hectortillo
-- TipsPROmayB
-- Clyde_271
-- BlastedGuy9905
-- Flashed
-- CloudMcFox
-- mariogamer
-- Fra
-- takusan
-- smileyhead
-- Plailect
-- WinterMute
-- shutterbug2000
-- zoogie
-- Evie11
-- NightScript
+- [Martin Korth aka nocash](https://www.patreon.com/martin_korth): Unlaunch Developer
+- jerbear64 & emiyl: Original Guide Maintainers, domain/url holders. 
+- RocketRobz: Developer of TWiLight Menu++ and hiyaCFW.
+- Gericom: Developed GBARunner2, a GBA hypervisor used in TWiLight Menu++.
+- Plailect: Original 3DS Guide website, which this took inspiration from
+- WinterMute: Maintainer of the DS Homebrew Tools
+- shutterbug2000: Discoverer of Memory Pit
+- zoogie: Developer of fwTool
+- Evie11: Made the Javascript SD Free Space checker
+- NightScript: Rewrote the guide website
 {% endcapture %}
 
 <div class="notice">{{ notice-1 | markdownify }}</div>
