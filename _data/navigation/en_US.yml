@@ -15,6 +15,9 @@ main:
   -
     title: TWiLight Menu++
     url: installing-twilight-menu++
+  -
+    title: hiyaCFW
+    url: installing-hiyaCFW
 bottom:
   -
     title: If you need help, ask the <a href="https://discord.gg/XRXjzY5">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/yD3spjv">TWL Mode Hacking</a> Discord servers.
@@ -26,27 +29,5 @@ footer:
     title: Site Navigation
     url: site-navigation
   -
-    title: Credits
+    title: Credits & Donations
     url: credits
-  -
-    title: Donations
-    url: donations
-sidebar_title:
-  -
-    title: Overall Progress
-sidebar_pages:
-  -
-    title: Home
-    url: /
-  -
-    title: Installing Unlaunch
-    url: installing-unlaunch
-  -
-    title: Installing Unlaunch (TempNAND)
-    url: installing-unlaunch-(tempnand)
-  -
-    title: Installing HiyaCFW
-    url: installing-hiyacfw
-  -
-    title: Installing TWiLight Menu++
-    url: installing-twlmenu++
