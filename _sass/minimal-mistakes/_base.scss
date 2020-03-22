@@ -172,6 +172,7 @@ td > code {
   font-size: $type-size-6;
   background: $code-background-color;
   border-radius: $border-radius;
+  white-space: nowrap;
 
   &:before,
   &:after {

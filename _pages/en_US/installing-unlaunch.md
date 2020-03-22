@@ -39,22 +39,22 @@ If this method doesn't work, you could use another DSi Exploit (such as [Flipnot
 
 ## Creating a NAND Backup
 
-1. Launch dumpTool.nds
+1. Launch `dumpTool.nds`
 2. Press (A) to begin the NAND dump
   - This will take several minutes (around 7)
   - When it says `Done.` the backup is finished
 3. Press Start to exit
 
-SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because fwTool adds additional data to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
+SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
 {: .notice--info}
 
 Store this NAND backup in a safe location; it's a failsafe if you mess up. You would also need it if you'd like to install hiyaCFW.
 
 ## Installation
 1. Launch `unlaunch.nds`
-2. Navigate to `INSTALL NOW`
+2. Navigate to `Install now`
   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/faq)
-3. When completed, Reboot (power down and power back on) your system in order to verify Unlaunch installed properly.
+3. When completed, reboot (power down and power back on) your system in order to verify Unlaunch installed properly.
   - You should now see Unlaunch's management screen
 
 If you see Unlaunch's management screen, you have successfully installed Unalunch. With Unlaunch installed, your system now has primitive brick protection.

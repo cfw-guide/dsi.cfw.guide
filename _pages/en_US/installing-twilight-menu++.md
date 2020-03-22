@@ -13,7 +13,10 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It can be used as a frontend for either nds-bootstrap or supported flashcards. It also provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
+TWiLight Menu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It can be used as a frontend for either nds-bootstrap or supported flashcards. It also provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
+
+This will be overwriting HBMENU, but TWiLight Menu++ has the same DSi Homebrew launching code as HBMENU.
+{: .notice--info}
 
 ## Downloads
 
@@ -21,16 +24,15 @@ TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi'
 
 ## Instructions
 
-- Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
-- Copy the `_nds` folder to the root of your SD card
-- Copy the `boot.nds` file and the `_nds` folder from the `DSi&3DS - SD card users` folder to the root of your SD card
-   - Replace files and merge folders, if asked.
-         - Replacing HBMENU's `boot.nds` is perfectly fine, since TWiLight's launching code is based on HBMENU's launching code.
+ - Copy *the contents of* the `SDNAND root` folder in the `DSi - CFW users` folder to the root of your SD card
+ - Copy the `_nds` folder to the root of your SD card
+ - Copy the `boot.nds` file and the `_nds` folder from the `DSi&3DS - SD card users` folder to the root of your SD card
+    - Replace files and merge folders, if asked.
 
 Yes, there are two `_nds` folders. While the first one contained all the TWiLight Menu++ files, those are universal to flashcarts as well. The second `_nds` folder contains DSi/3DS specific files, such as the homebrew version of nds-boostrap.
 {: .notice--info}
 
-## Replacing the System Menu (If not using HiyaCFW)
+## Replacing the System Menu (if not using HiyaCFW)
 
 You must have [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
 {: .notice--info}

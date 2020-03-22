@@ -4,27 +4,40 @@ redirect_from:
   - help/faq
 ---
 
-<a name="faq_fatmismatch" />**Q:** Unlaunch freezes at `MISMATCH IN FAT COPIES`. What do I do?
-{: .notice--info}
+#### Unlaunch freezes at `MISMATCH IN FAT COPIES`. What do I do?
+This error is caused by twlnf. It has a critical bug that doesn't properly update the entire NAND after modifying it. This causes certain homebrew (like the Unlaunch installer) to throw an error. Fortunately, this is fixable. Unfortunately, the *method* to fix it isn't set in stone, and largely varies from system to system. Generally, deleting any DSiWare installed via twlnf in the past does the job, but make sure you have another homebrew entrypoint available if you delete an entrypoint. It has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
-**A:** This error is caused by twlnf. It has a critical bug that doesn't properly update the entire NAND after modifying it. This causes certain homebrew (like the Unlaunch installer) to throw an error. Fortunately, this is fixable. Unfortunately, the *method* to fix it isn't set in stone, and largely varies from system to system. Generally, deleting any DSiWare installed via twlnf in the past does the job, but make sure you have another homebrew entrypoint available if you delete an entrypoint. It has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
+#### How can I restore my NAND without Unlaunch?
+You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
 
-<a name="faq_noflipnote" />**Q:** Can I hardmod?
-{: .notice--info}
+#### Why do I boot into "An Error Has Occurred" when I use hiyaCFW with the default DSi Menu, and how can I fix it?
+Unfortunately, the DSi System Menu was not built with the amount of free space the "NAND" has in mind. It uses a signed 32-bit integer, meaning that after 2GB, it will jump to a negative free space number. This is fine for the NAND, since it will never go over 128 MB. However, this is a problem when we redirect the NAND using hiyaCFW. Fortunately, this is easy to fix. After a certain point, the negative number becomes a positive, so you just want to keep that free space number always at a positive number.
 
-**A:** Yes. Follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
+The simplest way to do so is to simply fill up your SD card so that your free space value is less than 2GB. However, every other range of two gigabytes works, so 0GB-2GB free is fine, while 2GB-4GB is not.
 
-<a name="faq_2gbsd" />**Q:** Why do I boot into "An Error Has Occurred" when I use hiyaCFW with the default DSi Menu, and how can I fix it?
-{: .notice--info}
+Enter the free space on your SD in the box below, press enter, and it will tell you if your SD has a working amount of free space. (Javascript required for it to work)
 
-**A:** The reason that the DSi Menu throws an error is due to a signed integer overflow. It detects the amount of free space available, but when it goes above a certain value, it goes back to the lowest. Unfortunately, since it's a signed integer, it goes into a negative number. This is fine on an actual NAND, since the NAND size will never go above 128 MB. However, with NAND redirection to the SD card, it does go over the max limit. In order to work around this, you'd have to either use a replacement menu or adjust the free size to accomodate. You could do the latter by either creating dummy files or partitioning your SD card. The recommended way is to simply replace your system menu with [TWiLight Menu++](installing-twilight-menu++) though, as it's a full replacement of the System Menu with much more functionality (Custom Themes and an all-in-one GUI for emulators).
+If your SD needs less free space, you can create dummy files. There are commands you could put into your command prompt/terminal, dependent on your operating system. Be sure to use the right command for the right operating system. We have these commands listed below, that will make 1GB worth of dummy files
+ - Windows: `fsutil file createnew dummy0 1073741824`
+ - Linux/macOS: `dd if=/dev/zero of=dummy0 count=1024 bs=1048576`
 
-<a name="faq_notwlmenupp" />**Q:** Why don't I see TWiLight Menu++?
-{: .notice--info}
+Fill it up until the website says that it will work.
 
-**A:** You're in SysNAND instead of the SDNAND. The HiyaCFW Helper isn't applying the CFW's patches properly, so please wait for a fix in the helper.
+<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" onchange="updateWillWork()">
+Your SD <span id="willWork">...</span>
 
-<a name="faq_uninstall" />**Q:** Is there a safe way to remove Unlaunch?
-{: .notice--info}
+<script>
+function updateWillWork() {
+  let freeSpace = document.getElementById("sdSpace").value;
+  document.getElementById("willWork").innerHTML = freeSpace % 4 < 2 ? "will work!" : "needs dummy files...";
+}
+</script>
 
-**A:** Yes, Unlaunch v1.5 and higher's installer can uninstall Unlaunch. Keep in mind that this may result in an **irrecoverable brick** if you have installed any arbitrary DSiWare to your system NAND, or have otherwise messed with system files.
+#### Why don't I see TWiLight Menu++?
+You're in SysNAND instead of the SDNAND. The HiyaCFW Helper isn't applying the CFW's patches properly, so please wait for a fix in the helper.
+
+#### Is there a safe way to remove Unlaunch?
+Yes, Unlaunch v1.5 and higher's installer can uninstall Unlaunch. Keep in mind that this may result in an **irrecoverable brick** if you have installed any non-legit DSiWare to your system NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise messed with system files. On another note, it will say that the system will become "useless", which is just NoCash's way of saying stock.
+
+#### I get a white screen when trying to use dumpTool
+That implies an SD card error. Please make sure you have formatted your SD card to FAT32 with a 32kb cluster size. Alternatively, test your SD card to make sure it isn't corrupted. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
