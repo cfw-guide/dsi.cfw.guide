@@ -5,19 +5,19 @@ redirect_from:
   - /installing-unlaunch-legacy
 ---
 
-## Downloads
+## Requirements
 - The latest release of [Flipnote ( ͡° ͜ʖ ͡°) ("Flipnote Lenny")](https://davejmurphy.com/͡-͜ʖ-͡/){:target="_blank"}
+- A copy of Flipnote Studio
+ - Ensure that "Booting to Calendar" mode is disabled in the settings.
 
 ## Preparing your SD card
 
 - Copy the `private` folder from the Flipnote Lenny `.zip` file to the root of your SD card
 
-## Creating a NAND backup
+## Launching HBMenu
 
-1. Open the Flipnote Studio application
+1. Launch Flipnote Studio
   - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
-  - If you already have another DSiWare exploit installed, open that and skip to Step 12
-  - Note that Sudokuhax *cannot* adequately make a backup with the required footer!
 2. Select `View Flipnote` -> `SD Card`
 3. Click on the lenny corresponding to your region (USA, JPN or EUR)
   - If you're on an AUS console, then select EUR
@@ -30,5 +30,5 @@ redirect_from:
 10. Click on the film roll icon
 11. Select `Paste`
 
-Continue to [Installing Unlaunch](installing-unlaunch)
+Return to [Installing Unlaunch](installing-unlaunch#creating-a-nand-backup)
 {: .notice--info}
