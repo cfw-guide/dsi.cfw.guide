@@ -24,11 +24,11 @@ Translators, please help us with translations. Join our [Crowdin Project](https:
 
 Homebrew applications are custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
 
-Homebrew can be run for free on any DSi system, regardless of firmware version or region.
+Homebrew can be run for free on DSi consoles, regardless of firmware version or region.
 
 ## What does this guide install?
 
-This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It removes RSA, whitelist and region checks, allowing you to run any DSi executable on your console. Additionally, you can install hiyaCFW and/or TWiLight Menu++:
+This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It removes RSA, whitelist and region checks, allowing you to run any DSi executable on your console & launch previously non-working flashcarts. Additionally, you can install hiyaCFW and/or TWiLight Menu++:
 
 - hiyaCFW is a custom firmware for the DSi allowing you to redirect your NAND to the SD card and have a launch splash before boot.
 - TWiLight Menu++ is an open-source homebrew application developed by RocketRobz that can act as a home menu replacement. It has many additional features, such as custom themes and file management. It's also an all in one menu for different many emulators, such as .nds file loading with nds-bootstrap.
@@ -43,5 +43,5 @@ This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It rem
  - Be sure to check your SD card for errors. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
 - On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
 
-Continue to the [Memory Pit Guide](installing-unlaunch).
+Get started by [installing Unlaunch](installing-unlaunch).
 {: .notice--info}

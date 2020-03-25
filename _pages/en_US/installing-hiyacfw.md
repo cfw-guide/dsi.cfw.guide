@@ -38,24 +38,14 @@ hiyaCFW has several advantages that an Unlaunch-only system will not. These incl
 
 When it says "Done", then you may unplug your SD card and insert it into your Nintendo DSi.
 
-##  Configuring hiyaCFW on your system
+## Configuring hiyaCFW on your system
 1. Power on your console, while holding **(A) + (B)**
   - Unlaunch's GUI should appear
-2. Navigate to `OPTIONS`.
-3. Select when you'd like hiyaCFW to be launched (which button combination, or in some cases, no button combination/auto-boot).
-4. Navigate to `hiyaCFW`, and press (A)
-5. Save your configuration
-6. Reboot your console (power off your console and power it back on)
-  - hiyaCFW's settings screen should appear
-7. Change the settings to your liking, and press (START) to continue
-  - If you boot to "An error has occured" screen, it's most likely because your SD card has more than 2GB of free space
-  - To fix this you can create dummy files to fill up your SD card, use the following command for your OS to create 1GB files until your SD has less than 2GB free[*](#an-error-has-occured-detailed-explanation), changing `dummy0` to another name for each one:
-    - Windows:<br>
-    `fsutil file createnew dummy0 1073741824`
-    - Linux/macOS:<br>
-    `dd if=/dev/zero of=dummy0 count=1024 bs=1048576`
+2. Launch `hiyaCFW`
+  - If you'd like for hiyaCFW to automatically launch when you power on your console, check the FAQ for a guide.
+3. Change the settings to your liking, and press (START) to continue
 
 Your system will now boot from the SD card instead of the internal NAND.
 
-If you want to boot in to the internal storage, you may configure `LAUNCHER` to a hotkey in a similar manner to the one you just did for hiyaCFW.
-{: .notice--info}
+If you boot to "An error has occured" screen, check the FAQ for instructions on how to fix it.
+{: .notice--danger}
