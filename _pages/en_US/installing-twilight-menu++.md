@@ -11,8 +11,6 @@ redirect_from:
   - replacing-system-menu-with-twlmenu++
 ---
 
-{% include toc title="Table of Contents" %}
-
 TWiLight Menu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It can be used as a frontend for either nds-bootstrap or supported flashcards. It also provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
 
 If you have installed HBMenu, this will overwrite it. However, TWiLight Menu++ has the same DSi Homebrew launching code as HBMenu so you won't lose any functionality.
@@ -42,3 +40,4 @@ You have now installed TWiLight Menu++. If you want to run DSiWare, wait for ste
 - If files don't appear, they are most likely hidden using the FAT attributes of the filesystem. You can check via Windows or MacOS
    - You can view hidden files on TWiLight Menu++ by enabling the option in the TWiLight Menu++ Settings Application
 - To launch GBA applications, you'll need a `bios.bin` file. This can be located either on the root of your SD card, a `gba` folder or a `_gba` folder.
+- You can set TWiLight Menu++ to autolaunch when you power on your DSi. Read the FAQ to learn more.
