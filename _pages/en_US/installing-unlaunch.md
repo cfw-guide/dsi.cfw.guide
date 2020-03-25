@@ -22,9 +22,9 @@ The source code is not needed. You only need the actual files.
 ## Preparing your SD card
 
 - Copy `dumpTool.nds` to your SD card
-- Copy `GodMode9i.nds` from the archive to the root of your SD card as `BOOT.NDS`
+- Copy `GodMode9i.nds` to the root of your SD card as `BOOT.NDS`
 - Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A` folder on your SD card
-- Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to your SD card
+- Copy `UNLAUNCH.DSI` to your SD card
 
 ## Launching the exploit
 
@@ -57,14 +57,17 @@ Store this NAND backup in a safe location; it's a failsafe if you mess up. You w
 
 If you see Unlaunch's management screen, you have successfully installed Unalunch. With Unlaunch installed, your system now has primitive brick protection as well as a way to run unsigned applications without Memory Pit.
 
-By following this guide, you also now have a tool for backing up your system NAND, which is always helpful if you mess up and a tool just like GodMode9 for the Nintendo 3DS.
+By following this guide, you also now have a tool for backing up your system NAND (which is always helpful if you mess up) and a tool just like GodMode9 for the Nintendo 3DS.
 
-You can now invert the change made to pit.bin (by either deleting or reverting if you have a backup of your previous pit.bin). You can also rename `BOOT.NDS` if it conflicts with any of your other homebrew.
+If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homebrew launcher, check the FAQ.
+{: .notice--info}
+
+You can now invert the change made to pit.bin (by either deleting or reverting if you have a backup of your previous pit.bin). You can also rename `BOOT.NDS` if it conflicts with any of your other homebrew. Unlaunch's installer is useful to keep onto the SD card in case you'd like to uninstall Unlaunch but you could always re-download it later. It's up to you if you'd like to keep the Unlaunch file there.
 {: .notice--info}
 
 ---
 
-There are two addons you can install now; hiyaCFW & TWiLight Menu++
+There are two optional addons you can install now; hiyaCFW & TWiLight Menu++
 
 - TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
 - hiyaCFW is a custom firmware that will allow you to install custom titles to your home menu using your SD card as an SDNAND to prevent dangerous writing to the system's internal NAND storage.
