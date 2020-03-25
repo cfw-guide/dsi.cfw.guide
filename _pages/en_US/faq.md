@@ -25,12 +25,12 @@ If your SD needs less free space, you can create dummy files. There are commands
 Fill it up until the website says that it will work.
 
 <input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" onchange="updateWillWork()">
-Your SD <span id="willWork">...</span>
+Your SD<span id="willWork">...</span>
 
 <script>
 function updateWillWork() {
   let freeSpace = document.getElementById("sdSpace").value;
-  document.getElementById("willWork").innerHTML = freeSpace % 4 < 2 ? "will work!" : "needs dummy files...";
+  document.getElementById("willWork").innerHTML = " " + ((freeSpace % 4) < 2 ? "will work!" : "needs dummy files...");
 }
 </script>
 
@@ -50,8 +50,8 @@ That implies an SD card error. Please make sure you have formatted your SD card 
   - (A) & (B) are hardcoded to open Unlaunch's menu; you can't change that.
 4. Navigate to the application you'd like to launch when you hold that button (or no button).
   - If it's a file on your SD card, it should say the file name on the bottom screen.
-  - To get the normal DSi Menu back, hit "Launcher".
+  - To get the normal DSi Menu back, select "Launcher".
 5. Navigate to `SAVE & EXIT`, and press (A).
 
 ### I do not get any audio in my DSi Menu, nor do I have a boot splash when using Unlaunch
-That is intentional. If you'd like to get those features back, install hiyaCFW/
+That is intentional. If you'd like to get those features back, [install hiyaCFW](installing-hiyacfw)
