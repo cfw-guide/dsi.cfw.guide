@@ -13,6 +13,7 @@ sitemap: false
 + [Installing TWiLight Menu++](installing-twilight-menu++)
 + [Dumping DSiWare](dumping-dsiware)
 + [Installing DSiWare](installing-dsiware)
++ [Restoring a NAND backup](restoring-nand)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [File Extensions (Windows)](file-extensions-(windows))
