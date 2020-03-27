@@ -79,7 +79,7 @@ Make sure your Nintendo DSi system is well charged before beginning this section
 1. Insert your SD card into your DSi
 2. Launch fwTool 1.6.0 using your preferred method of launching homebrew
 3. Click `Restore nand_dsi.bin`
-4. Press START and SELECT to begin the restore
+4. Confirm the NAND restore with the buttons prompted to you
 5. Once the restore finishes, reboot your DSi
 
-Your NAND should now be restored
+Your NAND should now be restored.
