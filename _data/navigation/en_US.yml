@@ -7,11 +7,8 @@ main:
     title: FAQ
     url: faq
   -
-    title: Dumping DSiWare
-    url: dumping-dsiware
-  -
-    title: Installing DSiWare
-    url: installing-dsiware
+    title: Dumping & Installing DSiWare
+    url: dsiware
   -
     title: TWiLight Menu++
     url: installing-twilight-menu++
