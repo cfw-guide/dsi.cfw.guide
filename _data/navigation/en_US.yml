@@ -1,11 +1,14 @@
 ---
 main:
   -
-    title: DSi Guide
+    title: Home
     url: /
   -
     title: FAQ
     url: faq
+  -
+    title: Getting Started
+    url: installing-unlaunch
   -
     title: Dumping & Installing DSiWare
     url: dsiware
