@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: DSi Guide
-excerpt: "A complete Nintendo DSi homebrew guide, from stock to hiyaCFW."
+title: DSi Hacks Guide
+excerpt: "The complete guide to DSi Hacking, from stock to Unlaunch (with additional hiyaCFW and/or TWiLight Menu++ setups)."
 header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
