@@ -17,6 +17,7 @@ If you like what they have done, consider donating (if they have a donation link
 - [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++, hiyaCFW & GodMode9i.
 - [zoogie](https://github.com/zoogie): Developer of dumpTool, forked Memory Pit to support all regions and firmwares.
 - [Evie11](https://github.com/Epicpkmn11): Made the Javascript SD Free Space checker for the FAQ.
+- [ivanc2002](https://www.reddit.com/user/ivanc2002/): Original "Dumping DSiWare" page writer.
 - [Plailect](https://github.com/Plailect): Made the original 3DS Modding Guide, which this took inspiration from.
 {% endcapture %}
 
