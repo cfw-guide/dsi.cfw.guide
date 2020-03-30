@@ -3,7 +3,7 @@ layout: splash
 title: DSi Hacks Guide
 header:
   overlay_color: "#1a1d24"
-  overlay_image: /images/home-page-feature.jpg
+  overlay_image: /images/home-page-feature.png
   overlay_filter: 0.5
   cta_label: "Get Started"
   cta_url: installing-unlaunch
