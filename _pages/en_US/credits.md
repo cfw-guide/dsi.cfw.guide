@@ -9,7 +9,8 @@ This is the credits for those who have helped out with the guide website, homebr
 If you like what they have done, consider donating (if they have a donation link).
 
 {% capture notice-1 %}
-- [jerbear64](https://www.paypal.me/jerbear64) & emiyl: Original Guide Maintainers, domain/url holders.
+- [emiyl](https://www.paypal.me/emiyl): Original Guide Maintainer, Owner of cfw.guide
+- [jerbear64](https://www.paypal.me/jerbear64): Original Guide Maintainers
 - [NightScript](https://www.paypal.me/maorninja): Rewrote the guide website.
 - Halvorsen: Nintendo DSi image in the home page.
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits.
