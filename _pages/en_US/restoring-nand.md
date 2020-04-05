@@ -1,5 +1,5 @@
 ---
-title: Restoring a NAND backup (Software Side)
+title: Restoring a NAND backup
 redirect_from:
   - /guide/restoring-nand
 ---
@@ -17,6 +17,9 @@ First, a few safer alternatives to why you might want to do this:
 - Installing DSiWare can be done using hiyaCFW or TWiLight Menu++
 - Recovering pictures can be done using ninfs, in combination with hiyaCFW or TWiLight Menu++ if you want them on console
 - Restoring an Unlaunch button configuration could be done by resetting it (instructions in the FAQ).
+- Booting into Unlaunch resulting in an error? Take out your SD card and try again. If it works, then it's a fault with your SD card and restoring a NAND backup won't fix it
+
+The only thing you should be doing with your NAND is installing Unlaunch. Use the alternatives otherwise
 
 ## Requirements
 
@@ -49,11 +52,8 @@ It is very important to test that your nand backup is working before attempting 
 If no$gba loads the DSi menu, then continue to the next section. If it shows any kind of error ***do not flash that backup***!
 
 ## Preparing your NAND backup
-If your NAND backup was dumped using fwTool 2.0.0 or dumpTool (it probably was) then it will have a no$gba footer at the end. Even if it wasn't, still check this to make certain that your NAND is correct
+If your NAND backup was dumped using fwTool 2.0.0 or dumpTool, then it will have a no$gba footer at the end. Regardless, still check to make certain that your NAND is correct.
 {: .notice--info}
-
-If your NAND backup is ***EXACTLY*** 251,658,240 bytes, then it does not have a no$gba footer and as such, you will not need to trim it. If it isn't 251,658,240 bytes, continue reading to trim it. 
-{: .notice--danger}
 
 1. Open your NAND backup in a hex editor
 2. Go to the end of the file
@@ -64,11 +64,14 @@ If your NAND backup is ***EXACTLY*** 251,658,240 bytes, then it does not have a 
      BBBBBBBB BBBBBBBB 00000000 00000000 ........        
      00000000 00000000 00000000 00000000                 
      ```
-5. Delete the section above, from offset `0xF000000` to the end of the file.
-6. Save the changes made to your NAND backup and make sure it is now exactly **251,658,240** bytes
-7. Name it `dsi_nand.bin` and place it on the root of your SD card.
+3. If you see something like the section above, delete it (from offset `0xF000000` to the end of the file).
+4. Save the changes made to your NAND backup and make sure it is now exactly **251,658,240** bytes
+5. Name it `dsi_nand.bin` and place it on the root of your SD card.
 
-## Flashing your NAND backup
+If your NAND backup is not ***EXACTLY*** 251,658,240 bytes even after removing the NO$GBA footer, then it is an invalid NAND backup. ***Do not flash that backup***!
+{: .notice--danger}
+
+## Flashing your NAND backup (Software Side)
 
 Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 {: .notice--danger}
@@ -76,10 +79,21 @@ Make sure you have read through the above steps as this is where it gets dangero
 Make sure your Nintendo DSi system is well charged before beginning this section.
 {: .notice--danger}
 
-1. Insert your SD card into your DSi
-2. Launch fwTool 1.6.0 using your preferred method of launching homebrew
-3. Click `Restore nand_dsi.bin`
-4. Confirm the NAND restore with the buttons prompted to you
-5. Once the restore finishes, reboot your DSi
+1. With your SD card inserted, power on your Nintendo DSi while holding (A) and (B).
+2. Launch into a separate homebrew launcher that isn't Unlaunch.
+3. Launch fwTool 1.6.0
+4. Click `Restore nand_dsi.bin`
+5. Confirm the NAND restore with the buttons prompted to you
+6. Once the restore finishes, reboot your DSi
 
 Your NAND should now be restored.
+
+## Flashing your NAND backup (HardMod)
+
+Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
+{: .notice--danger}
+
+Make sure you have proper soldering skills.
+{: .notice--danger}
+
+TODO. I can't find a good tutorial online on how to hardmod. To be honest, I'd rather someone else take it up. Having a hardmodding guide is important too, since I remember some case where the NAND was bricked and didn't have unlaunch.
