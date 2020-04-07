@@ -14,23 +14,24 @@ The source code is not needed. You only need the actual files.
 - The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
 - The latest release of [GodMode9i](https://github.com/RocketRobz/GodMode9i/releases){:target="_blank"}
 - The latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases){:target="_blank"}
-- The latest release of Memory Pit, depending on your DSi firmware version and region
+- The latest release of Memory Pit, depending on your DSi firmware, version and region.
   - [for DSi firmware versions 1.0 - 1.3   (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
   - [for DSi firmware versions 1.4 - 1.4.5 (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/768_1024/pit.bin){:target="_blank"}
   - [for DSi firmware versions 1.0 - 1.4.6 (KOR, CHN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
 
 ## Preparing your SD card
 
-- Copy `dumpTool.nds` to your SD card
-- Copy `GodMode9i.nds` to the root of your SD card as `BOOT.NDS`
-- Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A` folder on your SD card
-- Copy `UNLAUNCH.DSI` to your SD card
+- Copy `dumpTool.nds` anywhere on your SD card.
+- Copy `GodMode9i.nds` to the root of your SD card as `BOOT.NDS`.
+- Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A` folder on your SD card.
+   - Create it if it doesn't exist.
+- Copy `UNLAUNCH.DSI` anywhere your SD card.
 
 ## Launching the exploit
 
-1. Open the DSi Camera application
-2. Select `SD Card` at the top right
-3. Tap `Album`
+1. Open the DSi Camera application.
+2. Select `SD Card` at the top right.
+3. Tap `Album`.
 
 If Memory Pit worked successfully, you should be in GodMode9i, a homebrew that allows you to manage your SD card. Even though it displays retail `.nds` files, those require a loader (like nds-bootstrap) to launch them.
 
@@ -38,18 +39,20 @@ However, if using Memory Pit didn't work, you could use other DSi exploit provid
 {: .notice--info}
 
 ## Creating a NAND Backup
-1. Launch `dumpTool.nds` using GodMode9i.
+1. Navigate your SD card using GodMode9i to find and launch `dumpTool.nds`.
 2. Follow the on-screen prompt to begin the NAND backup.
-  - This will take several minutes (around 7)
-3. Press Start to exit when it is completed.
-
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
-{: .notice--info}
+  - This will take several minutes (around seven). Please be patient.
+3. Hit the `START` button on your Nintendo DSi to exit when it is completed.
+  - If it shuts down your system, it's to be expected. Launch the exploit again (using the steps above) but head to the next section.
 
 Store this NAND backup in a safe location; it's a failsafe if you mess up. You would also need it if you'd like to install hiyaCFW.
+{: .notice--warning}
+
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
+{: .notice--info}
 
 ## Installing Unlaunch
-1. Launch `UNLAUNCH.DSI`.
+1. Navigate your SD card using GodMode9i to find and launch `UNLAUNCH.DSI`.
 2. Navigate to `Install now`.
   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/faq)
 3. When completed, reboot (power down and power back on) your system in order to verify Unlaunch installed properly.
