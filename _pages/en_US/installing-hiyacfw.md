@@ -6,7 +6,7 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-You will need [Unlaunch](installing-unlaunch/) installed before proceeding.
+You will need [Unlaunch](installing-unlaunch) installed before proceeding.
 {: .notice--primary}
 
 Do not system update after installing hiyaCFW. This will remove hiyaCFW's SD patches.
