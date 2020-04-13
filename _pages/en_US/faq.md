@@ -6,7 +6,7 @@ redirect_from:
 {% include toc title="Table of Contents" %}
 
 ### Unlaunch freezes at `MISMATCH IN FAT COPIES`. What do I do?
-This error is caused by twlnf. It has a critical bug that doesn't properly update the entire NAND after modifying it. This causes certain homebrew (like the Unlaunch installer) to throw an error. Fortunately, this is fixable. Unfortunately, the *method* to fix it isn't set in stone, and largely varies from system to system. Generally, deleting any DSiWare installed via twlnf in the past does the job, but make sure you have another homebrew entrypoint available if you delete an entrypoint. It has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
+twlnf has a critical bug that doesn't properly update the entire NAND after modifying it, which causes certain homebrew (like the Unlaunch installer) to throw an error. While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
@@ -18,14 +18,14 @@ The simplest way to do so is to simply fill up your SD card so that your free sp
 
 Enter the free space on your SD in the box below, press enter, and it will tell you if your SD has a working amount of free space. (Javascript required for it to work)
 
-If your SD needs less free space, you can create dummy files. There are commands you could put into your command prompt/terminal, dependent on your operating system. Be sure to use the right command for the right operating system. We have these commands listed below, that will make 1GB worth of dummy files
+If your SD needs less free space, you can easily fill it with dummy files. Listed below are command prompt/terminal commands that will make 1GB worth of dummy files.
  - Windows: `fsutil file createnew dummy0 1073741824`
  - Linux/macOS: `dd if=/dev/zero of=dummy0 count=1024 bs=1048576`
 
 Fill it up until the website says that it will work.
 
 <input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" onchange="updateWillWork()">
-Your SD<span id="willWork">...</span>
+Your SD<span id="willWork">...</span><noscript>is unable to be checked due to JavaScript being disabled. Please enable it and try again</noscript>
 
 <script>
 function updateWillWork() {
@@ -45,13 +45,11 @@ That implies an SD card error. Please make sure you have formatted your SD card 
 
 ### How do I change what booting my console boots me into when I have installed Unlaunch?
 1. Power on your DSi while holding **(A)** & **(B)**.
-2. Navigate to `OPTIONS`, and press (A).
-3. Pick which button configuration you'd like to change.
+2. Pick which button configuration you'd like to change in the `OPTIONS` menu.
   - (A) & (B) are hardcoded to open Unlaunch's menu; you can't change that.
-4. Navigate to the application you'd like to launch when you hold that button (or no button).
-  - If it's a file on your SD card, it should say the file name on the bottom screen.
+3. Navigate to the application you'd like to launch when you hold that button (or no button).
+  - If it's a file on your SD card, the file name should appear on the bottom screen.
   - To get the normal DSi Menu back, select "Launcher".
-5. Navigate to `SAVE & EXIT`, and press (A).
 
 ### I do not get any audio in my DSi Menu, nor do I have a boot splash when using Unlaunch
 That is intentional. If you'd like to get those features back, [install hiyaCFW](installing-hiyacfw)
