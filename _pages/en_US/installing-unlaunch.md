@@ -43,7 +43,8 @@ However, if using Memory Pit didn't work, you could use other DSi exploit provid
 {: .notice--info}
 
 ## Creating a NAND Backup
-The Nintendo DSi internal memory is commonly refered to as NAND. Taking a NAND backup is important, as in the next section, you will be modifying it to install an exploit. In case it goes wrong, you can use a hardware modification of your system to restore it to a working state. A NAND backup is also required for hiyaCFW installation.
+The Nintendo DSi internal memory is commonly refered to as NAND. Taking a NAND backup is important, as in the next section, you will be modifying it to install Unlaunch. In case it goes wrong, you can use a hardware modification of your system to restore it to a working state.
+- A NAND backup is also required for hiyaCFW installation.
 
 1. Navigate your SD card using GodMode9i to find and launch `dumpTool.nds`.
 2. Follow the on-screen prompt to begin the NAND backup.

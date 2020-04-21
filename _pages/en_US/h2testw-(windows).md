@@ -21,12 +21,11 @@ This page is for Windows users only. If you are not on windows, use [F3](f3-(lin
 ### Instructions
 
 1. Extract the h2testw archive anywhere on your computer.
-2. With your SD card inserted into your computer, run `h2testw.exe`
-3. Select "English"
-4. Click "Select target"
-5. Select your SD card's drive letter
-6. Ensure "all available space" is selected
-7. Click "Write + Verify"
+2. With your SD card inserted into your computer, run `h2testw.exe`.
+3. Select your prefered viewing Language.
+4. Set your SD card's drive letter as your target.
+5. Ensure "all available space" is selected.
+6. Click "Write + Verify".
 - Wait until the process is completed
 
 ___
