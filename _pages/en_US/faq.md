@@ -9,10 +9,10 @@ redirect_from:
 You will need a FAT32-Formatted SD card formatted with a 32kb cluster size to follow this guide
 - Be sure to check your SD card for errors. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
 
-### I get a white screen when trying to use dumpTool
+### What does a white screen in dumpTool mean?
 That implies an SD card error. Please make sure you have formatted your SD card to FAT32 with a 32kb cluster size. Alternatively, test your SD card to make sure it isn't corrupted. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
 
-### Unlaunch freezes at `MISMATCH IN FAT COPIES`. What do I do?
+### Why does Unlaunch freeze at `MISMATCH IN FAT COPIES`?
 twlnf has a critical bug that doesn't properly update the entire NAND after modifying it, which causes certain homebrew (like the Unlaunch installer) to throw an error. While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
 ## How do I launch retail ROMs?

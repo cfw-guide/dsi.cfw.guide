@@ -30,8 +30,8 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 
 This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It removes RSA, whitelist and region checks, allowing you to run any DSi executable on your console & launch previously non-working flashcarts. Additionally, you can install hiyaCFW and/or TWiLight Menu++:
 
-- hiyaCFW is a custom firmware for the DSi allowing you to redirect your NAND to the SD card and have a launch splash before boot.
-- TWiLight Menu++ is an open-source homebrew application that can act as a home menu replacement. It has many additional features, such as custom themes and file management. It's also an all in one menu for different many emulators, such as .nds file loading with nds-bootstrap.
+- TWiLightMenu++ is an open-source homebrew application that can act as a replacement to the Nintendo DSi System Menu. It provides a customizable unified interface for launching a variety of titles on your SD card.
+- hiyaCFW is a custom firmware allowing for System NAND to SD card redirection, allowing for easy installation of homebrew on your DSi Menu. You can setup a boot splash, where you can pick an image to display on system bootup.
 
 ## What can I do by modding my system?
 
