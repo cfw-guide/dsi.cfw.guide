@@ -9,8 +9,10 @@ title: "F3 (Linux)"
 This is an add-on section for checking your SD card for errors using F3.
 
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+{: .notice--info}
 
-This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+This page is for Linux users only. If you are not on Linux, use [H2testw](h2testw-(windows)) for Windows or [F3X](f3x-(mac)) for Mac.
+{: .notice--warning}
 
 ### What You Need
 
@@ -18,13 +20,13 @@ This page is for Linux users only. If you are not on Linux, check out the [H2tes
 
 ### Instructions
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
-1. Run `make` to compile F3
-1. Insert your SD card into your computer
-1. Mount your SD card
-1. Run `./f3write <your sd card mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Extract the F3 archive anywhere on your computer.
+2. `cd` into the f3 directory
+3. Run `make` to compile F3
+4. Insert your SD card into your computer
+5. Mount your SD card
+6. Run `./f3write <your sd card mount point>`
+- Wait until the process is complete. See below for an example output.
 
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
@@ -34,8 +36,8 @@ This page is for Linux users only. If you are not on Linux, check out the [H2tes
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-1. Run `./f3read <your sd card mount point>`
-1. Wait until the process is complete. See below for an example output.
+7. Run `./f3read <your sd card mount point>`
+- Wait until the process is complete. See below for an example output.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
@@ -57,6 +59,3 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
-
-Return to [Installing Unlaunch](installing-unlaunch)
-{: .notice--info}

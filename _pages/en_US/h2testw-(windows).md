@@ -9,8 +9,10 @@ title: "H2testw (Windows)"
 This is an add-on section for checking your SD card for errors using h2testw.
 
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+{: .notice--info}
 
-This page is for Windows users only. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+This page is for Windows users only. If you are not on windows, use [F3](f3-(linux)) for Linux or [F3X](f3x-(mac)) for Mac.
+{: .notice--warning}
 
 ### What You Need
 
@@ -18,15 +20,14 @@ This page is for Windows users only. If you are not on windows, check out the [F
 
 ### Instructions
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Click "Select target"
-1. Select your SD card's drive letter
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
-1. Wait until the process is completed
+1. Extract the h2testw archive anywhere on your computer.
+2. With your SD card inserted into your computer, run `h2testw.exe`
+3. Select "English"
+4. Click "Select target"
+5. Select your SD card's drive letter
+6. Ensure "all available space" is selected
+7. Click "Write + Verify"
+- Wait until the process is completed
 
 ___
 
@@ -35,6 +36,3 @@ If the test shows the result `Test finished without errors`, your SD card is goo
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
-
-Return to [Installing Unlaunch](installing-unlaunch)
-{: .notice--info}

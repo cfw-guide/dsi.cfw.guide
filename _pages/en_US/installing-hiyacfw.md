@@ -6,14 +6,14 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-You will need [Unlaunch](installing-unlaunch) installed before proceeding.
+You will need [Unlaunch](/installing-unlaunch) installed before proceeding.
 {: .notice--primary}
 
 Do not system update after installing hiyaCFW. This will remove hiyaCFW's SD patches.
 {: .notice--danger}
 
 hiyaCFW has several advantages that an Unlaunch-only system will not. These include:
-- Booting the system from the SD card
+- Redirecting your NAND to the SD card
 - Installing homebrew applications to the System Menu with ease
 - Display a custom splash screen on system boot
 
@@ -42,10 +42,10 @@ When it says "Done", then you may unplug your SD card and insert it into your Ni
 1. Power on your console, while holding **(A) + (B)**
   - Unlaunch's GUI should appear
 2. Launch `hiyaCFW`
-  - If you'd like for hiyaCFW to automatically launch when you power on your console, check the FAQ for a guide.
+  - If you'd like for hiyaCFW to automatically launch when you power on your console, [follow the guide in the FAQ](https://dsi.cfw.guide/faq#how-do-i-change-what-booting-my-console-boots-me-into-when-i-have-installed-unlaunch).
 3. Change the settings to your liking, and press (START) to continue
 
 Your system will now boot from the SD card instead of the internal NAND.
 
-If you boot to "An error has occured" screen, check the FAQ for instructions on how to fix it.
+If you boot to "An error has occured" screen, [check the FAQ for instructions on how to fix it](https://dsi.cfw.guide/faq#why-do-i-boot-into-an-error-has-occurred-when-i-use-hiyacfw-with-the-default-dsi-menu-and-how-can-i-fix-it).
 {: .notice--danger}

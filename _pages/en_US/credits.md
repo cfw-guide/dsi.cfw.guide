@@ -26,3 +26,5 @@ If you like what they have done, consider donating (if they have a donation link
 <div class="notice">{{ notice-1 | markdownify }}</div>
 
 You could contribute to our guide too by simply sending in a Pull Request!
+
+If you know other languages, you can help us by translating the guide into that language. You can join our [Crowdin Project](https://crowdin.com/project/dsi-guide) to get started.
