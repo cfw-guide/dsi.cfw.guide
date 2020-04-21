@@ -8,7 +8,7 @@ redirect_from:
 
 ## Introduction
 
-This guide will start with an stock Nintendo DSi, and end with a DSi running _Unlaunch_, allowing you to install custom software. We will be using the following software:
+This guide will start with an stock Nintendo DSi, and end with a DSi running _Unlaunch_, allowing you to install custom software. This guide mentions and makes use of the following software:
 
 ### Unlaunch
 
