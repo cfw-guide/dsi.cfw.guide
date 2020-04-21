@@ -53,3 +53,9 @@ That implies an SD card error. Please make sure you have formatted your SD card 
 
 ### I do not get any audio in my DSi Menu, nor do I have a boot splash when using Unlaunch
 That is intentional. If you'd like to get those features back, [install hiyaCFW](installing-hiyacfw)
+
+## How do I launch retail ROMs?
+Retail ROMs are not able to be launched through Unlaunch alone, as Retail ROMs was made to be used by Slot-1. In order to run them from your SD card, you'll need to use nds-bootstrap, an application that can redirect Slot-1 reads to the SD card. There are multiple ways you could use it.
+- Download nds-bootstrap by itself and make constant changes to the configuration file. It isn't user friendly and won't work with soft-resets, but it works.
+- Use TWiLight Menu++ to navigate your SD card and launch the ROM files. It will make the edits necessary to the configuration file.
+- Set up hiyaCFW forwarder applications using [Title Manager for hiyaCFW](https://github.com/JeffRuLz/TMFH/releases). This will allow you to launch your ROM files from your DSi System Menu on your SDNAND.
