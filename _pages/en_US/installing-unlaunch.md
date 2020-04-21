@@ -21,32 +21,33 @@ The source code is not needed. You only need the actual files.
 
 ## Preparing your SD card
 
+To extract contents from an archive, you can use 7-Zip or a website extractor
+
 - Copy `dumpTool.nds` anywhere on your SD card.
-- Copy `GodMode9i.nds` to the root of your SD card as `BOOT.NDS`.
+- Extract `GodMode9i.nds` from the GodMode9i archive, rename it to `BOOT.NDS` and copy it to the root of your SD card.
 - Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A` folder on your SD card.
-   - Create it if it doesn't exist.
-- Copy `UNLAUNCH.DSI` anywhere your SD card.
+   - You may create the folder if it doesn't exist.
+- Extract `UNLAUNCH.DSI` from the Unlaunch archive and copy it anywhere your SD card.
 
 ## Launching the exploit
 
-1. Open the DSi Camera application.
+1. Boot your Nintendo DSi with your SD card inserted and launch the DSi Camera application.
 2. Select `SD Card` at the top right.
 3. Tap `Album`.
 
-If Memory Pit worked successfully, you should be in GodMode9i, a homebrew that allows you to manage your SD card. Even though it displays retail `.nds` files, those require a loader (like nds-bootstrap) to launch them.
+If Memory Pit worked successfully, you should be in GodMode9i, a homebrew that allows you to manage your SD card.
 
 However, if using Memory Pit didn't work, you could use other DSi exploit provided you have their respective application. One example of such is [Flipnote Lenny](installing-unlaunch-legacy) (discovered by shutterbug2000 and implemented by WinterMute), but it requires Flipnote Studio installed on your system.
 {: .notice--info}
 
 ## Creating a NAND Backup
+The Nintendo DSi internal memory is commonly refered to as NAND. Taking a NAND backup is important, as in the next section, you will be modifying it to install an exploit. In case it goes wrong, you can use a hardware modification of your system to restore it to a working state. A NAND backup is also required for hiyaCFW installation.
+
 1. Navigate your SD card using GodMode9i to find and launch `dumpTool.nds`.
 2. Follow the on-screen prompt to begin the NAND backup.
   - This will take several minutes (around seven). Please be patient.
 3. Hit the `START` button on your Nintendo DSi to exit when it is completed.
   - If it shuts down your system, it's to be expected. Launch the exploit again (using the steps above) but head to the next section.
-
-Store this NAND backup in a safe location; it's a failsafe if you mess up. You would also need it if you'd like to install hiyaCFW.
-{: .notice--warning}
 
 The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
 {: .notice--info}
@@ -62,7 +63,7 @@ If you see Unlaunch's management screen, you have successfully installed Unalunc
 
 By following this guide, you also now have a tool for backing up your system NAND (which is always helpful if you mess up) and a tool just like GodMode9 for the Nintendo 3DS.
 
-If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homebrew launcher, check the FAQ.
+If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homebrew launcher, check the [FAQ](https://dsi.cfw.guide/faq#how-do-i-change-what-booting-my-console-boots-me-into-when-i-have-installed-unlaunch).
 {: .notice--info}
 
 You can now invert the change made to pit.bin (by either deleting or reverting if you have a backup of your previous pit.bin). You can also rename `BOOT.NDS` if it conflicts with any of your other homebrew. Unlaunch's installer is useful to keep onto the SD card in case you'd like to uninstall Unlaunch but you could always re-download it later. It's up to you if you'd like to keep the Unlaunch file there.
