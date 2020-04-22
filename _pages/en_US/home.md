@@ -50,5 +50,5 @@ This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It rem
   - However, if Memory Pit is unusable on your Nintendo DSi, there are other exploits available depending on which DSiWare software you have installed on your system.
 - On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
 
-Get started by [installing Unlaunch](installing-unlaunch).
+Get started by [Installing Unlaunch](installing-unlaunch).
 {: .notice--info}
