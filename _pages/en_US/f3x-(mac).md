@@ -9,8 +9,10 @@ title: "F3X (Mac)"
 This is an add-on section for checking your SD card for errors using F3X.
 
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+{: .notice--info}
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+This page is for Mac users only. If you are not on Mac, use [H2testw](h2testw-(windows)) for Windows or [F3](f3-(linux)) for linux.
+{: .notice--warning}
 
 ### What You Need
 
@@ -18,12 +20,10 @@ This page is for Mac users only. If you are not on Mac, check out the [H2testw (
 
 ### Instructions
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Extract the F3X archive anywhere on your Mac.
+2. With your SD card inserted into your Mac, run the F3X app.
+3. Select your SD card and start the test.
+- Wait until the process is complete.
 
 ___
 
@@ -32,6 +32,3 @@ If the test shows the result `Success! Your card is ok!` your SD card is good an
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
-
-Return to [Installing Unlaunch](installing-unlaunch)
-{: .notice--info}

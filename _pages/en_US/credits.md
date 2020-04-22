@@ -9,10 +9,10 @@ This is the credits for those who have helped out with the guide website, homebr
 If you like what they have done, consider donating (if they have a donation link).
 
 {% capture notice-1 %}
-- [emiyl](https://www.paypal.me/emiyl): Original Guide Maintainer, Owner of cfw.guide
+- [emiyl](https://www.paypal.me/emiyl): Original Guide Maintainer, owner of cfw.guide
 - [jerbear64](https://www.paypal.me/jerbear64): Original Guide Maintainers
 - [NightScript](https://www.paypal.me/maorninja): Rewrote the guide website.
-- Halvorsen: Nintendo DSi image in the home page.
+- Halvorsen: Provided an image of their Nintendo DSi to be used on the home page.
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits.
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew Tools & forked Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions).
 - [Martin Korth aka nocash](https://www.patreon.com/martin_korth): Unlaunch Developer.
@@ -26,3 +26,5 @@ If you like what they have done, consider donating (if they have a donation link
 <div class="notice">{{ notice-1 | markdownify }}</div>
 
 You could contribute to our guide too by simply sending in a Pull Request!
+
+If you know other languages, you can help us by translating the guide into that language. You can join our [Crowdin Project](https://crowdin.com/project/dsi-guide) to get started.

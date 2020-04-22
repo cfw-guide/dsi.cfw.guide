@@ -5,45 +5,47 @@ header:
   overlay_color: "#1a1d24"
   overlay_image: /assets/images/home-page-feature.png
   overlay_filter: 0.5
-  cta_label: "Get Started"
-  cta_url: installing-unlaunch
   caption:
 excerpt: "The complete guide to DSi Hacking, from stock to Unlaunch (with additional hiyaCFW and/or TWiLight Menu++ setups)."
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide).
+Thoroughly read all of the introductory pages **(including this one)** before proceeding.
+{: .notice--info}
+
+For guides to modify other devices, check out the [cfw.guide](https://cfw.guide) website.
 {: .notice--primary}
 
-This guide is not compatible with development DSi consoles.
+This guide is not compatible with Nintendo DSi development consoles.
 {: .notice--danger}
-
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
-{: .notice--info}
-
-Translators, please help us with translations. Join our [Crowdin Project](https://crowdin.com/project/dsi-guide) to translate this guide to other languages.
-{: .notice--info}
 
 ## What is homebrew?
 
-Homebrew applications are custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
+Homebrew applications are unlicensed software made for closed systems such as the Nintendo DSi. This can include save editors, games, emulators and more.
 
-Homebrew can be run for free on DSi consoles, regardless of firmware version or region.
+Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region.
 
 ## What does this guide install?
 
-This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It removes RSA, whitelist and region checks, allowing you to run any DSi executable on your console & launch previously non-working flashcarts. Additionally, you can install hiyaCFW and/or TWiLight Menu++:
+This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. Unlaunch enables you you to run any DSi executable on your console & launch previously non-working flashcarts. Additionally, you can install hiyaCFW and/or TWiLight Menu++:
 
-- hiyaCFW is a custom firmware for the DSi allowing you to redirect your NAND to the SD card and have a launch splash before boot.
-- TWiLight Menu++ is an open-source homebrew application that can act as a home menu replacement. It has many additional features, such as custom themes and file management. It's also an all in one menu for different many emulators, such as .nds file loading with nds-bootstrap.
+- TWiLightMenu++ is an open-source homebrew application that can act as a replacement to the Nintendo DSi System Menu. It provides a customizable unified interface for launching a variety of titles on your SD card.
+- hiyaCFW is a custom firmware which redirects the System NAND to the SD card, allowing for easy installation of homebrew on your DSi Menu. You can setup a boot splash, where you can pick an image to display on system bootup.
+
+## What can I do by modding my system?
+
+- Redirect your NAND to the SD card
+- Use normally uncompatible flashcards
+- Boot into different applications by holding different buttons when turning on your Nintendo DSi.
+- Launch any DSiWare (out-of-region & 3DS exclusives) from your SD card (using unlaunch).
+- Run user-made homebrew applications.
+- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
 
 ## What should I know before starting?
 
-- Homebrew allows you to modify your system, which could easily result in a brick if done improperly.
+- Installing Unlaunch modifies your NAND, which could easily result in a brick if not done properly.
 - Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
-- The recommended method is to use Memory Pit, a DSi Camera exploit for all retail systems, firmware versions and regions.
- - However, if it doesn't work, you could use a different DSiWare exploit when the moment approaches. 
-- You will need a FAT32-Formatted SD card formatted with a 32kb cluster size to follow this guide
- - Be sure to check your SD card for errors. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
+- The recommended exploit is Memory Pit, which exploits a flaw in the Nintendo DSi Camera application. It is a pre-installed application so this exploit will work for all retail systems, regions and firmware versions.
+  - However, if Memory Pit is unusable on your Nintendo DSi, there are other exploits available depending on which DSiWare software you have installed on your system.
 - On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
 
 Get started by [Installing Unlaunch](installing-unlaunch).
