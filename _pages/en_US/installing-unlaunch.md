@@ -14,10 +14,12 @@ The source code is not needed. You only need the actual files.
 - The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
 - The latest release of [GodMode9i](https://github.com/RocketRobz/GodMode9i/releases){:target="_blank"}
 - The latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases){:target="_blank"}
-- The latest release of Memory Pit, depending on your DSi firmware, version and region.
-  - [for DSi firmware versions 1.0 - 1.3   (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
-  - [for DSi firmware versions 1.4 - 1.4.5 (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/768_1024/pit.bin){:target="_blank"}
-  - [for DSi firmware versions 1.0 - 1.4.6 (KOR, CHN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
+- The latest release of Memory Pit, depending on your Nintendo DSi firmware version and region.
+  - [for versions 1.0 - 1.3   (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
+  - [for versions 1.4 - 1.4.5 (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/768_1024/pit.bin){:target="_blank"}
+  - [for versions 1.0 - 1.4.6 (KOR, CHN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
+
+To check your version and region, check the System Settings application.
 
 ## Preparing your SD card
 
@@ -34,13 +36,23 @@ To extract contents from an archive, you can use 7-Zip or a website extractor.
 
 ## Launching the exploit
 
+The exploit we're using is called Memory Pit. It is an exploit for the Nintendo DSi Camera application and can work on all regions and firmware versions. However, if you have a broken camera and are treated to a tutorial when launching the camera, then Memory Pit will sadly not work. You could use other exploits provided you have the respective application.
+
+- [Flipnote Lenny](installing-unlaunch-legacy) is an exploit which takes advantage of a bug in Flipnote Studio (an application preinstalled on most Nintendo DSi systems).
+- There are other exploits too involving save game data if you have an older firmware with compatible games. Check out the [DSiBrew page](https://dsibrew.org/wiki/DSi_exploits#DSiWare(True_DSi-Mode)_Exploits) and see if it's compatible
+  - Petit Compwner will not work, as it requires you to scan QR codes. If you're able to scan the QR codes, you should be able to use Memory Pit.
+
 1. Boot your Nintendo DSi and launch the DSi Camera application.
-2. With your SD card inserted into your console, select your SD Card's Album.
+2. With your SD card inserted into your console, select the SD Card icon on the top right.
+ - If you recieve a message saying your SD card isn't inserted, please use another SD card.
+ - If you recieve a message saying that your SD card cannot be used, please make sure your SD card is [formatted correctly](faq/#what-are-the-sd-card-requirements).
+3. Select your SD card's camera album.
+ - If you copied Memory Pit correctly, the system should flash magenta
 
-If Memory Pit worked successfully, you should be in GodMode9i, a homebrew that allows you to manage your SD card.
+If your SD card was properly setup, the top screen should now display the GodMode9i logo. GodMode9i is a homebrew that allows you to manage your SD card and to boot into Nintendo DSi Homebrew applications (they will have the `.nds` or `.dsi` file extension).
 
-However, if using Memory Pit didn't work, you could use other DSi exploit provided you have their respective application. One example of such is [Flipnote Lenny](installing-unlaunch-legacy), but it requires Flipnote Studio installed on your system.
-{: .notice--info}
+If your Nintendo DSi flashes magenta but the top screen turns green while the bottom is white, then you do not have `BOOT.NDS` on the root of your SD card.
+{: .notice--warning}
 
 ## Creating a NAND Backup
 The Nintendo DSi internal memory is commonly refered to as NAND. Taking a NAND backup is important, as in the next section, you will be modifying it to install Unlaunch. In case it goes wrong, you can use a hardware modification of your system to restore it to a working state.
@@ -56,21 +68,20 @@ The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1
 {: .notice--info}
 
 ## Installing Unlaunch
+Unlaunch enables you you to run any DSi executable on your console & launch previously non-working flashcarts.
+
 1. Navigate your SD card using GodMode9i to find and launch `UNLAUNCH.DSI`.
 2. Navigate to `Install now`.
   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/faq)
 3. When completed, reboot (power down and power back on) your system in order to verify Unlaunch installed properly.
   - You should now see Unlaunch's management screen
 
-If you see Unlaunch's management screen, you have successfully installed Unalunch. With Unlaunch installed, your system now has primitive brick protection as well as a way to run unsigned applications without Memory Pit.
+If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
+- If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homebrew launcher, check the [FAQ](https://dsi.cfw.guide/faq#how-do-i-change-what-booting-my-console-boots-me-into-when-i-have-installed-unlaunch).
 
-By following this guide, you also now have a tool for backing up your system NAND (which is always helpful if you mess up) and a tool just like GodMode9 for the Nintendo 3DS.
-
-If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homebrew launcher, check the [FAQ](https://dsi.cfw.guide/faq#how-do-i-change-what-booting-my-console-boots-me-into-when-i-have-installed-unlaunch).
-{: .notice--info}
-
-You can now invert the change made to pit.bin (by either deleting or reverting if you have a backup of your previous pit.bin). You can also rename `BOOT.NDS` if it conflicts with any of your other homebrew. Unlaunch's installer is useful to keep onto the SD card in case you'd like to uninstall Unlaunch but you could always re-download it later. It's up to you if you'd like to keep the Unlaunch file there.
-{: .notice--info}
+- Keeping Memory Pit (`pit.bin`) is unnecessary since you now have a stabler way to launch Nintendo DSi Homebrew. You can now delete it or restore a backup to a pit.bin file you've made before.
+- Keeping GodMode9i is nice to have but is not a requirement. We recommend renaming it back to `GodMode9i.nds`, to prevent it from conflicting with other Nintendo DS homebrew you may come across.
+- Keeping Unlaunch's installer (`UNLAUNCH.DSI`) is not a requirement but recommended. You will need to use Unlaunch's installer to uninstall Unlaunch if you ever would like to revert your console back to stock
 
 ---
 

@@ -26,7 +26,7 @@ This page is for Windows users only. If you are not on windows, use [F3](f3-(lin
 4. Set your SD card's drive letter as your target.
 5. Ensure "all available space" is selected.
 6. Click "Write + Verify".
-- Wait until the process is completed
+- Wait until the process is completed.
 
 ___
 

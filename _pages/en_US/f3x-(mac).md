@@ -21,9 +21,8 @@ This page is for Mac users only. If you are not on Mac, use [H2testw](h2testw-(w
 ### Instructions
 
 1. Extract the F3X archive anywhere on your Mac.
-2. With your SD card inserted into your Mac, run the F3X app
+2. With your SD card inserted into your Mac, run the F3X app.
 3. Select your SD card and start the test.
-4. Press "Start Test"
 - Wait until the process is complete.
 
 ___

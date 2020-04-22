@@ -21,11 +21,11 @@ This page is for Linux users only. If you are not on Linux, use [H2testw](h2test
 ### Instructions
 
 1. Extract the F3 archive anywhere on your computer.
-2. `cd` into the f3 directory
-3. Run `make` to compile F3
-4. Insert your SD card into your computer
-5. Mount your SD card
-6. Run `./f3write <your sd card mount point>`
+2. Launch the terminal in the F3 directory.
+3. Run `make` to compile F3.
+4. Insert your SD card into your computer.
+5. Mount your SD card.
+6. Run `./f3write <your sd card mount point>`.
 - Wait until the process is complete. See below for an example output.
 
 		$ ./f3write /media/michel/6135-3363/
@@ -36,7 +36,7 @@ This page is for Linux users only. If you are not on Linux, use [H2testw](h2test
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-7. Run `./f3read <your sd card mount point>`
+7. Run `./f3read <your sd card mount point>`.
 - Wait until the process is complete. See below for an example output.
 
 		$ ./f3read /media/michel/6135-3363/

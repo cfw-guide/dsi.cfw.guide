@@ -5,7 +5,7 @@ redirect_from:
 ---
 {% include toc title="Table of Contents" %}
 
-## What are the SD card requirements?
+### What are the SD card requirements?
 You will need a FAT32-Formatted SD card formatted with a 32kb cluster size to follow this guide
 - Be sure to check your SD card for errors. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
 
