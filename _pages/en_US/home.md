@@ -44,5 +44,5 @@ This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. It rem
  - Be sure to check your SD card for errors. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
 - On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
 
-Get started by [installing Unlaunch](installing-unlaunch).
+Get started by [Installing Unlaunch](installing-unlaunch).
 {: .notice--info}
