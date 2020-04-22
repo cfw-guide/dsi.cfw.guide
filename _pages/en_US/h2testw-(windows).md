@@ -22,7 +22,7 @@ This page is for Windows users only. If you are not on windows, use [F3](f3-(lin
 
 1. Extract the h2testw archive anywhere on your computer.
 2. With your SD card inserted into your computer, run `h2testw.exe`.
-3. Select your prefered viewing Language.
+3. Select which language you'd like to see h2testw in.
 4. Set your SD card's drive letter as your target.
 5. Ensure "all available space" is selected.
 6. Click "Write + Verify".

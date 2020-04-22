@@ -13,7 +13,7 @@ This will make it easier for you to find the referenced files in the rest of thi
 #### Windows 10 / 8.1 / 8
 
 1. Launch File Explorer by opening any directory, such as your SD card directory.
-2. Click the "View" option on the ribbon menu .
+2. Click the "View" option on the ribbon menu.
 3. Check the box labeled "File name extensions".
 
     ![]({{ "/assets/images/windows-10-file-extensions.png" | absolute_url }})
