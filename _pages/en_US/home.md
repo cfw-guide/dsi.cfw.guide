@@ -34,10 +34,12 @@ This guide will install Unlaunch, a bootrom exploit for the Nintendo DSi. Unlaun
 ## What can I do by modding my system?
 
 - Redirect your NAND to the SD card
-- Use normally uncompatible flashcards
-- Boot into different applications by holding different buttons when turning on your Nintendo DSi.
-- Launch any DSiWare (out-of-region & 3DS exclusives) from your SD card (using unlaunch).
-- Run user-made homebrew applications.
+- Use normally incompatible flashcards
+- Boot into different homebrew applications by holding different buttons when turning on your Nintendo DSi.
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card.
+- Run Nintendo DS game backups natively on your DSi SD card without the need of a flashcard.
+- Watch your favorite movies using MPEG4Player.
+- Run old-time classics using a variety of emulators.
 - Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
 
 ## What should I know before starting?
