@@ -4,6 +4,8 @@ redirect_from:
   - help/faq
 ---
 
+{% include toc title="Navigation" %}
+
 Unlaunch is a bootloader stage 2 exploit, allowing the highest amount of control over SCFG (short for special configuration). This means that homebrew are able to take full advantage of the hardware, and this is all done immediately after boot.
 
 If you have not yet done so, please made a [NAND backup](dump-nand). Unlaunch modifies the NAND which could result in a brick if done improperly.
