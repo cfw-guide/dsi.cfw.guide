@@ -1,7 +1,9 @@
 ---
-title: Installing hiyaCFW
+title: hiyaCFW
 redirect_from:
   - /guide/installing-hiyacfw
+  - /guide/hiyacfw
+  - /installing-hiyacfw
 ---
 
 {% include toc title="Table of Contents" %}

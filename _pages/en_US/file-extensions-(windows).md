@@ -9,7 +9,6 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
 This will make it easier for you to find the referenced files in the rest of this guide.
 
 ### Instructions
-
 #### Windows 10 / 8.1 / 8
 
 1. Launch File Explorer by opening any directory, such as your SD card directory.
@@ -20,7 +19,6 @@ This will make it easier for you to find the referenced files in the rest of thi
     {: .notice--info}
 
 #### Windows 7
-
 1. Open the start menu by clicking on it or using the Windows key.
 2. Search for "Folder Options" and select the corresponding result.
 

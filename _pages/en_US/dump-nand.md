@@ -1,7 +1,5 @@
 ---
 title: NAND Backup
-redirect_from:
-  - /guide/installing-unlaunch
 ---
 
 A NAND backup is extremely critical to be taken. It is essentailly a restore point in case your DSi later messes up in the future (which might happen with a faulty Unlaunch installation). You'd also need it if you'd like to setup hiyaCFW and NO$GBA, both of which require files from the NAND backup.
