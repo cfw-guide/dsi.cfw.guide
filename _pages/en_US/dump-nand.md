@@ -10,7 +10,7 @@ A NAND backup is extremely critical to be taken. It is essentailly a restore poi
 2. Place `dumpTool.nds` anywhere on your SD card.
 3. Launch it using your Homebrew Launcher
   - If you come here from the Exploit Launch page, launch your exploit.
-  - If you have already installed Unlaunch, use Unlaunch's homebrew launcher by holding (A) + (B) on your system boot.
+  - If you have already installed Unlaunch, use Unlaunch's homebrew launcher by holding (A) + (B) on your system boot and selecting it in the menu.
 4. Follow the on-screen prompts.
   - This will take several minutes (around seven). Please be patient.
 5. Hit the `START` button on your Nintendo DSi to exit when it is completed.
