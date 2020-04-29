@@ -55,9 +55,6 @@ If your Nintendo DSi flashes magenta but the top screen turns green while the bo
 {: .notice--warning}
 
 ## Creating a NAND Backup
-The Nintendo DSi internal memory is commonly refered to as NAND. Taking a NAND backup is important, as in the next section, you will be modifying it to install Unlaunch. In case it goes wrong, you can use a hardware modification of your system to restore it to a working state.
-- A NAND backup is also required for hiyaCFW installation.
-
 1. Navigate your SD card using GodMode9i to find and launch `dumpTool.nds`.
 2. Follow the on-screen prompt to begin the NAND backup.
   - This will take several minutes (around seven). Please be patient.
@@ -66,6 +63,8 @@ The Nintendo DSi internal memory is commonly refered to as NAND. Taking a NAND b
 
 The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
 {: .notice--info}
+
+Store this NAND backup in a safe spot, one where you won't lose it. These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future.
 
 ## Installing Unlaunch
 1. Navigate your SD card using GodMode9i to find and launch `UNLAUNCH.DSI`.
@@ -80,15 +79,16 @@ If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homeb
 {: .notice--info}
 
 - Keeping Memory Pit (`pit.bin`) is unnecessary since you now have a stabler way to launch Nintendo DSi Homebrew. You can now delete it or restore a backup to a pit.bin file you've made before.
-- Keeping GodMode9i is nice to have but is not a requirement. We recommend renaming it back to `GodMode9i.nds`, to prevent it from conflicting with other Nintendo DS homebrew you may come across.
-- Keeping Unlaunch's installer (`UNLAUNCH.DSI`) is not a requirement but recommended. You will need to use Unlaunch's installer to uninstall Unlaunch if you ever would like to revert your console back to stock
+- Keeping GodMode9i is nice to have but is not a requirement. It can be used as an SD card manager and installing Unlaunch has allowed it to be used as a game cartridge dumper. If you choose to keep it, we recommend renaming it back to `GodMode9i.nds`, to prevent it from conflicting with other Nintendo DS homebrew you may come across.
+- Keeping Unlaunch's installer (`UNLAUNCH.DSI`) is not needed. The only functionality the current file has is uninstalling Unlaunch (in case you ever decide to revert your console back to stock), so we recommend removing it.
+  - If an unlaunch update ever comes, you'll need to use `UNLAUNCH.DSI` to install it. However, updates could only be distributed from donwloading a new `UNLAUNCH.DSI` so the current version wouldn't be useful other than uninstallation.
 
 ---
 
 There are two optional addons you can install now; hiyaCFW & TWiLight Menu++
 
-- TWiLightMenu++ is an open-source homebrew application that can act as a replacement to the Nintendo DSi System Menu. It provides a customizable unified interface for launching a variety of titles on your SD card.
-- hiyaCFW is a custom firmware allowing for System NAND to SD card redirection, allowing for easy installation of homebrew on your DSi Menu. You can setup a boot splash, where you can pick an image to display on system bootup.
+- TWiLightMenu++ is an open-source homebrew application that can act as a replacement to the Nintendo DSi System Menu. It provides a customizable unified interface for navigating your Nintenod DSi SD card to launch a variety of titles, including Nintendo DS and Gameboy Advance.
+- hiyaCFW is a custom firmware which redirects the System NAND to the SD card, allowing for easy installation of homebrew on your DSi System Menu. It also restores the Nintendo DSi Boot Splash and audio in the DSi Menu (which gets removed by Unlaunch). Customizable boot images can also be set, which will be displayed before your system.
 
 Installing one won't affect the install of the other; You can use both simultaneously. Additionally, there's an option in hiyaCFW helper (the tool used to help users install hiyaCFW) to install TWiLight Menu++.
 

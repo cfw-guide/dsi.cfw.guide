@@ -15,7 +15,7 @@ That implies an SD card error. Please make sure you have formatted your SD card 
 ### Why does Unlaunch freeze at `MISMATCH IN FAT COPIES`?
 twlnf has a critical bug that doesn't properly update the entire NAND after modifying it, which causes certain homebrew (like the Unlaunch installer) to throw an error. While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
-## How do I launch retail ROMs?
+### How do I launch retail ROMs?
 Retail ROMs are not able to be launched through Unlaunch alone, as Retail ROMs was made to be used by Slot-1. In order to run them from your SD card, you'll need to use nds-bootstrap, an application that can redirect Slot-1 reads to the SD card. There are multiple ways you could use it.
 - Download nds-bootstrap by itself and make constant changes to the configuration file. It isn't user friendly and won't work with soft-resets, but it works.
 - Use TWiLight Menu++ to navigate your SD card and launch the ROM files. It will make the edits necessary to the configuration file.
