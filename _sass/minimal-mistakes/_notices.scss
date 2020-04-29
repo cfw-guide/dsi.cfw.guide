@@ -13,12 +13,13 @@
 @mixin notice($notice-color) {
   margin: 2em 0 !important;  /* override*/
   padding: 1em;
-  color: #eaeaea;
+  color: $dark-gray;
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
-  background-color: $notice-color;
+  background-color: mix(#fff, $notice-color, 90%);
   border-radius: $border-radius;
+  box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
   h4 {
     margin-top: 0 !important; /* override*/
@@ -44,18 +45,20 @@
   }
 
   a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    color: $notice-color;
 
     &:hover {
-      color: mix(#fff, $notice-color, 70%);
+      color: mix(#000, $notice-color, 40%);
     }
   }
 
   code {
-    background-color: mix(#000, $notice-color, 35%)
+    background-color: mix(#fff, $notice-color, 95%)
   }
+
+	pre code {
+		background-color: inherit;
+	}
 
   ul {
     &:last-child {
@@ -67,13 +70,13 @@
 /* Default notice */
 
 .notice {
-  @include notice($default-color);
+  @include notice($light-gray);
 }
 
 /* Primary notice */
 
 .notice--primary {
-  @include notice($primary-notice-color);
+  @include notice($primary-color);
 }
 
 /* Info notice */
