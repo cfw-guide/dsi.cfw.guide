@@ -4,9 +4,7 @@ title: "File Extensions (Windows)"
 
 {% include toc title="Table of Contents" %}
 
-This is an add-on section for disabling Windows's default behavior of hiding file extensions.
-
-This will make it easier for you to find the referenced files in the rest of this guide.
+This is an add-on section for disabling Windows's default behavior of hiding file extensions, which will make finding referenced files in the guide much easier for you.
 
 ### Instructions
 #### Windows 10 / 8.1 / 8

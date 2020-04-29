@@ -8,9 +8,6 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-You will need [Unlaunch](/installing-unlaunch) installed before proceeding.
-{: .notice--primary}
-
 Do not system update after installing hiyaCFW. This will remove hiyaCFW's SD patches.
 {: .notice--danger}
 
@@ -51,8 +48,7 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 
 Your system will now boot from the SD card instead of the internal NAND.
 
-
-### "An Error Has Occurred"
+### Section III - "An Error Has Occurred"
 Unfortunately, the DSi System Menu was not built with the amount of free space the "NAND" has in mind. It uses a signed 32-bit integer, meaning that after 2GB, it will jump to a negative free space number. This is fine for the NAND, since it will never go over 128 MB. However, this is a problem when we redirect the NAND using hiyaCFW. Fortunately, this is easy to fix. After a certain point, the negative number becomes a positive, so you just want to keep that free space number always at a positive number.
 
 The simplest way to do so is to simply fill up your SD card so that your free space value is less than 2GB. However, every other range of two gigabytes works, so 0GB-2GB free is fine, while 2GB-4GB is not.
@@ -65,8 +61,8 @@ If your SD needs less free space, you can easily fill it with dummy files. Liste
 
 Fill it up until the website says that it will work.
 
-<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" onchange="updateWillWork()">
-Your SD<span id="willWork">...</span><noscript>is unable to be checked due to JavaScript being disabled. Please enable it and try again</noscript>
+<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" oninput="updateWillWork()">
+Your SD card<span id="willWork">...</span><noscript>is unable to be checked due to JavaScript being disabled. Please enable it in your web browser and try again.</noscript>
 
 <script>
 function updateWillWork() {
