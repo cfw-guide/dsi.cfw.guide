@@ -16,10 +16,11 @@ This page is for Mac users only. If you are not on Mac, use [H2testw](h2testw-(w
 
 ### Instructions
 
-1. Extract the F3X archive anywhere on your Mac.
-2. With your SD card inserted into your Mac, run the F3X app.
-3. Select your SD card and start the test.
-- Wait until the process is complete.
+1. Download [the latest release of F3X](https://github.com/insidegui/F3X/releases/latest).
+2. Extract the F3X archive anywhere on your Mac.
+3. With your SD card inserted into your Mac, run the F3X app.
+4. Select your SD card and start the test.
+- Wait until the process is complete. Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 
 ___
 

@@ -41,6 +41,8 @@ You now have the ability to launch into [hiyaCFW](installing-hiyacfw), a custom 
   - (A) & (B) are hardcoded to open Unlaunch's menu; you can't change that.
 3. Navigate to the application you'd like to launch when you hold that button (or no button).
   - If it's a file on your SD card, the file name should appear on the bottom screen.
+    - Set it to `boot.nds` if you come from the TWiLight Menu++ page.
+    - Set it to `hiya.dsi` if you come from the hiyaCFW page.
   - To get the normal DSi Menu back, select "Launcher".
 
 ### Uninstalling
