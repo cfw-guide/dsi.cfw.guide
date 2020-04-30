@@ -10,7 +10,7 @@ If you like what they have done, consider donating (if they have a donation link
 
 {% capture notice-1 %}
 - [emiyl](https://www.paypal.me/emiyl): Original Guide Maintainer, owner of cfw.guide
-- [NightScript](https://www.paypal.me/maorninja): Rewrote the guide website.
+- [NightScript](https://www.paypal.me/maorninja): New guide maintainer.
 - Halvorsen: Provided an image of their Nintendo DSi to be used on the home page.
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits.
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew Tools & forked Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions).

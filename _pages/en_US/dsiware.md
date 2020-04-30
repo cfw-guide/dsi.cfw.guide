@@ -9,8 +9,8 @@ redirect_from:
 ---
 
 ## Requirements
-- The latest release of [maketmd](https://github.com/Tuxality/maketmd/releases){:target="_blank"} (if you're trying to convert a .app to a .tmk)
-- The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases){:target="_blank"}
+- The latest release of [maketmd](https://github.com/Tuxality/maketmd/releases/latest){:target="_blank"} (if you're trying to convert a .app to a .tmk)
+- The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}
 - A Nintendo DSi console with [Unlaunch](/unlaunch) installed
 
 ## Identifying the path to the .app file

@@ -7,16 +7,11 @@ This is an add-on section for checking your SD card for errors using h2testw.
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-This page is for Windows users only. If you are not on windows, use [F3](f3-(linux)) for Linux or [F3X](f3x-(mac)) for Mac.
+This page is for Windows users only. If you are not on windows, use [F3](f3).
 {: .notice--warning}
 
-### What You Need
-
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-
-### Instructions
-
-1. Extract the h2testw archive anywhere on your computer.
+1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
+  - It can also be extracted on an external device as long as that external device isn't your SD card.
 2. With your SD card inserted into your computer, run `h2testw.exe`.
 3. Select which language you'd like to see h2testw in.
 4. Set your SD card's drive letter as your target.

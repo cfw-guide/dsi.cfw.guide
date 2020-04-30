@@ -33,11 +33,13 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 - Run Nintendo DS game backups natively on your DSi SD card without the need of a flashcard.
 - Watch your favorite movies using MPEG4Player.
 - Run old-time classics using a variety of emulators.
+- Emulate the DS Memory Pak for software that requires it
 - Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
+- Display an image (refered to as the boot splash) on system launch.
 
 ## What should I know before starting?
 
-- Installing Unlaunch modifies your NAND, which could easily result in a brick if not done properly.
+- Installing Unlaunch modifies your NAND, which could potentially (but rarely has) result in a brick.
   - While Unlaunch is optional, it does give the benefit of homebrew launching on boot amongst other things.
 - Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
 - The recommended exploit is Memory Pit, which exploits a flaw in the Nintendo DSi Camera application. It is a pre-installed application so this exploit will work for all retail systems, regions and firmware versions.
