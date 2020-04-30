@@ -13,7 +13,8 @@ redirect_from:
 - The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}
 - A Nintendo DSi console with [Unlaunch](/unlaunch) installed
 
-## Identifying the path to the .app file
+## Main Instructions
+### Identifying the path to the .app file
 1. Boot your Nintendo DSi console by holding **(A) & (B)**
 2. Identify your application in the list.
    - A light green entry means that they are installed to NAND.
@@ -23,8 +24,7 @@ When you hover over the entry, the bottom screen should show the path. Take note
 An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 {: .notice--info}
 
-## Extracting the file
-
+### Extracting the file
 1. Launch GodMode9i.
 2. Navigate to SYSNAND, then navigate through the path you took note of above.
 3. Highlight the file, then hit Y to copy.
@@ -35,8 +35,8 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 
 You should now either see the .app in TWiLight Menu++ or in your home menu if you use hiyaCFW.
 
-## Converting 3DS DSiWare Dumps (.app) to an installable format (title.tmd)
-
+## Add-on instructions
+### Converting 3DS DSiWare Dumps (.app) to an installable format (title.tmd)
 1. Copy *the contents of* the maketmd `.zip` file to a folder on your PC
 2. Open the dumped folder on your PC containing your DSiWare
 3. Navigate to `content`

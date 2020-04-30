@@ -20,7 +20,7 @@ Retail ROMs are not able to be launched through Unlaunch alone, as Retail ROMs w
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
 
-### How do I setup a new SD card?
+### How do I setup a new SD card from square one?
 - If you have not installed Unlaunch, start the guide from the beginning.
 - If you have installed Unlaunch, simply follow Section 1b of [Launching the Exploit](exploit-launch). This will restore TWiLight Menu++ for you.
 
