@@ -61,19 +61,18 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 
 ### Section I - Determining which slot your SD card is in
 
-1. Make sure your SD card is **not** inserted.
-2. Launch the Linux Terminal
-3. Type `watch "dmesg | tail -10"`
-4. Insert your SD card into your PC.
+1. Make sure your SD card is **not** inserted into your Linux machine.
+2. Launch the Linux Terminal.
+3. Type `watch "lsblk"`.
+4. Insert your SD card into your Linux machine.
 5. Observe the output. It should match something like this:
 ```
-[11599.200739] sd 3:0:0:0: [sdc] 7744512 512-byte logical blocks: (3.96 GB/3.69
-GiB)
-[11599.204630] sd 3:0:0:0: [sdc] Assuming drive cache: write through
-[11599.210491] sd 3:0:0:0: [sdc] Assuming drive cache: write through
-[11599.210495]  sdc:
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+mmcblk0     179:0    0   3,8G  0 disk
+└─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-6. Take note of the device mount point. In our example above, it was `sdc`.
+6. Take note of the device mount point. In our example above, it was `mmcblk0`.
+  - If `RO` is set to 1, make sure the lock switch is not slid down.
 7. Hit CTRL + C to exit the menu.
 
 ### Section II - Formatting the card
