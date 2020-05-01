@@ -8,6 +8,8 @@ redirect_from:
   - installing-dsiware
 ---
 
+{% include toc title="Instructions" %}
+
 ## Requirements
 - The latest release of [maketmd](https://github.com/Tuxality/maketmd/releases/latest){:target="_blank"} (if you're trying to convert a .app to a .tmk)
 - The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}

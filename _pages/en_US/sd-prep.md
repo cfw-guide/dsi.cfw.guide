@@ -2,6 +2,8 @@
 title: SD card preparations
 ---
 
+{% include toc title="Instructions" %}
+
 This is a subset of the main guide, to teach users how to prepare the SD card for following the guide. In the process, we'll format the SD card to a format suitable for the Nintendo DSi & checking for errors in the card.
 
 Make sure to backup your SD card contents BEFORE following this. Your SD Card will be WIPED in the process.
@@ -76,7 +78,7 @@ GiB)
 
 ### Section II - Formatting the card
 
-![](https://en.wikipedia.org/wiki/Cfdisk#/media/File:Cfdisk_screenshot.png)
+![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
 
 1. Type in `sudo cfdisk /dev/(device mount point from above)`.
 2. On each partition, hit `Delete`.
