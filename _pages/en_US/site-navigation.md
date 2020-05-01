@@ -20,7 +20,7 @@ sitemap: false
 + [Dumping and installing DSiWare](dsiware)
 + [Dumping cartridges](dump-cart)
 + [File Extensions (Windows)](file-extensions-(windows))
-+ [SD card setup](sd-setup)
++ [SD card setup](sd-prep)
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
