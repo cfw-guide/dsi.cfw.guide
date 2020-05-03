@@ -1,37 +1,39 @@
 /*
-GreedyNav.js - https://github.com/lukejacksonn/GreedyNav
+GreedyNav.js - http://lukejacksonn.com/actuate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2015 Luke Jackson
 */
 
-$(document).ready(function(){
+$(function() {
 
 	var $btn1 = $('nav.greedy-nav button.greedy-nav__toggle');
 	var $btn2 = $('nav.greedy-nav button.langsel');
 	var $vlinks = $('nav.greedy-nav .visible-links');
 	var $hlinks1 = $('nav.greedy-nav .hidden-links.links-menu');
 	var $hlinks2 = $('nav.greedy-nav .hidden-links.lang-menu');
-
+  
 	var numOfItems = 0;
 	var totalSpace = 0;
+	var closingTime = 1000;
 	var breakWidths = [];
-
+  
 	// Get initial state
 	$vlinks.children().outerWidth(function(i, w) {
 	  totalSpace += w;
 	  numOfItems += 1;
 	  breakWidths.push(totalSpace);
 	});
-
-	var availableSpace, numOfVisibleItems, requiredSpace;
-
+  
+	var availableSpace, numOfVisibleItems, requiredSpace, timer1, timer2;
+  
 	function check() {
+  
 	  // Get instant state
-	  availableSpace = $vlinks.width() - $btn1.width() - $btn2.width();
+	  availableSpace = $vlinks.width() - $btn1.width() - $btn2.width() - $('nav.greedy-nav .site-title').width();
 	  numOfVisibleItems = $vlinks.children().length;
 	  requiredSpace = breakWidths[numOfVisibleItems - 1];
   
-	  // There is not enough space
+	  // There is not enought space
 	  if (requiredSpace > availableSpace) {
 		$vlinks.children().last().prependTo($hlinks1);
 		numOfVisibleItems -= 1;
@@ -44,42 +46,40 @@ $(document).ready(function(){
 	  }
 	  // Update the button accordingly
 	  $btn1.attr("count", numOfItems - numOfVisibleItems);
-	  if (numOfVisibleItems === numOfItems) {
+	  if (numOfVisibleItems === numOfItems)
 		$btn1.addClass('hidden');
-	  } else {
-		$btn1.removeClass('hidden');
-	  }
+	  else
+	  	$btn1.removeClass('hidden');
 	}
   
 	// Window listeners
-	$(window).resize(function() {
-	  check();
-	});
-  
-	$btn1.on('click', function() {
-	  if($hlinks1.is(":visible")){
-		$hlinks1.addClass('hidden');
-		$(this).removeClass('close');
-	  } else {
-		$hlinks1.removeClass('hidden');
-		$(this).addClass('close');
-		$hlinks2.addClass('hidden');
-		$btn2.removeClass('close');
-	  }
-	});
-  
-	$btn2.on('click', function() {
-	  if($hlinks2.is(":visible")){
-		$hlinks2.addClass('hidden');
-		$(this).removeClass('close');
-	  } else {
-		$hlinks2.removeClass('hidden');
-		$(this).addClass('close');
-		$hlinks1.addClass('hidden');
-		$btn1.removeClass('close');
-	  }
-	});
-  
 	check();
+	$(window).resize(function() { check() });
+
+	$btn1.on('click', function() {
+	  $hlinks1.toggleClass('hidden');
+	  clearTimeout(timer1);
+	});
   
+	$hlinks1
+		.on('mouseleave', function () { timer1 = setTimeout(function () {$hlinks1.addClass('hidden'), closingTime}) })
+		.on('mouseenter', function () { clearTimeout(timer1) });
+
+	$btn2.on('click', function() {
+		$hlinks2.toggleClass('hidden');
+		clearTimeout(timer2);
+	});
+
+	$hlinks2
+		.on('mouseleave', function () { timer2 = setTimeout(function () {$hlinks2.addClass('hidden'), closingTime}) })
+		.on('mouseenter', function () { clearTimeout(timer2) });
+
+	// close when clicking somewhere else
+	$('body').click(function(e) {
+	  if($(e.target).closest('nav.greedy-nav').length === 0) {
+		$hlinks1.addClass('hidden');
+		$hlinks2.addClass('hidden');
+	  }
+	});
   });
+  

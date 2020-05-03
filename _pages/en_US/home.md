@@ -32,9 +32,9 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 
 **Custom Firmware** ("CFW") is a modified version of the original firmware that extends functionality and makes improvements to certain aspects. For instance, custom slot-1 code allows for creating dumps and run previously blocked flashcarts. You can also run advanced hombrew directly from boot and change which homebrew gets launched under which button conditions you hold.
 
-The Custom Firmware of choice for the Nintendo DSi is Unlaunch, a bootrom exploit for the Nintendo DSi. You can also install hiyaCFW, a homebrew which redirects the System NAND to the SD card. This allows for custom homebrew on your Nintendo DSi Menu without any of the risks involved.
+Custom Firmware on a Nintendo DSi needs to be launched by a bootrom exploit, which is why we use Unlaunch. From there, you can install hiyaCFW, an aforementioned CFW which redirects the System NAND to the SD card, dubbed "SDNAND." This allows for custom homebrew, and new DSiWare on your Nintendo DSi Menu without any of the risks involved.
 
-The benefits of Unlaunch over other homebrew launch methods are numerous and as such, it is recommended to use this guide over any other that relies on outdated software (such as sudokuhax, hbmenu & hardmodding).
+The benefits of Unlaunch + hiyaCFW over other homebrew launch methods are numerous and as such, it is recommended to use this guide over any other that relies on outdated software (such as sudokuhax, hbmenu & hardmodding).
 
 The only requirement to installing Custom Firmware is to make sure you can access homebrew, which we will get to in the guide.
 
@@ -54,7 +54,7 @@ The only requirement to installing Custom Firmware is to make sure you can acces
 ## What should I know before starting?
 
 - Installing Unlaunch modifies your NAND, which could potentially (but rarely has) result in a brick.
-  - While Unlaunch is optional, it does give the benefit of homebrew launching on boot amongst other things.
+  - While Unlaunch isn't a mandatory install, we will be going through the process of installing it. If you don't want to, stop after taking a NAND backup.
 - Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
 - On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
 
