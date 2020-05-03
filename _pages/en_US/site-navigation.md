@@ -5,17 +5,30 @@ sitemap: false
 ---
 
 {% capture primary-notice %}
-+ [Home](/)
-+ [FAQ](faq)
-+ [Installing Unlaunch](installing-unlaunch)
-+ [Using Flipnote Lenny](flipnote-lenny)
-+ [Installing HiyaCFW](installing-hiyacfw)
-+ [Installing TWiLight Menu++](installing-twilight-menu++)
-+ [Dumping & Installing DSiWare](dsiware)
-+ [F3 (Linux)](f3-(linux))
-+ [F3X (Mac)](f3x-(mac))
+**Main guide process**
+
++ [Exploit Launch](exploit-launch)
++ [Dumping your NAND](dump-nand)
++ [Unlaunch Setup](unlaunch)
++ [hiyaCFW](hiyaCFW)
+{% endcapture %}
+<div class="notice--primary">{{ primary-notice | markdownify }}</div>
+
+{% capture second-notice %}
+**Add-on sections**
+
++ [Dumping and installing DSiWare](dsiware)
++ [Dumping cartridges](dump-cart)
 + [File Extensions (Windows)](file-extensions-(windows))
-+ [H2testw (Windows)](h2testw-(windows))
++ [SD card setup](sd-prep)
+{% endcapture %}
+<div class="notice--info">{{ second-notice | markdownify }}</div>
+
+{% capture other-notice %}
+**Other website pages**
+
++ [Home](home)
++ [FAQ](faq)
 + [Credits](credits)
 {% endcapture %}
-<div class="notice">{{ primary-notice | markdownify }}</div>
+<div class="notice">{{ other-notice | markdownify }}</div>

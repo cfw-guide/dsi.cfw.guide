@@ -22,7 +22,21 @@ This guide is not compatible with Nintendo DSi development consoles.
 
 Homebrew applications are unlicensed software made for closed systems such as the Nintendo DSi. This can include save editors, games, emulators and more.
 
-Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region.
+Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The entry point we'll use is Memory Pit, but there are other entry points you could use if Memory Pit is unusable.
+
+- Memory Pit is an exploit for the Nintendo DSi Camera that works across all regions and firmwares, but it requires access to the SD card library on your Nintendo DSi. We will determine whether you can access it in the next page.
+- Flipnote Lenny is an exploit for Flipnote Studio that works across all regions and firmwares, but it requires Flipnote Studio. There is no way for new systems to get this application now that the Nintendo DSi Shop has been taken down, but most systems have this application preinstalled.
+- There are other save exploits usable on lower firmwares. You can use it when the time comes.
+
+## What is Custom Firmware?
+
+**Custom Firmware** ("CFW") is a modified version of the original firmware that extends functionality and makes improvements to certain aspects. For instance, custom slot-1 code allows for creating dumps and run previously blocked flashcarts. You can also run advanced hombrew directly from boot and change which homebrew gets launched under which button conditions you hold.
+
+Custom Firmware on a Nintendo DSi needs to be launched by a bootrom exploit, which is why we use Unlaunch. From there, you can install hiyaCFW, an aforementioned CFW which redirects the System NAND to the SD card, dubbed "SDNAND." This allows for custom homebrew, and new DSiWare on your Nintendo DSi Menu without any of the risks involved.
+
+The benefits of Unlaunch + hiyaCFW over other homebrew launch methods are numerous and as such, it is recommended to use this guide over any other that relies on outdated software (such as sudokuhax, hbmenu & hardmodding).
+
+The only requirement to installing Custom Firmware is to make sure you can access homebrew, which we will get to in the guide.
 
 ## What can I do by modding my system?
 
@@ -33,15 +47,15 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 - Run Nintendo DS game backups natively on your DSi SD card without the need of a flashcard.
 - Watch your favorite movies using MPEG4Player.
 - Run old-time classics using a variety of emulators.
-- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
+- Emulate the DS Memory Pak for software that requires it.
+- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND.
+- Display an image (refered to as the boot splash) on system launch.
 
 ## What should I know before starting?
 
-- Installing Unlaunch modifies your NAND, which could easily result in a brick if not done properly.
-  - While Unlaunch is optional, it does give the benefit of homebrew launching on boot amongst other things.
+- Installing Unlaunch modifies your NAND, which could potentially (but rarely has) result in a brick.
+  - While Unlaunch isn't a mandatory install, we will be going through the process of installing it. If you don't want to, stop after taking a NAND backup.
 - Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
-- The recommended exploit is Memory Pit, which exploits a flaw in the Nintendo DSi Camera application. It is a pre-installed application so this exploit will work for all retail systems, regions and firmware versions.
-  - However, if Memory Pit is unusable on your Nintendo DSi, there are other exploits available depending on which DSiWare software you have installed on your system.
 - On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
 
 Get started by [Launching your Exploit](exploit-launch).
