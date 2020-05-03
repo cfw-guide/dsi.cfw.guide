@@ -1,5 +1,5 @@
 ---
-title: DSiWare
+title: DSiWare (Dump and Install)
 redirect_from:
   - more/dumping-dsiware-from-3ds
   - more/dumping-dsiware
