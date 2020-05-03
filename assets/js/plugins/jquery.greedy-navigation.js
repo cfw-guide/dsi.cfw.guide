@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 	function check() {
 	  // Get instant state
-	  availableSpace = $vlinks.width() - $btn.width();
+	  availableSpace = $vlinks.width() - $btn1.width() - $btn2.width();
 	  numOfVisibleItems = $vlinks.children().length;
 	  requiredSpace = breakWidths[numOfVisibleItems - 1];
   
