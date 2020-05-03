@@ -20,7 +20,7 @@ hiyaCFW has several advantages that an Unlaunch-only system will not. These incl
 - A Nintendo DSi with [Unlaunch](unlaunch)
 - A [NAND backup](nand-dump) taken from your device, with the NO$GBA Footer
   - dumpTool will create this footer automatically when it makes a backup
-  - If you followed the guide, you should already have one. If you do not, creating one at this point would work.
+  - You could use the NAND dump created during the guide, or create one now at this point in time.
 - The latest version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"}
   - Windows users are recommended to use the compiled `.exe` binary + the latest version of [7-Zip](https://www.7-zip.org/download.html){:target="_blank"}
   - Users of other operating systems could use the source code file `.py` (requires [Python 3](https://www.python.org/downloads/){:target="_blank"} with the Tk library)

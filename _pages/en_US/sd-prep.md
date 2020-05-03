@@ -1,5 +1,9 @@
 ---
 title: SD card preparations
+redirect_from:
+  - /f3-(linux)
+  - /h2testw-(windows)
+  - /f3x-(mac)
 ---
 
 {% include toc title="Instructions" %}

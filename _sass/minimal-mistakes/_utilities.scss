@@ -385,7 +385,7 @@ body:hover .visually-hidden button {
   }
 }
 
-.greedy-nav__toggle {
+.greedy-nav__toggle, .langsel {
   &:before {
     @supports (pointer-events: none) {
       content: '';
