@@ -39,7 +39,8 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links links-menu hidden"></ul>
-        <ul class="lang-menu hidden">
+        <button class="langsel"><div class="langicon"><i class="fas fa-language fa-lg" aria-hidden="true"></i></div></button>
+        <ul class="hidden-links lang-menu hidden">
 			{% assign split_url = page.url | split: "/" %}
 			{% if split_url.size == 3 %}
 			  {% assign langless_url = split_url[2] %}
@@ -83,7 +84,6 @@
 			<!-- <li class="masthead__menu-item"><a href="{{ site.url }}/cs_CZ/{{ langless_url }}">Čeština</a></li> -->
 			<!-- <li class="masthead__menu-item"><a href="{{ site.url }}/en_PT/{{ langless_url }}">Pirate English</a></li> -->
 		  </ul>
-		  <button class="langsel"><div class="langicon"><i class="fas fa-language fa-lg" aria-hidden="true"></i></div></button>
       </nav>
     </div>
   </div>
