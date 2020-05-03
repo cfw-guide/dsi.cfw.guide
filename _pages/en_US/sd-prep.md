@@ -120,8 +120,8 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 - If your SD card dumps had Nintendo DSi modding done to it, feel free to restore it and continue onwards. There is no special way of restoring it.
 - If your SD card was fresh and you'd like to get started, there are different steps you'd need to follow:
-  - **Unlaunch + hiyaCFW users**: Follow Section 1b of [Launching the Exploit](exploit-launch), then refollow the [hiyaCFW](hiyacfw) setup.
-  - **Unlaunch**: Follow Section 1b of [Launching the Exploit](exploit-launch)
+  - **Unlaunch + hiyaCFW users**: Follow Section 1b of [Launching the Exploit](exploit-launch#section-ib---twilight-menu++), then refollow the [hiyaCFW](hiyacfw) setup.
+  - **Unlaunch**: Follow Section 1b of [Launching the Exploit](exploit-launch#section-ib---twilight-menu++)
   - **No Unlaunch**: Start from the beginning of the guide and follow through.
 
 <script>

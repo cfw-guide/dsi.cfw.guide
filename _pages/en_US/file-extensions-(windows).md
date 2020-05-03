@@ -2,12 +2,11 @@
 title: "File Extensions (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="OS" %}
 
 This is an add-on section for disabling Windows's default behavior of hiding file extensions, which will make finding referenced files in the guide much easier for you.
 
-### Instructions
-#### Windows 10 / 8.1 / 8
+## Windows 10 / 8.1 / 8 users
 
 1. Launch File Explorer by opening any directory, such as your SD card directory.
 2. Click the "View" option on the ribbon menu.
@@ -16,7 +15,7 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
     ![]({{ "/assets/images/windows-10-file-extensions.png" | absolute_url }})
     {: .notice--info}
 
-#### Windows 7
+## Windows 7 users
 1. Open the start menu by clicking on it or using the Windows key.
 2. Search for "Folder Options" and select the corresponding result.
 

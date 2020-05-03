@@ -17,10 +17,11 @@ sitemap: false
 {% capture second-notice %}
 **Add-on sections**
 
-+ [Dumping and installing DSiWare](dsiware)
-+ [Dumping cartridges](dump-cart)
-+ [File Extensions (Windows)](file-extensions-(windows))
 + [SD card setup](sd-prep)
++ [File Extensions (Windows)](file-extensions-(windows))
++ [Dumping cartridges](dump-cart)
++ [Dumping and installing DSiWare](dsiware)
++ [nds-bootstrap forwarders for hiyaCFW](forwarder)
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 

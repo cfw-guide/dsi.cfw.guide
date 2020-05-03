@@ -32,7 +32,7 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 3. Highlight the file, then hit Y to copy.
    - Which file you use depends on your use case. For hiyaCFW, use the `.tmd`. Otherwise, use the `.app`
 4. Navigate your SD card to where you'd like to place the file
-   - For hiyaCFW usage, it'll be in `/title/00030004`
+   - For hiyaCFW usage, it'll be in `/title/00030004`.
 5. Hit Y to paste the file.
 
 You should now either see the .app in TWiLight Menu++ or in your home menu if you use hiyaCFW.

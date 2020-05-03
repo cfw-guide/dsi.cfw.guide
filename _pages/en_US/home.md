@@ -30,9 +30,9 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 
 ## What is Custom Firmware?
 
-**Custom Firmware** ("CFW") is a modified version of the original firmware that extends functionality and makes improvements to certain aspects. For instance, custom slot-1 code allows for creating dumps and run previously blocked flashcarts. You can also run advanced hombrew directly from boot and change which homebrew gets launched under which button conditions you hold.
+**Custom Firmware** ("CFW") is a modified version of the original firmware that extends functionality and makes improvements to certain aspects. For instance, custom slot-1 code allows for creating dumps and run previously blocked flashcarts. You can also run advanced homebrew directly from boot and change which homebrew gets launched under which button conditions you hold.
 
-Custom Firmware on a Nintendo DSi needs to be launched by a bootrom exploit, which is why we use Unlaunch. From there, you can install hiyaCFW, an aforementioned CFW which redirects the System NAND to the SD card, dubbed "SDNAND." This allows for custom homebrew, and new DSiWare on your Nintendo DSi Menu without any of the risks involved.
+Custom Firmware on a Nintendo DSi needs to be launched via a bootrom exploit, which is why we use Unlaunch. From there, you can install hiyaCFW, an aforementioned CFW which redirects the System NAND to the SD card, dubbed "SDNAND." This allows for custom homebrew, and new DSiWare on your Nintendo DSi Menu without any of the risks involved.
 
 The benefits of Unlaunch + hiyaCFW over other homebrew launch methods are numerous and as such, it is recommended to use this guide over any other that relies on outdated software (such as sudokuhax, hbmenu & hardmodding).
 

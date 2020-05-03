@@ -57,8 +57,11 @@ $(function() {
 	$(window).resize(function() { check() });
 
 	$btn1.on('click', function() {
-	  $hlinks1.toggleClass('hidden');
-	  clearTimeout(timer1);
+		$hlinks1.toggleClass('hidden');
+		if (!$hlinks2.hasClass('hidden'))
+			$hlinks2.addClass('hidden');
+
+		clearTimeout(timer2);
 	});
   
 	$hlinks1
@@ -67,7 +70,10 @@ $(function() {
 
 	$btn2.on('click', function() {
 		$hlinks2.toggleClass('hidden');
-		clearTimeout(timer2);
+		if (!$hlinks1.hasClass('hidden'))
+			$hlinks1.addClass('hidden');
+
+		clearTimeout(timer1);
 	});
 
 	$hlinks2
@@ -76,10 +82,11 @@ $(function() {
 
 	// close when clicking somewhere else
 	$('body').click(function(e) {
-	  if($(e.target).closest('nav.greedy-nav').length === 0) {
+		if ($(e.target).closest('nav.greedy-nav').length !== 0)
+			return;
+
 		$hlinks1.addClass('hidden');
 		$hlinks2.addClass('hidden');
-	  }
 	});
   });
   
