@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/home-page-feature.png
   overlay_filter: 0.5
   caption:
-excerpt: "The complete guide to modding your Nintendo DSi."
+excerpt: "The complete guide to modding your Nintendo DSi,<br> from stock to CFW."
 ---
 
 Thoroughly read all of the introductory pages **(including this one)** before proceeding.
