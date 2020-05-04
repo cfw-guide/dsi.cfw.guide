@@ -13,5 +13,8 @@ Retail ROMs are not able to be launched through Unlaunch alone, as Retail ROMs w
 - hiyaCFW users can create [forwarders](forwarder) for the DSi System Menu, but it is limited to 40 title and involves more steps than drag and drop.
 - TWiLight Menu++ can navigate your SD card to discover and launch your ROM files. This has the benefit of no 40 title limit, drop and play (no conversion required), and no Unlaunch requirement.
 
+Keep in mind that we would prefer if you [dumped these carts using GodMode9i](dump-cart). We do not support software piracy, and please do not go asking us how to get you free games.
+- If you are unsure what piracy is, there is a good writeup on the [eiphax](https://3ds.eiphax.tech/piracy.html) website.
+
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.

@@ -49,11 +49,12 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 Your system will now boot from the SD card instead of the internal NAND.
 
 ### Section III - "An Error Has Occurred"
-Unfortunately, the DSi System Menu was not built with the amount of free space the "NAND" has in mind. It uses a signed 32-bit integer, meaning that after 2GB, it will jump to a negative free space number. This is fine for the NAND, since it will never go over 128 MB. However, this is a problem when we redirect the NAND using hiyaCFW. Fortunately, this is easy to fix. After a certain point, the negative number becomes a positive, so you just want to keep that free space number always at a positive number.
-
-The simplest way to do so is to simply fill up your SD card so that your free space value is less than 2GB. However, every other range of two gigabytes works, so 0GB-2GB free is fine, while 2GB-4GB is not.
+If you receive this screen, it means you have too much free space on your SD card. The amount of free space compatible goes by every other range of two gigabytes. For example, 0-2 GB worth of free space works while 2-4 GB doesn't.
 
 Enter the free space on your SD in the box below, press enter, and it will tell you if your SD has a working amount of free space. (Javascript required for it to work)
+
+<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" oninput="updateWillWork()">
+Your SD card<span id="willWork">...</span><noscript>is unable to be checked due to JavaScript being disabled. Please enable it in your web browser and try again.</noscript>
 
 If your SD needs less free space, you can easily fill it with dummy files. Listed below are command prompt/terminal commands that will make 1GB worth of dummy files.
  - Windows: `fsutil file createnew dummy0 1073741824`
@@ -61,8 +62,7 @@ If your SD needs less free space, you can easily fill it with dummy files. Liste
 
 Fill it up until the website says that it will work.
 
-<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" oninput="updateWillWork()">
-Your SD card<span id="willWork">...</span><noscript>is unable to be checked due to JavaScript being disabled. Please enable it in your web browser and try again.</noscript>
+The reason this happens is due to the way the Nintendo DSi System Menu was made. It uses a signed 32-bit integer, which means once an overflow occurs, it will jump to a negative number of free space. This causes the Nintendo DSi System Menu to freak out, resulting in an "An error has occured" screen. This was never intended by the developers, since the NAND never exceeded 128 MB. However, by using hiyaCFW, the NAND space is now determined by an exterior factor (your SD card), which can vary in size, resulting in this od behavior.
 
 <script>
 function updateWillWork() {

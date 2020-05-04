@@ -33,7 +33,6 @@ You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware wh
 {: .notice-info}
 
 ### Switching button booting combination
-
 1. Power on your DSi while holding **(A)** & **(B)**.
 2. Pick which button configuration you'd like to change in the `OPTIONS` menu.
   - (A) & (B) are hardcoded to open Unlaunch's menu; you can't change that.
@@ -44,8 +43,7 @@ You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware wh
   - To get the normal DSi Menu back, select "Launcher".
 
 ### Uninstalling
-
-This may **result in a brick** if you have installed any non-legit DSiWare to your system NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise messed with system files.
+This may **result in a brick** if you have installed any non-legit DSiWare to your system NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise tampered with system files.
 {: .notice--danger}
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
@@ -64,5 +62,5 @@ If you see Unlaunch's management screen at this point, you have successfully mod
 twlnf has a critical bug that doesn't properly update the entire NAND after modifying it, which causes certain homebrew (like the Unlaunch installer) to throw an error. While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
 ### I do not get any audio in my DSi Menu, nor do I have a boot splash when using Unlaunch
-That is intentional. If you'd like to get those features back, [install hiyaCFW](installing-hiyacfw).
+That is intentional. If you'd like to get those features back, install [hiyaCFW](hiyacfw).
 
