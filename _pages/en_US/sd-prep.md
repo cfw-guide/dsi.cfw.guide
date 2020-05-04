@@ -6,8 +6,6 @@ redirect_from:
   - /f3x-(mac)
 ---
 
-{% include toc title="Instructions" %}
-
 This is a subset of the main guide, to teach users how to prepare the SD card for following the guide. In the process, we'll format the SD card to a format suitable for the Nintendo DSi & checking for errors in the card.
 
 Make sure to backup your SD card contents BEFORE following this. Your SD Card will be WIPED in the process.
@@ -19,9 +17,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 
 {% capture memoryPitInstructions %}
 ## Windows
-
 ### Section I - Formatting your SD card
-
 ![](http://www.ridgecrop.demon.co.uk/guiformat.png)
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
@@ -33,7 +29,6 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 6. Start the format process.
 
 ### Section II - Checking for errors
-
 1. Go to the properties window of your SD card.
   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`.
 2. In the tools tab, Select "Check Now".
@@ -62,9 +57,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 
 {% capture flipnoteLennyInstructions %}
 ## Linux
-
 ### Section I - Determining which slot your SD card is in
-
 1. Make sure your SD card is **not** inserted into your Linux machine.
 2. Launch the Linux Terminal.
 3. Type `watch "lsblk"`.
@@ -80,7 +73,6 @@ mmcblk0     179:0    0   3,8G  0 disk
 7. Hit CTRL + C to exit the menu.
 
 ### Section II - Formatting the card
-
 ![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
 
 1. Type in `sudo cfdisk /dev/(device mount point from above)`.
@@ -98,15 +90,29 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 {% capture macOSInstructions %}
 ## MacOS
-
 ### Section I - Formatting your SD card
+#### OS X El Capitan (10.11) and later
 
-1. In the Disk Utility app on your Mac, choose View > Show All Devices.
-2. In the sidebar, select your SD card.
-3. Click the Erase button.
-4. From the Scheme pop-up menu, select `Master Boot Record`.
-5. From the Format pop-up menu, select MS-DOS (FAT)
-6. Click Erase, then click Done.
+1. Launch the Disk Utility application.
+2. Select "Show All Devices" in the top-left "View" panel.
+3. Select your SD card from the sidebar
+  - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+4. Click "Erase" at the top
+6. Ensure that "Format" is set to "MS-DOS (FAT)"
+7. Ensure that "Scheme" is set to "Master Boot Record"
+  - If "Scheme" does not appear, click "Cancel" and make sure to choose the device instead of a volume
+8. Click "Erase", then click "Close"
+
+#### OS X Yosemite (10.10) and earlier
+1. Launch the Disk Utility application.
+2. Select your SD card from the sidebar.
+  - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+3. Click "Partition" at the top
+  + If "Partition" does not appear, make sure to choose the device instead of a volume
+4. Ensure that "Partition Layout" is set to "1 Partition"
+5. Ensure that "Format" is set to "MS-DOS (FAT)"
+6. From the Options button (below the partition table), select "Master Boot Record".
+7. Click "OK" -> "Apply" -> "Partition"
 
 ### Section II - Using F3
 {% include_relative f3.md %}
