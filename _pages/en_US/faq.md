@@ -18,3 +18,12 @@ Keep in mind that we would prefer if you [dumped these carts using GodMode9i](du
 
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
+
+### How do I update my tools?
+- **Unlaunch** - Download `unlaunch.dsi` and run it through the Unlaunch installer.
+- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card.
+- **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](exploit-launch#section-ib---twilight-menu++)
+  - If you are moving from DSiMenu++ or SRLoader, rename `sd:/_nds/SRLoader` or `sd:/_nds/DSiMenuPlusPlus` to `sd:/_nds/TWiLightMenu` & delete `53524C41` (and `534C5254`, if exists) at `sd:/title/00030015`
+  - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating.
+  - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`.
+- **GodMode9i, dumpTool, etc..** - Replace the `.nds` file.
