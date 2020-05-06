@@ -57,10 +57,13 @@ This may **result in a brick** if you have installed any non-legit DSiWare to yo
 If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
 
 ## Troubleshooting
-
-### Why does Unlaunch freeze at `MISMATCH IN FAT COPIES`?
+### Unlaunch freezes at `MISMATCH IN FAT COPIES`?
 twlnf has a critical bug that doesn't properly update the entire NAND after modifying it, which causes certain homebrew (like the Unlaunch installer) to throw an error. While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
-### I do not get any audio in my DSi Menu, nor do I have a boot splash when using Unlaunch
+### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
 That is intentional. If you'd like to get those features back, install [hiyaCFW](hiyacfw).
 
+### I get a black screen when trying to launch the Unlaunch installer from TWiLight Menu++
+Please use another homebrew launcher in the meantime. We recommend the latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}
+
+The reason this happens is because Unlaunch's installer is detected as a retail ROM in TWiLight Menu++, and will proceed to launch it using nds-bootstrap.
