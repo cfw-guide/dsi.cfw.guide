@@ -1,24 +1,27 @@
 ---
 main:
   -
-    title: Home
-    url: /
-  -
     title: FAQ
     url: faq
   -
-    title: Dumping & Installing DSiWare
+    title: DSiWare
     url: dsiware
+  -
+    title: SD card Setup
+    url: sd-prep
 bottom:
   -
-    title: If you need help, ask the <a href="https://discord.gg/Ymj3Kex">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/yD3spjv">TWL Mode Hacking</a> Discord servers.
+    title: If you need help, ask the <a href="https://discord.gg/Ymj3Kex">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/yD3spjv">DS⁽ⁱ⁾ Mode Hacking!</a> Discord servers.
 footer:
   -
-    title: Source
+    label: Source
     url: https://github.com/cfw-guide/dsi.cfw.guide
+    icon: fab fa-fw fa-github
   -
-    title: Site Navigation
+    label: Site Navigation
     url: site-navigation
+    icon: fas fa-fw fa-globe
   -
-    title: Credits & Donations
+    label: Credits & Donations
     url: credits
+    icon: fas fa-fw fa-users

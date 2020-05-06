@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "nord"
+minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -17,8 +17,9 @@ url                      : "https://dsi.cfw.guide" # the base hostname & protoco
 enforce_ssl              : "dsi.cfw.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cfw-guide/dsi.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "/assets/images/home-page-feature.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
+logo                     : "/assets/favicon/favicon.ico"
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -63,10 +64,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider: "google-gtag"
   google:
-    tracking_id          : "UA-86465881-5"
-
+    tracking_id: "UA-152619365-1"
+    anonymize_ip: false # default
 
 # Site Author
 author:
@@ -244,7 +245,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
