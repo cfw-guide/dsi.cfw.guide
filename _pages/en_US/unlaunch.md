@@ -66,4 +66,4 @@ That is intentional. If you'd like to get those features back, install [hiyaCFW]
 ### I get a black screen when trying to launch the Unlaunch installer from TWiLight Menu++
 Please use another homebrew launcher in the meantime. We recommend the latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}
 
-The reason this happens is because Unlaunch's installer is detected as a retail ROM in TWiLight Menu++, and will proceed to launch it using nds-bootstrap.
+The black screen cause is unknown.
