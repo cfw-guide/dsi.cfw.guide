@@ -27,6 +27,8 @@ hiyaCFW has several advantages that an Unlaunch-only system will not. These incl
 
 ## Instructions
 ### Section I - Preparing your SD card
+![](https://camo.githubusercontent.com/538f1d70409d6b38170ef7d845b7818bd902fd87/68747470733a2f2f696d6167652e6962622e636f2f68687a4b524c2f53637265656e2d53686f742d323031382d31302d31382d61742d31362d33302d31382e706e67)
+
 1. Extract the hiyaCFW Helper archive anywhere on your computer.
 2. Launch hiyaCFW Helper.
  - If launching the `.py` file opens IDLE, open the terminal to this directory and type `py3 HiyaCFW_Helper.py`

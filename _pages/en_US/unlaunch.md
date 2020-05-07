@@ -33,7 +33,6 @@ You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware wh
 {: .notice--info}
 
 ### TWiLight Menu++ soft reset fix.
-
 1. Hold (A) & (B) when powering on your console.
   - You should now be in Unlaunch's configuration menu.
 2. Navigate to `sd:/_nds/TWiLightMenu`
@@ -53,7 +52,7 @@ You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware wh
   - To get the normal DSi Menu back, select "Launcher".
 
 ### Uninstalling
-This may **result in a brick** if you have installed any non-legit DSiWare to your system NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise tampered with system files.
+This may **result in a brick** if you have installed any non-legit DSiWare to your System NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise tampered with system files.
 {: .notice--danger}
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
