@@ -51,7 +51,7 @@ The only requirement to installing Custom Firmware is to make sure you can acces
 - Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system.
   - While Unlaunch isn't a mandatory install, we will be going through the process of installing it. If you don't want to, stop after taking a NAND backup.
 - Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
-- On Windows, it's recommended to [show file extentions](file-extensions-(windows)) if you are using the default File Explorer.
+- On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer.
 
 Get started by [Launching your Exploit](exploit-launch).
 {: .notice--info}
