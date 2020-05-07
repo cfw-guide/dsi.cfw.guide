@@ -39,7 +39,9 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links links-menu hidden"></ul>
-        <button class="langsel" type="button" style="display: none;"><div class="langicon"><i class="fas fa-language fa-lg" aria-hidden="true"></i></div></button>
+        <button class="langsel" type="button">
+			<div class="langicon"><i class="fas fa-language fa-lg" aria-hidden="true"></i>
+		</div></button>
         <ul class="hidden-links lang-menu hidden">
 			{% assign split_url = page.url | split: "/" %}
 			{% if split_url.size == 3 %}
@@ -53,8 +55,8 @@
       {% if langless_url == "404.html" %}
 			  {% assign langless_url = "" %}
       {% endif %}
-			<!--<li class="masthead__menu-item"><a href="{{ site.url }}/{{ langless_url }}">English</a></li>-->
-			<!--<li class="masthead__menu-item"><a href="https://crowdin.com/project/dsi-guide" target="_blank">Help Translate!</a></li>-->
+			<li class="masthead__menu-item"><a href="{{ site.url }}/{{ langless_url }}">English</a></li>
+			<li class="masthead__menu-item"><a href="https://crowdin.com/project/dsi-guide" target="_blank">Help Translate!</a></li>
 			<!-- <li class="masthead__menu-item"><a href="{{ site.url }}/es_ES/{{ langless_url }}">Español</a></li> -->
 			<!-- <li class="masthead__menu-item"><a href="{{ site.url }}/de_DE/{{ langless_url }}">Deutsch</a></li> -->
 			<!-- <li class="masthead__menu-item"><a href="{{ site.url }}/fr_FR/{{ langless_url }}">Français</a></li> -->

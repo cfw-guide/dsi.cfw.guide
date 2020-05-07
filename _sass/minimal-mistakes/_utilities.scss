@@ -360,6 +360,10 @@ body:hover .visually-hidden button {
   }
 }
 
+.langicon {
+	color: #eaeaea;
+}
+
 .close .navicon {
   /* hide the middle line*/
   background: transparent;
@@ -385,7 +389,7 @@ body:hover .visually-hidden button {
   }
 }
 
-.greedy-nav__toggle, .langsel {
+button.greedy-nav__toggle, button.langsel {
   &:before {
     @supports (pointer-events: none) {
       content: '';
@@ -412,7 +416,7 @@ body:hover .visually-hidden button {
   }
 }
 
-.greedy-nav__toggle:hover {
+button.greedy-nav__toggle:hover, button.langsel:hover {
   .navicon,
   .navicon:before,
   .navicon:after {

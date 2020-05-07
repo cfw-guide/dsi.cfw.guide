@@ -10,7 +10,7 @@ sitemap: false
 + [Exploit Launch](exploit-launch)
 + [Dumping your NAND](dump-nand)
 + [Unlaunch Setup](unlaunch)
-+ [hiyaCFW](hiyaCFW)
++ [hiyaCFW](hiyacfw)
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 

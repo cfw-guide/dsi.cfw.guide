@@ -199,7 +199,7 @@
     }
   }
 
-  &__toggle {
+  &__toggle, .langsel {
     -ms-flex-item-align: center;
     align-self: center;
     height: $nav-toggle-height;
