@@ -29,8 +29,18 @@ If you see Unlaunch's management screen at this point, you have successfully mod
 - Keeping Unlaunch's installer (`UNLAUNCH.DSI`) is not needed. The only functionality the current file has is uninstalling Unlaunch (in case you ever decide to revert your console back to stock), so we recommend removing it.
   - If an unlaunch update ever comes, you'll need to use `UNLAUNCH.DSI` to install it. However, updates could only be distributed from donwloading a new `UNLAUNCH.DSI` so the current version wouldn't be useful other than uninstallation.
 
-You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware which redirects the System NAND to the SD card, allowing for easy installation of homebrew on your DSi System Menu. It also restores the Nintendo DSi Boot Splash and audio in the DSi Menu (which gets removed by Unlaunch). Customizable boot images can also be set, which will be displayed before your system.
-{: .notice-info}
+You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware which redirects the System NAND to the SD card. This allows for easy installation of homebrew and DSiWare on your DSi System Menu & enables you to mess around with the . It also restores the Nintendo DSi Boot Splash and audio in the DSi Menu (which gets removed by Unlaunch). Customizable boot images can also be set, which will be displayed before your system.
+{: .notice--info}
+
+### TWiLight Menu++ soft reset fix.
+
+1. Hold (A) & (B) when powering on your console.
+  - You should now be in Unlaunch's configuration menu.
+2. Navigate to `sd:/_nds/TWiLightMenu`
+3. Launch `settings.srldr`
+4. Switch over to the "Misc. Settings" page.
+  - You could use either the back-triggers or X & Y to switch pages.
+5. Switch the "DSiWare Exploit" entry to "None".
 
 ### Switching button booting combination
 1. Power on your DSi while holding **(A)** & **(B)**.
