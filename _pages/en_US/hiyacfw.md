@@ -45,7 +45,7 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 1. Power on your Nintendo DSi console while holding **(A) + (B)**.
   - Unlaunch's GUI should appear.
 2. Launch `hiyaCFW`.
-  - You can launch hiyaCFW automatically when booting your console by [configuring your options](unlaunch#switching-button-booting-combination).
+  - You can launch hiyaCFW automatically when booting your console by [configuring your options](unlaunch#switch-button-boot-configuration).
 3. Change the settings to your liking, and press (START) to continue
 
 Your system will now boot from the SD card instead of the internal NAND.

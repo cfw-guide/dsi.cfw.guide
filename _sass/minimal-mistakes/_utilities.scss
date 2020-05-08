@@ -434,8 +434,7 @@ button.greedy-nav__toggle:hover {
   position: relative;
   width: $navicon-width;
   display: inline-block;
-  background: transparent;
-  color: $text-color;
+  filter: invert(100%);
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -498,12 +497,12 @@ button.langsel:hover {
 	.langicon,
 	.langicon:before,
 	.langicon:after {
-	  color: mix(#000, $text-color, 25%);
+	  filter: invert(75%);
 	}
   
 	&.close {
 	  .langicon {
-		color: $text-color;
+		filter: invert(100%);
 	  }
 	}
   }

@@ -41,15 +41,15 @@ You now have the ability to launch into [hiyaCFW](hiyacfw), a custom firmware wh
   - You could use either the back-triggers or X & Y to switch pages.
 5. Switch the "DSiWare Exploit" entry to "None".
 
-### Switching button booting combination
+### Switch button boot configuration
 1. Power on your DSi while holding **(A)** & **(B)**.
 2. Pick which button configuration you'd like to change in the `OPTIONS` menu.
   - (A) & (B) are hardcoded to open Unlaunch's menu; you can't change that.
 3. Navigate to the application you'd like to launch when you hold that button (or no button).
-  - If it's a file on your SD card, the file name should appear on the bottom screen.
-    - Set it to `boot.nds` if you come from the TWiLight Menu++ page.
-    - Set it to `hiya.dsi` if you come from the hiyaCFW page.
-  - To get the normal DSi Menu back, select "Launcher".
+- The Nintendo DSi System Menu is called "Launcher".
+- If it is a file on your SD card, the filename should appear on the bottom screen.
+  - Set it to `boot.nds` if you come from the TWiLight Menu++ page.
+  - Set it to `hiya.dsi` if you come from the hiyaCFW page.
 
 ### Uninstalling
 This may **result in a brick** if you have installed any non-legit DSiWare to your System NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise tampered with system files.
