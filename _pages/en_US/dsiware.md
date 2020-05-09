@@ -11,7 +11,7 @@ redirect_from:
 {% include toc title="Instructions" %}
 
 ## Requirements
-- The latest release of [maketmd](https://github.com/Tuxality/maketmd/releases/latest){:target="_blank"} (if you're trying to convert a .app to a .tmk)
+- The latest release of [maketmd](https://github.com/Tuxality/maketmd/releases/latest){:target="_blank"} (if you're trying to convert a .app to a .tmd)
 - The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}
 - A Nintendo DSi console with [Unlaunch](/unlaunch) installed
 
