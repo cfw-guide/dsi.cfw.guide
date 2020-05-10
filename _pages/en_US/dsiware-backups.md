@@ -1,9 +1,9 @@
 ---
-title: DSiWare (Dump and Install)
+title: DSiWare Backups
 redirect_from:
   - more/dumping-dsiware-from-3ds
   - more/dumping-dsiware
-  - dumping-dsiware
+  - dsiware
   - more/installing-dsiware
   - installing-dsiware
 ---
@@ -15,7 +15,8 @@ redirect_from:
 - The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest){:target="_blank"}
 - A Nintendo DSi console with [Unlaunch](/unlaunch) installed
 
-## Main Instructions
+## Instructions
+
 ### Identifying the path to the .app file
 1. Boot your Nintendo DSi console by holding **(A) & (B)**
 2. Identify your application in the list.
@@ -27,6 +28,7 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 {: .notice--info}
 
 ### Extracting the file
+
 1. Launch GodMode9i.
 2. Navigate to SYSNAND, then navigate through the path you took note of above.
 3. Highlight the file, then hit Y to copy.
@@ -37,8 +39,10 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 
 You should now either see the .app in TWiLight Menu++ or in your home menu if you use hiyaCFW.
 
-## Add-on instructions
-### Converting 3DS DSiWare Dumps (.app) to an installable format (title.tmd)
+## Converting 3DS dumps
+
+You can ignore this if you don't have any 3DS DSiWare dumps.
+
 1. Copy *the contents of* the maketmd `.zip` file to a folder on your PC
 2. Open the dumped folder on your PC containing your DSiWare
 3. Navigate to `content`
