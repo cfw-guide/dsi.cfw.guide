@@ -15,7 +15,7 @@ This section is entirely optional. If simple homebrew access is enough for you, 
 If you have not yet done so, please made a [NAND backup](dumping-nand). Unlaunch modifies the NAND which could result in a brick if done improperly.
 {: .notice--danger}
 
-Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
+Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
 {: .notice--warning}
 
 ## Section I - Installing & Updating
