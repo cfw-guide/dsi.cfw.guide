@@ -125,4 +125,12 @@ $(document).ready(function() {
       $(this).append(anchor);
     }
   });
+
+  var host = location.hostname
+  var allLinks = document.querySelectorAll('a')
+  for (var i = 0; i < allLinks.length; ++i) {
+    if (allLinks[i].hostname !== host && allLinks[i].hostname !== '') {
+      allLinks[i].target = '_blank'
+    }
+  }
 });
