@@ -34,8 +34,11 @@ If you see Unlaunch's management screen at this point, you have successfully mod
 ## Section II - Reconfiguring TWiLightMenu++
 
 1. Power on your console while holding **(A)** + **(B)**
+1. Press **(A)** on `OPTIONS`
 1. Press **(A)** on `NO BUTTON`
 1. Select `boot.nds` and press **(A)**
+  - This will make the system automatically launch TWiLightMenu++ on boot
+  - This is optional
 1. Save your settings and reboot the console
   - This will now boot into TWiLightMenu++
 1. Once you're in TWiLightMenu++, press **(SELECT)** to switch to the DS Classic Menu
