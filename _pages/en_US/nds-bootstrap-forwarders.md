@@ -1,5 +1,7 @@
 ---
 title: "nds-bootstrap forwarders for hiyaCFW"
+redirect_from:
+- /forwarder
 ---
 
 This is an add-on section that involves creating forwarders for nds-bootstrap. This allows you to launch nds roms directly from your Nintendo DSi System Menu.
