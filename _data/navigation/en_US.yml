@@ -10,6 +10,9 @@ main:
     title: Uninstalling Unlaunch
     url: uninstalling-unlaunch
   -
+    title: Troubleshooting
+    url: troubleshooting
+  -
     title: SD card Setup
     url: sd-card-setup
 bottom:
