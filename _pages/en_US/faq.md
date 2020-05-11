@@ -17,19 +17,19 @@ Keep in mind that we would prefer if you [dumped these carts using GodMode9i](du
 - If you are unsure what piracy is, there is a good writeup on the [eiphax](https://3ds.eiphax.tech/piracy.html) website.
 
 ### How can I restore my NAND without Unlaunch?
-You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
+You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
 
 ### How do I update my Nintendo DSi Homebrew?
-- **Unlaunch** - Download `UNLAUNCH.DSI` and run it through the Unlaunch menu.
-  - Hold (A) & (B) when turning on your console.
-- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card.
+- **Unlaunch** - Download `UNLAUNCH.DSI` and run it through the Unlaunch menu
+  - Hold (A) & (B) when turning on your console
+- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card
 - **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](exploit-launch#section-ib---twilight-menu++)
   - If you are moving from DSiMenu++ or SRLoader, rename `sd:/_nds/SRLoader` or `sd:/_nds/DSiMenuPlusPlus` to `sd:/_nds/TWiLightMenu` & delete `53524C41` (and `534C5254`, if exists) at `sd:/title/00030015`
-  - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating.
-  - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`.
-- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card.
-  - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++.
-- **GodMode9i, dumpTool** - Replace the `.nds` file.
-- **MakeForwarder, etc..** - Refollow the instructions used to download it.
+  - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating
+  - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`
+- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
+  - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
+- **GodMode9i, dumpTool** - Replace the `.nds` file
+- **MakeForwarder, etc..** - Refollow the instructions used to download it
 
 Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other homebrew might use other methods to update.

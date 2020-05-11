@@ -27,7 +27,7 @@ Make sure your console is charged when following this process. A sudden power lo
 1. Open your homebrew exploit and launch TWiLightMenu++
   - If you have already installed Unlaunch, hold **(A)** + **(B)** while booting
 1. Select `UNLAUNCH.DSI` and open it
-1. Select the install option.
+1. Select the install option
   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at our [Troubleshooting](troubleshooting) page
 1. When completed, reboot your system
 

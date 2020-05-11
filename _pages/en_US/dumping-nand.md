@@ -13,12 +13,12 @@ We highly recommend that you do this. A NAND backup can be used as a restore poi
 ## Instructions
 
 1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases)
-1. Place `dumpTool.nds` anywhere on your SD card.
+1. Place `dumpTool.nds` anywhere on your SD card
 1. Launch the Homebrew Launcher through your exploit
-  - If you have already installed Unlaunch, use Unlaunch's homebrew launcher instead by holding **(A)** + **(B)** on your system boot and selecting it in the menu.
-1. Follow the on-screen prompts.
+  - If you have already installed Unlaunch, use Unlaunch's homebrew launcher instead by holding **(A)** + **(B)** on your system boot and selecting it in the menu
+1. Follow the on-screen prompts
   - This usually takes around seven minutes
-1. Hit the **(START)** button on your Nintendo DSi to exit when it is completed.
+1. Hit the **(START)** button on your Nintendo DSi to exit when it is completed
 1. Power off your console and insert your SD card back into your computer
 1. Store this backup somewhere safe, where you won't lose it
   - If possible, make multiple backups across different storage devices

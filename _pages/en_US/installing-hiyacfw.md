@@ -31,13 +31,13 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 ## Section I - Preparing your SD card
 ![](https://camo.githubusercontent.com/538f1d70409d6b38170ef7d845b7818bd902fd87/68747470733a2f2f696d6167652e6962622e636f2f68687a4b524c2f53637265656e2d53686f742d323031382d31302d31382d61742d31362d33302d31382e706e67)
 
-1. Extract the hiyaCFW Helper archive anywhere on your computer.
-1. Launch hiyaCFW Helper.
+1. Extract the hiyaCFW Helper archive anywhere on your computer
+1. Launch hiyaCFW Helper
  - If launching the `.py` file opens IDLE, open the terminal to this directory and type `py3 HiyaCFW_Helper.py`
  - Windows users can simply open the `.exe` file in Windows Explorer
-1. Click the `...` button in the `NAND file with No$GBA footer` box.
-1. Navigate to your NAND backup, and click `Open`.
-1. Press `Start`.
+1. Click the `...` button in the `NAND file with No$GBA footer` box
+1. Navigate to your NAND backup, and click `Open`
+1. Press `Start`
 1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
   - The process may take several minutes
 
@@ -45,7 +45,7 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 
 ## Section II - Configuring Unlaunch and hiyaCFW
 
-1. Power on your Nintendo DSi console while holding **(A) + (B)**.
+1. Power on your Nintendo DSi console while holding **(A) + (B)**
 1. Navigate to `OPTIONS` -> `NO BUTTON`
 1. Select `hiya.dsi` and press **(A)**
   - This will make the system launch hiyaCFW at boot
