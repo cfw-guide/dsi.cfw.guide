@@ -100,11 +100,6 @@ author:
   xing             :
   youtube          :
 
-layouts_dir         : ./engine/_layouts
-includes_dir        : ./engine/_includes
-sass:
-  sass_dir: engine/_sass
-
 # Reading Files
 include:
  - .htaccess
@@ -198,8 +193,10 @@ kramdown:
 
 
 # Sass/SCSS
+layouts_dir         : engine/_layouts
+includes_dir        : engine/_includes
 sass:
-  sass_dir: _sass
+  sass_dir: engine/_sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Plugins
