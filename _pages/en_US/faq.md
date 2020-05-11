@@ -23,7 +23,7 @@ You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-do
 - **Unlaunch** - Download `UNLAUNCH.DSI` and run it through the Unlaunch menu
   - Hold (A) & (B) when turning on your console
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card
-- **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](exploit-launch#section-ib---twilight-menu++)
+- **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu)
   - If you are moving from DSiMenu++ or SRLoader, rename `sd:/_nds/SRLoader` or `sd:/_nds/DSiMenuPlusPlus` to `sd:/_nds/TWiLightMenu` & delete `53524C41` (and `534C5254`, if exists) at `sd:/title/00030015`
   - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating
   - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`
