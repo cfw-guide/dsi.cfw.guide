@@ -5,9 +5,14 @@ redirect_from:
   - /dump-nand
 ---
 
+{% include toc title="Table of Contents" %}
+
 In this step, we'll be making a NAND backup. This is a 1:1 copy of your DSi internal storage, which we can use later on to setup hiyaCFW and NO$GBA.
 
-It can also be used as a restore point in the future, in case your DSi stops working.
+We highly recommend that you do this. A NAND backup can be used as a restore point in the future, in case your DSi stops working.
+{: .notice--primary}
+
+## Instructions
 
 1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases)
 1. Place `dumpTool.nds` anywhere on your SD card.

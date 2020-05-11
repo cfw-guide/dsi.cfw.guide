@@ -17,7 +17,7 @@ This allows you to modify your system without risk of bricking your internal sys
 
 It also features easy installation of homebrew applications to the DSi Menu, and displaying a custom splash screen on boot.
 
-This section of the guide is optional but highly recommended to greatly reduce the risk of bricking.
+This section is entirely optional. If Unlaunch is enough for you, you can stop here.
 {: .notice--primary}
 
 ## Requirements
@@ -28,9 +28,7 @@ This section of the guide is optional but highly recommended to greatly reduce t
   - Windows users are recommended to use the compiled `.exe` binary + the latest version of [7-Zip](https://www.7-zip.org/download.html)
   - Users of other operating systems could use the source code file `.py` (requires [Python 3](https://www.python.org/downloads/) with the Tk library)
 
-## Instructions
-
-### Section I - Preparing your SD card
+## Section I - Preparing your SD card
 ![](https://camo.githubusercontent.com/538f1d70409d6b38170ef7d845b7818bd902fd87/68747470733a2f2f696d6167652e6962622e636f2f68687a4b524c2f53637265656e2d53686f742d323031382d31302d31382d61742d31362d33302d31382e706e67)
 
 1. Extract the hiyaCFW Helper archive anywhere on your computer.
@@ -45,15 +43,16 @@ This section of the guide is optional but highly recommended to greatly reduce t
 
 When it says "Done", then you may eject your SD card and insert it into your Nintendo DSi.
 
-### Section II - Configuring Unlaunch and hiyaCFW
+## Section II - Configuring Unlaunch and hiyaCFW
 
 1. Power on your Nintendo DSi console while holding **(A) + (B)**.
 1. Press **(A)** on `NO BUTTON`
-1. Find your `hiya.dsi` file and select it
+1. Find `hiya.dsi` file and select it
   - This will make the system launch hiyaCFW at boot
 1. Save your settings and restart your console
 1. Change the settings to your liking, and press (START) to continue
 
 Your system will now boot from the SD card instead of the internal NAND.
 
-If you receive "An Error Has Occurred", please check our [Troubleshooting](troubleshooting) page.
+If you receive `An Error Has Occurred`, please view our [Troubleshooting](troubleshooting) page.
+{: .notice--danger}

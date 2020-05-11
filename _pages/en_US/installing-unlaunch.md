@@ -18,9 +18,7 @@ If you have not yet done so, please made a [NAND backup](dumping-nand). Unlaunch
 Make sure your console is decently charged when following this process. A sudden power loss could result in serious damage.
 {: .notice--warning}
 
-## Instructions
-
-### Installing & Updating
+## Section I - Installing & Updating
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Extract the Unlaunch `.zip` file to the root of your SD card
@@ -33,7 +31,19 @@ Make sure your console is decently charged when following this process. A sudden
 
 If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
 
-### Cleaning up your SD card
+## Section II - Reconfiguring TWiLightMenu++
+
+1. Power on your console while holding **(A)** + **(B)**
+1. Press **(A)** on `NO BUTTON`
+1. Select `boot.nds` and press **(A)**
+1. Save your settings and reboot the console
+  - This will now boot into TWiLightMenu++
+1. Once you're in TWiLightMenu++, press **(SELECT)** to switch to the DS Classic Menu
+1. Tap the button at the very bottom to open settings
+1. Use the **(L)** and **(R)** buttons to switch over to the "Misc. Settings" page
+1. Switch the "DSiWare Exploit" entry to "None"
+
+## Section III - Cleaning up your SD card
 
 This section is optional and only serves for keeping your SD card tidy of files you won't need.
 {: .notice--primary}
@@ -44,9 +54,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 1. Delete the `UNLAUNCH.DSI` file from your SD card
   - If you plan on uninstalling the exploit in the future, keep this
 
-If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
-
 If you have any issues setting up Unlaunch, look at our [Troubleshooting](troubleshooting) page first.
 
-Continue to [Installing HiyaCFW](installing-hiyacfw)
+Continue to [Installing hiyaCFW](installing-hiyacfw)
 {: .notice--info}

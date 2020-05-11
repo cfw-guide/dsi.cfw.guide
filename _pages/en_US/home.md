@@ -21,7 +21,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ## What is homebrew?
 
-[Homebrew](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
 Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide will be called Memory Pit, but there are other entry points you could use if Memory Pit is unusable.
 
@@ -54,7 +54,7 @@ The only requirement to installing Custom Firmware is to make sure you can acces
 - Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
 - On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer.
 
-Continue to [Launching the Exploit](exploit-launch).
+Continue to [Launching the Exploit](launching-the-exploit).
 {: .notice--info}
 
 <a id="get-started"/>
