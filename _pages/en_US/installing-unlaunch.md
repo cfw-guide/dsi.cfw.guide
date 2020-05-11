@@ -9,6 +9,8 @@ redirect_from:
 
 Unlaunch is a very powerful exploit, meaning homebrew is able to take full advantage of the hardware. It launches at boot, making it very useful for getting into CFW quickly.
 
+Due to it loading before most of the OS, it also provides brick protection. In most cases, you'll still be able to restore your system if it's been damaged using unlaunch.
+
 This section is entirely optional. If simple homebrew access is enough for you, you can stop here.
 {: .notice--primary}
 
