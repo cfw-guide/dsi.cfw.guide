@@ -55,4 +55,4 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 Your system will now boot from the SD card instead of the internal NAND.
 
 If you receive `An Error Has Occurred`, please view our [Troubleshooting](troubleshooting) page.
-{: .notice--danger}
+{: .notice--warning}
