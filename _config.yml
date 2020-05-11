@@ -11,7 +11,7 @@ minimal_mistakes_skin    : "dark"
 locale                   : "en-US"
 title                    : "DSi Guide"
 title_separator          : "-"
-name                     : "NightScript, emiyl & jerbear64"
+name                     : "NightScript & emiyl"
 description              : "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
 url                      : "https://dsi.cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "dsi.cfw.guide"
@@ -99,7 +99,6 @@ author:
   weibo            :
   xing             :
   youtube          :
-
 
 # Reading Files
 include:
@@ -194,8 +193,10 @@ kramdown:
 
 
 # Sass/SCSS
+layouts_dir         : engine/_layouts
+includes_dir        : engine/_includes
 sass:
-  sass_dir: _sass
+  sass_dir: engine/_sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Plugins
