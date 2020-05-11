@@ -39,20 +39,20 @@ The only requirement to installing Custom Firmware is to make sure you can acces
 
 - Redirect your NAND to the SD card
 - Use normally incompatible flashcards
-- Boot into different homebrew applications by holding different buttons when turning on your Nintendo DSi.
-- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card.
-- Run Nintendo DS game backups natively on your DSi SD card without the need of a flashcard.
-- Watch your favorite movies using MPEG4Player.
-- Run old-time classics using various emulators.
-- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND.
-- Display an image (refered to as the boot splash) on system launch.
+- Boot into different homebrew applications by holding different buttons when turning on your Nintendo DSi
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Run Nintendo DS game backups natively on your DSi SD card without the need of a flashcard
+- Watch your favorite movies using MPEG4Player
+- Run old-time classics using various emulators
+- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
+- Display an image (refered to as the boot splash) on system launch
 
 ## What should I know before starting?
 
-- Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system.
-  - While Unlaunch isn't a mandatory install, we will be going through the process of installing it. If you don't want to, stop after taking a NAND backup.
-- Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
-- On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer.
+- Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system
+  - While Unlaunch isn't a mandatory install, we will be going through the process of installing it. If you don't want to, stop after taking a NAND backup
+- Make sure your console is charged when following this process. A sudden power loss could result in serious damage
+- On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer
 
 Continue to [Launching the Exploit](launching-the-exploit)
 {: .notice--info}
