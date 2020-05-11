@@ -21,7 +21,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ## What is homebrew?
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) on the DSi usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
 Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide will be called Memory Pit, but there are other entry points you could use if Memory Pit is unusable.
 
