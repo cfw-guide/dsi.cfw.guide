@@ -46,8 +46,8 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 ## Section II - Configuring Unlaunch and hiyaCFW
 
 1. Power on your Nintendo DSi console while holding **(A) + (B)**.
-1. Press **(A)** on `NO BUTTON`
-1. Find `hiya.dsi` file and select it
+1. Navigate to `OPTIONS` -> `NO BUTTON`
+1. Select `hiya.dsi` and press **(A)**
   - This will make the system launch hiyaCFW at boot
 1. Save your settings and restart your console
 1. Change the settings to your liking, and press (START) to continue

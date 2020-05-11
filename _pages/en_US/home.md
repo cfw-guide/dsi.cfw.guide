@@ -54,7 +54,7 @@ The only requirement to installing Custom Firmware is to make sure you can acces
 - Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
 - On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer.
 
-Continue to [Launching the Exploit](launching-the-exploit).
+Continue to [Launching the Exploit](launching-the-exploit)
 {: .notice--info}
 
 <a id="get-started"/>

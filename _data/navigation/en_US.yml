@@ -4,8 +4,11 @@ main:
     title: FAQ
     url: faq
   -
-    title: DSiWare-backups
+    title: DSiWare backups
     url: dsiware-backups
+  -
+    title: Uninstalling Unlaunch
+    url: uninstalling-unlaunch
   -
     title: SD card Setup
     url: sd-card-setup
