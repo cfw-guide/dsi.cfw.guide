@@ -18,7 +18,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 
 {% capture memoryPitInstructions %}
 ## Section I - Formatting your SD card
-![](http://www.ridgecrop.demon.co.uk/guiformat.png)
+![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
   - If you have difficulties downloading it, click where it tells you to click in order to download it
