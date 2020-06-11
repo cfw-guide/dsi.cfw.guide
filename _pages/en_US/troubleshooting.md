@@ -15,9 +15,11 @@ While fixable, the method to do so isn't set in stone and largely varies between
 That is intentional. If you'd like to get those features back, install [hiyaCFW](installing-hiyacfw).
 
 ### I get a black screen when trying to launch the Unlaunch installer from TWiLight Menu++
-Please use another homebrew launcher in the meantime. We recommend the latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest)
+This is a bug with how the IPC values are cleared (or the lack there of). IPC values are used by audio in TWiLight Menu++.
 
-The black screen cause is unknown.
+Until the next release of TWiLight Menu++, go to the TWiLight Menu++ settings, highlight the theme option and then press LEFT/RIGHT until you select the R4 theme. Exit out of TWiLight Menu+++ settings, then launch `UNLAUNCH.DSI`.
+
+Alternatively, you could use an external launcher, such as [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest)
 
 ## HiyaCFW
 
