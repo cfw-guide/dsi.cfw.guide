@@ -50,7 +50,9 @@ When it says "Done", then you may eject your SD card and insert it into your Nin
 1. Select `hiya.dsi` and press **(A)**
   - This will make the system launch hiyaCFW at boot
 1. Save your settings and restart your console
-1. Change the settings to your liking, and press (START) to continue
+1. Hold **(SELECT)** while powering on your Nintendo DSi console to access the hiyaCFW settings
+  - If you selected `Install latest TWiLight Menu++ on custom firmware` to boot into the SDNAND home screen instead of TWiLight Menu++, navigate to `Autoboot title` and press **(A)** to deselect it.
+1. Change the settings to your liking, and press **(START)** to continue
 
 Your system will now boot from the SD card instead of the internal NAND.
 
