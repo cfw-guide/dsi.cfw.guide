@@ -37,12 +37,12 @@ Using a Windows, Linux or Mac OS device? We have a tool that will automatically 
 
 If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
 
-## Section II - Reconfiguring TWiLightMenu++
+## Section II - Reconfiguring TWiLight Menu++
 
 1. Power on your console while holding **(A)** + **(B)**
 1. Navigate to `OPTIONS` -> `NO BUTTON`
 1. Select `boot.nds` and press **(A)**
-   - This will make the system automatically launch TWiLightMenu++ on boot
+   - This will make the system automatically launch TWiLight Menu++ on boot
    - This is optional
 1. Save your settings and head back to Unlaunch's menu
 1. Launch `sd:/_nds/twilightmenu/settings.srldr`
