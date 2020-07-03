@@ -7,6 +7,9 @@ redirect_from:
 
 {% include toc title="Navigation" %}
 
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+{:.notice--danger}
+
 Unlaunch is a very powerful exploit, meaning homebrew is able to take full advantage of the hardware. It launches at boot, making it very useful for getting into CFW quickly.
 
 Due to it loading before most of the OS, it also provides brick protection. In most cases, you'll still be able to restore your system if it's been damaged using unlaunch.

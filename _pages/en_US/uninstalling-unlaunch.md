@@ -2,8 +2,11 @@
 title: Uninstalling Unlaunch
 ---
 
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+{:.notice--danger}
+
 This may **result in a brick** if you have installed any non-legit DSiWare to your System NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise tampered with system files.
-{: .notice--danger}
+{: .notice--warning}
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 2. Extract `UNLAUNCH.DSI` from the Unlaunch archive and copy it anywhere your SD card
