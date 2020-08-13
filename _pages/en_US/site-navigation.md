@@ -19,7 +19,7 @@ sitemap: false
 
 + [SD card setup](sd-card-setup)
 + [File Extensions (Windows)](file-extensions-(windows))
-+ [Dumping Cartridges](dump-cartridges)
++ [Dumping Cartridges](dumping-cartridges)
 + [DSiWare Backups](dsiware-backups)
 + [nds-bootstrap forwarders for hiyaCFW](nds-bootstrap-forwarders)
 + [Uninstalling Unlaunch](uninstalling-unlaunch)

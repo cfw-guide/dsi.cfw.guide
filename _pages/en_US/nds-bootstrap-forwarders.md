@@ -4,12 +4,12 @@ redirect_from:
 - /forwarder
 ---
 
-This is an add-on section that involves creating forwarders for nds-bootstrap. This allows you to launch nds roms directly from your Nintendo DSi System Menu.
+This is an add-on section that involves creating forwarders for nds-bootstrap. This allows you to launch nds roms directly from your SDNAND's System Menu.
 
-### What You Need
+## Requirements
 
 - A Nintendo DSi System with both [Unlaunch](unlaunch) & [hiyaCFW](hiyacfw) installed.
-- A [TWiLight Menu++](exploit-launch#section-ib---twilight-menu++) setup
+- A [TWiLight Menu++](launching-the-exploit#twilight-menu) setup
 - The latest release of [MakeForwarders](https://github.com/Ta180m/Make-Forwarder-Dsi/releases/latest)
 
 ### Instructions

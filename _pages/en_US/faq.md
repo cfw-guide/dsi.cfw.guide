@@ -6,7 +6,7 @@ redirect_from:
 {% include toc title="Questions" %}
 
 ### What does a white screen in certain homebrew mean?
-That implies an SD card error. Please make sure you have [checked your SD card for errors](sd-prep).
+That implies an SD card error. Please make sure you have [checked your SD card for errors](sd-card-setup).
 
 ### How do I launch retail ROMs?
 Retail ROMs are not able to be launched through Unlaunch alone, as Retail ROMs was made to be used by Slot-1. In order to run them from your SD card, you'll need to use nds-bootstrap, an application that can redirect Slot-1 reads to the SD card. It knows what to launch based on the strings set in the configuration file. While manually setting up the configuration file is possible, it's tedious and isn't user friendly. Depending on how you'd like to access your ROMS, there are easier ways.
@@ -20,16 +20,24 @@ Keep in mind that we would prefer if you [dumped these carts using GodMode9i](du
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
 
 ### How do I update my Nintendo DSi Homebrew?
-- **Unlaunch** - Download `UNLAUNCH.DSI` and run it through the Unlaunch menu
-  - Hold (A) & (B) when turning on your console
+- **Unlaunch** - Follow the instructions on the [Installing Unlaunch] page
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card
 - **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu)
   - If you are moving from DSiMenu++ or SRLoader, rename `sd:/_nds/SRLoader` or `sd:/_nds/DSiMenuPlusPlus` to `sd:/_nds/TWiLightMenu` & delete `53524C41` (and `534C5254`, if exists) at `sd:/title/00030015`
   - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating
   - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`
+  - The Wood UI (aka Acekard) theme has been temporarily  removed, due to buggyness.
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
 - **GodMode9i, dumpTool** - Replace the `.nds` file
 - **MakeForwarder, etc..** - Refollow the instructions used to download it
 
 Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other homebrew might use other methods to update.
+
+### I am new or I would like to redo my setup. Where do I start?
+
+- If you had not already modified your console or are looking towards updating Unlaunch while not using hiyaCFW on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage.
+- If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to setup TWiLight Menu++ on your system.
+- If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW]() page, then return to the [Installing Unlaunch]() page to update Unlaunch.
+   - hiyaCFW Helper, the tool used for installing hiyaCFW, comes with the option to install TWiLight Menu++. There is no need for installing TWiLight Menu++ separately
+   - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we setup hiyaCFW

@@ -17,7 +17,8 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 <button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'flipnoteLennyInstructions')">Linux</button>
 
 {% capture memoryPitInstructions %}
-## Section I - Formatting your SD card
+## Windows
+### Section I - Formatting your SD card
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
@@ -28,7 +29,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 5. If the checkbox for "Quick Format" has a check inside, tick it off
 6. Start the format process
 
-## Section II - Checking for errors
+### Section II - Checking for errors
 1. Go to the properties window of your SD card
   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
 2. In the tools tab, Select "Check Now"
@@ -37,7 +38,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 
 This will scan the SD card and correct any errors it finds
 
-## Section III - Checking SD card read/write
+### Section III - Checking SD card read/write
 
 1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
   - It can also be extracted on an external device as long as that external device isn't your SD card
@@ -56,7 +57,8 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 {% endcapture %}
 
 {% capture flipnoteLennyInstructions %}
-## Section I - Determining which slot your SD card is in
+## Linux
+### Section I - Determining which slot your SD card is in
 1. Make sure your SD card is **not** inserted into your Linux machine
 2. Launch the Linux Terminal
 3. Type `watch "lsblk"`
@@ -71,7 +73,7 @@ mmcblk0     179:0    0   3,8G  0 disk
   - If `RO` is set to 1, make sure the lock switch is not slid down
 7. Hit CTRL + C to exit the menu
 
-## Section II - Formatting the card
+### Section II - Formatting the card
 ![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
 
 1. Type in `sudo cfdisk /dev/(device mount point from above)`
@@ -83,13 +85,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 6. Press any key, then enter the code you took note of in the previous step
 7. Hit enter, then hit Quit
 
-## Section III - Using F3
+### Section III - Using F3
 {% include_relative f3.md %}
 {% endcapture %}
 
 {% capture macOSInstructions %}
-## Section I - Formatting your SD card
-### OS X El Capitan (10.11) and later
+## Mac OS
+### Section I - Formatting your SD card
+#### OS X El Capitan (10.11) and later
 
 1. Launch the Disk Utility application
 2. Select "Show All Devices" in the top-left "View" panel
@@ -101,7 +104,7 @@ mmcblk0     179:0    0   3,8G  0 disk
   - If "Scheme" does not appear, click "Cancel" and make sure to choose the device instead of a volume
 8. Click "Erase", then click "Close"
 
-### OS X Yosemite (10.10) and earlier
+#### OS X Yosemite (10.10) and earlier
 1. Launch the Disk Utility application
 2. Select your SD card from the sidebar
   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
@@ -112,7 +115,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 6. From the Options button (below the partition table), select "Master Boot Record".
 7. Click `OK` -> `Apply` -> `Partition`
 
-## Section II - Using F3
+### Section II - Using F3
 {% include_relative f3.md %}
 {% endcapture %}
 

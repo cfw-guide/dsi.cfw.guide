@@ -9,7 +9,7 @@ This is the credits for those who have helped out with the guide website, homebr
 If you like what they have done, consider donating (if they have a donation link).
 
 {% capture notice-1 %}
-- [emiyl](https://www.paypal.me/emiyl0/10): Guide Maintainer, owner of cfw.guide
+- [emiyl](https://www.paypal.me/emiyl0/10): Guide Maintainer, domain holder
 - [NightScript](https://nightyoshi370.github.io/): Guide maintainer
 - [jerbear64](https://www.paypal.me/jerbear64): Previous Guide Maintainer
 - Halvorsen: Provided an image of their Nintendo DSi to be used on the home page

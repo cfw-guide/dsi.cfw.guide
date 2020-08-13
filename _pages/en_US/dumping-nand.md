@@ -18,18 +18,19 @@ Using a Windows, Linux or Mac OS device? We have a tool that will automatically 
 1. Place `dumpTool.nds` anywhere on your SD card
 
 ## Section II - Dumping the NAND
-1. Launch `dumpTool.nds` through a homebrew launcher
-   - If you have already installed Unlaunch, use Unlaunch's homebrew launcher instead by holding **(A)** + **(B)** on your system boot and selecting it in the menu
-   - If you have not yet installed Unlaunch, launch your exploit and select `dumpTool.nds` from TWiLight Menu++
-1. Follow the on-screen prompts
-   - This usually takes around seven minutes
-1. Hit the **(START)** button on your Nintendo DSi to exit dumpTool when the NAND dump is completed
-1. Power off your console and insert your SD card back into your computer
+1. Launch `dumpTool.nds` through TWiLight Menu++
+1. Hit the **(A)** button on your Nintendo DSi to start dumping your NAND
+   - A NAND backup typically takes around 7 minutes.
+1. When the NAND backup is complete, hit the **(START)** button on your Nintendo DSi to exit dumpTool
+1. Power off your console and insert your SD card back into your device
 1. Store this backup somewhere safe, where you won't lose it
    - If possible, make multiple backups across different storage devices
 
 The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 {: .notice--warning}
 
-Continue to [Installing Unlaunch](installing-unlaunch)
+Once a backup is made, you could delete the dump from the SD card itself.
+{: .notice--info}
+
+Continue to [Installing Unlaunch](installing-unlaunch) (Optional)
 {: .notice--info}

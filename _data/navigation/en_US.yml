@@ -1,17 +1,17 @@
 ---
 main:
   -
+    title: SD card Setup
+    url: sd-card-setup
+  -
+    title: Troubleshooting
+    url: troubleshooting
+  -
     title: FAQ
     url: faq
   -
     title: DSiWare backups
     url: dsiware-backups
-  -
-    title: Troubleshooting
-    url: troubleshooting
-  -
-    title: SD card Setup
-    url: sd-card-setup
   -
     title: Uninstalling Unlaunch
     url: uninstalling-unlaunch
