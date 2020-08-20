@@ -8,7 +8,7 @@ This is an add-on section that involves creating forwarders for nds-bootstrap. T
 
 ## Requirements
 
-- A Nintendo DSi System with both [Unlaunch](unlaunch) & [hiyaCFW](hiyacfw) installed.
+- A Nintendo DSi System with both [Unlaunch](/installing-unlaunch) & [hiyaCFW](/hiyacfw-setup) installed.
 - A [TWiLight Menu++](launching-the-exploit#twilight-menu) setup
 - The latest release of [MakeForwarders](https://github.com/Ta180m/Make-Forwarder-Dsi/releases/latest)
 
