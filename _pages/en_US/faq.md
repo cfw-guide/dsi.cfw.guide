@@ -23,10 +23,6 @@ Playing cartridge dumps on the console requires the use of a flashcart or nds-bo
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have.
 - hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch Anti-Piracy.
 
-Flashcarts are still usable on a modded Nintendo DSi (and in cases of incompatible nds-bootstrap games and higher compatibility with homebrew, required), but unlike on a DS Lite, they're optional. In most cases though, using nds-bootstrap is better considering the enhancements that it brings to the table, such as overclocking the CPU, loading the ROM in RAM (making speeds quicker), expand the VRAM bus to 32-bit amongst other additions.
-- Unlaunch modifies the flashcart blocklist, so if you have a blocked flashcart it will be usable again
-
-
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
 
