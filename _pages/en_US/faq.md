@@ -8,10 +8,10 @@ redirect_from:
 ### What does a white screen in certain homebrew mean?
 That implies an SD card error. Please make sure you have [checked your SD card for errors](sd-card-setup).
 
-### What functionality would I lose by modding my system?
+### What functionality will I lose by modding my system?
 
 - If you decide to install Unlaunch, you will not lose any system functionality
-- If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera Application while the exploit is already active. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch).
+- If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch).
 
 This is because we overwrite the metadata file (`pit.bin`) with the Memory Pit exploit.
 

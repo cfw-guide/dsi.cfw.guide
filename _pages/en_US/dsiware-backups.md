@@ -19,7 +19,7 @@ redirect_from:
 
 ### Section I - Identifying the path to the .app file
 1. Boot your Nintendo DSi console by holding **(A) & (B)**
-   - This should take you to the Unlaunch Management Menu
+   - This should take you to the Unlaunch Filemenu
 1. Identify your application in the list
    - A light green entry means that they are installed to NAND
 
@@ -34,6 +34,6 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 1. Navigate to SYSNAND, then navigate through the path you took note of above
 1. Highlight the .app file, then hit Y to copy
 1. Navigate your SD card to where you'd like to place the file
-1. Hit Y to paste the file
+1. Hit L to paste the file
 
-You should now see the DSiWare title in either TWiLight Menu++ or the Unlaunch Management Menu.
+You should now see the DSiWare title in either TWiLight Menu++ or the Unlaunch Filemenu.
