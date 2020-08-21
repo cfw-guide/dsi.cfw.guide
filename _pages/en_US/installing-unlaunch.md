@@ -10,15 +10,15 @@ redirect_from:
 Unlaunch is an exploit that allows homebrew applications to take full advantage of the Nintendo DSi hardware at boot. Examples include dumping a Slot-1 device, launching into hiyaCFW amongst others.
 
 {% capture usageInstructions %}
-WARNING: An Unlaunch installation has the chance to **brick** your Nintendo DSi. Firstly, you should evaluate whether you need Unlaunch or not. Unlaunch is only useful for these aspects:
+WARNING: While low, there is a chance of **bricking your console** when installing Unlaunch. If you are worried whether you'd brick, these are all the benefits your console will gain by installing Unlaunch:
 
 - Higher compatibility with running old Nintendo DS homebrew via nds-bootstrap-hb (including the SNES emulator in TWiLight Menu++)
-- Launching old Nintendo DS flashcarts.
-- Dumping SLOT-1 data.
-- Launching DSiWare.
+- Launching incompatible flashcarts
+- Dumping SLOT-1 data
+- Launching DSiWare
 - Launching titles at boot (such as TWiLight Menu++ or other DSiWare)
 
-If you don't need any of these, you do not need to install Unlaunch.
+Evaluate whether Unlaunch is necessary or not.
 {% endcapture %}
 
 <div class="notice--primary">{{ usageInstructions | markdownify }}</div>
@@ -86,7 +86,6 @@ This section is optional and only serves for keeping your SD card tidy of files 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
    - If you used another exploit, delete the relevant files concerning that exploit instead
 - Delete the `UNLAUNCH.DSI` file from your SD card
-   - If you plan on uninstalling the exploit in the future, keep this file
 
 Continue to [Installing hiyaCFW](installing-hiyacfw)
 {: .notice--info}
