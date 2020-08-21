@@ -43,7 +43,7 @@ Using a Windows, Linux or Mac OS device? We have a tool that will automatically 
 
 1. Open TWiLight Menu++
    - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the exploit that you used.
-   - If you have already installed Unlaunch and are looking to update it, hold **(A)** + **(B)** while booting and select `BOOT.NDS`
+   - If you have already installed Unlaunch and are looking to update it, hold <kbd>A</kbd> + <kbd>B</kbd> while booting and select `BOOT.NDS`
 1. Launch TWiLight Menu++'s Settings
    - If you hadn't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
 1. Hit L/R until you reach the Unlaunch Settings page
@@ -65,9 +65,9 @@ Currently, Unlaunch defaults to launching it's ROM launcher on boot. We will cha
 
 We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead of the exploited DSiWare title) when we soft-reset in-game.
 
-1. Power on your console while holding **(A)** + **(B)**
+1. Power on your console while holding <kbd>A</kbd> + <kbd>B</kbd>
 1. Navigate to `OPTIONS`, and look at the available options
-   - **(A)** + **(B)** is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
+   - <kbd>A</kbd> + <kbd>B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
 1. Feel free to play around with the options available for changing what each button boots you into. You can select DSiWare, Homebrew (best to use TWiLight Menu++ for that though) and Slot-1 launching
    - For TWiLight Menu++, hover over the `TWiLight Menu++` option and make sure that `boot.nds` is shown on the bottom screen
    - For the original DSi System Menu, select `Launcher`.
@@ -75,7 +75,7 @@ We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead o
 1. Save your settings and head back to Unlaunch's menu
 1. Hover over the `TWiLight Menu++` options and find the one that has a path containing `settings.srldr` on the bottom screen
 1. Launch the highlighted option
-1. Use the **(L)** and **(R)** buttons to switch over to the "Misc. Settings" page
+1. Use the <kbd>L</kbd> and <kbd>R</kbd> buttons to switch over to the "Misc. Settings" page
 1. Set the "DSiWare Exploit" entry to "None"
 
 ## Section III - Cleaning up your SD card

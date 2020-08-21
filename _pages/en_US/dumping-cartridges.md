@@ -19,7 +19,7 @@ This is an add-on section for dumping cartridges using GodMode9i, useful for loa
 
 ### Section II - Nintendo DSi Instructions
 
-1. Power on your console while holding **(A)** and **(B)**
+1. Power on your console while holding <kbd>A</kbd> and <kbd>B</kbd>
    - This should launch the Unlaunch Management Menu
 1. Launch GodMode9i in the Unlaunch Menu
 1. Ensure the game cartridge is inserted into the console

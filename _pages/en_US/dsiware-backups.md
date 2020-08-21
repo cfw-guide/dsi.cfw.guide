@@ -18,7 +18,7 @@ redirect_from:
 ## Nintendo DSi - Instructions
 
 ### Section I - Identifying the path to the .app file
-1. Boot your Nintendo DSi console by holding **(A) & (B)**
+1. Boot your Nintendo DSi console by holding <kbd>A</kbd> & <kbd>B</kbd>
    - This should take you to the Unlaunch Filemenu
 1. Identify your application in the list
    - A light green entry means that they are installed to NAND
