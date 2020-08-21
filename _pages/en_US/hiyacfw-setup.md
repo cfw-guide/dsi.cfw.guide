@@ -45,14 +45,14 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 {% endcapture %}
 
 {% capture flipnoteLennyInstructions %}
-### Linux & MacOS
+### Linux & macOS
 
 1. Download & install the latest version of [Python 3](https://www.python.org/downloads/)
 1. Download the latest python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Download the latest python file of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 1. Launch two terminal windows
-  - On MacOS, you can launch a terminal window by entering spotlight search (`Command` + `Space Key`) & typing "Terminal"
+  - On macOS, you can launch a terminal window by entering spotlight search (`Command` + `Space Key`) & typing "Terminal"
   - On Linux, launch a terminal instance via your application launcher
 1. On the first terminal, `cd` to where you extracted the hiyaCFW Helper and type `./HiyaCFW_Helper.py`
 1. On the second terminal, `cd` to where you downloaded `just-a-DFC.py` and type `./just-a-DFC.py`
