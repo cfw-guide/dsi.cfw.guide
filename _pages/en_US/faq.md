@@ -15,7 +15,7 @@ That implies an SD card error. Please make sure you have [checked your SD card f
 
 This is because we overwrite the metadata file (`pit.bin`) with the Memory Pit exploit.
 
-### How do I launch Nintendo DS cartridge dumps?
+### How do I play Nintendo DS cartridge dumps?
 Cartridge dumps are unable to be launched without an application to redirect Slot-1 read/writes to an SD card. nds-bootstrap is able to do the redirections to the Nintendo DSi's internal SD card and knows what to launch based on values set in its configuration file. While manually setting up the configuration file is possible, it's tedious and isn't user friendly. Depending on how you'd like to access your ROMS, there are easier ways:
 
 - TWiLight Menu++ navigates your SD card to search for ROM files that can be launched with nds-bootstrap. The advantages are having a cheat menu, per-game settings, and none of the restrictions that forwarder bring. In other words, you can drop your ROMs file directly and play (without any setup required), there is no 40 title limit*, no requirement of Unlaunch or hiyaCFW and no dependency on SD card free space.
