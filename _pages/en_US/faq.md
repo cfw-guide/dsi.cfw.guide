@@ -13,22 +13,15 @@ That implies an SD card error. Please make sure you have [checked your SD card f
 - If you decide to install Unlaunch, you will not lose any system functionality
 - If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch).
 
-This is because we overwrite the metadata file (`pit.bin`) with the Memory Pit exploit.
+This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit.
+
+### How can I dump my cartridges?
+To dump your cartridges for use with emulators, nds-bootstrap or flashcarts, follow [this guide](dumping-cartridges).
 
 ### How do I play Nintendo DS cartridge dumps?
-Cartridge dumps require a flashcard or nds-bootstrap, an application that redirects Slot-1 reads/writes to the internal SD card, to be played. To use nds-bootstrap you will need an application that can tell it what game to load, such as:
-
 Playing cartridge dumps on the console requires the use of a flashcart or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
-- With TWiLight Menu++ you can  navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have.
-- hiyaCFW users can create [forwarders](forwarder) for the SDNAND's DSi System Menu, but it comes with the limitations that hiyaCFW imposes (they contribute to the 39 applications limit and the SD card free space issue) and due to the nature of it being a forwarder, it involves more steps than drop-and-play.
-
-\* The Nintendo DSi, Nintendo 3DS, Homebrew Launcher and SEGA Saturn Theme have a page system of 40 ROMs per page, but you can switch pages using the left and right triggers, or SELECT+LEFT and SELECT+RIGHT.
-
-Flashcarts are still usable on a modified Nintendo DSi (and in cases of incompatible nds-bootstrap games and higher compatibility with homebrew, required), but unlike on a DS Lite, they're optional. In most cases though, using nds-bootstrap is better considering the enhancements that it brings to the table, such as overclocking the CPU, loading the ROM in RAM (making speeds quicker), expand the VRAM bus to 32-bit amongst other additions.
-- Unlaunch modifies the flashcart blocklist, so if you have a blocked flashcart it will be usable again
-
-To dump said cartridges that you'd like to launch, you can [use GodMode9i](dumping-cartridges). We do not condone piracy, nor encourage it.
-- If you are unsure what piracy is, there is a good writeup on the [eiphax](https://3ds.eiphax.tech/piracy.html) website.
+- With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have.
+- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch Anti-Piracy.
 
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
@@ -50,7 +43,7 @@ Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other
 ### I am new or I would like to redo my setup. Where do I start?
 
 - If you had not already modified your console or are looking towards updating Unlaunch while not using hiyaCFW on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage.
-- If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to setup TWiLight Menu++ on your system.
+- If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system.
 - If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW]() page, then return to the [Installing Unlaunch]() page to update Unlaunch.
    - hiyaCFW Helper, the tool used for installing hiyaCFW, comes with the option to install TWiLight Menu++. There is no need for installing TWiLight Menu++ separately
-   - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we setup hiyaCFW
+   - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we set up hiyaCFW
