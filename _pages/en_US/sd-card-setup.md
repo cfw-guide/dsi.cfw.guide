@@ -90,7 +90,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 {% endcapture %}
 
 {% capture macOSInstructions %}
-## Mac OS
+## macOS
 ### Section I - Formatting your SD card
 #### OS X El Capitan (10.11) and later
 
