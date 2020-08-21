@@ -41,8 +41,7 @@ You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-do
   - The Wood UI (aka Acekard) theme has been temporarily  removed, due to buggyness.
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
-- **GodMode9i, dumpTool** - Replace the `.nds` file
-- **MakeForwarder, etc..** - Refollow the instructions used to download it
+- **GodMode9i, dumpTool, MakeForwarder** - Follow the instructions used to download them
 
 Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other homebrew might use other methods to update.
 

@@ -100,6 +100,9 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 ## Section III - Maximizing available space
 
+This is the section you should redo if you get a screen saying "An Error Has Occured"
+{: .notice--info}
+
 The Nintendo DSi System Menu has a limit on how much free space it could have on the storage device hosting the menu. While this doesn't occur on the actual NAND (since the chip would never exceed 128 MB), it can happen using an SD card. The factor of what is allowed and what isn't goes by every other range of two gigabytes. For example, while having 0-2 GB worth of free space would allow your system menu to boot, 2-4 GB doesn't. The same goes for 4-6 GB vs 6-8, up until you get to your SD card size.
 
 Although the system menu only breaks when the SD card free space is in a negative range, it'd be much better to maximize what you are able to use out of your SD card. We'll be using the "Just-a-DFC" tool made by YourKalamity to do so.
