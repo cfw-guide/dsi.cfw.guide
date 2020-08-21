@@ -27,5 +27,5 @@ This is an add-on section for dumping cartridges using GodMode9i, useful for loa
 1. Select if you want the padding or not:
   - Full: Padding included
   - Trim: Padding removed
-1. Repeat steps 3-4 for all cartridges you wish to dump
+1. Repeat steps 3-5 for all cartridges you wish to dump
 The dump will be found in `SD:/gm9i/out`.
