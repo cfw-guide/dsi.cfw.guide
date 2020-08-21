@@ -46,7 +46,7 @@ Using a Windows, Linux or macOS device? We have a tool that will automatically s
    - If you have already installed Unlaunch and are looking to update it, hold <kbd>A</kbd> + <kbd>B</kbd> while booting and select `BOOT.NDS`
 1. Launch TWiLight Menu++'s Settings
    - If you hadn't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
-1. Hit L/R until you reach the Unlaunch Settings page
+1. Hit <kbd>L</kbd> / <kbd>R</kbd> until you reach the Unlaunch Settings page
 1. Set your custom Unlaunch BG from the options menu
 1. Make sure the "Revert Menu patches" option is set to true
    - Without this, your DSi System Menu will not contain any music and the DSi Splash Screen will not appear
