@@ -23,7 +23,7 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
     {: .notice--info}
 
 3. Click the "View" option at the top of the Folder Options menu
-4. Uncheck the box labeled "Hide extensions for known file types"
+4. Make sure the box labeled "Hide extensions for known file types" is unchecked
 
     ![]({{ "/assets/images/windows-7-folder-options.png" | absolute_url }})
     {: .notice--info}
