@@ -27,10 +27,10 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
   - If you don't have one of these, follow our [Dumping NAND](dumping-nand) guide
 - A Windows, macOS or Linux device
 
-## Section I - Preparing your PC for hiyaCFW installing
+## Section I - Preparing your PC for installing hiyaCFW
 
 <button class="tablinks btn btn--large btn--primary" id="defaultOpen" onclick="openTab(event, 'memoryPitInstructions')">Windows</button>
-<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'flipnoteLennyInstructions')">Linux & macOS</button>
+<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'flipnoteLennyInstructions')">macOS & Linux</button>
 
 {% capture memoryPitInstructions %}
 ### Windows
@@ -54,8 +54,8 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Launch two terminal windows
   - On macOS, you can launch a terminal window by entering spotlight search (`Command` + `Space Key`) & typing "Terminal"
   - On Linux, launch a terminal instance via your application launcher
-1. On the first terminal, `cd` to where you extracted the hiyaCFW Helper and type `py3 HiyaCFW_Helper.py`
-1. On the second terminal, `cd` to where you downloaded `just-a-DFC.py` and type `py3 just-a-DFC.py`
+1. On the first terminal, `cd` to where you extracted the hiyaCFW Helper and type `./HiyaCFW_Helper.py`
+1. On the second terminal, `cd` to where you downloaded `just-a-DFC.py` and type `./just-a-DFC.py`
 {% endcapture %}
 
 <div id="memoryPitInstructions" class="blanktabcontent">{{ memoryPitInstructions | markdownify }}</div>
@@ -87,7 +87,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 </script>
 
 ## Section II - Adding hiyaCFW files to your SD card
-![](https://camo.githubusercontent.com/538f1d70409d6b38170ef7d845b7818bd902fd87/68747470733a2f2f696d6167652e6962622e636f2f68687a4b524c2f53637265656e2d53686f742d323031382d31302d31382d61742d31362d33302d31382e706e67)
+![](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Switch over to the hiyaCFW window
 1. Click the `...` button in the `NAND file with No$GBA footer` box
