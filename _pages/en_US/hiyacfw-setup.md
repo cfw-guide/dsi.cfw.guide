@@ -109,7 +109,7 @@ Although the system menu only breaks when the SD card free space is in a negativ
 
 1. Switch over to the terminal window containing Just-A-DFC
 1. Identify where your SD card is mounted
-1. Wait a few minutes until all the dummy files have been creaed
+1. Wait a few minutes until all the dummy files have been created
 1. If the application doesn't close you out, hit ENTER.
 1. Close the terminal window
 

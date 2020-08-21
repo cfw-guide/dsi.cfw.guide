@@ -5,7 +5,7 @@ redirect_from:
   - /dump-nand
 ---
 
-In this step, we'll be making a NAND backup. This is a 1:1 copy of your Nintendo DSi internal storage, which we can use later on to setup hiyaCFW and NO$GBA.
+In this step, we'll be making a NAND backup. This is a 1:1 copy of your Nintendo DSi internal storage, which we can use later on to set up hiyaCFW and NO$GBA.
 
 We highly recommend that you do this. A NAND backup can be used as a restore point in the future, in case your Nintendo DSi stops working.
 {: .notice--primary}

@@ -14,7 +14,7 @@ While fixable, the method to do so isn't set in stone and largely varies between
 ### "An Error Has Occurred"
 There are several reasons you might get this error:
 
-- **Too Much Free Space:** Refollow [Section III of hiyaCFW setup](/hiyacfw-setup#section-iii---maximizing-available-space)
+- **Too Much Free Space:** Follow [Section III of hiyaCFW setup](/hiyacfw-setup#section-iii---maximizing-available-space) again
 - **Over 39 Titles:** There is a limit of 39 titles on your DSi System Menu. Delete any additional folders from `/title`
 - **Invalid Title:** There are several parameters you need to take into account when adding titles to hiyaCFW:
    - Cartridge dumps cannot be ran without being handled by a [forwarder](/nds-bootstrap-forwarder)

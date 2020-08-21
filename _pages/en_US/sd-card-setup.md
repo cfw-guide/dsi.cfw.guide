@@ -23,18 +23,18 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
   - If you have difficulties downloading it, click where it tells you to click in order to download it
-2. Run GUIFormat with Administrator permissions
-3. Select your drive letter
-4. For your `allocation size unit`, set it to `32768`
-5. If the checkbox for "Quick Format" has a check inside, tick it off
-6. Start the format process
+2. Run GUIFormat with Administrator permissions.
+3. Select your drive letter.
+4. For your `allocation size unit`, set it to `32768`.
+5. Make sure the `Quick Format` check box is unchecked.
+6. Start the format process.
 
 ### Section II - Checking for errors
-1. Go to the properties window of your SD card
+1. Go to the properties window of your SD card.
   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
-2. In the tools tab, Select "Check Now"
-2. Check both "Automatically fix file system errors" and "Scan for and attempt recovery of bad sectors"
-3. Start the checking process
+2. In the tools tab, Select "Check Now".
+2. Check both "Automatically fix file system errors" and "Scan for and attempt recovery of bad sectors".
+3. Start the checking process.
 
 This will scan the SD card and correct any errors it finds
 

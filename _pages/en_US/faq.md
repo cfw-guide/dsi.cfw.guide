@@ -18,7 +18,7 @@ This is because we overwrite the metadata file (`pit.bin`) with the Memory Pit e
 ### How do I launch Nintendo DS cartridge dumps?
 Cartridge dumps are unable to be launched without an application to redirect Slot-1 read/writes to an SD card. nds-bootstrap is able to do the redirections to the Nintendo DSi's internal SD card and knows what to launch based on values set in its configuration file. While manually setting up the configuration file is possible, it's tedious and isn't user friendly. Depending on how you'd like to access your ROMS, there are easier ways:
 
-- TWiLight Menu++ navigates your SD card to search for ROM files launchable with nds-bootstrap. The advantages are having a cheat menu, per-game settings, and none of the restrictions that forwarder bring. In other words, you can drop your ROMs file directly and play (without any setup required), there is no 40 title limit*, no requirement of Unlaunch or hiyaCFW and no dependency on SD card free space.
+- TWiLight Menu++ navigates your SD card to search for ROM files that can be launched with nds-bootstrap. The advantages are having a cheat menu, per-game settings, and none of the restrictions that forwarder bring. In other words, you can drop your ROMs file directly and play (without any setup required), there is no 40 title limit*, no requirement of Unlaunch or hiyaCFW and no dependency on SD card free space.
 - hiyaCFW users can create [forwarders](forwarder) for the SDNAND's Nintendo DSi System Menu, but it comes with the limitations that hiyaCFW imposes (they contribute to the 39 applications limit and the SD card free space issue) and due to the nature of it being a forwarder, it involves more steps than drop-and-play.
 
 \* The Nintendo DSi, Nintendo 3DS, Homebrew Launcher and SEGA Saturn Theme have a page system of 40 roms per page, but you could change pages using the left and right triggers, or SELECT+LEFT and SELECT+RIGHT.
@@ -38,7 +38,7 @@ You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-do
   - If you are moving from DSiMenu++ or SRLoader, rename `sd:/_nds/SRLoader` or `sd:/_nds/DSiMenuPlusPlus` to `sd:/_nds/TWiLightMenu` & delete `53524C41` (and `534C5254`, if exists) at `sd:/title/00030015`
   - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating
   - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`
-  - The Wood UI (aka Acekard) theme has been temporarily  removed, due to buggyness.
+  - The Wood UI (aka Acekard) theme has been temporarily  removed, due to bugginess.
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
 - **GodMode9i, dumpTool, MakeForwarder** - Follow the instructions used to download them

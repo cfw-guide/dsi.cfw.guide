@@ -41,11 +41,11 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - Use normally incompatible flashcards
 - Boot into different homebrew applications by holding different buttons when turning on your Nintendo DSi
 - Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
-- Run Nintendo DS game backups natively on your DSi SD card without the need of a flashcard
+- Run Nintendo DS game backups from your DSi SD card without the need of a flashcard
 - Watch your favorite movies using MPEG4Player
 - Run old-time classics using various emulators
 - Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
-- Display an image (refered to as the boot splash) on system launch
+- Display an image (referred to as the boot splash) on system launch
 
 ## What should I know before starting?
 

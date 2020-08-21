@@ -28,6 +28,6 @@ This is an add-on section that involves creating forwarders for nds-bootstrap. T
 8. Select "create forwarder" & navigate to the location of your ROM
 
 Repeat step 7 and 8 until you have gotten all of your ROMs created as forwarders.
-- You do not need to reset target bootstrap versions unless your previous selection is innacurate to the current one
+- You do not need to reset target bootstrap versions unless your previous selection is inaccurate to the current one
 
 Once you've gotten all your ROMs created as forwarders, reboot the system and launch hiyaCFW. They should now appear under gift boxes.
