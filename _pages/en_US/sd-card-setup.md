@@ -13,7 +13,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 {: .notice--danger}
 
 <button class="tablinks btn btn--large btn--primary" id="defaultOpen" onclick="openTab(event, 'memoryPitInstructions')">Windows</button>
-<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'macOSInstructions')">MacOS</button>
+<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'macOSInstructions')">macOS</button>
 <button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'flipnoteLennyInstructions')">Linux</button>
 
 {% capture memoryPitInstructions %}
