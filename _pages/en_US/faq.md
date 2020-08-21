@@ -54,4 +54,4 @@ Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other
 - If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system.
 - If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW]() page, then return to the [Installing Unlaunch]() page to update Unlaunch.
    - hiyaCFW Helper, the tool used for installing hiyaCFW, comes with the option to install TWiLight Menu++. There is no need for installing TWiLight Menu++ separately
-   - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we setup hiyaCFW
+   - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we set up hiyaCFW
