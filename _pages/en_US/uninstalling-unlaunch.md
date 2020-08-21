@@ -7,7 +7,7 @@ title: Uninstalling Unlaunch
 
 **WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Here are some cases on why you may want to uninstall Unlaunch but with solutions that don't require uninstalling.
 
-- **The Unlaunch Background is scary:** Re-follow the steps in the installing-unlaunch page. They now contain instructions on how to change the background.
+- **The Unlaunch Background is scary:** follow the steps in the installing-unlaunch page again. They now contain instructions on how to change the background.
 - **There is no Splash screen and the music is missing:** Re-follow the steps in the installing-unlaunch page. They now contain mitigation instructions.
 - **My system is bricked:** This page isn't for you then, as it requires a working system in order to uninstall unlaunch.
 
