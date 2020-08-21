@@ -20,7 +20,7 @@ Cartridge dumps require a flashcard or nds-bootstrap, an application that redire
 
 Playing cartridge dumps on the console requires the use of a flashcart or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have.
-- hiyaCFW users can create [forwarders](forwarder) for the SDNAND's DSi Menu, but it has some limitations. They count towards the 39 title limit and are less convenient to make.
+- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make.
 
 
 \* The Nintendo DSi, Nintendo 3DS, Homebrew Launcher and SEGA Saturn Theme have a page system of 40 ROMs per page, but you can switch pages using the left and right triggers, or SELECT+LEFT and SELECT+RIGHT.
