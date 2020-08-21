@@ -21,11 +21,11 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ## What is homebrew?
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) applications are unlicensed software made for closed systems such as the Nintendo DSi. These applications can range from utility tools to custom homebrew games.
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) applications are unlicensed software made for closed systems such as the Nintendo DSi. These applications can range from utilities to custom homebrew games.
 
 Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide will be called Memory Pit, but there are other entry points you could use if Memory Pit is unusable.
 
-## What would this guide be doing to my system?
+## What will this guide do to my system?
 
 Keep in mind that the guide is structured in a linear path, yet it generally depends on how deep you want to go in terms of modding the system.
 

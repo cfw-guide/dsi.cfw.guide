@@ -32,16 +32,16 @@ To dump said cartridges that you'd like to launch, you can [use GodMode9i](dumpi
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
 
 ### How do I update my Nintendo DSi Homebrew?
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch] page
+- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](/installing-unlaunch) page
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card
 - **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu)
   - If you are moving from DSiMenu++ or SRLoader, rename `sd:/_nds/SRLoader` or `sd:/_nds/DSiMenuPlusPlus` to `sd:/_nds/TWiLightMenu` & delete `53524C41` (and `534C5254`, if exists) at `sd:/title/00030015`
   - Starting with v6.8.3, DS game saves are stored in a `saves` folder in the exact same location as the DS (`.nds`) ROMs. Please move them to that folder before updating
   - Starting with v12.0.0, please convert any photos for the DSi theme to `.png`
-  - The Wood UI (aka Acekard) theme has been temporarily  removed, due to bugginess.
+  - The Wood UI (aka Acekard) theme has been temporarily removed, due to bugginess.
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
-- **GodMode9i, dumpTool, MakeForwarder** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, MakeForwarder, etc** - Follow the instructions used to download them
 
 Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other homebrew might use other methods to update.
 
