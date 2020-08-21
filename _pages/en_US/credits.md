@@ -9,8 +9,9 @@ This is the credits for those who have helped out with the guide website, homebr
 If you like what they have done, consider donating (if they have a donation link).
 
 {% capture notice-1 %}
-- [emiyl](https://emiyl.com/paypal): Guide Maintainer, domain holder
-- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [urmum_69](https://github.com/urmum-69): Guide Maintainer
+- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [urmum_69](https://github.com/urmum-69): Guide Maintainers
+- [YourKalamity](https://github.com/YourKalamity/): Making Just-A-DFC and Lazy DSi File Downloader
+- [emiyl](https://emiyl.com/paypal): Domain holder
 - Halvorsen: Provided an image of their Nintendo DSi to be used on the home page
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew Tools & forked Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions)
