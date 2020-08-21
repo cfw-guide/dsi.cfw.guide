@@ -23,18 +23,18 @@ Make sure to backup your SD card contents BEFORE following this. Your SD Card wi
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
   - If you have difficulties downloading it, click where it tells you to click in order to download it
-2. Run GUIFormat with Administrator permissions
-3. Select your drive letter
-4. For your `allocation size unit`, set it to `32768`
-5. Make sure the `Quick Format` check box is unchecked
-6. Start the format process
+1. Run GUIFormat with Administrator permissions
+1. Select your drive letter
+1. For your `allocation size unit`, set it to `32768`
+1. Make sure the `Quick Format` check box is unchecked
+1. Start the format process
 
 ### Section II - Checking for errors
 1. Go to the properties window of your SD card
   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
-2. In the tools tab, Select "Check Now"
-2. Check both "Automatically fix file system errors" and "Scan for and attempt recovery of bad sectors"
-3. Start the checking process
+1. In the tools tab, Select "Check Now"
+1. Check both "Automatically fix file system errors" and "Scan for and attempt recovery of bad sectors"
+1. Start the checking process
 
 This will scan the SD card and correct any errors it finds
 
@@ -42,11 +42,11 @@ This will scan the SD card and correct any errors it finds
 
 1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
   - It can also be extracted on an external device as long as that external device isn't your SD card
-2. With your SD card inserted into your computer, run `h2testw.exe`
-3. Select which language you'd like to see h2testw in
-4. Set your SD card's drive letter as your target
-5. Ensure "all available space" is selected
-6. Click "Write + Verify"
+1. With your SD card inserted into your computer, run `h2testw.exe`
+1. Select which language you'd like to see h2testw in
+1. Set your SD card's drive letter as your target
+1. Ensure "all available space" is selected
+1. Click "Write + Verify"
 - Wait until the process is completed
 
 If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
@@ -60,10 +60,10 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 ## Linux
 ### Section I - Determining which slot your SD card is in
 1. Make sure your SD card is **not** inserted into your Linux machine
-2. Launch the Linux Terminal
-3. Type `watch "lsblk"`
-4. Insert your SD card into your Linux machine
-5. Observe the output. It should match something like this:
+1. Launch the Linux Terminal
+1. Type `watch "lsblk"`
+1. Insert your SD card into your Linux machine
+1. Observe the output. It should match something like this:
 ```
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk

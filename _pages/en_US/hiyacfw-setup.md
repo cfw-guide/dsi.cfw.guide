@@ -45,7 +45,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 {% endcapture %}
 
 {% capture flipnoteLennyInstructions %}
-### Linux & macOS
+### macOS & Linux
 
 1. Download & install the latest version of [Python 3](https://www.python.org/downloads/)
 1. Download the latest python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
