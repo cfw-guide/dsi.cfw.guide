@@ -20,8 +20,8 @@ This is an add-on section for dumping cartridges using GodMode9i, useful for loa
 ### Section II - Nintendo DSi Instructions
 
 1. Power on your console while holding <kbd>A</kbd> and <kbd>B</kbd>
-   - This should launch the Unlaunch Management Menu
-1. Launch GodMode9i in the Unlaunch Menu
+   - This should launch the Unlaunch Filemenu
+1. Launch GodMode9i in the Unlaunch Filemenu
 1. Ensure the game cartridge is inserted into the console
 1. Select the "NDS GAMECARD" option in GodMode9i
 1. Select if you want the padding or not:

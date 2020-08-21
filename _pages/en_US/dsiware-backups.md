@@ -30,10 +30,11 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 
 ### Section II - Extracting the file
 
-1. Launch GodMode9i from the Unlaunch Menu
+1. Launch GodMode9i from the Unlaunch Filemenu
 1. Navigate to SYSNAND, then navigate through the path you took note of above
-1. Highlight the .app file, then hit Y to copy
-1. Navigate your SD card to where you'd like to place the file
-1. Hit L to paste the file
+1. Highlight the `.app` file, then press <kbd>L</kbd> to add it to the clipboard
+   - Repeat this for all files you wish to copy to the same directory
+1. Navigate your SD card to the directory where you'd like to place the dumped DSiWare title
+1. Press <kbd>Y</kbd> to paste the dumped DSiWare title in the directory you are currently navigating
 
 You should now see the DSiWare title in either TWiLight Menu++ or the Unlaunch Filemenu.

@@ -16,12 +16,12 @@ That implies an SD card error. Please make sure you have [checked your SD card f
 This is because we overwrite the metadata file (`pit.bin`) with the Memory Pit exploit.
 
 ### How do I play Nintendo DS cartridge dumps?
-Cartridge dumps are unable to be launched without an application to redirect Slot-1 read/writes to an SD card. nds-bootstrap is able to do the redirections to the Nintendo DSi's internal SD card and knows what to launch based on values set in its configuration file. While manually setting up the configuration file is possible, it's tedious and isn't user friendly. Depending on how you'd like to access your ROMS, there are easier ways:
+Cartridge dumps require a flashcard or nds-bootstrap, an application that redirects Slot-1 reads/writes to the internal SD card, to be played. To use nds-bootstrap you will need an application that can tell it what game to load, such as:
 
-- TWiLight Menu++ navigates your SD card to search for ROM files that can be launched with nds-bootstrap. The advantages are having a cheat menu, per-game settings, and none of the restrictions that forwarder bring. In other words, you can drop your ROMs file directly and play (without any setup required), there is no 40 title limit*, no requirement of Unlaunch or hiyaCFW and no dependency on SD card free space.
-- hiyaCFW users can create [forwarders](forwarder) for the SDNAND's Nintendo DSi System Menu, but it comes with the limitations that hiyaCFW imposes (they contribute to the 39 applications limit and the SD card free space issue) and due to the nature of it being a forwarder, it involves more steps than drop-and-play.
+- TWiLight Menu++ lets you navigate your SD card for ROM files to play with nds-bootstrap. The advantages are having a cheat menu, per-game settings, and none of the restrictions that forwarders bring. In other words, you can drop your ROM files directly on your SD card and play without any setup, there is no 39 title limit*, no requirement of Unlaunch or hiyaCFW and no dependency on SD card free space.
+- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's Nintendo DSi Menu, but it comes with the lmitations that hiyaCFW imposes. They contribute to the 39 application limit and the SD card free space issue. Due to the nature of forwarders, it also involves more steps than drop-and-play
 
-\* The Nintendo DSi, Nintendo 3DS, Homebrew Launcher and SEGA Saturn Theme have a page system of 40 roms per page, but you could change pages using the left and right triggers, or SELECT+LEFT and SELECT+RIGHT.
+\* The Nintendo DSi, Nintendo 3DS, Homebrew Launcher and SEGA Saturn Theme have a page system of 40 ROMs per page, but you can switch pages using the left and right triggers, or SELECT+LEFT and SELECT+RIGHT.
 
 Flashcarts are still usable on a modified Nintendo DSi (and in cases of incompatible nds-bootstrap games and higher compatibility with homebrew, required), but unlike on a DS Lite, they're optional. In most cases though, using nds-bootstrap is better considering the enhancements that it brings to the table, such as overclocking the CPU, loading the ROM in RAM (making speeds quicker), expand the VRAM bus to 32-bit amongst other additions.
 
