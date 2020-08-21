@@ -19,7 +19,7 @@ Using a Windows, Linux or macOS device? We have a tool that will automatically s
 
 ## Section II - Dumping the NAND
 1. Launch `dumpTool.nds` through TWiLight Menu++
-1. Hit the **(A)** button on your Nintendo DSi to start dumping your NAND
+1. Hit the <kbd>A</kbd> button on your Nintendo DSi to start dumping your NAND
    - A NAND backup typically takes around 7 minutes.
 1. When the NAND backup is complete, hit the **(START)** button on your Nintendo DSi to exit dumpTool
 1. Power off your console and insert your SD card back into your device

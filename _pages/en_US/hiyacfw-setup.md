@@ -115,15 +115,15 @@ Although the system menu only breaks when the SD card free space is in a negativ
 
 ## Section IV - Configuring Unlaunch and hiyaCFW
 
-1. Power on your Nintendo DSi console while holding **(A) + (B)**
+1. Power on your Nintendo DSi console while holding <kbd>A</kbd> + <kbd>B</kbd>
    - This should take you to Unlaunch's Management Menu.
 1. Navigate to `OPTIONS` -> `NO BUTTON`
-1. Select `hiya.dsi` and press **(A)**
+1. Select `hiya.dsi` and press <kbd>A</kbd>
    - This will make the system launch hiyaCFW at boot
 1. Save your settings and restart your console
-1. Hold **(SELECT)** while powering on your Nintendo DSi console to access the hiyaCFW settings
-   - If you selected `Install latest TWiLight Menu++ on custom firmware` to boot into the SDNAND home screen instead of TWiLight Menu++, navigate to `Autoboot title` and press **(A)** to deselect it.
-1. Change the settings to your liking, and press **(START)** to continue
+1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
+   - If you selected `Install latest TWiLight Menu++ on custom firmware` to boot into the SDNAND home screen instead of TWiLight Menu++, navigate to `Autoboot title` and press <kbd>A</kbd> to deselect it.
+1. Change the settings to your liking, and press <kbd>START</kbd> to continue
 
 Your system will now boot from the SD card instead of the internal NAND.
 
