@@ -13,11 +13,12 @@ That implies an SD card error. Please make sure you have [checked your SD card f
 - If you decide to install Unlaunch, you will not lose any system functionality
 - If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch).
 
-This is because we overwrite the metadata file (`pit.bin`) with the Memory Pit exploit.
+This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit.
+
+### How can I dump my cartridges?
+To dump your cartridges for use with emulators, nds-bootstrap or flashcarts, follow [this guide](dumping-cartridges).
 
 ### How do I play Nintendo DS cartridge dumps?
-Cartridge dumps require a flashcard or nds-bootstrap, an application that redirects Slot-1 reads/writes to the internal SD card, to be played. To use nds-bootstrap you will need an application that can tell it what game to load, such as:
-
 Playing cartridge dumps on the console requires the use of a flashcart or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have.
 - hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch Anti-Piracy.
@@ -28,8 +29,6 @@ Playing cartridge dumps on the console requires the use of a flashcart or nds-bo
 Flashcarts are still usable on a modified Nintendo DSi (and in cases of incompatible nds-bootstrap games and higher compatibility with homebrew, required), but unlike on a DS Lite, they're optional. In most cases though, using nds-bootstrap is better considering the enhancements that it brings to the table, such as overclocking the CPU, loading the ROM in RAM (making speeds quicker), expand the VRAM bus to 32-bit amongst other additions.
 - Unlaunch modifies the flashcart blocklist, so if you have a blocked flashcart it will be usable again
 
-To dump said cartridges that you'd like to launch, you can [use GodMode9i](dumping-cartridges). We do not condone piracy, nor encourage it.
-- If you are unsure what piracy is, there is a good writeup on the [eiphax](https://3ds.eiphax.tech/piracy.html) website.
 
 ### How can I restore my NAND without Unlaunch?
 You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
