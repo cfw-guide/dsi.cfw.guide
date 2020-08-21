@@ -31,7 +31,7 @@ Make sure your console is charged when following this process. A sudden power lo
 
 ## Section I - SD card preparations
 
-Using a Windows, Linux or Mac OS device? We have a tool that will automatically set up your SD card for following the guide.
+Using a Windows, Linux or macOS device? We have a tool that will automatically set up your SD card for following the guide.
 {: .notice--info}
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
