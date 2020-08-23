@@ -7,7 +7,6 @@ title: "File Extensions (Windows)"
 This is an add-on section for disabling Windows's default behavior of hiding file extensions, which will make finding referenced files in the guide much easier for you.
 
 ## Windows 10 / 8.1 / 8 users
-
 1. Launch File Explorer by opening any directory, such as your SD card directory
 2. Click the "View" option on the ribbon menu
 3. Check the box labeled "File name extensions"

@@ -6,10 +6,9 @@ redirect_from:
 {% include toc title="Questions" %}
 
 ### What does a white screen in certain homebrew mean?
-That implies an SD card error. Please make sure you have [checked your SD card for errors](sd-card-setup).
+This could possibly be an SD card error. Please make sure you have [checked your SD card for errors](sd-card-setup).
 
 ### What functionality will I lose by modding my system?
-
 - If you decide to install Unlaunch, you will not lose any system functionality
 - If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch).
 
@@ -41,7 +40,6 @@ You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-do
 Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other homebrew might use other methods to update.
 
 ### I am new or I would like to redo my setup. Where do I start?
-
 - If you had not already modified your console or are looking towards updating Unlaunch while not using hiyaCFW on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage.
 - If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system.
 - If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW]() page, then return to the [Installing Unlaunch]() page to update Unlaunch.

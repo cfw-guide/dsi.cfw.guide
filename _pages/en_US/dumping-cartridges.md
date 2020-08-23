@@ -5,7 +5,7 @@ redirect_from:
   - /dump-card
 ---
 
-This is an add-on section for dumping cartridges using GodMode9i, useful for loading the cartridge data on emulators, flashcarts or your SD card via nds-bootstrap.
+This section is for dumping cartridges using GodMode9i, so they can be played on emulators, flashcarts or your SD card via nds-bootstrap.
 
 ## Requirements
 * The cartridge of the title you would like to dump
@@ -18,7 +18,6 @@ This is an add-on section for dumping cartridges using GodMode9i, useful for loa
 - Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
 
 ### Section II - Nintendo DSi Instructions
-
 1. Power on your console while holding <kbd>A</kbd> and <kbd>B</kbd>
    - This should launch the Unlaunch Filemenu
 1. Launch GodMode9i in the Unlaunch Filemenu

@@ -29,7 +29,6 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 {: .notice--info}
 
 ### Section II - Extracting the file
-
 1. Launch GodMode9i from the Unlaunch Filemenu
 1. Navigate to SYSNAND, then navigate through the path you took note of above
 1. Highlight the `.app` file, then press <kbd>L</kbd> to add it to the clipboard
