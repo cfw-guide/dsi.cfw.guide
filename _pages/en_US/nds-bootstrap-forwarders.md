@@ -16,7 +16,7 @@ This is an add-on section that involves creating forwarders for nds-bootstrap. T
 
 1. Extract *the contents of* `MakeForwarder.zip` to the root of your SD card
 2. Launch TWiLight Menu++ via the Unlaunch menu
-  - Hold **(A)** & **(B)** to go to the Unlaunch menu
+  - Hold <kbd>A</kbd> & <kbd>B</kbd> to go to the Unlaunch menu
 3. Launch your Nintendo DS ROM
 4. Once the ROM boots and works, turn off your console
   - If it does not work, please follow the nds-bootstrap troubleshooting guide
