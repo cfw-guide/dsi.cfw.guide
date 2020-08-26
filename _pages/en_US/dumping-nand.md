@@ -14,7 +14,7 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 Using a Windows, Linux or macOS device? We have a tool that will automatically set up your SD card for following the guide.
 {: .notice--info}
 
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases)
+1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
 1. Place `dumpTool.nds` anywhere on your SD card
 
 ## Section II - Dumping the NAND

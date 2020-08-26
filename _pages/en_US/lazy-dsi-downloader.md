@@ -13,11 +13,11 @@ If at this point you get a tutorial and crash when trying to follow it, then you
 
 ## Setup Guide
 
-1. Download the latest release of [Lazy DSi Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) corresponding to your operating system
+1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
 1. Launch it via the instructions listed in the release page
 1. Hit the Next button
    - The intro text isn't mandatory to read
 1. If you have failed your verification steps, toggle off the Memory Pit option
 1. Hit the check boxes for "Download GodMode9i" and "Download Unlaunch"
-   - At this point, feel free to visit the other homebrew applications that the tool offers you. This is not mandatory though
+   - Feel free to select any of the other homebrew applications in `Additional homebrew...`, but this is not mandatory
 1. Wait for everything to download, then hit Finish
