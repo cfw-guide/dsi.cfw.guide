@@ -5,7 +5,7 @@ redirect_from:
   - /dump-card
 ---
 
-This section is for dumping cartridges using GodMode9i, so they can be played on emulators, flashcarts or your SD card via nds-bootstrap.
+This section is for dumping cartridges using GodMode9i so they can be played on emulators, flashcarts or your SD card via nds-bootstrap.
 
 ## Requirements
 * The cartridge of the title you would like to dump
