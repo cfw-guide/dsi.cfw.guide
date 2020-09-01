@@ -7,9 +7,9 @@ redirect_from:
   - /sd-prep
 ---
 
-This is a subset of the main guide, to teach users how to prepare the SD card for following the guide. In the process, we'll format the SD card to a format suitable for the Nintendo DSi & checking for errors in the card.
+This page is for preparing your SD card for your Nintendo DSi. In the process, we'll format the SD card to a format suitable for the Nintendo DSi and check the card for errors.
 
-Make sure to backup your SD card contents BEFORE following this. Your SD Card will be WIPED in the process.
+Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
 {: .notice--danger}
 
 <a class="tablinks btn btn--large btn--info" id="windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
