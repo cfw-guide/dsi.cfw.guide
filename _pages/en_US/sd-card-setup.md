@@ -230,7 +230,7 @@ You can now restore the contents of your SD card and continue.
 	// Open the tab for the current OS
 	if(navigator.platform.includes("Win"))
 		document.getElementById("windows").click();
-	if(navigator.platform.includes("Mac"))
+	else if(navigator.platform.includes("Mac"))
 		document.getElementById("macos").click();
 	else
 		document.getElementById("other").click();
