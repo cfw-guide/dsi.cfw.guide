@@ -7,18 +7,20 @@ redirect_from:
 
 {% include toc title="Navigation" %}
 
-Unlaunch is an exploit that allows homebrew applications to take full advantage of the Nintendo DSi hardware at boot. Examples include dumping a Slot-1 device, launching into hiyaCFW amongst others.
+Unlaunch is an exploit that allows homebrew applications to take full advantage of the Nintendo DSi hardware at boot. Examples include dumping a Slot-1 device and launching into hiyaCFW, amongst others.
 
 {% capture usageInstructions %}
 WARNING: While low, there is a chance of **bricking your console** when installing Unlaunch. If you are worried whether you'd brick, these are all the benefits your console will gain by installing Unlaunch:
 
 - Higher compatibility with running old Nintendo DS homebrew via nds-bootstrap-hb (including the SNES emulator in TWiLight Menu++)
+- Better sound in GBARunner2
 - Launching incompatible flashcarts
-- Dumping SLOT-1 data
-- Launching DSiWare
+- Removing region locks on DSi enhanced / exclusive games
+- Accessing Slot-1 data
+- Launching DSiWare from SD
 - Launching titles at boot (such as TWiLight Menu++ or other DSiWare)
+- Protection from bricking
 
-Evaluate whether Unlaunch is necessary or not.
 {% endcapture %}
 
 <div class="notice--primary">{{ usageInstructions | markdownify }}</div>
@@ -45,15 +47,15 @@ Using a Windows, Linux or macOS device? We have a tool that will automatically s
    - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the exploit that you used.
    - If you have already installed Unlaunch and are looking to update it, hold <kbd>A</kbd> + <kbd>B</kbd> while booting and select `BOOT.NDS`
 1. Launch TWiLight Menu++'s Settings
-   - If you hadn't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
+   - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
 1. Hit <kbd>L</kbd> / <kbd>R</kbd> until you reach the Unlaunch Settings page
-1. Set your custom Unlaunch BG from the options menu
-1. Make sure the "Revert Menu patches" option is set to true
-   - Without this, your DSi System Menu will not contain any music and the DSi Splash Screen will not appear
+1. If you want to change Unlaunch's background image, click on `Background` and choose the one you want
+1. If you want the Health and Safety screen and DSi Menu music, then set `Launcher Patches` to `Off`
+   - This will also prevent region locking from being removed
 1. Exit the TWiLight Menu++ Settings
-1. In the file navigation menu, launch `UNLAUNCH.DSI`
+1. In the file navigation menu, launch `Unlaunch DSi Installer`
 1. Select the install option
-   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at our [Troubleshooting](troubleshooting) page
+   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting) page
 1. When completed, reboot your system
 
 If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
@@ -61,17 +63,17 @@ If you see Unlaunch's management screen at this point, you have successfully mod
 
 ## Section II - Post-Unlaunch Configuration
 
-Currently, Unlaunch defaults to launching it's ROM launcher on boot. We will change this so that we could launch whatever we like depending on our button configuration (while also adding a fallback to the Nintendo DSi System Menu)
+Currently Unlaunch defaults to launching its file menu on boot, but this can be changed launch whatever you want.
 
 We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead of the exploited DSiWare title) when we soft-reset in-game.
 
 1. Power on your console while holding <kbd>A</kbd> + <kbd>B</kbd>
 1. Navigate to `OPTIONS`, and look at the available options
    - <kbd>A</kbd> + <kbd>B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
-1. Feel free to play around with the options available for changing what each button boots you into. You can select DSiWare, Homebrew (best to use TWiLight Menu++ for that though) and Slot-1 launching
-   - For TWiLight Menu++, hover over the `TWiLight Menu++` option and make sure that `boot.nds` is shown on the bottom screen
-   - For the original DSi System Menu, select `Launcher`.
-1. Set `Launch Error` to point to the original Nintendo DSi System Menu, titled `Launcher`.
+   - The `NO BUTTON` and `BUTTON A/B/X/Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, Homebrew, the Slot-1 card, or Unlaunch's file menu
+      - For TWiLight Menu++, select the `TWiLight Menu++` option where `boot.nds` is shown on the bottom screen
+      - For the original DSi Menu, select `Launcher`
+   - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted. If you would like to load into the DSi Menu, then set this to `Launcher`
 1. Save your settings and head back to Unlaunch's menu
 1. Hover over the `TWiLight Menu++` options and find the one that has a path containing `settings.srldr` on the bottom screen
 1. Launch the highlighted option
@@ -84,7 +86,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 {: .notice--primary}
 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-   - If you used another exploit, delete the relevant files concerning that exploit instead
+   - If you used another exploit, delete the files from that exploit instead
 - Delete the `UNLAUNCH.DSI` file from your SD card
 
 Continue to [Installing hiyaCFW](installing-hiyacfw)

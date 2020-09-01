@@ -37,7 +37,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
    - This will not work with any other archive extractor tool you own, such as WinRAR. hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
-1. Download the latest windows version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Download the latest Windows version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Download the latest windows version of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 1. Launch the `HiyaCFW_Helper.exe` file, located in the folder you have just extracted
@@ -111,9 +111,9 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 This is the section you should redo if you get a screen saying "An Error Has Occured"
 {: .notice--info}
 
-The Nintendo DSi System Menu has a limit on how much free space it could have on the storage device hosting the menu. While this doesn't occur on the actual NAND (since the chip would never exceed 128 MB), it can happen using an SD card. The factor of what is allowed and what isn't goes by every other range of two gigabytes. For example, while having 0-2 GB worth of free space would allow your system menu to boot, 2-4 GB doesn't. The same goes for 4-6 GB vs 6-8, up until you get to your SD card size.
+The Nintendo DSi Menu has a bug that limits how much free space there can be. While this doesn't occur on the actual NAND (since the chip can never exceed 128 MB), it can happen using an SD card. What works and what doesn't goes by every other range of two gigabytes. For example, having 0-2 GB of free space works, but 2-4 GB doesn't. The same goes for 4-6 GB vs 6-8, up until you get to the size of your SD card.
 
-Although the system menu only breaks when the SD card free space is in a negative range, it'd be much better to maximize what you are able to use out of your SD card. We'll be using the "Just-a-DFC" tool made by YourKalamity to do so.
+To ensure that your SD card has the maximum amount of free space that will work we'll be using using Just-a-DFC.
 
 1. Switch over to the terminal window containing Just-A-DFC
 1. Identify where your SD card is mounted
@@ -135,5 +135,5 @@ Although the system menu only breaks when the SD card free space is in a negativ
 
 Your system will now boot from the SD card instead of the internal NAND.
 
-If you receive `An Error Has Occurred`, please view our [Troubleshooting](troubleshooting) page.
+If it shows `An Error Has Occurred`, please see our [Troubleshooting](troubleshooting) page.
 {: .notice--warning}

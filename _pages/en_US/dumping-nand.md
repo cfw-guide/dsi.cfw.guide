@@ -18,19 +18,17 @@ Using a Windows, Linux or macOS device? We have a tool that will automatically s
 1. Place `dumpTool.nds` anywhere on your SD card
 
 ## Section II - Dumping the NAND
-1. Launch `dumpTool.nds` through TWiLight Menu++
+1. Launch `dumpTool` through TWiLight Menu++
 1. Hit the <kbd>A</kbd> button on your Nintendo DSi to start dumping your NAND
    - A NAND backup typically takes around 7 minutes.
 1. When the NAND backup is complete, hit the <kbd>START</kbd> button on your Nintendo DSi to exit dumpTool
 1. Power off your console and insert your SD card back into your device
 1. Store this backup somewhere safe, where you won't lose it
    - If possible, make multiple backups across different storage devices
+   - Once you've backed it up elsewhere, you can delete it from the SD card
 
 The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 {: .notice--warning}
-
-Once a backup is made, you can delete the dump from the SD card itself.
-{: .notice--info}
 
 Continue to [Installing Unlaunch](installing-unlaunch) (Optional)
 {: .notice--info}

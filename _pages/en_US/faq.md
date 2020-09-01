@@ -25,7 +25,7 @@ Playing cartridge dumps on the console requires the use of a flashcart or nds-bo
 ### How can I restore my NAND backup if I cannot boot the console?
 You can follow Gadorach's [hardmodding guide](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) to hardmod your DSi. Previous soldering experience is required.
 
-### How do I update my Nintendo DSi Homebrew?
+### How do I update my homebrew?
 - **Unlaunch** - Follow the instructions on the [Installing Unlaunch](/installing-unlaunch) page
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card
 - **TWiLight Menu++** - Follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu)
@@ -42,6 +42,6 @@ Keep in mind we can only guarantee the DSi Homebrew listed on our website. Other
 ### I am new or I would like to redo my setup. Where do I start?
 - If you had not already modified your console or are looking towards updating Unlaunch while not using hiyaCFW on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage.
 - If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system.
-- If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW]() page, then return to the [Installing Unlaunch]() page to update Unlaunch.
+- If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW](installing-hiyacfw) page, then return to the [Installing Unlaunch](installing-unlaunch) page to update Unlaunch.
    - hiyaCFW Helper, the tool used for installing hiyaCFW, comes with the option to install TWiLight Menu++. There is no need for installing TWiLight Menu++ separately
    - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we set up hiyaCFW

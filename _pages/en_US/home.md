@@ -23,7 +23,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) applications are unlicensed software made for closed systems such as the Nintendo DSi. These applications can range from utilities to custom homebrew games.
 
-Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide will be called Memory Pit, but there are other entry points you could use if Memory Pit is unusable.
+Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide is called Memory Pit, but there are other entry points you can use if Memory Pit is unusable.
 
 ## What will this guide do to my system?
 
@@ -39,7 +39,7 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 - Redirect your NAND to the SD card
 - Use normally incompatible flashcards
-- Boot into different homebrew applications by holding different buttons when turning on your Nintendo DSi
+- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
 - Run Nintendo DS game backups from your DSi SD card without the need of a flashcard
 - Watch your favorite movies using MPEG4Player

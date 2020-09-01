@@ -25,7 +25,8 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
    - If you have difficulties downloading it, click where it tells you to click in order to download it
 1. Run GUIFormat with Administrator permissions
 1. Select your drive letter
-1. For your `allocation size unit`, set it to `32768`
+1. Set your `Allocation size unit` it to `32768`
+  - If this is too large for your SD, set it to the highest one that works
 1. Make sure the `Quick Format` check box is unchecked
 1. Start the format process
 
