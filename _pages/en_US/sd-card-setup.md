@@ -32,8 +32,8 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 ### Section II - Checking for errors
 1. Go to the properties window of your SD card
   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
-1. In the tools tab, Select "Check Now"
-1. Check both "Automatically fix file system errors" and "Scan for and attempt recovery of bad sectors"
+1. In the tools tab, Select `Check Now`
+1. Check both `Automatically fix file system errors` and `Scan for and attempt recovery of bad sectors`
 1. Start the checking process
 
 This will scan the SD card and correct any errors it finds
@@ -45,8 +45,8 @@ This will scan the SD card and correct any errors it finds
 1. With your SD card inserted into your computer, run `h2testw.exe`
 1. Select which language you'd like to see h2testw in
 1. Set your SD card's drive letter as your target
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
+1. Ensure `all available space` is selected
+1. Click `Write + Verify`
 - Wait until the process is completed
 
 If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card
@@ -81,7 +81,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 3. Create a new Primary partition that covers the size of your entire SD card
 - This will create a new partition with the linux filetype
 4. Select type and take a look at the menu
-5. Find "W95 FAT32" and take note of the code on the left side of that text
+5. Find `W95 FAT32` and take note of the code on the left side of that text
 6. Press any key, then enter the code you took note of in the previous step
 7. Hit enter, then hit Quit
 
@@ -95,24 +95,24 @@ mmcblk0     179:0    0   3,8G  0 disk
 #### OS X El Capitan (10.11) and later
 
 1. Launch the Disk Utility application
-2. Select "Show All Devices" in the top-left "View" panel
+2. Select `Show All Devices` in the top-left `View` panel
 3. Select your SD card from the sidebar
   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
-4. Click "Erase" at the top
-6. Ensure that "Format" is set to "MS-DOS (FAT)"
-7. Ensure that "Scheme" is set to "Master Boot Record"
-  - If "Scheme" does not appear, click "Cancel" and make sure to choose the device instead of a volume
-8. Click "Erase", then click "Close"
+4. Click `Erase` at the top
+6. Ensure that `Format` is set to `MS-DOS (FAT)`
+7. Ensure that `Scheme` is set to `Master Boot Record`
+  - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
+8. Click `Erase`, then click `Close`
 
 #### OS X Yosemite (10.10) and earlier
 1. Launch the Disk Utility application
 2. Select your SD card from the sidebar
   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
-3. Click "Partition" at the top
-  + If "Partition" does not appear, make sure to choose the device instead of a volume
-4. Ensure that "Partition Layout" is set to "1 Partition"
-5. Ensure that "Format" is set to "MS-DOS (FAT)"
-6. From the Options button (below the partition table), select "Master Boot Record".
+3. Click `Partition` at the top
+  + If `Partition` does not appear, make sure to choose the device instead of a volume
+4. Ensure that `Partition Layout` is set to `1 Partition`
+5. Ensure that `Format` is set to `MS-DOS (FAT)`
+6. From the Options button (below the partition table), select `Master Boot Record`.
 7. Click `OK` -> `Apply` -> `Partition`
 
 ### Section II - Using F3
