@@ -29,10 +29,10 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 ## Section I - Preparing your PC for installing hiyaCFW
 
-<button class="tablinks btn btn--large btn--primary" id="defaultOpen" onclick="openTab(event, 'memoryPitInstructions')">Windows</button>
-<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'flipnoteLennyInstructions')">macOS & Linux</button>
+<a class="tablinks btn btn--large btn--info delink" id="windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
+<a class="tablinks btn btn--large btn--info delink" id="other" href="#otherInstructions" onclick="openTab(event, 'otherInstructions')">macOS & Linux</a>
 
-{% capture memoryPitInstructions %}
+{% capture windowsInstructions %}
 ### Windows
 
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
@@ -44,7 +44,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Leaving the hiyaCFW Helper open, launch the Just-A-DFC `.exe` file you downloaded earlier
 {% endcapture %}
 
-{% capture flipnoteLennyInstructions %}
+{% capture otherInstructions %}
 ### macOS & Linux
 
 1. Download & install the latest version of [Python 3](https://www.python.org/downloads/)
@@ -58,8 +58,8 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. On the second terminal, `cd` to where you downloaded `just-a-DFC.py` and type `./just-a-DFC.py`
 {% endcapture %}
 
-<div id="memoryPitInstructions" class="blanktabcontent">{{ memoryPitInstructions | markdownify }}</div>
-<div id="flipnoteLennyInstructions" class="blanktabcontent">{{ flipnoteLennyInstructions | markdownify }}</div>
+<div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
+<div id="otherInstructions" class="blanktabcontent">{{ otherInstructions | markdownify }}</div>
 
 <script>
 	let tabcontent = document.getElementsByClassName("blanktabcontent");
@@ -82,8 +82,16 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 		evt.currentTarget.className = evt.currentTarget.className.replace("btn--info", "btn--primary");
 	}
 
-	// Get the element with id="defaultOpen" and click on it
-	document.getElementById("defaultOpen").click();
+	// Remove links from tab buttons
+	for(a of tablinks) {
+		a.href = "javascript:void(0);";
+	}
+
+	// Open the tab for the current OS
+	if(navigator.platform.includes("Win"))
+		document.getElementById("windows").click();
+	else
+		document.getElementById("other").click();
 </script>
 
 ## Section II - Adding hiyaCFW files to your SD card

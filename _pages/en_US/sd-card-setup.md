@@ -12,11 +12,11 @@ This is a subset of the main guide, to teach users how to prepare the SD card fo
 Make sure to backup your SD card contents BEFORE following this. Your SD Card will be WIPED in the process.
 {: .notice--danger}
 
-<button class="tablinks btn btn--large btn--primary" id="defaultOpen" onclick="openTab(event, 'memoryPitInstructions')">Windows</button>
-<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'macOSInstructions')">macOS</button>
-<button class="tablinks btn btn--large btn--info" onclick="openTab(event, 'flipnoteLennyInstructions')">Linux</button>
+<a class="tablinks btn btn--large btn--info" id="windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
+<a class="tablinks btn btn--large btn--info" id="macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
+<a class="tablinks btn btn--large btn--info" id="other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
 
-{% capture memoryPitInstructions %}
+{% capture windowsInstructions %}
 ## Windows
 ### Section I - Formatting your SD card
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
@@ -56,7 +56,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 {: .notice--danger}
 {% endcapture %}
 
-{% capture flipnoteLennyInstructions %}
+{% capture linuxInstructions %}
 ## Linux
 ### Section I - Determining which slot your SD card is in
 1. Make sure your SD card is **not** inserted into your Linux machine
@@ -89,7 +89,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 {% include_relative f3.md %}
 {% endcapture %}
 
-{% capture macOSInstructions %}
+{% capture macosInstructions %}
 ## macOS
 ### Section I - Formatting your SD card
 #### OS X El Capitan (10.11) and later
@@ -119,9 +119,9 @@ mmcblk0     179:0    0   3,8G  0 disk
 {% include_relative f3.md %}
 {% endcapture %}
 
-<div id="memoryPitInstructions" class="blanktabcontent">{{ memoryPitInstructions | markdownify }}</div>
-<div id="flipnoteLennyInstructions" class="blanktabcontent">{{ flipnoteLennyInstructions | markdownify }}</div>
-<div id="macOSInstructions" class="blanktabcontent">{{ macOSInstructions | markdownify }}</div>
+<div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
+<div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
+<div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
 
 You can now restore the contents of your SD card and continue.
 {: .notice--primary}
@@ -147,6 +147,16 @@ You can now restore the contents of your SD card and continue.
 		evt.currentTarget.className = evt.currentTarget.className.replace("btn--info", "btn--primary");
 	}
 
-	// Get the element with id="defaultOpen" and click on it
-	document.getElementById("defaultOpen").click();
+	// Remove links from tab buttons
+	for(a of tablinks) {
+		a.href = "javascript:void(0);";
+	}
+
+	// Open the tab for the current OS
+	if(navigator.platform.includes("Win"))
+		document.getElementById("windows").click();
+	if(navigator.platform.includes("Mac"))
+		document.getElementById("macos").click();
+	else
+		document.getElementById("other").click();
 </script>
