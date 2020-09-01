@@ -24,7 +24,7 @@ This section is for dumping cartridges using GodMode9i so they can be played on 
 1. Ensure the game cartridge is inserted into the console
 1. Select the "NDS GAMECARD" option in GodMode9i
 1. Select if you want the padding or not:
-  - Full: Padding included
-  - Trim: Padding removed
+   - Full: Padding included
+   - Trim: Padding removed
 1. Repeat steps 3-5 for all cartridges you wish to dump
 The dump will be found in `SD:/gm9i/out`.

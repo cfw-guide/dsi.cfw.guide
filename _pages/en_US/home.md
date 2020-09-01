@@ -32,7 +32,7 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - We will be setting up an entry point to launch basic homebrew via Memory Pit, the exploit for the Nintendo DSi Camera application
 - We will then take a NAND backup, which is useful as a restoration point in case you mess up later on
 - For users that want more control, we will walk them through installing Unlaunch. Unlaunch allows homebrew to run with more permissions (such as slot-1 access) and at system boot
-  - Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system. If you do not want to brick, you could stop after taking a NAND backup
+   - Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system. If you do not want to brick, you could stop after taking a NAND backup
 - Finally, for users that want to install custom applications on their Nintendo DSi System Menu, we will install hiyaCFW
 
 ## What can I do by modding my system?

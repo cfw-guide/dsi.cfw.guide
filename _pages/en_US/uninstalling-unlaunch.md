@@ -15,9 +15,9 @@ To reduce the chances of bricking, make sure that you have not installed any non
 {: .notice--warning}
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
-2. Extract `UNLAUNCH.DSI` from the Unlaunch archive and copy it anywhere your SD card
-3. Hold <kbd>A</kbd> + <kbd>B</kbd> on system boot
-4. Select the `UNLAUNCH.DSI` file you had just downloaded
-5. Select `Uninstall`
-  - It will say that the system will become "useless", which is the developer's (NoCash) way of saying it will be back to the way it was before Unlaunch was installed
-6. When completed, reboot (power down and power back on) your system in order to verify Unlaunch uninstalled properly
+1. Extract `UNLAUNCH.DSI` from the Unlaunch archive and copy it anywhere your SD card
+1. Hold <kbd>A</kbd> + <kbd>B</kbd> on system boot
+1. Select the `UNLAUNCH.DSI` file you had just downloaded
+1. Select `Uninstall`
+   - It will say that the system will become "useless", which is the developer's (NoCash) way of saying it will be back to the way it was before Unlaunch was installed
+1. When completed, reboot (power down and power back on) your system in order to verify Unlaunch uninstalled properly

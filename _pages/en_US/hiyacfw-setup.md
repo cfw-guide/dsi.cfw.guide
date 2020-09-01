@@ -24,7 +24,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 ## Requirements
 - A Nintendo DSi with [Unlaunch](/installing-unlaunch) installed
 - A NAND Backup taken from your device using dumpTool
-  - If you don't have one of these, follow our [Dumping NAND](dumping-nand) guide
+   - If you don't have one of these, follow our [Dumping NAND](dumping-nand) guide
 - A Windows, macOS or Linux device
 
 ## Section I - Preparing your PC for installing hiyaCFW
@@ -52,8 +52,8 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Download the latest python file of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 1. Launch two terminal windows
-  - On macOS, you can launch a terminal window by entering spotlight search (`Command` + `Space Key`) & typing "Terminal"
-  - On Linux, launch a terminal instance via your application launcher
+   - On macOS, you can launch a terminal window by entering spotlight search (`Command` + `Space Key`) & typing "Terminal"
+   - On Linux, launch a terminal instance via your application launcher
 1. On the first terminal, `cd` to where you extracted the hiyaCFW Helper and type `./HiyaCFW_Helper.py`
 1. On the second terminal, `cd` to where you downloaded `just-a-DFC.py` and type `./just-a-DFC.py`
 {% endcapture %}

@@ -12,7 +12,7 @@ redirect_from:
 
 ## Requirements
 - The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest)
-  - Download the archive, extract the contents and place `GodMode9i.nds` anywhere on your SD card
+   - Download the archive, extract the contents and place `GodMode9i.nds` anywhere on your SD card
 - A Nintendo DSi console with [Unlaunch](/unlaunch) installed
 
 ## Nintendo DSi - Instructions

@@ -22,7 +22,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
-  - If you have difficulties downloading it, click where it tells you to click in order to download it
+   - If you have difficulties downloading it, click where it tells you to click in order to download it
 1. Run GUIFormat with Administrator permissions
 1. Select your drive letter
 1. For your `allocation size unit`, set it to `32768`
@@ -31,7 +31,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 
 ### Section II - Checking for errors
 1. Go to the properties window of your SD card
-  - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
+   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
 1. In the tools tab, Select `Check Now`
 1. Check both `Automatically fix file system errors` and `Scan for and attempt recovery of bad sectors`
 1. Start the checking process
@@ -41,7 +41,7 @@ This will scan the SD card and correct any errors it finds
 ### Section III - Checking SD card read/write
 
 1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
-  - It can also be extracted on an external device as long as that external device isn't your SD card
+   - It can also be extracted on an external device as long as that external device isn't your SD card
 1. With your SD card inserted into your computer, run `h2testw.exe`
 1. Select which language you'd like to see h2testw in
 1. Set your SD card's drive letter as your target
@@ -69,21 +69,21 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-6. Take note of the device mount point. In our example above, it was `mmcblk0`
-  - If `RO` is set to 1, make sure the lock switch is not slid down
-7. Hit CTRL + C to exit the menu
+1. Take note of the device mount point. In our example above, it was `mmcblk0`
+   - If `RO` is set to 1, make sure the lock switch is not slid down
+1. Hit CTRL + C to exit the menu
 
 ### Section II - Formatting the card
 ![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
 
 1. Type in `sudo cfdisk /dev/(device mount point from above)`
-2. On each partition, hit `Delete`
-3. Create a new Primary partition that covers the size of your entire SD card
+1. On each partition, hit `Delete`
+1. Create a new Primary partition that covers the size of your entire SD card
 - This will create a new partition with the linux filetype
-4. Select type and take a look at the menu
-5. Find `W95 FAT32` and take note of the code on the left side of that text
-6. Press any key, then enter the code you took note of in the previous step
-7. Hit enter, then hit Quit
+1. Select type and take a look at the menu
+1. Find `W95 FAT32` and take note of the code on the left side of that text
+1. Press any key, then enter the code you took note of in the previous step
+1. Hit enter, then hit Quit
 
 ### Section III - Using F3
 {% include_relative f3.md %}
@@ -95,25 +95,25 @@ mmcblk0     179:0    0   3,8G  0 disk
 #### OS X El Capitan (10.11) and later
 
 1. Launch the Disk Utility application
-2. Select `Show All Devices` in the top-left `View` panel
-3. Select your SD card from the sidebar
-  - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
-4. Click `Erase` at the top
-6. Ensure that `Format` is set to `MS-DOS (FAT)`
-7. Ensure that `Scheme` is set to `Master Boot Record`
-  - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
-8. Click `Erase`, then click `Close`
+1. Select `Show All Devices` in the top-left `View` panel
+1. Select your SD card from the sidebar
+   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+1. Click `Erase` at the top
+1. Ensure that `Format` is set to `MS-DOS (FAT)`
+1. Ensure that `Scheme` is set to `Master Boot Record`
+   - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
+1. Click `Erase`, then click `Close`
 
 #### OS X Yosemite (10.10) and earlier
 1. Launch the Disk Utility application
-2. Select your SD card from the sidebar
-  - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
-3. Click `Partition` at the top
-  + If `Partition` does not appear, make sure to choose the device instead of a volume
-4. Ensure that `Partition Layout` is set to `1 Partition`
-5. Ensure that `Format` is set to `MS-DOS (FAT)`
-6. From the Options button (below the partition table), select `Master Boot Record`.
-7. Click `OK` -> `Apply` -> `Partition`
+1. Select your SD card from the sidebar
+   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+1. Click `Partition` at the top
+   - If `Partition` does not appear, make sure to choose the device instead of a volume
+1. Ensure that `Partition Layout` is set to `1 Partition`
+1. Ensure that `Format` is set to `MS-DOS (FAT)`
+1. From the Options button (below the partition table), select `Master Boot Record`.
+1. Click `OK` -> `Apply` -> `Partition`
 
 ### Section II - Using F3
 {% include_relative f3.md %}
