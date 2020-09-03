@@ -45,7 +45,7 @@ Using a Windows, Linux or macOS device? We have a tool that will automatically s
 
 1. Open TWiLight Menu++
    - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the exploit that you used.
-   - If you have already installed Unlaunch and are looking to update it, hold <kbd>A</kbd> + <kbd>B</kbd> while booting and select `BOOT.NDS`
+   - If you have already installed Unlaunch and are looking to update it, hold <kbd>A</kbd> + <kbd>B</kbd> while booting and select the `TWiLight Menu++` where `BOOT.NDS` is shown on the bottom screen
 1. Launch TWiLight Menu++'s Settings
    - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
 1. Hit <kbd>L</kbd> / <kbd>R</kbd> until you reach the Unlaunch Settings page
@@ -71,7 +71,7 @@ We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead o
 1. Navigate to `OPTIONS`, and look at the available options
    - <kbd>A</kbd> + <kbd>B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
    - The `NO BUTTON` and `BUTTON A/B/X/Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, Homebrew, the Slot-1 card, or Unlaunch's file menu
-      - For TWiLight Menu++, select the `TWiLight Menu++` option where `boot.nds` is shown on the bottom screen
+      - For TWiLight Menu++, select the `TWiLight Menu++` option where `BOOT.NDS` is shown on the bottom screen
       - For the original DSi Menu, select `Launcher`
    - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted. If you would like to load into the DSi Menu, then set this to `Launcher`
 1. Save your settings and head back to Unlaunch's menu
