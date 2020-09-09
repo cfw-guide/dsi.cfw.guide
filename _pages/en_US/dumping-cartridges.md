@@ -18,7 +18,7 @@ This section is for dumping cartridges using GodMode9i so they can be played on 
 - Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
 
 ### Section II - Nintendo DSi Instructions
-1. Power on your console while holding <kbd>A</kbd> and <kbd>B</kbd>
+1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - This should launch the Unlaunch Filemenu
 1. Launch GodMode9i in the Unlaunch Filemenu
 1. Ensure the game cartridge is inserted into the console
