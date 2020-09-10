@@ -83,7 +83,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 </noscript>
 
 1. Launch the `HiyaCFW_Helper.exe` file
-1. Click the `...` button in the `NAND file with No$GBA footer` box
+1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
 1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
@@ -98,7 +98,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 </noscript>
 
 1. Launch the `HiyaCFW_Helper` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the `NAND file with No$GBA footer` box
+1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
 1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
@@ -113,7 +113,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 </noscript>
 
 1. Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the `NAND file with No$GBA footer` box
+1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
 1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
@@ -196,7 +196,7 @@ To ensure that your SD card has the maximum amount of free space that will work 
    - This will make the system launch hiyaCFW at boot
 1. Save your settings and restart your console
 1. Hold <kbd>SELECT</kbd> while powering on your Nintendo DSi console to access the hiyaCFW settings
-   - If you selected `Install latest TWiLight Menu++ on custom firmware` to boot into the SDNAND home screen instead of TWiLight Menu++, navigate to `Autoboot title` and press <kbd class="face">A</kbd> to deselect it.
+   - If you selected "Install latest TWiLight Menu++ on custom firmware", to boot into the SDNAND home screen instead of TWiLight Menu++ navigate to `Autoboot title` and press <kbd class="face">A</kbd> to deselect it.
 1. Change the settings to your liking, and press <kbd>START</kbd> to continue
 
 Your system will now boot from the SD card instead of the internal NAND.
