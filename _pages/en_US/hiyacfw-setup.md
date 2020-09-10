@@ -97,7 +97,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
    <h3>macOS</h3>
 </noscript>
 
-1. Launch the `HiyaCFW_Helper` extracted from the hiyaCFW Helper archive
+1. Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
 1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
@@ -158,7 +158,7 @@ To ensure that your SD card has the maximum amount of free space that will work 
    <h3>macOS</h3>
 </noscript>
 
-1. Launch the `Just-A-DFC` file extracted from the Just-A-DFC archive
+1. Right click the `Just-A-DFC` file extracted from the Just-A-DFC archive and choose `Open`
 1. Identify where your SD card is mounted
 1. Wait a few minutes until all the dummy files have been created
 1. If the application doesn't close you out, hit ENTER.
