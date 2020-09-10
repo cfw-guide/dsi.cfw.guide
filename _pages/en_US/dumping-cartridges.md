@@ -14,7 +14,7 @@ This section is for dumping cartridges using GodMode9i so they can be played on 
 ## Instructions
 ### Section I - SD card Setup
 
-- Download the latest release of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest)
+- Download the latest release of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
 - Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
 
 ### Section II - Nintendo DSi Instructions

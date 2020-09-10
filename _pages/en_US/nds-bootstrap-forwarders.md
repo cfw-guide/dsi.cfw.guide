@@ -10,7 +10,7 @@ This is an add-on section that involves creating forwarders for nds-bootstrap. T
 
 - A Nintendo DSi System with both [Unlaunch](/installing-unlaunch) & [hiyaCFW](/hiyacfw-setup) installed.
 - A [TWiLight Menu++](launching-the-exploit#twilight-menu) setup
-- The latest release of [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases/latest)
+- The latest release of [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
 ### Instructions
 
