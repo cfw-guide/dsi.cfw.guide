@@ -12,13 +12,12 @@ This page is for preparing your SD card for your Nintendo DSi. In the process, w
 Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
 {: .notice--danger}
 
-<a class="tablinks btn btn--large btn--info" id="windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-<a class="tablinks btn btn--large btn--info" id="macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-<a class="tablinks btn btn--large btn--info" id="other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
 {% capture windowsInstructions %}
-## Windows
-### Section I - Formatting your SD card
+<noscript>
+   <h2>Windows</h2>
+</noscript>
+
+## Section I - Formatting your SD card
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
 1. Download the latest version of [GUIFormat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)
@@ -30,7 +29,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 1. Make sure the `Quick Format` check box is unchecked
 1. Start the format process
 
-### Section II - Checking for errors
+## Section II - Checking for errors
 1. Go to the properties window of your SD card
    - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
 1. In the tools tab, Select `Check Now`
@@ -39,7 +38,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 
 This will scan the SD card and correct any errors it finds
 
-### Section III - Checking SD card read/write
+## Section III - Checking SD card read/write
 
 1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
    - It can also be extracted on an external device as long as that external device isn't your SD card
@@ -58,8 +57,11 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 {% endcapture %}
 
 {% capture linuxInstructions %}
-## Linux
-### Section I - Determining which slot your SD card is in
+<noscript>
+   <h2>Linux</h2>
+</noscript>
+
+## Section I - Determining which slot your SD card is in
 1. Make sure your SD card is **not** inserted into your Linux machine
 1. Launch the Linux Terminal
 1. Type `watch "lsblk"`
@@ -74,7 +76,7 @@ mmcblk0     179:0    0   3,8G  0 disk
    - If `RO` is set to 1, make sure the lock switch is not slid down
 1. Hit CTRL + C to exit the menu
 
-### Section II - Formatting the card
+## Section II - Formatting the card
 ![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
 
 1. Type in `sudo cfdisk /dev/(device mount point from above)`
@@ -86,7 +88,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Press any key, then enter the code you took note of in the previous step
 1. Hit enter, then hit Quit
 
-### Section III - Using F3
+## Section III - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
 1. Launch the terminal in the F3 directory
 1. Run `make` to compile F3
@@ -128,9 +130,12 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 {% endcapture %}
 
 {% capture macosInstructions %}
-## macOS
-### Section I - Formatting your SD card
-#### OS X El Capitan (10.11) and later
+<noscript>
+   <h2>macOS</h2>
+</noscript>
+
+## Section I - Formatting your SD card
+### OS X El Capitan (10.11) and later
 
 1. Launch the Disk Utility application
 1. Select `Show All Devices` in the top-left `View` panel
@@ -142,7 +147,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
    - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
 1. Click `Erase`, then click `Close`
 
-#### OS X Yosemite (10.10) and earlier
+### OS X Yosemite (10.10) and earlier
 1. Launch the Disk Utility application
 1. Select your SD card from the sidebar
    - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
@@ -153,7 +158,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 1. From the Options button (below the partition table), select `Master Boot Record`.
 1. Click `OK` -> `Apply` -> `Partition`
 
-### Section II - Using F3
+## Section II - Using F3
 1. Open Terminal
 1. Install F3 from brew by running `brew install f3`
    - If you don't have brew, install it with the instructions on [brew.sh](https://brew.sh)
@@ -194,9 +199,15 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 {: .notice--danger}
 {% endcapture %}
 
-<div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-<div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-<div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
+<div class="tabcontainer">
+   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
+   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
+   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
+
+   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
+   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
+   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
+</div>
 
 You can now restore the contents of your SD card and continue.
 {: .notice--primary}

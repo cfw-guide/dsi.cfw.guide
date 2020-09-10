@@ -14,7 +14,7 @@ Do not system update after installing hiyaCFW. This will remove hiyaCFW's SD pat
 
 hiyaCFW is a custom firmware that will allow you to run your system NAND (internal storage) off of your SD card.
 
-This allows you to modify your system without risk of bricking your internal system, as any changes are simply made to the SD card instead, which can be easily restored.
+This allows you to install your own apps to the Nintendo DSi Menu without risk of bricking, as they're installed to the SD card so problems can be easily be fixed.
 
 It also features easy installation of homebrew applications to the DSi Menu, and displaying a custom splash screen on boot.
 
@@ -29,44 +29,60 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 ## Section I - Preparing your PC for installing hiyaCFW
 
-<a class="tablinks btn btn--large btn--info delink" id="windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-<a class="tablinks btn btn--large btn--info delink" id="other" href="#otherInstructions" onclick="openTab(event, 'otherInstructions')">macOS & Linux</a>
-
-{% capture windowsInstructions %}
-### Windows
+{% capture windowsPrep %}
+<noscript>
+   <h3>Windows</h3>
+</noscript>
 
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
    - This will not work with any other archive extractor tool you own, such as WinRAR. hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
 1. Download the latest Windows version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Download the latest windows version of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
-1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Launch the `HiyaCFW_Helper.exe` file, located in the folder you have just extracted
-1. Leaving the hiyaCFW Helper open, launch the Just-A-DFC `.exe` file you downloaded earlier
+1. Download the latest Windows version of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
 {% endcapture %}
 
-{% capture otherInstructions %}
-### macOS & Linux
+{% capture macosPrep %}
+<noscript>
+   <h3>macOS</h3>
+</noscript>
 
-1. Download & install the latest version of [Python 3](https://www.python.org/downloads/)
-1. Download the latest python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Download the latest python file of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
+1. Download the latest macOS version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Download the latest macOS version of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Launch two terminal windows
-   - On macOS, you can launch a terminal window by entering spotlight search (`Command` + `Space Key`) & typing "Terminal"
-   - On Linux, launch a terminal instance via your application launcher
-1. On the first terminal, `cd` to where you extracted the hiyaCFW Helper and type `./HiyaCFW_Helper.py`
-1. On the second terminal, `cd` to where you downloaded `just-a-DFC.py` and type `./just-a-DFC.py`
+1. Extract the Just-A-DFC archive anywhere on your PC
 {% endcapture %}
 
-<div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-<div id="otherInstructions" class="blanktabcontent">{{ otherInstructions | markdownify }}</div>
+{% capture linuxPrep %}
+<noscript>
+   <h3>Linux</h3>
+</noscript>
 
-<script src="/assets/js/tabs.js"></script>
+1. Install Python 3 using your package manager if its not already installed
+1. Download the latest Python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Download the latest Python version of [Just-A-DFC](https://github.com/yourkalamity/just-a-dfc/releases)
+1. Extract the hiyaCFW Helper archive anywhere on your PC
+1. Extract the Just-A-DFC archive anywhere on your PC
+{% endcapture %}
+
+<div class="tabcontainer">
+   <a class="tablinks btn btn--large btn--info delink windows" href="#windowsPrep" onclick="openTab(event, 'windowsPrep')">Windows</a>
+   <a class="tablinks btn btn--large btn--info delink macos" href="#macosPrep" onclick="openTab(event, 'macosPrep')">macOS</a>
+   <a class="tablinks btn btn--large btn--info delink other" href="#linuxPrep" onclick="openTab(event, 'linuxPrep')">Linux</a>
+
+   <div id="windowsPrep" class="blanktabcontent">{{ windowsPrep | markdownify }}</div>
+   <div id="macosPrep" class="blanktabcontent">{{ macosPrep | markdownify }}</div>
+   <div id="linuxPrep" class="blanktabcontent">{{ linuxPrep | markdownify }}</div>
+</div>
 
 ## Section II - Adding hiyaCFW files to your SD card
-![](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
-1. Switch over to the hiyaCFW window
+![Screenshot of the HiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
+
+{% capture windowsHelper %}
+<noscript>
+   <h3>Windows</h3>
+</noscript>
+
+1. Launch the `HiyaCFW_Helper.exe` file
 1. Click the `...` button in the `NAND file with No$GBA footer` box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
@@ -74,6 +90,47 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
    - The process may take several minutes
 1. When the application says "Done", close out of hiyaCFW Helper
 1. Close the terminal window
+{% endcapture %}
+
+{% capture macosHelper %}
+<noscript>
+   <h3>macOS</h3>
+</noscript>
+
+1. Launch the `HiyaCFW_Helper` extracted from the hiyaCFW Helper archive
+1. Click the `...` button in the `NAND file with No$GBA footer` box
+1. Navigate to your NAND backup, and click `Open`
+1. Press `Start`
+1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
+   - The process may take several minutes
+1. When the application says "Done", close out of hiyaCFW Helper
+1. Close the terminal window
+{% endcapture %}
+
+{% capture linuxHelper %}
+<noscript>
+   <h3>Linux</h3>
+</noscript>
+
+1. Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
+1. Click the `...` button in the `NAND file with No$GBA footer` box
+1. Navigate to your NAND backup, and click `Open`
+1. Press `Start`
+1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
+   - The process may take several minutes
+1. When the application says "Done", close out of hiyaCFW Helper
+1. Close the terminal window
+{% endcapture %}
+
+<div class="tabcontainer">
+   <a class="tablinks btn btn--large btn--info delink windows" href="#windowsHelper" onclick="openTab(event, 'windowsHelper')">Windows</a>
+   <a class="tablinks btn btn--large btn--info delink macos" href="#macosHelper" onclick="openTab(event, 'macosHelper')">macOS</a>
+   <a class="tablinks btn btn--large btn--info delink other" href="#linuxHelper" onclick="openTab(event, 'linuxHelper')">Linux</a>
+
+   <div id="windowsHelper" class="blanktabcontent">{{ windowsHelper | markdownify }}</div>
+   <div id="macosHelper" class="blanktabcontent">{{ macosHelper | markdownify }}</div>
+   <div id="linuxHelper" class="blanktabcontent">{{ linuxHelper | markdownify }}</div>
+</div>
 
 ## Section III - Maximizing available space
 
@@ -84,11 +141,51 @@ The Nintendo DSi Menu has a bug that limits how much free space there can be. Wh
 
 To ensure that your SD card has the maximum amount of free space that will work we'll be using using Just-a-DFC.
 
-1. Switch over to the terminal window containing Just-A-DFC
+{% capture windowsDFC %}
+<noscript>
+   <h3>Windows</h3>
+</noscript>
+
+1. Launch the `Just-A-DFC.exe` file
 1. Identify where your SD card is mounted
 1. Wait a few minutes until all the dummy files have been created
 1. If the application doesn't close you out, hit ENTER.
 1. Close the terminal window
+{% endcapture %}
+
+{% capture macosDFC %}
+<noscript>
+   <h3>macOS</h3>
+</noscript>
+
+1. Launch the `Just-A-DFC` file extracted from the Just-A-DFC archive
+1. Identify where your SD card is mounted
+1. Wait a few minutes until all the dummy files have been created
+1. If the application doesn't close you out, hit ENTER.
+1. Close the terminal window
+{% endcapture %}
+
+{% capture linuxDFC %}
+<noscript>
+   <h3>Linux</h3>
+</noscript>
+
+1. Launch the `Just-A-DFC.py` file extracted from the Just-A-DFC archive
+1. Identify where your SD card is mounted
+1. Wait a few minutes until all the dummy files have been created
+1. If the application doesn't close you out, hit ENTER.
+1. Close the terminal window
+{% endcapture %}
+
+<div class="tabcontainer">
+   <a class="tablinks btn btn--large btn--info delink windows" href="#windowsDFC" onclick="openTab(event, 'windowsDFC')">Windows</a>
+   <a class="tablinks btn btn--large btn--info delink macos" href="#macosDFC" onclick="openTab(event, 'macosDFC')">macOS</a>
+   <a class="tablinks btn btn--large btn--info delink other" href="#linuxDFC" onclick="openTab(event, 'linuxDFC')">Linux</a>
+
+   <div id="windowsDFC" class="blanktabcontent">{{ windowsDFC | markdownify }}</div>
+   <div id="macosDFC" class="blanktabcontent">{{ macosDFC | markdownify }}</div>
+   <div id="linuxDFC" class="blanktabcontent">{{ linuxDFC | markdownify }}</div>
+</div>
 
 ## Section IV - Configuring Unlaunch and hiyaCFW
 
@@ -106,3 +203,5 @@ Your system will now boot from the SD card instead of the internal NAND.
 
 If it shows `An Error Has Occurred`, please see our [Troubleshooting](troubleshooting) page.
 {: .notice--warning}
+
+<script src="/assets/js/tabs.js"></script>
