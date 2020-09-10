@@ -27,7 +27,7 @@ Using a Windows, Linux or macOS device? We have a tool that will automatically s
    - If possible, make multiple backups across different storage devices
    - Once you've backed it up elsewhere, you can delete it from the SD card
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases/latest) to create a copy without the footer.
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a NO$GBA footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 {: .notice--warning}
 
 Continue to [Installing Unlaunch](installing-unlaunch) (Optional)

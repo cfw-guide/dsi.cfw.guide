@@ -13,7 +13,7 @@ If at this point you get a tutorial and crash when trying to follow it, then you
 
 ## Setup Guide
 
-1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases/latest) for your OS
+1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
 1. Launch it via the instructions listed in the release page
 1. Hit the Next button
    - The intro text isn't mandatory to read
