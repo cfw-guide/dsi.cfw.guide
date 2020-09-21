@@ -46,7 +46,6 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 1. Download the latest macOS version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Extract the Just-A-DFC archive anywhere on your PC
 {% endcapture %}
 
 {% capture linuxPrep %}
@@ -57,7 +56,6 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Install Python 3 using your package manager if its not already installed
 1. Download the latest Python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Extract the Just-A-DFC archive anywhere on your PC
 {% endcapture %}
 
 <div class="tabcontainer">
@@ -74,12 +72,10 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 ![Screenshot of the HiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
-{% capture windowsHelper %}
-<noscript>
-   <h3>Windows</h3>
-</noscript>
-
-1. Launch the `HiyaCFW_Helper.exe` file
+1. Launch hiyaCFW Helper
+  - **Windows:** - Launch `HiyaCFW_Helper.exe`
+  - **macOS:** - Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
+  - **Linux:** - Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
 1. Click the `...` button in the "NAND file with No$GBA footer" box
 1. Navigate to your NAND backup, and click `Open`
 1. Press `Start`
@@ -87,47 +83,6 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
    - The process may take several minutes
 1. When the application says "Done", close out of hiyaCFW Helper
 1. Close the terminal window
-{% endcapture %}
-
-{% capture macosHelper %}
-<noscript>
-   <h3>macOS</h3>
-</noscript>
-
-1. Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
-   - The process may take several minutes
-1. When the application says "Done", close out of hiyaCFW Helper
-1. Close the terminal window
-{% endcapture %}
-
-{% capture linuxHelper %}
-<noscript>
-   <h3>Linux</h3>
-</noscript>
-
-1. Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
-1. Click the `...` button in the "NAND file with No$GBA footer" box
-1. Navigate to your NAND backup, and click `Open`
-1. Press `Start`
-1. In the new pop-up window, navigate to the root of your SD card, and press `OK`.
-   - The process may take several minutes
-1. When the application says "Done", close out of hiyaCFW Helper
-1. Close the terminal window
-{% endcapture %}
-
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info delink windows" href="#windowsHelper" onclick="openTab(event, 'windowsHelper')">Windows</a>
-   <a class="tablinks btn btn--large btn--info delink macos" href="#macosHelper" onclick="openTab(event, 'macosHelper')">macOS</a>
-   <a class="tablinks btn btn--large btn--info delink other" href="#linuxHelper" onclick="openTab(event, 'linuxHelper')">Linux</a>
-
-   <div id="windowsHelper" class="blanktabcontent">{{ windowsHelper | markdownify }}</div>
-   <div id="macosHelper" class="blanktabcontent">{{ macosHelper | markdownify }}</div>
-   <div id="linuxHelper" class="blanktabcontent">{{ linuxHelper | markdownify }}</div>
-</div>
 
 ## Section III - Maximizing available space
 

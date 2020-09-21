@@ -10,7 +10,7 @@ If you like what they have done, consider donating (if they have a donation link
 
 {% capture notice-1 %}
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [urmum_69](https://github.com/urmum-69): Guide Maintainers
-- [YourKalamity](https://github.com/YourKalamity/): Making Just-A-DFC and Lazy DSi File Downloader
+- [YourKalamity](https://github.com/YourKalamity/): Making Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): Domain holder
 - Halvorsen: Provided an image of their Nintendo DSi to be used on the home page
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits

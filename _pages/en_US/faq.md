@@ -5,17 +5,11 @@ redirect_from:
 ---
 {% include toc title="Questions" %}
 
-### What does a white screen in certain homebrew mean?
-This could possibly be an SD card error. Please make sure you have [checked your SD card for errors](sd-card-setup).
-
 ### What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
 - If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch).
 
 This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit.
-
-### How can I dump my cartridges?
-To dump your cartridges for use with emulators, nds-bootstrap or flashcarts, follow [this guide](dumping-cartridges).
 
 ### How do I play Nintendo DS cartridge dumps?
 Playing cartridge dumps on the console requires the use of a flashcart or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
