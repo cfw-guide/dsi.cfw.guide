@@ -47,6 +47,11 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SD NAND
 - Display an image (referred to as the boot splash) on system launch
 
+## Where can I find homebrew applications?
+
+- [Universal DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently.
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications) has a lot of older homebrew, however many will only work on flashcards.
+
 ## What should I know before starting?
 
 - On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer
