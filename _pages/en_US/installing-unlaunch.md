@@ -7,24 +7,17 @@ redirect_from:
 
 {% include toc title="Navigation" %}
 
-Unlaunch is an exploit that allows homebrew applications to take full advantage of the Nintendo DSi hardware at boot. Examples include dumping cartridges and using hiyaCFW, amongst others.
-
-{% capture usageInstructions %}
-WARNING: While low, there is a chance of **bricking your console** when installing Unlaunch. If you are worried whether you'd brick, these are all the benefits your console will gain by installing Unlaunch:
+Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal Memory Pit, which makes it able to do the following:
 
 - Launching applications at boot (homebrew or DSiWare), with optional button combinations
 - Sccess to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
-- Higher compatibility with running old Nintendo DS homebrew via nds-bootstrap-hb
 - Region locks removed on DSi enhanced / exclusive games
+- Run old Nintendo DS Homebrew via nds-bootstrap-hb
 - Launching DSiWare from the internal SD card
 - Better sound in GBARunner2
 - Brick-Protection
 
-{% endcapture %}
-
-<div class="notice--primary">{{ usageInstructions | markdownify }}</div>
-
-If you have not yet done so, please made a [NAND backup](dumping-nand). Unlaunch modifies the NAND which could result in a brick if done improperly.
+If you have not yet done so, please made a [NAND backup](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) would allow you to restore this backup, provided you know how to solder.
 {: .notice--danger}
 
 Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
