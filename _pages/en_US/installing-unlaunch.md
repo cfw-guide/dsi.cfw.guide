@@ -7,17 +7,17 @@ redirect_from:
 
 {% include toc title="Navigation" %}
 
-Unlaunch is an exploit that allows homebrew applications to take full advantage of the Nintendo DSi hardware at boot. Examples include dumping a Slot-1 device and launching into hiyaCFW, amongst others.
+Unlaunch is an exploit that allows homebrew applications to take full advantage of the Nintendo DSi hardware at boot. Examples include dumping cartridges and using hiyaCFW, amongst others.
 
 {% capture usageInstructions %}
 WARNING: While low, there is a chance of **bricking your console** when installing Unlaunch. If you are worried whether you'd brick, these are all the benefits your console will gain by installing Unlaunch:
 
-- Higher compatibility with running old Nintendo DS homebrew via nds-bootstrap-hb (including the SNES emulator in TWiLight Menu++)
-- Homebrew access to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
 - Launching applications at boot (homebrew or DSiWare), with optional button combinations
+- Sccess to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
+- Higher compatibility with running old Nintendo DS homebrew via nds-bootstrap-hb
 - Region locks removed on DSi enhanced / exclusive games
+- Launching DSiWare from the internal SD card
 - Better sound in GBARunner2
-- Launching DSiWare from SD
 - Brick-Protection
 
 {% endcapture %}
@@ -72,7 +72,7 @@ We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead o
    - The `NO BUTTON` and `BUTTON A/B/X/Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, Homebrew, the Slot-1 card, or Unlaunch's file menu
       - For TWiLight Menu++, select the `TWiLight Menu++` option where `BOOT.NDS` is shown on the bottom screen
       - For the original DSi Menu, select `Launcher`
-   - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted. If you would like to load into the DSi Menu, then set this to `Launcher`
+   - `LOAD ERROR` is what  your DSi will load if loading what you have set fails, such as the SD card not being inserted
 1. Save your settings and head back to Unlaunch's menu
 1. Hover over the `TWiLight Menu++` options and find the one that has a path containing `settings.srldr` on the bottom screen
 1. Launch the highlighted option
@@ -88,5 +88,5 @@ This section is optional and only serves for keeping your SD card tidy of files 
    - If you used another exploit, delete the files from that exploit instead
 - Delete the `UNLAUNCH.DSI` file from your SD card
 
-Continue to [Installing hiyaCFW](installing-hiyacfw)
+Continue to [Installing hiyaCFW](installing-hiyacfw) (optional)
 {: .notice--info}

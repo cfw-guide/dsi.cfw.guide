@@ -10,7 +10,7 @@ twlnf has a critical bug where it does not properly update the entire NAND after
 
 While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
-If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DS region is Chinese) will fix this bug as well.
+If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DS region is or Korean) can help this bug as well.
 
 ### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
 That is intentionally done by nocash, the dev of Unlaunch. Thankfully, there is a way to revert said patches, by [reinstalling Unlaunch](/installing-unlaunch) using TWiLight Menu++
@@ -21,6 +21,7 @@ There are several reasons you might get this error:
 
 - **Too Much Free Space:** Follow [Section III of hiyaCFW setup](/hiyacfw-setup#section-iii---maximizing-available-space) again
 - **Over 39 Titles:** There is a limit of 39 titles on your DSi System Menu. Delete any additional folders from `/title`
+- **Too much DSiWare:** There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)
 - **Invalid Title:** There are several parameters you need to take into account when adding titles to hiyaCFW:
    - Cartridge dumps cannot be ran without being handled by a [forwarder](/nds-bootstrap-forwarder)
    - There are several arguments that have to be passed to the `.app` builder in order to work from the DSi System Menu

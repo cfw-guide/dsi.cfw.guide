@@ -17,7 +17,7 @@ If at this point you get a tutorial and crash when trying to follow it, then you
 1. Launch it via the instructions listed in the release page
 1. Hit the Next button
    - The intro text isn't mandatory to read
-1. If you have failed your verification steps, toggle off the Memory Pit option
+1. If you have got a crash in your verification steps, toggle off the Memory Pit option
 1. Hit the check boxes for "Download GodMode9i" and "Download Unlaunch"
    - Feel free to select any of the other homebrew applications in `Additional homebrew...`, but this is not mandatory
 1. Wait for everything to download, then hit Finish
