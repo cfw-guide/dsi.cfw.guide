@@ -11,7 +11,8 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 {: .notice--primary}
 
 ## Section I - SD card setup
-Using a Windows, Linux or macOS device? We have a tool that will automatically set up your SD card for following the guide.
+
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
 
 1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
