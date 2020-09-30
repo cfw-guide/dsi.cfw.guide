@@ -5,8 +5,6 @@ header:
   overlay_color: "#1a1d24"
   overlay_image: /assets/images/home-page-feature.png
   overlay_filter: 0.5
-  cta_label: "Get Started"
-  cta_url: "#get-started"
 excerpt: "The complete guide to modding your Nintendo DSi"
 ---
 
@@ -51,6 +49,7 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 - On Windows, it's recommended to [show file extensions](file-extensions-(windows)) if you are using the default File Explorer
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
+- If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 Continue to [Launching the Exploit](launching-the-exploit){: #get-started}
 {: .notice--info}

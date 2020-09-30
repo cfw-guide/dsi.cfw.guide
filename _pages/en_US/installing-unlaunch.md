@@ -13,13 +13,12 @@ Unlaunch is an exploit that allows homebrew applications to take full advantage 
 WARNING: While low, there is a chance of **bricking your console** when installing Unlaunch. If you are worried whether you'd brick, these are all the benefits your console will gain by installing Unlaunch:
 
 - Higher compatibility with running old Nintendo DS homebrew via nds-bootstrap-hb (including the SNES emulator in TWiLight Menu++)
+- Homebrew access to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
+- Launching applications at boot (homebrew or DSiWare), with optional button combinations
+- Region locks removed on DSi enhanced / exclusive games
 - Better sound in GBARunner2
-- Launching incompatible flashcarts
-- Removing region locks on DSi enhanced / exclusive games
-- Accessing Slot-1 data
 - Launching DSiWare from SD
-- Launching titles at boot (such as TWiLight Menu++ or other DSiWare)
-- Protection from bricking
+- Brick-Protection
 
 {% endcapture %}
 
