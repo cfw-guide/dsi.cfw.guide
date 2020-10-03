@@ -10,7 +10,7 @@ This page is for making a NAND backup, which is a copy of the data on the Ninten
 It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 {: .notice--primary}
 
-## Section I - SD card setup
+## Section I - SD Card Setup
 
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}

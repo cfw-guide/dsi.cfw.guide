@@ -17,7 +17,7 @@ sitemap: false
 {% capture second-notice %}
 **Add-on sections**
 
-+ [SD card setup](sd-card-setup)
++ [SD Card Setup](sd-card-setup)
 + [File Extensions (Windows)](file-extensions-(windows))
 + [Dumping Cartridges](dumping-cartridges)
 + [DSiWare Backups](dsiware-backups)

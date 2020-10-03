@@ -9,6 +9,6 @@ You will need to have Unlaunch installed to use custom Slot-1 launchers.
 TWiLight Menu++'s Slot-1 launcher comes with all the above improvements and is the recommended Slot-1 launcher to use. While not offering cheat support, it offers support for all of the advantages listed above.
 
 1. Turn on your Nintendo DSi while <kbd class="face">A</kbd> & <kbd class="face">B</kbd> are held
-   - This should take you to Unlaunch's management menu
+   - This should take you to Unlaunch's Filemenu
 1. Launch `sd:/_nds/twilightmenu/settings.srldr`
 1. Switch over to the "Misc 

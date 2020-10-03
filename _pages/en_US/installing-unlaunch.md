@@ -50,7 +50,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting) page
 1. When completed, reboot your system
 
-If you see Unlaunch's management screen at this point, you have successfully modded your Nintendo DSi.
+If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
 - If you see a black screen, please take a look at our [Troubleshooting](troubleshooting) page
 
 ## Section II - Post-Unlaunch Configuration
@@ -65,7 +65,7 @@ We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead o
    - The `NO BUTTON` and `BUTTON A/B/X/Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, Homebrew, the Slot-1 card, or Unlaunch's file menu
       - For TWiLight Menu++, select the `TWiLight Menu++` option where `BOOT.NDS` is shown on the bottom screen
       - For the original DSi Menu, select `Launcher`
-   - `LOAD ERROR` is what  your DSi will load if loading what you have set fails, such as the SD card not being inserted
+   - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
 1. Save your settings and head back to Unlaunch's menu
 1. Hover over the `TWiLight Menu++` options and find the one that has a path containing `settings.srldr` on the bottom screen
 1. Launch the highlighted option

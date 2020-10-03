@@ -17,12 +17,12 @@ If you like what they have done, consider donating (if they have a donation link
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew Tools & forked Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions)
 - [nocash](https://www.patreon.com/martin_korth): Unlaunch Developer
 - [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++, hiyaCFW & GodMode9i
-- [zoogie](https://github.com/zoogie): Developer of dumpTool, forked Memory Pit to support all regions and firmwares.
+- [zoogie](https://github.com/zoogie): Developer of dumpTool, forked Memory Pit to support all regions and firmwares
 - [Plailect](https://github.com/Plailect): Made the original 3DS Modding Guide, which this took inspiration from
 {% endcapture %}
 
 <div class="notice">{{ notice-1 | markdownify }}</div>
 
-You could contribute to our guide too by simply sending in a Pull Request!
+You can contribute to our guide too by simply sending in a Pull Request!
 
 If you know other languages, you can help us by translating the guide into that language. You can join our [Crowdin Project](https://crowdin.com/project/dsi-guide) to get started.
