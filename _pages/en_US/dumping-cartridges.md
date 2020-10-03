@@ -12,7 +12,7 @@ This section is for dumping cartridges using GodMode9i so they can be played on 
 * Your Nintendo DSi console with [Unlaunch](installing-unlaunch) installed
 
 ## Instructions
-### Section I - SD Card etup
+### Section I - SD Card Setup
 
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
