@@ -18,7 +18,7 @@ sitemap: false
 **Add-on sections**
 
 + [SD Card Setup](sd-card-setup)
-+ [File Extensions (Windows)](file-extensions-(windows))
++ [File Extensions (Windows)](file-extensions-%28windows%29)
 + [Dumping Cartridges](dumping-cartridges)
 + [DSiWare Backups](dsiware-backups)
 + [nds-bootstrap forwarders for hiyaCFW](nds-bootstrap-forwarders)
