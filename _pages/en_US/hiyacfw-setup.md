@@ -37,6 +37,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
    - This will not work with any other archive extractor tool you own, such as WinRAR. hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
 1. Download the latest Windows version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 
 {% capture macosPrep %}
