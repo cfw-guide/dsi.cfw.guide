@@ -5,23 +5,29 @@ redirect_from:
   - /dump-card
 ---
 
-This is an add-on section for dumping cartridges using GodMode9i, useful for loading the cartridge on emulators, flashcarts or your SD card via nds-bootstrap.
+This section is for dumping cartridges using GodMode9i so they can be played on emulators, flashcarts or your SD card via nds-bootstrap.
 
-### What You Need
-
-* Your game cartridge
+## Requirements
+* The cartridge of the title you would like to dump
 * Your Nintendo DSi console with [Unlaunch](installing-unlaunch) installed
-* The latest release of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases/latest)
 
-### Instructions
+## Instructions
+### Section I - SD Card Setup
 
-1. Insert your game cartridge into your console
-1. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
-1. Launch GodMode9i via the Unlaunch menu
-  - Hold **(A)** + **(B)** to go to the Unlaunch menu
-1. Select the cartridge option in GodMode9i
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+{: .notice--info}
+
+- Download the latest release of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
+- Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+
+### Section II - Nintendo DSi Instructions
+1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
+   - This should launch the Unlaunch Filemenu
+1. Launch GodMode9i in the Unlaunch Filemenu
+1. Ensure the game cartridge is inserted into the console
+1. Select the "NDS GAMECARD" option in GodMode9i
 1. Select if you want the padding or not:
-  - Full: Padding included
-  - Trim: Padding removed
-
+   - Full: Padding included
+   - Trim: Padding removed
+1. Repeat steps 3-5 for all cartridges you wish to dump
 The dump will be found in `SD:/gm9i/out`.

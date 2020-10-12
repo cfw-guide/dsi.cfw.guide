@@ -1,6 +1,12 @@
 ---
 main:
   -
+    title: SD Card Setup
+    url: sd-card-setup
+  -
+    title: Troubleshooting
+    url: troubleshooting
+  -
     title: FAQ
     url: faq
   -
@@ -9,15 +15,9 @@ main:
   -
     title: Uninstalling Unlaunch
     url: uninstalling-unlaunch
-  -
-    title: Troubleshooting
-    url: troubleshooting
-  -
-    title: SD card Setup
-    url: sd-card-setup
 bottom:
   -
-    title: If you need help, ask the <a href="https://discord.gg/Ymj3Kex">NDS(i)Brew Scene</a> or the <a href="https://discord.gg/yD3spjv">DS⁽ⁱ⁾ Mode Hacking!</a> Discord servers.
+    title: Join the <a href="https://discord.gg/yD3spjv">DS<sup>(i)</a> Mode Hacking!</a> Discord server for guide development and help.
 footer:
   -
     label: Source

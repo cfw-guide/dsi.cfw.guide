@@ -7,21 +7,21 @@ sitemap: false
 {% capture primary-notice %}
 **Main guide process**
 
++ [Launching the Exploit](launching-the-exploit)
 + [Dumping NAND](dumping-nand)
 + [Installing Unlaunch](installing-unlaunch)
-+ [Installing hiyaCFW](installing-hiyacfw)
-+ [Launching the Exploit](launching-the-exploit)
++ [Installing hiyaCFW](hiyacfw-setup)
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
 {% capture second-notice %}
 **Add-on sections**
 
++ [SD Card Setup](sd-card-setup)
++ [File Extensions (Windows)](file-extensions-%28windows%29)
++ [Dumping Cartridges](dumping-cartridges)
 + [DSiWare Backups](dsiware-backups)
-+ [Dumping Cartridges](dump-cartridges)
-+ [File Extensions (Windows)](file-extensions-(windows))
 + [nds-bootstrap forwarders for hiyaCFW](nds-bootstrap-forwarders)
-+ [SD card setup](sd-card-setup)
 + [Uninstalling Unlaunch](uninstalling-unlaunch)
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
@@ -29,8 +29,10 @@ sitemap: false
 {% capture other-notice %}
 **Other website pages**
 
-+ [Credits](credits)
-+ [FAQ](faq)
 + [Home](home)
++ [Frequently Asked Questions (FAQ)](faq)
++ [Troubleshooting](troubleshooting)
++ [Credits](credits)
+
 {% endcapture %}
 <div class="notice">{{ other-notice | markdownify }}</div>
