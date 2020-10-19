@@ -10,7 +10,7 @@ redirect_from:
 Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal Memory Pit, which makes it able to do the following:
 
 - Launching applications at boot (homebrew or DSiWare), with optional button combinations
-- Sccess to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
+- Access to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
 - Region locks removed on DSi enhanced / exclusive games
 - Run old Nintendo DS Homebrew via nds-bootstrap-hb
 - Launching DSiWare from the internal SD card
