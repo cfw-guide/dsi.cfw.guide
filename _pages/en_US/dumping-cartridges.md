@@ -17,8 +17,8 @@ This section is for dumping cartridges using GodMode9i so they can be played on 
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
 
-- Download the latest release of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
-- Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. Download the latest release of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
+1. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
 
 ### Section II - Nintendo DSi Instructions
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
@@ -30,4 +30,6 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - Full: Padding included
    - Trim: Padding removed
 1. Repeat steps 3-5 for all cartridges you wish to dump
-The dump will be found in `SD:/gm9i/out`.
+
+The dumped cartridges will be found in `sd:/gm9i/out`.
+{: .notice--success}
