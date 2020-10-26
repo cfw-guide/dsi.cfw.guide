@@ -4,7 +4,7 @@ redirect_from:
   - /guide/installing-hiyacfw
   - /guide/hiyacfw
   - /hiyacfw
-  - /installing-hiyacfw
+  - /hiyacfw-setup
 ---
 
 {% include toc title="Table of Contents" %}
@@ -45,7 +45,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
    <h3>macOS</h3>
 </noscript>
 
-1. Download the latest macOS version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Download the latest macOS version of [hiyaCFW Helper](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 
@@ -85,23 +85,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. When the application says "Done", close out of hiyaCFW Helper
 1. Close the terminal window
 
-## Section III - Maximizing available space
-
-This is the section you should redo if you get a screen saying "An Error Has Occured"
-{: .notice--info}
-
-The Nintendo DSi Menu has a bug that limits how much free space there can be. While this doesn't occur on the actual NAND (since the chip can never exceed 128 MB), it can happen using an SD card. What works and what doesn't goes by every other range of two gigabytes. For example, having 0-2 GB of free space works, but 2-4 GB doesn't. The same goes for 4-6 GB vs 6-8, up until you get to the size of your SD card.
-
-To ensure that your SD card has the maximum amount of free space that will work we'll be using Dummy File Creator for hiyaCFW.
-
-1. Download the latest version of [Dummy File Creator](https://github.com/Epicpkmn11/dfc/releases/latest/download/dfc.nds)
-1. Place `dfc.nds` anywhere on your SD card
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
-   - This should take you to Unlaunch's file menu
-1. Select `Dummy File Creator` from the list
-1. Once it finishes, press <kbd>START</kbd> to turn off your DSi
-
-## Section IV - Configuring Unlaunch and hiyaCFW
+## Section III - Configuring Unlaunch and hiyaCFW
 
 1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
    - This should take you to Unlaunch's file menu
