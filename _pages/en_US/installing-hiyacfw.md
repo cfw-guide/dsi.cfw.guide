@@ -45,7 +45,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
    <h3>macOS</h3>
 </noscript>
 
-1. Download the latest macOS version of [hiyaCFW Helper](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z https://github.com/mondul/HiyaCFW-Helper/releases)
+1. Download the latest macOS version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 
