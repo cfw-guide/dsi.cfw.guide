@@ -7,7 +7,7 @@ redirect_from:
 
 ### What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
-- If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternative-exploits) or [install Unlaunch](/installing-unlaunch)
+- If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternate-exploits) or [install Unlaunch](/installing-unlaunch)
 
 This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit.
 
