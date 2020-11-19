@@ -55,6 +55,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 </noscript>
 
 1. Install Python 3 using your package manager if its not already installed
+1. Make sure the Python GUI package `python3-tk` is installed
 1. Download the latest Python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
