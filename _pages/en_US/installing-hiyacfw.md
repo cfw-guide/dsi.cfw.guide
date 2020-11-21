@@ -37,6 +37,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
    - This will not work with any other archive extractor tool you own, such as WinRAR. hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
 1. Download the latest Windows version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
+   - If you can't download it because it's a "virus", check for an allow button or use a different browser, it's not actually a virus
 1. Extract the hiyaCFW Helper archive anywhere on your PC
 {% endcapture %}
 
@@ -74,7 +75,7 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 ![Screenshot of the HiyaCFW Helper](https://image.ibb.co/hhzKRL/Screen-Shot-2018-10-18-at-16-30-18.png)
 
 1. Launch hiyaCFW Helper
-  - **Windows:** - Launch `HiyaCFW_Helper.exe`
+  - **Windows:** - Launch the `HiyaCFW_Helper.exe` file extracted from the hiyaCFW Helper archive (you may need to temporarily disable your antivirus)
   - **macOS:** - Right click the `HiyaCFW_Helper` file extracted from the hiyaCFW Helper archive and choose `Open`
   - **Linux:** - Launch the `HiyaCFW_Helper.py` extracted from the hiyaCFW Helper archive
 1. Click the `...` button in the "NAND file with No$GBA footer" box
