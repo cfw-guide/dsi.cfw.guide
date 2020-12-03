@@ -54,7 +54,7 @@ It is very important to test that your NAND backup is working before attempting 
 
 If no$gba loads the DSi menu, then continue to the next section. If it shows any kind of error ***do not flash that backup***!
 
-## Flashing your NAND backup (Software Side)
+## Flashing your NAND backup (Software)
 
 Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 {: .notice--danger}
@@ -62,7 +62,7 @@ Make sure you have read through the above steps as this is where it gets dangero
 Make sure your Nintendo DSi system is well charged before beginning this section.
 {: .notice--danger}
 
-1. With your SD card inserted, power on your Nintendo DSi while holding <kbd>A</kbd> and <kbd>B</kbd>.
+1. With your SD card inserted, power on your Nintendo DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 3. Launch SafeNANDManager
 4. Press the button to `begin NAND restore`
 6. Once the restore finishes, press <kbd>START</kbd> to turn off your DSi
@@ -70,11 +70,5 @@ Make sure your Nintendo DSi system is well charged before beginning this section
 Your NAND should now be restored.
 
 ## Flashing your NAND backup (Hardmod)
-
-Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
-{: .notice--danger}
-
-Make sure you have proper soldering skills.
-{: .notice--danger}
-
-TODO. I can't find a good tutorial online on how to hardmod. To be honest, I'd rather someone else take it up. Having a hardmodding guide is important too, since I remember some case where the NAND was bricked and didn't have unlaunch.
+If you cannot boot to Unlaunch, a hardmod is the only way to restore a NAND backup.<br>
+This is not very well documented. The best guide that currently exists is the `Hardware NAND Mod Guide` section of [Gadorach's DSi Downgrading - The Complete Guide](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/)
