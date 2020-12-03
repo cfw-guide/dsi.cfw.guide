@@ -2,6 +2,7 @@
 title: Restoring a NAND backup
 redirect_from:
   - /guide/restoring-nand
+  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}
@@ -24,25 +25,32 @@ First, a few safer alternatives to why you might want to do this:
 The only thing you should be doing with your NAND is installing Unlaunch. Use the alternatives otherwise.
 
 ## Requirements
-
 - Your NAND backup **from the same DSi**
 - The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - A way to run homebrew with NAND access, such as Unlaunch or Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
   - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
-  - You will also need a dump of the "DSi firmware files", `BIOSDSI7.ROM` and `BIOSDSI9.ROM`
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+
+## Dumping the BIOS for use in no$gba
+1. Extract `dsibiosdumper.nds` from the `dsibiosdumper.zip` archive and place it anywhere on your SD card
+2. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
+   - This should launch the Unlaunch Filemenu
+3. Launch dsibiosdumper from the Unlaunch Filemenu
+4. Press <kbd class="face">A</kbd> to dump the BIOS to the SD card
+5. Press <kbd>START</kbd> to exit dsibiosdumper
 
 ## Testing your NAND backup
 It is very important to test that your NAND backup is working before attempting to restore it to your console, if it shows a brick error in no$gba it will most likely brick your console too.
 1. Extract `NO$GBA.EXE` from `no$gba-w.zip` to a folder on your computer
 2. Copy your NAND backup to the folder you put `NO$GBA.EXE` in and rename it to `DSI-1.MMC`
-2. Copy `BIOSDSI7.ROM` and `BIOSDSI9.ROM` to the folder you put `NO$GBA.EXE` in
-3. Run `NO$GBA.EXE`
-4. Click `Options` > `Emulation Setup` to open the Emulation Setup window
-5. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
-6. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
-7. Click `OK`
-8. Launch any Nintendo DS rom (`.nds` file)
+3. Copy `bios7i.bin` and `bios9i.bin` to the folder you put `NO$GBA.EXE`, named `BIOSDSI7.ROM` and `BIOSDSI9.ROM`, respectively.
+4. Run `NO$GBA.EXE`
+5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
+6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
+7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
+8. Click `OK`
+9. Launch any Nintendo DS ROM (`.nds` file)
 
 If no$gba loads the DSi menu, then continue to the next section. If it shows any kind of error ***do not flash that backup***!
 
@@ -61,7 +69,7 @@ Make sure your Nintendo DSi system is well charged before beginning this section
 
 Your NAND should now be restored.
 
-## Flashing your NAND backup (HardMod)
+## Flashing your NAND backup (Hardmod)
 
 Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 {: .notice--danger}
