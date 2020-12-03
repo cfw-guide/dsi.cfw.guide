@@ -28,12 +28,12 @@ The only thing you should be doing with your NAND is installing Unlaunch. Use th
 - Your NAND backup **from the same DSi**
 - The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - A way to run homebrew with NAND access, such as Unlaunch or Memory Pit
-- [no$gba](https://problemkaputt.de/gba.htm), to check your nand backup (Download the 'Windows gaming version')
+- [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
   - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
   - You will also need a dump of the "DSi firmware files", `BIOSDSI7.ROM` and `BIOSDSI9.ROM`
 
 ## Testing your NAND backup
-It is very important to test that your nand backup is working before attempting to restore it to your console, if it shows a brick error in no$gba it will most likely brick your console too.
+It is very important to test that your NAND backup is working before attempting to restore it to your console, if it shows a brick error in no$gba it will most likely brick your console too.
 1. Extract `NO$GBA.EXE` from `no$gba-w.zip` to a folder on your computer
 2. Copy your NAND backup to the folder you put `NO$GBA.EXE` in and rename it to `DSI-1.MMC`
 2. Copy `BIOSDSI7.ROM` and `BIOSDSI9.ROM` to the folder you put `NO$GBA.EXE` in
