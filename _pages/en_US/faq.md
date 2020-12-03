@@ -3,55 +3,32 @@ title: "FAQ"
 redirect_from:
   - help/faq
 ---
-{% include toc title="Table of Contents" %}
+{% include toc title="Questions" %}
 
-### Unlaunch freezes at `MISMATCH IN FAT COPIES`. What do I do?
-This error is caused by twlnf. It has a critical bug that doesn't properly update the entire NAND after modifying it. This causes certain homebrew (like the Unlaunch installer) to throw an error. Fortunately, this is fixable. Unfortunately, the *method* to fix it isn't set in stone, and largely varies from system to system. Generally, deleting any DSiWare installed via twlnf in the past does the job, but make sure you have another homebrew entrypoint available if you delete an entrypoint. It has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
+### What functionality will I lose by modding my system?
+- If you decide to install Unlaunch, you will not lose any system functionality
+- If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternate-exploits) or [install Unlaunch](/installing-unlaunch)
 
-### How can I restore my NAND without Unlaunch?
-You can follow Gadorach's [hardmodding guide](https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/){:target="_blank"} to hardmod your DSi. Previous soldering experience is required.
+This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit.
 
-### Why do I boot into "An Error Has Occurred" when I use hiyaCFW with the default DSi Menu, and how can I fix it?
-Unfortunately, the DSi System Menu was not built with the amount of free space the "NAND" has in mind. It uses a signed 32-bit integer, meaning that after 2GB, it will jump to a negative free space number. This is fine for the NAND, since it will never go over 128 MB. However, this is a problem when we redirect the NAND using hiyaCFW. Fortunately, this is easy to fix. After a certain point, the negative number becomes a positive, so you just want to keep that free space number always at a positive number.
+### How do I play Nintendo DS cartridge dumps?
+Playing cartridge dumps on the console requires the use of a flashcart or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
+- With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
+- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch Anti-Piracy
 
-The simplest way to do so is to simply fill up your SD card so that your free space value is less than 2GB. However, every other range of two gigabytes works, so 0GB-2GB free is fine, while 2GB-4GB is not.
+### How do I update my homebrew?
+- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](/installing-unlaunch) page
+- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
+- **TWiLight Menu++** - Follow the instructions on the [GitHub wiki](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29)
+- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
+   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
+- **GodMode9i, dumpTool, MakeForwarder, etc** - Follow the instructions used to download them
 
-Enter the free space on your SD in the box below, press enter, and it will tell you if your SD has a working amount of free space. (Javascript required for it to work)
+Other homebrew might use other methods to update.
 
-If your SD needs less free space, you can create dummy files. There are commands you could put into your command prompt/terminal, dependent on your operating system. Be sure to use the right command for the right operating system. We have these commands listed below, that will make 1GB worth of dummy files
- - Windows: `fsutil file createnew dummy0 1073741824`
- - Linux/macOS: `dd if=/dev/zero of=dummy0 count=1024 bs=1048576`
-
-Fill it up until the website says that it will work.
-
-<input id="sdSpace" type="number" placeholder="Free space on your SD, in gigabytes (ex. 1.5)" onchange="updateWillWork()">
-Your SD<span id="willWork">...</span>
-
-<script>
-function updateWillWork() {
-  let freeSpace = document.getElementById("sdSpace").value;
-  document.getElementById("willWork").innerHTML = " " + ((freeSpace % 4) < 2 ? "will work!" : "needs dummy files...");
-}
-</script>
-
-### Why don't I see TWiLight Menu++?
-You're in SysNAND instead of the SDNAND. The HiyaCFW Helper isn't applying the CFW's patches properly, so please wait for a fix in the helper.
-
-### Is there a safe way to remove Unlaunch?
-Yes, Unlaunch v1.5 and higher's installer can uninstall Unlaunch. Keep in mind that this may result in an **irrecoverable brick** if you have installed any non-legit DSiWare to your system NAND (not the SDNAND redirection provided by hiyaCFW), or have otherwise messed with system files. On another note, it will say that the system will become "useless", which is just NoCash's way of saying stock.
-
-### I get a white screen when trying to use dumpTool
-That implies an SD card error. Please make sure you have formatted your SD card to FAT32 with a 32kb cluster size. Alternatively, test your SD card to make sure it isn't corrupted. You can do so by using [H2testw for Windows](h2testw-(windows)), [F3 for Linux](f3-(linux)) or [F3X for Mac](f3x-(mac)).
-
-### How do I change what booting my console boots me into when I have installed Unlaunch?
-1. Power on your DSi while holding **(A)** & **(B)**.
-2. Navigate to `OPTIONS`, and press (A).
-3. Pick which button configuration you'd like to change.
-  - (A) & (B) are hardcoded to open Unlaunch's menu; you can't change that.
-4. Navigate to the application you'd like to launch when you hold that button (or no button).
-  - If it's a file on your SD card, it should say the file name on the bottom screen.
-  - To get the normal DSi Menu back, select "Launcher".
-5. Navigate to `SAVE & EXIT`, and press (A).
-
-### I do not get any audio in my DSi Menu, nor do I have a boot splash when using Unlaunch
-That is intentional. If you'd like to get those features back, [install hiyaCFW](installing-hiyacfw)
+### I am new or I would like to redo my setup. Where do I start?
+- If you have not already modified your console or are looking to update Unlaunch without using hiyaCFW on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage
+- If you have the latest version Unlaunch but do not want hiyaCFW, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system
+- If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW](installing-hiyacfw) page, then return to the [Installing Unlaunch](installing-unlaunch) page to update Unlaunch
+   - hiyaCFW Helper, the tool used for installing hiyaCFW, comes with the option to install TWiLight Menu++. There is no need for installing TWiLight Menu++ separately
+   - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we set up hiyaCFW

@@ -1,9 +1,0 @@
-{% include base_path %}
-{% assign split_path = page.path | split: "/" %}
-{% assign locale = split_path[1] %}
-<div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
-  {% for item in site.data.navigation[locale].footer %}
-    - <a href="{{ item.url }}">{{ item.title }}</a>
-  {% endfor %}
-</div>

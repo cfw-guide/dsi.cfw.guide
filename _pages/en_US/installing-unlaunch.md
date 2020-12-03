@@ -1,78 +1,85 @@
 ---
-title: Installing Unlaunch
+title: "Installing Unlaunch"
 redirect_from:
   - /guide/installing-unlaunch
+  - /unlaunch
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Navigation" %}
 
-## Downloads
+Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal Memory Pit, which makes it able to do the following:
 
-The source code is not needed. You only need the actual files.
+- Launching applications at boot (homebrew or DSiWare), with optional button combinations
+- Access to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
+- Region locks removed on DSi enhanced / exclusive games
+- Run old Nintendo DS Homebrew via nds-bootstrap-hb
+- Launching DSiWare from the internal SD card
+- Better sound in GBARunner2
+- Brick-Protection
+
+If you have not yet done so, please made a [NAND backup](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) would allow you to restore this backup, provided you know how to solder.
+{: .notice--danger}
+
+Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
+{: .notice--warning}
+
+## Section I - SD card preparations
+
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
 
-- The latest release of [Unlaunch](https://problemkaputt.de/unlaunch.zip){:target="_blank"}
-- The latest release of [GodMode9i](https://github.com/RocketRobz/GodMode9i/releases){:target="_blank"}
-- The latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases){:target="_blank"}
-- The latest release of Memory Pit, depending on your DSi firmware version and region
-  - [for DSi firmware versions 1.0 - 1.3   (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
-  - [for DSi firmware versions 1.4 - 1.4.5 (USA, EUR, AUS, JPN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/768_1024/pit.bin){:target="_blank"}
-  - [for DSi firmware versions 1.0 - 1.4.6 (KOR, CHN)](https://github.com/emiyl/dsi.cfw.guide/raw/master/assets/files/memory_pit/256/pit.bin){:target="_blank"}
+1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
+1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
+1. Verify you still have TWiLight Menu++ on your SD card
+   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit#twilight-menu) page.
 
-## Preparing your SD card
+## Section II - Installing/Updating Unlaunch
 
-- Copy `dumpTool.nds` to your SD card
-- Copy `GodMode9i.nds` to the root of your SD card as `BOOT.NDS`
-- Copy Memory Pit (`pit.bin`) to the `private/ds/app/484E494A` folder on your SD card
-- Copy `UNLAUNCH.DSI` to your SD card
+1. Open TWiLight Menu++
+   - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the exploit that you used.
+   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the `TWiLight Menu++` where `BOOT.NDS` is shown on the bottom screen
+1. Launch TWiLight Menu++'s Settings
+   - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
+1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> until you reach the Unlaunch Settings page
+1. If you want to change Unlaunch's background image, click on `Background` and choose the one you want
+1. If you want the Health and Safety screen and DSi Menu music, then set `Launcher Patches` to `Off`
+   - This will also prevent region locking from being removed
+1. Exit the TWiLight Menu++ Settings
+1. In the file navigation menu, launch `Unlaunch DSi Installer`
+1. Select the install option
+   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting) page
+1. When completed, reboot your system
 
-## Launching the exploit
+If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
+- If you see a black screen, please take a look at our [Troubleshooting](troubleshooting) page
 
-1. Open the DSi Camera application
-2. Select `SD Card` at the top right
-3. Tap `Album`
+## Section II - Post-Unlaunch Configuration
 
-If Memory Pit worked successfully, you should be in GodMode9i, a homebrew that allows you to manage your SD card. Even though it displays retail `.nds` files, those require a loader (like nds-bootstrap) to launch them.
+Currently Unlaunch defaults to launching its file menu on boot, but this can be changed launch whatever you want.
 
-However, if using Memory Pit didn't work, you could use other DSi exploit provided you have their respective application. One example of such is [Flipnote Lenny](installing-unlaunch-legacy) (discovered by shutterbug2000 and implemented by WinterMute), but it requires Flipnote Studio installed on your system.
-{: .notice--info}
+We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead of the exploited DSiWare title) when we soft-reset in-game.
 
-## Creating a NAND Backup
-1. Launch `dumpTool.nds` using GodMode9i.
-2. Follow the on-screen prompt to begin the NAND backup.
-  - This will take several minutes (around 7)
-3. Press Start to exit when it is completed.
+1. Power on your console while holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
+1. Navigate to `OPTIONS`, and look at the available options
+   - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
+   - The `NO BUTTON` and `BUTTON A/B/X/Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, Homebrew, the Slot-1 card, or Unlaunch's file menu
+      - For TWiLight Menu++, select the `TWiLight Menu++` option where `BOOT.NDS` is shown on the bottom screen
+      - For the original DSi Menu, select `Launcher`
+   - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
+1. Save your settings and head back to Unlaunch's menu
+1. Hover over the `TWiLight Menu++` options and find the one that has a path containing `settings.srldr` on the bottom screen
+1. Launch the highlighted option
+1. Use the <kbd class="l">L</kbd> and <kbd class="r">R</kbd> buttons to switch over to the "Misc. Settings" page
+1. Set the "DSiWare Exploit" entry to "None"
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data to the `nand.bin` file after the SHA1 hash is calculated. You can use the [HiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases){:target="_blank"} to create a copy without the footer.
-{: .notice--info}
+## Section III - Cleaning up your SD card
 
-Store this NAND backup in a safe location; it's a failsafe if you mess up. You would also need it if you'd like to install hiyaCFW.
+This section is optional and only serves for keeping your SD card tidy of files you won't need.
+{: .notice--primary}
 
-## Installing Unlaunch
-1. Launch `UNLAUNCH.DSI`.
-2. Navigate to `Install now`.
-  - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/faq)
-3. When completed, reboot (power down and power back on) your system in order to verify Unlaunch installed properly.
-  - You should now see Unlaunch's management screen
+- Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
+   - If you used another exploit, delete the files from that exploit instead
+- Delete the `UNLAUNCH.DSI` file from your SD card
 
-If you see Unlaunch's management screen, you have successfully installed Unalunch. With Unlaunch installed, your system now has primitive brick protection as well as a way to run unsigned applications without Memory Pit.
-
-By following this guide, you also now have a tool for backing up your system NAND (which is always helpful if you mess up) and a tool just like GodMode9 for the Nintendo 3DS.
-
-If you'd like for Unlaunch to load into the DSi Menu instead of Unlaunch's homebrew launcher, check the FAQ.
-{: .notice--info}
-
-You can now invert the change made to pit.bin (by either deleting or reverting if you have a backup of your previous pit.bin). You can also rename `BOOT.NDS` if it conflicts with any of your other homebrew. Unlaunch's installer is useful to keep onto the SD card in case you'd like to uninstall Unlaunch but you could always re-download it later. It's up to you if you'd like to keep the Unlaunch file there.
-{: .notice--info}
-
----
-
-There are two optional addons you can install now; hiyaCFW & TWiLight Menu++
-
-- TWiLightMenu++ is an open-source & customizable alternative to the Nintendo DSi's System Menu. It provides a unified interface for launching NES, SNES, Gameboy (Color), SEGA GameGear, SEGA Genesis, Nintendo DS & DSiWare titles.
-- hiyaCFW is a custom firmware that will allow you to install custom titles to your home menu using your SD card as an SDNAND to prevent dangerous writing to the system's internal NAND storage.
-
-Installing one won't affect the install of the other; You can use both simultaneously.
-
-Continue to either [installing TWiLight Menu++](installing-twilight-menu++) or [installing hiyaCFW](installing-hiyacfw)
+Continue to [hiyaCFW setup](hiyacfw-setup) (optional)
 {: .notice--info}

@@ -5,20 +5,21 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "nord"
+minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "DSi Guide"
 title_separator          : "-"
-name                     : "jerbear64 & emiyl"
+name                     : "emiyl & DS⁽ⁱ⁾ Mode Hacking"
 description              : "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
 url                      : "https://dsi.cfw.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "dsi.cfw.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "emiyl/dsi.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+repository               : "cfw-guide/dsi.cfw.guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/home-page-feature.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
+logo                     : "/assets/favicon/favicon.ico"
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -31,22 +32,12 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -73,10 +64,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider: "google-gtag"
   google:
-    tracking_id          : "UA-86465881-5"
-
+    tracking_id: "UA-152619365-1"
+    anonymize_ip: false # default
 
 # Site Author
 author:
@@ -103,12 +94,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "cfw_guide"
+  twitter          : "emiyl0"
   vine             :
   weibo            :
   xing             :
   youtube          :
-
 
 # Reading Files
 include:
@@ -203,8 +193,10 @@ kramdown:
 
 
 # Sass/SCSS
+layouts_dir         : engine/_layouts
+includes_dir        : engine/_includes
 sass:
-  sass_dir: _sass
+  sass_dir: engine/_sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Plugins
@@ -213,6 +205,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jemoji
   - jekyll-redirect-from
 
@@ -222,6 +215,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jemoji
 
 
@@ -252,7 +246,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
