@@ -6,36 +6,31 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-WARNING! This is ***EXTREMELY*** dangerous. Even following these steps *exactly* could still result in an *irrecoverable brick* as the DSi's NAND is very low quality, especially if you flash more than once! Only use this as the *very last resort*!
+WARNING! This is ***dangerous***. Even following these steps exactly still has potential to brick the DSi as the NAND is very low quality, especially if you flash multiple times! This should only be used as a last resort!
 {: .notice--danger}
 
 Do not skip *anything* on this page, any mistake greatly increases chance of bricking your DSi.
 {: .notice--info}
 
 First, a few safer alternatives to why you might want to do this:
-- Uninstalling Unlaunch can be done using the Unlaunch installer `.dsi` file (instructions in the FAQ)
 - Installing DSiWare can be done using hiyaCFW or TWiLight Menu++
 - Recovering pictures can be done using ninfs, in combination with hiyaCFW or TWiLight Menu++ if you want them on console
-- Restoring an Unlaunch button configuration could be done by resetting it (instructions in the FAQ).
+- Restoring an Unlaunch button configuration can be done from the Unlaunch menu
 - Booting into Unlaunch resulting in an error? Take out your SD card and try again. If it works, then it's a fault with your SD card and restoring a NAND backup won't fix it
+- "An error has occurred..." on boot is a hiyaCFW error and is not related to your NAND, see the [troubleshooting](troubleshooting#hiyacfw) page for more information
+- Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on Discord
+- Uninstalling Unlaunch, whether by flashing NAND or using its uninstaller, should avoided unless absolutely necessary, you can set the autoboot keys to "Launcher" and your DSi will be like stock
 
-The only thing you should be doing with your NAND is installing Unlaunch. Use the alternatives otherwise
+The only thing you should be doing with your NAND is installing Unlaunch. Use the alternatives otherwise.
 
 ## Requirements
 
-- Your NAND backup from the same DSi
-- Version 1.6.0 of fwTool
+- Your NAND backup **from the same DSi**
+- The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - A way to run homebrew with NAND access, such as Unlaunch or Memory Pit
-- A way to launch homebrew applications that isn't through Unlaucnh
-  - Such tools include [GodMode9i](https://github.com/RocketRobz/GodMode9i/releases), HBMenu or TWiLight Menu++
-  - fwTool 1.6.0 turns off the console immediately when launched directly from Unlaunch
 - [no$gba](https://problemkaputt.de/gba.htm), to check your nand backup (Download the 'Windows gaming version')
   - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
-  - You will also need to dump the "DSi firmware files", `BIOSDSI7.ROM` and `BIOSDSI9.ROM`
-- A hex editor
-  - Windows users can use [HxD](https://mh-nexus.de/en/hxd/)
-  - macOS users can use [Hex Fiend](http://ridiculousfish.com/hexfiend/)
-  - Linux users can use TODO
+  - You will also need a dump of the "DSi firmware files", `BIOSDSI7.ROM` and `BIOSDSI9.ROM`
 
 ## Testing your NAND backup
 It is very important to test that your nand backup is working before attempting to restore it to your console, if it shows a brick error in no$gba it will most likely brick your console too.
@@ -51,26 +46,6 @@ It is very important to test that your nand backup is working before attempting 
 
 If no$gba loads the DSi menu, then continue to the next section. If it shows any kind of error ***do not flash that backup***!
 
-## Preparing your NAND backup
-If your NAND backup was dumped using fwTool 2.0.0 or dumpTool, then it will have a no$gba footer at the end. Regardless, still check to make certain that your NAND is correct.
-{: .notice--info}
-
-1. Open your NAND backup in a hex editor
-2. Go to the end of the file
-   - You should see something like this: (the AA's will be your console's CID and the BB's will be its Console ID)
-     ```
-     44536920 654D4D43 20434944 2F435055 DSi eMMC CID/CPU
-     AAAAAAAA AAAAAAAA AAAAAAAA AAAAAAAA ................
-     BBBBBBBB BBBBBBBB 00000000 00000000 ........        
-     00000000 00000000 00000000 00000000                 
-     ```
-3. If you see something like the section above, delete it (from offset `0xF000000` to the end of the file).
-4. Save the changes made to your NAND backup and make sure it is now exactly **251,658,240** bytes
-5. Name it `dsi_nand.bin` and place it on the root of your SD card.
-
-If your NAND backup is not ***EXACTLY*** 251,658,240 bytes even after removing the NO$GBA footer, then it is an invalid NAND backup. ***Do not flash that backup***!
-{: .notice--danger}
-
 ## Flashing your NAND backup (Software Side)
 
 Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
@@ -79,12 +54,10 @@ Make sure you have read through the above steps as this is where it gets dangero
 Make sure your Nintendo DSi system is well charged before beginning this section.
 {: .notice--danger}
 
-1. With your SD card inserted, power on your Nintendo DSi while holding (A) and (B).
-2. Launch into a separate homebrew launcher that isn't Unlaunch.
-3. Launch fwTool 1.6.0
-4. Click `Restore nand_dsi.bin`
-5. Confirm the NAND restore with the buttons prompted to you
-6. Once the restore finishes, reboot your DSi
+1. With your SD card inserted, power on your Nintendo DSi while holding <kbd>A</kbd> and <kbd>B</kbd>.
+3. Launch SafeNANDManager
+4. Press the button to `begin NAND restore`
+6. Once the restore finishes, press <kbd>START</kbd> to turn off your DSi
 
 Your NAND should now be restored.
 
