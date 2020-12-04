@@ -30,7 +30,7 @@ The only thing you should be doing with your NAND is installing Unlaunch. Use th
 - A way to run homebrew with NAND access, such as Unlaunch or Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
   - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
-- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Dumping the BIOS for use in no$gba
 1. Extract `dsibiosdumper.nds` from the `dsibiosdumper.zip` archive and place it anywhere on your SD card
