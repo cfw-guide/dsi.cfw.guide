@@ -81,5 +81,5 @@ This section is optional and only serves for keeping your SD card tidy of files 
    - If you used another exploit, delete the files from that exploit instead
 - Delete the `UNLAUNCH.DSI` file from your SD card
 
-Continue to [hiyaCFW setup](hiyacfw-setup) (optional)
+Continue to [Installing HiyaCFW](installing-hiyacfw) (optional)
 {: .notice--info}
