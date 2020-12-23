@@ -18,16 +18,17 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 </noscript>
 
 ## Section I - Formatting your SD card
-![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
 1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-   - Click the picture to download it
 1. Run GUIFormat with Administrator permissions
 1. Select your drive letter
 1. Set your `Allocation size unit` it to `32768`
   - If this is too large for your SD, set it to the highest one that works
 1. Make sure the `Quick Format` check box is checked
 1. Start the format process
+
+![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
+{:.notice--info}
 
 ## Section II - Checking for errors
 1. Go to the properties window of your SD card
