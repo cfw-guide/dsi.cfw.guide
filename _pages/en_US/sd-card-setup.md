@@ -20,6 +20,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 ## Section I - Formatting your SD card
 
 1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+  - Click on the picture on the website to download the app
 1. Run GUIFormat with Administrator permissions
 1. Select your drive letter
 1. Set your `Allocation size unit` it to `32768`
