@@ -28,7 +28,7 @@ Make sure your console is charged when following this process. A sudden power lo
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
 
-1. Download the latest version of [Unlaunch](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip)
+1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
 1. Verify you still have TWiLight Menu++ on your SD card
    - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit#twilight-menu) page.
