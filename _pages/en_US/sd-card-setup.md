@@ -145,7 +145,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
    - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
 1. Click `Erase` at the top
 1. Ensure that `Format` is set to `MS-DOS (FAT32)`
-   - On 10.11 through 10.15 choose `MS-DOS (FAT)`
+   - On El Capitan (10.11) through Catalina (10.15) choose `MS-DOS (FAT)`
 1. Ensure that `Scheme` is set to `Master Boot Record`
    - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
 1. Click `Erase`, then click `Close`
