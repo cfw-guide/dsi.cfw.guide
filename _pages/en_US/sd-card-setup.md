@@ -79,16 +79,8 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Hit CTRL + C to exit the menu
 
 ## Section II - Formatting the card
-![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
 
-1. Type in `sudo cfdisk /dev/(device mount point from above)`
-1. On each partition, hit `Delete`
-1. Create a new Primary partition that covers the size of your entire SD card
-- This will create a new partition with the linux filetype
-1. Select type and take a look at the menu
-1. Find `W95 FAT32` and take note of the code on the left side of that text
-1. Press any key, then enter the code you took note of in the previous step
-1. Hit enter, then hit Quit
+1. Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32 -I` to create a single FAT32 partition with 32 KB cluster size on the SD card
 
 ## Section III - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
