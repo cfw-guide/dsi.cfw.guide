@@ -63,7 +63,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
    <h2>Linux</h2>
 </noscript>
 
-## Section I - Determining which slot your SD card is in
+## Section I - Determining which slot your SD card is in and Formatting the card
 1. Make sure your SD card is **not** inserted into your Linux machine
 1. Launch the Linux Terminal
 1. Type `watch "lsblk"`
@@ -77,12 +77,9 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Take note of the device mount point. In our example above, it was `mmcblk0`
    - If `RO` is set to 1, make sure the lock switch is not slid down
 1. Hit CTRL + C to exit the menu
-
-## Section II - Formatting the card
-
 1. Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32 -I` to create a single FAT32 partition with 32 KB cluster size on the SD card
 
-## Section III - Using F3
+## Section II - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
 1. Launch the terminal in the F3 directory
 1. Run `make` to compile F3
