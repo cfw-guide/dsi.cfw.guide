@@ -70,5 +70,4 @@ Make sure your Nintendo DSi system is well charged before beginning this section
 Your NAND should now be restored.
 
 ## Flashing your NAND backup (Hardmod)
-If you cannot boot to Unlaunch, a hardmod is the only way to restore a NAND backup.<br>
-This is not very well documented. The best guide that currently exists is the `Hardware NAND Mod Guide` section of [Gadorach's DSi Downgrading - The Complete Guide](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/)
+If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the Nintendo DSi hardmod guide on [the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
