@@ -1,0 +1,33 @@
+---
+main:
+  - 
+    title: Configurazione Scheda SD
+    url: sd-card-setup
+  - 
+    title: Risoluzione dei problemi
+    url: troubleshooting
+  - 
+    title: FAQ
+    url: faq
+  - 
+    title: Backup DSiWare
+    url: dsiware-backups
+  - 
+    title: Disinstallazione di Unlaunch
+    url: uninstalling-unlaunch
+bottom:
+  - 
+    title: Unisciti al Server Discord <a href="https://discord.gg/yD3spjv">DS<sup>(i)</sup> Mode Hacking!</a> per lo sviluppo di guide e aiuto.
+footer:
+  - 
+    label: Codice Sorgente
+    url: https://github.com/cfw-guide/dsi.cfw.guide
+    icon: fab fa-fw fa-github
+  - 
+    label: Navigazione Sito
+    url: site-navigation
+    icon: fas fa-fw fa-globe
+  - 
+    label: Crediti & Donazioni
+    url: credits
+    icon: fas fa-fw fa-users
