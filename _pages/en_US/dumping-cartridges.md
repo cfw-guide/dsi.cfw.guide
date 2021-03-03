@@ -23,7 +23,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 ### Section II - Nintendo DSi Instructions
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - This should launch the Unlaunch Filemenu
-1. Launch GodMode9i in the Unlaunch Filemenu
+1. Launch GodMode9i from the Unlaunch Filemenu
 1. Ensure the game cartridge is inserted into the console
 1. Select the "NDS GAMECARD" option in GodMode9i
 1. Select if you want the padding or not:

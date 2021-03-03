@@ -24,6 +24,7 @@ sitemap: false
 + [DSiWare Backups](dsiware-backups)
 + [nds-bootstrap forwarders for hiyaCFW](nds-bootstrap-forwarders)
 + [Uninstalling Unlaunch](uninstalling-unlaunch)
++ [Restoring nand](restoring-nand)
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
