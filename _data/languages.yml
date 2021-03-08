@@ -3,18 +3,18 @@ list:
   -
     title: English
     url: 
-#  -
-#    title: Español
-#    url: es_ES
+  -
+   title: Español
+   url: es_ES
 #  -
 #    title: Deutsh
 #    url: de_DE
 #  -
 #    title: Français
 #    url: fr_FR
-#  -
-#    title: Italiano
-#    url: it_IT
+  -
+    title: Italiano
+    url: it_IT
 #  -
 #    title: Nederlands
 #    url: nl_NL
