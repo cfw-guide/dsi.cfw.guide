@@ -11,6 +11,7 @@ sitemap: false
 + [Respaldando el nand](dumping-nand)
 + [Instalando Unlaunch](installing-unlaunch)
 + [Installando hiyaCFW](hiyacfw-setup)
+{% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
 {% capture second-notice %}
