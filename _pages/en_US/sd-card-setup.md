@@ -63,7 +63,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
    <h2>Linux</h2>
 </noscript>
 
-## Section I - Determining which slot your SD card is in and Formatting the card
+## Section I - Formatting your SD card
 1. Make sure your SD card is **not** inserted into your Linux machine
 1. Launch the Linux Terminal
 1. Type `watch "lsblk"`
