@@ -77,7 +77,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Take note of the device mount point. In our example above, it was `mmcblk0p1`
    - If `RO` is set to 1, make sure the lock switch is not slid down
 1. Hit CTRL + C to exit the menu
-1. Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32 -I` to create a single FAT32 partition with 32 KB cluster size on the SD card
+1. Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
 
 ## Section II - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
