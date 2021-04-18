@@ -24,5 +24,5 @@ There are several reasons you might get this error:
 - **Over 39 Titles:** There is a limit of 39 titles on your DSi System Menu. Delete any additional folders from `/title`
 - **Too much DSiWare:** There is also a limit of 200 blocks (25MB) for DSiWare in the `00030004` folder. This can be worked around by installing as system apps using [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)
 - **Invalid Title:** There are several parameters you need to take into account when adding titles to hiyaCFW:
-   - Cartridge dumps cannot be ran without being handled by a [forwarder](/nds-bootstrap-forwarder)
+   - Cartridge dumps cannot be ran without being handled by a [forwarder](/nds-bootstrap-forwarders.html)
    - There are several arguments that have to be passed to the `.app` builder in order to work from the DSi System Menu
