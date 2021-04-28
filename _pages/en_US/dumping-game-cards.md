@@ -4,6 +4,7 @@ redirect_from:
   - /dump-cart
   - /dump-card
   - /dump-game
+  - /dumping-cartridges
 ---
 
 This section is for dumping game cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
