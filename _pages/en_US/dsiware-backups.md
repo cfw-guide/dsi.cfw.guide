@@ -34,7 +34,7 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 1. Highlight the `.app` file, then press <kbd class="face">Y</kbd> to add it to the clipboard
 1. Navigate your SD card to the directory where you'd like to place the dumped DSiWare title
 1. Press <kbd class="face">Y</kbd> again to paste the DSiWare title in the directory you are currently navigating
-   - You can change the name of the file after pasting it by pressing X while holding <kbd class="R">R</kbd>
+   - You can change the name of the file after pasting it by pressing <kbd class="face">X</kbd> while holding <kbd class="R">R</kbd>
    - Repeat this for all files you wish to copy to the same directory
 
 You should now see the DSiWare title in TWiLight Menu++ or the Unlaunch Filemenu.
