@@ -7,14 +7,14 @@ redirect_from:
 
 ### What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
-- If you go with a memory-pit only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternate-exploits) or [install Unlaunch](/installing-unlaunch)
+- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either switch to an [alternative exploit](alternate-exploits) or [install Unlaunch](/installing-unlaunch)
 
 This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit.
 
-### How do I play Nintendo DS cartridge dumps?
-Playing cartridge dumps on the console requires the use of a flashcart or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
+### How do I play Nintendo DS game card dumps?
+Playing game card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting slot-1 reads and writes to it.
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
-- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch Anti-Piracy
+- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch anti-piracy measures
 
 ### How do I update my homebrew?
 - **Unlaunch** - Follow the instructions on the [Installing Unlaunch](/installing-unlaunch) page
