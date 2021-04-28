@@ -1,14 +1,15 @@
 ---
-title: "Dumping Cartridges"
+title: "Dumping Game Cards"
 redirect_from:
   - /dump-cart
   - /dump-card
+  - /dump-game
 ---
 
-This section is for dumping cartridges using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
+This section is for dumping game cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
 
 ## Requirements
-* The card of the title you would like to dump
+* The game card of the title you would like to dump
 * Your Nintendo DSi console with [Unlaunch](installing-unlaunch) installed
 
 ## Instructions
@@ -29,7 +30,7 @@ Using a Windows, Linux, or macOS device? Use [Lazy DSi Downloader](lazy-dsi-down
 1. Select if you want the padding or not:
    - Full: Padding included
    - Trim: Padding removed
-1. Repeat steps 3-5 for all cards you wish to dump
+1. Repeat steps 3-5 for all game cards you wish to dump
 
-The dumped cards will be found in `sd:/gm9i/out`.
+The dumped game cards will be found in `sd:/gm9i/out`.
 {: .notice--success}
