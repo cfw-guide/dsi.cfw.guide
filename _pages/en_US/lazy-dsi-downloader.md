@@ -9,7 +9,7 @@ title: Lazy DSi Downloader
 1. Turn on your Nintendo DSi
 1. Launch into the Nintendo DSi Camera Application
 
-If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit
+If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
 
 ## Setup Guide
 
