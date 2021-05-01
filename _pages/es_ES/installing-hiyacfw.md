@@ -57,7 +57,9 @@ Esta sección es totalmente opcional. Si el Deslanzamiento es suficiente para ti
 
 1. Instala Python 3 usando tu gestor de paquetes si no está instalado
 1. Descargar la última versión de Python de [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-1. Extraiga el archivo hiyaCFW Helper en cualquier lugar de su PC
+1. Extraiga el archivo hiyaCFW Helper en cualquier lugar de tu PC
+1. Asegúrese de que los paquetes Python necesarios están instalados ejecutando `pip3 install -r requirements.txt` en el directorio que contiene los archivos extraídos
+   - Puede instalar pip ejecutando `python3 -m ensurepip`
 {% endcapture %}
 
 <div class="tabcontainer">

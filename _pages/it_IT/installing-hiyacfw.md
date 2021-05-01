@@ -58,6 +58,8 @@ Questa sezione è completamente facoltativa. Se Unlaunch è sufficiente per te, 
 1. Installa Python 3 usando il gestore di pacchetti se non è già installato
 1. Scarica l'ultima versione Python di [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Estrai l'archivio hiyaCFW Helper ovunque sul tuo PC
+1. Assicurati che i pacchetti Python necessari siano installati eseguendo `pip3 install -r requirements.txt` nella directory contenente i file estratti
+   - Puoi installare pip con `python3 -m ensurepip`
 {% endcapture %}
 
 <div class="tabcontainer">

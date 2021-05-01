@@ -17,7 +17,7 @@ Esta guía no es compatible con consolas de desarrollo de Nintendo DSi.
 Lea detenidamente todas las páginas introductorias (¡incluyendo esta!) antes de proceder.
 {: .notice--info}
 
-## ## ¿Qué es el homebrew?
+## ¿Qué es el homebrew?
 
 [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) aplicaciones son software sin licencia hecho para sistemas cerrados como el Nintendo DSi. Estas aplicaciones pueden ir de utilidades hasta juegos de homebrew.
 

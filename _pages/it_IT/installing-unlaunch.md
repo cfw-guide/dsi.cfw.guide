@@ -7,9 +7,9 @@ redirect_from:
 
 {% include toc title="Navigation" %}
 
-Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette di avere privilegi più alti del normale Memory Pit, che lo rende in grado di fare quanto segue:
+Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette di avere più privilegi del normale Memory Pit, che lo rende in grado di fare quanto segue:
 
-- Avvio di applicazioni all'avvio (homebrew o DSiWare), con combinazioni di pulsanti opzionali
+- Esecuzione di applicazioni all'avvio (homebrew o DSiWare), con combinazioni di pulsanti opzionali
 - Accesso alla Slot-1, che consente di dumpare cartucce e lanciare flashcart incompatibili
 - Blocchi regionali rimossi ai giochi DSi enhanced / esclusivi
 - Esegui i vecchi Homebrew del Nintendo DS tramite nds-bootstrap-hb
@@ -82,5 +82,5 @@ Questa sezione è opzionale e serve solo per mantenere la scheda SD ordinata di 
    - Se hai usato un altro exploit, elimina invece i file relativi a quel exploit
 - Elimina il file `UNLAUNCH.DSI` dalla tua scheda SD
 
-Continua su [Installazione di HiyaCFW](installing-hiyacfw) (facoltativo)
+Continua su [Installazione di HiyaCFW](installing-hiyacfw) (Facoltativa)
 {: .notice--info}

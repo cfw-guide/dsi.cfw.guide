@@ -10,7 +10,7 @@ twlnf tiene un error critico donde no actualiza correctamente toda la NAND despu
 
 Aunque es fijable, el método para hacerlo no está en piedra y en gran medida varía entre sistemas. Un método es eliminar cualquier DSiWare instalado a través de twlnf en el pasado, pero también se ha informado de que mover *todo* DSiWare a la tarjeta SD y volver al sistema puede ayudar en algunos casos.
 
-Si ha degradado el sistema en el pasado, actualizando de nuevo a v1.4.5 (o v1.4.6 si tu región de DS es o coreano) también puede ayudar a este error.
+Si ha degradado el sistema en el pasado, actualizando de nuevo a v1.4.5 (o v1.4.6 si tu región de DS es china o coreano) también puede ayudar a este error.
 
 ### No hay audio o arranque al iniciar "LAUNCHER" usando Unlaunch
 
@@ -24,5 +24,5 @@ Hay varias razones que tu puedes obtener este error:
 - **Más de 39 títulos:** Hay un límite de 39 títulos en su menú del sistema de DSi. Eliminar cualquier carpeta adicional de `/title`
 - **Demasiado DSiWare:** También hay un límite de 200 bloques (25MB) para DSiWare en la carpeta `00030004`. Esto se puede solucionar instalando como aplicaciones del sistema usando [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)
 - **Título inválido:** Hay varios parámetros que necesita tener en cuenta al agregar títulos a hiyaCFW:
-   - Los respaldos de cartucho no pueden ser ejecutados sin ser manejados por un [fowarder](/nds-bootstrap-forwarder)
+   - Los volcados de cartucho no pueden ser ejecutados sin ser manejados por un [forwarder](/nds-bootstrap-forwarders.html)
    - Hay varios argumentos que deben pasarse al constructor `.app` para funcionar desde el menú del sistema DSi

@@ -6,14 +6,14 @@ redirect_from:
 
 {% include toc title="Questions" %}
 
-### ¿Qué funcionalidad perderé al modando mi sistema?
+### ¿Qué funcionalidad perderé al modificando mi sistema?
 - Si decide instalar Unlaunch, no perderá ninguna funcionalidad del sistema
-- Si vas con una configuración de pit de memoria, no podrás guardar fotos en la tarjeta SD a través de la aplicación de Cámara Nintendo DSi mientras el exploit está instalado. Cambie a un [exploit alternativo](alternate-exploits) o [instale Unlaunch](/installing-unlaunch)
+- Si vas con una configuración de pit de memoria, no podrás guardar fotos en la tarjeta SD a través de la aplicación de Cámara Nintendo DSi mientras el exploit está instalado. Cambie a un [exploit alternativo](alternate-exploits) o [install Unlaunch](/installing-unlaunch)
 
-Esto se debe a que el archivo de metadatos (`pit.bin`) se sobrescribe con el exploit de Memory Pit.
+   Esto es porque el archivo de metadata (`pit.bin`) es sobrescrito con el exploit de Memory Pit.
 
 ### ¿Cómo puedo jugar a los volcados de cartucho de Nintendo DS?
-Reproducir volcados de cartucho en la consola requiere el uso de un flashcart o nds-bootstrap, un programa que permite jugar desde la tarjeta SD interna redirigiendo lecturas slot-1 y escribiendo en ella.
+Reproducir volcados de cartucho en la consola requiere el uso de un flashcart o nds-bootstrap, un programa que permite jugar desde la tarjeta SD interna redirigiendo las lecturas y escritura del slot-1.
 - Con TWiLight Menu++ puedes navegar por tu tarjeta SD para encontrar archivos ROM para jugar con nds-bootstrap. Las ventajas de usar TWiLight Menu++ son tener un menú de trucos por juego, y evitar las restricciones que traen los remitentes. En otras palabras, puede soltar sus archivos ROM directamente y reproducir sin ninguna configuración. No hay límite de títulos 39, ni hiyaCFW ni Unlaunch son necesarios y no hay restricciones en el espacio libre de la tarjeta SD que puedas tener
 - los usuarios de hiyaCFW pueden crear [redireccionadores](nds-bootstrap-forwarders) para el Menú DSi de SDNAND, pero tiene algunas limitaciones. Hay un límite duro de 39 títulos, son menos convenientes de hacer y no parchean automáticamente la antipiratería
 
@@ -25,7 +25,7 @@ Reproducir volcados de cartucho en la consola requiere el uso de un flashcart o 
    - Si usas TWiLight Menu++, hay una gran probabilidad de que la última versión de nds-bootstrap esté incluida en TWiLight Menu++
 - **GodMode9i, dumpTool, MakeForwarder, etc** - Sigue las instrucciones utilizadas para descargarlos
 
-Otros homebrew pueden usar otros métodos para actualizar.
+Otros homebrew pueden utilizar otros métodos para actualizar.
 
 ### Soy nuevo o me gustaría rehacer mi configuración. ¿Dónde empiezo?
 - Si aún no has modificado tu consola o estás buscando actualizar Unlaunch sin usar hiyaCFW en tu sistema, Recomendamos comenzar desde el principio de la guía y seguir a través de las páginas. Asegúrese de leer todo en la página de inicio
