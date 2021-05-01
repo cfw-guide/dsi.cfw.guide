@@ -1,0 +1,33 @@
+---
+main:
+  - 
+    title: SD kártya telepítés
+    url: sd-card-setup
+  - 
+    title: Hibaelhárítás
+    url: troubleshooting
+  - 
+    title: GYIK
+    url: faq
+  - 
+    title: DSiWare mentések
+    url: dsiware-backups
+  - 
+    title: Unlaunch eltávolítása
+    url: uninstalling-unlaunch
+bottom:
+  - 
+    title: Csatlakozz a <a href="https://discord.gg/yD3spjv">DS<sup>(i)</sup> Mode Hacking!</a> Discord szerverhez az útmutató fejlesztéséhez és segítségért.
+footer:
+  - 
+    label: Forrás
+    url: https://github.com/cfw-guide/dsi.cfw.guide
+    icon: fab fa-fw fa-github
+  - 
+    label: Webhely navigáció
+    url: site-navigation
+    icon: fas fa-fw fa-globe
+  - 
+    label: Készítők & Támogatások
+    url: credits
+    icon: fas fa-fw fa-users

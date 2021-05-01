@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Preparación tarjeta SD
+    title: Preparación de tarjeta SD
     url: sd-card-setup
   - 
     title: Solución de problemas
@@ -17,7 +17,7 @@ main:
     url: uninstalling-unlaunch
 bottom:
   - 
-    title: Únete al servidor de Discord de <a href="https://discord.gg/yD3spjv">DS<sup>(i)</sup> Mode Hacking!</a> para aumentar la guía y pedir ayuda.
+    title: Únete al servidor de Discord de <a href="https://discord.gg/yD3spjv">DS<sup>(i)</sup> Mode Hacking!</a> para seguir el desarrollo de la guía y pedir ayuda.
 footer:
   - 
     label: Fuente

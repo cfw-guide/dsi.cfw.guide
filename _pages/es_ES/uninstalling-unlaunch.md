@@ -2,13 +2,13 @@
 title: Desinstalando Unlaunch
 ---
 
-**¡Instalar o desinstalar Unlaunch puede chavar aleatoriamente tu consola! Has sido advertido!**
+**¡Instalar o desinstalar Unlaunch puede inutilizar aleatoriamente tu consola! Has sido advertido!**
 {:.notice--danger}
 
 **ADVERTENCIA:** Una desinstalacion de Unlaunch puede bloquear tu Nintendo DSi. Aquí hay algunos casos sobre por qué puede desinstalar Unlaunch pero con soluciones que no requieren desinstalación.
 
-- **El Fondo de Unlaunch es horrifico:** Reinstala Unlaunch usando [las nuevas instucciones](/installing-unlaunch). Ahora contienen instrucciones sobre cómo cambiar el fondo
-- **No hay ninguna pantalla de Splash y falta musica:** Reinstalar Unlaunch usando [las nuevas instucciones](/installing-unlaunch). Ahora contienen instrucciones de mitigacion
+- **El Unlaunch Background puede ser angustioso:** Reinstala Unlaunch usando [las nuevas instrucciones](/installing-unlaunch). Ahora contienen instrucciones sobre cómo cambiar el fondo
+- **No hay pantalla de inicio y la música no inicia:** Reinstala Unlaunch usando [las nuevas instrucciones](/installing-unlaunch). Ahora contienen instrucciones de mitigacion
 - **Mi sistema está roto:** Esta página no es para ti, ya que requiere un sistema operativo para desinstalar el lanzamiento
 
 Para reducir las posibilidades de ladrillo, asegúrese de que no ha instalado ninguna DSiWare no legit en la NAND del sistema (la redirección SDNAND proporcionada por hiyaCFW no cuenta), o han manipulado de otro modo los archivos del sistema.

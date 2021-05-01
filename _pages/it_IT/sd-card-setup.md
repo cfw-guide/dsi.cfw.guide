@@ -63,7 +63,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
    <h2>Linux</h2>
 </noscript>
 
-## Sezione I - Determinazione dello slot in cui è presente la tua scheda SD
+## Sezione I - Formattazione della scheda SD
 1. Assicurati che la tua scheda SD **non sia** inserita nella tua macchina Linux
 1. Avvia il terminale Linux
 1. Digita `orologio "lsblk"`
@@ -74,27 +74,16 @@ NOME MAJ:MIN RM DIMENSIONE RO TYPE MOUNTPOINT
 mmcblk0 179:0 0 3,8G 0 disco
 한mmcblk0p1 179:1 0 3,7G 0 parte /run/media/user/FFFFFF
 ```
-1. Prendi nota del punto di montaggio del dispositivo. Nel nostro esempio sopra, era `mmcblk0`
+1. Prendi nota del punto di montaggio del dispositivo. Nel nostro esempio sopra, era `mmcblk0p1`
    - Se `RO` è impostato a 1, assicurati che l'interruttore di blocco non sia scivolato
 1. Premi CTRL + C per uscire dal menu
+1. Digita `sudo mkdosfs /dev/(Punto di montaggio del dispositivo dall'alto) -s 64 -F 32` per creare una singola partizione FAT32 con 32 KB dimensioni del cluster sulla scheda SD
 
-## Sezione II - Formattazione della carta
-![](https://s.blogcdn.com/www.engadget.com/media/2012/06/cfdisk.jpg)
-
-1. Digita `sudo cfdisk /dev/(device mount point from above)`
-1. Su ogni partizione, premi `Elimina`
-1. Crea una nuova partizione Primaria che copre la dimensione dell'intera scheda SD
-- Questo creerà una nuova partizione con il filetype linux
-1. Seleziona il tipo e dai un'occhiata al menù
-1. Trova `W95 FAT32` e prendi nota del codice a sinistra di quella voce
-1. Premi qualsiasi tasto, quindi inserisci il codice di cui hai preso nota nel passaggio precedente
-1. Premi enter, e dopo cliccare Quit
-
-## Sezione III - Uso di F3
-1. Scarica e estrai [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) ovunque sul tuo computer.
-1. Lancia il terminale nella cartella F3
+## Sezione II - Uso di F3
+1. Scarica ed estrai [l'archivio F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) in un percorso qualsiasi sul tuo computer.
+1. Avvia il terminale nella directory F3
 1. Esegui `make` per compilare F3
-1. Con la tua scheda SD inserita e montata, esegui `./f3write <la tua scheda sd>`
+1. Con la scheda SD inserita e montata, avvia `./f3write <your sd card mount point>`
    - Attendi che il processo sia completato. Vedi sotto per un esempio dell'output:
    ```
    $ ./f3write /media/michel/6135-3363/
@@ -105,8 +94,8 @@ mmcblk0 179:0 0 3,8G 0 disco
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Esegui `./f3write <la tua scheda sd>`
-- Attendi che il processo sia completato. Vedi sotto per un esempio dell'output:
+1. Esegui `./f3read <your sd card mount point>`
+- Attendi il termine del processo. Vedi sotto per un esempio dell'output:
    ```
    $ ./f3read /media/michel/6135-3363/
                      SECTORS      ok/corrupted/changed/overwritten
@@ -124,10 +113,10 @@ mmcblk0 179:0 0 3,8G 0 disco
 
 ___
 
-Se il test mostra il risultato `Data LOST: 0.00 Byte (0 sectors)` la tua scheda SD è buona e puoi eliminare tutti i file `.h2w` dalla tua SD
+Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua scheda SD va bene e puoi eliminare tutti i file `.h2w` dalla scheda SD
 {: .notice--info}
 
-Se il test mostra qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potresti dover sostituirla!
+Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 {: .notice--danger}
 {% endcapture %}
 
@@ -139,34 +128,34 @@ Se il test mostra qualsiasi altro risultato, la tua scheda SD potrebbe essere co
 ## Sezione I - Formattazione della scheda SD
 ### OS X El Capitan (10.11) e successivi
 
-1. Avviare l'applicazione Utility Disco
-1. Seleziona `Mostra tutti i dispositivi` nel pannello `Vista` in alto a sinistra
+1. Avviare l'applicazione Disk Utility
+1. Seleziona `Mostra tutti i dispositivi` nel pannello `Visualizza` in alto a sinistra
 1. Seleziona la tua scheda SD dalla barra laterale
-   - Assicurati di selezionare il dispositivo correto, altrimenti potresti formattare l'unità sbagliata!
-1. Clicca `Partiziona` in alto
+   - Assicurati di scegliere il dispositivo corretto, altrimenti potresti cancellare accidentalmente l'unità sbagliata!
+1. Clicca su `Cancella` in alto
 1. Assicurati che il `Formato` sia impostato su `MS-DOS (FAT32)`
    - Su El Capitan (10.11) attraverso Catalina (10.15) scegli `MS-DOS (FAT)`
-1. Assicurati che `Scheme` sia impostato su `Master Boot Record (MBR)`
-   - Se `Schema` non appare, clicca `Annulla` e assicurati di selezionare la SD invece di un volume
-1. Clicca `Partizione`, e infine clicca `Chiudi`
+1. Assicurati che `Scheme` sia impostato su `Master Boot Record`
+   - Se `Schema` non appare, clicca `Annulla` e assicurati di selezionare la scheda SD invece di un volume
+1. Clicca `Cancella`, e infine clicca `Chiudi`
 
 ### OS X Yosemite (10.10) e precedenti
 1. Avvia l'applicazione Utility Disco
 1. Seleziona la tua scheda SD dalla barra laterale
-   - Assicurati di selezionare il dispositivo correto, altrimenti potresti formattare l'unità sbagliata!
+   - Assicurati di scegliere il dispositivo corretto, altrimenti potresti cancellare accidentalmente l'unità sbagliata!
 1. Clicca `Partiziona` in alto
-   - Se `Partiziona` non appare, assicurati di selezionare la SD invece di un volume
-1. Assicurati che `Schema Volume` sia impostato su `1 Partizione`
-1. Assicurati che `Formato` sia impostato su `MS-DOS (FAT)`
-1. Dal pulsante Opzioni (sotto la tabella di partizione) seleziona `Master Boot Record (MBR)`.
-1. Clicca `OK` -> `Applica` -> `Partiziona`
+   - Se `Partiziona` non appare, assicurati di selezionare la scheda SD invece di un volume
+1. Assicurati che il `Partition Layout` sia impostato su `1 Partition`
+1. Assicurati che `Format` sia impostato su `MS-DOS (FAT)`
+1. Dal pulsante Opzioni (sotto la tabella di partizione) seleziona `Master Boot Record`.
+1. Clicca `OK` -> `Apply` -> `Partition`
 
-## Sezione II - Uso Di F3
+## Sezione II - Uso di F3
 1. Apri il terminale
-1. Installa F3 da brew esegunedo `brew install f3`
-   - Se non hai brew, installalo con le istruzioni su [brew.sh](https://brew.sh)
-1. Con la scheda SD inserita e montata, esegui run `f3write <your sd card mount point>`
-   - Attendi che il processo sia completato. Vedi sotto per un esempio dell'output:
+1. Installa F3 da brew con `brew install f3`
+   - Se non hai brew, installalo con le istruzioni fornite su [brew.sh](https://brew.sh)
+1. Con la scheda SD inserita e montata, esegui il comando `f3write <il punto di montaggio (mount point) della tua scheda sd>`
+   - Attendi il completamento del processo. Qui sotto vedrai un esempio di output:
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -176,8 +165,8 @@ Se il test mostra qualsiasi altro risultato, la tua scheda SD potrebbe essere co
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Esegui `./f3write <la tua scheda sd>`
-   - Attendi che il processo sia completato. Vedi sotto per un esempio dell'output:
+1. Esegui `f3write <il punto di montaggio (mount point) della tua scheda sd>`
+   - Attendi il completamento del processo. Vedi sotto per un esempio dell'output:
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten
@@ -195,10 +184,10 @@ Se il test mostra qualsiasi altro risultato, la tua scheda SD potrebbe essere co
 
 ___
 
-Se il test mostra il risultato `Data LOST: 0.00 Byte (0 sectors)` la tua scheda SD è buona e puoi eliminare tutti i file `.h2w` dalla tua SD
+Se il test mostra il risultato `Data LOST: 0.00 Byte (0 sectors)` la tua scheda SD va bene e puoi eliminare tutti i file `.h2w` dalla tua SD
 {: .notice--info}
 
-Se il test mostra qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potresti dover sostituirla!
+Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 {: .notice--danger}
 {% endcapture %}
 

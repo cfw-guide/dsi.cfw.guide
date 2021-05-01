@@ -8,7 +8,7 @@ title: Disinstallazione di Unlaunch
 **ATTENZIONE:** Disinstallare Unlaunch potrebbe brickare il tuo Nintendo DSi. Ecco alcune ragione per cui potresti voler disinstallare Unlaunch ma con soluzioni che non necessitano la disinstallazione.
 
 - **Lo sfondo di Unlaunch fa paura:** Reinstalla Unlaunch utilizzando [le nuove istruzioni](/installing-unlaunch). Ora contengono istruzioni su come cambiare lo sfondo
-- **Non c'è la schermata Splash e manca la musica:** Reinstalla Unlaunch utilizzando [le nuove istruzioni](/installing-unlaunch). Ora contengono istruzioni di mitigazione
+- **Non c'è la schermata d'avvio e manca la musica:** Reinstalla Unlaunch utilizzando [le nuove istruzioni](/installing-unlaunch). Ora contengono istruzioni di mitigazione
 - **La mia console è brickata:** Questa pagina non ti aiuterà, serve una console funzionante per disinstallare unlaunch
 
 Per ridurre le probabilità di bricking, assicurati di non aver installato nessun titolo DSiWare non-legit nella tua NAND di sistma (la SDNAND fornita da hiyaCFW non conta), o di non aver manomesso file di sistema.

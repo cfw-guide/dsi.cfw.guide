@@ -11,7 +11,7 @@ Se ti piace quello che hanno fatto, considera una donazione (se hanno un link di
 {% capture notice-1 %}
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [urmum_69](https://github.com/urmum-69): Mantenitori della Guida
 - [YourKalamity](https://github.com/YourKalamity/): La creazione del Lazy DSi File Downloader
-- [emiyl](https://emiyl.com/paypal): Titolare del dominio
+- [emiyl](https://emiyl.com/paypal): Proprietaria del dominio
 - Halvorsen: Fornì un'immagine del proprio Nintendo DSi utilizzata sulla pagina principale
 - [shutterbug2000](https://paypal.me/projectkaeru): Scopritore & Sviluppatore degli exploit della Fotocamera DSi e di Flipnote Studio
 - [WinterMute](https://devkitpro.org/support-devkitpro): Manutentore dei DS Homebrew Tools, ha forkato l'exploit di Flipnote studio per la creazione di Flipnote Lenny (supporta tutti i firmware e le regioni)
@@ -23,6 +23,6 @@ Se ti piace quello che hanno fatto, considera una donazione (se hanno un link di
 
 <div class="notice">{{ notice-1 | markdownify }}</div>
 
-Puoi contribuire anche tu alla nostra guida inviando semplicemente una Pull Request!
+Puoi contribuire anche tu alla nostra guida inviando semplicemente un Pull Request!
 
 Se conosci altre lingue, puoi aiutarci traducendo la guida in quelle lingue. Puoi unirti al nostro [Progetto Crowdin](https://crowdin.com/project/dsi-guide) per iniziare.
