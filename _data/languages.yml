@@ -1,102 +1,62 @@
 ---
 list:
-  -
-    title: English
-    url: 
-  -
-   title: Español
-   url: es_ES
-#  -
-#    title: Deutsh
-#    url: de_DE
-#  -
-#    title: Français
-#    url: fr_FR
-  -
-    title: Italiano
-    url: it_IT
-#  -
-#    title: Nederlands
-#    url: nl_NL
-#  -
-#    title: Português do Brasil
-#    url: pt_BR
-#  -
-#    title: Português (Portugal)
-#    url: pt_PT
-#  -
-#    title: Русский
-#    url: ru_RU
-#  -
-#    title: 简体中文
-#    url: zh_CN
-#  -
-#    title: 繁體中文
-#    url: zh_TW
-#  -
-#    title: Polski
-#    url: pl_PL
-#  -
-#    title: Türkçe
-#    url: tr_TR
-#  -
-#    title: Tiếng Việt
-#    url: vi_VN
-#  -
-#    title: Català
+#  - title: Afrikaans
+#    url: af_ZA
+#  - title: Català
 #    url: ca_ES
-#  -
-#    title: Ελληνικά
-#    url: el_GR
-#  -
-#    title: עברית‎
-#    url: he_IL
-#  -
-#    title: Svenska
-#    url: sv_SE
-#  -
-#    title: 한국어
-#    url: ko_KR
-#  -
-#    title: Norsk
-#    url: no_NO
-#  -
-#    title: 日本語
-#    url: ja_JP
-#  -
-#    title: اللغة العربية
-#    url: ar_SA
-#  -
-#    title: Magyar
-#    url: hu_HU
-#  -
-#    title: اللغة العربية
-#    url: ar_SA
-#  -
-#    title: Magyar
-#    url: hu_hu
-#  -
-#    title: Türkçe
-#    url: tr_TR
-#  -
-#    title: Suomi
-#    url: fi_FI
-#  -
-#    title: Dansk
-#    url: da_DK
-#  -
-#    title: Українська
-#    url: uk_UA
-#  -
-#    title: Čeština
+#  - title: Čeština
 #    url: cs_CZ
-#  -
-#    title: Pirate English
-#    url: en_PT
-#    <!-- <li class="masthead__menu-item"><a href="{{ site.url }}/ro_RO/{{ langless_url }}">Română</a></li> -->
-#    <!-- <li class="masthead__menu-item"><a href="{{ site.url }}/sr_SP/{{ langless_url }}">Српски</a></li> -->
-#    <!-- <li class="masthead__menu-item"><a href="{{ site.url }}/af_ZA/{{ langless_url }}">Afrikaans</a></li> -->
-#    <!-- <li class="masthead__menu-item"><a href="{{ site.url }}/ms_MY/{{ langless_url }}">Bahasa Melayu</a></li> -->
-  -
-    title: Help translate!
+#  - title: Dansk
+#    url: da_DK
+#  - title: Deutsch
+#    url: de_DE
+  - title: English
+    url:
+  - title: Español
+    url: es_ES
+#  - title: Français
+#    url: fr_FR
+  - title: Italiano
+    url: it_IT
+  - title: Magyar
+    url: hu_HU
+#  - title: Nederlands
+#    url: nl_NL
+#  - title: Norsk
+#    url: no_NO
+#  - title: Polski
+#    url: pl_PL
+#  - title: Português (Brasil)
+#    url: pt_BR
+#  - title: Português (Portugal)
+#    url: pt_PT
+#  - title: Română
+#    url: ro_RO
+#  - title: Suomi
+#    url: fi_FI
+#  - title: Svenska
+#    url: sv_SE
+#  - title: Tiếng Việt
+#    url: vi_VN
+#  - title: Türkçe
+#    url: tr_TR
+#  - title: Русский
+#    url: ru_RU
+#  - title: Српски
+#    url: sr_SP
+#  - title: Українська
+#    url: uk_UA
+#  - title: עברית‎
+#    url: he_IL
+#  - title: العربية
+#    url: ar_SA
+  - title: 中文 (简体)
+    url: zh_CN
+#  - title: 中文 (繁體)
+#    url: zh_TW
+#  - title: 日本語
+#    url: ja_JP
+#  - title: 한국어
+#    url: ko_KR
+  - title: Help translate!
     url: https://crowdin.com/project/dsi-guide

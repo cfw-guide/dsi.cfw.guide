@@ -142,7 +142,7 @@ exclude: [
   _pages/fi_FI,
   _pages/fr_FR,
   _pages/he_IL,
-  _pages/hu_HU,
+  # _pages/hu_HU,
   _pages/id_ID,
   # _pages/it_IT,
   _pages/ja_JP,
@@ -161,7 +161,7 @@ exclude: [
   _pages/tr_TR,
   _pages/uk_UA,
   _pages/vi_VN,
-  _pages/zh_CN,
+  # _pages/zh_CN,
   _pages/zh_TW,
 ]
 
