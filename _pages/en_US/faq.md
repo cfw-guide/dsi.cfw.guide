@@ -19,7 +19,7 @@ Playing cartridge dumps on the console requires the use of a flashcart or nds-bo
 ### How do I update my homebrew?
 - **Unlaunch** - Follow the instructions on the [Installing Unlaunch](/installing-unlaunch) page
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
-- **TWiLight Menu++** - Follow the instructions on the [GitHub wiki](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29)
+- **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
    - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
 - **GodMode9i, dumpTool, MakeForwarder, etc** - Follow the instructions used to download them
@@ -32,3 +32,6 @@ Other homebrew might use other methods to update.
 - If you have Unlaunch already and would like to install hiyaCFW, follow the [Installing hiyaCFW](installing-hiyacfw) page, then return to the [Installing Unlaunch](installing-unlaunch) page to update Unlaunch
    - hiyaCFW Helper, the tool used for installing hiyaCFW, comes with the option to install TWiLight Menu++. There is no need for installing TWiLight Menu++ separately
    - Subsequently, since we use TWiLight Menu++ to launch the Unlaunch installer, that's why we update Unlaunch after we set up hiyaCFW
+
+### How can I remove parental controls?
+- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
