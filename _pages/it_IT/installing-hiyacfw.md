@@ -9,12 +9,12 @@ redirect_from:
 
 {% include toc title="Table of Contents" %}
 
-Non aggiornare il sistema dopo l'installazione di hiyaCFW. Questo rimuoverà le patch di hiyaCFW fatte alla SD.
+Non aggiornare il sistema dopo l'installazione di hiyaCFW. Rimuoverà le patch di hiyaCFW fatte alla SD.
 {: .notice--danger}
 
-hiyaCFW è un custom firmware che vi permetterà di avviare la NAND del sistema(archiviazione interna) sulla della scheda SD.
+hiyaCFW è un custom firmware che vi permetterà di avviare la NAND del sistema (archiviazione interna) sulla scheda SD.
 
-Questo ti permette di installare le tue app nel menu del Nintendo DSi senza rischi di brick, visto che sono installatd sulla scheda SD in modo che eventuali problemi possano essere facilmente risolti.
+Questo ti permette di installare le tue app nel menu del Nintendo DSi senza rischi di brick, visto che sono installate sulla scheda SD in modo che eventuali problemi possano essere facilmente risolti.
 
 Dispone inoltre di una facile installazione di applicazioni homebrew nel Menu DSi e di una schermata di avvio personalizzata all'avvio.
 
@@ -24,7 +24,7 @@ Questa sezione è completamente facoltativa. Se Unlaunch è sufficiente per te, 
 ## Requisiti
 - Una console Nintendo DSi con [Unlaunch](/installing-unlaunch) installato sopra
 - Un backup della NAND prelevato dal dispositivo utilizzando lo strumento di dumping
-   - Se non ne hai uno, segui la nostra guida [Dumping NAND](dumping-nand)
+   - Se non ne hai uno, segui la nostra guida [Dump della NAND](dumping-nand)
 - Un dispositivo Windows, macOS o Linux
 
 ## Sezione I - Preparazione del PC per l'installazione di hiyaCFW
@@ -37,7 +37,7 @@ Questa sezione è completamente facoltativa. Se Unlaunch è sufficiente per te, 
 1. Scarica & installa l'ultima versione di [7-Zip](https://www.7-zip.org/download.html)
    - Questo non funzionerà con qualsiasi altro strumento di estrazione di archivio che possiedi, come WinRAR. hiyaCFW helper si basa su 7-Zip stesso, e non ad un estrattore di archivio generale
 1. Scarica l'ultima versione Windows di [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
-   - Se non è possibile scaricarlo perché è un "virus", controllare per un pulsante di autorizzazione o utilizzare un browser diverso, non è in realtà un virus
+   - Se non è possibile scaricarlo perché è un "virus", controllare un pulsante di autorizzazione o utilizzare un browser diverso, non è in realtà un virus
 1. Estrai l'archivio hiyaCFW Helper ovunque sul tuo PC
 {% endcapture %}
 
