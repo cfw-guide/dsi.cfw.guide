@@ -10,7 +10,7 @@ sitemap: false
 + [Launching the Exploit](launching-the-exploit)
 + [Dumping NAND](dumping-nand)
 + [Installing Unlaunch](installing-unlaunch)
-+ [hiyaCFW setup](hiyacfw-setup)
++ [hiyaCFW Setup](hiyacfw-setup)
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
@@ -20,11 +20,11 @@ sitemap: false
 + [SD Card Setup](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [File Extensions (Windows)](file-extensions-%28windows%29)
-+ [Dumping Cartridges](dumping-cartridges)
++ [Dumping Game Cards](dumping-game-cards)
 + [DSiWare Backups](dsiware-backups)
 + [nds-bootstrap forwarders for hiyaCFW](nds-bootstrap-forwarders)
 + [Uninstalling Unlaunch](uninstalling-unlaunch)
-+ [Restoring nand](restoring-nand)
++ [Restoring NAND](restoring-nand)
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 

@@ -18,7 +18,7 @@ redirect_from:
 ## Nintendo DSi - Instructions
 
 ### Section I - Identifying the path to the .app file
-1. Boot your Nintendo DSi console by holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
+1. Boot your Nintendo DSi console while holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
    - This should take you to the Unlaunch Filemenu
 1. Identify your application in the list
    - A light green entry means that they are installed to NAND
@@ -31,9 +31,10 @@ An example path would be `nand:/title/0030005/484e4a45/content/00000003.app`
 ### Section II - Extracting the file
 1. Launch GodMode9i from the Unlaunch Filemenu
 1. Navigate to SYSNAND, then navigate through the path you took note of above
-1. Highlight the `.app` file, then press <kbd class="l">L</kbd> to add it to the clipboard
-   - Repeat this for all files you wish to copy to the same directory
+1. Highlight the `.app` file, then press <kbd class="face">Y</kbd> to add it to the clipboard
 1. Navigate your SD card to the directory where you'd like to place the dumped DSiWare title
-1. Press <kbd class="face">Y</kbd> to paste the dumped DSiWare title in the directory you are currently navigating
+1. Press <kbd class="face">Y</kbd> again to paste the DSiWare title in the directory you are currently navigating
+   - You can change the name of the file after pasting it by pressing <kbd class="face">X</kbd> while holding <kbd class="R">R</kbd>
+   - Repeat this for all files you wish to copy to the same directory
 
-You should now see the DSiWare title in either TWiLight Menu++ or the Unlaunch Filemenu.
+You should now see the DSiWare title in TWiLight Menu++ or the Unlaunch Filemenu.

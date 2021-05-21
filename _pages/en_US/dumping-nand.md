@@ -10,7 +10,7 @@ This page is for making a NAND backup, which is a copy of the data on the Ninten
 It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 {: .notice--primary}
 
-## Section I - SD Card Setup
+## Section I - SD card setup
 
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
@@ -21,7 +21,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 ## Section II - Dumping the NAND
 1. Launch `dumpTool` through TWiLight Menu++
 1. Hit the <kbd class="face">A</kbd> button on your Nintendo DSi to start dumping your NAND
-   - A NAND backup typically takes around 7 minutes.
+   - A NAND backup typically takes around 7 minutes
 1. When the NAND backup is complete, hit the <kbd>START</kbd> button on your Nintendo DSi to exit dumpTool
 1. Power off your console and insert your SD card back into your device
 1. Store this backup somewhere safe, where you won't lose it
