@@ -90,8 +90,8 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 
 ## Section III - Configuring Unlaunch and hiyaCFW
 
-1. Power on your Nintendo DSi console while holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
-   - This should take you to Unlaunch's file menu
+1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
+   - This should launch the Unlaunch Filemenu
 1. Navigate to `OPTIONS` -> `NO BUTTON`
 1. Select `hiyaCFW` and press <kbd class="face">A</kbd>
    - This will make the system launch hiyaCFW at boot

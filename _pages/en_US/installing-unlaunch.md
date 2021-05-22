@@ -61,7 +61,8 @@ Currently, Unlaunch defaults to launching its file menu on boot, but this can be
 
 We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead of the exploited DSiWare title) when we soft-reset in-game.
 
-1. Power on your console while holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
+1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
+   - This should launch the Unlaunch Filemenu
 1. Navigate to `OPTIONS`, and look at the available options
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
    - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew, the Slot-1 card, wifiboot, or Unlaunch's file menu
