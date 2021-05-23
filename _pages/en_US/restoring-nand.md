@@ -1,8 +1,5 @@
 ---
 title: Restoring a NAND backup
-redirect_from:
-  - /guide/restoring-nand
-  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}

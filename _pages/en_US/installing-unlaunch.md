@@ -1,8 +1,5 @@
 ---
 title: "Installing Unlaunch"
-redirect_from:
-  - /guide/installing-unlaunch
-  - /unlaunch
 ---
 
 {% include toc title="Navigation" %}
