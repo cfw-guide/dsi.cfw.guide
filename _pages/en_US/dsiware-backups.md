@@ -1,11 +1,5 @@
 ---
 title: DSiWare Backups
-redirect_from:
-  - more/dumping-dsiware-from-3ds
-  - more/dumping-dsiware
-  - dsiware
-  - more/installing-dsiware
-  - installing-dsiware
 ---
 
 {% include toc title="DSiWare Backups" %}

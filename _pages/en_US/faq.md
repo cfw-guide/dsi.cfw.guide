@@ -1,7 +1,5 @@
 ---
 title: "FAQ"
-redirect_from:
-  - help/faq
 ---
 {% include toc title="Questions" %}
 
