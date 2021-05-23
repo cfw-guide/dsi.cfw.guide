@@ -23,7 +23,7 @@ If you have not yet done so, please made a [NAND backup](dumping-nand). While th
 Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
 {: .notice--warning}
 
-## Section I - SD card preparations
+## Section I - SD card setup
 
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
