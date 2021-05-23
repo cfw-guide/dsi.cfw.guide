@@ -1,11 +1,11 @@
 ---
 title: DSiware备份
 redirect_from:
-  - 更多内容/从3DS转储 DsiWare
-  - 更多内容/转储DSiware
-  - DSiware
-  - 更多内容/安装DSiware
-  - 安装DSiware
+  - more/dumping-dsiware-from-3ds
+  - more/dumping-dsiware
+  - dsiware
+  - more/installing-dsiware
+  - installing-dsiware
 ---
 
 {% include toc title="DSiWare Backups" %}

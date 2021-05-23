@@ -1,7 +1,7 @@
 ---
 title: 安装 hiyaCFW
 redirect_from:
-  - /guide/安装hiyacfw
+  - /guide/installing-hiyacfw
   - /guide/hiyacfw
   - /hiyacfw
   - /hiyacfw-setup

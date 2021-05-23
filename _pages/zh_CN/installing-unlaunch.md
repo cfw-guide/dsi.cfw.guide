@@ -1,7 +1,7 @@
 ---
 title: "安装 Unlaunch"
 redirect_from:
-  - /guide/安装unlaunch
+  - /guide/installing-unlaunch
   - /unlaunch
 ---
 

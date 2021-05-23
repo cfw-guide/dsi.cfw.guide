@@ -1,8 +1,8 @@
 ---
 title: 提取NAND
 redirect_from:
-  - NAND提取
-  - 提取NAND
+  - /nand-dump
+  - /dump-nand
 ---
 
 这个页面用于备份NAND，它是DSi内部数据的拷贝。 它可以用于设置 hiyaCFW 和 NO$GBA。
