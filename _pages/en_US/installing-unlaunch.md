@@ -25,7 +25,7 @@ Make sure your console is charged when following this process. A sudden power lo
 
 ## Section I - SD card preparations
 
-Using a Windows, Linux, or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 {: .notice--info}
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
