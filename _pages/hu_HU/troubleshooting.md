@@ -20,9 +20,9 @@ Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezéskén
 ### "An Error Has Occurred"
 Különböző okai lehetnek ennek a problémának:
 
-- **Túl sok szaad tárhely:** A Nintendo DSi Menünek van egy hibája, ami korlátozza, hogy mennyi szabad hely lehet. Habár ez nem fordul elő az aktuális NAND-dal (mert a chip sosem nagyobb 128 MB-nál), ez előfordul SD kártya használatakor. Hogy mi működik és mi nem hasonló a többi gigabájt méretnél is. Például, 0-2 GB szabad tárhely működik, míg 2-4 GB nem. Hasonló 4-6 GB és 6-8 esetén, egészen amíg el nem jutsz az SD kártyád méretéig. A legutolsó hiyaCFW verzió létre tud hozni dummy fájlokat, így érdemes letölteni a legfrissebb verzióját a [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)-nek és a `hiya.dsi` fájlt a "for SDNAND SD card" útvonalról az SD kártyád gyökerébe.
-- **39-nél több cím:** A DSi System Menu-ben maximum 39 cím szerepelhet. Törölj minden további mappát a `/title` könyvtárból
-- **Túl sok DSiWare:** Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma megkerülhető, a rendszer alkalmazások [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)-en keresztüli telepítésével
-- **Érvénytelen cím:** Van néhány további paraméter, amit figyelembe kell venned, amikor címeket adsz hozzá a hiyaCFW-hez:
-   - A cartridge dumpok nem futtathatók [forwarder](/nds-bootstrap-forwarders.html) nélkül
+- **Túl sok szabad tárhely (Too much free space):** A Nintendo DSi Menünek van egy hibája, ami korlátozza, hogy mennyi szabad hely lehet. Habár ez nem fordul elő az aktuális NAND-dal (mert a chip sosem nagyobb 128 MB-nál), ez előfordul SD kártya használatakor. Hogy mi működik és mi nem hasonló a többi gigabájt méretnél is. Például, 0-2 GB szabad tárhely működik, míg 2-4 GB nem. Hasonló 4-6 GB és 6-8 esetén, egészen amíg el nem jutsz az SD kártyád méretéig. A legutolsó hiyaCFW verzió létre tud hozni dummy fájlokat, így érdemes letölteni a legfrissebb verzióját a [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z)-nek és a `hiya.dsi` fájlt a "for SDNAND SD card" útvonalról az SD kártyád gyökerébe.
+- **39-nél több cím (Over 39 titles):** A DSi System Menu-ben maximum 39 cím szerepelhet. Törölj minden további mappát a `/title` könyvtárból
+- **Túl sok DSiWare (Too much DSiWare):** Maximum 200 blokk (25MB) DSiWare lehet a `00030004` mappában. Ez a probléma megkerülhető, a rendszer alkalmazások [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)-en keresztüli telepítésével
+- **Érvénytelen cím (Invalid title):** Van néhány további paraméter, amit figyelembe kell venned, amikor címeket adsz hozzá a hiyaCFW-hez:
+   - A játékkártya dumpok nem futtathatók [forwarder](/nds-bootstrap-forwarders.html) nélkül
    - Van pár paraméter, amit át kell adni az `.app` buildernek, azért, hogy működjön a DSi System Menüből

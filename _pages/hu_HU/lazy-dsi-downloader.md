@@ -9,7 +9,7 @@ A "Lazy DSi Downloader" egy eszköz, ami egyszerűsíti a Nintendo DSi konzol mo
 1. Kapcsold be Nintendo DSi-d
 1. Indítsd el a Nintendo DSi Camera alkalmazást
 
-Ha ezen a ponton egy oktató anyagot kapsz és egy összeomlást, ha megpróbálod követni, akkor nem tudod használni a Memory Pit-et
+Ha ezen a ponton egy oktató anyagot kapsz és egy összeomlást, ha megpróbálod követni, akkor nem tudod használni a Memory Pit-et.
 
 ## Telepítési útmutató
 

@@ -1,10 +1,5 @@
 ---
 title: Configurazione Scheda SD
-redirect_from:
-  - /f3-(linux)
-  - /h2testw-(windows)
-  - /f3x-(mac)
-  - /sd-prep
 ---
 
 Questa pagina serve a preparare la scheda SD del tuo Nintendo DSi. In questo processo, formatteremo la scheda SD in un format adeguato per il Nintendo DSi e verificheremo eventuali errori della scheda.

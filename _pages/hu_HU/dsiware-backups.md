@@ -1,11 +1,5 @@
 ---
 title: DSiWare mentések
-redirect_from:
-  - more/dumping-dsiware-from-3ds
-  - more/dumping-dsiware
-  - dsiware
-  - more/installing-dsiware
-  - installing-dsiware
 ---
 
 {% include toc title="DSiWare Backups" %}
@@ -31,9 +25,10 @@ Egy példa útvonal lehet: `nand:/title/0030005/484e4a45/content/00000003.app`
 ### II. rész - A fájl kicsomagolása
 1. Indítsd el GodMode9i-t az Unlaunch Filemenu-ből
 1. Navigálj a SYSNAND-hoz, majd navigálj a feljegyzett útvonalra
-1. Jelöld ki az `.app` fájlt, majd nyomj <kbd class="l">L</kbd>-t, hogy a vágólaphoz add
-   - Ismételd meg ezt minden fájllal, amit ugyanabba a könyvtárba másolnál
+1. Jelöld ki az `.app` fájlt, majd nyomj <kbd class="face">Y</kbd>-t, hogy a vágólaphoz add
 1. Navigálj az SD kártyán abba a könyvtárba, ahová a dumpolt DSiWare címet szeretnéd rakni
-1. Nyomj <kbd class="face">Y</kbd>-t a dumpolt DSiWare cím beillesztéséhez abba a könyvtárba, ahova navigáltál
+1. Nyomj <kbd class="face">Y</kbd>-t ismét a DSiWare cím beillesztéséhez abba a könyvtárba, ahova navigáltál
+   - Módosíthatod a fájlnevet beillesztése után az <kbd class="face">X</kbd> megnyomásával, az <kbd class="R">R</kbd> nyomva tartása mellett
+   - Ismételd meg ezt minden fájllal, amit ugyanabba a könyvtárba másolnál
 
 Most már látnod kell egy DSiWare címet a TWiLight Menu++-ban vagy az Unlaunch Filemenu-ben.

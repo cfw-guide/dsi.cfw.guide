@@ -1,18 +1,15 @@
 ---
 title: "Unlaunch telepítése"
-redirect_from:
-  - /guide/installing-unlaunch
-  - /unlaunch
 ---
 
 {% include toc title="Navigation" %}
 
-Az Unlaunch egy exploit, ami a rendszer bootnál helyezkedik el. Ez lehetővé tesz, hogy magasabb jogokat szerezünk, mint a normál Memory Pit, ami lehetővé teszi a következőket:
+Az Unlaunch egy exploit, ami a rendszer bootnál helyezkedik el. Ez lehetővé tesz, hogy magasabb jogokat szerezünk, mint a normál DSiWare exploitok, mint például Memory Pit, ami lehetővé teszi a következőket:
 
 - Alkalmazások indítása bootoláskor (homebrew vagy DSiWare), az opcionális gomb kombinációkkal
 - Hozzáférés a Slot-1-hez, ami lehetővé teszi a cartridge-ek dumpolását és inkompatibilis flashcard-ok használatát
-- A régiózárak eltávololításra kerülnek a DSi enchanced / exkluzív játékok esetében
-- Régi Nintendo DS Homebrew futtatása nds-bootstrap-hb-n keresztül
+- A régiózárak eltávolításra kerülnek a DSi-Enchanced / exkluzív játékok esetében
+- Régi Nintendo DS homebrew futtatása nds-bootstrap-hb-n keresztül
 - DSiWare indítása a belső SD kártyáról
 - Jobb hang a GBARunner2-ben
 - Brick-védelem
@@ -32,18 +29,19 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
    - [Tükör link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), ha a fenti nem működne
 1. Csomagold ki az `UNLAUNCH.DSI`-t az `unlaunch.zip` archívból és rakd valahova az SD kártyádon
 1. Ellenőrizd, hogy még rajta van a TWiLight Menu++ az SD kártyádon
-   - Ha nem vagy biztos benne, kövesd a lépéseket [Az Exploit indítása](launching-the-exploit#twilight-menu) oldalról.
+   - Ha nem vagy biztos benne, kövesd a lépéseket [Az Exploit indítása](launching-the-exploit#twilight-menu) oldalról
 
 ## II. rész - Az Unlaunch telepítése/frissítése
 
 1. Indítsd el a TWiLight Menu++-t
-   - Ha ez az első alaklom, hogy telepíted az Unlaunch-öt, töltsd újra a TWiLight Menu++-t az exploiton keresztül, amit használsz.
+   - Ha ez az első alkalom, hogy telepíted az Unlaunch-öt, töltsd újra a TWiLight Menu++-t az exploiton keresztül, amit használsz
    - Ha már telepítetted az Unlaunch-öt és frissíteni szeretnéd, tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, amíg bootolsz és válaszd a `TWiLight Menu++-t`, ahol a `BOOT.NDS` van megjelenítve az alsó képernyőn
 1. Indítsd el a TWiLight Menu++ Beállításokat
    - Ha nem cserélted a témádat, kövesd a lépéseket "Az Exploit futtatása" oldalon. Egyéként tekintsd meg a TWiLight Menu++ kézikönyvet
-1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> gombot, amíg el nem éred az Unlaunch Beállítások oldalt
-1. Ha szeretnéd cserélni az Unlaunch hátterét, kattints a `Háttér`-re és válaszd ki a neked tetszőt
-1. Ha szeretnéd a Health and Safety képernyőt és a DSi Menu zenét, állítsd a `Launcher Patchek`-et `Kikapcsolt`-ra
+1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> vagy <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> gombokat, amíg el nem éret az `Unlaunch beállítások` oldalt
+1. Ha szeretnéd cserélni az Unlaunch hátterét, válaszd a `Háttér` opciót és válaszd ki a neked tetszőt
+   - Ha szeretnél saját Unlaunch hátteret, tekintsd meg a [DS-Homebrew Wiki oldalt](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
+1. Ha szeretnéd a Health and Safety képernyőt és a DSi Menu zenét és hangokat, állítsd a `Launcher Patchek`-et `Kikapcsolt`-ra
    - Ez megakadályozza a régió zárolás eltávolítását is
 1. Lépj ki a TWiLight Menu++ Beállításokból
 1. A fájl navigáció menüből indítsd el az `Unlaunch DSi Installer`-t
@@ -54,7 +52,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 Ha az Unlaunch Filemenu képernyőt látod ezen a ponton, akkor sikeresen moddoltad a Nintendo DSi-det.
 - Ha fekete képernyőt kapsz, tekintsd meg a [Hibaelhárítás](troubleshooting) oldalt
 
-## II. rész - Unlaunch-utáni konfiguráció
+## III. rész - Unlaunch-utáni konfiguráció
 
 Jelenleg az Unlaunch alapértelmezésben a fájl menüjét indítja bootkor, de ez módosítható bármire, amit szeretnél.
 
@@ -63,17 +61,17 @@ Jelenleg az Unlaunch alapértelmezésben a fájl menüjét indítja bootkor, de 
 1. Kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
 1. Navigálj az `OPTIONS`-höz és nézd meg az elérhető opciókat
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> hardkódolt az Unlaunch menühöz, így az nem cserélhető
-   - A `NO BUTTON` és `BUTTON A/B/X/Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, Homebrew-t, a Slot-1 kártyát vagy az Unlaunch fájl menüt
+   - A `NO BUTTON` és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t, a Slot-1 kártyát vagy az Unlaunch fájl menüt
       - A TWiLight Menu++-hoz válaszd a `TWiLight Menu++` opciót, ahol a `BOOT.NDS`-t mutatja az alsó képernyőn
       - Az eredeti DSi Menühöz, válaszd a `Launcher`-t
    - `LOAD ERROR` az, amit a DSi be fog tölteni, amikor amit beállítottál az hibára fut, mert például az SD kártya nem lett beillesztve
 1. Mentsd a beállításaidat és menj vissza az Unlaunch menüjébe
 1. Menj át a `TWiLight Menu++` opciókon és keresd meg az ahol az útvonal tartalmazza a `settings.srldr`-t az alsó képernyőn
 1. Indítsd el a kiemelt opciót
-1. Használd az <kbd class="l">L</kbd> és <kbd class="r">R</kbd> gombokat az "Egyéb beállítások" oldalra jutáshoz
-1. Állítsd a "DSiWare Exploit"-ot "None"-ra
+1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> vagy <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> gombokat, hogy eljuss az `Egyéb beállítások` oldalra
+1. Állítsd be az `DSiWare Exploit`-ot `Nincs`-re
 
-## III. rész - Takarítás az SD kártyán
+## IV. rész - Takarítás az SD kártyán
 
 Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon ne maradjon fájl, amire nincs szükséged.
 {: .notice--primary}

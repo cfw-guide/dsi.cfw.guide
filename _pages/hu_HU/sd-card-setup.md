@@ -1,10 +1,5 @@
 ---
 title: SD kártya telepítés
-redirect_from:
-  - /f3-(linux)
-  - /h2testw-(windows)
-  - /f3x-(mac)
-  - /sd-prep
 ---
 
 Ez az oldal az SD kártyád előkészítéséről szól a Nintendo DSi-hez. A folyamat során formázzuk az SD kártyát úgy, hogy megfelelő legyen a Nintendo DSi-hez és ellenőrizzük a kártyát hibákra.

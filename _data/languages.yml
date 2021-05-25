@@ -24,8 +24,8 @@ list:
 #    url: nl_NL
 #  - title: Norsk
 #    url: no_NO
-#  - title: Polski
-#    url: pl_PL
+ - title: Polski
+   url: pl_PL
 #  - title: Português (Brasil)
 #    url: pt_BR
 #  - title: Português (Portugal)

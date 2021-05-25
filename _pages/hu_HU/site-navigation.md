@@ -20,11 +20,11 @@ sitemap: false
 + [SD kártya telepítés](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [Fájlkiterjesztések (Windows)](file-extensions-%28windows%29)
-+ [Cartrige-k dumpolása](dumping-cartridges)
++ [Játékkártyák dumpolása](dumping-game-cards)
 + [DSiWare mentések](dsiware-backups)
 + [nds-bootstrap forwarderek a hiyaCFW-hez](nds-bootstrap-forwarders)
 + [Unlaunch eltávolítása](uninstalling-unlaunch)
-+ [Nand helyreállítása](restoring-nand)
++ [NAND helyreállítása](restoring-nand)
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 

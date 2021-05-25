@@ -1,8 +1,5 @@
 ---
 title: Ripristino di un backup della NAND
-redirect_from:
-  - /guide/restoring-nand
-  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}
