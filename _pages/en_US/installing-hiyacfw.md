@@ -58,8 +58,8 @@ This section is entirely optional. If Unlaunch is enough for you, you can stop h
 1. Install Python 3 using your package manager if its not already installed
 1. Download the latest Python version of [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)
 1. Extract the hiyaCFW Helper archive anywhere on your PC
-1. Make sure the necessary Python packages are installed by running `pip3 install -r requirements.txt` in the directory containing the extracted files
-   - You can install pip by running `python3 -m ensurepip`
+1. Install tkinter with the following command for your distro if you don't already have it:
+   - Debian-based: `sudo apt-get install python3-tk`
 {% endcapture %}
 
 <div class="tabcontainer">
