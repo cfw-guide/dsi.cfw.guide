@@ -10,6 +10,7 @@ sitemap: false
 + [Launching the Exploit](launching-the-exploit)
 + [Dumping NAND](dumping-nand)
 + [Installing Unlaunch](installing-unlaunch)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
@@ -23,6 +24,7 @@ sitemap: false
 + [DSiWare Backups](dsiware-backups)
 + [Uninstalling Unlaunch](uninstalling-unlaunch)
 + [Restoring NAND](restoring-nand)
+
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
