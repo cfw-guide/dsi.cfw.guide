@@ -79,6 +79,3 @@ This section is optional and only serves for keeping your SD card tidy of files 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
    - If you used another exploit, delete the files from that exploit instead
 - Delete the `UNLAUNCH.DSI` file from your SD card
-
-Continue to [Installing HiyaCFW](installing-hiyacfw) (optional)
-{: .notice--info}
