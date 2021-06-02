@@ -1,8 +1,5 @@
 ---
 title: Restoring a NAND backup
-redirect_from:
-  - /guide/restoring-nand
-  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}
@@ -18,7 +15,7 @@ First, a few safer alternatives to why you might want to do this:
 - Recovering pictures can be done using ninfs, in combination with hiyaCFW or TWiLight Menu++ if you want them on console
 - Restoring an Unlaunch button configuration can be done from the Unlaunch menu
 - Booting into Unlaunch resulting in an error? Take out your SD card and try again. If it works, then it's a fault with your SD card and restoring a NAND backup won't fix it
-- "An error has occurred..." on boot is a hiyaCFW error and is not related to your NAND, see the [troubleshooting](troubleshooting#hiyacfw) page for more information
+- "An error has occurred..." on boot is a hiyaCFW error and is not related to your NAND, see the [DS-Homebrew wiki's hiyaCFW troubleshooting page](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) for more information
 - Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on Discord
 - Uninstalling Unlaunch, whether by flashing NAND or using its uninstaller, should avoided unless absolutely necessary, you can set the autoboot keys to "Launcher" and your DSi will be like stock
 

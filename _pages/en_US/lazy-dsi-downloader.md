@@ -14,7 +14,7 @@ If at this point you get a tutorial and crash when trying to follow it, then you
 ## Setup Guide
 
 1. If you are on Windows, download & install the latest version of [7-Zip](https://www.7-zip.org/download.html)
-   - This will not work with any other archive extractor tool you own, such as WinRAR. hiyaCFW helper relies on 7-Zip itself, and not a general archive extractor
+   - This will not work with any other archive extractor tool you own, such as WinRAR. The Lazy DSi File Downloader relies on 7-Zip itself, and not a general archive extractor
 1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
 1. Launch it via the instructions listed in the release page
 1. Hit the Next button
