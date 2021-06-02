@@ -29,7 +29,7 @@ sitemap: false
 {% capture other-notice %}
 **Other website pages**
 
-+ [Home](home)
++ [Home](.)
 + [Frequently Asked Questions (FAQ)](faq)
 + [Troubleshooting](troubleshooting)
 + [Credits](credits)

@@ -46,7 +46,7 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 ## Where can I find homebrew applications?
 
-- [Universal DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
+- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
 - [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
 
 ## What should I know before starting?
