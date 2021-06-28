@@ -9,29 +9,29 @@ sitemap: false
 
 + [启动漏洞](launching-the-exploit)
 + [提取NAND](dumping-nand)
-+ [安装 Unlaunch](installing-unlaunch)
-+ [hiyaCFW 设置](hiyacfw-setup)
++ [Installing Unlaunch](installing-unlaunch)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
 {% capture second-notice %}
-**附加部分**
+**Add-on sections**
 
 + [SD 卡设置](sd-card-setup)
 + [Lazy DSi File Downloader（DSi懒人下载包）](/lazy-dsi-downloader)
 + [文件扩展名 (Windows)](file-extensions-%28windows%29)
-+ [提取原版卡带](dumping-cartridges)
++ [Dumping Game Cards](dumping-game-cards)
 + [DSiware备份](dsiware-backups)
-+ [hiyaCFW的nds-bootstrap 转发器](nds-bootstrap-forwarders)
-+ [卸载 Unlaunch](uninstalling-unlaunch)
-+ [还原nand](restoring-nand)
++ [Uninstalling Unlaunch](uninstalling-unlaunch)
++ [Restoring NAND](restoring-nand)
+
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
 {% capture other-notice %}
-**其他网页**
+**Other website pages**
 
-+ [首页](home)
++ [首页](.)
 + [常见问题（FAQ）](faq)
 + [故障排查](troubleshooting)
 + [制作人员](credits)

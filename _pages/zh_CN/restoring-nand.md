@@ -1,8 +1,5 @@
 ---
 title: 还原 NAND备份
-redirect_from:
-  - /guide/restoring-nand
-  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}

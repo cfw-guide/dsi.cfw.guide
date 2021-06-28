@@ -14,15 +14,4 @@ Si ha degradado el sistema en el pasado, actualizando de nuevo a v1.4.5 (o v1.4.
 
 ### No hay audio o arranque al iniciar "LAUNCHER" usando Unlaunch
 
-El dev de Unlaunch (nocash) ha parcheado intencionalmente el audio en segundo plano y arranque de forma predeterminada. Puedes recuperar estos efectos reinstalando [Unlaunch](/installing-unlaunch) usando TWiLight Menu++.
-
-## hiyaCFW
-### "Ha ocurrido un error"
-Hay varias razones que tu puedes obtener este error:
-
-- **Demasiado espacio libre:** El menú del Nintendo DSi tiene un error que limita la cantidad de espacio libre que puede haber. Aunque esto no ocurre en la NAND (ya que el chip nunca puede exceder los 128 MB), puede suceder usando una tarjeta SD. Lo que funciona y lo que no pasa por cada otra gama de dos gigabytes. Por ejemplo, tener 0-2 GB de espacio libre funciona, pero 2-4 GB no. Lo mismo puede decirse de 4-6 GB vs 6-8, hasta que llegues al tamaño de tu tarjeta SD. Sin embargo, la última versión de hiyaCFW puede crear archivos dummy así que asegúrate de descargar la última versión de [hiyaCFW](https://github.com/RocketRobz/hiyaCFW/releases/latest/download/hiyaCFW.7z) y colocar `hiya. si` de "para tarjeta SD SDNAND" a la raíz de tu tarjeta SD.
-- **Más de 39 títulos:** Hay un límite de 39 títulos en su menú del sistema de DSi. Eliminar cualquier carpeta adicional de `/title`
-- **Demasiado DSiWare:** También hay un límite de 200 bloques (25MB) para DSiWare en la carpeta `00030004`. Esto se puede solucionar instalando como aplicaciones del sistema usando [TMFH](https://github.com/JeffRuLz/TMFH/releases/latest)
-- **Título inválido:** Hay varios parámetros que necesita tener en cuenta al agregar títulos a hiyaCFW:
-   - Los volcados de cartucho no pueden ser ejecutados sin ser manejados por un [forwarder](/nds-bootstrap-forwarders.html)
-   - Hay varios argumentos que deben pasarse al constructor `.app` para funcionar desde el menú del sistema DSi
+The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. Puedes recuperar estos efectos reinstalando [Unlaunch](/installing-unlaunch) usando TWiLight Menu++.

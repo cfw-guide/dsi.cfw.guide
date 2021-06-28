@@ -1,10 +1,5 @@
 ---
 title: 安装 hiyaCFW
-redirect_from:
-  - /guide/安装hiyacfw
-  - /guide/hiyacfw
-  - /hiyacfw
-  - /hiyacfw-setup
 ---
 
 {% include toc title="Table of Contents" %}

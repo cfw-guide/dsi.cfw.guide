@@ -1,8 +1,5 @@
 ---
 title: "Dumpare le Cartucce"
-redirect_from:
-  - /dump-cart
-  - /dump-card
 ---
 
 Questa sezione serve per dumpare cartucce utilizzando GodMode9i, per giocarle su emulatori, flashcart o sulla scheda SD tramite nds-bootstrap.

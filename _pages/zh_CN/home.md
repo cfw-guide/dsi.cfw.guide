@@ -3,7 +3,7 @@ layout: splash
 title: DSi 破解指南
 header:
   overlay_color: "#1a1d24"
-  overlay_image: /assets/images/homeage-feature.png
+  overlay_image: /assets/images/home-page-feature.png
   overlay_filter: 0.5
 excerpt: "最完整的 Nintendo DSi 破解指南"
 ---
@@ -29,26 +29,25 @@ excerpt: "最完整的 Nintendo DSi 破解指南"
 
 - 我们将设置一个入口点来通过 Memory Pit 启动基本的自制程序，这是对”Nintendo DSi Camera“应用程序的漏洞利用
 - 然后我们将备份你的NAND，这个备份是有用的恢复点，以防你稍后陷入困境。
-- 对于想要更多控制权的用户，我们会让他们安装Unlaunch. Unlaunch允许自制程序获得更多的权限（例如slot-1访问）和打开设备时代替系统菜单启动
+- Finally, for users that want access to the full capabilities of the DSi we will walk them through installing Unlaunch. Unlaunch allows homebrew to run with more permissions (such as Slot-1 access) and at system boot
    - 安装 Unlaunch 时，在极个别情况下，可能会使设备**变砖**。 如果你想防止设备变砖，在此之前可以给NAND做一个备份
-- 最后，对于想要在Nintendo DSi 系统菜单上安装自定义应用程序的用户，我们将会安装hiyaCFW
 
 ## 修改系统能做什么？
 
-- 将NAND重定向到SD卡
-- 使用通常情况下不兼容的烧录卡
+- Run Nintendo DS(i) game backups from your DSi SD card without the need of a flashcard
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
 - 在Nintendo DSi开机时通过长按特定的按钮来启动至DSiWare和自制程序。
-- 从SD卡启动任何DSiWare (跨区和/或3DS专用版本)
-- 直接从DSi的SD卡上运行Nintendo DS游戏，而不需要烧录卡
-- 使用 MP4播放器 观看喜欢的电影
-- 用各种模拟器玩老游戏
-- 使用 FreeNAND 将配置、 系统、 title 和 ticket通过 SDNAND 传输到另一个 Nintendo DSi
+- Run old-time classics using various emulators
+- Use normally incompatible flashcards
+- Redirect your NAND to the SD card
+- Watch your favorite movies using MPEG4Player
+- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SDNAND
 - 在启动时显示自定义图像（取代原生启动动画）
 
 ## 在哪里能找到自制软件？
 
-- [Universal DB](https://db.universal-team.net/ds) 拥有最新的现代自制软件，并且可以通过搜索和排序快速寻找想要的软件
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications) 拥有较旧的自制软件，这些软件可能只能在烧录卡上运行
+- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
 
 ## 开始之前我应该知道什么？
 
