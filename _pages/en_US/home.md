@@ -29,25 +29,24 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 - We will be setting up an entry point to launch basic homebrew via Memory Pit, the exploit for the Nintendo DSi Camera application
 - We will then take a NAND backup, which is useful as a restoration point in case you mess up later on
-- For users that want more control, we will walk them through installing Unlaunch. Unlaunch allows homebrew to run with more permissions (such as Slot-1 access) and at system boot
+- Finally, for users that want access to the full capabilities of the DSi we will walk them through installing Unlaunch. Unlaunch allows homebrew to run with more permissions (such as Slot-1 access) and at system boot
    - Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system. If you do not risk bricking, you can stop after taking a NAND backup
-- Finally, for users that want to install custom applications on their Nintendo DSi System Menu, we will install hiyaCFW
 
 ## What can I do by modding my system?
 
-- Redirect your NAND to the SD card
-- Use normally incompatible flashcards
-- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
-- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
 - Run Nintendo DS(i) game backups from your DSi SD card without the need of a flashcard
-- Watch your favorite movies using MPEG4Player
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Run old-time classics using various emulators
+- Use normally incompatible flashcards
+- Redirect your NAND to the SD card
+- Watch your favorite movies using MPEG4Player
 - Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SDNAND
 - Display an image (referred to as the boot splash) on system launch
 
 ## Where can I find homebrew applications?
 
-- [Universal DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
+- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
 - [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
 
 ## What should I know before starting?
@@ -56,5 +55,5 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
-Continue to [Launching the Exploit](launching-the-exploit){: #get-started}
+Continue to [Launching the Exploit](launching-the-exploit)
 {: .notice--info}

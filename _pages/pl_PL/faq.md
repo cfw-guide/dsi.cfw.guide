@@ -26,11 +26,14 @@ Odtwarzanie zrzutów gier na konsoli wymaga użycia flashcarda lub nds-bootstrap
 Inne homebrew mogą używać innych metod do aktualizacji.
 
 ### Jestem nowy, lub chciałbym powtórzyć swoją konfigurację. Gdzie mam zacząć?
-- Jeśli nie zmodyfikowałeś jeszcze swojej konsoli lub chcesz zaktualizować Unlaunch bez użycia hiyaCFW, zalecamy zacząć od początku przewodnika i podążać przez kolejne strony. Pamiętaj, aby przeczytać wszystko na stronie głównej
-- Jeśli masz najnowszą wersję Unlaunch, ale nie chcesz hiyaCFW, postępuj zgodnie z Sekcją 1b w [Launching the Exploit](launching-the-exploit#twilight-menu), aby skonfigurować TWiLight Menu++ w swoim systemie
-- Jeśli masz już program Unlaunch i chcesz zainstalować hiyaCFW, postępuj zgodnie z [Instalacja hiyaCFW](installing-hiyacfw), a następnie wróć do [Instalacja Unlaunch](installing-unlaunch), aby zaktualizować Unlaunch
-   - hiyaCFW Helper, narzędzie używane do instalacji hiyaCFW, posiada opcję instalacji TWiLight Menu++. Nie ma potrzeby instalowania TWiLight Menu++ oddzielnie
-   - Następnie, ponieważ używamy TWiLight Menu++ do uruchomienia instalatora Unlaunch, dlatego też aktualizujemy Unlaunch po skonfigurowaniu hiyaCFW
+- Jeśli nie zmodyfikowałeś jeszcze swojej konsoli lub chcesz zaktualizować Unlaunch na swoim systemie, zalecamy wrócić do początku przewodnika i podążać za poradnikiem. Pamiętaj, aby przeczytać wszystko na stronie głównej
+- Jeśli masz najnowszą wersję Unlaunch, postępuj zgodnie z Sekcją 1b w [Launching the Exploit](launching-the-exploit#twilight-menu), aby skonfigurować TWiLight Menu++ w swoim systemie
 
 ### Jak mogę usunąć kontrolę rodzicielską?
 - [generator mkey](https://mkey.salthax.org) może wygenerować kod wymagany do usunięcia kontroli rodzicielskich
+
+### Czy mogę zmienić mój region Nintendo DSi?
+Tak, istnieje kilka różnych metod w zależności od tego, co chcesz zmienić:
+- Najbezpieczniejszą i najprostszą metodą jest po prostu zainstalowanie TWiLight Menu++, który może używać każdego oficjalnego języka i nie tylko, bez konieczności modyfikacji NAND
+- Jeśli chcesz zmienić region systemowy i korzystać z hiyaCFW, możesz użyć [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) Yoti'sa
+- Wreszcie, jeśli chcesz zmienić region na aktualnym systemie NAND, możesz użyć [DDS Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) Mighty Max'a

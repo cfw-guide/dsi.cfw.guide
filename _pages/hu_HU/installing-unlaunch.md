@@ -79,6 +79,3 @@ Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon n
 - Töröld az `sd:/private/ds/app/484E494A/pit.bin` fájlt az SD kártyádról
    - Ha más exploitot használtál, töröld annak az exploitnak a fájljait e helyett
 - Töröld az `UNLAUNCH.DSI` fájlt az SD kártyádról
-
-Folytatás az [A HiyaCFW telepítésével](installing-hiyacfw) (Opcionális)
-{: .notice--info}

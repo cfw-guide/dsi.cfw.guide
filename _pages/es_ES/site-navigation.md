@@ -9,29 +9,29 @@ sitemap: false
 
 + [Iniciando el exploite](launching-the-exploit)
 + [Respaldando el nand](dumping-nand)
-+ [Instalando Unlaunch](installing-unlaunch)
-+ [Installando hiyaCFW](hiyacfw-setup)
++ [Installing Unlaunch](installing-unlaunch)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
 {% capture second-notice %}
-**Secciones adicionales**
+**Add-on sections**
 
 + [Preparacion del SD Card](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [Extensiones de archivo (Windows)](file-extensions-%28windows%29)
-+ [Volcando Cartuchos](dumping-cartridges)
++ [Dumping Game Cards](dumping-game-cards)
 + [Resplados De DSiWare](dsiware-backups)
-+ [nds-bootstrap forwarders para hiyaCFW](nds-bootstrap-forwarders)
-+ [Desinstalando Unlaunch](uninstalling-unlaunch)
-+ [Restaurando El Nand](restoring-nand)
++ [Uninstalling Unlaunch](uninstalling-unlaunch)
++ [Restoring NAND](restoring-nand)
+
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
 {% capture other-notice %}
-**Otras páginas web**
+**Other website pages**
 
-+ [Casa](home)
++ [Casa](.)
 + [Preguntas Frequentemente Preguntadas (FAQ)](faq)
 + [Solucion de problemas](troubleshooting)
 + [Creditos](credits)

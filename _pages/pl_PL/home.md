@@ -29,25 +29,24 @@ Pamiętaj, że poradnik jest skonstruowany liniowo, ale to zależy od tego, jak 
 
 - Ustawimy punkt wejścia, aby uruchomić podstawowy homebrew poprzez Memory Pit, czyli exploit dla aplikacji Nintendo DSi Camera
 - Następnie wykonamy kopię zapasową NAND, która jest przydatna jako punkt przywracania w przypadku, gdyby coś się zepsuło
-- Dla użytkowników, którzy chcą mieć większą kontrolę, poprowadzimy ich przez instalację Unlaunch. Unlaunch pozwala na uruchamianie homebrew z większymi uprawnieniami (takimi jak dostęp do Pola-1)
+- Wreszcie, dla użytkowników, którzy chcą zdobyć dostęp do pełnych możliwości DSi, przejdziemy ich przez instalację Unlaunch. Unlaunch pozwala na uruchamianie homebrew z większymi uprawnieniami (takimi jak dostęp do Pola-1)
    - Instalacja Unlaunch modyfikuje twoją pamięć NAND, a w skrajnych przypadkach ma potencjał do **zablokowania** systemu. Jeśli nie chcesz ryzykować, możesz przestać po zrobieniu kopii zapasowej NAND
-- Wreszcie, dla użytkowników, którzy chcą zainstalować własne aplikacje w menu Nintendo DSi, zainstalujemy hiyaCFW
 
 ## Co mogę zrobić modując swój system?
 
-- Przekieruj swój NAND na kartę SD
-- Użyj normalnie niekompatybilnych flaschardów
+- Uruchom kopię zapasową gier Nintendo DS(i) z karty SD DSi bez flashcarda
+- Uruchom dowolny DSiWare (z innego regionu i/lub ekskluzywy na 3ds) z karty SD
 - Uruchom aplikacje DSiWare i homebrew trzymając specyficzne przyciski podczas włączania Nintendo DSi
-- Uruchom dowolny DSiWare (poza regionem i/lub ekskluzywne gry 3DS) z karty SD
-- Uruchom kopię zapasową gier Nintendo DS(i) z karty SD bez flashcarda
-- Obejrzyj swoje ulubione filmy używając MPEG4Player
 - Uruchom dawne klasyki za pomocą różnych emulatorów
+- Użyj normalnie niekompatybilnych flaschardów
+- Przekieruj swój NAND na kartę SD
+- Obejrzyj swoje ulubione filmy używając MPEG4Player
 - Użyj FreeNAND, aby przenieść konfiguracje, sys, tytułów i tickets do innego Nintendo DSi z SDNAND
 - Wyświetlanie obrazu (zwanego rozbryzgiem startowym) podczas uruchamiania systemu
 
 ## Gdzie mogę znaleźć aplikacje homebrew?
 
-- [Uniwersalny DB](https://db.universal-team.net/ds) ma większość nowoczesnych homebrew, z ładnym wyszukiwaniem i sortowaniem, aby śledzić, co zostało ostatnio zaktualizowane
+- [Universal-DB](https://db.universal-team.net/ds) zawiera większość nowoczesnych homebrew, z ładnym wyszukiwaniem i sortowaniem, aby śledzić, co zostało ostatnio zaktualizowane
 - [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) ma wiele starszych homebrew, jednak wiele z nich będzie działać tylko na flashcardach
 
 ## Co należy wiedzieć przed rozpoczęciem?

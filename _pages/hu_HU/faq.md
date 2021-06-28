@@ -26,11 +26,14 @@ A játék kártya dump játékok használatához a konzolnak szüksége van flas
 Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre.
 
 ### Új vagyok vagy szeretném újra csinálni a telepítést. Hol kezdjem?
-- Ha még nem módosítottad a konzolodat, vagy frissíteni szeretnéd az Unlaunch-öt hiyaCFW használata nélkül, azt ajánljuk, hogy kezd az elejétől az útmutató, követve az oldalakat. Legyél biztos abban, hogy mindent elolvastál a honlapon
-- Ha rendelkezel a legutolsó Unlaunch verzióval, de nem szeretnél hiyaCFW-t telepíteni, kövesd az 1b fejezetét az [Az Exploit futtatása](launching-the-exploit#twilight-menu) útmutatónak, a TWiLight Menu++ rendszeredre telepítéséhez
-- Ha van Unlaunch-öd már és szeretnéd telepíteni a hiyaCFW-t, kövesd az [A hiyaCFW telepítése](installing-hiyacfw) oldalt, majd térj vissza az [Unlaunch telepítése oldalra](installing-unlaunch) az Unlaunch frissítéséhez
-   - A hiyaCFW Helper, az eszköz amivel telepíthető a hiyaCFW, olyan opcióval érkezik, ami telepíti TWiLight Menu++-t. Nincs szükség a TWiLight Menu++ külön telepítésére
-   - Ezt követően, mivel a TWiLight Menu++-t használjuk az Unlaunch installer futtatására, ezért frissítjük az Unlaunch-öt a hiyaCFW telepítése után
+- Ha még nem módosítottad a konzolodat, vagy frissíteni szeretnéd az Unlaunch-öt a rendszereden, azt ajánljuk, hogy kezd az elejétől az útmutatót, követve az oldalakat. Legyél biztos abban, hogy mindent elolvastál a honlapon
+- Ha rendelkezel a legutolsó Unlaunch verzióval, kövesd az 1b fejezetét az [Az Exploit futtatása](launching-the-exploit#twilight-menu) útmutatónak, a TWiLight Menu++ rendszeredre telepítéséhez
 
 ### Hogyan tudom eltávolítani a szülői felügyeletet?
 - Az [mkey generátor](https://mkey.salthax.org) tud generálni olyan kódot, amivel eltávolítható a szülői felügyelet
+
+### Meg tudom változtatni a Nintendo DSi konzolom régióját?
+Igen, néhány különböző metódus áll rendelkezésre, attól függően mit szeretnél változtatni:
+- A legbiztonságosabb és legegyszerűbb metódus a TWiLight Menu++ telepítése, az bármelyik hivatalos nyelvet tudja használni, és még többet a NAND módosítása nélkül
+- Ha tényéeg szeretnéd cserélni a régiót és hiyaCFW-t használsz, akkor használhatod erre Yoti [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)-ját
+- Végül, ha cserélni akarod a régiót az aktuális rendszer NAND-ban, használhatod Mighty Max [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)-ét

@@ -15,7 +15,7 @@ Először, pár biztonságos alternatíva, hogy miért érdemes ezt tenni:
 - A képek helyreállítása elvégezhet a ninfs segítségével, kobinálva a a hiyaCFW vagy a TWiLight Menu++ alkalmazással, ha szeretnéd őket a konzolon
 - Egy Unlaunch gomb konfiguráció helyreállítható az Unlaunch menüből
 - Az Unlaunch-ba bootolás hibát adott? Vedd ki az SD kártyát és próbáld újra. Ha működik, akkor a hiba az SD kártyáddal van és a NAND mentés helyreállítása nem fogja javítani azt
-- Az "An error has occurred..." üzenet bootoláskor egy hiyaCFW hiba és nem kapcsolódik a NAND-hoz, lásd a [hibaelhárítás](troubleshooting#hiyacfw) oldalt további információkért
+- Az "An error has occurred..." üzenet bootoláskor egy hiyaCFW hiba és nem kapcsolódik a NAND-hoz, lásd a [DS-Homebrew wiki hiyaCFW hibaelhárítás oldalt ](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) további információkért
 - Bármi hiba a TWiLight Menu++-ben nem kapcsolódik, meg kell próbálnod újra telepíteni a TWiLight Menu++-t vagy kérj segítséget a Discord szerveren
 - Az Unlaunch eltávolítása, akár a NAND flashelésével vagy az uninstallerrel, kerülendő, amíg kifejezetten nem szükséges; beállíthatod az autoboot gombokat "Launcher"-re és a DSi-d olyan lesz mint a gyári
 

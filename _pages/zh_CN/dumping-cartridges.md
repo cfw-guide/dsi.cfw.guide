@@ -1,8 +1,5 @@
 ---
 title: "提取原版卡带"
-redirect_from:
-  - 转储烧录卡
-  - 转储游戏卡
 ---
 
 此部分将使用GodMode9i提取原版卡带中的内容，使其可在模拟器、烧录卡或通过nds-bootstrap运行

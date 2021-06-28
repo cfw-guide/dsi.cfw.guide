@@ -10,7 +10,7 @@ sitemap: false
 + [Az Exploit indítása](launching-the-exploit)
 + [NAND dumpolása](dumping-nand)
 + [Unlaunch telepítése](installing-unlaunch)
-+ [hiyaCFW telepítés](hiyacfw-setup)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
@@ -22,16 +22,16 @@ sitemap: false
 + [Fájlkiterjesztések (Windows)](file-extensions-%28windows%29)
 + [Játékkártyák dumpolása](dumping-game-cards)
 + [DSiWare mentések](dsiware-backups)
-+ [nds-bootstrap forwarderek a hiyaCFW-hez](nds-bootstrap-forwarders)
 + [Unlaunch eltávolítása](uninstalling-unlaunch)
-+ [NAND helyreállítása](restoring-nand)
++ [A NAND biztonsági másolat visszaállítása](restoring-nand)
+
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
 {% capture other-notice %}
 **Más website oldalak**
 
-+ [Kezdőlap](home)
++ [Kezdőlap](.)
 + [Gyakran Ismételt Kérdések (GYIK)](faq)
 + [Hibaelhárítás](troubleshooting)
 + [Készítők](credits)

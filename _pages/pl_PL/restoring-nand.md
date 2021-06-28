@@ -15,7 +15,7 @@ Po pierwsze, kilka bezpieczniejszych alternatyw dla tego:
 - Odzyskiwanie zdjęć można przeprowadzić za pomocą ninfów, w połączeniu z hiyaCFW lub TWiLight Menu+++, jeśli chcesz je na konsoli
 - Przywracanie konfiguracji przycisków Unlaunch można wykonać z menu Unlaunch
 - Uruchamianie w Unlaunch skutkujące błędem? Wyciągnij kartę SD i spróbuj ponownie. Jeśli zadziała, to jest to błąd na twojej karcie SD i przywrócenie kopii zapasowej NAND tego nie naprawi
-- "Wystąpił błąd..." podczas uruchamiania systemu to błąd hiyaCFW i nie jest związany z pamięcią NAND, zobacz stronę [troubleshooting](troubleshooting#hiyacfw) aby uzyskać więcej informacji
+- "Wystąpił błąd..." podczas uruchamiania systemu to błąd hiyaCFW i nie jest związany z pamięcią NAND, zobacz stronę [troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) by zdobyć więcej informacji
 - Wszelkie błędy w TWiLight Menu++ są niepowiązane i powinieneś ponownie pobrać TWiLight Menu++ lub poprosić o pomoc na Discordzie
 - Odinstalowanie Unlauncha, czy to poprzez flashowanie NAND czy użycie deinstalatora, powinno być unikane, chyba że jest to absolutnie konieczne, możesz ustawić klucze autobootu na "Launcher" i DSi będzie jak nowy
 

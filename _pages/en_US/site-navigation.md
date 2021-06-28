@@ -10,7 +10,7 @@ sitemap: false
 + [Launching the Exploit](launching-the-exploit)
 + [Dumping NAND](dumping-nand)
 + [Installing Unlaunch](installing-unlaunch)
-+ [hiyaCFW Setup](hiyacfw-setup)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
@@ -22,16 +22,16 @@ sitemap: false
 + [File Extensions (Windows)](file-extensions-%28windows%29)
 + [Dumping Game Cards](dumping-game-cards)
 + [DSiWare Backups](dsiware-backups)
-+ [nds-bootstrap forwarders for hiyaCFW](nds-bootstrap-forwarders)
 + [Uninstalling Unlaunch](uninstalling-unlaunch)
 + [Restoring NAND](restoring-nand)
+
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
 {% capture other-notice %}
 **Other website pages**
 
-+ [Home](home)
++ [Home](.)
 + [Frequently Asked Questions (FAQ)](faq)
 + [Troubleshooting](troubleshooting)
 + [Credits](credits)

@@ -79,6 +79,3 @@ Ta sekcja jest opcjonalna i służy tylko do utrzymania niepotrzebnych plików w
 - Usuń plik `sd:/private/ds/app/484E494A/pit.bin` z karty SD
    - Jeśli użyto innego exploita, należy usunąć pliki z tego exploita
 - Usuń plik `UNLAUNCH.DSI` z karty SD
-
-(Opcjonalnie) Przejdź do [Instalacja HiyaCFW](installing-hiyacfw)
-{: .notice--info}

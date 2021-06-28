@@ -1,8 +1,5 @@
 ---
 title: Dumpare la NAND
-redirect_from:
-  - /nand-dump
-  - /dump-nand
 ---
 
 Questa pagina serve per fare un backup della NAND, che è una copia dei dati sulla memoria interna del Nintendo DSi. Può essere usato per impostare hiyaCFW e NO$GBA.
@@ -10,7 +7,7 @@ Questa pagina serve per fare un backup della NAND, che è una copia dei dati sul
 Si consiglia vivamente di farlo. Un backup della NAND può essere utilizzato come punto di ripristino in futuro, nel caso in cui il DSi smetta di funzionare.
 {: .notice--primary}
 
-## Sezione I - Configurazione Della Scheda SD
+## Sezione I - Configurazione della Scheda SD
 
 Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
 {: .notice--info}
@@ -21,7 +18,7 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
 ## Sezione II - Dump della NAND
 1. Avvia `dumpTool` attraverso TWiLight Menu++
 1. Premi il pulsante <kbd class="face">A</kbd> sul tuo Nintendo DSi per iniziare a scaricare la NAND
-   - Un backup della NAND richiede in genere circa 7 minuti.
+   - Un backup della NAND richiede in genere circa 7 minuti
 1. Quando il backup della NAND è completato, premi il pulsante <kbd>START</kbd> sul tuo Nintendo DSi per uscire da dumpTool
 1. Spegni la console e inserisci la scheda SD nel tuo computer
 1. Memorizza questo backup in un posto sicuro, dove non lo perderai

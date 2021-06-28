@@ -1,8 +1,5 @@
 ---
 title: Volcando NAND
-redirect_from:
-  - /nand-dump
-  - /dump-nand
 ---
 
 Esta pagina es para aser un respaldo NAND, que es una copia del data en el Nintendo DSi's sistema internal. Se puede usar para configurar hiyaCFW y NO$GBA.

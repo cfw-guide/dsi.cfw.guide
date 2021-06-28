@@ -1,8 +1,5 @@
 ---
 title: "Volcado de cartuchos"
-redirect_from:
-  - /dump-cart
-  - /dump-card
 ---
 
 Esta sección es para descargar cartuchos usando GodMode9i para que se puedan jugar en emuladores, flashcarts o tu tarjeta SD a traves de nds-bootstrap.
