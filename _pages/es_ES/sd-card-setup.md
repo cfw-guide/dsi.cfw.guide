@@ -1,10 +1,5 @@
 ---
 title: Preparacion del SD Card
-redirect_from:
-  - /f3-(linux)
-  - /h2testw-(windows)
-  - /f3x-(mac)
-  - /sd-prep
 ---
 
 Esta página es para preparar tu tarjeta SD para tu Nintendo DSi. En el proceso, formatearemos la tarjeta SD a un formato adecuado para el Nintendo DSi y revisaremos la tarjeta en busca de errores.

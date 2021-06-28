@@ -1,7 +1,5 @@
 ---
 title: "nds-bootstrap forwarders per hiyaCFW"
-redirect_from:
-  - /scorciatoia
 ---
 
 Questa è una sezione aggiuntiva che comporta la creazione di scorciatoie per nds-bootstrap. Ciò ti permette di lanciare rom Nintendo DS direttamente dalmenù di sistema della tua SDNAND.

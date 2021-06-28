@@ -1,8 +1,5 @@
 ---
 title: Ripristino di un backup della NAND
-redirect_from:
-  - /guide/restoring-nand
-  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}
@@ -18,7 +15,7 @@ In primo luogo, alcune alternative più sicure per le ragioni che portano al vol
 - Recuperare le immagini può essere fatto utilizzando ninfs, in combinazione con hiyaCFW o TWiLight Menu++ se le si desiderano sulla console
 - Il ripristino di una configurazione dei pulsanti di Unlaunch può essere fatto attraverso il suo menu
 - Quando avvi Unlaunch risulta in un errore? Estrarre la scheda SD e riprovare. Se funziona, allora è un difetto con la scheda SD e il ripristino di un backup della NAND non risolverà
-- "Si è verificato un errore... all'avvio è un errore di hiyaCFW e non è relativo alla tua NAND, consulta la pagina [ risoluzione dei problemi](troubleshooting#hiyacfw) per maggiori informazioni
+- "Si è verificato un errore... all'avvio è un errore di hiyaCFW e non è relativo alla tua NAND, consulta la pagina [ risoluzione dei problemi per hiyaCFW della DS-Homebrew wiki](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) per maggiori informazioni
 - Eventuali errori in TWiLight Menu++ non sono correlati e dovresti provare a reinstallare TWiLight Menu++ o chiedere aiuto su Discord
 - La disinstallazione di Unlaunch, che sia flashando la NAND oppure usando il suo uninstaller, deve essere evitata a meno che non sia assolutamente necessaria, è possibile impostare le autoboot keys su "Launcher" e il tuo DSi sarà come se fosse di fabbrica
 

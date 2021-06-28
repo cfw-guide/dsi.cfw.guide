@@ -1,8 +1,5 @@
 ---
 title: NAND dumpolása
-redirect_from:
-  - /nand-dump
-  - /dump-nand
 ---
 
 Ez az oldal a NAND mentés készítéséről szól, ami egy másolata a Nintendo DSi belső tárolójának. Ez a hiyaCFW és a NO$GBA telepítéséhez használható.
@@ -21,7 +18,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 ## II. rész - A NAND dumpolása
 1. Indítsd el a `dumpTool`-t a TWiLight Menu++-on keresztül
 1. Nyomd meg az <kbd class="face">A</kbd> gombot a Nintendo DSi-den a NAND dumpolás indításához
-   - Egy NAND mentés általában 7 percig tart.
+   - Egy NAND mentés általában 7 percig tart
 1. Ha a NAND mentés kész, nyomd meg a <kbd>START</kbd> gombot a Nintendo DSi-den, hogy kilép a dumpTool-ból
 1. Kapcsold ki a konzolodat és helyezd vissza az SD kártyádat az eszközödbe
 1. Tárold ezt a mentés egy biztonságos helyen, ahol nem veszted el

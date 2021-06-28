@@ -1,7 +1,5 @@
 ---
 title: "lanzadores de nds-bootstrap para hiyaCFW"
-redirect_from:
-  - /forwarder
 ---
 
 Esta es una sección de complementos que implica crear redireccionadores para nds-bootstrap. Esto le permite lanzar nds roms directamente desde el Menu de Sistema de su SDNAND.

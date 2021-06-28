@@ -1,11 +1,5 @@
 ---
 title: Backup DSiWare
-redirect_from:
-  - more/dumping-dsiware-from-3ds
-  - more/dumping-dsiware
-  - dsiware
-  - more/installing-dsiware
-  - installing-dsiware
 ---
 
 {% include toc title="DSiWare Backups" %}
@@ -31,9 +25,10 @@ Un esempio di percorso sarebbe `nand:/title/0030005/484e4a45/content/00000003.ap
 ### Sezione II - Estrazione del file
 1. Avvia GodMode9i tramite il menu di Unlaunch
 1. Passa a SYSNAND, e poi naviga attraverso il percorso di cui avete precedentemente preso nota
-1. Evidenzia il file `.app`, poi premi <kbd class="l">L</kbd> per aggiungerlo agli appunti
-   - Ripeti questo processo per tutti i file che si desidera copiare nella stessa directory
+1. Evidenzia il file `.app`, poi premi <kbd class="face">L</kbd> per aggiungerlo agli appunti
 1. Naviga nella scheda SD fino alla directory in cui si desidera inserire il titolo DSiWare dumpato
-1. Premi <kbd class="face">Y</kbd> per incollare il titolo DSiWare dumpato nella directory in cui stai navigando
+1. Premi <kbd class="face">Y</kbd> per incollare il titolo DSiWare nella directory in cui stai navigando
+   - Puoi cambiare il nome del file dopo averlo incollato premendo <kbd class="face">X</kbd> tenendo premuto <kbd class="R">R</kbd>
+   - Ripeti questo processo per tutti i file che si desidera copiare nella stessa directory
 
-Ora dovresti vedere il titolo DSiWare in TWiLight Menu++ o nel menu di Unlaunch.
+Ora dovresti vedere il titolo DSiWare o in TWiLight Menu++ o nel menu di Unlaunch.

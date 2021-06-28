@@ -1,8 +1,5 @@
 ---
 title: "Cartrige-k dumpolása"
-redirect_from:
-  - /dump-cart
-  - /dump-card
 ---
 
 Ez a rész a cartridge-k dumpolásáról szól GodMode9i-vel, így játszhatók emulátorral, flashcard-ról vagy az SD kártyádról nds-bootstrap segítségével.
