@@ -12,7 +12,8 @@ title: "FAQ"
 ### How do I play Nintendo DS game card dumps?
 Playing game card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
-- hiyaCFW users can create [forwarders](nds-bootstrap-forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, they are less convenient to make and they do not automatically patch anti-piracy measures
+- hiyaCFW users can create forwarders using the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
+   - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
 ### How do I update my homebrew?
 - **Unlaunch** - Follow the instructions on the [Installing Unlaunch](/installing-unlaunch) page
@@ -20,7 +21,7 @@ Playing game card dumps on the console requires the use of a flashcard or nds-bo
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
    - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
-- **GodMode9i, dumpTool, MakeForwarder, etc** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
 
 Other homebrew might use other methods to update.
 
