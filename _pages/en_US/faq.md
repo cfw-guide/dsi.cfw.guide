@@ -12,7 +12,7 @@ title: "FAQ"
 ### How do I play Nintendo DS game card dumps?
 Playing game card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
-- hiyaCFW users can create forwarders using the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/forwarders) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
+- hiyaCFW users can create forwarders using the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
    - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
 ### How do I update my homebrew?
