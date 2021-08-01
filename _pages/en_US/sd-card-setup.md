@@ -22,8 +22,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
   - Accept the End User License Agreement to start the download
-1. Run `SD Card Formatter` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
-  - The version number may be different, but it will install the same program
+1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
 1. Select your SD card
 1. Make sure the `Quick Format` check box is checked
