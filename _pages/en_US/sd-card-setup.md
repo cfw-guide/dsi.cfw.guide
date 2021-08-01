@@ -152,7 +152,7 @@ This section formats the SD card to the specifications by the SD Card Associatio
 Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
 {: .notice--danger}
 
-1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
   - Accept the End User License Agreement to start the download
 1. Run `SD Card Formatter` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
   - The version number may be different, but it will install the same program
