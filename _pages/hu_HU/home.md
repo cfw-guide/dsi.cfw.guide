@@ -55,5 +55,5 @@ Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és ált
 - Ez egyetlen brickelési kockázat az Unlaunch telepítésekor lehetséges, de a kockázat minimális
 - Ha nem vagy tapasztalt a fájlok SD kártyára másolásával, rendelkezünk segéd eszközökkel erre a feladatra
 
-Folytatás [Az Exploit indítása](launching-the-exploit){: #get-started} útmutatóval
+Folytatás [Az Exploit indítása](launching-the-exploit) útmutatóval
 {: .notice--info}

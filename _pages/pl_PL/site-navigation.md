@@ -10,6 +10,7 @@ sitemap: false
 + [Uruchamianie Eksploratora](launching-the-exploit)
 + [Zrzucanie NAND](dumping-nand)
 + [Instalacja Unlaunch](installing-unlaunch)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 

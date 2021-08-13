@@ -55,5 +55,5 @@ Pamiętaj, że poradnik jest skonstruowany liniowo, ale to zależy od tego, jak 
 - Jedyne ryzyko związane z awarią pochodzi z instalacji Unlaunch, a ryzyko to jest minimalne
 - Jeśli nie masz doświadczenia w kopiowaniu plików na kartę SD, mamy do dyspozycji narzędzia pomocnicze
 
-Kontynuuj do [Launching the Exploit](launching-the-exploit){: #get-started}
+Przejdź do [Uruchamianie Exploitu](launching-the-exploit)
 {: .notice--info}

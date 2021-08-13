@@ -9,12 +9,12 @@ title: Lazy DSi File Downloader（DSi懒人下载包）
 1. 打开你的任天堂DSi
 1. 启动到 Nintendo DSi 相机应用程序
 
-如果此时你在尝试进行教程时崩溃，那么你就不能使用Memory Pit漏洞
+If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
 
 ## 设置指南
 
 1. 如果您使用Windows，请下载 & 安装最新版本的 [7-Zip](https://www.7-zip.org/download.html)
-   - 您拥有的任何其他解压工具将不适用，如WinRAR。 hiyaCFW helper 依赖于7-Zip 本身，一般的解压工具则不行
+   - 您拥有的任何其他解压工具将不适用，如WinRAR。 The Lazy DSi File Downloader relies on 7-Zip itself, and not a general archive extractor
 1. 下载最新版本的 [Lazy DSi File Downloader](https://github. com/yourkalamity/lazy-dsi-file-downloader/releases)
 1. 按照发布页面中列出的说明启动Lazy Dsi Downloader
 1. 点击Next按钮

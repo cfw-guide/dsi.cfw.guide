@@ -1,70 +1,70 @@
 ---
-title: Restaurando De Un Respaldo NAND
+title: Restaurar un respaldo de la NAND
 ---
 
 {% include toc title="Table of Contents" %}
 
-ADVERTENCIA! ESTO ES ***PELGIROSO</strong>. Aunque sigas los pasos exactamento esto tiene el potential de blockear el DSi como el nand as baja qualidad, especialmente si lo flasheas muchas veses! Solamente se debe usar como un resorte ultimo! </p>
+¡ADVERTENCIA! Esto es ***peligroso</strong>. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso! </p>
 {: .notice--danger}
 
-No eskipes *nada* en esta pagina, cualquier error aumenta la possibilidad de blockeando tu dsi.
+No te saltes *nada* de esta página. Cualquier error incrementa las posbilidades de causar un bloqueo total de tu consola.
 {: .notice--info}
 
-Primero, algunas alternativas más seguras a por qué tal vez quieras hacer esto:
-- La instalacion de DSiWare se puede hacer usando hiyaCFW o TWiLight Menu++
-- Recuperando imágenes se puede hacer usando ninfs, en combinación con hiyaCFW o TWiLight Menu++ si las quieres en la consola
-- Restaurar una configuración de botón de Unlaunch se puede hacer desde el menú de inicio
-- Iniciando Unlaunch resulta en un error? Saca tu tarjeta SD y vuelve a intentarlo. Si funciona, entonces es un error en tu tarjeta SD y restaurar una copia de seguridad de la NAND no lo solucionará
-- "An error has occurred..." on boot is a hiyaCFW error and is not related to your NAND, see the [DS-Homebrew wiki's hiyaCFW troubleshooting page](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) for more information
-- Cualquier error en el Menú TWiLight ++ no está relacionado y deberías intentar reinstalar el Menu TWiLight ++ o pedir ayuda en Discord
-- La desinstalacion de Unlaunch, ya sea por flashear la NAND o usando su desinstalador, debe evitarse a menos que sea absolutamente necesario. puede configurar las teclas de autoarranque a "Launcher" y su DSi será como stock
+Primero te presentaremos algunas alternativas más seguras para solucionar cosas por las que querrías hacer esto.
+- La instalación de títulos DSiWare se puede hacer utilizando hiyaCFW o TWiLight Menu++
+- La recuperación de fotos se puede hacer utilizando ninfs, en combinanción con hiyaCFW o TWiLight Menu++, si los quieres en la consola.
+- Restaurar una configuración de botónes de Unlaunch puede hacerse desde el menú de opciones de Unlaunch.
+- ¿Te salta error al iniciar Unlaunch? Saca tu tarjeta SD y vuelve a intentarlo. Si funciona, entonces el error es a causa de tu tarjeta SD, y que restaurar la NAND no lo solucionará.
+- El mensaje de error "Se ha producido un error..." es a causa de hiyaCFW y no está relacionado con tu NAND. Revisa la [página de errores de hiyaCFW en la wiki de DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) para más información.
+- Cualquier error en TWiLight Menu++ no está relacionado con la NAND. Deberías intentar reinstalar TWiLight Menu++ o pedir ayuda en el servidor de Discord.
+- Desinstalar Unlaunch (ya sea sobreescribiendo la NAND o utilizando su desinstalador) debería ser evitado al menos que sea absolutamente necesario. Puedes configurar que el inicio automático ejecute "Launcher" y consola estará como en su estado original.
 
-Lo único que deberías hacer con tu NAND es instalando Unlaunch. De lo contrario, utilice las alternativas.
+La única cosa que deberías hacer con tu NAND es instalar Unlaunch. De cualquier otra forma, recomendamos usar las alternativas.
 
 ## Requisitos
-- Tu copia del NAND **del mismo DSi**
-- La ultima versión de [MakeForwarder](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
-- Una forma de ejecutar homebrew con acceso a la NAND, como Unlaunch o Memory Pit
-- [no$gba](https://problemkaputt.de/gba.htm), para comprobar tu copia de seguridad de la NAND (Descargar la 'versión de juegos de Windows')
-  - los usuarios de macOS y Linux puede usar[WINE](https://winehq.org) para ejecutar no$gba
+- Tu respaldo de la NAND **de la misma consola DSi**.
+- La última versión de [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds).
+- Una forma de ejecutar homebrew con acceso a la NAND, como Unlaunch o Memory Pit.
+- [no$gba](https://problemkaputt.de/gba.htm), para comprobar si tu respaldo de la NAND funciona y está en buen estado. Descarga el archivo cuyo enlace dice "Download no$gba Windows gaming version".
+  - Los usuarios de macOS y Linux puede usar[WINE](https://winehq.org) para ejecutar no$gba.
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
-## Volcando el BIOS para su uso en no$gba
-1. Extrae `dsibiosdumper.nds` del archivo `dsibiosdumper.zip` y colocalo en cualquier lugar de tu tarjeta SD
-2. Enciende tu consola manteniendo pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>
-   - Esto deberia lanzar el menuarchivo Unlaunch
-3. Lanza dsibiosdumper desde el archivo Unlaunch
-4. Pulsa <kbd class="face">A</kbd> para volcar el BIOS a la tarjeta SD
-5. Pulsa <kbd>START</kbd> para salir de dsibiosdumper
+## Volcar la BIOS para su uso en no$gba
+1. Extrae `dsibiosdumper.nds` del archivo `dsibiosdumper.zip` y colócalo en cualquier lugar de tu tarjeta SD.
+2. Enciende tu consola manteniendo pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
+   - Esto debería iniciar el sistema de archivos de Unlaunch.
+3. Ejecuta dsbiosdumper desde el sistema de archivos de Unlaunch.
+4. Pulsa <kbd class="face">A</kbd> para volcar la BIOS a la tarjeta SD.
+5. Pulsa <kbd>START</kbd> para salir de dsibiosdumper.
 
-## Selecciona tu copia del NAND
-Es muy importante probar que tu copia de seguridad de la NAND está funcionando antes de intentar restaurarla a tu consola, si muestra un error de ladrillo en no$gba probablemente también brickeará tu consola.
-1. Extraer `NO$GBA.EXE` de `no$gba-w.zip` a una carpeta en su computadora
-2. Copia su copia de la NAND a la carpeta en la que puso `NO$GBA.EXE` y renombrarla a `DSI-1.MMC`
-3. Copie `bios7i.bin` y `bios9i.bin` a la carpeta que ponga `NO$GBA.EXE`, llamado `BIOSDSI7.ROM` y `BIOSDSI9.ROM`, respectivamente.
-4. Executa `NO$GBA.EXE`
-5. Haga clic a `Opciones` > `Configuración de Emulación` para abrir la ventana de Configuración de Emulación
-6. Cambia `Restablecer/Comenzar Entrypoint` a `GBA/NDS BIOS (Nintendo logo)`
-7. Cambia `Modo NDS/Colores` a `DSi (retail/16MB)`
-8. Haga clic a `OK`
-9. Ejecuta cualquier Nintendo DS ROM (`.nds` archivo)
+## Probar tu respaldo de la NAND
+Es muy importante asegurarse de que tu respaldo de la NAND funciona antes de intentar restaurarla. Si al probarla en no$gba resulta en un bloqueo total, es muy posible que pase lo mismo en tu consola.
+1. Extrae `NO$GBA.EXE` del archivo `no$gba-w.zip` a una carpeta en tu ordenador.
+2. Copia tu respaldo de la NAND a la carpeta en donde extraíste `NO$GBA.EXE`, y cámbiale el nombre a `DSI-1MMC`.
+3. Copia los archivos `bios7i.bin` y `bios9i.bin` a la carpeta en donde extraíste `NO$GBA.EXE`, y nómbralos `BIOSDSI7.ROM` y `BIOSDSI9.ROM`, respectivamente.
+4. Executa `NO$GBA.EXE`.
+5. Haz clic en `Options` > `Emulation Setup` para abrir la ventana de configuración de ejecución.
+6. Cambia la opción `Reset/Startup Entrypoin` a `GBA/NDS BIOS (Nintendo logo)`.
+7. Cambia la opción `NDS Mode/Colors` a `DSi (retail/16MB)`.
+8. Haz clic en `OK`.
+9. Ejecuta cualquier rom de Nintendo DS (la extensión de archivo debería ser `.nds`)
 
-Si no$gba carga el menú DSi, continúe a la siguiente sección. Si muestra algún tipo de error ***no flashea esa copia de nand***!
+Si no$gba carga el menú DSi, continúa a la siguiente sección. Si en su lugar salta cualquier clase de error, *¡no debes usar este respaldo!*
 
-## Flasheando tu copia de la NAND (Software)
+## Sobreescribir utilizando tu respaldo de la NAND (por software)
 
-Asegúrate de haber leido los pasos anteriores ya que aquí es donde se vuelve peligroso. Si usted estaba enlazado directamente a aqui sin seguir lo anterior, entonces vuelva a la parte superior y lea toda esta página.
+Aquí es donde la cosa se vuelve peligrosa, así que asegúrate de haber leído bien los pasos anteriores. Si llegaste aquí a través de un enlace sin seguir los pasos anteriores, vuelve al principio de la página y leela por completo.
 {: .notice--danger}
 
-Asegúurate de que tu sistema de Nintendo DSi esté bien cargado antes de comenzar esta sección.
+Asegúrate de que tu consola está cargada antes de comenzar con esta sección.
 {: .notice--danger}
 
-1. Con tu tarjeta SD insertada, enciende tu Nintendo DSi mientras mantienes pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>
-3. Inicie SafeNANDManager
-4. Pulsa el botón para `iniciar restauracion de la NAND`
-6. Una vez finalizada la restauracion, pulsa <kbd>START</kbd> para desactivar tu DSi
+1. Con tu tarjeta SD dentro de tu consola, enciende la misma mientras mantienes pulsados <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
+3. Ejecuta SafeNANDManager.
+4. Pulsa el botón indicado para la opción `begin NAND restore`.
+6. Una vez finalizada la restauracion, pulsa <kbd>START</kbd> para apagar tu consola.
 
-Tu Nand esta ahora restaurado.
+La memoria NAND de tu consola debería estar restaurada.
 
-## Flasheando tu copia del NAND (Hardmod)
-Si no puedes arrancar tu Nintendo DSi, un hardmod es la unica manera de restaurar una copia de seguridad de la NAND. La mejor guía que existe actualmente es la [guía de hardmod de Nintendo DSi en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+## Sobreescribir utilizando tu respaldo de la NAND (por modificación del hardware)
+Si tu consola no enciende o no incia el sistema, hacer una modificación del hardware es la única forma de restaurar un respaldo de la NAND. La mejor guía que existe actualmente es la [guía de modificación de hardware de Nintendo DSi en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

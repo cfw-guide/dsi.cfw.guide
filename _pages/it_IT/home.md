@@ -55,5 +55,5 @@ Tieni presente che la guida è strutturata in maniera lineare, ma in genere dipe
 - L'unico rischio di brick deriva dall'installazione di Unlaunch, ma il rischio è minimo
 - Se non hai esperienza con la copia dei file su una scheda SD, abbiamo a tua disposizione strumenti di assistenza
 
-Continua a [Avvio dell'Exploit](launching-the-exploit){: #get-started}
+Continua a [Avvio dell' Exploit](launching-the-exploit)
 {: .notice--info}
