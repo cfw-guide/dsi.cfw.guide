@@ -4,14 +4,14 @@ title: Solución de problemas
 
 {% include toc title="Table of Contents" %}
 
-## Desactivar
-### ¿Desactivar los congelos en `MISMATCH EN COPIES FAT`?
-twlnf tiene un error critico donde no actualiza correctamente toda la NAND después de modificarla, que hace que ciertos homebrew (como el instalador de Unlauning) arroje un error.
+## Unlaunch
+### ¿Unlaunch se congela y muestra el mensaje `MISMATCH IN FAT COPIES`?
+twlnf tiene un error critico en el que no actualiza correctamente toda la NAND después de modificarla, lo que hace que ciertos homebrew (como el instalador de Unlaunch) tire error.
 
-Aunque es fijable, el método para hacerlo no está en piedra y en gran medida varía entre sistemas. Un método es eliminar cualquier DSiWare instalado a través de twlnf en el pasado, pero también se ha informado de que mover *todo* DSiWare a la tarjeta SD y volver al sistema puede ayudar en algunos casos.
+Si bien se puede solucionar, el método no es exacto y varia en gran medida según el sistema. Un posible método es eliminar todos los títulos DSiWare instalados a través de twlnf, pero también ha habido reportes de que mover *todos* los títulos DSiWare a la tarjeta SD y luego de vuelta al sistema puede ayudar en algunos casos.
 
-Si ha degradado el sistema en el pasado, actualizando de nuevo a v1.4.5 (o v1.4.6 si tu región de DS es china o coreano) también puede ayudar a este error.
+Si has hecho un downgrade del firmware de tu consola en el pasado, actualizarlo a la versión 1.4.5 (o 1.4.6 si la región de tu consola es China o Corea), también podría solucionar el error.
 
-### No hay audio o arranque al iniciar "LAUNCHER" usando Unlaunch
+### No hay audio o pantalla de inicio al ejectar el menú original de DSi usando Unlaunch.
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. Puedes recuperar estos efectos reinstalando [Unlaunch](/installing-unlaunch) usando TWiLight Menu++.
+El desarrollador de Unlaunch (nocash) intencionalmente parchea el sonido de fondo y la pantalla de inicio por defecto. Puedes recuperar estos efectos reinstalando [Unlaunch](/installing-unlaunch) usando TWiLight Menu++.

@@ -7,34 +7,34 @@ sitemap: false
 {% capture primary-notice %}
 **Proceso de guía principal**
 
-+ [Iniciando el exploite](launching-the-exploit)
-+ [Respaldando el nand](dumping-nand)
-+ [Installing Unlaunch](installing-unlaunch)
++ [Lanzar el Exploit](launching-the-exploit)
++ [Crear copia de seguridad de la NAND](dumping-nand)
++ [Instalar Unlaunch](installing-unlaunch)
 
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
 {% capture second-notice %}
-**Add-on sections**
+**Secciones adicionales**
 
-+ [Preparacion del SD Card](sd-card-setup)
++ [Preparación de la tarjeta SD](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [Extensiones de archivo (Windows)](file-extensions-%28windows%29)
-+ [Dumping Game Cards](dumping-game-cards)
-+ [Resplados De DSiWare](dsiware-backups)
-+ [Uninstalling Unlaunch](uninstalling-unlaunch)
-+ [Restoring NAND](restoring-nand)
++ [Volcar cartuchos de juegos](dumping-game-cards)
++ [Resplados de DSiWare](dsiware-backups)
++ [Desinstalar Unlaunch](uninstalling-unlaunch)
++ [Restaurar la NAND](restoring-nand)
 
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
 {% capture other-notice %}
-**Other website pages**
+**Otras páginas web**
 
-+ [Casa](.)
-+ [Preguntas Frequentemente Preguntadas (FAQ)](faq)
++ [Inicio](.)
++ [Preguntas Frecuentes (FAQ)](faq)
 + [Solucion de problemas](troubleshooting)
-+ [Creditos](credits)
++ [Créditos](credits)
 
 {% endcapture %}
 <div class="notice">{{ other-notice | markdownify }}</div>

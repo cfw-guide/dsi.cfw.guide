@@ -1,32 +1,32 @@
 ---
-title: "Dumping Game Cards"
+title: "Volcar cartuchos de juegos"
 ---
 
-This section is for dumping game cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
+Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que puedan ser jugados en emuladores, flashcarts o desde tu tarjeta SD vía nds-bootstrap.
 
 ## Requisitos
-* The game card of the title you would like to dump
+* El cartucho del juego que quieras volcar
 * Tu consola Nintendo DSi con [Unlaunch](installing-unlaunch) instalado
 
 ## Instrucciones
-### Section I - SD card setup
+### Sección I - Preparación de la Tarjeta SD
 
-Using a Windows, Linux, or macOS device? Usa [Descargador Lazy DSi](lazy-dsi-downloader) para configurar automáticamente tu SD Card.
+¿Utilizas Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) para configurar automáticamente tu tarjeta SD.
 {: .notice--info}
 
-1. Descargar la última versión de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
-1. Extraer `GodMode9i.nds` del archivo GodMode9i y colocarlo en cualquier lugar de tu SD Card
+1. Descarga la última versión de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases).
+1. Extrae `GodMode9i.nds` del archivo GodMode9i y colócalo en cualquier lugar de tu tarjeta SD.
 
-### Section II - Nintendo DSi instructions
-1. Enciende tu consola manteniendo pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>
-   - Esto deberia lanzar el archivo Unlaunch
-1. Inicia GodMode9i desde el Filemenu de Unlaunch
-1. Ensure the game card is inserted into the console
-1. Selecciona la opción "NDS GAMECARD" en GodMode9i
-1. Seleccione si desea el relleno o no:
-   - Completo: Relleno incluido
-   - Trim: Relleno eliminado
-1. Repeat steps 3-5 for all game cards you wish to dump
+### Sección II - Instrucciones para Nintendo DSi
+1. Enciende tu consola mientras mantienes pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>
+   - Esto deberia iniciar el sistema de archivos de Unlaunch.
+1. Inicia GodMode9i desde el sistema de archivos de Unlaunch.
+1. Asegúrate de que el cartucho de juego esté insertado en la consola.
+1. Selecciona la opción "NDS GAMECARD" en GodMode9i.
+1. Seleccione si deseas que la ROM sea recortada o no:
+   - Full: La ROM se volcará tal cual está en el cartucho.
+   - Trim: Los archivos no necesarios al final de la ROM serán recortados.
+1. Repite los pasos 3 a 5 para todos los cartuchos que quieras volcar.
 
-The dumped game cards will be found in `sd:/gm9i/out`.
+Las ROMs volcadas estarán en el directorio `d:/gm9i/out`.
 {: .notice--success}

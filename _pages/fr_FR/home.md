@@ -55,5 +55,5 @@ Gardez à l'esprit que le guide est structuré de manière linéaire, mais cela 
 - Le seul risque de brick provient de l'installation de Unlaunch, et le risque de brick est minimal
 - Si vous n'avez pas l'habitude de copier des fichiers sur une carte SD, nous mettons à votre disposition des outils d'aide
 
-Continuer vers [Lancement de l'exploit](launching-the-exploit){: #get-started}
+Continuer vers [Lancement de l'exploit](launching-the-exploit)
 {: .notice--info}

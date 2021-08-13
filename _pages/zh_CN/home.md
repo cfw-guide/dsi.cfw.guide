@@ -55,5 +55,5 @@ excerpt: "最完整的 Nintendo DSi 破解指南"
 - 唯一会使设备变砖的风险来自 Unlaunch，但机率微乎其微
 - 如果您没有经验将文件复制到SD卡，我们有可用的辅助工具帮助您。
 
-开始 [触发漏洞](launching-the-exploit){: #get-started}
+Continue to [Launching the Exploit](launching-the-exploit)
 {: .notice--info}

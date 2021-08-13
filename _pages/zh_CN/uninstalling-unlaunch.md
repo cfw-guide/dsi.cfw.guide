@@ -9,7 +9,7 @@ title: 卸载 Unlaunch
 
 - **Unlaunch 背景很恐怖:** 使用此 [新操作说明](/installing-unlaunch)重新安装 Unlaunch. 它们现在包含关于如何改变背景的说明
 - **没有开机界面，且音乐丢失：** 使用 [新操作说明](/installing-unlaunch) 重新安装。 它们现在包含缓解此问题的说明
-- **我的系统是变砖了:** 你不能参考这个页面, 因为它需要一个可以运行的系统来卸载unlaunch
+- **My system is bricked:** This page isn't for you then, as it requires a working system in order to uninstall Unlaunch
 
 减少变砖的几率， 请确保您的系统NAND中的没有安装任何非合法的 DSiWare(不包括HiyaCFW 提供的 SDNAND 重定向)， 或以其他方式篡改系统文件。
 {: .notice--warning}
@@ -19,5 +19,5 @@ title: 卸载 Unlaunch
 1. 按住<kbd class="face">A</kbd>+<kbd class="face">B</kbd>开机
 1. 选择您刚刚下载的 `UNLAUNH.DSI` 文件
 1. 选择 `Uninstall`
-   - 它会说，这个系统将变得"useless"， 这是开发者 (NoCash) 的表达方式，也就是安装Unlaunch之前的状态
+   - It will say that the system will become "useless", which is the developer's (nocash) way of saying it will be back to the way it was before Unlaunch was installed
 1. 完成后，重启(关闭电源并重新开机) 您的系统以验证 Unlaunch 是否已正确卸载
