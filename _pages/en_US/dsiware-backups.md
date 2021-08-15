@@ -16,10 +16,13 @@ title: DSiWare Backups
 1. Choose the folder according to whichever category you're looking for
    - `00030004`: Standard DSiWare
    - `00030005`: Pre-installed Fun Tools
+   - `0003000f`: System Data (non-DSiWare files, can't be run)
    - `00030015`: System Base Tools
+   - `00030017`: Launcher
 1. Once you have chosen which type of DSiWare you would like to extract, enter a subfolder, and then enter `content`
 1. There should now be an `.app` file visible. Select the file, and choose `Show NDS file info`. This will tell you if it's the DSiWare that you are looking for
    - If it is not the DSiWare title that you were looking for, continue searching in other folders until you find it
+   - Files in `0003000f` cannot have their NDS file info viewed because they are not launchable DSiWare and do not contain a valid banner
 
 ### Section II - Extracting the DSiWare
 1. Highlight the `.app` file, then press <kbd class="face">Y</kbd> to add it to the clipboard
