@@ -29,26 +29,25 @@ Tieni presente che la guida è strutturata in maniera lineare, ma in genere dipe
 
 - Imposteremo un punto di accesso per avviare homebrew di base tramite Memory Pit, l'exploit per l'applicazione Fotocamera Nintendo DSi
 - Poi faremo un backup della NAND, che è utile come punto di restauro nel caso in cui si pasticci più tardi
-- Per gli utenti che vogliono più controllo, li guideremo attraverso l'installazione di Unlaunch. Unlaunch consente alle applicazioni homebrew di avviarsi con più permessi (come l'accesso alla slot-1) e all'avvio del sistema
-   - L'installazione di Unlaunch modifica la tua NAND, e in casi estremi ha il potenziale di **brickare** il sistema. Se non si vuole rischiare un brick, puoi fermarti dopo aver fatto un backup della NAND
-- Infine, per gli utenti che desiderano installare applicazioni personalizzate sul loro Menu di Sistema, installeremo hiyaCFW
+- Infine, per gli utenti che vogliono accedere a tutte le funzionalità del DSi li guideremo attraverso l'installazione di Unlaunch. Unlaunch consente alle applicazioni homebrew di avviarsi con più permessi (come l'accesso alla Slot-1) e all'avvio del sistema
+   - L'installazione di Unlaunch modifica la tua NAND, e in casi estremi ha il potenziale di fare un **brick** al sistema. Se non si vuole rischiare un brick, puoi fermarti dopo aver fatto un backup della NAND
 
 ## Cosa posso fare moddando il mio sistema?
 
-- Reindirizzare la NAND alla scheda SD
-- Usare flashcard normalmente incompatibili
+- Avviare i backup dei giochi Nintendo DS(i) dalla scheda SD del DSi senza la necessità di una flashcard
+- Avviare qualsiasi DSiWare (fuori regione e/o esclusiva 3DS) dalla tua scheda SD
 - Avviare applicazioni DSiWare e homebrew tenendo premuti pulsanti specifici quando si accende il Nintendo DSi
-- Avviare qualsiasi DSiWare (fuori dalla propria regione e/o esclusiva 3DS) dalla tua scheda SD
-- Avviare i backup dei giochi Nintendo DS dalla scheda SD del DSi senza la necessità di una flashcard
-- Guardare i tuoi film preferiti usando MPEG4Player
 - Avviare classici dei vecchi tempi utilizzando vari emulatori
-- Usare FreeNAND per trasferire configurazioni, sys, titoli e ticket a un altro Nintendo DSi da una NAND della scheda SD
+- Usare flashcard normalmente incompatibili
+- Reindirizzare la NAND alla scheda SD
+- Guardare i tuoi film preferiti usando MPEG4Player
+- Usare FreeNAND per trasferire configurazioni, sys, titoli e ticket a un altro Nintendo DSi da una SDNAND
 - Mostrare un'immagine (definita come immagine d'avvio) all'avvio del sistema
 
 ## Dove posso trovare delle applicazioni homebrew?
 
-- [Universal DB](https://db.universal-team.net/ds) ha la maggior parte degli homebrew moderni, con una bella ricerca e un bel ordinamento per tenere traccia di ciò che è stato aggiornato di recente
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications) ha un sacco di homebrew più vecchi, tuttavia molti funzionano solo su flashcard
+- [Universal-DB](https://db.universal-team.net/ds) ha la maggior parte degli homebrew moderni, con una bella ricerca e un bel ordinamento per tenere traccia di ciò che è stato aggiornato di recente
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) ha un sacco di homebrew più vecchi, tuttavia molti funzionano solo su flashcard
 
 ## Cosa dovrei sapere prima di iniziare?
 
@@ -56,5 +55,5 @@ Tieni presente che la guida è strutturata in maniera lineare, ma in genere dipe
 - L'unico rischio di brick deriva dall'installazione di Unlaunch, ma il rischio è minimo
 - Se non hai esperienza con la copia dei file su una scheda SD, abbiamo a tua disposizione strumenti di assistenza
 
-Continua a [Avvio dell'Exploit](launching-the-exploit){: #get-started}
+Continua a [Avvio dell' Exploit](launching-the-exploit)
 {: .notice--info}

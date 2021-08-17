@@ -7,8 +7,8 @@ title: "Installing Unlaunch"
 Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
 
 - Launching applications at boot (homebrew or DSiWare), with optional button combinations
-- Access to Slot-1, allowing you to dump cartridges and launch incompatible flashcarts
-- Region locks removed on DSi-Enhanced / Exclusive games
+- Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
+- Region locks removed on DSi-Enhanced / Exclusive Game Cards
 - Run old Nintendo DS homebrew via nds-bootstrap-hb
 - Launching DSiWare from the internal SD card
 - Better sound in GBARunner2
@@ -38,11 +38,11 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the `TWiLight Menu++` where `BOOT.NDS` is shown on the bottom screen
 1. Launch TWiLight Menu++ Settings
    - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
-1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch Settings` page
+1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
 1. If you want to change Unlaunch's background image, select `Background` and choose the one you want
    - If you want to create your own Unlaunch background, consult the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. If you want the Health and Safety screen and DSi Menu music and sounds, then set `Launcher Patches` to `Off`
-   - This will also prevent region locking from being removed
+   - This will also keep the region locking and card whitelist, meaning that some flashcards won't be usable from the DSi Menu
 1. Exit TWiLight Menu++ Settings
 1. In the file navigation menu, launch `Unlaunch DSi Installer`
 1. Select the install option

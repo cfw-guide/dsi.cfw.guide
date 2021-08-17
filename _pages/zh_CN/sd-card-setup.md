@@ -1,10 +1,5 @@
 ---
 title: SD 卡设置
-redirect_from:
-  - /f3-(linux)
-  - /h2testw-(windows)
-  - /f3x-(mac)
-  - /sd-prep
 ---
 
 此页用于为您的Nintendo DSi准备SD卡。 在此过程中，我们将格式化SD卡以符合任天堂DSi的格式 ，并且检查卡中的错误。

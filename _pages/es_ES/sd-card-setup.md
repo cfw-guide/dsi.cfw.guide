@@ -1,15 +1,10 @@
 ---
-title: Preparacion del SD Card
-redirect_from:
-  - /f3-(linux)
-  - /h2testw-(windows)
-  - /f3x-(mac)
-  - /sd-prep
+title: Preparacion de la tarjeta SD
 ---
 
-Esta página es para preparar tu tarjeta SD para tu Nintendo DSi. En el proceso, formatearemos la tarjeta SD a un formato adecuado para el Nintendo DSi y revisaremos la tarjeta en busca de errores.
+Esta página es para preparar la tarjeta SD para usarla con tu consola. En el proceso, formatearemos la tarjeta SD con un formate adecuado para la Nintendo DSi, y revisaremos la tarjeta en búsqueda de errores.
 
-Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD después de esto. Tu tarjeta SD será BORADA en el proceso.
+Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir esto. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
 {: .notice--danger}
 
 {% capture windowsInstructions %}
@@ -17,44 +12,44 @@ Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD despu�
    <h2>Windows</h2>
 </noscript>
 
-## Sección I - Formateando tu tarjeta SD
+## Sección I - Formatear tu tarjeta SD
 
-1. Descargar la última versión de [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-  - Haga clic en la imagen en el sitio web para descargar la aplicación
-1. Ejecutar GUIFormat con permisos de administrador
-1. Seleccione la letra de su unidad
-1. Establece tu `unidad de tamaño de asignación` a `32768`
-  - Si esto es demasiado grande para tu SD, ajustarlo al más alto que funcione
-1. Asegúrate de que la casilla de verificación `Formato Rápido` está marcada
-1. Iniciar el proceso de formato
+1. Descarga la última versión de [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm).
+  - Haz clic en la imagen en el sitio web para descargar la aplicación.
+1. Ejecuta GUIFormat con permisos de administrador
+1. Selecciona la letra de tu unidad.
+1. Establece la opción `Allocation size unit` a `32768`.
+  - Si este tamaño de asignación es muy alto para tu tarjeta SD, selecciona el valor más alto que funcione.
+1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada.
+1. Inicia el proceso de formato.
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 {:.notice--info}
 
-## Sección II - Comprobando errores
-1. Ir a la ventana de propiedades de la tarjeta SD
-   - `Explorador de Windows` -> `Este PC` -> Haga clic derecho en su tarjeta SD -> `Propiedades`
-1. En la pestaña de herramientas, seleccione `Compruebe ahora`
-1. Compruebe `corregir automáticamente los errores del sistema de archivos` y `Escanear e intentar recuperación de sectores malos`
-1. Comenzar el proceso de verificación
+## Sección II - Comprobación de errores
+1. Ve a la ventana Propiedades de tu tarjeta SD.
+   - Abre el `Explorador de Windows`, ve a `Equipo` y haz clic derecho en tu tarjeta SD. Luego, haz clic en `Propiedades`.
+1. En la pestaña de Herramientas, selecciona la opción `Comprobar ahora`.
+1. Marca las casillas `Reparar automáticamente errores en el sistema de archivos` y `Examinar e intentar recuperar sectores defectuosos`.
+1. Inicia el proceso de verificación.
 
-Esto escaneará la tarjeta SD y corregirá cualquier error que encuentre
+Esto escaneará la tarjeta SD y corregirá cualquier error que el sistema encuentre.
 
-## Sección III - Comprobando la lectura/escritura de la tarjeta SD
+## Sección III - Comprobar que se pueden leer y escribir datos de/a la tarjera SD
 
 1. Descarga y extrae [el archivo h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) en cualquier lugar de tu ordenador.
-   - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD
-1. Con tu tarjeta SD insertada en tu computadora, ejecuta `h2testw.exe`
-1. Selecciona en qué idioma te gustaría ver h2testw
-1. Establece la letra de la unidad de tu tarjeta SD como objetivo
-1. Asegúrese de que `todo el espacio disponible` esté seleccionado
-1. Haz clic en `Escribir + Verificar`
-- Espere hasta que el proceso se complete
+   - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD.
+1. Con tu tarjeta SD insertada en tu computadora, ejecuta `h2testw.exe`.
+1. Selecciona el lenguaje en el que te gustaría ver la interfaz de h2test2. En esta guía se utilizará la interfaz en inglés.
+1. Establece como objetivo la letra de unidad de tu tarjeta SD.
+1. Asegúrate de que la opción `all available space` esté seleccionada.
+1. Haz clic en `Write + Verify`.
+- Espera hasta que el proceso se complete.
 
-Si la prueba muestra el resultado `Prueba terminada sin errores`, tu tarjeta SD es buena y puedes borrar todo `. archivos 2w` en tu tarjeta SD
+Si la prueba muestra el resultado `Test finished without errors`, tu tarjeta SD está en buen estado y puedes eliminar todos los archivos cuya extensión sea `.h2w` de tu tarjeta SD.
 {: .notice--info}
 
-Si la prueba muestra cualquier otro resultado, tu tarjeta SD puede estar dañada o dañada y puede que tengas que reemplazarla!
+Si la prueba muestra cualquier otro resultado, tu tarjeta SD podría estar corrupta o dañada. Recomendamos que busques un reemplazo para prevenir errores.
 {: .notice--danger}
 {% endcapture %}
 
@@ -63,28 +58,28 @@ Si la prueba muestra cualquier otro resultado, tu tarjeta SD puede estar dañada
    <h2>Linux</h2>
 </noscript>
 
-## Sección I - Formateando tu tarjeta SD
-1. Asegúrate de que tu tarjeta SD esté **no** insertada en tu máquina Linux
-1. Iniciar la terminal de Linux
-1. Escribe `reloj "lsblk"`
-1. Inserta tu tarjeta SD en tu máquina Linux
-1. Observe la producción. Debería coincidir con algo como esto:
+## Sección I - Formatar tu tarjeta SD
+1. Asegúrate de que tu tarjeta SD **no** esté insertada en tu máquina Linux.
+1. Ejecuta la terminal de Linux
+1. Escribe `watch "lsblk"`.
+1. Inserta tu tarjeta SD en tu máquina Linux.
+1. Observa el mensaje que aparece en pantalla. Debería coincidir con algo como esto:
 ```
-NOMBRE MAJ:MIN RM SIZE RO TYPE MOUNTPOINT
-mmcblk0 179:0 0 3,8G 0 disco
-Ninguno mmcblk0p1 179:1 0 3,7G 0 part /run/media/user/FFFF-FFFF
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+mmcblk0     179:0    0   3,8G  0 disk
+└─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Tome nota del punto de montaje del dispositivo. En nuestro ejemplo anterior, era `mmcblk0p1`
-   - Si `RO` está establecido en 1, asegúrese de que el interruptor de bloqueo no se desliza hacia abajo
-1. Pulsa CTRL + C para salir del menú
-1. Escriba `sudo mkdosfs /dev/(punto de montaje del dispositivo desde arriba) -s 64 -F 32` para crear una sola partición FAT32 con tamaño de clúster de 32 KB en la tarjeta SD
+1. Toma nota del punto de montaje del dispositivo. En el ejemplo anterior, era `mmcblk0p1`
+   - Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el slide para la protección de escritura desactivado.
+1. Haz la combinación de teclas CTRL + C para salir del menú
+1. Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 32` para crear una única particion de formato FAT32 con un tamaño de asignación de 32KB en la tarjeta SD.
 
-## Seccion II - Usando F3
-1. Descargar y extracta [el archivo F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) en cualquier lugar de tu computadora.
-1. Iniciar el terminal en el directorio F3
-1. Ejecutar `make` para compilar F3
-1. Con tu tarjeta SD insertada y montada, ejecuta `./f3write <your sd card mount point>`
-   - Espera hasta que se complete el proceso. Mira el ejemplo abajo:
+## Seccion II - Usar F3
+1. Descarga y extrae el [archivo F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) en cualquier lugar de tu ordenador.
+1. Inicia la terminal en el directorio F3.
+1. Ejecuta `make` para compilar F3.
+1. Con tu tarjeta SD insertada y montada, ejecuta `./f3write <el punto de montaje de tu tarjeta sd>`.
+   - Espera hasta que se complete el proceso. A continuación se muestra un ejemplo de mensaje de resultado:
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -94,8 +89,8 @@ Ninguno mmcblk0p1 179:1 0 3,7G 0 part /run/media/user/FFFF-FFFF
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Ejecuta `./f3read <your sd card mount point>`
-- Espera hasta que se complete el proceso. Mira el ejemplo abajo:
+1. Ejecuta `./f3read <el punto de montaje de tu tarjeta sd>`
+- Espera hasta que se complete el proceso. A continuación se muestra un ejemplo de mensaje de resultado:
    ```
    $ ./f3read /media/michel/6135-3363/
                      SECTORS      ok/corrupted/changed/overwritten
@@ -113,10 +108,10 @@ Ninguno mmcblk0p1 179:1 0 3,7G 0 part /run/media/user/FFFF-FFFF
 
 ___
 
-Si la prueba muestra el resultado `Data LOST: 0. 0 Byte (0 sectores)` tu tarjeta SD está bien y puedes borrar todos los archivos `.h2w` de tu tarjeta SD
+Si la prueba muestra el resultado `Data LOST: 0.00 Byte (0 sectors)` tu tarjeta SD está bien y puedes borrar todos los archivos `.h2w` de tu tarjeta SD
 {: .notice--info}
 
-Si la comprobación muestra otro tipo de resultado, tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
+Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
 {: .notice--danger}
 {% endcapture %}
 

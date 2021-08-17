@@ -1,26 +1,24 @@
 ---
-title: "FAQ"
-redirect_from:
-  - help/faq
+title: "Preguntas Frecuentes"
 ---
 
 {% include toc title="Questions" %}
 
-### ¿Qué funcionalidad perderé al modificando mi sistema?
-- Si decide instalar Unlaunch, no perderá ninguna funcionalidad del sistema
-- Si vas con una configuración de pit de memoria, no podrás guardar fotos en la tarjeta SD a través de la aplicación de Cámara Nintendo DSi mientras el exploit está instalado. Cambie a un [exploit alternativo](alternate-exploits) o [install Unlaunch](/installing-unlaunch)
+### ¿Qué funcionalidad perderé al modificar mi sistema?
+- Si decides instalar Unlaunch, no perderás ninguna funcionalidad del sistema.
+- Si decides irte por la vía de utilizar sólamente Memory Pit para acceder a Homebrew y Firmware personalizado, no podrás guardar fotos en la tarjeta SD a través dela Cámara DSi mientras el exploit esté instalado. Cambia a un [exploit alternativo](alternate-exploits) o [instala Unlaunch](/installing-unlaunch).
 
-   Esto es porque el archivo de metadata (`pit.bin`) es sobrescrito con el exploit de Memory Pit.
+   Esto se debe a que el archivo de metadatos (`pit.bin`) se sobreescribe con el exploit Memory Pit.
 
-### ¿Cómo puedo jugar a los volcados de cartucho de Nintendo DS?
-Reproducir volcados de cartucho en la consola requiere el uso de un flashcart o nds-bootstrap, un programa que permite jugar desde la tarjeta SD interna redirigiendo las lecturas y escritura del slot-1.
-- Con TWiLight Menu++ puedes navegar por tu tarjeta SD para encontrar archivos ROM para jugar con nds-bootstrap. Las ventajas de usar TWiLight Menu++ son tener un menú de trucos por juego, y evitar las restricciones que traen los remitentes. En otras palabras, puede soltar sus archivos ROM directamente y reproducir sin ninguna configuración. No hay límite de títulos 39, ni hiyaCFW ni Unlaunch son necesarios y no hay restricciones en el espacio libre de la tarjeta SD que puedas tener
-- los usuarios de hiyaCFW pueden crear [redireccionadores](nds-bootstrap-forwarders) para el Menú DSi de SDNAND, pero tiene algunas limitaciones. Hay un límite duro de 39 títulos, son menos convenientes de hacer y no parchean automáticamente la antipiratería
+### ¿Cómo juego a ROMs volcadas de cartuchos de Nintendo DS?
+Jugar ROMs volcadas en la consola requiere el uso de una flashcart o de nds-bootstrap, un programa que permite cargar juegos desde la tarjeta SD redirigiendo hacia esta las instrucciones de lectura/escritura de la ranura Slot-1.
+- Con TWiLight Menu++ puedes navegar por tu tarjeta SD para encontrar ROMs que puedas ejecutar con nds-bootstrap. Las ventajas de usar TWiLight Menu++ son: tener un menú de trucos, configuraciones separadas para cada juego, y eviar las restricciones que conlleva utilizar redireccionadores. En otras palabras, puedes colocar ROMs directamente en tu tarjeta SD y jugar sin más configuraciones. No hay límite de 39 juegos por pantalla, no se requieren hiyaFCW o Unlaunch, y no hay restricciones en cuanto al tamaño de la tarjeta SD.
+- Los usuarios de hiyaCFW pueden crear un [redireccionador](nds-bootstrap-forwarders) para el Menú DSi de la SDNAND, pero tiene algunas limitaciones. Existe un límite de 39 juegos por pantalla, son menos convenientes de hacer y no parchean automáticamente las medidas antipiratería.
 
-### ¿Cómo puedo actualizar mi homebrew?
-- **Unlaunch** - Siga las instrucciones en la [Instalación de Deslanzamiento](/installing-unlaunch) página
+### ¿Como actualizo mi Homebrew?
+- **Unlaunch** - Sigue las instrucciones en la página de [Instalación de Unlaunch](/installing-unlaunch).
 - **hiyaCFW** - Reemplaza `hiya.dsi` en la raíz de la tarjeta SD desde la [versión actualizada](https://github.com/RocketRobz/hiyaCFW/releases)
-- **Menú TWiLight ++** - Sigue las instrucciones en la [wiki de GitHub](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29)
+- **TWiLight Menu++** - Sigue las instrucciones en la [Wiki de DS Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copia `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` a la carpeta `_nds` en la raíz de tu tarjeta SD
    - Si usas TWiLight Menu++, hay una gran probabilidad de que la última versión de nds-bootstrap esté incluida en TWiLight Menu++
 - **GodMode9i, dumpTool, MakeForwarder, etc** - Sigue las instrucciones utilizadas para descargarlos
@@ -28,8 +26,14 @@ Reproducir volcados de cartucho en la consola requiere el uso de un flashcart o 
 Otros homebrew pueden utilizar otros métodos para actualizar.
 
 ### Soy nuevo o me gustaría rehacer mi configuración. ¿Dónde empiezo?
-- Si aún no has modificado tu consola o estás buscando actualizar Unlaunch sin usar hiyaCFW en tu sistema, Recomendamos comenzar desde el principio de la guía y seguir a través de las páginas. Asegúrese de leer todo en la página de inicio
-- Si tienes la última versión de Unlaunch pero no quieres hiyaCFW, siga la Sección 1b de [Iniciar el Explosión](launching-the-exploit#twilight-menu) para configurar el Menú TWiLight ++ en su sistema
-- Si ya tienes Unlaunch y quieres instalar hiyaCFW, sigue la página [Instalar hiyaCFW](installing-hiyacfw), luego regresa a la página [Instalar Unlaunch](installing-unlaunch) para actualizar Unlaunch
-   - hiyaCFW Helper, la herramienta usada para instalar hiyaCFW, viene con la opción de instalar TWiLight Menu++. No hay necesidad de instalar TWiLight Menu++ por separado
-   - Posteriormente, ya que utilizamos TWiLight Menu++ para lanzar el instalador de Deslanzamiento, es por eso que actualizamos Unlaunch después de configurar hiyaCFW
+- Si todavía no has modificado tu consola o quieres actualizar Unlaunch en tu sistema, recomendamos empezar por el inicio de esta guía y continuar con las páginas siguientes. Asegúrate de leer todo en la página de inicio.
+- Si tienes la última versión de Unlaunch, sigue la Sección 1B de [Lanzar el Exploit](launching-the-exploit#twilight-menu) para configurar TWiLight Menu++ en tu sistema.
+
+### ¿Cómo elimino el control parental?
+- El [generador de mkey](https://mkey.salthax.org) puede generar el código que necesitas para eliminar el control parental.
+
+### ¿Puedo cambiar la región de mi consola?
+Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar.
+- El método más simple y seguro es instalar TWiLight Menu++, te permite usar cualquier lenguaje oficial y aún más sin requerir modificaciones de la NAND.
+- Si quieres cambiar en definitivo la región del sistema, y estás utilizando jiyaCFW, puedes usar el [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) de Yoti.
+- Por último, si quieres cambiar la región en la memoria NAND del sistema, puedes usar el [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) de Mighty Max.

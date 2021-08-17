@@ -12,7 +12,28 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
    <h2>Windows</h2>
 </noscript>
 
-## Section I - Formatting your SD card
+## Section I - Formatting your SD card with SD Formatter
+
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+{: .notice--info}
+
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+{: .notice--danger}
+
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+  - Accept the End User License Agreement to start the download
+1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
+1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
+1. Select your SD card
+1. Make sure the `Quick Format` check box is checked
+1. Start the format process
+
+## Section II - Formatting your SD card with GUIFormat
+
+This section formats SD cards larger than 32GB to FAT32.
+
+If your SD card is 32GB or less in capacity, skip to Section III.
+{: .notice--info}
 
 1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
   - Click on the picture on the website to download the app
@@ -26,7 +47,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 {:.notice--info}
 
-## Section II - Checking for errors
+## Section III - Checking for errors
 1. Go to the properties window of your SD card
    - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
 1. In the tools tab, Select `Check Now`
@@ -35,7 +56,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 
 This will scan the SD card and correct any errors it finds
 
-## Section III - Checking SD card read/write
+## Section IV - Checking SD card read/write
 
 1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
    - It can also be extracted on an external device as long as that external device isn't your SD card
@@ -72,7 +93,9 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Take note of the device mount point. In our example above, it was `mmcblk0p1`
    - If `RO` is set to 1, make sure the lock switch is not slid down
 1. Hit CTRL + C to exit the menu
-1. Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
+1. Follow the instructions relevant to your SD card's capacity:
+   - 2GB or lower: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 16` to create a single FAT16 partition with 32 KB cluster size on the SD card
+   - 4GB or higher: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
 
 ## Section II - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
@@ -120,7 +143,29 @@ If the test shows any other results, your SD card may be corrupted or damaged an
    <h2>macOS</h2>
 </noscript>
 
-## Section I - Formatting your SD card
+## Section I - Formatting your SD card with SD Formatter
+
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+{: .notice--info}
+
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+{: .notice--danger}
+
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
+  - Accept the End User License Agreement to start the download
+1. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
+1. Run `SD Card Formatter`
+1. Select your SD card
+1. Make sure the `Quick Format` check box is checked
+1. Start the format process
+
+## Section II - Formatting your SD card with Disk Utility
+
+This section formats SD cards larger than 32GB to FAT32.
+
+If your SD card is 32GB or less in capacity, skip to Section III.
+{: .notice--info}
+
 ### OS X El Capitan (10.11) and later
 
 1. Launch the Disk Utility application
@@ -145,7 +190,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 1. From the Options button (below the partition table), select `Master Boot Record`.
 1. Click `OK` -> `Apply` -> `Partition`
 
-## Section II - Using F3
+## Section III - Using F3
 1. Open Terminal
 1. Install F3 from brew by running `brew install f3`
    - If you don't have brew, install it with the instructions on [brew.sh](https://brew.sh)

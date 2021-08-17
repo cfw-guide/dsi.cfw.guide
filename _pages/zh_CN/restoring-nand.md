@@ -1,8 +1,5 @@
 ---
 title: 还原 NAND备份
-redirect_from:
-  - /guide/restoring-nand
-  - /guide/nand-restore
 ---
 
 {% include toc title="Table of Contents" %}
@@ -18,7 +15,7 @@ redirect_from:
 - 恢复图片可以使用 ninfs, 它与 hiyaCFW 或 TWiLight 菜单++安装在一起
 - 可以从Unlaunch菜单中恢复Unlaunch按钮配置
 - 启动至Unlaunch导致错误？ 拿出你的 SD 卡然后再试一次。 如果这有用，那么是SD卡出了错，还原NAND备份将不会修复它
-- 开机时出现"An error has occurred..." 是 hiyaCFW 的错误 ，这与你的 NAND无关, 查阅 [故障排除](troubleshooting#hiyacfw) 以获得更多信息
+- "An error has occurred..." on boot is a hiyaCFW error and is not related to your NAND, see the [DS-Homebrew wiki's hiyaCFW troubleshooting page](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) for more information
 - TWiLight 菜单++中的任何错误都与NAND无关，您应该尝试重新安装 TWiLight 菜单++或在 Discord 上寻求帮助
 - 除非绝对有必要，否则应避免通过刷入NAND或使用其卸载器来卸载 您可以将自动启动密钥设置为“Launcher”，您的 DSi就会恢复正常了
 

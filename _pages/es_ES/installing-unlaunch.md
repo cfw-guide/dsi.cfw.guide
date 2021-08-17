@@ -1,86 +1,81 @@
 ---
-title: "Instalando Unlaunch"
-redirect_from:
-  - /guide/installing-unlaunch
-  - /unlaunch
+title: "Instalar Unlaunch"
 ---
 
 {% include toc title="Navigation" %}
 
-Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite tener privilegios superiores a los normales de Memory Pit, lo que le permite hacer lo siguiente:
+Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite tener mas privilegios que los exploits normales de títulos DSiWare como Memory Pit, lo que hace que sea capaz de hacer lo siguiente:
 
-- Iniciando aplicaciones en el arranque (homebrew o DSiWare), con combinaciones opcionales de botones
-- Acceso a Slot-1, permitiéndole volcar cartuchos y lanzar cartuchos incompatibles
-- Bloqueo de región eliminado en juegos mejorados / exclusivos de DSi
-- Ejecuta el viejo Nintendo DS Homebrew a través de nds-bootstrap-hb
-- Iniciando DSiWare desde la tarjeta SD interna
-- Mejor sonido en GBARunner2
-- Protección de bloques
+- Iniciar aplicaciones al encender el sistema (sea homebrew o DSiWare), con combinaciones de botones opcionales.
+- Acceso a la ranura Slot-1, lo que te permite volcar cartuchos y lanzar flashcarts incompatibles.
+- Remover el bloqueo regional de juegos exclusivos de Nintendo DSi o DSi-Enhanced.
+- Ejecutar homebrew antiguo de Nintendo DS a través de nds-bootstrap-hb.
+- Ejecutar DSiWare desde la tarjeta SD internal.
+- Mejor sonido en GBARunner2.
+- Protección contra bloqueos totales de la consola.
 
-Si aún no lo has hecho, por favor haz una [copia de resplado de la NAND](dumping-nand). Mientras que las probabilidades son escasas, Unlaunch puede brickear accidentalmente tu Nintendo DSi. Una copia de respaldo de la NAND + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) le permitirá restaurar esta copia de seguridad, siempre que sepa cómo soldar.
+Si aún no lo has hecho, por favor haz una [copia de resplado de la NAND](dumping-nand). Si bien las probabilidades son escasas, Unlaunch puede bloquear totalmente tu consola de forma accidental. Una copia de respaldo de la NAND y [modificación del hardware](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) te permiten restaurar esta copia de respaldo, siempre y cuando sepas como soldar.
 {: .notice--danger}
 
-Asegúrese de que su consola está cargada cuando siga este proceso. Una repentina pérdida de energía podría causar un daño grave.
+Asegúrate de que tu consola está cargada mientras sigues estos pasos. Si el sistema se apaga repentinamente en medio del proceso, podría causar daños graves.
 {: .notice--warning}
 
-## Seccion I - Preparando SD Card
+## Sección I - Preparar la tarjeta SD
 
-Usando un despositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) para automaticamente configurar tu SD card.
+¿Utilizas Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) para configurar automáticamente tu tarjeta SD.
 {: .notice--info}
 
-1. Descargar la última version de [Unlaunch](https://problemkaputt.de/unlaunch.zip)
-   - [Link De Espejo](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si lo de arriba no funciona
-1. Extrae `UNLAUNCH.DSI` del `unlach.zip` archivo y ponlo donde quieras en tu SD Card
-1. Comprueba que todavía tienes TWiLight Menu++ en tu tarjeta SD
-   - Si no está seguro, siga las instrucciones de la página [Lanzando el Explotador](launching-the-exploit#twilight-menu).
+1. Descarga la última version de [Unlaunch](https://problemkaputt.de/unlaunch.zip).
+   - [Enlace alternativo](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si el de arriba no funciona.
+1. Extrae `UNLAUNCH.DSI` del archivo `unlach.zip`, y colócalo en cualquier lugar de tu tarjeta SD.
+1. Comprueba que aún tienes TWiLight Menu++ en tu tarjeta SD.
+   - Si no estás seguro, sigue las instrucciones de la página [Lanzando el Exploit](launching-the-exploit#twilight-menu).
 
 ## Sección II - Instalar/Actualizar Unlaunch
 
-1. Abre Menú TWiLight ++
-   - Si esta es tu primera vez instalando Unlaunch, vuelve a lanzar TWiLight Menu++ a través del exploit que utilizaste.
-   - Si ya has instalado Unlaunch y estás buscando actualizarlo, mantén <kbd class="face">A</kbd> + <kbd class="face">B</kbd> mientras inicias y selecciona el `Menú TWiLight ++` donde `BOOT. DS` se muestra en la pantalla inferior
-1. Iniciar ajustes del Menú TWiLight ++
-   - Si no has cambiado tu tema, sigue los pasos de la página "Abrir el exploto". De lo contrario, consulte el Manual de Menú TWiLight ++
-1. Pulsa <kbd class="l">L</kbd> / <kbd class="r">R</kbd> hasta que llegues a la página de configuración de desinicio
-1. Si desea cambiar la imagen de fondo de Unlaunch, haga clic en `Fondo` y elija la que desea
-1. Si quieres la pantalla de Salud y Seguridad y música del menú DSi, entonces ajusta `parches de lanzamiento` a `apagados`
-   - Esto también evitará que se elimine el bloqueo regional
-1. Sal del los ajustes del Menú TWiLight ++
-1. En el menú de navegación de archivos, inicia `Unlaunch DSi Installer`
-1. Seleccione la opción de instalación
-   - Si Unlaunch se congela en `ERROR: MISMATCH IN FAT COPIES`, por favor echa un vistazo a la página [Resolución de problemas](troubleshooting)
-1. Cuando esta completado reinicie su sistema
+1. Abre TWiLight Menu++
+   - Si esta es tu primera vez instalando Unlaunch, relanza TWiLight Menu++ a través del exploit que utilizaste antes.
+   - Si ya has instalado Unlaunch y estás buscando actualizarlo, mantén pulsados <kbd class="face">A</kbd> y <kbd class="face">B</kbd> mientras enciendes la consola y selecciona el `TWiLight Menu++` en el que la ruta que acabe en `BOOT.NDS` se muestra en la pantalla inferior
+1. Entra en la configuración de TWiLight Menu++
+   - Si no has cambiado tu tema, sigue los pases en la página "Lanzando el Exploit". De lo contratio, consulta el manual de TWiLight Menu++
+1. Presiona <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd class="face">X</kbd>/<kbd class="face">Y</kbd> hasta que llegues a la sección `Ajustes de Unlaunch`.
+1. Si quieres cambiar el la imágen que Unlaunch utiliza como fondo. selecciona la opción `Fondo` y elige el que quieras.
+   - Si quieres crear tu propio fondo para Unlaunch, consulta la [página en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds).
+1. Si quieres mantener la música y los sonidos del Menú DSi, así como la pantalla de Salud y Seguridad, entonces `desactiva` la opción `Parches del Launcher`.
+   - Esto causará que el bloqueo regional no pueda ser removido.
+1. Sal de la Configuración de TWiLight Menu++
+1. En el menú de navegación de archivos, ejecuta la aplicación `Unlaunch DSi Installer`.
+1. Selecciona la opción Install.
+   - Si Unlaunch se congela y te muestra el mensaje `ERROR: MISMATCH IN FAT COPIES`, por favor revisa la página de [solución de problemas](troubleshooting).
+1. Cuando todo esté listo, reinicia el sistema.
 
-Si ves la pantalla Filemenu de Unlaunch en este momento, has modelado con éxito tu Nintendo DSi.
-- Si ves una pantalla negra, echa un vistazo a nuestra página de [solución de problemas](troubleshooting)
+Si ves el sistema de archivos de Unlaunch en este punto, significa que has modificado exitosamente tu Nintendo DSi.
+- Si en cambio, ves una pantalla en negro, por favor revisa la página de [solución de problemas](troubleshooting).
 
-## Sección II - Configuración Post-Unlaunch
+## Sección III - Configuración posterior
 
-Actualmente Desiniciar predeterminado para lanzar su menú de archivos al arrancar, pero esto se puede cambiar iniciando lo que desee.
+Actualmente, Unlaunch inicia por defecto su sistema de archivos al encender la consola, pero puedes cambiar esto para iniciar lo que tú quieras.
 
-También reconfiguraremos nds-bootstrap para que se ejecute en el Menú TWiLight ++ (en lugar del título de DSiWare explotado) cuando reiniciemos el juego de forma suave.
+También vamos a reconfigurar nds-boostrap para iniciar TWiLight Menu++ (en lugar del título DSiWare de donde se lanzó el exploit) cuando hagas un soft-reset en medio de la partida.
 
-1. Enciende tu consola mientras mantienes <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
-1. Vaya a `OPCIONES`y vea las opciones disponibles
-   - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> está hardcoded para lanzar en el menú de Unlaunch, y como tal no se puede cambiar
-   - Las opciones `NO BOTTON` y `BOTTON A/B/X/Y` pueden configurarse como quiera y elegirán lo que su DSi carga en el arranque dependiendo de los botones que se mantengan. Puede seleccionar cualquier DSiWare, Homebrew, la tarjeta Slot-1 o el menú de archivos de Unlaunch
-      - Para el Menú TWiLight ++, selecciona la opción `Menú TWiLight ++` donde `BOOT.NDS` se muestra en la pantalla inferior
-      - Para el menú DSi original, seleccione `Lanzador`
-   - `ERROR DE LOAD` es lo que cargará tu DSi si la carga falla, como la tarjeta SD no se insertará
-1. Guarda tus ajustes y vuelve al menú de Unlaunch
-1. Desplácese sobre las opciones de `TWiLight Menu++` y encuentre la que tiene una ruta que contenga `settings.srldr` en la pantalla inferior
-1. Iniciar la opción resaltada
-1. Utilice los botones <kbd class="l">L</kbd> y <kbd class="r">R</kbd> para cambiar al "Misc. Pagina Settings"
-1. Establece la entrada "DSiWare Exploit" a "Ninguno"
+1. Enciende tu consola mientras mantienes pulsados <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
+1. Ve a `OPTIONS` y echa un vistazo a las opciones disponibles.
+   - La opción <kbd class="face">A</kbd> + <kbd class="face">B</kbd> está configurada para inciar el sistema de archivos de Unlaunch. Esta opción está bloqueada y no puede ser cambiada.
+   - Las opciónes `NO BUTTON` y `BUTTON A / B / X / Y` pueden ser modificadas como quieras para escoger qué cargará tu consola al encenderse dependiendo de los botones que mantengas persionados. Puedes configurar estas opciones para iniciar cualquier título DSiWare, Homebrew, la ranura Slot-1, Wifiboot o el sistema de archivos de Unlaunch.
+      - Para que alguna de estas opciones inicie TWiLight Menu++, selecciona el archivo `TWiLight Menu++` en el que la ruta que acabe en `BOOT.NDS` se muestre en la pantalla inferior.
+      - Para que alguna de estas opciones inicie el Menú DSi original, selecciona el archivo `Launcher`.
+   - La opción `LOAD ERROR` es en lo que tu DSi iniciará si lo que tú hayas configurado falla, como por ejemplo, una archivo en la tarjeta SD cuando esta no está en la consola.
+1. Guarda tus ajustes y vuelve al sistema de archivos de Unlaunch.
+1. Resalta la archivo `TWiLight Menu++` cuya ruta contenga `settings.srldr` en la pantalla inferior.
+1. Inicia el archivo resaltado pulsando <kbd class="face">A</kbd>.
+1. Usa los botónes <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd class="face">X</kbd>/<kbd class="face">Y</kbd> para moverte hacia la sección `Otros Ajustes` .
+1. Establece la opción `Exploit DSiWare` a `Ninguno`.
 
-## Sección III - Limpieza de la tarjeta SD
+## Sección IV - Limpiar la tarjeta SD
 
-Esta seccion es opcional solo sirve para mantener la tarjeta de de archivo que no necesitas.
+Esa sección es opcional, y su único propósito es mantener tu tarjeta SD ordenada y remover los archivos que no necesites.
 {: .notice--primary}
 
-- Bora el archivo `sd:/private/ds/app/484E494A/pit.bin` de tu SD Card
-   - Si usaste otro exploit, borra los archivos de ese exploit en su lugar
-- Elimina el archivo `UNLAUNCH.DSI` de tu tarjeta SD
-
-Continúa a [Instalar HiyaCFW](installing-hiyacfw) (opcional)
-{: .notice--info}
+- Elimina el archivo `sd:/private/ds/app/484E494A/pit.bin` en tu tarjeta SD.
+   - En caso de que hayas utilizado otro exploit, borra sus archivos.
+- Elimina el archivo `UNLAUNCH.DSI` de tu tarjeta SD.

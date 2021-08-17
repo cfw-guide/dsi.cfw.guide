@@ -9,8 +9,8 @@ sitemap: false
 
 + [Avviare l'exploit](launching-the-exploit)
 + [Backup della NAND](dumping-nand)
-+ [Installare Unlaunch](installing-unlaunch)
-+ [hiyaCFW setup](hiyacfw-setup)
++ [Installazione di Unlaunch](installing-unlaunch)
+
 {% endcapture %}
 <div class="notice--primary">{{ primary-notice | markdownify }}</div>
 
@@ -20,18 +20,18 @@ sitemap: false
 + [Setup Scheda SD](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [Estensioni File (Windows)](file-extensions-%28windows%29)
-+ [Backup Cartucce](dumping-cartridges)
++ [Dumping delle cartucce di gioco](dumping-game-cards)
 + [Backup DSiWare](dsiware-backups)
-+ [forwarder nds-bootstrap per hiyaCFW](nds-bootstrap-forwarders)
 + [Disinstallazione di Unlaunch](uninstalling-unlaunch)
-+ [Ripristino nand](restoring-nand)
++ [Ripristino NAND](restoring-nand)
+
 {% endcapture %}
 <div class="notice--info">{{ second-notice | markdownify }}</div>
 
 {% capture other-notice %}
-**Altri siti web**
+**Altre pagine del sito**
 
-+ [Home](home)
++ [Home](.)
 + [Domande Frequenti (FAQ)](faq)
 + [Risoluzione problemi](troubleshooting)
 + [Crediti](credits)

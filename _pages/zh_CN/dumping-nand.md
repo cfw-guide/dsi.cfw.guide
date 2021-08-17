@@ -1,8 +1,5 @@
 ---
 title: 提取NAND
-redirect_from:
-  - NAND提取
-  - 提取NAND
 ---
 
 这个页面用于备份NAND，它是DSi内部数据的拷贝。 它可以用于设置 hiyaCFW 和 NO$GBA。
@@ -10,7 +7,7 @@ redirect_from:
 强烈建议你进行该步骤。 如果机器变砖，NAND备份可以用于系统恢复
 {: .notice--primary}
 
-## 第一节 - SD 卡准备
+## Section I - SD card setup
 
 正在使用Windows、Linux或 macOS 设备？ 使用 [Lazy DSi Downloader](lazy-dsi-downloader) 来自动设置您的 SD 卡。
 {: .notice--info}
@@ -21,7 +18,7 @@ redirect_from:
 ## 第二节——提取NAND
 1. 通过 TWiLight 菜单++ 启动 `dumpTool`
 1. 点击Nintendo DSi上的 <kbd class="face">A</kbd> 键来开始提取你的 NAND
-   - NAND备份一般需要7分钟左右。
+   - A NAND backup typically takes around 7 minutes
 1. 当NAND备份完成后，按 <kbd>START</kbd> 按钮退出提取工具
 1. 关闭DSi并将SD卡插入您的电脑中
 1. 将此备份存储在任何安全且不会丢失的地方

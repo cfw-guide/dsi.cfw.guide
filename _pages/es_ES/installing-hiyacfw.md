@@ -1,10 +1,5 @@
 ---
 title: Instalando hiyaCFW
-redirect_from:
-  - /guide/installing-hiyacfw
-  - /guide/hiyacfw
-  - /hiyacfw
-  - /hiyacfw-setup
 ---
 
 {% include toc title="Table of Contents" %}
