@@ -13,7 +13,13 @@ While fixable, the method to do so isn't set in stone and largely varies between
 
 If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DSi region is Chinese or Korean) can help fix this bug as well.
 
-If the issue persists, try opening your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), saving it, then [restoring the saved NAND](restoring-nand) to your system.
+If the issue persists, try this:
+1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option
+1. Once your NAND backup is mounted, mount `twl_main.img`. If you are using Windows, you can use [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) to mount the image
+1. Make a new file or directory on the mounted image, then delete the file
+   - This is done so that ninfs can save to the NAND image and fix the FAT tables, but this has not yet been tested
+1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs
+If the NAND was saved to, [restore it to your console](restoring-nand) and continue with [installing Unlaunch](installing-unlaunch).
 
 ### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
 
@@ -35,6 +41,6 @@ If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't disp
 
 For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
 
-## Other issues
+## Further assistance
 
 If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv) Discord server.
