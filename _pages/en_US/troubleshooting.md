@@ -11,7 +11,7 @@ twlnf has a critical bug where it does not properly update the entire NAND after
 
 While fixable, the method to do so isn't set in stone and largely varies between systems. One method is to delete any DSiWare installed via twlnf in the past, but it has also been reported that moving *all* DSiWare to the SD card and back to the system can help in some cases.
 
-If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DS region is Chinese or Korean) can help fix this bug as well.
+If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DSi region is Chinese or Korean) can help fix this bug as well.
 
 ### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
 
