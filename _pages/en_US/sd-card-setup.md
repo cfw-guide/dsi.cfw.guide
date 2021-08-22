@@ -67,7 +67,7 @@ This will scan the SD card and correct any errors it finds.
 1. Click `Write + Verify`
 - Wait until the process is completed
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on your SD card.
+If the test shows the result `Test finished without errors`, your SD card is healthy and you can delete all `.h2w` files on your SD card.
 {: .notice--info}
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
@@ -131,7 +131,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card.
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
 {: .notice--info}
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
@@ -224,7 +224,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card.
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
 {: .notice--info}
 
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
