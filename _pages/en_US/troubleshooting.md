@@ -19,7 +19,7 @@ If the issue persists, try this:
 1. Make a new file or directory on the mounted image, then delete the file
    - This is done so that ninfs can save to the NAND image and fix the FAT tables, but this has not yet been tested
 1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs
-If the NAND was saved to, [restore it to your console](restoring-nand) and continue with [installing Unlaunch](installing-unlaunch).
+If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with [Installing Unlaunch](installing-unlaunch).
 
 ### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
 
