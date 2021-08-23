@@ -34,15 +34,15 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 ## What can I do by modding my system?
 
-- Run Nintendo DS(i) game backups from your DSi SD card without the need of a flashcard
+- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
 - Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
 - Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Run old-time classics using various emulators
 - Use normally incompatible flashcards
-- Redirect your NAND to the SD card
+- Redirect your NAND to the SD card using hiyaCFW
 - Watch your favorite movies using MPEG4Player
-- Use FreeNAND to transfer configurations, sys, titles and tickets to another Nintendo DSi from a SDNAND
 - Display an image (referred to as the boot splash) on system launch
+- Play homebrew games
 
 ## Where can I find homebrew applications?
 
