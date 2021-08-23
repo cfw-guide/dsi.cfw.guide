@@ -35,7 +35,7 @@ This was likely caused by choosing the wrong app for the `NO BUTTON` option in U
 
 ### Other Unlaunch problems
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow the [SD card setup guide](sd-card-setup).
+If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup).
 
 ## TWiLight Menu++  troubleshooting
 
