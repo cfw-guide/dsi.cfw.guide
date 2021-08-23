@@ -14,7 +14,7 @@ Unlaunch is an exploit that takes place on system boot. This allows it to have h
 - Better sound in GBARunner2
 - Brick-protection
 
-If you have not yet done so, please made a [NAND backup](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 {: .notice--danger}
 
 Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
