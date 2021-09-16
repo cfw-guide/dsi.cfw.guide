@@ -4,7 +4,7 @@ title: Restaurar un respaldo de la NAND
 
 {% include toc title="Table of Contents" %}
 
-¡ADVERTENCIA! Esto es ***peligroso</strong>. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso! </p>
+¡ADVERTENCIA! Esto es ***peligroso***. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso!
 {: .notice--danger}
 
 No te saltes *nada* de esta página. Cualquier error incrementa las posbilidades de causar un bloqueo total de tu consola.
@@ -40,7 +40,7 @@ La única cosa que deberías hacer con tu NAND es instalar Unlaunch. De cualquie
 ## Probar tu respaldo de la NAND
 Es muy importante asegurarse de que tu respaldo de la NAND funciona antes de intentar restaurarla. Si al probarla en no$gba resulta en un bloqueo total, es muy posible que pase lo mismo en tu consola.
 1. Extrae `NO$GBA.EXE` del archivo `no$gba-w.zip` a una carpeta en tu ordenador.
-2. Copia tu respaldo de la NAND a la carpeta en donde extraíste `NO$GBA.EXE`, y cámbiale el nombre a `DSI-1MMC`.
+2. Copia tu respaldo de la NAND a la carpeta en donde extraíste `NO$GBA.EXE`, y cámbiale el nombre a `DSI-1.MMC`.
 3. Copia los archivos `bios7i.bin` y `bios9i.bin` a la carpeta en donde extraíste `NO$GBA.EXE`, y nómbralos `BIOSDSI7.ROM` y `BIOSDSI9.ROM`, respectivamente.
 4. Executa `NO$GBA.EXE`.
 5. Haz clic en `Options` > `Emulation Setup` para abrir la ventana de configuración de ejecución.
