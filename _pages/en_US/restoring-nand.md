@@ -52,14 +52,14 @@ It is very important to test that your NAND backup is working before attempting 
 If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. If it shows any kind of error ***do not flash that backup***!
 
 ## Uninstalling Unlaunch from your NAND backup (optional)
-Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system.
+Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
 1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
 1. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
 1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
-- This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
-4. Choose `Uninstall`
-4. Once complete, choose `Power down`
-4. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
+   - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
+1. Choose `Uninstall`
+1. Once complete, choose `Power down`
+1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
 ## Flashing your NAND backup (Software)
 
