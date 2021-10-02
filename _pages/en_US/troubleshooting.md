@@ -21,7 +21,7 @@ If the issue persists, try this:
 1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs
 If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with [Installing Unlaunch](installing-unlaunch).
 
-### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
+### There is no audio or boot splash when launching "Launcher" using Unlaunch
 
 The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](/installing-unlaunch) using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
