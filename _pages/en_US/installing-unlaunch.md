@@ -10,7 +10,7 @@ Unlaunch is an exploit that takes place on system boot. This allows it to have h
 - Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
 - Region locks removed on DSi-Enhanced / Exclusive Game Cards
 - Run old Nintendo DS homebrew via nds-bootstrap-hb
-- Launching DSiWare from the internal SD card
+- Improved compatibility with DSiWare launched from the SD card
 - Better sound in GBARunner2
 - Brick-protection
 
