@@ -40,4 +40,4 @@ Yes, there are a few different methods depending on what you want to change:
 
 ### What happened to the hiyaCFW installation guide?
 Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-- If you were linked to the page in question, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
+- If you were linked to the page in question from another guide, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
