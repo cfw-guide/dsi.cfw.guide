@@ -15,7 +15,7 @@ First, a few safer alternatives to why you might want to do this:
 - Recovering pictures can be done using [ninfs](https://github.com/ihaveamac/ninfs/releases), in combination with hiyaCFW or TWiLight Menu++ if you want them on console. The latest version of the HiyaCFW Helper allows you to copy your photos from your NAND to the SDNAND during setup
 - Restoring an Unlaunch button configuration can be done from the Unlaunch menu, which can be accessed by holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while powering the console on
 - Booting into Unlaunch resulting in an error? Take out your SD card and try starting the system again. If it works, then it's a fault with your SD card and restoring a NAND backup won't fix it
-- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) for more information
+- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
 - Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on [Discord](https://ds-homebrew.com/discord)
 - Uninstalling Unlaunch, whether by flashing NAND or using its uninstaller, should avoided unless absolutely necessary, you can set the autoboot keys to "Launcher" and your DSi will be like stock
 
@@ -46,10 +46,20 @@ It is very important to test that your NAND backup is working before attempting 
 5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
 6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
 7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
-8. Click `OK`
+8. Click `Save Now`
 9. Launch any Nintendo DS ROM (`.nds` file)
 
-If no$gba loads the DSi menu, then continue to the next section. If it shows any kind of error ***do not flash that backup***!
+If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. If it shows any kind of error ***do not flash that backup***!
+
+## Uninstalling Unlaunch from your NAND backup (optional)
+Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
+1. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
+1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
+   - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
+1. Choose `Uninstall`
+1. Once complete, choose `Power down`
+1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
 ## Flashing your NAND backup (Software)
 

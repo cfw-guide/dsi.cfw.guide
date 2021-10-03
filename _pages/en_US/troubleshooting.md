@@ -21,7 +21,7 @@ If the issue persists, try this:
 1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs
 If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with [Installing Unlaunch](installing-unlaunch).
 
-### There is no audio or boot splash when launching "LAUNCHER" using Unlaunch
+### There is no audio or boot splash when launching "Launcher" using Unlaunch
 
 The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](/installing-unlaunch) using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
@@ -29,7 +29,7 @@ The developer of Unlaunch (nocash) has intentionally patched out the background 
 
 Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### After installing Unlaunch, I'm stuck booting into an application
+### After installing Unlaunch, I'm stuck booting into an application or the Unlaunch Filemenu
 
 This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
 
@@ -37,7 +37,7 @@ This was likely caused by choosing the wrong app for the `NO BUTTON` option in U
 
 If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup).
 
-## TWiLight Menu++  troubleshooting
+## TWiLight Menu++
 
 For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
 
