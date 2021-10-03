@@ -46,7 +46,7 @@ It is very important to test that your NAND backup is working before attempting 
 5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
 6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
 7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
-8. Click `OK`
+8. Click `Save Now`
 9. Launch any Nintendo DS ROM (`.nds` file)
 
 If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. If it shows any kind of error ***do not flash that backup***!
