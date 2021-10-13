@@ -16,8 +16,6 @@ If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.
 If the issue persists, try this:
 1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option
 1. Once your NAND backup is mounted, mount `twl_main.img`. If you are using Windows, you can use [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) to mount the image
-1. Make a new file or directory on the mounted image, then delete the file
-   - This is done so that ninfs can save to the NAND image and fix the FAT tables, but this has not yet been tested
 1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs
 If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with [Installing Unlaunch](installing-unlaunch).
 
