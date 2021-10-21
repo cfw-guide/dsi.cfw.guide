@@ -199,4 +199,3 @@ ___
 你现在可以恢复你的SD卡数据并继续此教程
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>

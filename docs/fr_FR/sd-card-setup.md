@@ -199,4 +199,3 @@ Si le test présente n'importe quel autre résultat, votre carte SD est peut êt
 Vous pouvez maintenant restaurer le contenu de votre carte SD et continuer.
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>

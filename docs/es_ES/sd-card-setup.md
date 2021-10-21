@@ -200,4 +200,3 @@ Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar 
 Ahora puedes restaurar el contenido de tu tarjeta SD y continuar.
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>

@@ -244,4 +244,3 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 You can now restore the contents of your SD card and continue.
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>

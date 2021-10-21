@@ -199,4 +199,3 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 Most már helyreállíthatod az SD kártyád tartalmát és folytathatod.
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>

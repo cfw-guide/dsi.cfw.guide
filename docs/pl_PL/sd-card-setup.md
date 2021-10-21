@@ -199,4 +199,3 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 Możesz teraz przywrócić zawartość karty SD i kontynuować.
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>

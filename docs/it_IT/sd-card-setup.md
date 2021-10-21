@@ -199,4 +199,3 @@ Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD pot
 Ora puoi ripristinare il contenuto della tua scheda SD e continuare.
 {: .notice--primary}
 
-<script src="/assets/js/tabs.js"></script>
