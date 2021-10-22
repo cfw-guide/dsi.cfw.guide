@@ -28,7 +28,7 @@ Using a Windows, Linux, or macOS device? 使用 Windows、Linux 或 macOS 设备
    - 使用[镜像链接](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip)，如果上述链接无法工作 1.从`unlaunch.zip`中解压`UNLAUNH.DSI`并复制到你SD卡的任意位置 1.确认你的SD卡上仍然有TWiLight菜单++
 1. 从SD卡中删除`UNLAUNH.DSI`文件
 1. 确认你的SD卡上仍然有 TWiLight 菜单++
-   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit#twilight-menu) page
+   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit.html#twilight-menu) page
 
 ## 第二节——安装/更新Unlaunch
 
@@ -49,7 +49,7 @@ Using a Windows, Linux, or macOS device? 使用 Windows、Linux 或 macOS 设备
 1. 完成后，重启您的系统
 
 如果您此时看到 Unlaunch Filemenu 的屏幕，说明您已成功地破解了您的Nintendo DSi。
-- 如果您不确定，请按照 [启动漏洞利用](launching-the-exploit#twilight-menu) 页面中的说明进行操作
+- 如果您不确定，请按照 [启动漏洞利用](launching-the-exploit.html#twilight-menu) 页面中的说明进行操作
 
 ## 第三部分 - 启动后配置
 

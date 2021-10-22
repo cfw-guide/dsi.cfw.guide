@@ -28,7 +28,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
    - [Tükör link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), ha a fenti nem működne
 1. Csomagold ki az `UNLAUNCH.DSI`-t az `unlaunch.zip` archívból és rakd valahova az SD kártyádon
 1. Ellenőrizd, hogy még rajta van a TWiLight Menu++ az SD kártyádon
-   - Ha nem vagy biztos benne, kövesd a lépéseket [Az Exploit indítása](launching-the-exploit#twilight-menu) oldalról
+   - Ha nem vagy biztos benne, kövesd a lépéseket [Az Exploit indítása](launching-the-exploit.html#twilight-menu) oldalról
 
 ## II. rész - Az Unlaunch telepítése/frissítése
 

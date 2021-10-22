@@ -28,7 +28,7 @@ Korzystasz z Windows, Linux lub macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), jeśli powyższe nie działa
 1. Wypakuj `UNLAUNCH.DSI` z archiwum `unlaunch.zip` i umieść go w dowolnym miejscu na swojej karcie SD
 1. Zweryfikuj TWiLight Menu++ na karcie SD
-   - Jeśli nie jesteś pewien, postępuj zgodnie z instrukcjami na stronie [Uruchamianie Exploita](launching-the-exploit#twilight-menu)
+   - Jeśli nie jesteś pewien, postępuj zgodnie z instrukcjami na stronie [Uruchamianie Exploita](launching-the-exploit.html#twilight-menu)
 
 ## Sekcja II - Instalacja/aktualizacja Unlaunch
 

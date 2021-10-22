@@ -23,7 +23,7 @@ Altri homebrew potrebbero usare altri metodi per gli aggiornarmenti.
 
 ### Sono nuovo o vorrei rifare la mia configurazione. Da dove devo cominciare?
 - Se non hai già modificato la console o stai cercando di aggiornare Unlaunch sul tuo sistema, si consiglia di partire dall'inizio della guida e di seguirla attraverso le pagine. Assicurati di leggere tutto sulla pagina principale
-- Se hai l'ultima versione di Unlaunch ma non vuoi hiyaCFW, segui la Sezione 1b di [Avvio dell'Exploit](launching-the-exploit#twilight-menu) per impostare TWiLight Menu++ sul tuo sistema
+- Se hai l'ultima versione di Unlaunch ma non vuoi hiyaCFW, segui la Sezione 1b di [Avvio dell'Exploit](launching-the-exploit.html#twilight-menu) per impostare TWiLight Menu++ sul tuo sistema
 
 ### Come posso eliminare il filtro famiglia?
 - Il [generatore mkey](https://mkey.salthax.org) può generare il codice per rimuovere il filtro famiglia

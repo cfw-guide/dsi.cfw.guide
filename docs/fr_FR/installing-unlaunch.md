@@ -28,7 +28,7 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
    - [Lien miroir](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si le précédent ne fonctionne pas
 1. Extrayez `UNLAUNCH.DSI` depuis `unlaunch.zip` et placez-le n'importe où sur votre carte SD
 1. Vérifiez que vous avez toujours TWiLight Menu++ sur votre carte SD
-   - Si vous n'êtes pas sûr, suivez les instructions de la page [Lancement de l'exploit](launching-the-exploit#twilight-menu)
+   - Si vous n'êtes pas sûr, suivez les instructions de la page [Lancement de l'exploit](launching-the-exploit.html#twilight-menu)
 
 ## Section II - Installation/Mise à jour de Unlaunch
 

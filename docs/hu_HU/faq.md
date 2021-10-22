@@ -23,7 +23,7 @@ Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre
 
 ### Új vagyok vagy szeretném újra csinálni a telepítést. Hol kezdjem?
 - Ha még nem módosítottad a konzolodat, vagy frissíteni szeretnéd az Unlaunch-öt a rendszereden, azt ajánljuk, hogy kezd az elejétől az útmutatót, követve az oldalakat. Legyél biztos abban, hogy mindent elolvastál a honlapon
-- Ha rendelkezel a legutolsó Unlaunch verzióval, kövesd az 1b fejezetét az [Az Exploit futtatása](launching-the-exploit#twilight-menu) útmutatónak, a TWiLight Menu++ rendszeredre telepítéséhez
+- Ha rendelkezel a legutolsó Unlaunch verzióval, kövesd az 1b fejezetét az [Az Exploit futtatása](launching-the-exploit.html#twilight-menu) útmutatónak, a TWiLight Menu++ rendszeredre telepítéséhez
 
 ### Hogyan tudom eltávolítani a szülői felügyeletet?
 - Az [mkey generátor](https://mkey.salthax.org) tud generálni olyan kódot, amivel eltávolítható a szülői felügyelet

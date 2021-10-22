@@ -28,7 +28,7 @@ Asegúrate de que tu consola está cargada mientras sigues estos pasos. Si el si
    - [Enlace alternativo](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si el de arriba no funciona.
 1. Extrae `UNLAUNCH.DSI` del archivo `unlach.zip`, y colócalo en cualquier lugar de tu tarjeta SD.
 1. Comprueba que aún tienes TWiLight Menu++ en tu tarjeta SD.
-   - Si no estás seguro, sigue las instrucciones de la página [Lanzando el Exploit](launching-the-exploit#twilight-menu).
+   - Si no estás seguro, sigue las instrucciones de la página [Lanzando el Exploit](launching-the-exploit.html#twilight-menu).
 
 ## Sección II - Instalar/Actualizar Unlaunch
 

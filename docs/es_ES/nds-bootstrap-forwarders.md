@@ -5,7 +5,7 @@ Esta es una sección de complementos que implica crear redireccionadores para nd
 ## Requisitos
 
 - Un sistema de Nintendo DSi con [Unlaunch](/installing-unlaunch) & [hiyaCFW](/hiyacfw-setup) instalado
-- Un [menú TWiLight ++](launching-the-exploit#twilight-menu) configurado
+- Un [menú TWiLight ++](launching-the-exploit.html#twilight-menu) configurado
 - La última versión de [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
 ### Instrucciones

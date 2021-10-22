@@ -5,7 +5,7 @@ Ez a kiegészítő rész forwarderek létrehozásáról szól nds-bootstrap szá
 ## Követelmények
 
 - Egy Nintendo DSi rendszer [Unlaunch](/installing-unlaunch) & [hiyaCFW](/hiyacfw-setup) telepítéssel
-- Egy [TWiLight Menu++](launching-the-exploit#twilight-menu) telepítés
+- Egy [TWiLight Menu++](launching-the-exploit.html#twilight-menu) telepítés
 - A [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases) legutolsó kiadása
 
 ### Instrukciók

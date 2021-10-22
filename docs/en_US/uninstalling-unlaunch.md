@@ -7,7 +7,7 @@
 **WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Here are some cases on why you may want to uninstall Unlaunch but with solutions that don't require uninstalling.
 
 - **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch) using the new instructions. They now contain instructions on how to change the background
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting#unlaunch) page will explain how to fix many issues you may have
+- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
 To reduce the chances of bricking, make sure that you have not installed any illegitimate DSiWare to your NAND backup (the SDNAND redirection provided by hiyaCFW does not count), or have otherwise tampered with system files.

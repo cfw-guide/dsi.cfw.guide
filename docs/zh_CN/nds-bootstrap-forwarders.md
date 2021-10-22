@@ -5,7 +5,7 @@
 ## 需要准备
 
 - 一台同时已安装有 [Unlaunch](/installing-unlaunch) & [hiyaCFW](/hiyacfw-setup) 的DSi
-- [TWiLight Menu++](launching-the-exploit#twilight-menu) 设置
+- [TWiLight Menu++](launching-the-exploit.html#twilight-menu) 设置
 - 最新版本的 [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
 ### 操作步骤…

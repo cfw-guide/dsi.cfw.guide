@@ -23,7 +23,7 @@ Inne homebrew mogą używać innych metod do aktualizacji.
 
 ### Jestem nowy, lub chciałbym powtórzyć swoją konfigurację. Gdzie mam zacząć?
 - Jeśli nie zmodyfikowałeś jeszcze swojej konsoli lub chcesz zaktualizować Unlaunch na swoim systemie, zalecamy wrócić do początku przewodnika i podążać za poradnikiem. Pamiętaj, aby przeczytać wszystko na stronie głównej
-- Jeśli masz najnowszą wersję Unlaunch, postępuj zgodnie z Sekcją 1b w [Launching the Exploit](launching-the-exploit#twilight-menu), aby skonfigurować TWiLight Menu++ w swoim systemie
+- Jeśli masz najnowszą wersję Unlaunch, postępuj zgodnie z Sekcją 1b w [Launching the Exploit](launching-the-exploit.html#twilight-menu), aby skonfigurować TWiLight Menu++ w swoim systemie
 
 ### Jak mogę usunąć kontrolę rodzicielską?
 - [generator mkey](https://mkey.salthax.org) może wygenerować kod wymagany do usunięcia kontroli rodzicielskich

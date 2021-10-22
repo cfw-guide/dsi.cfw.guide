@@ -23,7 +23,7 @@ Playing game card dumps on the console requires the use of a flashcard or nds-bo
 
 ### 我是小白，又或者我想重新设置。 我该从哪里开始？
 - If you have not already modified your console or are looking to update Unlaunch on your system, we recommend starting from the beginning of the guide and following through the pages. 请务必阅读主页上的所有内容
-- If you have the latest version Unlaunch, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system
+- If you have the latest version Unlaunch, follow Section 1b of [Launching the Exploit](launching-the-exploit.html#twilight-menu) to set up TWiLight Menu++ on your system
 
 ### 如何移除亲子管理功能？
 - [mkey 生成器（英文）](https://mkey.salthax.org) 可生成移除亲子管理功能所需要的代码

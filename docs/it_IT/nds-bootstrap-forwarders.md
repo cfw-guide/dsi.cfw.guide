@@ -5,7 +5,7 @@ Questa è una sezione aggiuntiva che comporta la creazione di scorciatoie per nd
 ## Requisiti
 
 - Un Nintendo DSi con [Unlaunch](/installing-unlaunch) e [hiyaCFW](/hiyacfw-setup) installato
-- Una configurazione di [TWiLight Menu++](launching-the-exploit#twilight-menu)
+- Una configurazione di [TWiLight Menu++](launching-the-exploit.html#twilight-menu)
 - La versione più recente di [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
 ### Istruzioni

@@ -5,7 +5,7 @@ Jest to dodatkowa sekcja, która polega na tworzeniu forwarderów dla nds-bootst
 ## Wymagania
 
 - System Nintendo DSi z [Unlaunch](/installing-unlaunch) & [hiyaCFW](/hiyacfw-setup) zainstalowanymi
-- Poradnik [TWiLight Menu++](launching-the-exploit#twilight-menu)
+- Poradnik [TWiLight Menu++](launching-the-exploit.html#twilight-menu)
 - Najnowsza wersja [MakeForwarder](https://github.com/Ta180m/Make-Forwarder-Dsi/releases)
 
 ### Instrukcje

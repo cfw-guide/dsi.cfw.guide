@@ -24,7 +24,7 @@ Other homebrew might use other methods to update.
 
 ## I am new or I would like to redo my setup. Where do I start?
 - If you have not already modified your console or are looking to update Unlaunch on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage
-- If you have the latest version Unlaunch, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system
+- If you have the latest version Unlaunch, follow Section 1b of [Launching the Exploit](launching-the-exploit.html#twilight-menu) to set up TWiLight Menu++ on your system
 
 ## How can I remove parental controls?
 - The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
