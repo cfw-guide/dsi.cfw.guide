@@ -85,6 +85,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 
 	themeConfig: {
 		repo: "cfw-guide/dsi.cfw.guide",
+		docsDir: "docs",
 
 		locales: {
 			"/en_US/": themeConfig.en_US,
