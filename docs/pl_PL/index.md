@@ -1,11 +1,9 @@
 ---
-layout: splash
-title: Przewodnik DSi
-header:
-  overlay_color: "#1a1d24"
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
-excerpt: "Kompletny przewodnik do modyfikacji twojego Nintendo DSi"
+home: true
+title: Strona Główna
+heroImage: /assets/images/home-page-feature.png
+heroText: Przewodnik DSi
+tagline: Kompletny przewodnik do modyfikacji twojego Nintendo DSi
 ---
 
 ::: tip

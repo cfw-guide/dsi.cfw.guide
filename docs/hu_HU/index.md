@@ -1,11 +1,9 @@
 ---
-layout: splash
-title: DSi Útmutató
-header:
-  overlay_color: "#1a1d24"
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
-excerpt: "A Nintendo DSi moddolás teljes útmutatója"
+home: true
+title: Kezdőlap
+heroImage: /assets/images/home-page-feature.png
+heroText: DSi Útmutató
+tagline: A Nintendo DSi moddolás teljes útmutatója
 ---
 
 ::: tip

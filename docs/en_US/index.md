@@ -1,7 +1,6 @@
 ---
 home: true
 title: Home
-description: The complete guide to modding your Nintendo DSi
 heroImage: /assets/images/home-page-feature.png
 heroText: DSi Guide
 tagline: The complete guide to modding your Nintendo DSi

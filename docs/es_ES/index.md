@@ -1,6 +1,6 @@
 ---
 home: true
-title: Guía de DSi
+title: Inicio
 heroImage: /assets/images/home-page-feature.png
 heroText: Guía de DSi
 tagline: Una guia completa de modificar tu Nintendo DSi

@@ -1,11 +1,9 @@
 ---
-layout: splash
-title: Guide DSi
-header:
-  overlay_color: "#1a1d24"
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
-excerpt: "Le guide complet pour modder votre Nintendo DSi."
+home: true
+title: Accueil
+heroImage: /assets/images/home-page-feature.png
+heroText: Guide DSi
+tagline: Le guide complet pour modder votre Nintendo DSi.
 ---
 
 ::: tip
