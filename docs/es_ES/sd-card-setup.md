@@ -10,7 +10,9 @@ Esta página es para preparar la tarjeta SD para usarla con tu consola. En el pr
 Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir esto. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
 :::
 
-{% capture windowsInstructions %}
+<tabs>
+<tab name="Windows">
+
 ## Windows
 
 ### Sección I - Formatear tu tarjeta SD
@@ -53,9 +55,10 @@ Si la prueba muestra el resultado `Test finished without errors`, tu tarjeta SD 
 ::: danger
 Si la prueba muestra cualquier otro resultado, tu tarjeta SD podría estar corrupta o dañada. Recomendamos que busques un reemplazo para prevenir errores.
 :::
-{% endcapture %}
 
-{% capture linuxInstructions %}
+</tab>
+<tab name="Linux">
+
 ## Linux
 
 ### Sección I - Formatar tu tarjeta SD
@@ -115,10 +118,11 @@ Si la prueba muestra el resultado `Data LOST: 0.00 Byte (0 sectors)` tu tarjeta 
 ::: danger
 Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
 :::
-{% endcapture %}
 
-{% capture macosInstructions %}
-## macOs
+</tab>
+<tab name="macOS">
+
+## macOS
 
 ### Sección I - Formateando tu tarjeta SD
 #### OS X El Capitan (10.11) y posteriores
@@ -186,18 +190,9 @@ Si la prueba muestra el resultado `Data LOST: 0. 0 Byte (0 sectores)` tu tarjeta
 ::: danger
 Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
 :::
-{% endcapture %}
 
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows
-</a>
-   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
-   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
-</div>
+</tab>
+</tabs>
 
 ::: tip
 Ahora puedes restaurar el contenido de tu tarjeta SD y continuar.

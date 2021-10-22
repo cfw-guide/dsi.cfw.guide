@@ -10,7 +10,9 @@ sidebarDepth: 3
 请确保以此操作之前，备份您SD卡的内容。 您的SD卡将在这个过程中被擦除数据。
 :::
 
-{% capture windowsInstructions %}
+<tabs>
+<tab name="Windows">
+
 ## Windows
 
 ### 第一节 - 格式化您的 SD 卡
@@ -53,9 +55,10 @@ sidebarDepth: 3
 ::: danger
 如果测试显示任何其他结果，的 SD卡可能已损坏或损坏，你可能需要替换它！
 :::
-{% endcapture %}
 
-{% capture linuxInstructions %}
+</tab>
+<tab name="Linux">
+
 ## Linux
 
 ### 第一节 - 格式化您的 SD 卡
@@ -115,9 +118,10 @@ ___
 ::: danger
 如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
 :::
-{% endcapture %}
 
-{% capture macosInstructions %}
+</tab>
+<tab name="macOS">
+
 ## macOS
 
 ### 第一节 - 格式化您的 SD 卡
@@ -186,17 +190,9 @@ ___
 ::: danger
 如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
 :::
-{% endcapture %}
 
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
-   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
-</div>
+</tab>
+</tabs>
 
 ::: tip
 你现在可以恢复你的SD卡数据并继续此教程

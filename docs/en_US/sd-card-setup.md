@@ -10,7 +10,9 @@ This page is for preparing your SD card for your Nintendo DSi. In the process, w
 Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
 :::
 
-{% capture windowsInstructions %}
+<tabs>
+<tab name="Windows">
+
 ## Windows
 
 ### Section I - Formatting your SD card with SD Formatter
@@ -77,9 +79,10 @@ If the test shows the result `Test finished without errors`, your SD card is hea
 ::: danger
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 :::
-{% endcapture %}
 
-{% capture linuxInstructions %}
+</tab>
+<tab name="Linux">
+
 ## Linux
 
 ### Section I - Formatting your SD card
@@ -141,9 +144,10 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 ::: danger
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 :::
-{% endcapture %}
 
-{% capture macosInstructions %}
+</tab>
+<tab name="macOS">
+
 ## macOS
 
 ### Section I - Formatting your SD card with SD Formatter
@@ -237,17 +241,9 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 ::: danger
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 :::
-{% endcapture %}
 
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
-   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
-</div>
+</tab>
+</tabs>
 
 ::: tip
 You can now restore the contents of your SD card and continue.

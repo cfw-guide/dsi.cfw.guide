@@ -1,8 +1,6 @@
 const { i18n, themeConfig } = require("./i18n");
 
 module.exports = {
-	title: "DSi Guide",
-
 	plugins: [
 		[
 			"vuepress-plugin-redirect",
@@ -10,7 +8,10 @@ module.exports = {
 				// provide i18n redirection
 				// it will automatically redirect `/foo/bar/` to `/:locale/foo/bar/` if exists
 				locales: true,
-			},
+			}
+		],
+		[
+			"tabs"
 		]
 	],
 

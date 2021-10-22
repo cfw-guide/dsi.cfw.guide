@@ -10,7 +10,9 @@ Cette page est destinée à préparer votre carte SD pour votre Nintendo DSi. Du
 Assurez-vous de sauvegarder le contenu de votre carte SD AVANT de continuer. Toutes les données de votre carte SD seront EFFACÉES pendant le processus.
 :::
 
-{% capture windowsInstructions %}
+<tabs>
+<tab name="Windows">
+
 ## Windows
 
 ### Section I - Formatage de votre carte SD
@@ -53,9 +55,10 @@ Si le test affiche le résultat `Test finished without errors` (Test terminé sa
 ::: danger
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
 :::
-{% endcapture %}
 
-{% capture linuxInstructions %}
+</tab>
+<tab name="Linux">
+
 ## Linux
 
 ### Section I - Formatage de votre carte SD
@@ -115,9 +118,10 @@ Si le test affiche le résultat `Data LOST: 0.00 Byte (0 sectors)` votre carte S
 ::: danger
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
 :::
-{% endcapture %}
 
-{% capture macosInstructions %}
+</tab>
+<tab name="macOS">
+
 ## macOS
 
 ### Section I - Formatage de votre carte SD
@@ -186,17 +190,9 @@ Si le test affiche le résultat `Data LOST: 0.00 Byte (0 sectors)` votre carte S
 ::: danger
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
 :::
-{% endcapture %}
 
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
-   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
-</div>
+</tab>
+</tabs>
 
 ::: tip
 Vous pouvez maintenant restaurer le contenu de votre carte SD et continuer.

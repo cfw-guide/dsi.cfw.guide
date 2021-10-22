@@ -6,7 +6,9 @@ Ez az oldal az SD kártyád előkészítéséről szól a Nintendo DSi-hez. A fo
 Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT követnéd a lépéseket. Az SD kártya WIPEOLVA lesz a folyamat során.
 :::
 
-{% capture windowsInstructions %}
+<tabs>
+<tab name="Windows">
+
 ## Windows
 
 ### I. rész - Az SD kártya formázása
@@ -49,9 +51,10 @@ Ha a teszt eredménye `Test finished without errors`, az SD kártyád hibátlan,
 ::: danger
 Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
 :::
-{% endcapture %}
 
-{% capture linuxInstructions %}
+</tab>
+<tab name="Linux">
+
 ## Linux
 
 ### I. rész - Az SD kártya formázása
@@ -111,9 +114,10 @@ Ha a teszt eredménye `Data LOST: 0.00 Byte (0 sectors)`, az SD kártyád rendbe
 ::: danger
 Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
 :::
-{% endcapture %}
 
-{% capture macosInstructions %}
+</tab>
+<tab name="macOS">
+
 ## macOS
 
 ### I. rész - Az SD kártya formázása
@@ -182,17 +186,9 @@ Ha a teszt eredménye `Data LOST: 0.00 Byte (0 sectors)`, az SD kártyád rendbe
 ::: danger
 Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
 :::
-{% endcapture %}
 
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
-   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
-</div>
+</tab>
+</tabs>
 
 ::: tip
 Most már helyreállíthatod az SD kártyád tartalmát és folytathatod.

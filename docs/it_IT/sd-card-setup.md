@@ -10,7 +10,9 @@ Questa pagina serve a preparare la scheda SD del tuo Nintendo DSi. In questo pro
 Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire la guida. La tua scheda SD verrà FORMATTATA e i file dentro essa verrano eliminati nel processo.
 :::
 
-{% capture windowsInstructions %}
+<tabs>
+<tab name="Windows">
+
 ## Windows
 
 ### Sezione I - Formattazione della scheda SD
@@ -53,9 +55,10 @@ Se il test mostra il risultato `Test finito senza errori`, la tua scheda SD è b
 ::: danger
 Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 :::
-{% endcapture %}
 
-{% capture linuxInstructions %}
+</tab>
+<tab name="Linux">
+
 ## Linux
 
 ### Sezione I - Formattazione della scheda SD
@@ -115,9 +118,10 @@ Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua sche
 ::: danger
 Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 :::
-{% endcapture %}
 
-{% capture macosInstructions %}
+</tab>
+<tab name="macOS">
+
 ## macOS
 
 ### Sezione I - Formattazione della scheda SD
@@ -186,17 +190,9 @@ Se il test mostra il risultato `Data LOST: 0.00 Byte (0 sectors)` la tua scheda 
 ::: danger
 Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 :::
-{% endcapture %}
 
-<div class="tabcontainer">
-   <a class="tablinks btn btn--large btn--info windows" href="#windowsInstructions" onclick="openTab(event, 'windowsInstructions')">Windows</a>
-   <a class="tablinks btn btn--large btn--info macos" href="#macosInstructions" onclick="openTab(event, 'macosInstructions')">macOS</a>
-   <a class="tablinks btn btn--large btn--info other" href="#linuxInstructions" onclick="openTab(event, 'linuxInstructions')">Linux</a>
-
-   <div id="windowsInstructions" class="blanktabcontent">{{ windowsInstructions | markdownify }}</div>
-   <div id="linuxInstructions" class="blanktabcontent">{{ linuxInstructions | markdownify }}</div>
-   <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
-</div>
+</tab>
+</tabs>
 
 ::: tip
 Ora puoi ripristinare il contenuto della tua scheda SD e continuare.
