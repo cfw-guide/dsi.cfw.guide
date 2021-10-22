@@ -1,9 +1,8 @@
----
-title: Désinstallation de Unlauch
----
+# Désinstallation de Unlauch
 
+::: danger
 **Installer ou désinstaller Unlaunch peut bricker aléatoirement votre console ! Vous avez été prévenu !**
-{:.notice--danger}
+:::
 
 **AVERTISSEMENT :** Une désinstallation de Unlaunch peut bricker votre Nintendo DSi. Voici quelques cas pour lesquels vous pourriez vouloir désinstaller Unlaunch, mais avec des solutions qui ne nécessitent pas de désinstallation.
 
@@ -11,8 +10,9 @@ title: Désinstallation de Unlauch
 - **Il n'y a pas d'écran d'accueil et la musique est manquante :** réinstallez Unlaunch en utilisant [les nouvelles instructions](/installing-unlaunch). Celles d’atténuation y sont désormais présentes
 - **Mon système est brické :** dans ce cas, cette page n'est pas pour vous, car elle nécessite un système fonctionnel pour désinstaller Unlaunch
 
+::: warning
 Pour réduire les risques de briquage, assurez-vous que vous n'avez pas installé de DSiWare non-légitime sur votre System NAND (la redirection SDNAND fournie par hiyaCFW ne compte pas), ou que vous n'avez pas altéré les fichiers système.
-{: .notice--warning}
+:::
 
 1. Téléchargez la dernière version de [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Extrayez `UNLAUNCH.DSI` de l'archive d'Unlaunch et copiez-le n'importe où sur votre carte SD

@@ -1,8 +1,4 @@
----
-title: "Instalacja Unlaunch"
----
-
-{% include toc title="Navigation" %}
+# Instalacja Unlaunch
 
 Unlaunch to exploit, który ma miejsce przy starcie systemu. Dzięki temu ma on wyższe uprawnienia niż zwykłe exploity DSiWare, takie jak Memory Pit, co pozwala mu na następujące działania:
 
@@ -14,16 +10,19 @@ Unlaunch to exploit, który ma miejsce przy starcie systemu. Dzięki temu ma on 
 - Lepszy dźwięk w GBARunner2
 - Ochrona przed awarią
 
+::: danger
 Jeśli jeszcze tego nie zrobiłeś(-aś), stwórz kopię zapasową [NAND](dumping-nand). Choć szanse na to są niewielkie, Unlaunch może przypadkowo zawiesić NDSi. Kopia zapasowa NAND + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) pozwoliłby Ci przywrócić tę kopię, pod warunkiem, że wiesz, jak lutować.
-{: .notice--danger}
+:::
 
+::: warning
 Upewnij się, że twoja konsola jest naładowana podczas śledzenia tego procesu. Nagła utrata energii może spowodować poważne szkody.
-{: .notice--warning}
+:::
 
 ## Sekcja I - Przygotowania kart SD
 
+::: tip
 Korzystasz z Windows, Linux lub macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
-{: .notice--info}
+:::
 
 1. Pobierz najnowszą wersję [Unlaunch](https://problemkaputt.de/unlaunch.zip)
    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), jeśli powyższe nie działa
@@ -73,8 +72,9 @@ Skonfigurujemy ponownie nds-bootstrap, aby uruchamiał TWiLight Menu++ (zamiast 
 
 ## Sekcja IV - Czyszczenie karty SD
 
+::: tip
 Ta sekcja jest opcjonalna i służy tylko do utrzymania niepotrzebnych plików w porządku (na karcie SD).
-{: .notice--primary}
+:::
 
 - Usuń plik `sd:/private/ds/app/484E494A/pit.bin` z karty SD
    - Jeśli użyto innego exploita, należy usunąć pliki z tego exploita

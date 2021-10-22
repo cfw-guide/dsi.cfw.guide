@@ -1,18 +1,17 @@
----
-title: "Dumping Game Cards"
----
+# Dumping Game Cards
 
 This section is for dumping Game Cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
 
 ## Requirements
-* The Game Card of the title you would like to dump
-* Your Nintendo DSi console with [Unlaunch](installing-unlaunch) installed
+- The Game Card of the title you would like to dump
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch) installed
 
 ## Instructions
 ### Section I - SD card setup
 
+::: tip
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
-{: .notice--info}
+:::
 
 1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
 1. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
@@ -28,5 +27,6 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - Trim: Padding removed
 1. Repeat steps 3-5 for all Game Cards you wish to dump
 
+::: tip
 The dumped Game Cards will be found in `sd:/gm9i/out`.
-{: .notice--success}
+:::

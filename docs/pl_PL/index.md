@@ -8,14 +8,17 @@ header:
 excerpt: "Kompletny przewodnik do modyfikacji twojego Nintendo DSi"
 ---
 
+::: tip
 Aby uzyskać całkowity przewodnik do homebrew i niestandardowych firmware dla innych urządzeń, sprawdź poradnik [CFW.Poradnik](https://cfw.guide/).
-{: .notice--primary}
+:::
 
+::: danger
 Ten przewodnik nie jest kompatybilny z konsolami deweloperskimi Nintendo DSi.
-{: .notice--danger}
+:::
 
+::: tip
 Dokładnie przeczytaj wszystkie strony wprowadzające (łącznie z tą!) przed przystąpieniem do pracy.
-{: .notice--info}
+:::
 
 ## Czym jest homebrew?
 
@@ -55,5 +58,6 @@ Pamiętaj, że poradnik jest skonstruowany liniowo, ale to zależy od tego, jak 
 - Jedyne ryzyko związane z awarią pochodzi z instalacji Unlaunch, a ryzyko to jest minimalne
 - Jeśli nie masz doświadczenia w kopiowaniu plików na kartę SD, mamy do dyspozycji narzędzia pomocnicze
 
+::: tip
 Przejdź do [Uruchamianie Exploitu](launching-the-exploit)
-{: .notice--info}
+:::

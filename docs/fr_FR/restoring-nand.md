@@ -1,14 +1,12 @@
----
-title: Restauration d'une sauvegarde de la NAND
----
+# Restauration d'une sauvegarde de la NAND
 
-{% include toc title="Table of Contents" %}
-
+::: danger
 ATTENTION ! Ceci est ***dangereux***. Même en suivant exactement ces étapes, il y a toujours un risque potentiel de brick de la DSi car la NAND est de très mauvaise qualité, surtout si vous flashez plusieurs fois ! Cela ne devrait être utilisé qu'en dernier recours!
-{: .notice--danger}
+:::
 
+::: tip
 Ne sautez *rien* sur cette page, toute erreur augmente considérablement les chances de brick votre DSi.
-{: .notice--info}
+:::
 
 Tout d'abord, quelques alternatives plus sûres pour expliquer pourquoi vous pourriez vouloir faire cela :
 - L'installation de titres DSiWare peut être faite en utilisant hiyaCFW ou TWiLight Menu++
@@ -53,11 +51,13 @@ Si no$gba charge le menu DSi, passez à la section suivante. S'il montre n'impor
 
 ## Flashage de votre sauvegarde NAND (Software)
 
+::: danger
 Assurez-vous d'avoir lu les étapes ci-dessus car c'est là que cela devient dangereux. Si vous avez été directement lié ici sans suivre ce qui précède, retournez en haut et lisez toute cette page.
-{: .notice--danger}
+:::
 
+::: danger
 Assurez-vous que votre console Nintendo DSi est bien chargée avant de commencer cette section.
-{: .notice--danger}
+:::
 
 1. Avec votre carte SD insérée, branchez votre Nintendo DSi en maintenant <kbd class="face">A</kbd> et <kbd class="face">B</kbd>
 3. Lancez SafeNANDManager

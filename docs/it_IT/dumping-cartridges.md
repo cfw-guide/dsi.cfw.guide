@@ -1,18 +1,17 @@
----
-title: "Dumpare le Cartucce"
----
+# Dumpare le Cartucce
 
 Questa sezione serve per dumpare cartucce utilizzando GodMode9i, per giocarle su emulatori, flashcart o sulla scheda SD tramite nds-bootstrap.
 
 ## Requisiti
-* La cartuccia del titolo che vuoi dumpare
-* Una console Nintendo DSi con [Unlaunch](installing-unlaunch) installato sopra
+- La cartuccia del titolo che vuoi dumpare
+- Una console Nintendo DSi con [Unlaunch](installing-unlaunch) installato sopra
 
 ## Istruzioni
 ### Sezione I - Configurazione della Scheda SD
 
+::: tip
 Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
-{: .notice--info}
+:::
 
 1. Scarica l'ultima versione di [dumpTool](https://github.com/RocketRobz/godmode9i/releases)
 1. Estrai `GodMode9i.nds` dall'archivio GodMode9i e mettilo in un percorso qualsiasi sulla scheda SD
@@ -28,5 +27,6 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
    - Normale: Padding rimosso
 1. Ripetere i passaggi 3-5 per tutte le cartucce che si desidera dumpare
 
+::: tip
 Le cartucce dumpate saranno trovate in `sd:/gm9i/out`.
-{: .notice--success}
+:::

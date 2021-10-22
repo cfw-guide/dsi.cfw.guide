@@ -1,6 +1,4 @@
----
-title: "hiyaCFW的nds-bootstrap 转发器"
----
+# hiyaCFW的nds-bootstrap 转发器
 
 这是一个附加部分，涉及为 nds-bootstrap创建转发器。 这允许您直接从SDNAND的系统菜单中启动nds roms。
 

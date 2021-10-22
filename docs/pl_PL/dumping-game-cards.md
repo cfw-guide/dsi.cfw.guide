@@ -1,18 +1,17 @@
----
-title: "Zrzucanie kart gry"
----
+# Zrzucanie kart gry
 
 Ta sekcja służy do zrzucania kart z grami przy użyciu GodMode9i, aby można je było odtwarzać na emulatorach, flashcardach lub na karcie SD poprzez nds-bootstrap.
 
 ## Wymagania
-* Tytuł, który chcesz zrzucić
-* Nintendo DSi z zainstalowanym[Unlaunch](installing-unlaunch)
+- Tytuł, który chcesz zrzucić
+- Nintendo DSi z zainstalowanym[Unlaunch](installing-unlaunch)
 
 ## Instrukcje
 ### Sekcja I - Konfiguracja karty SD
 
+::: tip
 Korzystasz z Windows, Linux lub macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
-{: .notice--info}
+:::
 
 1. Pobierz najnowszą wersję [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
 1. Wyodrębnij `GodMode9i.nds` z archiwum GodMode9i i umieść go gdziekolwiek na karcie SD
@@ -28,5 +27,6 @@ Korzystasz z Windows, Linux lub macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
    - Przycięty: Paddowanie usunięty
 1. Powtórz kroki 3-5 dla wszystkich tytułów, które chcesz zrzucić
 
+::: tip
 Zrzucone tytuły zostaną zamieszczone w `sd:/gm9i/out`.
-{: .notice--success}
+:::

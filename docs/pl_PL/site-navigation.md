@@ -1,22 +1,11 @@
----
-title: "Nawigacja stroną"
-layout: single-no-ads
-sitemap: false
----
+# Nawigacja stroną
 
-{% capture primary-notice %}
-**Główny poradnik**
-
+## Główny poradnik
 + [Uruchamianie Eksploratora](launching-the-exploit)
 + [Zrzucanie NAND](dumping-nand)
 + [Instalacja Unlaunch](installing-unlaunch)
 
-{% endcapture %}
-<div class="notice--primary">{{ primary-notice | markdownify }}</div>
-
-{% capture second-notice %}
-**Sekcje dodatków**
-
+## Sekcje dodatków
 + [Konfiguracja karty SD](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [Rozszerzenia plików (Windows)](file-extensions-%28windows%29)
@@ -25,16 +14,8 @@ sitemap: false
 + [Odinstalowywanie Unlaunch](uninstalling-unlaunch)
 + [Przywracanie NAND](restoring-nand)
 
-{% endcapture %}
-<div class="notice--info">{{ second-notice | markdownify }}</div>
-
-{% capture other-notice %}
-**Inne strony**
-
+## Inne strony
 + [Dom](.)
 + [Często Zadawane Pytania (FAQ)](faq)
 + [Troubleshooting](troubleshooting)
 + [Zasługi](credits)
-
-{% endcapture %}
-<div class="notice">{{ other-notice | markdownify }}</div>

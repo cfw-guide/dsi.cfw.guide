@@ -1,14 +1,12 @@
----
-title: Przywracanie kopii zapasowej NAND
----
+# Przywracanie kopii zapasowej NAND
 
-{% include toc title="Table of Contents" %}
-
+::: danger
 OSTRZEŻENIE! To jest ***niebezpieczne***. Nawet podążając za tymi krokami, nadal istnieje potencjał do zablokowania DSi, ponieważ NAND jest bardzo niskiej jakości, zwłaszcza jeśli flashujesz wiele razy! Powinno to być stosowane tylko w ostateczności!
-{: .notice--danger}
+:::
 
+::: tip
 Nie pomiń *niczego* na tej stronie, jakikolwiek błąd znacznie zwiększa szansę na zablokowanie twojego DSi.
-{: .notice--info}
+:::
 
 Po pierwsze, kilka bezpieczniejszych alternatyw dla tego:
 - Instalacja DSiWare może być wykonana za pomocą hiyaCFW lub TWiLight Menu++
@@ -53,11 +51,13 @@ Jeśli no$gba załaduje menu DSi, przejdź do następnej sekcji. Jeśli pokaże 
 
 ## Wgrywanie kopii zapasowej NAND (Urządzenie)
 
+::: danger
 Upewnij się, że przeczytałeś powyższe kroki, ponieważ wchodzisz na głęboką wodę. Jeśli zostałeś skierowany bezpośrednio do tego miejsca bez podążania za powyższymi wskazówkami, wróć na górę i przeczytaj całą tę stronę.
-{: .notice--danger}
+:::
 
+::: danger
 Upewnij się, że system Nintendo DSi jest dobrze naładowany przed rozpoczęciem tej sekcji.
-{: .notice--danger}
+:::
 
 1. Po włożeniu karty SD włącz Nintendo DSi, trzymając <kbd class="face">A</kbd> i <kbd class="face">B</kbd>
 3. Uruchom SafeNANDManager

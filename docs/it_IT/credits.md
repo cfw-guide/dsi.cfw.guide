@@ -1,12 +1,9 @@
----
-title: "Crediti"
----
+# Crediti
 
 Questi sono i crediti per coloro che hanno aiutato con il sito web della guida, homebrew e altre cose.
 
 Se ti piace quello che hanno fatto, considera una donazione (se hanno un link di donazione).
 
-{% capture notice-1 %}
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Mantenitori della Guida
 - [YourKalamity](https://github.com/YourKalamity/): Creatore del Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): Proprietaria del dominio
@@ -17,9 +14,6 @@ Se ti piace quello che hanno fatto, considera una donazione (se hanno un link di
 - [RocketRobz](https://github.com/RocketRobz): Sviluppatore di TWiLight Menu++, hiyaCFW & GodMode9i
 - [zoogie](https://github.com/zoogie): Sviluppatore di dumpTool & ha creato una fork di Memory Pit per supportare tutte le regioni e i firmware
 - [Plailect](https://github.com/Plailect): Realizzò la guida originale al modding del 3DS, dalla quale questa guida prende ispirazione
-{% endcapture %}
-
-<div class="notice">{{ notice-1 | markdownify }}</div>
 
 Puoi contribuire anche alla nostra guida semplicemente [inviando un pull request](https://github.com/cfw-guide/dsi.cfw.guide/)!
 

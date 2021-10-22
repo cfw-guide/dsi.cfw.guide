@@ -1,18 +1,15 @@
----
-title: Configurazione Scheda SD
----
+# Configurazione Scheda SD
 
 Questa pagina serve a preparare la scheda SD del tuo Nintendo DSi. In questo processo, formatteremo la scheda SD in un format adeguato per il Nintendo DSi e verificheremo eventuali errori della scheda.
 
+::: danger
 Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire la guida. La tua scheda SD verrà FORMATTATA e i file dentro essa verrano eliminati nel processo.
-{: .notice--danger}
+:::
 
 {% capture windowsInstructions %}
-<noscript>
-   <h2>Windows</h2>
-</noscript>
+## Windows
 
-## Sezione I - Formattazione della scheda SD
+### Sezione I - Formattazione della scheda SD
 
 1. Scarica la versione più recente di [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
   - Clicca sulla foto nel sito per scaricare l'applicazione
@@ -24,9 +21,8 @@ Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire
 1. Avvia il processo di formattazione
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-{:.notice--info}
 
-## Sezione II - Controllo degli errori
+### Sezione II - Controllo degli errori
 1. Vai alla finestra delle proprietà della scheda SD
    - `Windows Explorer` -> `Questo PC` -> Clicca con il tasto destro sulla tua scheda SD -> `Proprietà`
 1. Nella scheda "tools", seleziona `Check Now`
@@ -35,7 +31,7 @@ Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire
 
 Questo processo esegue la scansione della scheda SD, per correggere eventuali errori che trova
 
-## Sezione III - Controllo lettura/scrittura della scheda SD
+### Sezione III - Controllo lettura/scrittura della scheda SD
 
 1. Scarica ed estrai [l'archivio h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) ovunque sul tuo computer.
    - Può anche essere estratto su un dispositivo esterno purché quel dispositivo esterno non sia la scheda SD
@@ -46,19 +42,19 @@ Questo processo esegue la scansione della scheda SD, per correggere eventuali er
 1. Clicca `Write + Verify`
 - Attendere fino al completamento del processo
 
+::: tip
 Se il test mostra il risultato `Test finito senza errori`, la tua scheda SD è buona e puoi eliminare tutti i `.file`.h2w sulla tua scheda SD
-{: .notice--info}
+:::
 
+::: danger
 Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture linuxInstructions %}
-<noscript>
-   <h2>Linux</h2>
-</noscript>
+## Linux
 
-## Sezione I - Formattazione della scheda SD
+### Sezione I - Formattazione della scheda SD
 1. Assicurati che la tua scheda SD **non sia** inserita nella tua macchina Linux
 1. Avvia il terminale Linux
 1. Digita `orologio "lsblk"`
@@ -74,7 +70,7 @@ mmcblk0 179:0 0 3,8G 0 disco
 1. Premi CTRL + C per uscire dal menu
 1. Digita `sudo mkdosfs /dev/(Punto di montaggio del dispositivo dall'alto) -s 64 -F 32` per creare una singola partizione FAT32 con 32 KB dimensioni del cluster sulla scheda SD
 
-## Sezione II - Uso di F3
+### Sezione II - Uso di F3
 1. Scarica ed estrai [l'archivio F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) in un percorso qualsiasi sul tuo computer.
 1. Avvia il terminale nella directory F3
 1. Esegui `make` per compilare F3
@@ -108,20 +104,20 @@ mmcblk0 179:0 0 3,8G 0 disco
 
 ___
 
+::: tip
 Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua scheda SD va bene e puoi eliminare tutti i file `.h2w` dalla scheda SD
-{: .notice--info}
+:::
 
+::: danger
 Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture macosInstructions %}
-<noscript>
-   <h2>macOS</h2>
-</noscript>
+## macOS
 
-## Sezione I - Formattazione della scheda SD
-### OS X El Capitan (10.11) e successivi
+### Sezione I - Formattazione della scheda SD
+#### OS X El Capitan (10.11) e successivi
 
 1. Avviare l'applicazione Disk Utility
 1. Seleziona `Mostra tutti i dispositivi` nel pannello `Visualizza` in alto a sinistra
@@ -134,7 +130,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
    - Se `Schema` non appare, clicca `Annulla` e assicurati di selezionare la scheda SD invece di un volume
 1. Clicca `Cancella`, e infine clicca `Chiudi`
 
-### OS X Yosemite (10.10) e precedenti
+#### OS X Yosemite (10.10) e precedenti
 1. Avvia l'applicazione Utility Disco
 1. Seleziona la tua scheda SD dalla barra laterale
    - Assicurati di scegliere il dispositivo corretto, altrimenti potresti cancellare accidentalmente l'unità sbagliata!
@@ -145,7 +141,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 1. Dal pulsante Opzioni (sotto la tabella di partizione) seleziona `Master Boot Record`.
 1. Clicca `OK` -> `Apply` -> `Partition`
 
-## Sezione II - Uso di F3
+### Sezione II - Uso di F3
 1. Apri il terminale
 1. Installa F3 da brew con `brew install f3`
    - Se non hai brew, installalo con le istruzioni fornite su [brew.sh](https://brew.sh)
@@ -179,11 +175,13 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ___
 
+::: tip
 Se il test mostra il risultato `Data LOST: 0.00 Byte (0 sectors)` la tua scheda SD va bene e puoi eliminare tutti i file `.h2w` dalla tua SD
-{: .notice--info}
+:::
 
+::: danger
 Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 <div class="tabcontainer">
@@ -196,6 +194,7 @@ Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD pot
    <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
 </div>
 
+::: tip
 Ora puoi ripristinare il contenuto della tua scheda SD e continuare.
-{: .notice--primary}
+:::
 

@@ -1,18 +1,17 @@
----
-title: "Cartrige-k dumpolása"
----
+# Cartrige-k dumpolása
 
 Ez a rész a cartridge-k dumpolásáról szól GodMode9i-vel, így játszhatók emulátorral, flashcard-ról vagy az SD kártyádról nds-bootstrap segítségével.
 
 ## Követelmények
-* A dumpolando cím cartridge-je
-* A Nintendo DSi konzolod telepített [Unlaunch](installing-unlaunch)-csel
+- A dumpolando cím cartridge-je
+- A Nintendo DSi konzolod telepített [Unlaunch](installing-unlaunch)-csel
 
 ## Instrukciók
 ### I. rész - SD kártya telepítés
 
+::: tip
 Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader)-t, hogy automatikusan telepítse az SD kártyád.
-{: .notice--info}
+:::
 
 1. Töltsd le a [GodMode9i](https://github.com/RocketRobz/godmode9i/releases) legfrissebb kiadását
 1. Csomagold ki a `GodMode9i.nds`-t a GodMode9i archívból és rakd valahova az SD kártyádon
@@ -28,5 +27,6 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
    - Trim: Paddingolás eltávolítva
 1. Ismételd meg a 3-5. lépéseket a cartridge-ekre, amit szeretnél dumpolni
 
+::: tip
 A dumpolt cartridge-ek az `sd:/gm9i/out` mappában található.
-{: .notice--success}
+:::

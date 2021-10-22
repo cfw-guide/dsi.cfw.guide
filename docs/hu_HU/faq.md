@@ -1,8 +1,4 @@
----
-title: "GYIK"
----
-
-{% include toc title="Questions" %}
+# GYIK
 
 ### Milyen funkcionalitást vesztek el, ha módosítom a rendszerem?
 - Ha úgy döntesz, hogy telepíted az Unlaunch-öt, nem fogsz elveszteni semmilyen funkcionalitást

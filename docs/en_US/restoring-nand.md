@@ -1,14 +1,12 @@
----
-title: Restoring a NAND backup
----
+# Restoring a NAND backup
 
-{% include toc title="Table of Contents" %}
-
+::: danger
 WARNING! This is ***dangerous***. Even following these steps exactly still has potential to brick the DSi as the NAND is very low quality, especially if you flash multiple times! This should only be used as a last resort!
-{: .notice--danger}
+:::
 
+::: tip
 Do not skip *anything* on this page, any mistake greatly increases chance of bricking your DSi.
-{: .notice--info}
+:::
 
 First, a few safer alternatives to why you might want to do this:
 - Installing DSiWare can be done using hiyaCFW or TWiLight Menu++
@@ -63,11 +61,13 @@ Follow this if you dumped your NAND backup after you installed Unlaunch and you 
 
 ## Flashing your NAND backup (Software)
 
+::: danger
 Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
-{: .notice--danger}
+:::
 
+::: danger
 Make sure your Nintendo DSi system is well charged before beginning this section.
-{: .notice--danger}
+:::
 
 1. With your SD card inserted, power on your Nintendo DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
 3. Launch SafeNANDManager

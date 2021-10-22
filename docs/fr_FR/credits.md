@@ -1,12 +1,9 @@
----
-title: "Remerciements"
----
+# Remerciements
 
 Voici les remerciements pour ceux qui ont aidé à faire le site web du guide, les homebrews, et d'autres choses.
 
 Si vous aimez ce qu'ils ont fait, envisagez de faire un don (s'ils ont un lien de don).
 
-{% capture notice-1 %}
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44) : responsables des guides
 - [YourKalamity](https://github.com/YourKalamity/) : créateur de Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal) : propriétaire du domaine
@@ -17,9 +14,6 @@ Si vous aimez ce qu'ils ont fait, envisagez de faire un don (s'ils ont un lien d
 - [RocketRobz](https://github.com/RocketRobz) : développeur de TWiLight Menu++, hiyaCFW et GodMode9i
 - [zoogie](https://github.com/zoogie) : développeur de dumpTool, fonctionnant à partir de Memory Pit pour prendre en charge tous les firmwares et toutes les régions
 - [Plailect](https://github.com/Plailect) : création du guide de moddage 3DS original dont il s'est inspiré
-{% endcapture %}
-
-<div class="notice">{{ notice-1 | markdownify }}</div>
 
 Vous pouvez également contribuer à notre guide en envoyant simplement [une pull request](https://github.com/cfw-guide/dsi.cfw.guide/) !
 

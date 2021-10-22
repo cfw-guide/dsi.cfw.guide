@@ -1,18 +1,15 @@
----
-title: Konfiguracja karty SD
----
+# Konfiguracja karty SD
 
 Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. W tym poradniku, sformatujemy kartę SD do formatu odpowiedniego dla Nintendo DSi i sprawdzimy błędy karty.
 
+::: danger
 Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfiguracji. Twoja karta SD będzie zresetowana w tym procesie.
-{: .notice--danger}
+:::
 
 {% capture windowsInstructions %}
-<noscript>
-   <h2>Windows</h2>
-</noscript>
+## Windows
 
-## Sekcja I - Formatowanie karty SD
+### Sekcja I - Formatowanie karty SD
 
 1. Pobierz najnowszą wersję [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
   - Kliknij na zdjęcie na stronie internetowej, aby pobrać aplikację
@@ -24,9 +21,8 @@ Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfig
 1. Rozpocznij proces formatowania
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-{:.notice--info}
 
-## Sekcja II – Sprawdzanie błędów
+### Sekcja II – Sprawdzanie błędów
 1. Przejdź do okna właściwości karty SD
    - `Menedżer Plików` -> `Ten komputer` -> Kliknij prawym przyciskiem myszy na kartę SD -> `Właściwości`
 1. W zakładce Narzędzia wybierz `Sprawdź teraz`
@@ -35,7 +31,7 @@ Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfig
 
 Spowoduje to skanowanie karty SD i poprawienie wszelkich wykrytych przez nią błędów
 
-## Sekcja III - Sprawdzanie odczytu/zapisu karty SD
+### Sekcja III - Sprawdzanie odczytu/zapisu karty SD
 
 1. Pobierz i rozpakuj [archiwum h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) w dowolnym miejscu na komputerze.
    - Można go również rozpakować na urządzeniu zewnętrznym, o ile to urządzenie zewnętrzne nie jest twoją kartą SD
@@ -46,19 +42,19 @@ Spowoduje to skanowanie karty SD i poprawienie wszelkich wykrytych przez nią b�
 1. Kliknij `Write + Verify`
 - Poczekaj do zakończenia procesu
 
+::: tip
 Jeśli test pokazuje wynik `Test finished without errors`, Twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h2w` na twojej karcie SD
-{: .notice--info}
+:::
 
+::: danger
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona i być może będziesz musiał ją wymienić!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture linuxInstructions %}
-<noscript>
-   <h2>Linux</h2>
-</noscript>
+## Linux
 
-## Sekcja I - Formatowanie karty SD
+### Sekcja I - Formatowanie karty SD
 1. Upewnij się, że Twoja karta SD **nie jest** włożona do maszyny Linux
 1. Uruchom Terminal Linux
 1. Wpisz `watch "lsblk"`
@@ -74,7 +70,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Naciśnij CTRL + C, aby wyjść z menu
 1. Wpisz `sudo mkdosfs /dev/(punkt montowania urządzenia powyżej) -s 64 -F 32` aby utworzyć pojedynczą partycję FAT32 o rozmiarze klastra 32 KB na karcie SD
 
-## Sekcja II – Używanie F3
+### Sekcja II – Używanie F3
 1. Pobierz i rozpakuj [archiwum F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) w dowolnym miejscu na swoim komputerze.
 1. Uruchom terminal w katalogu F3
 1. Uruchom `make` aby skompilować F3
@@ -108,20 +104,20 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 ___
 
+::: tip
 Jeśli test pokaże wynik `Data LOST: 0.00 Byte (0 sectors)` twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h2w` na swojej karcie SD
-{: .notice--info}
+:::
 
+::: danger
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture macosInstructions %}
-<noscript>
-   <h2>macOS</h2>
-</noscript>
+## macOS
 
-## Sekcja I - Formatowanie karty SD
-### OS X El Capitan (10.11) i później
+### Sekcja I - Formatowanie karty SD
+#### OS X El Capitan (10.11) i później
 
 1. Uruchom aplikację na dysku
 1. Wybierz `Show All Devices` w panelu `View`
@@ -134,7 +130,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
    - Jeśli `Scheme` nie pojawia się, kliknij `Cancel` i upewnij się, że wybrano urządzenie zamiast głośności
 1. Kliknij `Erase` a potem `Close`
 
-### OS X Josemite (10.10) i wcześniej
+#### OS X Josemite (10.10) i wcześniej
 1. Uruchom aplikację na dysku
 1. Wybierz kartę SD z paska bocznego
    - Upewnij się, że wybrałeś właściwe urządzenie, w przeciwnym razie możesz przypadkowo usunąć zły napęd!
@@ -145,7 +141,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 1. Z przycisku Opcje (poniżej tablicy partycji), wybierz `Master Boot Record`.
 1. Kliknij `OK` -> `Apply` -> `Partition`
 
-## Sekcja II – Używanie F3
+### Sekcja II – Używanie F3
 1. Otwórz terminal
 1. Zainstaluj F3 z brew poprzez uruchomienie `brew install f3`
    - Jeśli nie masz brew, zainstaluj go z instrukcjami na [brew.sh](https://brew.sh)
@@ -179,11 +175,13 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 ___
 
+::: tip
 Jeśli test pokazuje wynik `Data LOST: 0. 0 bajtów (0 sektorów)` Twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h3w` na twojej karcie SD
-{: .notice--info}
+:::
 
+::: danger
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 <div class="tabcontainer">
@@ -196,6 +194,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
    <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
 </div>
 
+::: tip
 Możesz teraz przywrócić zawartość karty SD i kontynuować.
-{: .notice--primary}
+:::
 

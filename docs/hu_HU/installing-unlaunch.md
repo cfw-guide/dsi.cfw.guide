@@ -1,8 +1,4 @@
----
-title: "Unlaunch telepítése"
----
-
-{% include toc title="Navigation" %}
+# Unlaunch telepítése
 
 Az Unlaunch egy exploit, ami a rendszer bootnál helyezkedik el. Ez lehetővé tesz, hogy magasabb jogokat szerezünk, mint a normál DSiWare exploitok, mint például Memory Pit, ami lehetővé teszi a következőket:
 
@@ -14,16 +10,19 @@ Az Unlaunch egy exploit, ami a rendszer bootnál helyezkedik el. Ez lehetővé t
 - Jobb hang a GBARunner2-ben
 - Brick-védelem
 
+::: danger
 Ha még nem tetted meg, kérjük készítsd egy [NAND mentést](dumping-nand). Habár az esélyek kicsik, az Unlaunch brick véletlenül a Nintendo DSi-det. Egy NAND mentés + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) lehetővé teszi, hogy helyreállítsd ezt a mentést, ha tudod, hogy hogyan kell forrasztani.
-{: .notice--danger}
+:::
 
+::: warning
 Biztosítsd, hogy a konzol legyen feltöltve, a következő folyamat alatt. Egy véletlen áram elvesztés komoly hibákhoz vezethet.
-{: .notice--warning}
+:::
 
 ## I. rész - SD kártya előkészítés
 
+::: tip
 Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader)-t, hogy automatikusan telepítse az SD kártyád.
-{: .notice--info}
+:::
 
 1. Töltsd le az [Unlaunch](https://problemkaputt.de/unlaunch.zip) legfrissebb kiadását
    - [Tükör link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), ha a fenti nem működne
@@ -73,8 +72,9 @@ Jelenleg az Unlaunch alapértelmezésben a fájl menüjét indítja bootkor, de 
 
 ## IV. rész - Takarítás az SD kártyán
 
+::: tip
 Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon ne maradjon fájl, amire nincs szükséged.
-{: .notice--primary}
+:::
 
 - Töröld az `sd:/private/ds/app/484E494A/pit.bin` fájlt az SD kártyádról
    - Ha más exploitot használtál, töröld annak az exploitnak a fájljait e helyett

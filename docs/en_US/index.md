@@ -1,10 +1,10 @@
 ---
 home: true
-title: DSi Guide
-description: "The complete guide to modding your Nintendo DSi"
+title: Home
+description: The complete guide to modding your Nintendo DSi
 heroImage: /assets/images/home-page-feature.png
 heroText: DSi Guide
-tagline: "The complete guide to modding your Nintendo DSi"
+tagline: The complete guide to modding your Nintendo DSi
 ---
 
 ::: tip
@@ -15,7 +15,7 @@ For complete guides to homebrew and custom firmware for other devices, check out
 This guide is not compatible with Nintendo DSi development consoles.
 :::
 
-::: tip Info
+::: tip
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 :::
 
@@ -57,6 +57,6 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
-::: tip Next Page
+::: tip NEXT PAGE
 Continue to [Launching the Exploit](launching-the-exploit)
 :::

@@ -1,8 +1,4 @@
----
-title: "Installazione di Unlaunch"
----
-
-{% include toc title="Navigation" %}
+# Installazione di Unlaunch
 
 Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette di avere più privilegi dei normali exploit DSiWare come Memory Pit, che lo rende in grado di fare quanto segue:
 
@@ -14,16 +10,19 @@ Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette 
 - Avere audio migliore in GBARunner2
 - Protezione contro i brick
 
+::: danger
 Se non l'hai ancora fatto, fai un backup della NAND [](dumping-nand). Nonostante le probabilità minime, Unlaunch potrebbe accidentalmente provocare un brick al Nintendo DSi. Un backup della NAND + [un hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) ti permetterebbe di ripristinare questo backup, a condizione che tu sappia come saldare.
-{: .notice--danger}
+:::
 
+::: warning
 Assicurati che la console sia carica quando si esegue questo processo. Una perdita improvvisa di potenza potrebbe causare gravi danni.
-{: .notice--warning}
+:::
 
 ## Sezione I - Preparazioni della scheda SD
 
+::: tip
 Usi un dispositivo Windows, Linux, o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
-{: .notice--info}
+:::
 
 1. Scarica l'ultima versione di [Unlaunch](https://problemkaputt.de/unlaunch.zip)
    - [Link Mirror](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), se quello sopra non funziona
@@ -73,8 +72,9 @@ Riconfigureremo anche nds-bootstrap per avviarsi in TWiLight Menu++ (invece del 
 
 ## Sezione IV - Pulizia della scheda SD
 
+::: tip
 Questa sezione è opzionale e serve solo per mantenere la scheda SD ordinata di file che non ti servono.
-{: .notice--primary}
+:::
 
 - Elimina il file `sd:/private/ds/app/484E494A/pit.bin` dalla tua scheda SD
    - Se hai usato un altro exploit, elimina invece i file relativi a quell'exploit

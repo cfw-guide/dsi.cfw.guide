@@ -1,12 +1,9 @@
----
-title: "Készítők"
----
+# Készítők
 
 Ez a készítők listája, akik segítettek az útmutató weboldalon, homebrew és egyéb dolgokban.
 
 Ha tetszik amit csináltak, gondolkozz el a támogatásukon (ha van támogatási linkjük).
 
-{% capture notice-1 %}
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Útmutató karbantartók
 - [YourKalamity](https://github.com/YourKalamity/): A Lazy DSi File Downloader készítője
 - [emiyl](https://emiyl.com/paypal): Domain birtokos
@@ -17,9 +14,6 @@ Ha tetszik amit csináltak, gondolkozz el a támogatásukon (ha van támogatási
 - [RocketRobz](https://github.com/RocketRobz): A TWiLight Menu++, a hiyaCFW & a GodMode9i fejlesztője
 - [zoogie](https://github.com/zoogie): A dumpTool fejlesztője & forkolta a Memory Pit-et, hogy minden régiót és firmware-t támogasson
 - [Plailect](https://github.com/Plailect): Az eredeti 3DS Modding Guide készítője, ahonnan az inspiráció jött
-{% endcapture %}
-
-<div class="notice">{{ notice-1 | markdownify }}</div>
 
 Részt vehetsz az útmutató készítésében, egyszerűen egy [Pull Request beküldésével](https://github.com/cfw-guide/dsi.cfw.guide/)!
 

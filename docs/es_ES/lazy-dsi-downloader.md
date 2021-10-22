@@ -1,6 +1,4 @@
----
-title: Lazy DSi Downloader
----
+# Lazy DSi Downloader
 
 "Lazy DSi Downloader" es una herramienta para simplificar el proceso de modificar una Nintendo DSi.
 

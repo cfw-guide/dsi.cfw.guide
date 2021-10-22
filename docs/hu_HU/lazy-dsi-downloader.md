@@ -1,6 +1,4 @@
----
-title: Lazy DSi Downloader
----
+# Lazy DSi Downloader
 
 A "Lazy DSi Downloader" egy eszköz, ami egyszerűsíti a Nintendo DSi konzol moddolásának folyamatát.
 

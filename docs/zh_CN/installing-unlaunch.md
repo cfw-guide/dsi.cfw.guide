@@ -1,8 +1,4 @@
----
-title: "安装取消启动"
----
-
-{% include toc title="Navigation" %}
+# 安装取消启动
 
 Unlaunch是系统启动时触发的一种漏洞。 This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
 
@@ -14,16 +10,19 @@ Unlaunch是系统启动时触发的一种漏洞。 This allows it to have higher
 - 在 GBARunner2 中实现更好的声音
 - 砖保护
 
+::: danger
 在此之前，请先进行 [NAND备份](dumping-nand)。 虽然概率较低，Unlaunch仍有可能使DSi变砖。 在此之前，请先进行[NAND备份](dumping-nand)。虽然拒绝拒绝，不发起可能会使DSi变砖。 NAND备份+\[硬件修改\](https://web.archive.org/web /20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) 将允许您恢复这次备份，只要您知道如何解决。
-{: .notice--danger}
+:::
 
+::: warning
 请确定你的机器在此过程中保持充电状态。 突然断电可能会造成严重的损坏。
-{: .notice--warning}
+:::
 
 ## 第一节——SD卡准备
 
+::: tip
 Using a Windows, Linux, or macOS device? 使用 Windows、Linux 或 macOS 设备？使用 [Lazy DSi Downloader](lazy-dsi-downloader) 来自动设置您的 SD 卡。
-{: .notice--info}
+:::
 
 1. 下载最新版本的[ Unlaunch ](https://problemkaputt.de/unlaunch.zip)
    - 使用[镜像链接](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip)，如果上述链接无法工作 1.从`unlaunch.zip`中解压`UNLAUNH.DSI`并复制到你SD卡的任意位置 1.确认你的SD卡上仍然有TWiLight菜单++
@@ -35,7 +34,7 @@ Using a Windows, Linux, or macOS device? 使用 Windows、Linux 或 macOS 设备
 
 1. 打开TWiLight Menu++
    - 如果这是您第一次安装 Unlaunch，请通过您使用的漏洞重新启动 TWiLight Menu++
-   - 如果您已经安装了Unlaunch并恢复更新，在启动时选择<kbd class="A</kbd> + <kbd class="face">B</kbd>选择`TWiLight菜单+ +`,当`BOOT.NDS`显示在底部屏幕时。
+   - 如果您已经安装了Unlaunch并恢复更新，在启动时选择<kbd class="A">A</kbd> + <kbd class="face">B</kbd>选择`TWiLight菜单+ +`,当`BOOT.NDS`显示在底部屏幕时。
 1. 启动暮光之城菜单++设置
    - 如果您没有更改主题，请按“启动漏洞”页面中的步骤操作。 否则，请参阅TWiLight 菜单++ 手册
 1. 点击 <kbd class="l">L</kbd> / <kbd class="r">R</kbd> 或 <kbd class="face">X</kbd> / <kbd class=" face">Y</kbd> 直到您到达 `Unlaunch Settings` 页面 1.如果你想改变Unlaunch的背景图片，选择`Background`并选择你想要的
@@ -73,8 +72,9 @@ Using a Windows, Linux, or macOS device? 使用 Windows、Linux 或 macOS 设备
 
 ## 第四部分 - 清理你的 SD 卡
 
+::: tip
 1.同时摁住<kbd class="face">A</kbd>和<kbd class="face">B</kbd>键后，再摁下Dsi的电源键 1.导航到`OPTIONS`，并查看可用的选项
-{: .notice--primary}
+:::
 
 - 如果您想创建自己的 Unlaunch 背景，请参阅 [DS-Homebrew Wiki 页面](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
    - 如果您使用了其他漏洞，请删除有关该漏洞的文件，而不是上面这个

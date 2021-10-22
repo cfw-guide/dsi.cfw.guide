@@ -1,8 +1,4 @@
----
-title: DSiware备份
----
-
-{% include toc title="DSiWare Backups" %}
+# DSiware备份
 
 ## 首先需要…
 - 最新版本的 [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
@@ -19,8 +15,9 @@ title: DSiware备份
 
 当您悬停于项目上时，下屏应该显示其文件路径 记住这个路径，这对以后的操作非常重要！
 
+::: tip
 示例路径如下 `nand:/title/0030005/484e4a45/content/00000003.app`
-{: .notice--info}
+:::
 
 ### 第二节——提取文件
 1. 从 Unlaunping Filemenu 启动 GodMode9i

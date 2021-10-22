@@ -1,8 +1,4 @@
----
-title: Backup DSiWare
----
-
-{% include toc title="DSiWare Backups" %}
+# Backup DSiWare
 
 ## Requisiti
 - L'ultima versione di [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
@@ -19,8 +15,9 @@ title: Backup DSiWare
 
 Quando si passa sopra la voce, la schermata inferiore dovrebbe mostrare il percorso. Prendete nota del percorso.
 
+::: tip
 Un esempio di percorso sarebbe `nand:/title/0030005/484e4a45/content/00000003.app`
-{: .notice--info}
+:::
 
 ### Sezione II - Estrazione del file
 1. Avvia GodMode9i tramite il menu di Unlaunch

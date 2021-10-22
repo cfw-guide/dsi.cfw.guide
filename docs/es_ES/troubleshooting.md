@@ -1,8 +1,4 @@
----
-title: Solución de problemas
----
-
-{% include toc title="Table of Contents" %}
+# Solución de problemas
 
 ## Unlaunch
 ### ¿Unlaunch se congela y muestra el mensaje `MISMATCH IN FAT COPIES`?

@@ -1,21 +1,22 @@
 ---
-layout: splash
+home: true
 title: Guía de DSi
-header:
-  overlay_color: "#1a1d24"
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
-excerpt: "Una guia completa de modificar tu Nintendo DSi"
+heroImage: /assets/images/home-page-feature.png
+heroText: Guía de DSi
+tagline: Una guia completa de modificar tu Nintendo DSi
 ---
 
+::: tip
 Para guías completas sobre homebrew y custom firmware para otros dispositivos, revisa [la Guía CFW](https://cfw.guide/).
-{: .notice--primary}
+:::
 
+::: danger
 Esta guía no es compatible con consolas de desarrollo de Nintendo DSi.
-{: .notice--danger}
+:::
 
+::: tip
 Lea detenidamente todas las páginas introductorias (¡incluyendo esta!) antes de proceder.
-{: .notice--info}
+:::
 
 ## ¿Qué es el homebrew?
 
@@ -55,5 +56,6 @@ Ten en cuenta que, aunque la guía está estructurada de forma lineal, esto gene
 - El único riesgo de bloqueo total del sistema viene de instalar Unlaunch, pero este riesto es sumamente pequeño.
 - Si no tienes experiencia con copiar archivos a una tarjeta SD, tenemos herramientas de ayuda a tu disposición.
 
+::: tip
 Continuar a [Lanzar el Exploit](launching-the-exploit)
-{: .notice--info}
+:::

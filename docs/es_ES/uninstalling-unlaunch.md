@@ -1,9 +1,8 @@
----
-title: Desinstalar Unlaunch
----
+# Desinstalar Unlaunch
 
+::: danger
 **¡Instalar o desinstalar Unlaunch puede bloquear totalmente tu consola de manera aleatoria! ¡Fuiste advertido!**
-{:.notice--danger}
+:::
 
 **ADVERTENCIA:** Desinstalar Unlaunch puede bloquear totalmente tu consola. Aquí hay algunos casos por los que podrías querer desinstalar Unlaunch, junto con soluciones que no lo requerirían.
 
@@ -11,8 +10,9 @@ title: Desinstalar Unlaunch
 - **No hay pantalla de inicio ni música de fondo en el menú:** Reinstala Unlaunch usando [las nuevas instrucciones](/installing-unlaunch). Ahora puedes volver a activar estas características.
 - **Mi sistema está totalmente bloqueado:**  Entonces esta página no es para ti, ya que requiere un sistema funcional para desinstalar Unlaunch.
 
+::: warning
 Para reducir las posibilidades de bloqueo total, asegúrate de que no has instalado ningún título DSiWare ilegal en la NAND de tu sistema (la redirección al SDNAND proporcionada por hiyaCFW no cuenta), o de que no has manipulado de otra forma con los archivos del sistema.
-{: .notice--warning}
+:::
 
 1. Descarga la última versión de [Unlaunch](https://problemkaputt.de/unlaunch.zip).
 1. Extrae `UNLAUNCH.DSI` del archivo Unlaunch y cópialo en cualquier lugar de tu tarjeta SD.

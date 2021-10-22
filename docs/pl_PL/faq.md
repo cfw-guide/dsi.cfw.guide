@@ -1,8 +1,4 @@
----
-title: "FAQ"
----
-
-{% include toc title="Questions" %}
+# FAQ
 
 ### Jaką funkcjonalność stracę modując mój system?
 - Jeśli zdecydujesz się zainstalować Unlaunch, nie utracisz żadnych funkcji systemowych

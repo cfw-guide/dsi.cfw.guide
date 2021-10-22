@@ -1,8 +1,4 @@
----
-title: Problèmes et dépannage
----
-
-{% include toc title="Table of Contents" %}
+# Problèmes et dépannage
 
 ## Unlaunch
 ### Unlaunch plante à `MISMATCH IN FAT COPIES` ?

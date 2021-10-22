@@ -1,8 +1,4 @@
----
-title: Hibaelhárítás
----
-
-{% include toc title="Table of Contents" %}
+# Hibaelhárítás
 
 ## Unlaunch
 ### Az Unlaunch lefagy a `MISMATCH IN FAT COPIES` üzenetnél?

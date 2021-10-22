@@ -1,12 +1,9 @@
----
-title: "制作人员"
----
+# 制作人员
 
 这是那些对指南网站、 homebrew和其他东西提供过帮助的人的名单。
 
 如果你喜欢他们的所做，请考虑捐助(如果他们有捐赠链接)。
 
-{% capture notice-1 %}
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [YourKalamity](https://github.com/YourKalamity/): Creator of Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): 域名持有者
@@ -17,9 +14,6 @@ title: "制作人员"
 - [RocketRobz](https://github.com/RocketRobz): TWiLight Menu++, hiyaCFW & GodMode9i开发者
 - [zoogie](https://github.com/zoogie): Developer of dumpTool & forked Memory Pit to support all regions and firmwares
 - [Plailect](https://github.com/Plailect): 制作了原始的 3DS破解 指南，使本站从中得到了灵感。
-{% endcapture %}
-
-<div class="notice">{{ notice-1 | markdownify }}</div>
 
 You can contribute to our guide too by simply [sending in a pull request](https://github.com/cfw-guide/dsi.cfw.guide/)!
 

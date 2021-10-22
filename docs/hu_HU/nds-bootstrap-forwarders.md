@@ -1,6 +1,4 @@
----
-title: "nds-bootstrap forwarderek a hiyaCFW-hez"
----
+# nds-bootstrap forwarderek a hiyaCFW-hez
 
 Ez a kiegészítő rész forwarderek létrehozásáról szól nds-bootstrap számára. Ez lehetővé teszi nds romok indítását közvetlenül az SDNAND System Menu-jéből.
 

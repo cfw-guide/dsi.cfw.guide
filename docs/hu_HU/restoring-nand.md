@@ -1,14 +1,12 @@
----
-title: A NAND biztonsági másolat visszaállítása
----
+# A NAND biztonsági másolat visszaállítása
 
-{% include toc title="Table of Contents" %}
-
+::: danger
 FIGYELEM! Ez ***veszélyes***. Még ha követed is pontosan a lépéseket, meg van a lehetősége annak, hogy brick-eled a DSi-t - mert a NAND nagyon alacsony minőségű - főleg akkor, ha többször flashelsz! Ezt az utolsó lehetőségként szabad csak használni!
-{: .notice--danger}
+:::
 
+::: tip
 Ne ugorj át *semmit* ezen az oldalon, bármi hiba erősen növeli a DSi-d brick-elésének esélyeit.
-{: .notice--info}
+:::
 
 Először, pár biztonságos alternatíva, hogy miért érdemes ezt tenni:
 - DSiWare-ek telepítése történhet a hiyaCFW vagy a TWiLight Menu++ alkalmazással
@@ -53,11 +51,13 @@ Ha a no$gba betölti a DSi menüt, folytasd a következő résszel. Ha bármilye
 
 ## A NAND mentés flashelése (szoftver)
 
+::: danger
 Legyél biztos abban, hogy elolvastad az előző lépéseket, mert itt válik a folyamat veszélyessé. Ha közvetlenül ide lettél linkelve, az előbbiek követése nélkül, menj vissza az oldal tetejére és olvasd el az egész oldalt.
-{: .notice--danger}
+:::
 
+::: danger
 Legyél biztos abban, hogy Nintendo DSi rendszered rendesen fel van töltve, mielőtt elkezdenéd ezt a részt.
-{: .notice--danger}
+:::
 
 1. Behelyezett SD kártyával kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
 3. Indítsd el a SafeNANDManager-t

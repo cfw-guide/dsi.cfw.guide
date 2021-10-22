@@ -1,6 +1,4 @@
----
-title: Lazy DSi Downloader
----
+# Lazy DSi Downloader
 
 « Lazy DSi Downloader » est un outil pour simplifier le processus de modulation d'une console Nintendo DSi.
 

@@ -8,14 +8,17 @@ header:
 excerpt: "A Nintendo DSi moddolás teljes útmutatója"
 ---
 
+::: tip
 Más készülékekhez szóló teljes homebrew és egyedi firmware útmutatókért keresd fel a [CFW.Guide](https://cfw.guide/) oldalt.
-{: .notice--primary}
+:::
 
+::: danger
 Ez az útmutató nem kompatibilis a Nintendo DSi fejlesztői konzolokkal.
-{: .notice--danger}
+:::
 
+::: tip
 Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is) mielőtt bármibe belekezdenél.
-{: .notice--info}
+:::
 
 ## Mi az a Homebrew?
 
@@ -55,5 +58,6 @@ Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és ált
 - Ez egyetlen brickelési kockázat az Unlaunch telepítésekor lehetséges, de a kockázat minimális
 - Ha nem vagy tapasztalt a fájlok SD kártyára másolásával, rendelkezünk segéd eszközökkel erre a feladatra
 
+::: tip
 Folytatás [Az Exploit indítása](launching-the-exploit) útmutatóval
-{: .notice--info}
+:::

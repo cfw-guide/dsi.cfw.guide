@@ -1,8 +1,4 @@
----
-title: Troubleshooting
----
-
-{% include toc title="Table of Contents" %}
+# Troubleshooting
 
 ## Unlaunch
 ### Unlaunch freezes at `MISMATCH IN FAT COPIES`

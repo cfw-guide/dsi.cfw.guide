@@ -1,16 +1,16 @@
----
-title: NAND dumpolása
----
+# NAND dumpolása
 
 Ez az oldal a NAND mentés készítéséről szól, ami egy másolata a Nintendo DSi belső tárolójának. Ez a hiyaCFW és a NO$GBA telepítéséhez használható.
 
+::: tip
 Erősen ajánlott, hogy végrehajtsd ezt. Egy NAND mentés használható visszaállítási pontjaként a jövőben, ha brickelődne az eszközöd.
-{: .notice--primary}
+:::
 
 ## I. rész - SD kártya telepítés
 
+::: tip
 Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader)-t, hogy automatikusan telepítse az SD kártyád.
-{: .notice--info}
+:::
 
 1. Töltsd le a [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds) legfrissebb kiadását
 1. Rakd a `dumpTool.nds`-t bárhova az SD kártyádon
@@ -25,8 +25,10 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
    - Ha lehet, több mentésed legyen különböző tároló eszközökön
    - Ha elmentetted máshová, törölheted az SD kártyádról
 
+::: warning
 Az SHA1 hash-e a `nand.bin`-nek nem fog egyezni a `nand.bin.sha1` fájlban tárolt értékkel. Ez azért van, mert a dumpTool további adatokat ad hozzá a `nand.bin`-hez, amit NO$GBA láblécnek hívunk, miután az SHA1 hash kiszámításra került. Használhatod a [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) olyan másolat létrehozásához, amiben nincs benne ez a lábléc.
-{: .notice--warning}
+:::
 
+::: tip
 Folytatás az [Unlaunch telepítésével](installing-unlaunch) (Opcionális)
-{: .notice--info}
+:::

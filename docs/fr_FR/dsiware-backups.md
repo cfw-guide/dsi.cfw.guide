@@ -1,8 +1,4 @@
----
-title: Sauvegardes DSiWare
----
-
-{% include toc title="DSiWare Backups" %}
+# Sauvegardes DSiWare
 
 ## Prérequis
 - La dernière version de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
@@ -19,8 +15,9 @@ title: Sauvegardes DSiWare
 
 Lorsque vous survolez l'entrée, l'écran du bas devrait afficher le chemin. Prenez note de celui-ci.
 
+::: tip
 Par exemple, un chemin pourrait être `nand:/title/0030005/484e4a45/content/00000003.app`
-{: .notice--info}
+:::
 
 ### Section II - Extraction du fichier
 1. Lancez GodMode9i depuis le menu de fichiers de Unlaunch

@@ -1,8 +1,4 @@
----
-title: "Instalar Unlaunch"
----
-
-{% include toc title="Navigation" %}
+# Instalar Unlaunch
 
 Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite tener mas privilegios que los exploits normales de títulos DSiWare como Memory Pit, lo que hace que sea capaz de hacer lo siguiente:
 
@@ -14,16 +10,19 @@ Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite t
 - Mejor sonido en GBARunner2.
 - Protección contra bloqueos totales de la consola.
 
+::: danger
 Si aún no lo has hecho, por favor haz una [copia de resplado de la NAND](dumping-nand). Si bien las probabilidades son escasas, Unlaunch puede bloquear totalmente tu consola de forma accidental. Una copia de respaldo de la NAND y [modificación del hardware](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) te permiten restaurar esta copia de respaldo, siempre y cuando sepas como soldar.
-{: .notice--danger}
+:::
 
+::: warning
 Asegúrate de que tu consola está cargada mientras sigues estos pasos. Si el sistema se apaga repentinamente en medio del proceso, podría causar daños graves.
-{: .notice--warning}
+:::
 
 ## Sección I - Preparar la tarjeta SD
 
+::: tip
 ¿Utilizas Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) para configurar automáticamente tu tarjeta SD.
-{: .notice--info}
+:::
 
 1. Descarga la última version de [Unlaunch](https://problemkaputt.de/unlaunch.zip).
    - [Enlace alternativo](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si el de arriba no funciona.
@@ -73,8 +72,9 @@ También vamos a reconfigurar nds-boostrap para iniciar TWiLight Menu++ (en luga
 
 ## Sección IV - Limpiar la tarjeta SD
 
+::: tip
 Esa sección es opcional, y su único propósito es mantener tu tarjeta SD ordenada y remover los archivos que no necesites.
-{: .notice--primary}
+:::
 
 - Elimina el archivo `sd:/private/ds/app/484E494A/pit.bin` en tu tarjeta SD.
    - En caso de que hayas utilizado otro exploit, borra sus archivos.

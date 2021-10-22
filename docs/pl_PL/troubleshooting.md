@@ -1,8 +1,4 @@
----
-title: Rozwiązywanie problemów
----
-
-{% include toc title="Table of Contents" %}
+# Rozwiązywanie problemów
 
 ## Unlaunch
 ### Czy Unlaunch zamraża się na `MISMATCH IN FAT COPIES`?

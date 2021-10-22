@@ -1,8 +1,4 @@
----
-title: Kopie zapasowe DSiWare
----
-
-{% include toc title="DSiWare Backups" %}
+# Kopie zapasowe DSiWare
 
 ## Wymagania
 - Najnowsza wersja [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
@@ -19,8 +15,9 @@ title: Kopie zapasowe DSiWare
 
 Po najechaniu na wpis, na dolnym ekranie powinna pojawić się ścieżka. Zwróć uwagę na drogę.
 
+::: tip
 Przykładową ścieżką może być `nand:/title/0030005/484e4a45/content/00000003.app`
-{: .notice--info}
+:::
 
 ### Sekcja II - Rozpakowywanie pliku
 1. Uruchom GodMode9i z menu plików

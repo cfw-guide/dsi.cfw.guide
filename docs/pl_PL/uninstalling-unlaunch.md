@@ -1,9 +1,8 @@
----
-title: Odinstalowywanie
----
+# Odinstalowywanie
 
+::: danger
 **Instalacja lub odinstalowanie Unlaunch może losowo zablokować konsolę! Zostałeś ostrzeżony!**
-{:.notice--danger}
+:::
 
 **OSTRZEŻENIE:** Odinstalowanie może zablokować Twój Nintendo DSi. Oto kilka przypadków powodów, dla których możesz chcieć odinstalować Unlaunch, ale z rozwiązaniami które nie wymagają odinstalowania.
 
@@ -11,8 +10,9 @@ title: Odinstalowywanie
 - **Nie ma ekranu powitalnego i brakuje muzyki:** Zainstaluj ponownie przy użyciu [nowych instrukcji](/installing-unlaunch). Obecnie zawierają instrukcje dotyczące łagodzenia skutków
 - **Mój system jest uszkodzony:** Ta strona nie jest więc dla ciebie, ponieważ wymaga działającego systemu, aby odinstalować Unlaunch
 
+::: warning
 Zmniejszenie szans na zablokowanie, upewnij się, że nie zainstalowałeś żadnych nielegalnych DSiWare do twojego systemu NAND (przekierowanie SDNAND dostarczone przez hiyaCFW nie liczy się), lub w inny sposób manipulowałeś plikami systemowymi.
-{: .notice--warning}
+:::
 
 1. Pobierz najnowszą wersję [Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Wyodrębnij `UNLAUNCH.DSI` z archiwum Unlaunch i skopiuj go w dowolne miejsce karty SD

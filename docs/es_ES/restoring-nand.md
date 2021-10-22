@@ -1,14 +1,12 @@
----
-title: Restaurar un respaldo de la NAND
----
+# Restaurar un respaldo de la NAND
 
-{% include toc title="Table of Contents" %}
-
+::: danger
 ¡ADVERTENCIA! Esto es ***peligroso***. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso!
-{: .notice--danger}
+:::
 
+::: tip
 No te saltes *nada* de esta página. Cualquier error incrementa las posbilidades de causar un bloqueo total de tu consola.
-{: .notice--info}
+:::
 
 Primero te presentaremos algunas alternativas más seguras para solucionar cosas por las que querrías hacer esto.
 - La instalación de títulos DSiWare se puede hacer utilizando hiyaCFW o TWiLight Menu++
@@ -53,11 +51,13 @@ Si no$gba carga el menú DSi, continúa a la siguiente sección. Si en su lugar 
 
 ## Sobreescribir utilizando tu respaldo de la NAND (por software)
 
+::: danger
 Aquí es donde la cosa se vuelve peligrosa, así que asegúrate de haber leído bien los pasos anteriores. Si llegaste aquí a través de un enlace sin seguir los pasos anteriores, vuelve al principio de la página y leela por completo.
-{: .notice--danger}
+:::
 
+::: danger
 Asegúrate de que tu consola está cargada antes de comenzar con esta sección.
-{: .notice--danger}
+:::
 
 1. Con tu tarjeta SD dentro de tu consola, enciende la misma mientras mantienes pulsados <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
 3. Ejecuta SafeNANDManager.

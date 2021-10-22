@@ -1,16 +1,16 @@
----
-title: Volcar la NAND
----
+# Volcar la NAND
 
 Esta página es para hacer un respaldo de la NAND, es decir, una copia de los datos en el almacenamiento interno de la consola. Se puede usar para configurar hiyaCFW y NO$GBA.
 
+::: tip
 Es muy recommendado que agas esto. Una copia NAND se puede usar para restaurar el sistema en el futuro, en caso que tu sistema no funcione.
-{: .notice--primary}
+:::
 
 ## Sección I - Preparación de la tarjeta SD
 
+::: tip
 ¿Usas Windows, Linux o macOS? Utiliza [Lazy DSi Downloader](lazy-dsi-downloader) para configurar automáticamente tu tarjeta SD.
-{: .notice--info}
+:::
 
 1. Descarga la última versión de [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds).
 1. Coloca `dumpTool.nds` en cualquier lugar de tu tarjeta SD.
@@ -25,8 +25,10 @@ Es muy recommendado que agas esto. Una copia NAND se puede usar para restaurar e
    - De ser posible, haz multiples copias y almacénalas en dispositivos distintos.
    - Cuando lo hayas guardado en otro lugar, puedes borrarlo de la tarjeta SD.
 
+::: warning
 El hash SHA1 del archivo `nand.bin` no concordará con el hash almacenado en el archivo `nand.bin.sha1`. Esto se debe a que dumpTool añade datos adicionales, conocidos como "NO$GBA footer" al archivo `nand.bin` después de que el hash SHA1 sea calculado. Puedes usar [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)para crear una copia sin dichos datos.
-{: .notice--warning}
+:::
 
+::: tip
 Continua a [Installando Unlaunch](installing-unlaunch)(Opcional)
-{: .notice--info}
+:::

@@ -1,22 +1,11 @@
----
-title: "Navigazione Sito"
-layout: single-no-ads
-sitemap: false
----
+# Navigazione Sito
 
-{% capture primary-notice %}
-**Processo guida principale**
-
+## Processo guida principale
 + [Avviare l'exploit](launching-the-exploit)
 + [Backup della NAND](dumping-nand)
 + [Installazione di Unlaunch](installing-unlaunch)
 
-{% endcapture %}
-<div class="notice--primary">{{ primary-notice | markdownify }}</div>
-
-{% capture second-notice %}
-**Sezione aggiuntive**
-
+## Sezione aggiuntive
 + [Setup Scheda SD](sd-card-setup)
 + [Lazy DSi Downloader](/lazy-dsi-downloader)
 + [Estensioni File (Windows)](file-extensions-%28windows%29)
@@ -25,16 +14,8 @@ sitemap: false
 + [Disinstallazione di Unlaunch](uninstalling-unlaunch)
 + [Ripristino NAND](restoring-nand)
 
-{% endcapture %}
-<div class="notice--info">{{ second-notice | markdownify }}</div>
-
-{% capture other-notice %}
-**Altre pagine del sito**
-
+## Altre pagine del sito
 + [Home](.)
 + [Domande Frequenti (FAQ)](faq)
 + [Risoluzione problemi](troubleshooting)
 + [Crediti](credits)
-
-{% endcapture %}
-<div class="notice">{{ other-notice | markdownify }}</div>

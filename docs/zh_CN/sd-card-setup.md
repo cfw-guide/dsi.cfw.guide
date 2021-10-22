@@ -1,18 +1,15 @@
----
-title: SD 卡设置
----
+# SD 卡设置
 
 此页用于为您的Nintendo DSi准备SD卡。 在此过程中，我们将格式化SD卡以符合任天堂DSi的格式 ，并且检查卡中的错误。
 
+::: danger
 请确保以此操作之前，备份您SD卡的内容。 您的SD卡将在这个过程中被擦除数据。
-{: .notice--danger}
+:::
 
 {% capture windowsInstructions %}
-<noscript>
-   <h2>Windows</h2>
-</noscript>
+## Windows
 
-## 第一节 - 格式化您的 SD 卡
+### 第一节 - 格式化您的 SD 卡
 
 1. 下载最新版本的 [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
   - 点击网页上的图片以下载应用程序
@@ -24,9 +21,8 @@ title: SD 卡设置
 1. 开始格式化进程
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-{:.notice--info}
 
-## 第二节——检查错误
+### 第二节——检查错误
 1. 转到SD卡的属性窗口
    - `Windows 文件管理器` -> `此电脑` -> 右键点击你的SD卡 -> `属性`
 1. 在“工具”选项卡中选择`检查`
@@ -35,7 +31,7 @@ title: SD 卡设置
 
 这将扫描SD卡并纠正它发现的任何错误
 
-## 第 三 节 - 检查 SD 卡读/写
+### 第 三 节 - 检查 SD 卡读/写
 
 1. 下载 [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) 并将其解压到你电脑上任意地方。
    - 也可以在外部设备上解压它，只要外部设备不是您的 SD 卡
@@ -46,19 +42,19 @@ title: SD 卡设置
 1. 点击 `Write + Verify`
 - 等待完成
 
+::: tip
 如果测试结果显示 ` Test finished without errors`，那你的 SD 卡很好，你可以删除所有你SD卡上的`.h2w` 文件
-{: .notice--info}
+:::
 
+::: danger
 如果测试显示任何其他结果，的 SD卡可能已损坏或损坏，你可能需要替换它！
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture linuxInstructions %}
-<noscript>
-   <h2>Linux</h2>
-</noscript>
+## Linux
 
-## 第一节 - 格式化您的 SD 卡
+### 第一节 - 格式化您的 SD 卡
 1. 请确保你的SD卡 **没有** 插入到你的Linux设备
 1. 启动Linux终端
 1. 输入 `watch "lsblk"`
@@ -74,7 +70,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. 按 CTRL + C 键退出菜单
 1. 输入 `sudo mkdosfs /dev/(上面的设备挂载点) - s 64 -F 32` 来在SD卡上创建一个 FAT32格式, 分配单位大小为32 KB 的分区
 
-## 第 二 节 - 使用F3
+### 第 二 节 - 使用F3
 1. 下载并解压 [ F3 文件](https://github.com/AltraMayor/f3/archive/v7.2.zip) 到你的计算机的任意地方
 1. 在F3文件夹里启动终端
 1. 输入 `make` 对F3进行打包
@@ -108,20 +104,20 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 ___
 
+::: tip
 如果测试结果显示 `Data LOST: 0.00 Byte (0 sectors)` 这证明你的SD卡非常好并且你可以删除所有在你SD卡里的 `.h2w`文件
-{: .notice--info}
+:::
 
+::: danger
 如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture macosInstructions %}
-<noscript>
-   <h2>macOS</h2>
-</noscript>
+## macOS
 
-## 第一节 - 格式化您的 SD 卡
-### OS X El Capitan (10.11) 及更高版本
+### 第一节 - 格式化您的 SD 卡
+#### OS X El Capitan (10.11) 及更高版本
 
 1. 启动"Disk Utility"应用程序
 1. 通过左上角的 `View` 面板，选择 `Show All Devices`
@@ -134,7 +130,7 @@ ___
    - 如果"Scheme"不显示, 点击"Cancel"并确保你选择的不是声音设备
 1. 点击 `Erase`, 再点击 `Close`
 
-### OS X Yosemite (10.10) 及更早版本
+#### OS X Yosemite (10.10) 及更早版本
 1. 启动"Disk Utility"应用程序
 1. 从侧边栏选择你的SD卡
    - 确保你选择的是正确的设备, 否则你可能会格式化错误的驱动器
@@ -145,7 +141,7 @@ ___
 1. 从设置按钮 (分区表下方), 选择`"Master Boot Record"`
 1. 点击 `OK` -> `Apply` -> `Partition`
 
-## 第 二 节 - 使用F3
+### 第 二 节 - 使用F3
 1. 打开终端
 1. 输入 `brew install f3`，从brew安装 F3
    - 如果你没有brew，请根据说明 [brew.sh](https://brew.sh) 安装
@@ -179,11 +175,13 @@ ___
 
 ___
 
+::: tip
 如果测试结果显示 `Data LOST: 0.00 Byte (0 sectors)` 这证明你的SD卡非常好并且你可以删除所有在你SD卡里的 `.h2w`文件
-{: .notice--info}
+:::
 
+::: danger
 如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
-{: .notice--danger}
+:::
 {% endcapture %}
 
 <div class="tabcontainer">
@@ -196,6 +194,7 @@ ___
    <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
 </div>
 
+::: tip
 你现在可以恢复你的SD卡数据并继续此教程
-{: .notice--primary}
+:::
 

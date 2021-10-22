@@ -1,18 +1,15 @@
----
-title: Preparacion de la tarjeta SD
----
+# Preparacion de la tarjeta SD
 
 Esta página es para preparar la tarjeta SD para usarla con tu consola. En el proceso, formatearemos la tarjeta SD con un formate adecuado para la Nintendo DSi, y revisaremos la tarjeta en búsqueda de errores.
 
+::: danger
 Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir esto. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
-{: .notice--danger}
+:::
 
 {% capture windowsInstructions %}
-<noscript>
-   <h2>Windows</h2>
-</noscript>
+## Windows
 
-## Sección I - Formatear tu tarjeta SD
+### Sección I - Formatear tu tarjeta SD
 
 1. Descarga la última versión de [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm).
   - Haz clic en la imagen en el sitio web para descargar la aplicación.
@@ -24,9 +21,8 @@ Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes 
 1. Inicia el proceso de formato.
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-{:.notice--info}
 
-## Sección II - Comprobación de errores
+### Sección II - Comprobación de errores
 1. Ve a la ventana Propiedades de tu tarjeta SD.
    - Abre el `Explorador de Windows`, ve a `Equipo` y haz clic derecho en tu tarjeta SD. Luego, haz clic en `Propiedades`.
 1. En la pestaña de Herramientas, selecciona la opción `Comprobar ahora`.
@@ -35,7 +31,7 @@ Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes 
 
 Esto escaneará la tarjeta SD y corregirá cualquier error que el sistema encuentre.
 
-## Sección III - Comprobar que se pueden leer y escribir datos de/a la tarjera SD
+### Sección III - Comprobar que se pueden leer y escribir datos de/a la tarjera SD
 
 1. Descarga y extrae [el archivo h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) en cualquier lugar de tu ordenador.
    - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD.
@@ -46,19 +42,19 @@ Esto escaneará la tarjeta SD y corregirá cualquier error que el sistema encuen
 1. Haz clic en `Write + Verify`.
 - Espera hasta que el proceso se complete.
 
+::: tip
 Si la prueba muestra el resultado `Test finished without errors`, tu tarjeta SD está en buen estado y puedes eliminar todos los archivos cuya extensión sea `.h2w` de tu tarjeta SD.
-{: .notice--info}
+:::
 
+::: danger
 Si la prueba muestra cualquier otro resultado, tu tarjeta SD podría estar corrupta o dañada. Recomendamos que busques un reemplazo para prevenir errores.
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture linuxInstructions %}
-<noscript>
-   <h2>Linux</h2>
-</noscript>
+## Linux
 
-## Sección I - Formatar tu tarjeta SD
+### Sección I - Formatar tu tarjeta SD
 1. Asegúrate de que tu tarjeta SD **no** esté insertada en tu máquina Linux.
 1. Ejecuta la terminal de Linux
 1. Escribe `watch "lsblk"`.
@@ -74,7 +70,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Haz la combinación de teclas CTRL + C para salir del menú
 1. Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 32` para crear una única particion de formato FAT32 con un tamaño de asignación de 32KB en la tarjeta SD.
 
-## Seccion II - Usar F3
+### Seccion II - Usar F3
 1. Descarga y extrae el [archivo F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) en cualquier lugar de tu ordenador.
 1. Inicia la terminal en el directorio F3.
 1. Ejecuta `make` para compilar F3.
@@ -108,20 +104,20 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 ___
 
+::: tip
 Si la prueba muestra el resultado `Data LOST: 0.00 Byte (0 sectors)` tu tarjeta SD está bien y puedes borrar todos los archivos `.h2w` de tu tarjeta SD
-{: .notice--info}
+:::
 
+::: danger
 Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 {% capture macosInstructions %}
-<noscript>
-   <h2>macOs</h2>
-</noscript>
+## macOs
 
-## Sección I - Formateando tu tarjeta SD
-### OS X El Capitan (10.11) y posteriores
+### Sección I - Formateando tu tarjeta SD
+#### OS X El Capitan (10.11) y posteriores
 
 1. Inicia la aplicación de utilidad de disco
 1. Seleccione `Mostrar todos los dispositivos` en la parte superior izquierda `Ver` panel
@@ -134,7 +130,7 @@ Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupt
    - Si `Esquema` no aparece, haga clic en `Cancelar` y asegúrese de elegir el dispositivo en lugar de un volumen
 1. Haz clic en `borrar`y luego en `Cerrar`
 
-### OS X Yosemite (10.10) y anteriores
+#### OS X Yosemite (10.10) y anteriores
 1. Iniciar la aplicación de utilidad de disco
 1. Selecciona tu tarjeta SD desde la barra lateral
    - ¡Asegúrate de elegir el dispositivo correcto, de lo contrario podrías borrar accidentalmente la unidad equivocada!
@@ -145,7 +141,7 @@ Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupt
 1. En el botón Opciones (debajo de la tabla de particiones), seleccione `Master Boot Record`.
 1. Haga clic en `Aceptar` -> `Aplicar` -> `Partición`
 
-## Sección II - Usando F3
+### Sección II - Usando F3
 1. Abre Terminal
 1. Instala F3 desde brew ejecutando `brew install f3`
    - Si no tienes brew, instálalo con las instrucciones en [brew.sh](https://brew.sh)
@@ -179,11 +175,13 @@ Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupt
 
 ___
 
+::: tip
 Si la prueba muestra el resultado `Data LOST: 0. 0 Byte (0 sectores)` tu tarjeta SD está bien y puedes borrar todos los archivos `.h2w` de tu tarjeta SD
-{: .notice--info}
+:::
 
+::: danger
 Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
-{: .notice--danger}
+:::
 {% endcapture %}
 
 <div class="tabcontainer">
@@ -197,6 +195,7 @@ Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar 
    <div id="macosInstructions" class="blanktabcontent">{{ macosInstructions | markdownify }}</div>
 </div>
 
+::: tip
 Ahora puedes restaurar el contenido de tu tarjeta SD y continuar.
-{: .notice--primary}
+:::
 

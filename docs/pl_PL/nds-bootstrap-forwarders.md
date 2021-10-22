@@ -1,6 +1,4 @@
----
-title: "forwardery nds-bootstrap dla hiyaCFW"
----
+# forwardery nds-bootstrap dla hiyaCFW
 
 Jest to dodatkowa sekcja, która polega na tworzeniu forwarderów dla nds-bootstrap. Pozwala ona na uruchamianie romów nds bezpośrednio z menu systemu SDNAND.
 

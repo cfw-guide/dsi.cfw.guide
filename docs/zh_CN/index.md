@@ -7,14 +7,17 @@ title: DSi 破解指南
 excerpt: "最完整的 Nintendo DSi 破解指南"
 ---
 
+::: tip
 欲了解其他设备的自制程序和自定义固件的完整指南，请参阅 [CFW.Guide](https://cfw.guide/)
-{: .notice--primary}
+:::
 
+::: danger
 本指南不适用于Nintendo DSi开发机。
-{: .notice--danger}
+:::
 
+::: tip
 在继续之前，请详细阅读包括本页在内的全部介绍页面。
-{: .notice--info}
+:::
 
 ## 自制程序（Homebrew）是什么 ？
 
@@ -54,5 +57,6 @@ excerpt: "最完整的 Nintendo DSi 破解指南"
 - 唯一会使设备变砖的风险来自 Unlaunch，但机率微乎其微
 - 如果您没有经验将文件复制到SD卡，我们有可用的辅助工具帮助您。
 
+::: tip
 Continue to [Launching the Exploit](launching-the-exploit)
-{: .notice--info}
+:::

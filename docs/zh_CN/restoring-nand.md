@@ -1,14 +1,12 @@
----
-title: 还原 NAND备份
----
+# 还原 NAND备份
 
-{% include toc title="Table of Contents" %}
-
+::: danger
 警告！ 这非常 ***危险***！！！ 即使严格按照这些步骤操作也有可能使DSi变砖，因为机器的NAND闪存质量很低，尤其是如果你已经多次刷机！ 这只能作为最后手段使用！
-{: .notice--danger}
+:::
 
+::: tip
 请勿跳过此页上的 *任何步骤*, 任何错误都会使得你DSi的变砖几率增加.
-{: .notice--info}
+:::
 
 首先，除了你打算这样做的原因之外，还有几种更安全的替代选择：
 - 可以使用 hiyaCFW 或 TWiLight 菜单++安装DSiWare
@@ -53,11 +51,13 @@ title: 还原 NAND备份
 
 ## 刷入你的NAND备份 (软件方式)
 
+::: danger
 请确保您已经阅读过上述步骤，因为这是开始变得危险的地方。 如果您直接链接到这里而没有跟从以上内容，请回到顶端阅读整个页面。
-{: .notice--danger}
+:::
 
+::: danger
 请确保您的 Nintendo DSi 在开始本节之前已经充满电。
-{: .notice--danger}
+:::
 
 1. 在插入 SD 卡的状态下，按住 <kbd class="face">A</kbd> 和<kbd class="face">B</kbd> 开机
 3. 启动 SafeNANDManager
@@ -67,4 +67,4 @@ title: 还原 NAND备份
 现在你的NAND应该已被还原。
 
 ## 刷入你的NAND备份 (硬件修改)
-如果你不能启动你的Nintendo DSi，硬刷是恢复NAND备份的唯一途径。 目前存在的最佳指南是 DS-Homebrew Wiki</a> 上的 Nintendo DSi 硬破 指南。</p>
+如果你不能启动你的Nintendo DSi，硬刷是恢复NAND备份的唯一途径。 目前存在的最佳指南是 [DS-Homebrew Wiki 上的 Nintendo DSi 硬破 指南](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi)。

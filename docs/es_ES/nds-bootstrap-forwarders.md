@@ -1,6 +1,4 @@
----
-title: "lanzadores de nds-bootstrap para hiyaCFW"
----
+# lanzadores de nds-bootstrap para hiyaCFW
 
 Esta es una sección de complementos que implica crear redireccionadores para nds-bootstrap. Esto le permite lanzar nds roms directamente desde el Menu de Sistema de su SDNAND.
 

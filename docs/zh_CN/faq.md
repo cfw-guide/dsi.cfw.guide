@@ -1,8 +1,4 @@
----
-title: "常见问题"
----
-
-{% include toc title="Questions" %}
+# 常见问题
 
 ### 修改我的系统将会丢失什么功能？
 - 如果您决定安装Unlaunch，您将不会丢失任何系统功能

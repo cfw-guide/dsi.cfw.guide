@@ -1,8 +1,4 @@
----
-title: "Installation de Unlaunch"
----
-
-{% include toc title="Navigation" %}
+# Installation de Unlaunch
 
 Unlaunch est un exploit qui se déclenche au démarrage du système. Cela lui donne des privilèges plus élevés que les exploits normaux DSiWare comme Memory Pit, ce qui lui permet de faire ce qui suit :
 
@@ -14,16 +10,19 @@ Unlaunch est un exploit qui se déclenche au démarrage du système. Cela lui do
 - Meilleur sononité sur GBARunner2
 - Protection contre les bricks
 
+::: danger
 Si vous ne l'avez pas encore fait, veuillez faire une [sauvegarde de la NAND](dumping-nand). Même si les chances sont minces, Unlaunch peut accidentellement brick votre Nintendo DSi. Une sauvegarde de la NAND + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) vous permettrait de restaurer cette sauvegarde, à condition que vous sachiez comment s'y prendre.
-{: .notice--danger}
+:::
 
+::: warning
 Assurez-vous que votre console est chargée lorsque vous suivez ce processus. Une perte soudaine de batterie pourrait causer de graves dégâts.
-{: .notice--warning}
+:::
 
 ## Section I - Préparations de la carte SD
 
+::: tip
 Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader) pour configurer automatiquement votre carte SD.
-{: .notice--info}
+:::
 
 1. Téléchargez la dernière version de [Unlaunch](https://problemkaputt.de/unlaunch.zip)
    - [Lien miroir](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si le précédent ne fonctionne pas
@@ -73,8 +72,9 @@ Nous allons également reconfigurer nds-bootstrap pour lancer TWiLight Menu++ (a
 
 ## Section IV - Nettoyage de votre carte SD
 
+::: tip
 Cette section est optionnelle et sert uniquement à garder votre carte SD en bon état.
-{: .notice--primary}
+:::
 
 - Supprimez le fichier `sd:/private/ds/app/484E494A/pit.bin` de votre carte SD
    - Si vous avez utilisé un autre exploit, supprimez les fichiers de cet exploit à la place

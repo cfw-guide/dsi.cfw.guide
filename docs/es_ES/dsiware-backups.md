@@ -1,8 +1,4 @@
----
-title: Respaldos de DSiWare
----
-
-{% include toc title="DSiWare Backups" %}
+# Respaldos de DSiWare
 
 ## Requisitos
 - La ultima version de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
@@ -19,8 +15,9 @@ title: Respaldos de DSiWare
 
 Cuando pasa el cursor sobre la entrada, la pantalla inferior debe mostrar la ruta. Apunta la dirección de la ruta.
 
+::: tip
 Una ruta de ejemplo sería `nand:/title/0030005/484e4a45/content/00000003.app`
-{: .notice--info}
+:::
 
 ### Sección II - Extrayendo el archivo
 1. Inicia GodMode91 desde el sistema de archivos de Unlaunch.

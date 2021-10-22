@@ -1,18 +1,17 @@
----
-title: "Dumping Game Cards"
----
+# Dumping Game Cards
 
 This section is for dumping game cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
 
 ## 需要准备
-* The game card of the title you would like to dump
-* 一台安装了[Unlaunch](installing-unlaunch)的Nintendo/iQue DSi
+- The game card of the title you would like to dump
+- 一台安装了[Unlaunch](installing-unlaunch)的Nintendo/iQue DSi
 
 ## 操作步骤
 ### Section I - SD card setup
 
+::: tip
 Using a Windows, Linux, or macOS device? 使用 [Lazy DSi Downloader](lazy-dsi-downloader) 来自动设置您的 SD 卡。
-{: .notice--info}
+:::
 
 1. 下载最新版本的 [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
 1. 从 GodMode9i 目录中解压 `GodMode9i.nds` 并复制到你SD卡的任意位置
@@ -28,5 +27,6 @@ Using a Windows, Linux, or macOS device? 使用 [Lazy DSi Downloader](lazy-dsi-d
    - Trim: 移除填充内容
 1. Repeat steps 3-5 for all game cards you wish to dump
 
+::: tip
 The dumped game cards will be found in `sd:/gm9i/out`.
-{: .notice--success}
+:::

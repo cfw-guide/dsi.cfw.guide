@@ -1,8 +1,4 @@
----
-title: Risoluzione dei problemi
----
-
-{% include toc title="Table of Contents" %}
+# Risoluzione dei problemi
 
 ## Unlaunch
 ### Unlaunch si blocca a `MISMATCH IN FAT COPIES`?

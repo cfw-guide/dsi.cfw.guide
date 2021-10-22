@@ -1,8 +1,4 @@
----
-title: DSiWare mentések
----
-
-{% include toc title="DSiWare Backups" %}
+# DSiWare mentések
 
 ## Követelmények
 - A [GodMode9i](https://github.com/RocketRobz/godmode9i/releases) legfrissebb kiadása
@@ -19,8 +15,9 @@ title: DSiWare mentések
 
 Ha felé állsz a bejegyzés felé, az alsó képernyőn látnod kell az útvonalat. Jegyezd fel az útvonalat.
 
+::: tip
 Egy példa útvonal lehet: `nand:/title/0030005/484e4a45/content/00000003.app`
-{: .notice--info}
+:::
 
 ### II. rész - A fájl kicsomagolása
 1. Indítsd el GodMode9i-t az Unlaunch Filemenu-ből
