@@ -10,7 +10,7 @@ Esta página es para preparar la tarjeta SD para usarla con tu consola. En el pr
 Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir esto. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows

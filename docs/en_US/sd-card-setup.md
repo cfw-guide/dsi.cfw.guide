@@ -10,7 +10,7 @@ This page is for preparing your SD card for your Nintendo DSi. In the process, w
 Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows

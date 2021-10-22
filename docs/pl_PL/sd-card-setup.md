@@ -10,7 +10,7 @@ Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. 
 Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfiguracji. Twoja karta SD będzie zresetowana w tym procesie.
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows

@@ -10,7 +10,7 @@ Cette page est destinée à préparer votre carte SD pour votre Nintendo DSi. Du
 Assurez-vous de sauvegarder le contenu de votre carte SD AVANT de continuer. Toutes les données de votre carte SD seront EFFACÉES pendant le processus.
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows

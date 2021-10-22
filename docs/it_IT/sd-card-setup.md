@@ -10,7 +10,7 @@ Questa pagina serve a preparare la scheda SD del tuo Nintendo DSi. In questo pro
 Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire la guida. La tua scheda SD verrà FORMATTATA e i file dentro essa verrano eliminati nel processo.
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows

@@ -10,7 +10,7 @@ sidebarDepth: 3
 请确保以此操作之前，备份您SD卡的内容。 您的SD卡将在这个过程中被擦除数据。
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows

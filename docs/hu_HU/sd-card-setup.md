@@ -6,7 +6,7 @@ Ez az oldal az SD kártyád előkészítéséről szól a Nintendo DSi-hez. A fo
 Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT követnéd a lépéseket. Az SD kártya WIPEOLVA lesz a folyamat során.
 :::
 
-<tabs>
+<tabs :options="{ useUrlFragment: false }">
 <tab name="Windows">
 
 ## Windows
