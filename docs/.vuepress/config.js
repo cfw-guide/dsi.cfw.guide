@@ -1,9 +1,8 @@
-import { defineUserConfig } from "vuepress";
-import type { DefaultThemeOptions } from "vuepress";
+const { i18n, themeConfig } = require("./i18n");
 
-import { i18n, themeConfig } from "./i18n";
+module.exports = {
+	title: "DSi Guide",
 
-export default defineUserConfig<DefaultThemeOptions>({
 	plugins: [
 		[
 			"vuepress-plugin-redirect",
@@ -12,34 +11,6 @@ export default defineUserConfig<DefaultThemeOptions>({
 				// it will automatically redirect `/foo/bar/` to `/:locale/foo/bar/` if exists
 				locales: true,
 			},
-		],
-		[
-			"@vuepress/plugin-search",
-			{
-				locales: {
-					"/en_US/": {
-						placeholder: i18n.en_US.search
-					},
-					"/es_ES/": {
-						placeholder: i18n.es_ES.search
-					},
-					"/fr_FR/": {
-						placeholder: i18n.fr_FR.search
-					},
-					"/hu_HU/": {
-						placeholder: i18n.hu_HU.search
-					},
-					"/it_IT/": {
-						placeholder: i18n.it_IT.search
-					},
-					"/pl_PL/": {
-						placeholder: i18n.pl_PL.search
-					},
-					"/zh_CN/": {
-						placeholder: i18n.zh_CN.search
-					}
-				}
-			}
 		]
 	],
 
@@ -97,4 +68,4 @@ export default defineUserConfig<DefaultThemeOptions>({
 			"/zh_CN/": themeConfig.zh_CN
 		}
 	}
-});
+};
