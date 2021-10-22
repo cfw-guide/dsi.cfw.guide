@@ -11,6 +11,42 @@ module.exports = {
 		}
 	},
 
+	nav: [
+		{
+			text: "SD Card Setup",
+			link: "sd-card-setup"
+		},
+		{
+			text: "Troubleshooting",
+			link: "troubleshooting"
+		},
+		{
+			text: "FAQ",
+			link: "faq"
+		},
+		{
+			text: "Backups",
+			items: [
+				{
+					text: "DSiWare Backups",
+					link: "dsiware-backups"
+				},
+				{
+					text: "Dumping Game Cards",
+					link: "dumping-game-cards"
+				},
+				{
+					text: "Dumping NAND",
+					link: "dumping-nand"
+				}
+			]
+		},
+		{
+			text: "Uninstalling Unlaunch",
+			link: "uninstalling-unlaunch"
+		}
+	],
+
 	sidebar: {
 		"/zh_CN/": [
 			"",
