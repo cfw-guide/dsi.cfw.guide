@@ -34,7 +34,7 @@ Using a Windows, Linux, or macOS device? 使用 Windows、Linux 或 macOS 设备
 
 1. 打开TWiLight Menu++
    - 如果这是您第一次安装 Unlaunch，请通过您使用的漏洞重新启动 TWiLight Menu++
-   - 如果您已经安装了Unlaunch并恢复更新，在启动时选择<kbd class="A">A</kbd> + <kbd class="face">B</kbd>选择`TWiLight菜单+ +`,当`BOOT.NDS`显示在底部屏幕时。
+   - 如果您已经安装了Unlaunch并恢复更新，在启动时选择<kbd class="face">A</kbd> + <kbd class="face">B</kbd>选择`TWiLight菜单+ +`,当`BOOT.NDS`显示在底部屏幕时。
 1. 启动暮光之城菜单++设置
    - 如果您没有更改主题，请按“启动漏洞”页面中的步骤操作。 否则，请参阅TWiLight 菜单++ 手册
 1. 点击 <kbd class="l">L</kbd> / <kbd class="r">R</kbd> 或 <kbd class="face">X</kbd> / <kbd class=" face">Y</kbd> 直到您到达 `Unlaunch Settings` 页面 1.如果你想改变Unlaunch的背景图片，选择`Background`并选择你想要的
