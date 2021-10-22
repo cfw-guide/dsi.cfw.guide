@@ -1,7 +1,7 @@
 module.exports = {
 	label: "Italiano",
 	ariaLabel: "Select language",
-	selectText: "Language",
+	selectText: "🌐︎",
 	editLinkText: "Edit this page on GitHub",
 
 	serviceWorker: {
