@@ -56,6 +56,6 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
-::: tip NEXT PAGE
+::: tip
 Continue to [Launching the Exploit](launching-the-exploit)
 :::
