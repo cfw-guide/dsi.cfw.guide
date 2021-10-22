@@ -24,7 +24,7 @@ Az egyetlen dolog, amit a NAND-oddal kell tenned az az Unlaunch telepítése. Ha
 - A [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds) legutolsó kiadása
 - Egy mód arra, hogy homebrew-ot futtass NAND hozzáféréssel, mint az Unlaunch vagy a Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), a NAND mentésed ellenőrzéséhez (Töltsd le a 'Windows gaming version'-t)
-  - macOS és Linux felhasználók használhatják a [WINE](https://winehq.org)-t a no$gba futtatásához
+   - macOS és Linux felhasználók használhatják a [WINE](https://winehq.org)-t a no$gba futtatásához
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## A BIOS dumpolása a no$gba-ban történő használathoz

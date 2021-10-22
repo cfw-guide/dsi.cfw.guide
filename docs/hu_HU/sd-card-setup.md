@@ -12,11 +12,11 @@ Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT köve
 ### I. rész - Az SD kártya formázása
 
 1. Töltsd le a [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) legfrissebb kiadását
-  - Kattints a képre a weboldalon, hogy letöltsd az appot
+   - Kattints a képre a weboldalon, hogy letöltsd az appot
 1. Futtasd a GUIFormat-ot Adminisztrátor joggal
 1. Válaszd ki az SD kártyád betűjelét
 1. Állítsd be az `Allocation size unit`-ot `32768`-ra
-  - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
+   - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
 1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
 1. Indíts el a formázást
 

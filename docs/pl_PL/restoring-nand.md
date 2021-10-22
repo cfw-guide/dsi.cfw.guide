@@ -24,7 +24,7 @@ Jedyną rzeczą, którą powinieneś zrobić ze swoją pamięcią NAND jest inst
 - Najnowsza wersja [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Sposób uruchamiania homebrew z dostępem NAND, takim jak Unlaunch lub Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), aby sprawdzić kopię zapasową NAND (Pobierz wersję dla Windows)
-  - użytkownicy macOS i Linux mogą używać [WINE](https://winehq.org), aby uruchomić no$gba
+   - użytkownicy macOS i Linux mogą używać [WINE](https://winehq.org), aby uruchomić no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Zrzucenie BIOS do użycia w no$gba

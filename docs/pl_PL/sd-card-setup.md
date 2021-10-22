@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Konfiguracja karty SD
 
 Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. W tym poradniku, sformatujemy kartę SD do formatu odpowiedniego dla Nintendo DSi i sprawdzimy błędy karty.
@@ -12,11 +16,11 @@ Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfig
 ### Sekcja I - Formatowanie karty SD
 
 1. Pobierz najnowszą wersję [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-  - Kliknij na zdjęcie na stronie internetowej, aby pobrać aplikację
+   - Kliknij na zdjęcie na stronie internetowej, aby pobrać aplikację
 1. Uruchom GUIFormat z uprawnieniami administratora
 1. Wybierz literę dysku
 1. Ustaw `Allocation size unit` na `32768`
-  - Jeśli jest on zbyt duży dla twojego SD, ustaw go na najwyższy, który działa
+   - Jeśli jest on zbyt duży dla twojego SD, ustaw go na najwyższy, który działa
 1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
 1. Rozpocznij proces formatowania
 

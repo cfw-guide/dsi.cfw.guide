@@ -24,7 +24,7 @@ The only thing you should be doing with your NAND is installing Unlaunch. Use th
 - The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - A way to run homebrew with NAND access, such as Unlaunch or Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
-  - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
+   macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Dumping the BIOS for use in no$gba

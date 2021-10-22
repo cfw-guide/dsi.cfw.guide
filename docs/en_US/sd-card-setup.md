@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # SD Card Setup
 
 This page is for preparing your SD card for your Nintendo DSi. In the process, we'll format the SD card to a format suitable for the Nintendo DSi and check the card for errors.
@@ -20,7 +24,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-  - Accept the End User License Agreement to start the download
+   - Accept the End User License Agreement to start the download
 1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
 1. Select your SD card
@@ -36,11 +40,11 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 :::
 
 1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-  - Click on the picture on the website to download the app
+   - Click on the picture on the website to download the app
 1. Run GUIFormat with Administrator permissions
 1. Select your drive letter
 1. Set your `Allocation size unit` it to `32768`
-  - If this is too large for your SD, set it to the highest one that works
+   - If this is too large for your SD, set it to the highest one that works
 1. Make sure the `Quick Format` check box is checked
 1. Start the format process
 
@@ -153,7 +157,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
-  - Accept the End User License Agreement to start the download
+   - Accept the End User License Agreement to start the download
 1. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
 1. Run `SD Card Formatter`
 1. Select your SD card

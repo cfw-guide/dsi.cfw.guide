@@ -24,7 +24,7 @@ L'unica cosa che dovresti fare con la tua NAND è installare Unlaunch. Usa le al
 - La versione più recente di [MakeForwarder](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Un modo per eseguire homebrew con l'accesso alla NAND, come Unlaunch o Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), per controllare il backup della NAND (scarica la versione di gioco di Windows)
-  - gli utenti macOS e Linux possono usare [WINE](https://winehq.org) per avviare no$gba
+   - gli utenti macOS e Linux possono usare [WINE](https://winehq.org) per avviare no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Fai un dump della BIOS per utilizzarla in no$gba

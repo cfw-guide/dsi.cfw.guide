@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # SD 卡设置
 
 此页用于为您的Nintendo DSi准备SD卡。 在此过程中，我们将格式化SD卡以符合任天堂DSi的格式 ，并且检查卡中的错误。
@@ -12,11 +16,11 @@
 ### 第一节 - 格式化您的 SD 卡
 
 1. 下载最新版本的 [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-  - 点击网页上的图片以下载应用程序
+   - 点击网页上的图片以下载应用程序
 1. 使用管理员权限运行 GUIFormat
 1. 选择 SD 卡对应的盘符
 1. 将 `Allocation size unit`设置为 `32768`
-  - 如果这对于您的 SD卡来说太大的话，请将它尽可能设置为最高
+   - 如果这对于您的 SD卡来说太大的话，请将它尽可能设置为最高
 1. 确认 `Quick Format` 复选框已被勾选
 1. 开始格式化进程
 
