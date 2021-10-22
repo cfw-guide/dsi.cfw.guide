@@ -4,8 +4,6 @@ import type { DefaultThemeOptions } from "vuepress";
 import { i18n, themeConfig } from "./i18n";
 
 export default defineUserConfig<DefaultThemeOptions>({
-	base: "/dsi.cfw.guide/",
-
 	plugins: [
 		[
 			"vuepress-plugin-redirect",
