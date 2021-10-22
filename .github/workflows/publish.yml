@@ -2,7 +2,7 @@ name: Deploy site
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, vuepress ]
 
 jobs:
   doc-deploy:
