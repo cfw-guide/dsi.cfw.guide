@@ -1,0 +1,23 @@
+.navbar-links-item:nth-last-of-type(2) .dropdown-title > span:first-of-type,
+.navbar-links-item:nth-last-of-type(2) .mobile-dropdown-title > span:first-of-type {
+	font-size: 1.75rem;
+	margin-left: 0.15rem;
+	vertical-align: top;
+}
+
+kbd {
+	&.l {
+		border-radius: 15px 6px 6px 6px;
+		padding: 0 3px 0 7px;
+	}
+
+	&.r {
+		border-radius: 6px 15px 6px 6px;
+		padding: 0 7px 0 3px;
+	}
+
+	&.face {
+		padding: 0 6px;
+		border-radius: 15px;
+	}
+}

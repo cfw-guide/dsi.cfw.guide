@@ -1,84 +1,62 @@
 module.exports = {
-	label: "Polski",
-	ariaLabel: "Select language",
-	selectText: "🌐︎",
-	editLinkText: "Edit this page on GitHub",
+	selectLanguageName: "Polski",
 
-	serviceWorker: {
-		updatePopup: {
-			message: "New content is available.",
-			buttonText: "Refresh"
-		}
-	},
+	backToHome: "Take me home",
+	contributorsText: "Contributors",
+	danger: "DANGER",
+	editLinkText: "Edit this page",
+	lastUpdatedText: "Last Updated",
+	openInNewWindow: "open in new window",
+	selectLanguageAriaLabel: "Select language",
+	tip: "INFO",
+	toggleDarkMode: "toggle dark mode",
+	toggleSidebar: "toggle sidebar",
+	warning: "WARNING",
 
-	nav: [
-		{
-			text: "SD Card Setup",
-			link: "sd-card-setup"
-		},
-		{
-			text: "Troubleshooting",
-			link: "troubleshooting"
-		},
-		{
-			text: "FAQ",
-			link: "faq"
-		},
+	navbar: [
+		"sd-card-setup",
+		"troubleshooting",
+		"faq",
 		{
 			text: "Backups",
-			items: [
-				{
-					text: "DSiWare Backups",
-					link: "dsiware-backups"
-				},
-				{
-					text: "Dumping Game Cards",
-					link: "dumping-game-cards"
-				},
-				{
-					text: "Dumping NAND",
-					link: "dumping-nand"
-				}
+			children: [
+				"dsiware-backups",
+				"dumping-game-cards",
+				"dumping-nand"
+			]
+		},
+		"uninstalling-unlaunch"
+	],
+
+	sidebar: [
+		"index.html",
+		{
+			text: "Guide",
+			children: [
+				"launching-the-exploit",
+				"dumping-nand",
+				"installing-unlaunch"
 			]
 		},
 		{
-			text: "Uninstalling Unlaunch",
-			link: "uninstalling-unlaunch"
+			text: "Extras",
+			children: [
+				"dsiware-backups",
+				"dumping-game-cards",
+				"file-extensions-(windows)",
+				"restoring-nand",
+				"sd-card-setup",
+				"uninstalling-unlaunch"
+			]
+		},
+		{
+			text: "Other",
+			children: [
+				"faq",
+				"troubleshooting",
+				"credits",
+				"site-navigation"
+			]
 		}
-	],
-
-	sidebar: {
-		"/pl_PL/": [
-			"",
-			{
-				title: "Guide",
-				children: [
-					"launching-the-exploit",
-					"dumping-nand",
-					"installing-unlaunch"
-				]
-			},
-			{
-				title: "Extras",
-				children: [
-					"dsiware-backups",
-					"dumping-game-cards",
-					"dumping-nand",
-					"file-extensions-(windows)",
-					"restoring-nand",
-					"sd-card-setup",
-					"uninstalling-unlaunch"
-				]
-			},
-			{
-				title: "Other",
-				children: [
-					"faq",
-					"troubleshooting",
-					"credits",
-					"site-navigation"
-				]
-			}
-		]
-	}
+	]
 };

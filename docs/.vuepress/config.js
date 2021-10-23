@@ -1,17 +1,37 @@
 const { i18n, themeConfig } = require("./i18n");
+const path = require("path");
 
 module.exports = {
+	theme: path.resolve(__dirname, "./vuepress-theme"),
+
 	plugins: [
 		[
-			"vuepress-plugin-redirect",
+			"@vuepress/plugin-search",
 			{
-				// provide i18n redirection
-				// it will automatically redirect `/foo/bar/` to `/:locale/foo/bar/` if exists
-				locales: true,
+				locales: {
+					"/en_US/": {
+						placeholder: i18n.en_US.search
+					},
+					"/es_ES/": {
+						placeholder: i18n.es_ES.search
+					},
+					"/fr_FR/": {
+						placeholder: i18n.fr_FR.search
+					},
+					"/hu_HU/": {
+						placeholder: i18n.hu_HU.search
+					},
+					"/it_IT/": {
+						placeholder: i18n.it_IT.search
+					},
+					"/pl_PL/": {
+						placeholder: i18n.pl_PL.search
+					},
+					"/zh_CN/": {
+						placeholder: i18n.zh_CN.search
+					}
+				}
 			}
-		],
-		[
-			"tabs"
 		]
 	],
 
@@ -58,6 +78,7 @@ module.exports = {
 	themeConfig: {
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsDir: "docs",
+		selectLanguageText: "🌐︎",
 
 		locales: {
 			"/en_US/": themeConfig.en_US,

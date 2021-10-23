@@ -1,9 +1,10 @@
 ---
 home: true
 title: Accueil
-heroImage: /assets/images/home-page-feature.png
-heroText: Guide DSi
 tagline: Le guide complet pour modder votre Nintendo DSi.
+header:
+   overlay_text: Guide DSi
+   overlay_image: /assets/images/home-page-feature.png
 ---
 
 ::: tip

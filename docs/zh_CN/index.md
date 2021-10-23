@@ -1,9 +1,10 @@
 ---
 home: true
 title: 主页
-heroImage: /assets/images/home-page-feature.png
-heroText: DSi 破解指南
 tagline: 最完整的 Nintendo DSi 破解指南
+header:
+   overlay_text: DSi 破解指南
+   overlay_image: /assets/images/home-page-feature.png
 ---
 
 ::: tip
