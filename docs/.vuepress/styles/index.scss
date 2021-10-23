@@ -1,8 +1,13 @@
-.navbar-links-item:nth-last-of-type(2) .dropdown-title > span:first-of-type,
-.navbar-links-item:nth-last-of-type(2) .mobile-dropdown-title > span:first-of-type {
-	font-size: 1.75rem;
-	margin-left: 0.15rem;
-	vertical-align: top;
+.navbar-links-item:nth-last-of-type(2) {
+	.dropdown-title, .mobile-dropdown-title {
+		height: 1.75rem;
+
+		span:first-of-type {
+			font-size: 1.75rem;
+			margin-left: 0.15rem;
+			vertical-align: top;
+		}
+	}
 }
 
 kbd {
