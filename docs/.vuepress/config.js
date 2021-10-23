@@ -47,6 +47,7 @@ module.exports = {
 		[ 'meta', { name: 'msapplication-TileImage', content: '/assets/favicon/mstile-144x144.png' } ],
 		[ 'meta', { name: 'msapplication-config', content: '/assets/favicon/browserconfig.xml' } ],
 		[ 'meta', { name: 'theme-color', content: '#2E3440' } ],
+		[ 'script', { src: 'https://cdn.thisiswaldo.com/static/js/8532.js' } ],
 	],
 	locales: {
 		// The key is the path for the locale to be nested under.
@@ -92,7 +93,8 @@ module.exports = {
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsDir: "docs",
 		selectLanguageText: "🌐︎",
-
+		adTagOne: 'waldo-tag-8548',
+		adTagTwo: 'waldo-tag-8549',
 		locales: {
 			"/en_US/": themeConfig.en_US,
 			"/es_ES/": themeConfig.es_ES,
