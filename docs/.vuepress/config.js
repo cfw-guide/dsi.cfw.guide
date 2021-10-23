@@ -35,6 +35,38 @@ module.exports = {
 		]
 	],
 
+	head: [
+		[
+			'link', 
+			{ 
+				rel: 'shortcut icon', 
+				href: '/assets/favicon/favicon.ico' 
+			}
+		],
+		[
+			'link', 
+			{ 
+				rel: 'icon',
+				type: 'image/png',
+				href: '/assets/favicon/favicon.ico' 
+			}
+		],
+		[
+			'link', 
+			{ 
+				rel: 'apple-touch-icon', 
+				sizes: "180x180",
+				href: '/assets/favicon/apple-touch-icon.png' 
+			}
+		],
+		[
+			'link', 
+			{ 
+				rel: 'manifeapple-touch-icon', 
+				href: '/assets/favicon/apple-touch-icon.png' 
+			}
+		],
+	],
 	locales: {
 		// The key is the path for the locale to be nested under.
 		// As a special case, the default locale can use "/" as its path.
