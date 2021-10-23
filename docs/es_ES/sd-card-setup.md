@@ -10,9 +10,6 @@ Esta página es para preparar la tarjeta SD para usarla con tu consola. En el pr
 Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir esto. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
 :::
 
-<tabs :options="{ useUrlFragment: false }">
-<tab name="Windows">
-
 ## Windows
 
 ### Sección I - Formatear tu tarjeta SD
@@ -55,9 +52,6 @@ Si la prueba muestra el resultado `Test finished without errors`, tu tarjeta SD 
 ::: danger
 Si la prueba muestra cualquier otro resultado, tu tarjeta SD podría estar corrupta o dañada. Recomendamos que busques un reemplazo para prevenir errores.
 :::
-
-</tab>
-<tab name="Linux">
 
 ## Linux
 
@@ -118,9 +112,6 @@ Si la prueba muestra el resultado `Data LOST: 0.00 Byte (0 sectors)` tu tarjeta 
 ::: danger
 Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
 :::
-
-</tab>
-<tab name="macOS">
 
 ## macOS
 
@@ -190,9 +181,6 @@ Si la prueba muestra el resultado `Data LOST: 0. 0 Byte (0 sectores)` tu tarjeta
 ::: danger
 Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
 :::
-
-</tab>
-</tabs>
 
 ::: tip
 Ahora puedes restaurar el contenido de tu tarjeta SD y continuar.

@@ -10,9 +10,6 @@ This page is for preparing your SD card for your Nintendo DSi. In the process, w
 Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
 :::
 
-<tabs :options="{ useUrlFragment: false }">
-<tab name="Windows">
-
 ## Windows
 
 ### Section I - Formatting your SD card with SD Formatter
@@ -80,9 +77,6 @@ If the test shows the result `Test finished without errors`, your SD card is hea
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 :::
 
-</tab>
-<tab name="Linux">
-
 ## Linux
 
 ### Section I - Formatting your SD card
@@ -144,9 +138,6 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 ::: danger
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 :::
-
-</tab>
-<tab name="macOS">
 
 ## macOS
 
@@ -241,9 +232,6 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 ::: danger
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 :::
-
-</tab>
-</tabs>
 
 ::: tip
 You can now restore the contents of your SD card and continue.

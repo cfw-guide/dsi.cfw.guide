@@ -10,9 +10,6 @@ Questa pagina serve a preparare la scheda SD del tuo Nintendo DSi. In questo pro
 Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire la guida. La tua scheda SD verrà FORMATTATA e i file dentro essa verrano eliminati nel processo.
 :::
 
-<tabs :options="{ useUrlFragment: false }">
-<tab name="Windows">
-
 ## Windows
 
 ### Sezione I - Formattazione della scheda SD
@@ -55,9 +52,6 @@ Se il test mostra il risultato `Test finito senza errori`, la tua scheda SD è b
 ::: danger
 Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 :::
-
-</tab>
-<tab name="Linux">
 
 ## Linux
 
@@ -118,9 +112,6 @@ Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua sche
 ::: danger
 Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 :::
-
-</tab>
-<tab name="macOS">
 
 ## macOS
 
@@ -190,9 +181,6 @@ Se il test mostra il risultato `Data LOST: 0.00 Byte (0 sectors)` la tua scheda 
 ::: danger
 Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 :::
-
-</tab>
-</tabs>
 
 ::: tip
 Ora puoi ripristinare il contenuto della tua scheda SD e continuare.
