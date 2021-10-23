@@ -1,9 +1,11 @@
-"project_id_env": "DSI_GUIDE_CROWDIN_ID"
-"api_token_env": "CROWDIN_TOKEN"
+project_id_env: DSI_GUIDE_CROWDIN_ID
+api_token_env: CROWDIN_TOKEN
 preserve_hierarchy: true
 
 files:
-  - source: /_pages/en_US/*.md
-    translation: /_pages/%locale_with_underscore%/%original_file_name%
-  - source: /_data/navigation/en_US.yml
-    translation: /_data/navigation/%locale_with_underscore%.yml
+  - source: /docs/en_US/*.md
+    translation: /docs/%locale_with_underscore%/%original_file_name%
+  - source: /docs/.vuepress/i18n/i18n/en_US.js
+    translation: /docs/.vuepress/i18n/i18n/%locale_with_underscore%.js
+  - source: /docs/.vuepress/i18n/themeConfig/en_US.js
+    translation: /docs/.vuepress/i18n/themeConfig/%locale_with_underscore%.js
