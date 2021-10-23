@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Mkdocs
-        # Build the site using mkdocs
+      - name: Run VuePress
+        # Build the site using VuePress
         run: npm run docs:build
 
       - name: Deploy 🚀
