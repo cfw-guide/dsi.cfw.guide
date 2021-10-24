@@ -48,6 +48,7 @@ module.exports = {
 		[ 'meta', { name: 'msapplication-config', content: '/assets/favicon/browserconfig.xml' } ],
 		[ 'meta', { name: 'theme-color', content: '#2E3440' } ],
 		[ 'script', { src: 'https://cdn.thisiswaldo.com/static/js/8532.js' } ],
+		[ 'script', {}, 'if (localStorage.getItem("vuepress-color-scheme") === "dark" || (localStorage.getItem("vuepress-color-scheme") !== "light" && (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches))) document.documentElement.classList.add("dark");' ],
 	],
 	locales: {
 		// The key is the path for the locale to be nested under.
