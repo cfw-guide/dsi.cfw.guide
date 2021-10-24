@@ -12,7 +12,7 @@ module.exports = {
 	toggleDarkMode: "toggle dark mode",
 	toggleSidebar: "toggle sidebar",
 	warning: "WARNING",
-	discordNoticeText: "Join the [DS(i) Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.",
+	discordNoticeText: "Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.",
 
 	navbar: [
 		"sd-card-setup",
