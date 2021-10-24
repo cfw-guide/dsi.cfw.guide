@@ -5,6 +5,7 @@ tagline: Una guia completa de modificar tu Nintendo DSi
 header:
    overlay_title: Guía de DSi
    overlay_image: /assets/images/home-page-feature.png
+   overlay_filter: 0.5
 ---
 
 ::: tip
