@@ -1,9 +1,7 @@
 ---
 home: true
 title: Kezdőlap
-tagline: A Nintendo DSi moddolás teljes útmutatója
 header:
-   overlay_text: DSi Útmutató
    overlay_image: /assets/images/home-page-feature.png
    overlay_filter: 0.5
 ---

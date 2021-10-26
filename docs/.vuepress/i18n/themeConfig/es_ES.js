@@ -3,15 +3,12 @@ module.exports = {
 
 	backToHome: "Take me home",
 	contributorsText: "Contributors",
-	danger: "DANGER",
 	editLinkText: "Edit this page",
 	lastUpdatedText: "Last Updated",
 	openInNewWindow: "open in new window",
 	selectLanguageAriaLabel: "Select language",
-	tip: "INFO",
 	toggleDarkMode: "toggle dark mode",
 	toggleSidebar: "toggle sidebar",
-	warning: "WARNING",
 	discordNoticeText: "Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.",
 
 	navbar: [

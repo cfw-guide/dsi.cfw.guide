@@ -1,9 +1,7 @@
 ---
 home: true
 title: Strona Główna
-tagline: Kompletny przewodnik do modyfikacji twojego Nintendo DSi
 header:
-   overlay_text: Przewodnik DSi
    overlay_image: /assets/images/home-page-feature.png
    overlay_filter: 0.5
 ---

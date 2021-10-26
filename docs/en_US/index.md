@@ -1,9 +1,7 @@
 ---
 home: true
 title: Home
-tagline: The complete guide to modding your Nintendo DSi
 header:
-   overlay_title: DSi Guide
    overlay_image: /assets/images/home-page-feature.png
    overlay_filter: 0.5
 ---
