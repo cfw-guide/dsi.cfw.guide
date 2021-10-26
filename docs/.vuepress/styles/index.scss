@@ -1,11 +1,16 @@
 .navbar-links-item:nth-last-of-type(2) {
 	.dropdown-title, .mobile-dropdown-title {
-		height: 1.75rem;
-
 		span:first-of-type {
-			font-size: 1.75rem;
-			margin-left: 0.15rem;
-			vertical-align: top;
+			vertical-align: middle;
+
+			&::after {
+				vertical-align: middle;
+				content: url(../../../../styles/globe-dark.svg);
+
+				html.dark & {
+					content: url(../../../../styles/globe-light.svg);
+				}
+			}
 		}
 	}
 }

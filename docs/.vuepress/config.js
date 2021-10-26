@@ -93,7 +93,7 @@ module.exports = {
 	themeConfig: {
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsDir: "docs",
-		selectLanguageText: "🌐︎",
+		selectLanguageText: "",
 		adTagOne: 'waldo-tag-8548',
 		adTagTwo: 'waldo-tag-8549',
 		locales: {
