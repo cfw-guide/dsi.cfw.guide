@@ -9,7 +9,7 @@ module.exports = {
 			"@vuepress/plugin-search",
 			{
 				locales: {
-					"/en_US/": {
+					"/": {
 						placeholder: i18n.en_US.search
 					},
 					"/es_ES/": {
@@ -53,7 +53,7 @@ module.exports = {
 	locales: {
 		// The key is the path for the locale to be nested under.
 		// As a special case, the default locale can use "/" as its path.
-		"/en_US/": {
+		"/": {
 			lang: "en-US", // this will be set as the lang attribute on <html>
 			title: i18n.en_US.title,
 			description: i18n.en_US.description
@@ -97,7 +97,7 @@ module.exports = {
 		adTagOne: 'waldo-tag-8548',
 		adTagTwo: 'waldo-tag-8549',
 		locales: {
-			"/en_US/": themeConfig.en_US,
+			"/": themeConfig.en_US,
 			"/es_ES/": themeConfig.es_ES,
 			"/fr_FR/": themeConfig.fr_FR,
 			"/hu_HU/": themeConfig.hu_HU,
