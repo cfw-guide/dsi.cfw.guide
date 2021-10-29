@@ -35,10 +35,9 @@
 
 		mounted() {
 			// Try to get tab from URL
-			const urlTab = decodeURI(window.location.href).match(RegExp(`[?&]${this.parentIdSafe}=(.*?)(?=\&|#|$)`))?.[1];
-			if(urlTab) {
-				console.log("urlTab", urlTab, this.id, this.default);
-				if(urlTab === this.id)
+			const urlTab = decodeURI(window.location.href).match(RegExp(`[?&]${this.parentIdSafe}=(.*?)(?=\&|#|$)`));
+			if(urlTab && urlTab.length > 1) {
+				if(urlTab[1] === this.id)
 					this.active = true;
 			} else {
 				// Try to get tab for OS
