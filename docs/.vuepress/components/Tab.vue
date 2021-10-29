@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<input :id="parentId + '-' + id" :name="parentId" type="radio" :checked="active">
-		<label :for="parentId + '-' + id" class="tab-link btn btn-outline-secondary" v-html="name" v-on:click="this.setTab()"></label>
+		<label :for="parentId + '-' + id" class="tab-link" v-html="name" v-on:click="this.setTab()"></label>
 		<div class="tab"><slot /></div>
 	</section>
 </template>

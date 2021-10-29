@@ -2,7 +2,11 @@ name: Deploy site
 
 on:
   push:
-    branches: [ master, vuepress ]
+    branches: [ master ]
+    paths:
+      - docs/**
+      - .github/workflows/publish.yml
+      - package.json
 
 jobs:
   doc-deploy:
