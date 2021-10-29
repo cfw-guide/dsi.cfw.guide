@@ -102,8 +102,8 @@ module.exports = {
 		},
 		"/translate/": {
 			lang: "en",
-			title: "Translating DSi Guide",
-			description: "Crowdin In-Context for dsi.cfw.guide",
+			title: i18n.translate.title,
+			description: i18n.translate.description,
 			head: [
 				[ 'script', {}, "var _jipt=[];_jipt.push(['project','dsi-guide']);_jipt.push(['escape',function(){window.location.href='https://dsi.cfw.guide'}]);" ],
 				[ 'script', {src: "//cdn.crowdin.com/jipt/jipt.js"} ]
