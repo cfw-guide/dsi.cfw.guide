@@ -10,7 +10,8 @@ Cette page est destinée à préparer votre carte SD pour votre Nintendo DSi. Du
 Assurez-vous de sauvegarder le contenu de votre carte SD AVANT de continuer. Toutes les données de votre carte SD seront EFFACÉES pendant le processus.
 :::
 
-## Windows
+<tabs>
+<tab name="Windows" os="windows">
 
 ### Section I - Formatage de votre carte SD
 
@@ -53,7 +54,8 @@ Si le test affiche le résultat `Test finished without errors` (Test terminé sa
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
 :::
 
-## Linux
+</tab>
+<tab name="Linux" os="other">
 
 ### Section I - Formatage de votre carte SD
 1. Assurez-vous que votre carte SD n'est pas **** insérée dans votre machine Linux
@@ -113,7 +115,8 @@ Si le test affiche le résultat `Data LOST: 0.00 Byte (0 sectors)` votre carte S
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
 :::
 
-## macOS
+</tab>
+<tab name="macOS" os="macos">
 
 ### Section I - Formatage de votre carte SD
 #### OS X El Capitan (10.11) et versions plus récentes
@@ -181,6 +184,9 @@ Si le test affiche le résultat `Data LOST: 0.00 Byte (0 sectors)` votre carte S
 ::: danger
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
 :::
+
+</tab>
+</tabs>
 
 ::: tip
 Vous pouvez maintenant restaurer le contenu de votre carte SD et continuer.

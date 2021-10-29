@@ -6,7 +6,8 @@ Ez az oldal az SD kártyád előkészítéséről szól a Nintendo DSi-hez. A fo
 Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT követnéd a lépéseket. Az SD kártya WIPEOLVA lesz a folyamat során.
 :::
 
-## Windows
+<tabs>
+<tab name="Windows" os="windows">
 
 ### I. rész - Az SD kártya formázása
 
@@ -49,7 +50,8 @@ Ha a teszt eredménye `Test finished without errors`, az SD kártyád hibátlan,
 Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
 :::
 
-## Linux
+</tab>
+<tab name="Linux" os="other">
 
 ### I. rész - Az SD kártya formázása
 1. Ellenőrizd, hogy az SD kártyád **NINCS** bedugva a Linux gépedbe
@@ -109,7 +111,8 @@ Ha a teszt eredménye `Data LOST: 0.00 Byte (0 sectors)`, az SD kártyád rendbe
 Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
 :::
 
-## macOS
+</tab>
+<tab name="macOS" os="macos">
 
 ### I. rész - Az SD kártya formázása
 #### OS X El Capitan (10.11) és későbbi
@@ -177,6 +180,9 @@ Ha a teszt eredménye `Data LOST: 0.00 Byte (0 sectors)`, az SD kártyád rendbe
 ::: danger
 Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
 :::
+
+</tab>
+</tabs>
 
 ::: tip
 Most már helyreállíthatod az SD kártyád tartalmát és folytathatod.

@@ -32,6 +32,12 @@ module.exports = {
 					}
 				}
 			}
+		],
+		[
+			'@vuepress/register-components',
+			{
+				componentsDir: path.resolve(__dirname, './components')
+			}
 		]
 	],
 

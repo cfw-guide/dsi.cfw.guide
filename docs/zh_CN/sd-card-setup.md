@@ -10,7 +10,8 @@ sidebarDepth: 3
 请确保以此操作之前，备份您SD卡的内容。 您的SD卡将在这个过程中被擦除数据。
 :::
 
-## Windows
+<tabs>
+<tab name="Windows" os="windows">
 
 ### 第一节 - 格式化您的 SD 卡
 
@@ -53,7 +54,8 @@ sidebarDepth: 3
 如果测试显示任何其他结果，的 SD卡可能已损坏或损坏，你可能需要替换它！
 :::
 
-## Linux
+</tab>
+<tab name="Linux" os="other">
 
 ### 第一节 - 格式化您的 SD 卡
 1. 请确保你的SD卡 **没有** 插入到你的Linux设备
@@ -113,7 +115,8 @@ ___
 如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
 :::
 
-## macOS
+</tab>
+<tab name="macOS" os="macos">
 
 ### 第一节 - 格式化您的 SD 卡
 #### OS X El Capitan (10.11) 及更高版本
@@ -181,6 +184,9 @@ ___
 ::: danger
 如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
 :::
+
+</tab>
+</tabs>
 
 ::: tip
 你现在可以恢复你的SD卡数据并继续此教程
