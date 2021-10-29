@@ -1,3 +1,6 @@
+---
+---
+
 # Lazy DSi File Downloader（DSi懒人下载包）
 
 “Lazy DSi Downloader”是一个简化破解Nintendo DSi 过程的工具。
@@ -7,7 +10,7 @@
 1. 打开你的任天堂DSi
 1. 启动到 Nintendo DSi 相机应用程序
 
-If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
+如果此时你在尝试进行教程时崩溃，那么你就不能使用Memory Pit漏洞. Please see [Alternate Exploits](alternate-exploits) instead.
 
 ## 设置指南
 

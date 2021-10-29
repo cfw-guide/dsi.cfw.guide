@@ -1,21 +1,27 @@
 ---
 home: true
-title: Accueil
+title: Guide DSi
 header:
-   overlay_image: /assets/images/home-page-feature.png
-   overlay_filter: 0.5
+  overlay_image: /assets/images/home-page-feature.png
+  overlay_filter: 0.5
 ---
 
 ::: tip
+
 Pour des guides complets sur les homebrews et firmwares personnalisés pour d'autres appareils, consultez [CFW.Guide](https://cfw.guide/).
+
 :::
 
 ::: danger
+
 Ce guide n'est pas compatible avec les consoles de développement Nintendo DSi.
+
 :::
 
 ::: tip
+
 Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de continuer.
+
 :::
 
 ## Qu'est-ce qu'un homebrew ?
@@ -35,15 +41,15 @@ Gardez à l'esprit que le guide est structuré de manière linéaire, mais cela 
 
 ## Que puis-je faire en moddant mon système ?
 
-- Exécutez des sauvegardes de jeux Nintendo DS(i) depuis votre carte SD DSi sans avoir besoin de linker
+- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
 - Lancez n'importe quels titres DSiWare (hors-région et/ou exclusivités 3DS) depuis votre carte SD
 - Démarrez les applications DSiWare et homebrews en maintenant enfoncés certains boutons lorsque vous allumez votre Nintendo DSi
 - Exécutez des vieux classiques en utilisant divers émulateurs
 - Utilisez des linkers normalement incompatibles
-- Redirigez votre NAND vers la carte SD
+- Redirect your NAND to the SD card using hiyaCFW
 - Regardez vos films favoris en utilisant MPEG4Player
-- Utilisez FreeNAND pour transférer des configurations, systèmes, titres et des tickets à une autre Nintendo DSi depuis une SDNAND
-- Afficher une image (connue sous le nom d'écran d'accueil) au lancement du système
+- Display an image (referred to as the boot splash) on system launch
+- Play homebrew games
 
 ## Où puis-je trouver des applications homebrew ?
 
@@ -57,5 +63,7 @@ Gardez à l'esprit que le guide est structuré de manière linéaire, mais cela 
 - Si vous n'avez pas l'habitude de copier des fichiers sur une carte SD, nous mettons à votre disposition des outils d'aide
 
 ::: tip
+
 Continuer vers [Lancement de l'exploit](launching-the-exploit)
+
 :::

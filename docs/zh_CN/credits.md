@@ -1,3 +1,6 @@
+---
+---
+
 # 制作人员
 
 这是那些对指南网站、 homebrew和其他东西提供过帮助的人的名单。
@@ -11,7 +14,7 @@
 - [shutterbug2000](https://paypal.me/projectkaeru): DSi 相机开发者 & Flipnotnote Studio 漏洞发现者
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew development toolchain & forked the ugopwn Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions)
 - [nocash](http://problemkaputt.de/donate.htm): Developer of Unlaunch
-- [RocketRobz](https://github.com/RocketRobz): TWiLight Menu++, hiyaCFW & GodMode9i开发者
+- [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++ & GodMode9i
 - [zoogie](https://github.com/zoogie): Developer of dumpTool & forked Memory Pit to support all regions and firmwares
 - [Plailect](https://github.com/Plailect): 制作了原始的 3DS破解 指南，使本站从中得到了灵感。
 

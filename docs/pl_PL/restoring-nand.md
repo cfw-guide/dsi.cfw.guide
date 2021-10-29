@@ -1,20 +1,27 @@
+---
+---
+
 # Przywracanie kopii zapasowej NAND
 
 ::: danger
+
 OSTRZEŻENIE! To jest ***niebezpieczne***. Nawet podążając za tymi krokami, nadal istnieje potencjał do zablokowania DSi, ponieważ NAND jest bardzo niskiej jakości, zwłaszcza jeśli flashujesz wiele razy! Powinno to być stosowane tylko w ostateczności!
+
 :::
 
 ::: tip
+
 Nie pomiń *niczego* na tej stronie, jakikolwiek błąd znacznie zwiększa szansę na zablokowanie twojego DSi.
+
 :::
 
 Po pierwsze, kilka bezpieczniejszych alternatyw dla tego:
 - Instalacja DSiWare może być wykonana za pomocą hiyaCFW lub TWiLight Menu++
-- Odzyskiwanie zdjęć można przeprowadzić za pomocą ninfów, w połączeniu z hiyaCFW lub TWiLight Menu+++, jeśli chcesz je na konsoli
-- Przywracanie konfiguracji przycisków Unlaunch można wykonać z menu Unlaunch
-- Uruchamianie w Unlaunch skutkujące błędem? Wyciągnij kartę SD i spróbuj ponownie. Jeśli zadziała, to jest to błąd na twojej karcie SD i przywrócenie kopii zapasowej NAND tego nie naprawi
-- "Wystąpił błąd..." podczas uruchamiania systemu to błąd hiyaCFW i nie jest związany z pamięcią NAND, zobacz stronę [troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) by zdobyć więcej informacji
-- Wszelkie błędy w TWiLight Menu++ są niepowiązane i powinieneś ponownie pobrać TWiLight Menu++ lub poprosić o pomoc na Discordzie
+- Recovering pictures can be done using [ninfs](https://github.com/ihaveamac/ninfs/releases), in combination with hiyaCFW or TWiLight Menu++ if you want them on console. The latest version of the HiyaCFW Helper allows you to copy your photos from your NAND to the SDNAND during setup
+- Restoring an Unlaunch button configuration can be done from the Unlaunch menu, which can be accessed by holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while powering the console on
+- Uruchamianie w Unlaunch skutkujące błędem? Take out your SD card and try starting the system again. Jeśli zadziała, to jest to błąd na twojej karcie SD i przywrócenie kopii zapasowej NAND tego nie naprawi
+- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) for more information
+- Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on [Discord](https://ds-homebrew.com/discord)
 - Odinstalowanie Unlauncha, czy to poprzez flashowanie NAND czy użycie deinstalatora, powinno być unikane, chyba że jest to absolutnie konieczne, możesz ustawić klucze autobootu na "Launcher" i DSi będzie jak nowy
 
 Jedyną rzeczą, którą powinieneś zrobić ze swoją pamięcią NAND jest instalacja Unlaunch. W przeciwnym razie należy korzystać z innych rozwiązań.
@@ -47,16 +54,30 @@ Bardzo ważne jest, aby sprawdzić, czy kopia zapasowa NAND działa przed prób�
 8. Kliknij `OK`
 9. Uruchom dowolny ROM NDS (plik `.nds`)
 
-Jeśli no$gba załaduje menu DSi, przejdź do następnej sekcji. Jeśli pokaże jakikolwiek błąd ***nie flashuj(nie wgrywaj) tej kopii zapasowej***!
+If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. If it shows any kind of error ***do not flash that backup***!
+
+## Uninstalling Unlaunch from your NAND backup (optional)
+Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
+1. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
+1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
+   - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
+1. Choose `Uninstall`
+1. Once complete, choose `Power down`
+1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
 ## Wgrywanie kopii zapasowej NAND (Urządzenie)
 
 ::: danger
+
 Upewnij się, że przeczytałeś powyższe kroki, ponieważ wchodzisz na głęboką wodę. Jeśli zostałeś skierowany bezpośrednio do tego miejsca bez podążania za powyższymi wskazówkami, wróć na górę i przeczytaj całą tę stronę.
+
 :::
 
 ::: danger
+
 Upewnij się, że system Nintendo DSi jest dobrze naładowany przed rozpoczęciem tej sekcji.
+
 :::
 
 1. Po włożeniu karty SD włącz Nintendo DSi, trzymając <kbd class="face">A</kbd> i <kbd class="face">B</kbd>

@@ -1,27 +1,37 @@
+---
+---
+
 # Instalacja Unlaunch
 
 Unlaunch to exploit, który ma miejsce przy starcie systemu. Dzięki temu ma on wyższe uprawnienia niż zwykłe exploity DSiWare, takie jak Memory Pit, co pozwala mu na następujące działania:
 
 - Uruchamianie aplikacji przy starcie (homebrew lub DSiWare) z opcjonalnymi kombinacjami przycisków
-- Dostęp do Pola-1, umożliwiając zrzucanie gier i uruchamianie niekompatybilnych flashcartów
-- Usunięto blokady regionalne z gier DSi-Enhanced/ ekskluzywnych
+- Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
+- Region locks removed on DSi-Enhanced / Exclusive Game Cards
 - Uruchom stare homebrew DS przez nds-bootstrap-hb
-- Uruchamianie DSiWare z wewnętrznej karty SD
-- Lepszy dźwięk w GBARunner2
 - Ochrona przed awarią
+- The following for Memory Pit users (other exploits already allow these):
+     - Improved compatibility with DSiWare launched from the SD card
+     - Lepszy dźwięk w GBARunner2
 
 ::: danger
-Jeśli jeszcze tego nie zrobiłeś(-aś), stwórz kopię zapasową [NAND](dumping-nand). Choć szanse na to są niewielkie, Unlaunch może przypadkowo zawiesić NDSi. Kopia zapasowa NAND + [hardmod](https://web.archive.org/web/20151102221503/https://gbatemp.net/threads/dsi-downgrading-the-complete-guide.393682/) pozwoliłby Ci przywrócić tę kopię, pod warunkiem, że wiesz, jak lutować.
+
+If you have not yet done so, please follow [Dumping NAND](dumping-nand). Choć szanse na to są niewielkie, Unlaunch może przypadkowo zawiesić NDSi. Kopia zapasowa NAND + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) pozwoliłby Ci przywrócić tę kopię, pod warunkiem, że wiesz, jak lutować.
+
 :::
 
 ::: warning
+
 Upewnij się, że twoja konsola jest naładowana podczas śledzenia tego procesu. Nagła utrata energii może spowodować poważne szkody.
+
 :::
 
-## Sekcja I - Przygotowania kart SD
+## Sekcja I - Konfiguracja karty SD
 
 ::: tip
-Korzystasz z Windows, Linux lub macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
+
+Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
+
 :::
 
 1. Pobierz najnowszą wersję [Unlaunch](https://problemkaputt.de/unlaunch.zip)
@@ -37,11 +47,11 @@ Korzystasz z Windows, Linux lub macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
    - Jeśli już zainstalowałeś Unlaunch i chcesz go zaktualizować, przytrzymaj <kbd class="face">A</kbd> + <kbd class="face">B</kbd> podczas włączania i wybierz `TWiLight Menu++` gdzie `BOOT.NDS` jest pokazany na dolnym ekranie
 1. Uruchom Ustawienia TWiLight Menu++
    - Jeśli nie zmieniłeś swojego motywu, podążaj za "Uruchomienie exploita". W przeciwnym razie należy zapoznać się z podręcznikiem TWiLight Menu++
-1. Naciśnij <kbd class="l">L</kbd> / <kbd class="r">R</kbd> lub <kbd class="face">X</kbd> / <kbd class="face">Y</kbd>, aż dojdziesz do strony `Ustawienia Unlaunch`
+1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
 1. Jeśli chcesz zmienić obraz tła Unlauncha, wybierz `Tło` i wybierz to, które chcesz
    - Jeśli chcesz stworzyć własne tło Unlaunch, skonsultuj się z [stroną wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. Jeśli chcesz, aby ekran Health and Safety oraz dźwięki menu DSi były włączone, ustaw `Launcher Patches` na `Off`
-   - Zapobiegnie to również usunięciu blokady regionu
+   - This will also keep the region locking and card whitelist, meaning that some flashcards won't be usable from the DSi Menu
 1. Wyjdź z ustawień TWiLight Menu++
 1. W menu nawigacją plików uruchom `Unlaunch DSi Installer`
 1. Wybierz opcję instalacji
@@ -57,7 +67,8 @@ Obecnie, Unlaunch domyślnie uruchamia swoje menu plików przy starcie systemu, 
 
 Skonfigurujemy ponownie nds-bootstrap, aby uruchamiał TWiLight Menu++ (zamiast wykorzystanego tytułu DSiWare), gdy wykonamy soft-reset w grze.
 
-1. Włącz konsolę przytrzymując <kbd class="face">A</kbd> + <kbd class="face">B</kbd>
+1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
+   - To powinno uruchomić Unlaunch Filemenu
 1. Przejdź do `OPTIONS`i spójrz na dostępne opcje
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> jest zakodowane, aby uruchomić w menu Unlaunch i jako takie nie może być zmienione
    - Opcje `NO BUTTON` i `BUTTON A / B / X / Y` mogą być ustawione jakkolwiek chcesz i będą wybierać co twój DSi załaduje przy starcie w zależności od tego, które przyciski są trzymane. Możesz wybrać dowolne DSiWare, homebrew, kartę Pola-1, wifiboot lub menu plików Unlaunch
@@ -73,7 +84,9 @@ Skonfigurujemy ponownie nds-bootstrap, aby uruchamiał TWiLight Menu++ (zamiast 
 ## Sekcja IV - Czyszczenie karty SD
 
 ::: tip
+
 Ta sekcja jest opcjonalna i służy tylko do utrzymania niepotrzebnych plików w porządku (na karcie SD).
+
 :::
 
 - Usuń plik `sd:/private/ds/app/484E494A/pit.bin` z karty SD

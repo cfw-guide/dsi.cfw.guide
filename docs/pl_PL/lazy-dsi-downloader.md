@@ -1,3 +1,6 @@
+---
+---
+
 # Lazy DSi Downloader
 
 "Lazy DSi Downloader" jest narzędziem upraszczającym proces modyfikacji konsoli Nintendo DSi.
@@ -7,7 +10,7 @@
 1. Włącz swój Nintendo DSi
 1. Uruchom aplikację Nintendo DSi Camera
 
-Jeśli w tym momencie pojawi się samouczek i podczas jego wykonywania nastąpi awaria, to nie możesz użyć Memory Pit.
+Jeśli w tym momencie pojawi się samouczek i podczas jego wykonywania nastąpi awaria, to nie możesz użyć Memory Pit. Please see [Alternate Exploits](alternate-exploits) instead.
 
 ## Poradnik konfiguracji
 

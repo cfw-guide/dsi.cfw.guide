@@ -1,21 +1,27 @@
 ---
 home: true
-title: Kezdőlap
+title: DSi Útmutató
 header:
-   overlay_image: /assets/images/home-page-feature.png
-   overlay_filter: 0.5
+  overlay_image: /assets/images/home-page-feature.png
+  overlay_filter: 0.5
 ---
 
 ::: tip
+
 Más készülékekhez szóló teljes homebrew és egyedi firmware útmutatókért keresd fel a [CFW.Guide](https://cfw.guide/) oldalt.
+
 :::
 
 ::: danger
+
 Ez az útmutató nem kompatibilis a Nintendo DSi fejlesztői konzolokkal.
+
 :::
 
 ::: tip
+
 Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is) mielőtt bármibe belekezdenél.
+
 :::
 
 ## Mi az a Homebrew?
@@ -35,15 +41,15 @@ Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és ált
 
 ## Mit tehetek a rendszerem moddolásával?
 
-- Futtathatsz Nintendo DS(i) játék mentéseket a DSi-d SD kártyájáról, a nélkül, hogy flashcard-ra lenne szükséged
+- Futtathatsz Nintendo DS(i) játék mentéseket és ROM hackeket a DSi-d SD kártyájáról, a nélkül, hogy flashcard-ra lenne szükséged
 - Futtathatsz bármilyen DSiWare alkalmazást (régión kívüli és/vagy 3DS exkluzív) az SD kártyádról
 - Bebootolhatsz DSiWare és homebrew alkalmazásokba a megfelelő gombok nyomva tartásával a Nintendo DSi bekapcsolásakor
 - Régi idők klasszikusait futtathatod különböző emulátorokkal
 - Használhatsz alaphelyzetben inkompatibilis flashcard-okat
-- Átirányíthatod a NAND-ot SD kártyára
+- Átirányíthatod a NAND-ot SD kártyára hiyaCFW-vel
 - Megtekintheted a kedvenc filmjeidet az MPEG4Player használatával
-- Használhatod a FreeNAND-ot, hogy átvidd a konfigurációt, rendszert, címeket és ticketeket egy másik Nintendo DSi-re az SDNAND-ból
 - Megjeleníthetsz egy képet (amire boot képernyőként hivatkozunk) a rendszer indulásakor
+- Játszhatsz homebrew játékokat
 
 ## Hol találhatok homebrew alkalmazásokat?
 
@@ -57,5 +63,7 @@ Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és ált
 - Ha nem vagy tapasztalt a fájlok SD kártyára másolásával, rendelkezünk segéd eszközökkel erre a feladatra
 
 ::: tip
+
 Folytatás [Az Exploit indítása](launching-the-exploit) útmutatóval
+
 :::

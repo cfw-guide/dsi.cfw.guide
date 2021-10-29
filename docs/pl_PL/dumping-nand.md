@@ -1,15 +1,22 @@
+---
+---
+
 # Zrzucanie NAND
 
-Ta strona służy do tworzenia kopii zapasowej NAND, która jest kopią danych znajdujących się w pamięci wewnętrznej Nintendo DSi. Można jej użyć do skonfigurowania hiyaCFW i NO$GBA.
+Ta strona służy do tworzenia kopii zapasowej NAND, która jest kopią danych znajdujących się w pamięci wewnętrznej Nintendo DSi. It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
 
 ::: tip
+
 Bardzo zalecamy to zrobić. Kopia zapasowa NAND może być użyteczna w przypadku wystąpienia awarii.
+
 :::
 
 ## Sekcja I - Konfiguracja karty SD
 
 ::: tip
+
 Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
+
 :::
 
 1. Pobierz najnowszą wersję [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
@@ -26,9 +33,13 @@ Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
    - Po wykonaniu kopii zapasowej w innym miejscu, możesz usunąć ją z karty SD
 
 ::: warning
-Skrót SHA1 `nand.bin` nie będzie odpowiadał skrótowi zapisanemu w `nand.bin.sha1`. Dzieje się tak, ponieważ dumpTool dodaje dodatkowe dane znane jako stopka NO$GBA do pliku `nand.bin` po obliczeniu skrótu SHA1. Możesz użyć [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases), aby utworzyć kopię bez tego elementu.
+
+Skrót SHA1 `nand.bin` nie będzie odpowiadał skrótowi zapisanemu w `nand.bin.sha1`. Dzieje się tak, ponieważ dumpTool dodaje dodatkowe dane znane jako stopka no$gba do pliku `nand.bin` po obliczeniu skrótu SHA1. Możesz użyć [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases), aby utworzyć kopię bez tego elementu.
+
 :::
 
 ::: tip
+
 Przejdź do [Instalacja Unlaunch](installing-unlaunch) (Opcjonalnie)
+
 :::

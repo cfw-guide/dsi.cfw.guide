@@ -1,3 +1,6 @@
+---
+---
+
 # Lazy DSi Downloader
 
 "Lazy DSi Downloader" es una herramienta para simplificar el proceso de modificar una Nintendo DSi.
@@ -7,7 +10,7 @@
 1. Enciende tu Nintendo DSi.
 1. Inicia la aplicación Cámara Nintendo DSi.
 
-Si en este punto salta un tutorial y al intentar completarlo la aplicación se congela, no puedes usar Memory Pit.
+Si en este punto salta un tutorial y al intentar completarlo la aplicación se congela, no puedes usar Memory Pit. En este caso tendrás que usar un [exploit alternativo](alternate-exploits).
 
 ## Guía de preparación
 

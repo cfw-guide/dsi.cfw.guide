@@ -1,23 +1,30 @@
+---
+---
+
 # Odinstalowywanie
 
 ::: danger
+
 **Instalacja lub odinstalowanie Unlaunch może losowo zablokować konsolę! Zostałeś ostrzeżony!**
+
 :::
 
 **OSTRZEŻENIE:** Odinstalowanie może zablokować Twój Nintendo DSi. Oto kilka przypadków powodów, dla których możesz chcieć odinstalować Unlaunch, ale z rozwiązaniami które nie wymagają odinstalowania.
 
-- **Tło Unlaunch jest przerażające:** Zainstaluj ponownie przy użyciu [nowych instrukcji](/installing-unlaunch). Obecnie zawierają instrukcje dotyczące zmiany tła
-- **Nie ma ekranu powitalnego i brakuje muzyki:** Zainstaluj ponownie przy użyciu [nowych instrukcji](/installing-unlaunch). Obecnie zawierają instrukcje dotyczące łagodzenia skutków
-- **Mój system jest uszkodzony:** Ta strona nie jest więc dla ciebie, ponieważ wymaga działającego systemu, aby odinstalować Unlaunch
+- **Tło Unlaunch jest przerażające:** Zainstaluj ponownie przy użyciu [nowych instrukcji](installing-unlaunch). Obecnie zawierają instrukcje dotyczące zmiany tła
+- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
+
 Zmniejszenie szans na zablokowanie, upewnij się, że nie zainstalowałeś żadnych nielegalnych DSiWare do twojego systemu NAND (przekierowanie SDNAND dostarczone przez hiyaCFW nie liczy się), lub w inny sposób manipulowałeś plikami systemowymi.
+
 :::
 
-1. Pobierz najnowszą wersję [Unlaunch](https://problemkaputt.de/unlaunch.zip)
-1. Wyodrębnij `UNLAUNCH.DSI` z archiwum Unlaunch i skopiuj go w dowolne miejsce karty SD
-1. Przytrzymaj <kbd class="face">A</kbd> + <kbd class="face">B</kbd> przy starcie systemu
-1. Wybierz plik `UNLAUNCH.DSI`, który właśnie pobrałeś
-1. Wybierz `Uninstall`
-   - Będzie tam napisane, że system stanie się "bezużyteczny", co jest sposobem dewelopera (nocash) na powiedzenie, że wróci do stanu sprzed instalacji Unlaunch
-1. Po zakończeniu, zrestartuj (wyłącz i włącz) system w celu sprawdzenia, czy odinstalowano Unlaunch prawidłowo
+::: warning
+
+When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller, because there is a chance that it will brick the console. Please see below for information on uninstalling it properly.
+
+:::
+
+Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand).
+- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand) and proceed with [Restoring a NAND Backup](restoring-nand). There are instructions for users who have Unlaunch installed on their NAND backup

@@ -1,59 +1,56 @@
 module.exports = {
-	selectLanguageName: "Magyar",
-
-	backToHome: "Take me home",
-	contributorsText: "Contributors",
-	editLinkText: "Edit this page",
-	lastUpdatedText: "Last Updated",
-	openInNewWindow: "open in new window",
-	selectLanguageAriaLabel: "Select language",
-	toggleDarkMode: "toggle dark mode",
-	toggleSidebar: "toggle sidebar",
-	discordNoticeText: "Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.",
-
+	selectLanguageName: 'Magyar',
+	backToHome: 'Vissza a főoldalra',
+	contributorsText: 'Közreműködők',
+	editLinkText: 'Ennek az oldalnak a szerkesztése',
+	lastUpdatedText: 'Utolsó frissítés',
+	openInNewWindow: 'megnyitás új ablakban',
+	selectLanguageAriaLabel: 'Válassz nyelvet',
+	toggleDarkMode: 'sötét módra váltás',
+	toggleSidebar: 'oldalsáv ki-bekapcsolás',
+	discordNoticeText: 'Csatlakozz a [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord szerverhez az útmutató fejlesztéséhez és segítségért.',
 	navbar: [
-		"sd-card-setup",
-		"troubleshooting",
-		"faq",
+		'sd-card-setup',
+		'troubleshooting',
+		'faq',
 		{
-			text: "Backups",
+			text: 'Mentések',
 			children: [
-				"dsiware-backups",
-				"dumping-game-cards",
-				"dumping-nand"
+				'dsiware-backups',
+				'dumping-game-cards',
+				'dumping-nand'
 			]
 		},
-		"uninstalling-unlaunch"
+		'uninstalling-unlaunch'
 	],
-
 	sidebar: [
-		"index.html",
+		'index.html',
 		{
-			text: "Guide",
+			text: 'Útmutató',
 			children: [
-				"launching-the-exploit",
-				"dumping-nand",
-				"installing-unlaunch"
+				'launching-the-exploit',
+				'dumping-nand',
+				'installing-unlaunch'
 			]
 		},
 		{
-			text: "Extras",
+			text: 'Extrák',
 			children: [
-				"dsiware-backups",
-				"dumping-game-cards",
-				"file-extensions-(windows)",
-				"restoring-nand",
-				"sd-card-setup",
-				"uninstalling-unlaunch"
+				'dsiware-backups',
+				'dumping-game-cards',
+				'file-extensions-(windows)',
+				'restoring-nand',
+				'sd-card-setup',
+				'uninstalling-unlaunch'
 			]
 		},
 		{
-			text: "Other",
+			text: 'Egyéb',
 			children: [
-				"faq",
-				"troubleshooting",
-				"credits",
-				"site-navigation"
+				'faq',
+				'troubleshooting',
+				'credits',
+				'site-navigation'
 			]
 		}
 	]

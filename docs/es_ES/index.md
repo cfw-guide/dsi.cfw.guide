@@ -2,25 +2,31 @@
 home: true
 title: Inicio
 header:
-   overlay_image: /assets/images/home-page-feature.png
-   overlay_filter: 0.5
+  overlay_image: /assets/images/home-page-feature.png
+  overlay_filter: 0.5
 ---
 
 ::: tip
+
 Para guías completas sobre homebrew y custom firmware para otros dispositivos, revisa [la Guía CFW](https://cfw.guide/).
+
 :::
 
 ::: danger
+
 Esta guía no es compatible con consolas de desarrollo de Nintendo DSi.
+
 :::
 
 ::: tip
+
 Lea detenidamente todas las páginas introductorias (¡incluyendo esta!) antes de proceder.
+
 :::
 
 ## ¿Qué es el homebrew?
 
-Las [aplicaciones Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) son piezas de software sin licencia hechas para sistemas cerrados, como la Nintendo DSi. El objetivo puede variar, desde ser usadas como utilidades hasta ser jugadas como juegos no licenciados.
+Las [aplicaciones Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) son piezas de software sin licencia hechas para sistemas cerrados, como la Nintendo DSi. El objetivo puede variar, desde ser usadas como herramientas hasta ser jugadas como juegos no licenciados.
 
 Las aplicaciones Homebrew pueden ejecutarse de forma gratuita en todas las consolas Nintendo DSi, independientemente de la versión de firmware o de la región. Todo lo que necesitas es un punto de entrada y una tarjeta SD para almacenar tu homebrew. El punto de entrada principal usado en esta guía se llama Memory Pit (foso de memoria), pero existen otros puntos de entrada que puedes utilizar en caso de que no puedas hacer provecho de Memory Pit.
 
@@ -35,15 +41,15 @@ Ten en cuenta que, aunque la guía está estructurada de forma lineal, esto gene
 
 ## Si modifico el sistema, ¿qué puedo hacer?
 
-- Ejecutar ROMs volcadas desde la tarjeta SD de tu consola, sin necesidad de una flashcart.
+- Ejecutar ROMs volcadas de Nintendo DS y Nintendo DSi desde la tarjeta SD de tu consola DSi sin necesidad de una flashcart.
 - Ejecutar cualquier título de DSiWare (sin importar el bloqueo regional o que sean exclusivos de 3DS) desde tu tarjeta SD.
 - Iniciar automáticamente DSiWare y aplicaciones Homebrew al mantener pulsados ciertos botónes mientras enciendes tu consola.
 - Ejecutar títulos de consolas clásicas utilizando distintos emuladores.
 - Utilizar flashcarts usualmente incompatibles.
-- Redirigir tu NAND a la tarjeta SD.
+- Redirigir la lectura de la NAND a la tarjeta SD usando hiyaCFW.
 - Ver tus películas favoritas utilizando MPEG4Player.
-- Utilizar FreeNAND para transferir configuraciones, archivos de sistema, títulos y tiquetes a otra Nintendo DSi desde una SDNAND.
 - Mostrar una imagen (llamada boot splash) al inciar el sistema.
+- Ejecutar aplicaciones homebrew.
 
 ## ¿Dónde puedo encontrar aplicaciones Homebrew?
 
@@ -57,5 +63,7 @@ Ten en cuenta que, aunque la guía está estructurada de forma lineal, esto gene
 - Si no tienes experiencia con copiar archivos a una tarjeta SD, tenemos herramientas de ayuda a tu disposición.
 
 ::: tip
+
 Continuar a [Lanzar el Exploit](launching-the-exploit)
+
 :::

@@ -1,21 +1,27 @@
 ---
 home: true
-title: Strona Główna
+title: Przewodnik DSi
 header:
-   overlay_image: /assets/images/home-page-feature.png
-   overlay_filter: 0.5
+  overlay_image: /assets/images/home-page-feature.png
+  overlay_filter: 0.5
 ---
 
 ::: tip
+
 Aby uzyskać całkowity przewodnik do homebrew i niestandardowych firmware dla innych urządzeń, sprawdź poradnik [CFW.Poradnik](https://cfw.guide/).
+
 :::
 
 ::: danger
+
 Ten przewodnik nie jest kompatybilny z konsolami deweloperskimi Nintendo DSi.
+
 :::
 
 ::: tip
+
 Dokładnie przeczytaj wszystkie strony wprowadzające (łącznie z tą!) przed przystąpieniem do pracy.
+
 :::
 
 ## Czym jest homebrew?
@@ -35,15 +41,15 @@ Pamiętaj, że poradnik jest skonstruowany liniowo, ale to zależy od tego, jak 
 
 ## Co mogę zrobić modując swój system?
 
-- Uruchom kopię zapasową gier Nintendo DS(i) z karty SD DSi bez flashcarda
+- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
 - Uruchom dowolny DSiWare (z innego regionu i/lub ekskluzywy na 3ds) z karty SD
 - Uruchom aplikacje DSiWare i homebrew trzymając specyficzne przyciski podczas włączania Nintendo DSi
 - Uruchom dawne klasyki za pomocą różnych emulatorów
 - Użyj normalnie niekompatybilnych flaschardów
-- Przekieruj swój NAND na kartę SD
+- Redirect your NAND to the SD card using hiyaCFW
 - Obejrzyj swoje ulubione filmy używając MPEG4Player
-- Użyj FreeNAND, aby przenieść konfiguracje, sys, tytułów i tickets do innego Nintendo DSi z SDNAND
 - Wyświetlanie obrazu (zwanego rozbryzgiem startowym) podczas uruchamiania systemu
+- Play homebrew games
 
 ## Gdzie mogę znaleźć aplikacje homebrew?
 
@@ -57,5 +63,7 @@ Pamiętaj, że poradnik jest skonstruowany liniowo, ale to zależy od tego, jak 
 - Jeśli nie masz doświadczenia w kopiowaniu plików na kartę SD, mamy do dyspozycji narzędzia pomocnicze
 
 ::: tip
+
 Przejdź do [Uruchamianie Exploitu](launching-the-exploit)
+
 :::

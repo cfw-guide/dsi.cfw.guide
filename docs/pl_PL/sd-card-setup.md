@@ -1,5 +1,4 @@
 ---
-sidebarDepth: 3
 ---
 
 # Konfiguracja karty SD
@@ -7,78 +6,118 @@ sidebarDepth: 3
 Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. W tym poradniku, sformatujemy kartę SD do formatu odpowiedniego dla Nintendo DSi i sprawdzimy błędy karty.
 
 ::: danger
+
 Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfiguracji. Twoja karta SD będzie zresetowana w tym procesie.
+
 :::
 
-<tabs>
-<tab name="Windows" os="windows">
+::::: tabs
 
-### Sekcja I - Formatowanie karty SD
+:::: tab name="Windows" os="windows"
 
-1. Pobierz najnowszą wersję [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-   - Kliknij na zdjęcie na stronie internetowej, aby pobrać aplikację
-1. Uruchom GUIFormat z uprawnieniami administratora
-1. Wybierz literę dysku
-1. Ustaw `Allocation size unit` na `32768`
-   - Jeśli jest on zbyt duży dla twojego SD, ustaw go na najwyższy, który działa
-1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
-1. Rozpocznij proces formatowania
-
-![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-
-### Sekcja II – Sprawdzanie błędów
-1. Przejdź do okna właściwości karty SD
-   - `Menedżer Plików` -> `Ten komputer` -> Kliknij prawym przyciskiem myszy na kartę SD -> `Właściwości`
-1. W zakładce Narzędzia wybierz `Sprawdź teraz`
-1. Sprawdź `Automatycznie napraw błędy systemu plików` i `Skanowanie i próba odzyskania złych sektorów`
-1. Rozpocznij proces sprawdzania
-
-Spowoduje to skanowanie karty SD i poprawienie wszelkich wykrytych przez nią błędów
-
-### Sekcja III - Sprawdzanie odczytu/zapisu karty SD
-
-1. Pobierz i rozpakuj [archiwum h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) w dowolnym miejscu na komputerze.
-   - Można go również rozpakować na urządzeniu zewnętrznym, o ile to urządzenie zewnętrzne nie jest twoją kartą SD
-1. Z kartą SD włożoną do komputera, uruchom `h2testw.exe`
-1. Wybierz język, w którym chcesz zobaczyć h2testw
-1. Ustaw literę napędu karty SD jako swój cel (dysk główny to zazwyczaj C:)
-1. Upewnij się, że `all available space` jest zaznaczone
-1. Kliknij `Write + Verify`
-- Poczekaj do zakończenia procesu
+### Section I - Formatting your SD card with SD Formatter
 
 ::: tip
-Jeśli test pokazuje wynik `Test finished without errors`, Twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h2w` na twojej karcie SD
+
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+
 :::
 
 ::: danger
-Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona i być może będziesz musiał ją wymienić!
+
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+
 :::
 
-</tab>
-<tab name="Linux" os="other">
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Accept the End User License Agreement to start the download
+1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
+1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
+1. Select your SD card
+1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
+1. Rozpocznij proces formatowania
 
-### Sekcja I - Formatowanie karty SD
-1. Upewnij się, że Twoja karta SD **nie jest** włożona do maszyny Linux
-1. Uruchom Terminal Linux
-1. Wpisz `watch "lsblk"`
-1. Włóż kartę SD do urządzenia Linux
-1. Obserwuj wyniki. Powinny wyglądać podobnie:
+### Section II - Formatting your SD card with GUIFormat
+
+This section formats SD cards larger than 32GB to FAT32.
+
+::: tip
+
+If your SD card is 32GB or less in capacity, skip to Section III.
+
+:::
+
+1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+   - Click on the picture on the website to download the app
+1. Run GUIFormat with Administrator permissions
+1. Select your drive letter
+1. Set your `Allocation size unit` it to `32768`
+   - If this is too large for your SD, set it to the highest one that works
+1. Make sure the `Quick Format` check box is checked
+1. Start the format process
+
+![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
+
+### Section III - Checking for errors
+1. Go to the properties window of your SD card
+   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
+1. In the tools tab, Select `Check Now`
+1. Check both `Automatically fix file system errors` and `Scan for and attempt recovery of bad sectors`
+1. Start the checking process
+
+This will scan the SD card and correct any errors it finds.
+
+### Section IV - Checking SD card read/write
+
+1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
+   - It can also be extracted on an external device as long as that external device isn't your SD card
+1. With your SD card inserted into your computer, run `h2testw.exe`
+1. Select which language you'd like to see h2testw in
+1. Set your SD card's drive letter as your target
+1. Ensure `all available space` is selected
+1. Click `Write + Verify`
+- Poczekaj do zakończenia procesu
+
+::: tip
+
+If the test shows the result `Test finished without errors`, your SD card is healthy and you can delete all `.h2w` files on your SD card.
+
+:::
+
+::: danger
+
+Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
+
+:::
+
+::::
+
+:::: tab name="Linux" os="other"
+
+### Section I - Formatting your SD card
+1. Make sure your SD card is **not** inserted into your Linux machine
+1. Launch the Linux Terminal
+1. Type `watch "lsblk"`
+1. Insert your SD card into your Linux machine
+1. Observe the output. It should match something like this:
 ```
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Weź pod uwagę punkt montowania urządzenia. W naszym przykładzie powyżej było to `mmcblk0p1`
-   - Jeśli `RO` jest ustawione na 1, upewnij się, że przełącznik blokady nie jest przesunięty w dół
-1. Naciśnij CTRL + C, aby wyjść z menu
-1. Wpisz `sudo mkdosfs /dev/(punkt montowania urządzenia powyżej) -s 64 -F 32` aby utworzyć pojedynczą partycję FAT32 o rozmiarze klastra 32 KB na karcie SD
+1. Take note of the device mount point. In our example above, it was `mmcblk0p1`
+   - If `RO` is set to 1, make sure the lock switch is not slid down
+1. Hit CTRL + C to exit the menu
+1. Follow the instructions relevant to your SD card's capacity:
+   - 2GB or lower: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 16` to create a single FAT16 partition with 32 KB cluster size on the SD card
+   - 4GB or higher: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
 
-### Sekcja II – Używanie F3
-1. Pobierz i rozpakuj [archiwum F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) w dowolnym miejscu na swoim komputerze.
-1. Uruchom terminal w katalogu F3
-1. Uruchom `make` aby skompilować F3
-1. Z kartą SD włożoną, uruchom `./f3write <your sd card mount point>`
-   - Poczekaj do zakończenia procesu. Poniżej przedstawiono przykładowe wyniki:
+### Section II - Using F3
+1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
+1. Launch the terminal in the F3 directory
+1. Run `make` to compile F3
+1. With your SD card inserted and mounted, run `./f3write <your sd card mount point>`
+   - Wait until the process is complete. See below for an example output:
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -88,7 +127,7 @@ mmcblk0     179:0    0   3,8G  0 disk
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Uruchom `./f3read <your sd card mount point>`
+1. Run `./f3read <your sd card mount point>`
 - Poczekaj do zakończenia procesu. Poniżej przedstawiono przykładowe wyniki:
    ```
    $ ./f3read /media/michel/6135-3363/
@@ -108,47 +147,83 @@ mmcblk0     179:0    0   3,8G  0 disk
 ___
 
 ::: tip
-Jeśli test pokaże wynik `Data LOST: 0.00 Byte (0 sectors)` twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h2w` na swojej karcie SD
+
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+
 :::
 
 ::: danger
+
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
+
 :::
 
-</tab>
-<tab name="macOS" os="macos">
+::::
 
-### Sekcja I - Formatowanie karty SD
+:::: tab name="macOS" os="macos"
+
+### Section I - Formatting your SD card with SD Formatter
+
+::: tip
+
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+
+:::
+
+::: danger
+
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+
+:::
+
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
+   - Accept the End User License Agreement to start the download
+1. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
+1. Run `SD Card Formatter`
+1. Select your SD card
+1. Make sure the `Quick Format` check box is checked
+1. Start the format process
+
+### Section II - Formatting your SD card with Disk Utility
+
+This section formats SD cards larger than 32GB to FAT32.
+
+::: tip
+
+If your SD card is 32GB or less in capacity, skip to Section III.
+
+:::
+
 #### OS X El Capitan (10.11) i później
 
-1. Uruchom aplikację na dysku
-1. Wybierz `Show All Devices` w panelu `View`
-1. Wybierz kartę SD z paska bocznego
-   - Upewnij się, że wybrałeś właściwe urządzenie, w przeciwnym razie możesz przypadkowo usunąć zły napęd!
-1. Kliknij `Erase` na górze
-1. Upewnij się, że `Format` jest ustawiony na `MS-DOS (FAT32)`
-   - Na El Capitan (10.11) przez Katalinę (10.15) wybierz `MS-DOS (FAT)`
-1. Upewnij się, że `Scheme` jest ustawiony na `Master Boot Record`
-   - Jeśli `Scheme` nie pojawia się, kliknij `Cancel` i upewnij się, że wybrano urządzenie zamiast głośności
-1. Kliknij `Erase` a potem `Close`
+1. Launch the Disk Utility application
+1. Select `Show All Devices` in the top-left `View` panel
+1. Select your SD card from the sidebar
+   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+1. Click `Erase` at the top
+1. Ensure that `Format` is set to `MS-DOS (FAT32)`
+   - On El Capitan (10.11) through Catalina (10.15) choose `MS-DOS (FAT)`
+1. Ensure that `Scheme` is set to `Master Boot Record`
+   - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
+1. Click `Erase`, then click `Close`
 
 #### OS X Josemite (10.10) i wcześniej
-1. Uruchom aplikację na dysku
-1. Wybierz kartę SD z paska bocznego
-   - Upewnij się, że wybrałeś właściwe urządzenie, w przeciwnym razie możesz przypadkowo usunąć zły napęd!
-1. Kliknij `partition` na górze
-   - Jeśli `partition` nie pojawia się, upewnij się, że wybrano urządzenie zamiast głośności
-1. Upewnij się, że `Partition` jest ustawiona na `1 partition`
-1. Upewnij się, że `Format` jest ustawiony na `MS-DOS (FAT)`
-1. Z przycisku Opcje (poniżej tablicy partycji), wybierz `Master Boot Record`.
-1. Kliknij `OK` -> `Apply` -> `Partition`
+1. Launch the Disk Utility application
+1. Select your SD card from the sidebar
+   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+1. Click `Partition` at the top
+   - If `Partition` does not appear, make sure to choose the device instead of a volume
+1. Ensure that `Partition Layout` is set to `1 Partition`
+1. Ensure that `Format` is set to `MS-DOS (FAT)`
+1. From the Options button (below the partition table), select `Master Boot Record`.
+1. Click `OK` -> `Apply` -> `Partition`
 
-### Sekcja II – Używanie F3
-1. Otwórz terminal
-1. Zainstaluj F3 z brew poprzez uruchomienie `brew install f3`
-   - Jeśli nie masz brew, zainstaluj go z instrukcjami na [brew.sh](https://brew.sh)
-1. Z kartą SD włożoną i zamontowaną, uruchom `f3write <your sd card mount point>`
-   - Poczekaj do zakończenia procesu. Poniżej przedstawiono przykładowe wyniki:
+### Section III - Using F3
+1. Open Terminal
+1. Install F3 from brew by running `brew install f3`
+   - If you don't have brew, install it with the instructions on [brew.sh](https://brew.sh)
+1. With your SD card inserted and mounted, run `f3write <your sd card mount point>`
+   - Wait until the process is complete. See below for an example output:
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -158,7 +233,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Uruchom `f3read <your sd card mount point>`
+1. Run `f3read <your sd card mount point>`
    - Poczekaj do zakończenia procesu. Poniżej przedstawiono przykładowe wyniki:
    ```
    $ f3read /Volumes/SD\ CARD
@@ -178,17 +253,24 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 ___
 
 ::: tip
-Jeśli test pokazuje wynik `Data LOST: 0. 0 bajtów (0 sektorów)` Twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h3w` na twojej karcie SD
+
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+
 :::
 
 ::: danger
+
 Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
+
 :::
 
-</tab>
-</tabs>
+::::
+
+:::::
 
 ::: tip
+
 Możesz teraz przywrócić zawartość karty SD i kontynuować.
+
 :::
 

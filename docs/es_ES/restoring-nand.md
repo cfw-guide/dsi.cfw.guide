@@ -1,19 +1,26 @@
-# Restaurar un respaldo de la NAND
+---
+---
+
+# Restoring a NAND backup
 
 ::: danger
+
 ¡ADVERTENCIA! Esto es ***peligroso***. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso!
+
 :::
 
 ::: tip
+
 No te saltes *nada* de esta página. Cualquier error incrementa las posbilidades de causar un bloqueo total de tu consola.
+
 :::
 
 Primero te presentaremos algunas alternativas más seguras para solucionar cosas por las que querrías hacer esto.
 - La instalación de títulos DSiWare se puede hacer utilizando hiyaCFW o TWiLight Menu++
-- La recuperación de fotos se puede hacer utilizando ninfs, en combinanción con hiyaCFW o TWiLight Menu++, si los quieres en la consola.
-- Restaurar una configuración de botónes de Unlaunch puede hacerse desde el menú de opciones de Unlaunch.
-- ¿Te salta error al iniciar Unlaunch? Saca tu tarjeta SD y vuelve a intentarlo. Si funciona, entonces el error es a causa de tu tarjeta SD, y que restaurar la NAND no lo solucionará.
-- El mensaje de error "Se ha producido un error..." es a causa de hiyaCFW y no está relacionado con tu NAND. Revisa la [página de errores de hiyaCFW en la wiki de DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) para más información.
+- Puedes recuperar fotos utilizando [ninfs](https://github.com/ihaveamac/ninfs/releases), en conjuncion con hiyaCFW o TWiLightMenu++ si quieres que estén en la consola. La última version de HiyaCFW Helper te permite copiar las fotos de tu memoria NAND a la SDNAND durante la configuración.
+- Puedes restaurar alguna de las configuraciones de botónes de Unlaunch desde su menú, al que puedes acceder manteniendo pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd> mientras enciendes la consola.
+- ¿Te salta error al iniciar Unlaunch? Saca tu tarjera SD e intenta iniciar el sistema de nuevo. Si funciona, entonces el error es a causa de tu tarjeta SD, y que restaurar la NAND no lo solucionará.
+- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
 - Cualquier error en TWiLight Menu++ no está relacionado con la NAND. Deberías intentar reinstalar TWiLight Menu++ o pedir ayuda en el servidor de Discord.
 - Desinstalar Unlaunch (ya sea sobreescribiendo la NAND o utilizando su desinstalador) debería ser evitado al menos que sea absolutamente necesario. Puedes configurar que el inicio automático ejecute "Launcher" y consola estará como en su estado original.
 
@@ -44,19 +51,33 @@ Es muy importante asegurarse de que tu respaldo de la NAND funciona antes de int
 5. Haz clic en `Options` > `Emulation Setup` para abrir la ventana de configuración de ejecución.
 6. Cambia la opción `Reset/Startup Entrypoin` a `GBA/NDS BIOS (Nintendo logo)`.
 7. Cambia la opción `NDS Mode/Colors` a `DSi (retail/16MB)`.
-8. Haz clic en `OK`.
+8. Click `Save Now`
 9. Ejecuta cualquier rom de Nintendo DS (la extensión de archivo debería ser `.nds`)
 
-Si no$gba carga el menú DSi, continúa a la siguiente sección. Si en su lugar salta cualquier clase de error, *¡no debes usar este respaldo!*
+If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. Si en su lugar salta cualquier clase de error, *¡no debes usar este respaldo!*
+
+## Uninstalling Unlaunch from your NAND backup (optional)
+Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
+1. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
+1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
+   - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
+1. Choose `Uninstall`
+1. Once complete, choose `Power down`
+1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
 ## Sobreescribir utilizando tu respaldo de la NAND (por software)
 
 ::: danger
+
 Aquí es donde la cosa se vuelve peligrosa, así que asegúrate de haber leído bien los pasos anteriores. Si llegaste aquí a través de un enlace sin seguir los pasos anteriores, vuelve al principio de la página y leela por completo.
+
 :::
 
 ::: danger
+
 Asegúrate de que tu consola está cargada antes de comenzar con esta sección.
+
 :::
 
 1. Con tu tarjeta SD dentro de tu consola, enciende la misma mientras mantienes pulsados <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.

@@ -1,3 +1,6 @@
+---
+---
+
 # Játékkártyák dumpolása
 
 Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszhatók emulátorral, flashcard-ról vagy az SD kártyádról nds-bootstrap segítségével.
@@ -10,10 +13,12 @@ Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszh
 ### I. rész - SD kártya telepítés
 
 ::: tip
+
 Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader)-t, hogy automatikusan telepítse az SD kártyád.
+
 :::
 
-1. Töltsd le a [GodMode9i](https://github.com/RocketRobz/godmode9i/releases) legfrissebb kiadását
+1. Töltsd le a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) legfrissebb kiadását
 1. Csomagold ki a `GodMode9i.nds`-t a GodMode9i archívból és rakd valahova az SD kártyádon
 
 ### II. rész - Nintendo DSi lépések
@@ -28,5 +33,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 1. Ismételd meg a 3-5. lépéseket minden játék kártyára, amit szeretnél dumpolni
 
 ::: tip
+
 A dumpolt játék kártyák az `sd:/gm9i/out` mappában lesznek megtalálhatók.
+
 :::

@@ -1,20 +1,27 @@
-# 还原 NAND备份
+---
+---
+
+# Restoring a NAND backup
 
 ::: danger
+
 警告！ 这非常 ***危险***！！！ 即使严格按照这些步骤操作也有可能使DSi变砖，因为机器的NAND闪存质量很低，尤其是如果你已经多次刷机！ 这只能作为最后手段使用！
+
 :::
 
 ::: tip
+
 请勿跳过此页上的 *任何步骤*, 任何错误都会使得你DSi的变砖几率增加.
+
 :::
 
 首先，除了你打算这样做的原因之外，还有几种更安全的替代选择：
 - 可以使用 hiyaCFW 或 TWiLight 菜单++安装DSiWare
-- 恢复图片可以使用 ninfs, 它与 hiyaCFW 或 TWiLight 菜单++安装在一起
-- 可以从Unlaunch菜单中恢复Unlaunch按钮配置
-- 启动至Unlaunch导致错误？ 拿出你的 SD 卡然后再试一次。 如果这有用，那么是SD卡出了错，还原NAND备份将不会修复它
-- "An error has occurred..." on boot is a hiyaCFW error and is not related to your NAND, see the [DS-Homebrew wiki's hiyaCFW troubleshooting page](https://wiki.ds-homebrew.com/hiyacfw/troubleshooting) for more information
-- TWiLight 菜单++中的任何错误都与NAND无关，您应该尝试重新安装 TWiLight 菜单++或在 Discord 上寻求帮助
+- Recovering pictures can be done using [ninfs](https://github.com/ihaveamac/ninfs/releases), in combination with hiyaCFW or TWiLight Menu++ if you want them on console. The latest version of the HiyaCFW Helper allows you to copy your photos from your NAND to the SDNAND during setup
+- Restoring an Unlaunch button configuration can be done from the Unlaunch menu, which can be accessed by holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while powering the console on
+- 启动至Unlaunch导致错误？ Take out your SD card and try starting the system again. 如果这有用，那么是SD卡出了错，还原NAND备份将不会修复它
+- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
+- Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on [Discord](https://ds-homebrew.com/discord)
 - 除非绝对有必要，否则应避免通过刷入NAND或使用其卸载器来卸载 您可以将自动启动密钥设置为“Launcher”，您的 DSi就会恢复正常了
 
 你唯一应该用你的NAND做的事情是安装Unlaunch 除此之外，请用其他替代方法
@@ -44,19 +51,33 @@
 5. 点击 `Options` > `Emulation Setup` 来打开模拟器设置窗口
 6. 改变 `Reset/Startup Entrypoint` 为 `GBA/NDS BIOS (Nintendo logo)`
 7. 改变 `NDS Mode/Colors`为 `DSi (retail/16MB)`
-8. 点击 `OK`
+8. Click `Save Now`
 9. 加载任何 NDS ROM (`.nds` 文件)
 
-如果no$gba 加载出了DSi 菜单，继续到下一节. 如果出现任何错误 ***不要刷入那个备份***！
+If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. 如果出现任何错误 ***不要刷入那个备份***！
+
+## Uninstalling Unlaunch from your NAND backup (optional)
+Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
+1. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
+1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
+   - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
+1. Choose `Uninstall`
+1. Once complete, choose `Power down`
+1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
 ## 刷入你的NAND备份 (软件方式)
 
 ::: danger
+
 请确保您已经阅读过上述步骤，因为这是开始变得危险的地方。 如果您直接链接到这里而没有跟从以上内容，请回到顶端阅读整个页面。
+
 :::
 
 ::: danger
+
 请确保您的 Nintendo DSi 在开始本节之前已经充满电。
+
 :::
 
 1. 在插入 SD 卡的状态下，按住 <kbd class="face">A</kbd> 和<kbd class="face">B</kbd> 开机

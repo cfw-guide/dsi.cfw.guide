@@ -1,3 +1,6 @@
+---
+---
+
 # Volcar cartuchos de juegos
 
 Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que puedan ser jugados en emuladores, flashcarts o desde tu tarjeta SD vía nds-bootstrap.
@@ -10,10 +13,12 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 ### Sección I - Preparación de la Tarjeta SD
 
 ::: tip
+
 ¿Utilizas Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) para configurar automáticamente tu tarjeta SD.
+
 :::
 
-1. Descarga la última versión de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases).
+1. Descarga la última versión de [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases).
 1. Extrae `GodMode9i.nds` del archivo GodMode9i y colócalo en cualquier lugar de tu tarjeta SD.
 
 ### Sección II - Instrucciones para Nintendo DSi
@@ -28,5 +33,7 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 1. Repite los pasos 3 a 5 para todos los cartuchos que quieras volcar.
 
 ::: tip
-Las ROMs volcadas estarán en el directorio `d:/gm9i/out`.
+
+Las ROMs volcadas estarán en el directorio `sd:/gm9i/out`.
+
 :::

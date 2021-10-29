@@ -1,59 +1,56 @@
 module.exports = {
-	selectLanguageName: "Italiano",
-
-	backToHome: "Take me home",
-	contributorsText: "Contributors",
-	editLinkText: "Edit this page",
-	lastUpdatedText: "Last Updated",
-	openInNewWindow: "open in new window",
-	selectLanguageAriaLabel: "Select language",
-	toggleDarkMode: "toggle dark mode",
-	toggleSidebar: "toggle sidebar",
-	discordNoticeText: "Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.",
-
+	selectLanguageName: 'Italiano',
+	backToHome: 'Take me home',
+	contributorsText: 'Contributors',
+	editLinkText: 'Edit this page',
+	lastUpdatedText: 'Last Updated',
+	openInNewWindow: 'open in new window',
+	selectLanguageAriaLabel: 'Select language',
+	toggleDarkMode: 'toggle dark mode',
+	toggleSidebar: 'toggle sidebar',
+	discordNoticeText: 'Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.',
 	navbar: [
-		"sd-card-setup",
-		"troubleshooting",
-		"faq",
+		'sd-card-setup',
+		'troubleshooting',
+		'faq',
 		{
-			text: "Backups",
+			text: 'Backups',
 			children: [
-				"dsiware-backups",
-				"dumping-game-cards",
-				"dumping-nand"
+				'dsiware-backups',
+				'dumping-game-cards',
+				'dumping-nand'
 			]
 		},
-		"uninstalling-unlaunch"
+		'uninstalling-unlaunch'
 	],
-
 	sidebar: [
-		"index.html",
+		'index.html',
 		{
-			text: "Guide",
+			text: 'Guide',
 			children: [
-				"launching-the-exploit",
-				"dumping-nand",
-				"installing-unlaunch"
+				'launching-the-exploit',
+				'dumping-nand',
+				'installing-unlaunch'
 			]
 		},
 		{
-			text: "Extras",
+			text: 'Extras',
 			children: [
-				"dsiware-backups",
-				"dumping-game-cards",
-				"file-extensions-(windows)",
-				"restoring-nand",
-				"sd-card-setup",
-				"uninstalling-unlaunch"
+				'dsiware-backups',
+				'dumping-game-cards',
+				'file-extensions-(windows)',
+				'restoring-nand',
+				'sd-card-setup',
+				'uninstalling-unlaunch'
 			]
 		},
 		{
-			text: "Other",
+			text: 'Other',
 			children: [
-				"faq",
-				"troubleshooting",
-				"credits",
-				"site-navigation"
+				'faq',
+				'troubleshooting',
+				'credits',
+				'site-navigation'
 			]
 		}
 	]

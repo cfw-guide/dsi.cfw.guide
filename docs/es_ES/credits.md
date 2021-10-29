@@ -1,3 +1,6 @@
+---
+---
+
 # Créditos
 
 Estos son los créditos para aquellos que han ayudado con el sitio web de la guía, homebrew y otras cosas.
@@ -11,7 +14,7 @@ Si te gusta lo que han hecho, considera la posibilidad de donar (si tienen un en
 - [shutterbug2000](https://paypal.me/projectkaeru): Descubridor & Desarrollador de camara DSi & Exploits de Flipnote Studio
 - [WinterMute](https://devkitpro.org/support-devkitpro): Mantenimiento del conjunto de herramientas para el desarrollo de Homebrew para DS, y la división del exploit de Flipnote Studio de ugopwn para crear Flipnote Lenny (que soporta todas las regiones y versiones de firmware).
 - [nocash](http://problemkaputt.de/donate.htm): Desarrollador de Unlaunch.
-- [RocketRobz](https://github.com/RocketRobz): Desarrollador de TWiLight Menu ++, hiyaCFW, y GodMode9i
+- [RocketRobz](https://github.com/RocketRobz): Desarrollador de TWiLight Menu ++ y de GodMode9i.
 - [zoogie](https://github.com/zoogie): Desarrollador de dumpTool y la división de Memory Pit que soporta todas las regiones y versiones de firmware.
 - [Plailect](https://github.com/Plailect): Hizo la guía original de modifiación de 3DS, de la cual ésta guía tomó inspiración.
 

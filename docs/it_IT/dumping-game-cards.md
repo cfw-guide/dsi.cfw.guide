@@ -1,19 +1,24 @@
+---
+---
+
 # Dumping delle cartucce di gioco
 
-Questa sezione serve per il dumping delle cartucce utilizzando GodMode9i, per giocarle su emulatori, flashcart o sulla scheda SD tramite nds-bootstrap.
+Questa sezione riguarda il dumping delle cartucce utilizzando GodMode9i, per usarle su emulatori, flashcard o sulla scheda SD tramite nds-bootstrap.
 
 ## Requisiti
-- La cartuccia di gioco del titolo che vuoi dumpare
+- La cartuccia di gioco del titolo che si desidera effettuare un dump
 - Una console Nintendo DSi con [Unlaunch](installing-unlaunch) installato sopra
 
 ## Istruzioni
 ### Sezione I - Configurazione della Scheda SD
 
 ::: tip
-Usi un dispositivo Windows, Linux, o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
+
+Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
+
 :::
 
-1. Scarica l'ultima versione di [dumpTool](https://github.com/RocketRobz/godmode9i/releases)
+1. Scarica l'ultima versione di [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
 1. Estrai `GodMode9i.nds` dall'archivio GodMode9i e mettilo in un percorso qualsiasi sulla scheda SD
 
 ### Sezione II - Istruzioni Nintendo DSi
@@ -25,8 +30,10 @@ Usi un dispositivo Windows, Linux, o macOS? Usa [Lazy DSi Downloader](lazy-dsi-d
 1. Seleziona se si desidera o no il riempimento (padding):
    - Full: Padding incluso
    - Trim: Padding rimosso
-1. Ripeti i passi 3-5 per tutte le cartucce che desideri dumpare
+1. Ripeti i passi 3-5 per tutte le cartucce di cui desideri effettuare un dump
 
 ::: tip
-Le cartucce di gioco dumpate saranno trovate in `sd:/gm9i/out`.
+
+I dump delle cartucce di gioco saranno trovato in `sd:/gm9i/out`.
+
 :::

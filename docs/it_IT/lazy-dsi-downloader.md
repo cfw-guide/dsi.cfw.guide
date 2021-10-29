@@ -1,3 +1,6 @@
+---
+---
+
 # Lazy DSi Downloader
 
 "Lazy DSi Downloader" è uno strumento che serve a semplificare il modding delle console Nintendo DSi.
@@ -7,7 +10,7 @@
 1. Accendi il tuo Nintendo DSi
 1. Apri l'applicazione Fotocamera Nintendo DSi
 
-Se a questo punto il tutorial crasha mentre cerchi di completarlo, allora non puoi utilizzare Memory Pit.
+Se a questo punto il tutorial crasha mentre cerchi di completarlo, allora non puoi utilizzare Memory Pit. Urilizza invece un [Exploit Alternativo](alternate-exploits).
 
 ## Guida di configurazione
 

@@ -2,25 +2,31 @@
 home: true
 title: Home
 header:
-   overlay_image: /assets/images/home-page-feature.png
-   overlay_filter: 0.5
+  overlay_image: /assets/images/home-page-feature.png
+  overlay_filter: 0.5
 ---
 
 ::: tip
+
 Per guide complete su homebrew e custom firmware per altri dispositivi, controlla [CFW.Guide](https://cfw.guide/).
+
 :::
 
 ::: danger
+
 Questa guida non è compatibile con le console di sviluppo Nintendo DSI.
+
 :::
 
 ::: tip
+
 Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di procedere.
+
 :::
 
 ## Cos'è l'homebrew?
 
-[Le applicazioni Homebrew](https://en. wikipedia. org/wiki/Homebrew_(video_games)) sono software senza licenza fatte per sistemi chiusi come il Nintendo DSi. Queste applicazioni possono variare da app utili a giochi homebrew personalizzati.
+[Le applicazioni Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) sono software senza licenza fatte per sistemi chiusi come il Nintendo DSi. Queste applicazioni possono variare da app utili a giochi homebrew personalizzati.
 
 L'Homebrew può essere eseguito gratuitamente su tutte le console Nintendo DSi, indipendentemente dalla versione del firmware o dalla regione. Tutto ciò di cui hai bisogno è un punto di ingresso e una scheda SD per memorizzare i tuoi homebrew. Il punto di entrata principale utilizzato in questa guida sarà chiamato Memory Pit, ma ce ne sono altri che si potrebbero utilizzare se Memory Pit è inutilizzabile.
 
@@ -35,15 +41,15 @@ Tieni presente che la guida è strutturata in maniera lineare, ma in genere dipe
 
 ## Cosa posso fare moddando il mio sistema?
 
-- Avviare i backup dei giochi Nintendo DS(i) dalla scheda SD del DSi senza la necessità di una flashcard
+- Avviare i backup dei giochi Nintendo DS(i) o hack di ROM dalla scheda SD del DSi senza la necessità di una flashcard
 - Avviare qualsiasi DSiWare (fuori regione e/o esclusiva 3DS) dalla tua scheda SD
 - Avviare applicazioni DSiWare e homebrew tenendo premuti pulsanti specifici quando si accende il Nintendo DSi
 - Avviare classici dei vecchi tempi utilizzando vari emulatori
 - Usare flashcard normalmente incompatibili
-- Reindirizzare la NAND alla scheda SD
+- Reindirizzare la NAND alla scheda SD utilizzando hiyaCFW
 - Guardare i tuoi film preferiti usando MPEG4Player
-- Usare FreeNAND per trasferire configurazioni, sys, titoli e ticket a un altro Nintendo DSi da una SDNAND
 - Mostrare un'immagine (definita come immagine d'avvio) all'avvio del sistema
+- Giocare a giochi homebrew
 
 ## Dove posso trovare delle applicazioni homebrew?
 
@@ -57,5 +63,7 @@ Tieni presente che la guida è strutturata in maniera lineare, ma in genere dipe
 - Se non hai esperienza con la copia dei file su una scheda SD, abbiamo a tua disposizione strumenti di assistenza
 
 ::: tip
+
 Continua a [Avvio dell' Exploit](launching-the-exploit)
+
 :::
