@@ -1,3 +1,7 @@
+---
+
+---
+
 # Installing Unlaunch
 
 Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
@@ -12,17 +16,23 @@ Unlaunch is an exploit that takes place on system boot. This allows it to have h
      - Better sound in GBARunner2
 
 ::: danger
+
 If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+
 :::
 
 ::: warning
+
 Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
+
 :::
 
 ## Section I - SD card setup
 
 ::: tip
+
 Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+
 :::
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
@@ -75,7 +85,9 @@ We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead o
 ## Section IV - Cleaning up your SD card
 
 ::: tip
+
 This section is optional and only serves for keeping your SD card tidy of files you won't need.
+
 :::
 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card

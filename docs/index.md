@@ -7,15 +7,21 @@ header:
 ---
 
 ::: tip
+
 For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide/).
+
 :::
 
 ::: danger
+
 This guide is not compatible with Nintendo DSi development consoles.
+
 :::
 
 ::: tip
+
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
+
 :::
 
 ## What is homebrew?
@@ -57,5 +63,7 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
+
 Continue to [Launching the Exploit](launching-the-exploit)
+
 :::

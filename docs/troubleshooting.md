@@ -1,3 +1,7 @@
+---
+
+---
+
 # Troubleshooting
 
 ## Unlaunch
@@ -17,7 +21,7 @@ If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with
 
 ### There is no audio or boot splash when launching "Launcher" using Unlaunch
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](/installing-unlaunch) using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch) using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Powering on only shows a black screen after installing Unlaunch
 

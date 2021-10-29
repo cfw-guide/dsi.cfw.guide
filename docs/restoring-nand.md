@@ -1,11 +1,19 @@
+---
+
+---
+
 # Restoring a NAND backup
 
 ::: danger
+
 WARNING! This is ***dangerous***. Even following these steps exactly still has potential to brick the DSi as the NAND is very low quality, especially if you flash multiple times! This should only be used as a last resort!
+
 :::
 
 ::: tip
+
 Do not skip *anything* on this page, any mistake greatly increases chance of bricking your DSi.
+
 :::
 
 First, a few safer alternatives to why you might want to do this:
@@ -24,7 +32,7 @@ The only thing you should be doing with your NAND is installing Unlaunch. Use th
 - The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - A way to run homebrew with NAND access, such as Unlaunch or Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
-   macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
+   - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Dumping the BIOS for use in no$gba
@@ -62,11 +70,15 @@ Follow this if you dumped your NAND backup after you installed Unlaunch and you 
 ## Flashing your NAND backup (Software)
 
 ::: danger
+
 Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
+
 :::
 
 ::: danger
+
 Make sure your Nintendo DSi system is well charged before beginning this section.
+
 :::
 
 1. With your SD card inserted, power on your Nintendo DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>

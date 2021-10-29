@@ -1,5 +1,8 @@
 const { i18n, themeConfig } = require("./i18n");
+const container = require('markdown-it-container');
 const path = require("path");
+
+themeConfig.translate.selectLanguageName = "Translate";
 
 module.exports = {
 	theme: path.resolve(__dirname, "./vuepress-theme"),
@@ -29,6 +32,9 @@ module.exports = {
 					},
 					"/zh_CN/": {
 						placeholder: i18n.zh_CN.search
+					},
+					"/translate/": {
+						placeholder: i18n.translate.search
 					}
 				}
 			}
@@ -93,6 +99,15 @@ module.exports = {
 			lang: "zh-CN",
 			title: i18n.zh_CN.title,
 			description: i18n.zh_CN.description
+		},
+		"/translate/": {
+			lang: "en",
+			title: "Translating DSi Guide",
+			description: "Crowdin In-Context for dsi.cfw.guide",
+			head: [
+				[ 'script', {}, "var _jipt=[];_jipt.push(['project','dsi-guide']);_jipt.push(['escape',function(){window.location.href='https://dsi.cfw.guide'}]);" ],
+				[ 'script', {src: "//cdn.crowdin.com/jipt/jipt.js"} ]
+			],
 		}
 	},
 
@@ -109,7 +124,32 @@ module.exports = {
 			"/hu_HU/": themeConfig.hu_HU,
 			"/it_IT/": themeConfig.it_IT,
 			"/pl_PL/": themeConfig.pl_PL,
-			"/zh_CN/": themeConfig.zh_CN
+			"/zh_CN/": themeConfig.zh_CN,
+			"/translate/": themeConfig.translate
 		}
+	},
+
+	extendsMarkdown: md => {
+		md.use(container, "tabs", {
+			render: (tokens, idx) => {
+				const token = tokens[idx];
+				if (token.nesting === 1) {
+					return `<Tabs ${token.info}>\n`;
+				} else {
+					return `</Tabs>\n`;
+				}
+			}
+		});
+	
+		md.use(container, 'tab', {
+			render: (tokens, idx) => {
+				const token = tokens[idx];
+				if (token.nesting === 1) {
+					return `<Tab ${token.info}>\n`;
+				} else {
+					return `</Tab>\n`;
+				}
+			}
+		});
 	}
 };

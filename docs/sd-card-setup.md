@@ -1,22 +1,33 @@
+---
+
+---
+
 # SD Card Setup
 
 This page is for preparing your SD card for your Nintendo DSi. In the process, we'll format the SD card to a format suitable for the Nintendo DSi and check the card for errors.
 
 ::: danger
+
 Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
+
 :::
 
-<tabs>
-<tab name="Windows" os="windows">
+::::: tabs
+
+:::: tab name="Windows" os="windows"
 
 ### Section I - Formatting your SD card with SD Formatter
 
 ::: tip
+
 This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+
 :::
 
 ::: danger
+
 Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
@@ -32,7 +43,9 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 This section formats SD cards larger than 32GB to FAT32.
 
 ::: tip
+
 If your SD card is 32GB or less in capacity, skip to Section III.
+
 :::
 
 1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
@@ -67,15 +80,20 @@ This will scan the SD card and correct any errors it finds.
 - Wait until the process is completed
 
 ::: tip
+
 If the test shows the result `Test finished without errors`, your SD card is healthy and you can delete all `.h2w` files on your SD card.
+
 :::
 
 ::: danger
+
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+
 :::
 
-</tab>
-<tab name="Linux" os="other">
+::::
+
+:::: tab name="Linux" os="other"
 
 ### Section I - Formatting your SD card
 1. Make sure your SD card is **not** inserted into your Linux machine
@@ -130,24 +148,33 @@ mmcblk0     179:0    0   3,8G  0 disk
 ___
 
 ::: tip
+
 If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+
 :::
 
 ::: danger
+
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+
 :::
 
-</tab>
-<tab name="macOS" os="macos">
+::::
+
+:::: tab name="macOS" os="macos"
 
 ### Section I - Formatting your SD card with SD Formatter
 
 ::: tip
+
 This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+
 :::
 
 ::: danger
+
 Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
@@ -163,7 +190,9 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 This section formats SD cards larger than 32GB to FAT32.
 
 ::: tip
+
 If your SD card is 32GB or less in capacity, skip to Section III.
+
 :::
 
 #### OS X El Capitan (10.11) and later
@@ -225,17 +254,24 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 ___
 
 ::: tip
+
 If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+
 :::
 
 ::: danger
+
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+
 :::
 
-</tab>
-</tabs>
+::::
+
+:::::
 
 ::: tip
+
 You can now restore the contents of your SD card and continue.
+
 :::
 

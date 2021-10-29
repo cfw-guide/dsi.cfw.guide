@@ -5,5 +5,6 @@ module.exports = {
 	hu_HU: require('./hu_HU'),
 	it_IT: require('./it_IT'),
 	pl_PL: require('./pl_PL'),
-	zh_CN: require('./zh_CN')
+	zh_CN: require('./zh_CN'),
+	translate: require('./translate')
 };

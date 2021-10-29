@@ -1,3 +1,7 @@
+---
+
+---
+
 # Credits
 
 This is the credits for those who have helped out with the guide website, homebrew, and other things.

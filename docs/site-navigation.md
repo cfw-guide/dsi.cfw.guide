@@ -1,3 +1,7 @@
+---
+
+---
+
 # Site Navigation
 
 ## Main guide process
@@ -7,7 +11,7 @@
 
 ## Add-on sections
 - [SD Card Setup](sd-card-setup)
-- [Lazy DSi Downloader](/lazy-dsi-downloader)
+- [Lazy DSi Downloader](lazy-dsi-downloader)
 - [File Extensions (Windows)](file-extensions-%28windows%29)
 - [Dumping Game Cards](dumping-game-cards)
 - [DSiWare Backups](dsiware-backups)
