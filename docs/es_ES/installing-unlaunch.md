@@ -10,8 +10,8 @@ Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite t
 - Remover el bloqueo regional en cartuchos de juegos con mejoras para Nintendo DSi o que sean exclusivos de la misma.
 - Ejecutar homebrew antiguo de Nintendo DS a través de nds-bootstrap-hb.
 - Protección contra bloqueos totales de la consola.
-- The following for Memory Pit users (other exploits already allow these):
-     - Improved compatibility with DSiWare launched from the SD card
+- Para los usuarios de Memory Pit (otros exploits ya son capaces de esto):
+     - Compatibilidad mejorada con títulos DSiWare ejecutados desde la tarjeta SD.
      - Mejor sonido en GBARunner2.
 
 ::: danger
@@ -38,7 +38,7 @@ Asegúrate de que tu consola está cargada mientras sigues estos pasos. Si el si
    - [Enlace alternativo](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si el de arriba no funciona.
 1. Extrae `UNLAUNCH.DSI` del archivo `unlach.zip`, y colócalo en cualquier lugar de tu tarjeta SD.
 1. Comprueba que aún tienes TWiLight Menu++ en tu tarjeta SD.
-   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit.html#twilight-menu) page
+   - Si no estás seguro, sigue las instrucciones en la página [Lanzar el Exploit](launching-the-exploit.html#twilight-menu).
 
 ## Sección II - Instalar/Actualizar Unlaunch
 

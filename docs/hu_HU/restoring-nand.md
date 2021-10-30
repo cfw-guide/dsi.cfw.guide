@@ -56,15 +56,15 @@ Nagyon fontos, hogy teszteld a NAND mentésedet, hogy működik, mielőtt helyre
 
 Ha a no$gba betölti a DSi menüt (vagy az Unlaunch Filemenu-t), folytasd a következő résszel. Ha bármilyen hibát ad ***ne flasheld a mentést***!
 
-## Uninstalling Unlaunch from your NAND backup (optional)
-Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+## Az Unlaunch eltávolítása a NAND mentésedből (opcionális)
+Kövesd ezt, ha a NAND mentésed az után készítetted, hogy telepítetted az Unlaunch-öt és el szeretnéd távolítani az Unlaunch-öt a rendszeredről. Ha nem akard eltávolítani az Unlaunch-öt, **nem** kell végrehajtanod ezt a részt.
 1. Töltsd le az [Unlaunch](https://problemkaputt.de/unlaunch.zip) legfrissebb kiadását
 1. Csomagold ki az `UNLAUNCH.DSI`-t az `unlaunch.zip` fájlból
-1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
-   - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
+1. Töltsd be az `UNLAUNCH.DSI`-t a no$gba-ban és indítsd el a Game Card slot-ból
+   - Ez el kell indítsa az Unlaunch telepítőt, ami hasonlóan néz ki, mint az Unlaunch Filemenu
 1. Válaszd az `Uninstall`-t
 1. Ha befejezte, válaszd a `Power down`-t
-1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
+1. Tölts be bármilyen Nintendo DS ROM-ot újra és ellenőrizd, hogy a DSi menüd betölts és megfelelően működik
 
 ## A NAND mentés flashelése (szoftver)
 

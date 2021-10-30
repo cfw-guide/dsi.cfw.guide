@@ -11,12 +11,12 @@
 ## ¿Cómo juego a ROMs volcadas de cartuchos de Nintendo DS?
 Jugar ROMs volcadas en la consola requiere el uso de una flashcart o de nds-bootstrap, un programa que permite cargar juegos desde la tarjeta SD redirigiendo hacia esta las instrucciones de lectura/escritura originalmente dirigidas a la ranura Slot-1 de la consola.
 - Con TWiLight Menu++ puedes navegar por tu tarjeta SD para encontrar ROMs que puedas ejecutar con nds-bootstrap. Las ventajas de usar TWiLight Menu++ son: tener un menú de trucos, configuraciones separadas para cada juego, y evitar las restricciones que conlleva utilizar redireccionadores. En otras palabras, puedes colocar ROMs directamente en tu tarjeta SD y jugar sin más configuraciones. No hay límite de 39 juegos por pantalla, no se requieren hiyaFCW o Unlaunch, y no hay restricciones en cuanto al tamaño de la tarjeta SD.
-- hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Sólo se pueden tener 39 títulos en pantalla, y es menos conveniente hacerlos que usar TWiLight Menu++.
+- Los usuarios de giyaCFW pueden crear redireccionadores a para el Menú DSi de la SDNAND usando la guía para [Redireccionadores para juegos de DS](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) en la wiki de DS-Homebrew, pero esto tiene algunas limitaciones. Sólo se pueden tener 39 títulos en pantalla, y es menos conveniente hacerlos que usar TWiLight Menu++.
    - Si no tienes instalado hiyaCFW y te gustaría usar redireccionadores, puedes seguir la [guía de instalación de hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)en la Wiki de DS-Homebrew.
 
 ## ¿Como actualizo mi Homebrew?
 - **Unlaunch** - Sigue las instrucciones en la página de [Instalación de Unlaunch](installing-unlaunch).
-   - You do **not** need to uninstall Unlaunch before doing this
+   - Ojo, **NO** es necesario desinstalar Unlaunch antes de hacer esto.
 - **hiyaCFW** - Reemplaza el archivo `hiya.dsi` en la raíz de la tarjeta SD con la [última versión](https://github.com/RocketRobz/hiyaCFW/releases).
 - **TWiLight Menu++** - Sigue las instrucciones en la [Wiki de DS Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copia los archivos `nds-bootstrap-hb-release.nds` y `nds-bootstrap-release.nds` a la carpeta `_nds` en la raíz de tu tarjeta SD.
@@ -38,6 +38,6 @@ Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar.
 - Si quieres cambiar en definitivo la región del sistema, y estás utilizando jiyaCFW, puedes usar el [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) de Yoti.
 - Por último, si quieres cambiar la región en la memoria NAND del sistema, puedes usar el [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) de Mighty Max.
 
-## What happened to the hiyaCFW installation guide?
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-- If you were linked to the page in question from another guide, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
+## ¿Qué pasó con la guía de instalación de hiyaCFW?
+Como hiyaCFW no tiene mucha utilidad y era una parte problemática y confusa para muchos usuarios, fue trasladada a la [wiki de DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/installing).
+- Si fuiste referido a la página en cuestión desde otra guía, las instrucciones que estabas siguiendo muy probablemente estaban desactualizadas. Se te recomienda seguir esta guía en su lugar, ya que es mantenida y constantemente actualizada por los desarrolladores de estos proyectos.

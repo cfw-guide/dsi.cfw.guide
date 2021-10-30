@@ -11,20 +11,20 @@
 
 **ADVERTENCIA:** Desinstalar Unlaunch puede bloquear totalmente tu consola. Aquí hay algunos casos por los que podrías querer desinstalar Unlaunch, junto con soluciones que no lo requerirían.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch) using the new instructions. Ahora te enseñan también cómo cambiar el fondo.
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
+- **El fondo de Unlaunch da miedo:** [Reinstala Unlaunch](installing-unlaunch) siguiendo estas nuevas instrucciones. Ahora contienen instrucciones sobre cómo cambiar el fondo.
+- **Tengo problemas con Unlaunch o con mi consola después de instalarlo:** La [página de solución de problemas](troubleshooting.html#unlaunch) puede tener la solución a muchos de los problemas que podrías estar experimentando.
 
 ::: warning
 
-To reduce the chances of bricking, make sure that you have not installed any illegitimate DSiWare to your NAND backup (the SDNAND redirection provided by hiyaCFW does not count), or have otherwise tampered with system files.
+Para reducir la posibilidad de bloqueo total, asegúrate de que no has instalado títulos DSiWare de forma no legítima a tu respaldo de la NAND (la redirección a títulos desde la SDNAND de hiyaCFW no cuenta), o que no has tocado y movido de alguna otra forma los archivos del sistema.
 
 :::
 
 ::: warning
 
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller, because there is a chance that it will brick the console. Please see below for information on uninstalling it properly.
+Si quieres desinstalar Unlaunch, **no debes** usar la opción de desinstalar que viene en el instalador, ya que esta tiene una alta probabilidad de bloquar la consola. Echa un vistazo a la información de más abajo para desinstalar Unlaunch de la manera correcta.
 
 :::
 
-Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand).
-- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand) and proceed with [Restoring a NAND Backup](restoring-nand). There are instructions for users who have Unlaunch installed on their NAND backup
+Una vez hayas revisado la información de arriba, puedes proceder a [Restaurar un respaldo de la NAND](restoring-nand). Estos pasos te indicaran como flashear el respaldo que hiciste al [volcar la NAND](dumping-nand).
+- Si ya posees el respaldo de la NAND de antes de instalar Unlaunch, sigue [los pasos necesarios para volcarla](dumping-nand) y luego procede a [restaurar un respaldo de la NAND](restoring-nand). Hay instrucciones para usuarios que tienen Unlaunch instalado en su respaldo.

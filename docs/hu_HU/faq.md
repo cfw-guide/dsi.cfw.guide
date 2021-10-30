@@ -11,7 +11,7 @@
 ## Hogyan játszhatok Nintendo DS játék kártya dumpokkal?
 A játék kártya dump játékok használatához a konzolnak szüksége van flashcard-ra vagy nds-bootstrap-re, egy programra, ami lehetővé teszi, hogy a belső SD kártyáról játszhatók legyenek a játékok a Slot-1 írás és olvasás átirányításával.
 - A TWiLight Menu++-szal navigálhatsz az SD kártyádon, hogy megtaláld a ROM fájlokat, amiket nds-bootstrap-pel játszhatsz. A TWiLight Menu++ használatának előnye a csalás menü, a játékonkénti beállítások és hogy megkerüli a korlátozásokat, amikkel a forwarder-ek rendelkeznek. Más szavakkal, csak felmásolod a ROM fájlokat és játszhatsz velük bármilyen telepítés nélkül. Nincs 39 cím limit, sem hiyaCFW, sem Unlaunch nem szükséges és nincs korlátozás az SD kártya szabad tárhelyével kapcsolatosan sem
-- hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Ott van a 39 címes limit, kevésbé kényelmes elkészíteni, mint használni a TWiLight Menu++-t
+- A hiyaCFW felhasználók létrehozhatnak forwarder-eket az SDNAND DSi Menu-be a DS-Homebrew Wiki [DS játék forwarder-ek](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) útumutató használatával, de vannak korlátozásai. Ott van a 39 címes limit, kevésbé kényelmes elkészíteni, mint használni a TWiLight Menu++-t
    - Ha nincs hiyaCFW-d és szeretnél forwarder-eket használni, kövesd a [hiyaCFW telepítési útmutatót](https://wiki.ds-homebrew.com/hiyacfw/installing) a DS-Homebrew Wiki-n
 
 ## Hogyan tudom frissíteni a homebrew appjaim?
@@ -38,6 +38,6 @@ Igen, néhány különböző metódus áll rendelkezésre, attól függően mit 
 - Ha tényéeg szeretnéd cserélni a régiót és hiyaCFW-t használsz, akkor használhatod erre Yoti [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)-ját
 - Végül, ha cserélni akarod a régiót az aktuális rendszer NAND-ban, használhatod Mighty Max [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)-ét
 
-## What happened to the hiyaCFW installation guide?
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-- If you were linked to the page in question from another guide, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
+## Mi történt a hiyaCFW telepítési útmutatóval?
+Mivel a hiyaCFW nem ad sok funkcionalitás és problémás és avaró része volt az úutatónak, átmozgatásra került a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing)-be.
+- Ha linkelve lettél az oldalra egy másik útmutatóból, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutató helyette, mert folyamatosan karbantartott a projekt fejlesztői által

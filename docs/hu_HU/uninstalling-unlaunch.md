@@ -22,9 +22,9 @@ A brick-elés esélyeinek csökkentésére, legyél biztos abban, hogy nem telep
 
 ::: warning
 
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller, because there is a chance that it will brick the console. Please see below for information on uninstalling it properly.
+Ha eltávolítod az Unlaunch-öt, **NEM** szabad használnod a beépített eltávolítót, mert megvan az esélye, hogy brickeli a konzolt. Tekintsd át az alábbi információt a megfelelő eltávolításhoz.
 
 :::
 
-Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand).
-- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand) and proceed with [Restoring a NAND Backup](restoring-nand). There are instructions for users who have Unlaunch installed on their NAND backup
+Ha áttekintetted az alábbi információt folytasd a [NAND mentés helyreállításával](restoring-nand). Ez végig vezet a NAND mentés flashelésén, amit a[NAND dumpolása](dumping-nand) során készítettél.
+- Ha már nem rendelkezel az Unlaunch telepítése előtti NAND mentéssel, kövesd a [NAND dumpolása](dumping-nand) részt, majd folytasd a [NAND mentés helyreállítása](restoring-nand) résszel. Van útmutató azok számára, akik telepítettek Unlaunch-öt a NAND mentésükre

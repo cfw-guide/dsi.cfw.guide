@@ -1,20 +1,20 @@
 module.exports = {
 	selectLanguageName: 'Español',
-	backToHome: 'Take me home',
-	contributorsText: 'Contributors',
-	editLinkText: 'Edit this page',
-	lastUpdatedText: 'Last Updated',
-	openInNewWindow: 'open in new window',
-	selectLanguageAriaLabel: 'Select language',
-	toggleDarkMode: 'toggle dark mode',
-	toggleSidebar: 'toggle sidebar',
-	discordNoticeText: 'Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.',
+	backToHome: 'Ir a la página de inicio',
+	contributorsText: 'Colaboradores',
+	editLinkText: 'Editar esta página',
+	lastUpdatedText: 'Actualizado por última vez',
+	openInNewWindow: 'abrir en una ventana nueva',
+	selectLanguageAriaLabel: 'Elegir idioma',
+	toggleDarkMode: 'act./desac. modo oscuro',
+	toggleSidebar: 'act./desac. barra lateral',
+	discordNoticeText: 'Únete al servidor [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) en Discord para obtener soporte y seguir el desarrollo de la guía.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',
 		'faq',
 		{
-			text: 'Backups',
+			text: 'Respaldos',
 			children: [
 				'dsiware-backups',
 				'dumping-game-cards',
@@ -26,7 +26,7 @@ module.exports = {
 	sidebar: [
 		'index.html',
 		{
-			text: 'Guide',
+			text: 'Guía',
 			children: [
 				'launching-the-exploit',
 				'dumping-nand',
@@ -45,7 +45,7 @@ module.exports = {
 			]
 		},
 		{
-			text: 'Other',
+			text: 'Otros',
 			children: [
 				'faq',
 				'troubleshooting',

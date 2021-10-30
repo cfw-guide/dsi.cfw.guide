@@ -17,7 +17,7 @@ Si el problema persiste, prueba esto:
 1. Una vez montado el respaldo de tu NAND, monta `twl_main.img`. Si usas Windows, puedes usar [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) para montar la imagen.
 1. Desmonta `twl_main.img`, luego desmonta el respaldo de la NAND en ninfs. Si la NAND se guarda, sigue las instrucciones de [Restaurar la NAND](restoring-nand) y continua con la [instalación de Unlaunch](installing-unlaunch).
 
-### There is no audio or boot splash when launching "Launcher" using Unlaunch
+### No hay audio o pantalla de inicio al ejectar Launcher (el menú original de DSi) usando Unlaunch.
 
 El desarrollador de Unlaunch (nocash) intencionalmente parchea el sonido de fondo y la pantalla de inicio por defecto. Puedes recuperar estos efectos [reinstalando Unlaunch](installing-unlaunch) usando TWiLight Menu ++, o usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
@@ -25,7 +25,7 @@ El desarrollador de Unlaunch (nocash) intencionalmente parchea el sonido de fond
 
 Intenta extraer la tarjeta SD y encender la consola nuevamente. Si el problema persiste, es posible que tengas que restaurar el chip de la NAND [modificando el hardware de la consola](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### After installing Unlaunch, I'm stuck booting into an application or the Unlaunch Filemenu
+### Después de instalar Unlaunch, estoy atascado ya que se inicia una aplicación o salta el sistema de archivos de Unlaunch.
 
 Es probable que esto fuese causado por elegir una aplicación incorrecta para la opción `NO BUTTON` en Unlaunch. Mantén presionados <kbd class="face">A</kbd> y <kbd class="face">B</kbd> mientras enciendes la consola, ve a `OPTIONS` y establece `NO BUTTON` a la aplicación que quieras ejecutar al inicio.
 

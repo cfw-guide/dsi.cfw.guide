@@ -1,5 +1,5 @@
 module.exports = {
 	title: 'Guía de DSi',
-	description: 'Una guia completa de modificar tu Nintendo DSi',
-	search: 'Search'
+	description: 'Una guia completa para modificar tu Nintendo DSi',
+	search: 'Buscar'
 };
