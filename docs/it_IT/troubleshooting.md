@@ -1,7 +1,7 @@
 ---
 ---
 
-# Troubleshooting
+# Risoluzione dei problemi
 
 ## Unlaunch
 ### Unlaunch si blocca a `MISMATCH IN FAT COPIES`
@@ -17,7 +17,7 @@ Se il problema persiste, proba questo:
 1. Quando il backup della NAND è montato, monta `twl_main.img`. Se usi windows, puoi usare [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) per montare l'mmagine
 1. Smonta `twl_main.img`, dopo smonta il backup delle NAND su ninfs Se la NAND è stata salvata, procedi con [Ripristino NAND](restoring-nand) e dopo continua con [Installazione di Unlaunch](installing-unlaunch).
 
-### There is no audio or boot splash when launching "Launcher" using Unlaunch
+### Non c'è alcun avvio audio o avvio quando si avvia "Launcher" utilizzando Unlaunch
 
 Lo sviluppatore di Unlaunch (nocash) ha intenzionalmente rimosso l'audio di sottofondo e la schermata d'avvio come impostazione predefinita. Puoi riattivare questi effetti [reinstallando Unlaunch](installing-unlaunch) usando TWiLight Menu++, o usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
@@ -25,7 +25,7 @@ Lo sviluppatore di Unlaunch (nocash) ha intenzionalmente rimosso l'audio di sott
 
 Prova ad espellere la scheda SD e riaccendere la console. Se continua a mostrare uno schermo nero, potresti aver bisogno di flashare la tua NAND con una [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### After installing Unlaunch, I'm stuck booting into an application or the Unlaunch Filemenu
+### Dopo aver installato Unlaunch, sono bloccato all'avvio di un'applicazione o al menu di Unlaunch
 
 La causa è probabilmente la scelta dell'app sbagliata per l'opzione `NO BUTTON` in unlaunch. Tieni premuto <kbd class="face">A</kbd> + <kbd class="face">B</kbd> durante l'avvio della console, apri le `OPZIONI`, e imposta `NO BUTTON` come preferisci.
 

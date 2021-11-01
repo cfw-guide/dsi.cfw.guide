@@ -1,7 +1,7 @@
 ---
 ---
 
-# Credits
+# Crediti
 
 Questi sono i crediti per coloro che hanno aiutato con il sito web della guida, homebrew e altre cose.
 
