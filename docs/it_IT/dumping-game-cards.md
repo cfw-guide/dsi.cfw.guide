@@ -1,7 +1,6 @@
 ---
+title: Dumping delle cartucce di gioco
 ---
-
-# Dumping delle cartucce di gioco
 
 Questa sezione riguarda il dumping delle cartucce utilizzando GodMode9i, per usarle su emulatori, flashcard o sulla scheda SD tramite nds-bootstrap.
 

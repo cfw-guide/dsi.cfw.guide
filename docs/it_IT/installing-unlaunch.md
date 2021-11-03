@@ -1,7 +1,6 @@
 ---
+title: Installazione di Unlaunch
 ---
-
-# Installazione di Unlaunch
 
 Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette di avere più privilegi dei normali exploit DSiWare come Memory Pit, che lo rende in grado di fare quanto segue:
 

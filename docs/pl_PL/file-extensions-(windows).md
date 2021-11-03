@@ -1,7 +1,6 @@
 ---
+title: Rozszerzenia plików (Windows)
 ---
-
-# Rozszerzenia plików (Windows)
 
 Jest to dodatek wyłączający domyślne zachowanie systemu Windows polegające na ukrywaniu rozszerzeń plików, co znacznie ułatwi odnalezienie plików, do których odwołuje się przewodnik.
 

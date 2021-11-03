@@ -1,7 +1,6 @@
 ---
+title: Restauration d'une sauvegarde de la NAND
 ---
-
-# Restauration d'une sauvegarde de la NAND
 
 ::: danger
 

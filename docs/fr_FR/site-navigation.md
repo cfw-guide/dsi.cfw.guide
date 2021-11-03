@@ -1,7 +1,6 @@
 ---
+title: Index du site
 ---
-
-# Index du site
 
 ## Étapes du guide principal
 - [Lancement de l'exploit](launching-the-exploit)

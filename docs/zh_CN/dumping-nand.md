@@ -1,7 +1,6 @@
 ---
+title: 提取NAND
 ---
-
-# 提取NAND
 
 这个页面用于备份NAND，它是DSi内部数据的拷贝。 It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
 

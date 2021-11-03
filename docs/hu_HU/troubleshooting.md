@@ -1,7 +1,6 @@
 ---
+title: Hibaelhárítás
 ---
-
-# Hibaelhárítás
 
 ## Unlaunch
 ### Az Unlaunch lefagy a `MISMATCH IN FAT COPIES` üzenetnél

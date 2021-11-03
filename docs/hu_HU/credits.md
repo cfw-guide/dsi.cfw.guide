@@ -1,7 +1,6 @@
 ---
+title: Készítők
 ---
-
-# Készítők
 
 Ez a készítők listája, akik segítettek az útmutató weboldalon, homebrew és egyéb dolgokban.
 

@@ -1,8 +1,6 @@
 ---
-
+title: Site Navigation
 ---
-
-# Site Navigation
 
 ## Main guide process
 - [Launching the Exploit](launching-the-exploit)

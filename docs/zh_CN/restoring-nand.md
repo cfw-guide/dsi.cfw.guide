@@ -1,7 +1,6 @@
 ---
+title: Restoring a NAND backup
 ---
-
-# Restoring a NAND backup
 
 ::: danger
 

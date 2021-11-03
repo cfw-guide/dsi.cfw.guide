@@ -1,7 +1,6 @@
 ---
+title: Lazy DSi File Downloader（DSi懒人下载包）
 ---
-
-# Lazy DSi File Downloader（DSi懒人下载包）
 
 “Lazy DSi Downloader”是一个简化破解Nintendo DSi 过程的工具。
 

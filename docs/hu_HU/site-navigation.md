@@ -1,7 +1,6 @@
 ---
+title: Webhely navigáció
 ---
-
-# Webhely navigáció
 
 ## Fő folyamat útmutató
 - [Az Exploit indítása](launching-the-exploit)

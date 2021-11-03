@@ -1,7 +1,6 @@
 ---
+title: NAND dumpolása
 ---
-
-# NAND dumpolása
 
 Ez az oldal a NAND mentés készítéséről szól, ami egy másolata a Nintendo DSi belső tárolójának. Ez a hiyaCFW telepítéséhez és a NO$gba-hoz és melonDS-hez DSi emulációhoz használható.
 

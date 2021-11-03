@@ -1,7 +1,6 @@
 ---
+title: Respaldos de DSiWare
 ---
-
-# Respaldos de DSiWare
 
 ## Requisitos
 - La ultima version de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)

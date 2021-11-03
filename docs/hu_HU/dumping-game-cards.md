@@ -1,7 +1,6 @@
 ---
+title: Játékkártyák dumpolása
 ---
-
-# Játékkártyák dumpolása
 
 Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszhatók emulátorral, flashcard-ról vagy az SD kártyádról nds-bootstrap segítségével.
 

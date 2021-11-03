@@ -1,7 +1,6 @@
 ---
+title: Extensions de fichier (Windows)
 ---
-
-# Extensions de fichier (Windows)
 
 Il s'agit d'une section complémentaire permettant de désactiver le comportement par défaut de Windows consistant à masquer les extensions de fichiers, ce qui vous permettra de trouver beaucoup plus facilement les fichiers référencés dans le guide.
 

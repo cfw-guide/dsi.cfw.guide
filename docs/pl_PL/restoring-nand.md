@@ -1,7 +1,6 @@
 ---
+title: Przywracanie kopii zapasowej NAND
 ---
-
-# Przywracanie kopii zapasowej NAND
 
 ::: danger
 

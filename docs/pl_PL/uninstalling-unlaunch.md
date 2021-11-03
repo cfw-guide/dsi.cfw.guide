@@ -1,7 +1,6 @@
 ---
+title: Odinstalowywanie
 ---
-
-# Odinstalowywanie
 
 ::: danger
 

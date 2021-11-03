@@ -1,7 +1,6 @@
 ---
+title: FAQ
 ---
-
-# FAQ
 
 ## Quale funzionalità perderò moddando il mio sistema?
 - Se decidi di installare Unlaunch, non perderai nessuna funzionalità di sistema

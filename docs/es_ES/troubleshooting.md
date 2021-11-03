@@ -1,7 +1,6 @@
 ---
+title: Solucion de problemas
 ---
-
-# Solucion de problemas
 
 ## Unlaunch
 ### Unlaunch se congela y muestra el mensaje `MISMATCH IN FAT COPIES`

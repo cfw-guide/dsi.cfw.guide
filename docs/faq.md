@@ -1,8 +1,6 @@
 ---
-
+title: FAQ
 ---
-
-# FAQ
 
 ## What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality

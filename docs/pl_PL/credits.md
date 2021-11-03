@@ -1,7 +1,6 @@
 ---
+title: Podziękowania
 ---
-
-# Podziękowania
 
 To są zasługi dla tych, którzy pomagali przy stronie przewodnika, homebrew i innych rzeczach.
 

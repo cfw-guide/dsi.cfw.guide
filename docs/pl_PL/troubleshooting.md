@@ -1,7 +1,6 @@
 ---
+title: Rozwiązywanie problemów
 ---
-
-# Rozwiązywanie problemów
 
 ## Unlaunch
 ### Czy Unlaunch zamraża się na `MISMATCH IN FAT COPIES`

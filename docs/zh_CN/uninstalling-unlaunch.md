@@ -1,7 +1,6 @@
 ---
+title: 卸载 Unlaunch
 ---
-
-# 卸载 Unlaunch
 
 ::: danger
 

@@ -1,7 +1,6 @@
 ---
+title: Nawigacja stroną
 ---
-
-# Nawigacja stroną
 
 ## Główny poradnik
 - [Uruchamianie Eksploratora](launching-the-exploit)

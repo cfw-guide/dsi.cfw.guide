@@ -1,7 +1,6 @@
 ---
+title: Créditos
 ---
-
-# Créditos
 
 Estos son los créditos para aquellos que han ayudado con el sitio web de la guía, homebrew y otras cosas.
 

@@ -1,7 +1,6 @@
 ---
+title: Effettuare dump della NAND
 ---
-
-# Effettuare dump della NAND
 
 Questa pagina riguarda la creazione di backup della NAND, una copia dei dati della memoria interna del Nintendo DSi. Può essere usato per impostare hiyaCFW, così come no$gba e melonDS per l'emulazione del DSi.
 

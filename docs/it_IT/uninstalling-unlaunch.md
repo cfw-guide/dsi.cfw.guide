@@ -1,7 +1,6 @@
 ---
+title: Disinstallazione di Unlaunch
 ---
-
-# Disinstallazione di Unlaunch
 
 ::: danger
 

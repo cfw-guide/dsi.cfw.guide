@@ -1,7 +1,6 @@
 ---
+title: Zrzucanie NAND
 ---
-
-# Zrzucanie NAND
 
 Ta strona służy do tworzenia kopii zapasowej NAND, która jest kopią danych znajdujących się w pamięci wewnętrznej Nintendo DSi. It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
 

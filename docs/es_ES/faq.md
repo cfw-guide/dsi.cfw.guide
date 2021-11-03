@@ -1,7 +1,6 @@
 ---
+title: Preguntas Frecuentes
 ---
-
-# Preguntas Frecuentes
 
 ## ¿Qué funcionalidad perderé al modificar mi sistema?
 - Si decides instalar Unlaunch, no perderás ninguna funcionalidad del sistema.

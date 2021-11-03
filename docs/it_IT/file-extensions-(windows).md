@@ -1,7 +1,6 @@
 ---
+title: Estensioni File (Windows)
 ---
-
-# Estensioni File (Windows)
 
 Questa è una sezione aggiuntiva per disabilitare il comportamento predefinito di Windows di nascondere le estensioni dei file, che renderà la ricerca dei file di riferimento nella guida molto più facile per voi.
 

@@ -1,7 +1,6 @@
 ---
+title: Preparacion de la tarjeta SD
 ---
-
-# Preparacion de la tarjeta SD
 
 Esta página es para preparar la tarjeta SD para usarla con tu consola. En el proceso, formatearemos la tarjeta SD con un formate adecuado para la Nintendo DSi, y revisaremos la tarjeta en búsqueda de errores.
 

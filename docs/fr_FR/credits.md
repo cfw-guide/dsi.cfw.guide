@@ -1,7 +1,6 @@
 ---
+title: Credits
 ---
-
-# Credits
 
 Voici les remerciements pour ceux qui ont aidé à faire le site web du guide, les homebrews, et d'autres choses.
 

@@ -1,7 +1,6 @@
 ---
+title: Extraction des cartouches de jeu
 ---
-
-# Extraction des cartouches de jeu
 
 This section is for dumping Game Cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
 

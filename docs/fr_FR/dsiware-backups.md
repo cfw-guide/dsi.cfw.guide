@@ -1,7 +1,6 @@
 ---
+title: Sauvegardes DSiWare
 ---
-
-# Sauvegardes DSiWare
 
 ## Prérequis
 - La dernière version de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)

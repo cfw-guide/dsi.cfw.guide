@@ -1,7 +1,6 @@
 ---
+title: Kopie zapasowe DSiWare
 ---
-
-# Kopie zapasowe DSiWare
 
 ## Wymagania
 - Najnowsza wersja [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)

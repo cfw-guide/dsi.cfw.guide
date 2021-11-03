@@ -1,7 +1,6 @@
 ---
+title: Unlaunch eltávolítása
 ---
-
-# Unlaunch eltávolítása
 
 ::: danger
 

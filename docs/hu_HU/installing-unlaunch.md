@@ -1,7 +1,6 @@
 ---
+title: Unlaunch telepítése
 ---
-
-# Unlaunch telepítése
 
 Az Unlaunch egy exploit, ami a rendszer bootnál helyezkedik el. Ez lehetővé tesz, hogy magasabb jogokat szerezünk, mint a normál DSiWare exploitok, mint például Memory Pit, ami lehetővé teszi a következőket:
 

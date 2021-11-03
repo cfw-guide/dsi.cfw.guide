@@ -1,7 +1,6 @@
 ---
+title: DSiWare mentések
 ---
-
-# DSiWare mentések
 
 ## Követelmények
 - A [GodMode9i](https://github.com/RocketRobz/godmode9i/releases) legfrissebb kiadása

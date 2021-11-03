@@ -1,7 +1,6 @@
 ---
+title: DSiware备份
 ---
-
-# DSiware备份
 
 ## 首先需要…
 - 最新版本的 [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)

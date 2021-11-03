@@ -1,7 +1,6 @@
 ---
+title: Configurazione Scheda SD
 ---
-
-# Configurazione Scheda SD
 
 Questa pagina serve a preparare la scheda SD del tuo Nintendo DSi. In questo processo, formatteremo la scheda SD in un format adeguato per il Nintendo DSi e verificheremo eventuali errori della scheda.
 

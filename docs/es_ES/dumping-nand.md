@@ -1,7 +1,6 @@
 ---
+title: Volcar la memoria NAND
 ---
-
-# Volcar la memoria NAND
 
 Esta página es para hacer un respaldo de la NAND, es decir, una copia de los datos en el almacenamiento interno de la consola. Puedes usar este respaldo para configurar HiyaCFW, también para usarlo con los emuladores no$gba y melonDS para emular una consola Nintendo DSi.
 

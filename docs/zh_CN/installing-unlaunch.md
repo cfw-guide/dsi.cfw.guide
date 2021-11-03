@@ -1,7 +1,6 @@
 ---
+title: 安装取消启动
 ---
-
-# 安装取消启动
 
 Unlaunch是系统启动时触发的一种漏洞。 This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
 

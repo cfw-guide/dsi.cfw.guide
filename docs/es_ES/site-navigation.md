@@ -1,7 +1,6 @@
 ---
+title: Navegación del sitio
 ---
-
-# Navegación del sitio
 
 ## Proceso de guía principal
 - [Lanzar el Exploit](launching-the-exploit)

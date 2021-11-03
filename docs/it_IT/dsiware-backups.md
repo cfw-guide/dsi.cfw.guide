@@ -1,7 +1,6 @@
 ---
+title: Backup DSiWare
 ---
-
-# Backup DSiWare
 
 ## Requisiti
 - L'ultima versione di [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)

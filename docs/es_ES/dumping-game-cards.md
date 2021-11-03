@@ -1,7 +1,6 @@
 ---
+title: Volcar cartuchos de juegos
 ---
-
-# Volcar cartuchos de juegos
 
 Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que puedan ser jugados en emuladores, flashcarts o desde tu tarjeta SD vía nds-bootstrap.
 

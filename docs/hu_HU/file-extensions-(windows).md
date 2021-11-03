@@ -1,7 +1,6 @@
 ---
+title: Fájlkiterjesztések (Windows)
 ---
-
-# Fájlkiterjesztések (Windows)
 
 Ez egy kiegészítő rész, amelyben kikapcsoljuk a Windows azon alap viselkedését, hogy elrejti a fájlkiterjesztéseke, ami könnyebbé teszi számodra, hogy megtaláld a hivatkozott fájlokat.
 

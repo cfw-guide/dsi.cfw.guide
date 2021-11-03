@@ -1,8 +1,6 @@
 ---
-
+title: File Extensions (Windows)
 ---
-
-# File Extensions (Windows)
 
 This is an add-on section for disabling Windows's default behavior of hiding file extensions, which will make finding referenced files in the guide much easier for you.
 

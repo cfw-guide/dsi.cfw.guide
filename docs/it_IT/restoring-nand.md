@@ -1,7 +1,6 @@
 ---
+title: Ripristino di un backup della NAND
 ---
-
-# Ripristino di un backup della NAND
 
 ::: danger
 

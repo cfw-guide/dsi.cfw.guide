@@ -1,7 +1,6 @@
 ---
+title: A NAND biztonsági másolat visszaállítása
 ---
-
-# A NAND biztonsági másolat visszaállítása
 
 ::: danger
 

@@ -1,7 +1,6 @@
 ---
+title: Navigazione Sito
 ---
-
-# Navigazione Sito
 
 ## Processo guida principale
 - [Avviare l'exploit](launching-the-exploit)

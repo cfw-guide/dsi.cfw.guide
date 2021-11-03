@@ -1,7 +1,6 @@
 ---
+title: Risoluzione dei problemi
 ---
-
-# Risoluzione dei problemi
 
 ## Unlaunch
 ### Unlaunch si blocca a `MISMATCH IN FAT COPIES`

@@ -1,8 +1,6 @@
 ---
-
+title: Uninstalling Unlaunch
 ---
-
-# Uninstalling Unlaunch
 
 ::: danger
 

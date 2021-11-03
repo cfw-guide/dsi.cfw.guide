@@ -1,7 +1,6 @@
 ---
+title: SD kártya telepítés
 ---
-
-# SD kártya telepítés
 
 Ez az oldal az SD kártyád előkészítéséről szól a Nintendo DSi-hez. A folyamat során formázzuk az SD kártyát úgy, hogy megfelelő legyen a Nintendo DSi-hez és ellenőrizzük a kártyát hibákra.
 

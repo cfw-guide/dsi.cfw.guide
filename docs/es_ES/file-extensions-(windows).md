@@ -1,7 +1,6 @@
 ---
+title: Extensiones de archivo (Windows)
 ---
-
-# Extensiones de archivo (Windows)
 
 Esta es una sección adicional para desactivar el comportamiento predeterminado de Windows de ocultar las extensiones de archivo, lo que facilitará mucho la búsqueda de archivos referenciados en la guía.
 

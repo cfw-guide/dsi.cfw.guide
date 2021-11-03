@@ -1,7 +1,6 @@
 ---
+title: Extraction de la NAND
 ---
-
-# Extraction de la NAND
 
 Cette page permet de sauvegarder de la NAND, qui est une copie des données sur le stockage interne de la Nintendo DSi. It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
 
