@@ -55,6 +55,7 @@ module.exports = {
 		[ 'link', { rel: 'manifest', href: '/assets/favicon/manifest.json' } ],
 		[ 'link', { rel: 'mask-icon', color: '#2E3440', href: '/assets/favicon/safari-pinned-tab.svg' } ],
 		[ 'link', { rel: 'shortcut icon', href: '/assets/favicon/favicon.ico' } ],
+		[ 'link', { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css' } ],
 		[ 'meta', { name: 'msapplication-TileColor', content: '#2E3440' } ],
 		[ 'meta', { name: 'msapplication-TileImage', content: '/assets/favicon/mstile-144x144.png' } ],
 		[ 'meta', { name: 'msapplication-config', content: '/assets/favicon/browserconfig.xml' } ],
@@ -115,7 +116,7 @@ module.exports = {
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsBranch: "master",
 		docsDir: "docs",
-		selectLanguageText: "",
+		selectLanguageText: '<i class="fas fa-globe">',
 		adTagOne: 'waldo-tag-8548',
 		adTagTwo: 'waldo-tag-8549',
 		locales: {

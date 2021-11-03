@@ -1,20 +1,3 @@
-.navbar-links-item:nth-last-of-type(2) {
-	.dropdown-title, .mobile-dropdown-title {
-		span:first-of-type {
-			vertical-align: middle;
-
-			&::after {
-				vertical-align: middle;
-				content: url(../../../../styles/globe-dark.svg);
-
-				html.dark & {
-					content: url(../../../../styles/globe-light.svg);
-				}
-			}
-		}
-	}
-}
-
 kbd {
 	&.l {
 		border-radius: 15px 6px 6px 6px;
