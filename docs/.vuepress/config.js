@@ -116,7 +116,7 @@ module.exports = {
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsBranch: "master",
 		docsDir: "docs",
-		selectLanguageText: '<i class="fas fa-globe">',
+		selectLanguageText: '<i class="fas fa-globe"></i>',
 		adTagOne: 'waldo-tag-8548',
 		adTagTwo: 'waldo-tag-8549',
 		locales: {
