@@ -2,6 +2,12 @@
 title: Installing Unlaunch
 ---
 
+::: danger
+
+Unlaunch is not compatible with Nintendo DSi development consoles.
+
+:::
+
 Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
 
 - Launching applications at boot (homebrew or DSiWare), with optional button combinations
