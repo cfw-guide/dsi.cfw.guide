@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[9809],{9809:(t,e,r)=>{r.r(e),r.d(e,{default:()=>u});var s=r(6252);const n={class:"tab-container"},a={props:{id:{default:"tab"}}},u=(0,r(3744).Z)(a,[["render",function(t,e,r,a,u,c){return(0,s.wg)(),(0,s.iD)("div",n,[(0,s.WI)(t.$slots,"default")])}]])},3744:(t,e)=>{e.Z=(t,e)=>{for(const[r,s]of e)t[r]=s;return t}}}]);
