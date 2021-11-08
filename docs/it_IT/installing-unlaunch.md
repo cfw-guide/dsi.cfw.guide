@@ -74,11 +74,7 @@ Riconfigureremo anche nds-bootstrap per avviarsi in TWiLight Menu++ (invece del 
       - Per TWiLight Menu++, selezionare l'opzione `TWiLight Menu++` dove `BOOT.NDS` è mostrato sullo schermo inferiore
       - Per il menu DSi originale, seleziona `Launcher`
    - `LOAD ERROR` è quello che il tuo DSi caricherà se il caricamento di quello che hai impostato fallisce, come ad esempio se la scheda SD non viene inserita
-1. Salva le tue impostazioni e torna nel menu di Unlaunch
-1. Passa sopra le opzioni `TWiLight Menu++` e trova quella che ha un percorso contenente `settings.srldr` nella schermata inferiore
-1. Avvia l'opzione evidenziata
-1. Premi <kbd class="l">L</kbd> / <kbd class="r">R</kbd> o <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> finché non raggiungi ` Impostazioni Varie Pagina` impostazioni
-1. Imposta l'opzione `Exploit DSiWare` su `Nessuno`
+1. Seleziona `SALVA ed ESCI` per salvare le tue impostazioni, poi spegni il tuo DSi
 
 ## Sezione IV - Pulizia della scheda SD
 

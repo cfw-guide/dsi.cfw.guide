@@ -1,6 +1,6 @@
 ---
 home: true
-title: Guide DSi
+title: Accueil
 header:
   overlay_image: /assets/images/home-page-feature.png
   overlay_filter: 0.5

@@ -1,5 +1,5 @@
 ---
-title: 安装取消启动
+title: 安装 Unlaunch
 ---
 
 Unlaunch是系统启动时触发的一种漏洞。 This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
@@ -74,11 +74,7 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand). 虽然�
       - 想要TWiLight Menu++，请在`BOOT.NDS`出现在下屏幕时，选择`TWiLight Menu++`选项
       - 想要原生 DSi 菜单，请选择 `Launcher`
    - `LOAD ERROR`出现时说明加载出现问题，例如SD卡未插入
-1. 保存您的设置并返回到Unlaunch的菜单
-1. 保存您的设置并返回到Unlaunch的菜单 1.遥控器停在`TWiLight Menu++`选项上，并找到一个在屏幕底部上包含`settings.srldr`路径的选项 1.启动高亮选中的选项
-1. 启动高亮选中的选项
-1. Use the <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> buttons to switch over to the `Misc. Settings` page
-1. Set the `DSiWare Exploit` option to `None`
+1. Select `SAVE & EXIT` to save your settings, then turn off your DSi
 
 ## 第四部分 - 清理你的 SD 卡
 

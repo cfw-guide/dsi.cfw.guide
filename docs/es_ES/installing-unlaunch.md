@@ -74,11 +74,7 @@ También vamos a reconfigurar nds-boostrap para iniciar TWiLight Menu++ (en luga
       - Para que alguna de estas opciones inicie TWiLight Menu++, selecciona el archivo `TWiLight Menu++` en el que la ruta que acabe en `BOOT.NDS` se muestre en la pantalla inferior.
       - Para que alguna de estas opciones inicie el Menú DSi original, selecciona el archivo `Launcher`.
    - La opción `LOAD ERROR` es en lo que tu DSi iniciará si lo que tú hayas configurado falla, como por ejemplo, una archivo en la tarjeta SD cuando esta no está en la consola.
-1. Guarda tus ajustes y vuelve al sistema de archivos de Unlaunch.
-1. Resalta la archivo `TWiLight Menu++` cuya ruta contenga `settings.srldr` en la pantalla inferior.
-1. Inicia el archivo resaltado pulsando <kbd class="face">A</kbd>.
-1. Usa los botónes <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd class="face">X</kbd>/<kbd class="face">Y</kbd> para moverte hacia la sección `Otros Ajustes` .
-1. Establece la opción `Exploit DSiWare` a `Ninguno`.
+1. Select `SAVE & EXIT` to save your settings, then turn off your DSi
 
 ## Sección IV - Limpiar la tarjeta SD
 

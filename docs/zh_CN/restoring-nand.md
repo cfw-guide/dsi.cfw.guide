@@ -1,5 +1,5 @@
 ---
-title: Restoring a NAND backup
+title: 还原 NAND备份
 ---
 
 ::: danger

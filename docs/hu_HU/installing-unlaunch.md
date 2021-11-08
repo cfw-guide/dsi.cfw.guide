@@ -74,11 +74,7 @@ Jelenleg az Unlaunch alapértelmezésben a fájl menüjét indítja bootkor, de 
       - A TWiLight Menu++-hoz válaszd a `TWiLight Menu++` opciót, ahol a `BOOT.NDS`-t mutatja az alsó képernyőn
       - Az eredeti DSi Menühöz, válaszd a `Launcher`-t
    - `LOAD ERROR` az, amit a DSi be fog tölteni, amikor amit beállítottál az hibára fut, mert például az SD kártya nem lett beillesztve
-1. Mentsd a beállításaidat és menj vissza az Unlaunch menüjébe
-1. Menj át a `TWiLight Menu++` opciókon és keresd meg az ahol az útvonal tartalmazza a `settings.srldr`-t az alsó képernyőn
-1. Indítsd el a kiemelt opciót
-1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> vagy <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> gombokat, hogy eljuss az `Egyéb beállítások` oldalra
-1. Állítsd be az `DSiWare Exploit`-ot `Nincs`-re
+1. Válaszd a `SAVE & EXIT` opciót a beállításaid mentéséhez, majd kapcsold ki a DSi konzolod
 
 ## IV. rész - Takarítás az SD kártyán
 
