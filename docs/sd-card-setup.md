@@ -104,7 +104,7 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Take note of the device mount point. In our example above, it was `mmcblk0p1`
+1. Take note of the device mount point. In the example above, it was `mmcblk0p1`
    - If `RO` is set to 1, make sure the lock switch is not slid down
 1. Hit CTRL + C to exit the menu
 1. Follow the instructions relevant to your SD card's capacity:

@@ -51,11 +51,11 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the exploit that you used
    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the `TWiLight Menu++` where `BOOT.NDS` is shown on the bottom screen
 1. Launch TWiLight Menu++ Settings
-   - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, consult the TWiLight Menu++ Manual
+   - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, see the TWiLight Menu++ Manual
 1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
 1. If you want to change Unlaunch's background image, select `Background` and choose the one you want
-   - If you want to create your own Unlaunch background, consult the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-1. If you want the Health and Safety screen and DSi Menu music and sounds, then set `Launcher Patches` to `Off`
+   - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
+1. If you want the Health and Safety screen and DSi Menu music and sounds when using the official Nintendo DSi Menu, then set `Launcher Patches` to `Off`
    - This will also keep the region locking and card whitelist, meaning that some flashcards won't be usable from the DSi Menu
 1. Exit TWiLight Menu++ Settings
 1. In the file navigation menu, launch `Unlaunch DSi Installer`
@@ -64,19 +64,17 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 1. When completed, reboot your system
 
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
-- If you see a black screen, please take a look at our [Troubleshooting](troubleshooting) page
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting) page
 
 ## Section III - Post-Unlaunch configuration
 
-Currently, Unlaunch defaults to launching its file menu on boot, but this can be changed launch whatever you want.
-
-We will also reconfigure nds-bootstrap to launch into TWiLight Menu++ (instead of the exploited DSiWare title) when we soft-reset in-game.
+Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed launch whatever you want.
 
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - This should launch the Unlaunch Filemenu
 1. Navigate to `OPTIONS`, and look at the available options
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
-   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew, the Slot-1 card, wifiboot, or Unlaunch's file menu
+   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew, the Slot-1 card, wifiboot, or Unlaunch's Filemenu
       - For TWiLight Menu++, select the `TWiLight Menu++` option where `BOOT.NDS` is shown on the bottom screen
       - For the original DSi Menu, select `Launcher`
    - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
