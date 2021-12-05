@@ -8,7 +8,7 @@ If you like what they have done, consider donating (if they have a donation link
 
 - [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [YourKalamity](https://github.com/YourKalamity/): Creator of Lazy DSi File Downloader
-- [emiyl](https://emiyl.com/paypal): Domain holder
+- [emiyl](https://emiyl.com/paypal): Domain holder and site developer
 - Halvorsen: Provided an image of their Nintendo DSi to be used on the home page
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew development toolchain & forked the ugopwn Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions)

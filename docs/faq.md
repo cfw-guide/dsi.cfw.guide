@@ -4,7 +4,7 @@ title: FAQ
 
 ## What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
-- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
+- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either follow <router-link to="alternate-exploits">Alternate Exploits</router-link> instead, or follow <router-link to="installing-unlaunch">Installing Unlaunch</router-link>
    - This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit
 
 ## How do I play Nintendo DS Game Card dumps?
@@ -14,7 +14,7 @@ Playing Game Card dumps on the console requires the use of a flashcard or nds-bo
    - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
 ## How do I update my homebrew?
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch) page
+- **Unlaunch** - Follow the instructions on the <router-link to="installing-unlaunch">Installing Unlaunch</router-link> page
    - You do **not** need to uninstall Unlaunch before doing this
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
@@ -26,7 +26,7 @@ Other homebrew might use other methods to update.
 
 ## I am new or I would like to redo my setup. Where do I start?
 - If you have not already modified your console or are looking to update Unlaunch on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage
-- If you have the latest version Unlaunch, follow Section 1b of [Launching the Exploit](launching-the-exploit.html#twilight-menu) to set up TWiLight Menu++ on your system
+- If you have the latest version Unlaunch, follow Section 1b of <router-link to="launching-the-exploit.html#twilight-menu">Launching the Exploit</router-link> to set up TWiLight Menu++ on your system
 
 ## How can I remove parental controls?
 - The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls

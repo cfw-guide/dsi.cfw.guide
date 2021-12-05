@@ -10,8 +10,8 @@ title: Uninstalling Unlaunch
 
 **WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Here are some cases on why you may want to uninstall Unlaunch but with solutions that don't require uninstalling.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch) using the new instructions. They now contain instructions on how to change the background
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
+- **The Unlaunch Background is scary:** <router-link to="installing-unlaunch">Reinstall Unlaunch</router-link> using the new instructions. They now contain instructions on how to change the background
+- **I'm having an issue with Unlaunch or my console after installing it:** The <router-link to="troubleshooting.html#unlaunch">Troubleshooting</router-link> page will explain how to fix many issues you may have
 
 ::: warning
 
@@ -25,5 +25,5 @@ When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller, bec
 
 :::
 
-Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand).
-- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand) and proceed with [Restoring a NAND Backup](restoring-nand). There are instructions for users who have Unlaunch installed on their NAND backup
+Once you have reviewed the above information, proceed to <router-link to="restoring-nand">Restoring a NAND Backup</router-link>. This will guide you through flashing the NAND backup you made during <router-link to="dumping-nand">Dumping NAND</router-link>.
+- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow <router-link to="dumping-nand">Dumping NAND</router-link> and proceed with <router-link to="restoring-nand">Restoring a NAND Backup</router-link>. There are instructions for users who have Unlaunch installed on their NAND backup

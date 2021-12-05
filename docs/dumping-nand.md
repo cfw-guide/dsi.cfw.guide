@@ -14,7 +14,7 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use <router-link to="lazy-dsi-downloader">Lazy DSi Downloader</router-link> to automatically setup your SD card.
 
 :::
 
@@ -39,6 +39,6 @@ The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continue to <router-link to="installing-unlaunch">Installing Unlaunch</router-link> (Optional, not compatible with Nintendo DSi development consoles)
 
 :::
