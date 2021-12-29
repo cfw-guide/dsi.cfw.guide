@@ -128,7 +128,8 @@ module.exports = {
 			"/pl_PL/": themeConfig.pl_PL,
 			"/zh_CN/": themeConfig.zh_CN,
 			"/translate/": themeConfig.translate
-		}
+		},
+		contributors: false
 	},
 
 	extendsMarkdown: md => {
