@@ -6,14 +6,14 @@ This section is for dumping Game Cards using GodMode9i so they can be played on 
 
 ## Requirements
 - The Game Card of the title you would like to dump
-- Your Nintendo DSi console with <router-link to="installing-unlaunch">Unlaunch</router-link> installed
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch) installed
 
 ## Instructions
 ### Section I - SD card setup
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use <router-link to="lazy-dsi-downloader">Lazy DSi Downloader</router-link> to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 
 :::
 

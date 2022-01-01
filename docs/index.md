@@ -52,12 +52,12 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 ## What should I know before starting?
 
-- On Windows, it's recommended to <router-link to="/file-extensions-%28windows%29">show file extensions</router-link> if you are using the default File Explorer
+- On Windows, it's recommended to [show file extensions](file-extensions-%28windows%29) if you are using the default File Explorer
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
 
-Continue to <router-link to="launching-the-exploit">Launching the Exploit</router-link>
+Continue to [Launching the Exploit](launching-the-exploit)
 
 :::

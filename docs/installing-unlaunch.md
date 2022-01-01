@@ -21,7 +21,7 @@ Unlaunch is an exploit that takes place on system boot. This allows it to have h
 
 ::: danger
 
-If you have not yet done so, please follow <router-link to="dumping-nand">Dumping NAND</router-link>. While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 
@@ -35,7 +35,7 @@ Make sure your console is charged when following this process. A sudden power lo
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use <router-link to="lazy-dsi-downloader">Lazy DSi Downloader</router-link> to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
 
 :::
 
@@ -43,7 +43,7 @@ Using a Windows, Linux or macOS device? Use <router-link to="lazy-dsi-downloader
    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
 1. Verify you still have TWiLight Menu++ on your SD card
-   - If you are unsure, follow the instructions from the <router-link to="launching-the-exploit.html#twilight-menu">Launching the Exploit</router-link> page
+   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit.html#twilight-menu) page
 
 ## Section II - Installing/Updating Unlaunch
 
@@ -60,11 +60,11 @@ Using a Windows, Linux or macOS device? Use <router-link to="lazy-dsi-downloader
 1. Exit TWiLight Menu++ Settings
 1. In the file navigation menu, launch `Unlaunch DSi Installer`
 1. Select the install option
-   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the <router-link to="troubleshooting.html">Troubleshooting</router-link> page
+   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting) page
 1. When completed, reboot your system
 
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
-- If you see a black screen, please take a look at the <router-link to="troubleshooting.html">Troubleshooting</router-link> page
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting) page
 
 ## Section III - Post-Unlaunch configuration
 

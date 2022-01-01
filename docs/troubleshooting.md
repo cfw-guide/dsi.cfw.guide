@@ -15,11 +15,11 @@ If the issue persists, try this:
 1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option
 1. Once your NAND backup is mounted, mount `twl_main.img`. If you are using Windows, you can use [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) to mount the image
 1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs
-If the NAND was saved, follow <router-link to="restoring-nand">Restoring NAND</router-link> and continue with <router-link to="installing-unlaunch">Installing Unlaunch</router-link>.
+If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with [Installing Unlaunch](installing-unlaunch).
 
 ### There is no audio or boot splash when launching "Launcher" using Unlaunch
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by <router-link to="installing-unlaunch">reinstalling Unlaunch</router-link> using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch) using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Powering on only shows a black screen after installing Unlaunch
 
@@ -31,7 +31,7 @@ This was likely caused by choosing the wrong app for the `NO BUTTON` option in U
 
 ### Other Unlaunch problems
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow <router-link to="sd-card-setup">SD Card Setup</router-link>.
+If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup).
 
 ## TWiLight Menu++
 
