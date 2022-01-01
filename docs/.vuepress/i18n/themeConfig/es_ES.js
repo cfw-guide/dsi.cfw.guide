@@ -1,7 +1,6 @@
 module.exports = {
 	selectLanguageName: 'Español',
 	backToHome: 'Ir a la página de inicio',
-	contributorsText: 'Colaboradores',
 	editLinkText: 'Editar esta página',
 	lastUpdatedText: 'Actualizado por última vez',
 	openInNewWindow: 'abrir en una ventana nueva',

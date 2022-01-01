@@ -1,7 +1,6 @@
 module.exports = {
 	selectLanguageName: 'Magyar',
 	backToHome: 'Vissza a főoldalra',
-	contributorsText: 'Közreműködők',
 	editLinkText: 'Ennek az oldalnak a szerkesztése',
 	lastUpdatedText: 'Utolsó frissítés',
 	openInNewWindow: 'megnyitás új ablakban',

@@ -39,6 +39,6 @@ Az SHA1 hash-e a `nand.bin`-nek nem fog egyezni a `nand.bin.sha1` fájlban táro
 
 ::: tip
 
-Folytatás az [Unlaunch telepítésével](installing-unlaunch) (Opcionális)
+Folytatás az [Unlaunch telepítésével](installing-unlaunch) (Opcionális, nem kompatibilis a Nintendo DSi fejlesztői konzolokkal)
 
 :::

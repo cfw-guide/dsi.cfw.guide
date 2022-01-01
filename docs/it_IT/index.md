@@ -12,12 +12,6 @@ Per guide complete su homebrew e custom firmware per altri dispositivi, controll
 
 :::
 
-::: danger
-
-Questa guida non è compatibile con le console di sviluppo Nintendo DSI.
-
-:::
-
 ::: tip
 
 Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di procedere.
@@ -26,7 +20,7 @@ Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di proc
 
 ## Cos'è l'homebrew?
 
-[Le applicazioni Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) sono software senza licenza fatte per sistemi chiusi come il Nintendo DSi. Queste applicazioni possono variare da app utili a giochi homebrew personalizzati.
+[Le applicazioni Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) sono software senza licenza fatte per sistemi chiusi come il Nintendo DSi. Queste applicazioni possono variare dalle utility ai giochi custom homebrew.
 
 L'Homebrew può essere eseguito gratuitamente su tutte le console Nintendo DSi, indipendentemente dalla versione del firmware o dalla regione. Tutto ciò di cui hai bisogno è un punto di ingresso e una scheda SD per memorizzare i tuoi homebrew. Il punto di entrata principale utilizzato in questa guida sarà chiamato Memory Pit, ma ce ne sono altri che si potrebbero utilizzare se Memory Pit è inutilizzabile.
 
@@ -64,6 +58,6 @@ Tieni presente che la guida è strutturata in maniera lineare, ma in genere dipe
 
 ::: tip
 
-Continua a [Avvio dell' Exploit](launching-the-exploit)
+Continua a [Avvio dell'Exploit](launching-the-exploit)
 
 :::

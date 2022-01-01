@@ -12,12 +12,6 @@ Más készülékekhez szóló teljes homebrew és egyedi firmware útmutatókér
 
 :::
 
-::: danger
-
-Ez az útmutató nem kompatibilis a Nintendo DSi fejlesztői konzolokkal.
-
-:::
-
 ::: tip
 
 Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is) mielőtt bármibe belekezdenél.
@@ -28,9 +22,9 @@ Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is) mielőtt 
 
 A [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) alkalmazások nem licencszelt szoftverek, zárt rendszerekre mint például a Nintendo DSi. Ezek az alkalmazások lehetnek segédeszközök, egyedi homebrew játékok.
 
-Egy Homebrew ingyensen futtatható bármilyen Nintendo DSi konzolon, függetlenül a firmware-től és a régiótól. Az egyetlen amire szükséged van egy belépési pont és egy SD kártya, amint a homebrew-ot tárolod. A fő belépési pont ebben az útmutatóban a Memory Pit, de léteznek más belépési pontok is, amit használhatsz, ha a Memory Pit nem elérhető számodra.
+Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, függetlenül a firmware-től és a régiótól. Az egyetlen amire szükséged van egy belépési pont és egy SD kártya, amint a homebrew-ot tárolod. A fő belépési pont ebben az útmutatóban a Memory Pit, de léteznek más belépési pontok is, amit használhatsz, ha a Memory Pit nem elérhető számodra.
 
-## Mit cisnál ez az útmutató a rendszeremmel?
+## Mit csinál ez az útmutató a rendszeremmel?
 
 Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és általában attól függ, milyen mélyre szeretnél menni a rendszer moddolásában.
 

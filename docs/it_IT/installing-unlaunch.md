@@ -2,7 +2,13 @@
 title: Installazione di Unlaunch
 ---
 
-Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette di avere più privilegi dei normali exploit DSiWare come Memory Pit, che lo rende in grado di fare quanto segue:
+::: danger
+
+Unlaunch non è compatibile con le console di sviluppo di Nintendo DSi.
+
+:::
+
+Unlaunch è un exploit che si verifica all'avvio del sistema. Questo gli consente di avere privilegi superiori ai normali exploit DSiWare come Memory Pit, che lo rende in grado di fare quanto segue:
 
 - Esecuzione di applicazioni all'avvio (homebrew o DSiWare), con combinazioni di pulsanti opzionali
 - Accedere alla Slot-1, che consente di dumpare cartucce di gioco e lanciare flashcard incompatibili
@@ -15,13 +21,13 @@ Unlaunch è un exploit che si svolge all'avvio del sistema. Questo gli permette 
 
 ::: danger
 
-Se non l'hai ancora fatto, si prega di seguire [Effettuare dump della NAND](dumping-nand). Nonostante le probabilità minime, Unlaunch potrebbe accidentalmente provocare un brick al Nintendo DSi. Un backup della NAND + [un hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) ti permetterebbe di ripristinare questo backup, a condizione che tu sappia come saldare.
+Se non lo hai ancora fatto, sei pregato di seguire [Dump di NAND](dumping-nand). Nonostante le probabilità minime, Unlaunch potrebbe accidentalmente provocare un brick al Nintendo DSi. Un backup della NAND + [un hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) ti permetterebbe di ripristinare questo backup, a condizione che tu sappia come saldare.
 
 :::
 
 ::: warning
 
-Assicurati che la console sia carica quando si esegue questo processo. Una perdita improvvisa di potenza potrebbe causare gravi danni.
+Assicurati che la tua console sia carica seguendo questo processo. Un'improvvisa perdita di potenza potrebbe risultare in danni gravi.
 
 :::
 
@@ -29,7 +35,7 @@ Assicurati che la console sia carica quando si esegue questo processo. Una perdi
 
 ::: tip
 
-Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
+Usare un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
 
 :::
 
@@ -45,11 +51,11 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
    - Se questa è la tua prima volta che installi Unlaunch, rilancia TWiLight Menu++ attraverso l'exploit che hai utilizzato
    - Se hai già installato Unlaunch e stai cercando di aggiornarlo, tieni premuto <kbd class="face">A</kbd> + <kbd class="face">B</kbd> durante l'avvio e seleziona ` TWiLight Menu++` dove `BOOT.NDS` è mostrato nella schermata inferiore
 1. Apri le impostazioni di TWiLight Menu++
-   - Se non hai cambiato il tuo tema, segui i passaggi nella pagina "Avvio dell'Exploit". Altrimenti, consulta il manuale di TWiLight Menu++
+   - Se non hai cambiato il tuo tema, segui i passaggi nella pagina "Avvio dell'Exploit". Altrimenti, consulta il Manuale di TWiLight Menu++
 1. Premi <kbd class="l">L</kbd> / <kbd class="r">R</kbd> o <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> finché non raggiungi la pagina `Impostazioni Unlaunch`
 1. Se vuoi modificare l'immagine di sfondo di Unlaunch, fai clic su `Sfondo` e scegli quello che vuoi
-   - Se desideri creare un tuo sfondo personalizzato di Unlaunch, consulta la pagina [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-1. Se vuoi la schermata Salute e Sicurezza e la musica del Menu DSi, imposta `Patch del Launcher` a `Disattivato`
+   - Se desideri creare il tuo sfondo di Unlaunch, consulta la [pagina della Wiki di DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
+1. Se vuoi la schermata Salute e Sicurezza e la musica del Menu DSi mentre usi il Menu ufficiale del Nintendo DSi, imposta `Patch del Launcher` a `Disattivato`
    - Questo manterrà pure il region lock e la whitelist delle cartucce, il che significa che alcune flashcard non saranno utilizzabili nel menu DSi
 1. Esci dalle impostazioni di TWiLight Menu++
 1. Nel menu di navigazione, avvia `Unlaunch DSi Installer`
@@ -57,14 +63,12 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
    - Se Unlaunch si blocca a `ERROR: MISMATCH IN FAT COPIES`, si prega di dare un'occhiata alla pagina [Risoluzione dei problemi](troubleshooting)
 1. Una volta completato, riavvia il sistema
 
-Se vedi la schermata del menu di Unlaunch a questo punto, Significa che hai modificato con successo il tuo Nintendo DSi.
-- Se vedi una schermata nera, dai un'occhiata alla nostra pagina [Risoluzione dei problemi](troubleshooting)
+Se vedi la schermata del menu di Unlaunch a questo punto, significa che hai modificato con successo il tuo Nintendo DSi.
+- Se vedi una schermata nera, dai un'occhiata alla pagina [Risoluzione dei problemi](troubleshooting)
 
 ## Sezione III - Configurazione Post-Unlaunch
 
 Attualmente, Unlaunch avvia il suo menu all'avvio di default, ma può essere cambiato avviando all'avvio quello che vuoi.
-
-Riconfigureremo anche nds-bootstrap per avviarsi in TWiLight Menu++ (invece del titolo DSiWare sfruttato) quando eseguiamo un soft-reset in-gioco.
 
 1. Accendi la console tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
    - Si dovrebbe avviare il menu di Unlaunch
