@@ -40,3 +40,18 @@ Igen, néhány különböző metódus áll rendelkezésre, attól függően mit 
 ## Mi történt a hiyaCFW telepítési útmutatóval?
 Mivel a hiyaCFW nem ad sok funkcionalitás és problémás és avaró része volt az úutatónak, átmozgatásra került a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing)-be.
 - Ha linkelve lettél az oldalra egy másik útmutatóból, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutató helyette, mert folyamatosan karbantartott a projekt fejlesztői által
+
+## Milyen SD kártyát kell, hogy használjak?
+- Megbízható márkájú SD kártyát kell vásárolnod
+- Egy teljes méretű SD kártya vagy egy microSD kártya adapterrel is megfelelő
+- Bármilyen méret 1 GB és 2 TB között működni fog. Általános használatra 8 GB elég
+  - Néhány szoftver, mint például a hiyaCFW, hosszabb töltési idővel rendelkezhet nagyobb SD kártya kapacitás esetén
+- 8-as sebesség osztályú vagy gyorsabb ajánlott
+
+## Használhatom a DSi SD kártyámat más rendszereken is?
+Általában igen, két kivétellel:
+- A hiyaCFW csak azon a rendszeren fog működni, amin telepítve lett
+- Még ha nds-bootstrap-et vagy egy flashcard-ot is használd a friend code-ok az online NDS játékok esetében alaphelyzetbe állnak, ha megpróbálsz online lenni egy másik konzolon
+
+## Az [Unlaunch oldal](https://problemkaputt.de/unlaunch.htm) azt mondja, hogy a 2.0 verzió nem tekinthető biztonságosnak. Javasolt helyette egy korábbi verzió használata?
+Az Unlaunch oldal nem került frissítésre, mióta a 2.0 verzió kiadásra került, ami két évvel ezelőtt volt. A legtöbb felhasználó nem tapasztalt problémát ezzel a verzióval, így biztonságosnak tekinthető.
