@@ -12,12 +12,6 @@ Pour des guides complets sur les homebrews et firmwares personnalisés pour d'au
 
 :::
 
-::: danger
-
-Ce guide n'est pas compatible avec les consoles de développement Nintendo DSi.
-
-:::
-
 ::: tip
 
 Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de continuer.

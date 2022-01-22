@@ -40,3 +40,18 @@ Sì, ci sono alcuni metodi diversi a seconda di ciò che si desidera cambiare:
 ## Cosa è successo alla guida all'installazione di hiyaCFW?
 Poiché hiyaCFW non è molto pratico ed è stato un passaggio problematico e confusionario della guida per parecchi utenti, la guida è stata spostata alla [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - Se sei stato collegato alla pagina in questione da un'altra guida, le istruzioni che stai seguendo sono obsolete. Si prega invece di utilizzare questa guida, dato che viene aggiornata costantemente dagli sviluppatori di questi progetti
+
+## Che tipo di scheda SD dovrei utilizzare?
+- È necessario acquistare una scheda SD da un marchio di fiducia
+- Funzionerà sia una scheda SD sia una scheda microSD con un adattatore
+- Qualsiasi capacità compresa tra 1 GB e 2 TB andrà bene. Per uso generale, 8 GB sono sufficienti
+  - Alcuni software, come hiyaCFW, possono sperimentare tempi di caricamento molto più lunghi con schede SD con capienze più grandj
+- Si raccomanda una classe di velocità 8 o superiore
+
+## Posso usare la mia scheda SD del DSi su altri sistemi?
+Generalmente sì, ma con due eccezioni:
+- hiyaCFW funzionerà solo sul sistema per cui è stato creato
+- Anche se stai usando nds-bootstrap o una flashcard, i codici amico e i giochi online NDS verranno reimpostati quando si tenta di andare online utilizzando una console diversa
+
+## La pagina di [Unlaunch](https://problemkaputt.de/unlaunch.htm) dice che la versione 2.0 non è notoriamente sicura. Dovrei usare una versione precedente?
+La pagina di Unlaunch non è stata aggiornata da quando è stata rilasciata la versione 2.0, più di due anni fa. La stragrande maggioranza degli utenti non hanno problemi con questa versione, e perciò è considerata sicura.

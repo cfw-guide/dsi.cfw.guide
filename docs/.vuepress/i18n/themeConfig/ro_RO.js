@@ -1,19 +1,19 @@
 module.exports = {
-	selectLanguageName: 'Polski',
-	backToHome: 'Take me home',
-	editLinkText: 'Edit this page',
-	lastUpdatedText: 'Last Updated',
-	openInNewWindow: 'open in new window',
-	selectLanguageAriaLabel: 'Select language',
-	toggleDarkMode: 'toggle dark mode',
-	toggleSidebar: 'toggle sidebar',
-	discordNoticeText: 'Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.',
+	selectLanguageName: 'Română',
+	backToHome: 'Du-mă acasă',
+	editLinkText: 'Editează această pagină',
+	lastUpdatedText: 'Ultima actualizare',
+	openInNewWindow: 'deschide într-o fereastră nouă',
+	selectLanguageAriaLabel: 'Selectează limba',
+	toggleDarkMode: 'pornește modul întunecat',
+	toggleSidebar: 'pornește bara laterală',
+	discordNoticeText: 'Alătură-te serverului de Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) pentru dezvoltarea ghidului și ajutor.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',
 		'faq',
 		{
-			text: 'Backups',
+			text: 'Backup-uri',
 			children: [
 				'dsiware-backups',
 				'dumping-game-cards',
@@ -25,7 +25,7 @@ module.exports = {
 	sidebar: [
 		'index.html',
 		{
-			text: 'Guide',
+			text: 'Ghid',
 			children: [
 				'launching-the-exploit',
 				'dumping-nand',
@@ -33,7 +33,7 @@ module.exports = {
 			]
 		},
 		{
-			text: 'Extras',
+			text: 'Extra',
 			children: [
 				'dsiware-backups',
 				'dumping-game-cards',
@@ -44,7 +44,7 @@ module.exports = {
 			]
 		},
 		{
-			text: 'Other',
+			text: 'Altele',
 			children: [
 				'faq',
 				'troubleshooting',

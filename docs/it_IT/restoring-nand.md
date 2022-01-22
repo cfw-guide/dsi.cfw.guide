@@ -10,7 +10,7 @@ ATTENZIONE! Questo processo è ***potenzialmente pericoloso***. Anche seguendo q
 
 ::: tip
 
-Non saltare *niente* in questa pagina, visto che qualsiasi errore aumenta notevolmente le possibilità di brickare il tuo DSI.
+Non saltare *niente* in questa pagina, visto che qualsiasi errore aumenta notevolmente le possibilità di brickare il tuo DSi.
 
 :::
 
@@ -33,7 +33,7 @@ L'unica cosa che dovresti fare con la tua NAND è installare Unlaunch. Usa le al
    - gli utenti macOS e Linux possono usare [WINE](https://winehq.org) per avviare no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
-## Fai un dump della BIOS per utilizzarla in no$gba
+## Fare un dump della BIOS per utilizzarlo in no$gba
 1. Estrai `dsibiosdumper.nds` dall'archivio `dsibiosdumper.zip` e posizionalo ovunque sulla tua scheda SD
 2. Accendi la console tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
    - Questo dovrebbe avviare il menu di Unlaunch
@@ -42,15 +42,15 @@ L'unica cosa che dovresti fare con la tua NAND è installare Unlaunch. Usa le al
 5. Premi <kbd>START</kbd> per uscire da dsibiosdumper
 
 ## Testare il backup della NAND
-È molto importante verificare che il backup della NAND stia funzionando prima di tentare di ripristinarla alla console, visto che se mostra un errore di brick in no$gba allora molto probabilmente brickera pure la tua console.
+È molto importante verificare che il backup della NAND funzioni prima di tentare di ripristinarlo sulla tua console, visto che se mostra un errore di brick in no$gba allora molto probabilmente brickera pure la tua console.
 1. Estrai `NO$GBA.EXE` da `no$gba-w.zip` in una cartella sul tuo computer
-2. Copia il tuo backup della NAND nella cartella che hai inserito `NO$GBA.EXE` e rinominalo in `DSI-1.MMC`
-3. Copia `bios7i.bin` e `bios9i.bin` nella cartella che metti `NO$GBA.EXE`, rinominati rispettivamente `BIOSDSI7.ROM` e `BIOSDSI9.ROM`.
+2. Copia il tuo backup della NAND nella cartella in cui hai inserito `NO$GBA.EXE` e rinominalo in `DSI-1.MMC`
+3. Copia `bios7i.bin` e `bios9i.bin` nella cartella in cui hai messo `NO$GBA.EXE`, rinominati rispettivamente in `BIOSDSI7.ROM` e `BIOSDSI9.ROM`.
 4. Avvia `NO$GBA.EXE`
 5. Clicca su `Options` > `Emulation Setup` per aprire la finestra Emulation Setup
-6. Cambia `Reset/Startup Entrypoint` in `BIOS GBA/NDS (Nintendo logo)`
+6. Cambia `Reset/Startup Entrypoint` in `GBA/NDS BIOS (Nintendo logo)`
 7. Cambia `NDS Mode/Colors` in `DSi (retail/16MB)`
-8. Clicca `Salva ora`
+8. Clicca `Save Now`
 9. Avvia qualsiasi ROM Nintendo DS (`.nds` file)
 
 Se no$gba carica il menu del DSi (o il menu di Unlaunch), allora continua alla sezione successiva. Se mostra qualsiasi tipo di errore ***non flashare quel backup***!
@@ -61,15 +61,15 @@ Segui questa sezione se hai eseguito il dump del backup della tua NAND dopo aver
 1. Estrai `UNLAUNCH.DSI` da `unlaunch.zip`
 1. Avvia `UNLAUNCH.DSI` su no$gba e avvialo dallo slot delle cartucce di gioco
    - Dovrebbe avviare l'installer di Unlaunch, che assomiglia al menu di Unlaunch
-1. Scegli `Disinstalla`
-1. Una volta completato, scegli `Spegnimento`
+1. Seleziona `Uninstall`
+1. Una volta completato, seleziona `Power down`
 1. Avvia qualsiasi ROM Nintendo DS e assicurati che il menu del DSi si avvii e funzioni correttamente
 
 ## Flash del backup della NAND (Software)
 
 ::: danger
 
-Assicurati di aver letto attraverso i passaggi sopra visto che è qui che diventa pericoloso. Se siete stati collegati direttamente qui senza seguire quanto sopra, allora tornate in alto e leggere l'intera pagina.
+Assicurati di aver letto i passaggi sopra visto che è qui che diventa pericoloso. Se siete stati collegati direttamente qui senza seguire quanto scritto sopra, allora tornate in alto e leggete l'intera pagina.
 
 :::
 

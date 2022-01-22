@@ -40,3 +40,18 @@ Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar.
 ## ¿Qué pasó con la guía de instalación de hiyaCFW?
 Como hiyaCFW no tiene mucha utilidad y era una parte problemática y confusa para muchos usuarios, fue trasladada a la [wiki de DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - Si fuiste referido a la página en cuestión desde otra guía, las instrucciones que estabas siguiendo muy probablemente estaban desactualizadas. Se te recomienda seguir esta guía en su lugar, ya que es mantenida y constantemente actualizada por los desarrolladores de estos proyectos.
+
+## What kind of SD card should I use?
+- You should buy an SD card from a trusted brand
+- A full-size SD card or a microSD card with an adapter will both work
+- Any capacity between 1 GB and 2 TB will work. For general usage, 8 GB is enough
+  - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
+- Speed class 8 or higher is recommended
+
+## Can I use my DSi SD card on other systems?
+Generally, yes, with two exceptions:
+- hiyaCFW will only work on the system it was set up for
+- Even if you are using nds-bootstrap or a flashcard, friend codes in online NDS games will be reset when attempting to go online using a different console
+
+## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Should I use a previous version instead?
+The Unlaunch page has not been updated since version 2.0 was released, which was over two years ago. The vast majority of users experience no issues with this version, so it is considered safe.

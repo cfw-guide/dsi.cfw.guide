@@ -12,12 +12,6 @@ Aby uzyskać całkowity przewodnik do homebrew i niestandardowych firmware dla i
 
 :::
 
-::: danger
-
-Ten przewodnik nie jest kompatybilny z konsolami deweloperskimi Nintendo DSi.
-
-:::
-
 ::: tip
 
 Dokładnie przeczytaj wszystkie strony wprowadzające (łącznie z tą!) przed przystąpieniem do pracy.

@@ -5,7 +5,7 @@ title: Estensioni File (Windows)
 Questa è una sezione aggiuntiva per disabilitare il comportamento predefinito di Windows di nascondere le estensioni dei file, che renderà la ricerca dei file di riferimento nella guida molto più facile per voi.
 
 ## Utenti Windows 10 / 8.1 / 8
-1. Avvia Esplora Risorse aprendo una qualsiasi cartella, come ad esempio la tua stessa scheda SD
+1. Avvia Esplora File aprendo una qualsiasi directory, come ad esempio quella della scheda SD
 1. Clicca sul menu "Visualizza" nella barra superiore
 1. Spunta la casella denominata "Estensioni nomi file" ![Schermata della casella delle "Estensioni nomi file" su Windows 10](/assets/images/windows-10-file-extensions.png)
 

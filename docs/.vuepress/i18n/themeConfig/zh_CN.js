@@ -1,7 +1,6 @@
 module.exports = {
 	selectLanguageName: '中文 (简体)',
 	backToHome: 'Take me home',
-	contributorsText: 'Contributors',
 	editLinkText: 'Edit this page',
 	lastUpdatedText: 'Last Updated',
 	openInNewWindow: 'open in new window',

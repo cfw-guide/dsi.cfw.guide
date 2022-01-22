@@ -2,6 +2,12 @@
 title: Installation de Unlaunch
 ---
 
+::: danger
+
+Unlaunch is not compatible with Nintendo DSi development consoles.
+
+:::
+
 Unlaunch est un exploit qui se déclenche au démarrage du système. Cela lui donne des privilèges plus élevés que les exploits normaux DSiWare comme Memory Pit, ce qui lui permet de faire ce qui suit :
 
 - Lancer des applications au démarrage (homebrew ou DSiWare), avec des combinaisons optionnelles de boutons
@@ -15,7 +21,7 @@ Unlaunch est un exploit qui se déclenche au démarrage du système. Cela lui do
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand). Même si les chances sont minces, Unlaunch peut accidentellement brick votre Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 
@@ -63,8 +69,6 @@ Si vous voyez l'écran du menu de fichiers de Unlaunch, vous avez moddé votre N
 ## Section III - Configuration post-Unlaunch
 
 Pour le moment, Unlaunch lance par défaut son menu de fichiers au démarrage, mais cela peut être modifié pour lancez ce que vous voulez.
-
-Nous allons également reconfigurer nds-bootstrap pour lancer TWiLight Menu++ (au lieu du titre DSiWare exploité) lorsque nous réinitialisons en jeu.
 
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - This should launch the Unlaunch Filemenu

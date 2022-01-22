@@ -2,15 +2,15 @@
 title: Volcar la memoria NAND
 ---
 
-Esta página es para hacer un respaldo de la NAND, es decir, una copia de los datos en el almacenamiento interno de la consola. Puedes usar este respaldo para configurar HiyaCFW, también para usarlo con los emuladores no$gba y melonDS para emular una consola Nintendo DSi.
+Esta página es para hacer una copia de seguridad NAND, que es una copia de los datos en el almacenamiento interno de la Nintendo DSi. Se puede utilizar para configurar hiyaCFW, así como no$gba y melonDS para la emulación DSi.
 
 ::: tip
 
-Se recomienda encarecidamente realizar este proceso. Un respaldo de la NAND de tu consola se puede usar para restaurar el sistema en el futuro, en caso que tu sistema deje de funcionar.
+Se recomienda encarecidamente que haga esto. Una copia de seguridad NAND se puede utilizar como punto de restauración en el futuro, en caso de tener un fallo en el sistema.
 
 :::
 
-## Sección I - Preparación de la tarjeta SD
+## Sección I - Configuración de la tarjeta SD
 
 ::: tip
 
@@ -39,6 +39,6 @@ El hash SHA1 del archivo `nand.bin` no concordará con el hash almacenado en el 
 
 ::: tip
 
-Continua a [Instalar Unlaunch](installing-unlaunch)(Opcional)
+Continua a [Instalar Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
 
 :::

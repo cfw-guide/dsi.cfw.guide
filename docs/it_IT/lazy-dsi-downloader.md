@@ -16,7 +16,7 @@ Se a questo punto il tutorial crasha mentre cerchi di completarlo, allora non pu
 1. Se sei su Windows, scarica e installa la versione più recente di [7-Zip](https://www.7-zip.org/download.html)
    - Questo non funzionerà con nessun altro estrattore di archivi che hai, come WinRAR. Il Lazy DSi File Downloader si basa su 7-Zip stesso, e non è un estrattore di archivi generale
 1. Scarica la versione più recente di [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) per il tuo sistema operativo
-1. Avvialo attraverso le istruzioni nella pagina di rilascio
+1. Avvialo attraverso le istruzioni elencate nella pagina delle release
 1. Premi il pulsante "Next"
    - La lettura del testo iniziale non è obbligatoria
 1. Se hai un crash durante gli step di verifica, disattiva l'opzione Memory Pit

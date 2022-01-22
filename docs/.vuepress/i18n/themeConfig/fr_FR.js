@@ -1,20 +1,19 @@
 module.exports = {
 	selectLanguageName: 'Français',
-	backToHome: 'Take me home',
-	contributorsText: 'Contributors',
-	editLinkText: 'Edit this page',
-	lastUpdatedText: 'Last Updated',
-	openInNewWindow: 'open in new window',
-	selectLanguageAriaLabel: 'Select language',
-	toggleDarkMode: 'toggle dark mode',
-	toggleSidebar: 'toggle sidebar',
-	discordNoticeText: 'Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.',
+	backToHome: 'Me ramener à l\'accueil',
+	editLinkText: 'Éditer cette page',
+	lastUpdatedText: 'Dernière mise à jour',
+	openInNewWindow: 'ouvrir dans une nouvelle fenêtre',
+	selectLanguageAriaLabel: 'Sélectionner la langue',
+	toggleDarkMode: '(dés)activer le mode sombre',
+	toggleSidebar: '(dés)activer la barre latérale',
+	discordNoticeText: 'Rejoignez le serveur Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) pour le développement du guide et l\'aide.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',
 		'faq',
 		{
-			text: 'Backups',
+			text: 'Sauvegardes',
 			children: [
 				'dsiware-backups',
 				'dumping-game-cards',
@@ -45,7 +44,7 @@ module.exports = {
 			]
 		},
 		{
-			text: 'Other',
+			text: 'Autres',
 			children: [
 				'faq',
 				'troubleshooting',

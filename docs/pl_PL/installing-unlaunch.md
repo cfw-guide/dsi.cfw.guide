@@ -2,6 +2,12 @@
 title: Instalacja Unlaunch
 ---
 
+::: danger
+
+Unlaunch is not compatible with Nintendo DSi development consoles.
+
+:::
+
 Unlaunch to exploit, który ma miejsce przy starcie systemu. Dzięki temu ma on wyższe uprawnienia niż zwykłe exploity DSiWare, takie jak Memory Pit, co pozwala mu na następujące działania:
 
 - Uruchamianie aplikacji przy starcie (homebrew lub DSiWare) z opcjonalnymi kombinacjami przycisków
@@ -63,8 +69,6 @@ Jeśli w tym momencie zobaczysz Filemenu Unlaunch, pomyślnie zmodowałeś Ninte
 ## Sekcja III - Konfiguracja po-Unlaunch
 
 Obecnie, Unlaunch domyślnie uruchamia swoje menu plików przy starcie systemu, ale można to zmienić uruchamiając co tylko chcesz.
-
-Skonfigurujemy ponownie nds-bootstrap, aby uruchamiał TWiLight Menu++ (zamiast wykorzystanego tytułu DSiWare), gdy wykonamy soft-reset w grze.
 
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - To powinno uruchomić Unlaunch Filemenu

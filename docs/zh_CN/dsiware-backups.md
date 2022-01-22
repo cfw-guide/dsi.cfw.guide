@@ -8,9 +8,9 @@ title: DSiware备份
 
 ## Nintendo DSi - 说明
 
-### Section I - Identifying the desired DSiWare
-1. Launch GodMode9i and select `[nand:] SYSNAND`
-1. Navigate to the `title` folder
+### 第I节 - 识别所需的DSIWare
+1. 启动GodMode9i并选择[NAND：] SYSNAND
+1. 导航到title文件夹
 1. Choose the folder according to whichever category you're looking for
    - `00030004`: Standard DSiWare
    - `00030005`: Pre-installed Fun Tools

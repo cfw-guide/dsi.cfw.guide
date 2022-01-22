@@ -2,8 +2,13 @@
 title: Instalar Unlaunch
 ---
 
-Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite tener mas privilegios que los exploits normales de títulos DSiWare como Memory Pit, lo que hace que sea capaz de hacer lo siguiente:
+::: danger
 
+Unlaunch is not compatible with Nintendo DSi development consoles.
+
+:::
+
+Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite tener mas privilegios que los exploits normales de títulos DSiWare como Memory Pit, lo que hace que sea capaz de hacer lo siguiente:
 - Iniciar aplicaciones al encender el sistema (sea homebrew o DSiWare), con combinaciones de botones opcionales.
 - Acceder a la ranura Slot-1, permitiéndote volcar cartuchos de juegos e iniciar flashcarts incompatibles con tu sistema.
 - Remover el bloqueo regional en cartuchos de juegos con mejoras para Nintendo DSi o que sean exclusivos de la misma.
@@ -63,8 +68,6 @@ Si ves el sistema de archivos de Unlaunch en este punto, significa que has modif
 ## Sección III - Configuración posterior
 
 Actualmente, Unlaunch inicia por defecto su sistema de archivos al encender la consola, pero puedes cambiar esto para iniciar lo que tú quieras.
-
-También vamos a reconfigurar nds-boostrap para iniciar TWiLight Menu++ (en lugar del título DSiWare de donde se lanzó el exploit) cuando hagas un soft-reset en medio de la partida.
 
 1. Enciende tu consola mientras mantienes pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
    - Esto deberia iniciar el sistema de archivos de Unlaunch.

@@ -39,6 +39,6 @@ Le hachage SHA1 de `nand.bin` ne correspondra pas à celui stocké dans `nand.bi
 
 ::: tip
 
-Continuer vers [Installation de Unlaunch](installing-unlaunch) (facultatif)
+Continuer vers [Installation de Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
 
 :::
