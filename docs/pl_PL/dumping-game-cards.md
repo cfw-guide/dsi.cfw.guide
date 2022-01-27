@@ -2,10 +2,10 @@
 title: Zrzucanie kart gry
 ---
 
-This section is for dumping Game Cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
+Ta sekcja służy do zrzucania kart z grami przy użyciu GodMode9i, aby można je było odtwarzać na emulatorach, flashcardach lub na karcie SD poprzez nds-bootstrap.
 
 ## Wymagania
-- The Game Card of the title you would like to dump
+- Tytuł, który chcesz zrzucić
 - Nintendo DSi z zainstalowanym[Unlaunch](installing-unlaunch)
 
 ## Instrukcje
@@ -24,15 +24,15 @@ Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
 1. Włącz konsolę trzymając <kbd class="face">A</kbd> i <kbd class="face">B</kbd>
    - To powinno uruchomić Unlaunch Filemenu
 1. Uruchom GodMode9i z Unlaunch Filemenu
-1. Ensure the Game Card is inserted into the console
+1. Upewnij się, że gra jest włożona do konsoli
 1. Wybierz opcję "NDS GAMECARD" w GodMode9i
 1. Wybierz, czy chcesz wypełnienie czy nie:
    - Pełne: Padding przyłączony
    - Przycięty: Paddowanie usunięty
-1. Repeat steps 3-5 for all Game Cards you wish to dump
+1. Powtórz kroki 3-5 dla wszystkich tytułów, które chcesz zrzucić
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Zrzucone tytuły zostaną zamieszczone w `sd:/gm9i/out`.
 
 :::

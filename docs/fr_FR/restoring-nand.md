@@ -20,7 +20,7 @@ Tout d'abord, quelques alternatives plus sûres pour expliquer pourquoi vous pou
 - Restoring an Unlaunch button configuration can be done from the Unlaunch menu, which can be accessed by holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while powering the console on
 - Démarrer sur Unlaunch entraîne une erreur ? Take out your SD card and try starting the system again. Si cela fonctionne, alors c'est un défaut avec votre carte SD et la restauration d'une sauvegarde de la NAND ne le corrigera pas
 - "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
-- Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on [Discord](https://ds-homebrew.com/discord)
+- Toute erreur dans TWiLight Menu++ n'est pas liée et vous devriez essayer de réinstaller TWiLight Menu++ ou demander de l'aide sur [Discord](https://ds-homebrew.com/discord)
 - La désinstallation de Unlaunch, que ce soit en flashant la NAND ou en utilisant son désinstalleur, devrait être évitée sauf en cas de nécessité absolue, vous pouvez régler les touches de démarrage automatique sur "Launcher" et votre DSi sera comme la version originale
 
 La seule chose que vous devriez faire avec votre NAND est d'installer Unlaunch. Utilisez les alternatives autrement.

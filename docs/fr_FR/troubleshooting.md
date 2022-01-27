@@ -3,13 +3,11 @@ title: Problèmes et dépannage
 ---
 
 ## Unlaunch
-### Unlaunch freezes at `MISMATCH IN FAT COPIES`
+### Unlaunch plante à `MISMATCH IN FAT COPIES`
 
 twlnf a un bug critique où il ne met pas correctement à jour la NAND entière après l'avoir modifié, ce qui fait que certains homebrews (comme l'installateur d'Unlaunch) montrent une erreur.
 
-Bien qu'il soit possible d'y remédier, la méthode pour le faire n'est pas fixée et varie largement d'un système à l'autre. Une méthode consiste à supprimer tous les titres DSiWare installé via twlnf dans le passé, mais il a également été signalé que leur déplacement à *tous* sur la carte SD et de nouveau sur le système peut aider dans certains cas.
-
-If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DSi region is Chinese or Korean) can help fix this bug as well.
+To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
 
 If the issue persists, try this:
 1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option

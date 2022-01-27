@@ -4,11 +4,11 @@ title: FAQ
 
 ## Quelles fonctionnalités vais-je perdre en moddant mon système ?
 - Si vous décidez d'installer Unlaunch, vous ne perdrez aucune fonctionnalité du système
-- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
-   - This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit
+- Si vous optez pour une configuration réservée à Memory Pit, vous ne pourrez pas enregistrer de photos sur la carte SD via l'application Appareil photo Nintendo DSi pendant l'installation de l'exploit. Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
+   - C'est parce que le fichier de métadonnées (`pit.bin`) est écrasé par l'exploit Memory Pit
 
-## How do I play Nintendo DS Game Card dumps?
-Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
+## Comment jouer aux jeux des cartouches Nintendo DS extraites ?
+L'utilisation d'un linker ou de nds-bootstrap, un programme qui permet de jouer à partir de la carte SD interne en redirigeant les lectures et les écritures du Slot-1 vers celle-ci, est nécessaire pour jouer aux jeux des cartouches Nintendo DS extraites.
 - Avec TWiLight Menu++, vous pouvez naviguer sur votre carte SD pour trouver des fichiers ROM et y jouer avec nds-bootstrap. TWiLight Menu++ permet d'avoir un menu de triche, des paramètres par jeu et d'éviter les restrictions que les transitaires imposent. En d'autres termes, vous pouvez déposer vos fichiers ROM directement et jouer sans aucune installation. Il n'y a pas de limite de titre 39, ni hiyaCFW ni Unlaunch sont requis et il n'y a aucune restriction sur l'espace libre de la carte SD que vous pouvez avoir
 - hiyaCFW users can create forwarders using the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) for the SDNAND's DSi Menu, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
    - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki

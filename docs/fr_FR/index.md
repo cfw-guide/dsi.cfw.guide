@@ -42,7 +42,7 @@ Gardez à l'esprit que le guide est structuré de manière linéaire, mais cela 
 - Utilisez des linkers normalement incompatibles
 - Redirect your NAND to the SD card using hiyaCFW
 - Regardez vos films favoris en utilisant MPEG4Player
-- Display an image (referred to as the boot splash) on system launch
+- Afficher une image (connue sous le nom d'écran d'accueil) au lancement du système
 - Play homebrew games
 
 ## Où puis-je trouver des applications homebrew ?

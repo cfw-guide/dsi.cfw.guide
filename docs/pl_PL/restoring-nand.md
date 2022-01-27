@@ -53,7 +53,7 @@ Bardzo ważne jest, aby sprawdzić, czy kopia zapasowa NAND działa przed prób�
 8. Kliknij `OK`
 9. Uruchom dowolny ROM NDS (plik `.nds`)
 
-If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. If it shows any kind of error ***do not flash that backup***!
+If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. Jeśli pokaże jakikolwiek błąd ***nie flashuj(nie wgrywaj) tej kopii zapasowej***!
 
 ## Uninstalling Unlaunch from your NAND backup (optional)
 Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.

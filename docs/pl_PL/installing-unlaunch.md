@@ -52,7 +52,7 @@ Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
    - Jeśli już zainstalowałeś Unlaunch i chcesz go zaktualizować, przytrzymaj <kbd class="face">A</kbd> + <kbd class="face">B</kbd> podczas włączania i wybierz `TWiLight Menu++` gdzie `BOOT.NDS` jest pokazany na dolnym ekranie
 1. Uruchom Ustawienia TWiLight Menu++
    - Jeśli nie zmieniłeś swojego motywu, podążaj za "Uruchomienie exploita". W przeciwnym razie należy zapoznać się z podręcznikiem TWiLight Menu++
-1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
+1. Naciśnij <kbd class="l">L</kbd> / <kbd class="r">R</kbd> lub <kbd class="face">X</kbd> / <kbd class="face">Y</kbd>, aż dojdziesz do strony `Ustawienia Unlaunch`
 1. Jeśli chcesz zmienić obraz tła Unlauncha, wybierz `Tło` i wybierz to, które chcesz
    - Jeśli chcesz stworzyć własne tło Unlaunch, skonsultuj się z [stroną wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. Jeśli chcesz, aby ekran Health and Safety oraz dźwięki menu DSi były włączone, ustaw `Launcher Patches` na `Off`
@@ -70,7 +70,7 @@ Jeśli w tym momencie zobaczysz Filemenu Unlaunch, pomyślnie zmodowałeś Ninte
 
 Obecnie, Unlaunch domyślnie uruchamia swoje menu plików przy starcie systemu, ale można to zmienić uruchamiając co tylko chcesz.
 
-1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
+1. Włącz konsolę przytrzymując <kbd class="face">A</kbd> i <kbd class="face">B</kbd>
    - To powinno uruchomić Unlaunch Filemenu
 1. Przejdź do `OPTIONS`i spójrz na dostępne opcje
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> jest zakodowane, aby uruchomić w menu Unlaunch i jako takie nie może być zmienione

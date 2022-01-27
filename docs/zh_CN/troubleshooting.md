@@ -7,9 +7,7 @@ title: 故障排查
 
 在没有正确更新整个NAND时破解，twlnf会有一个关键的bug。 这会导致某些自制程序(如Unlaunch安装程序) 出现错误。
 
-虽然可以修复，但这样做的方法并不是一成不变的，各系统之间差别很大。 一种方法是删除过去通过 twlnf 安装的任何DSiWare。 但也有报告称，将 *所有* DSiWare移动到SD卡并返回系统，在某些情况下可能有用。
-
-If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DSi region is Chinese or Korean) can help fix this bug as well.
+To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
 
 If the issue persists, try this:
 1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option

@@ -7,9 +7,7 @@ title: Rozwiązywanie problemów
 
 twlnf ma krytyczny błąd, w którym nie aktualizuje poprawnie całego NAND po jego modyfikacji, który powoduje, że niektóre homebrew (takie jak Unlaunch installer) wyrzucą błąd.
 
-O ile jest to naprawialne, metoda w dużej mierze różni się w zależności od systemów. Jedną z metod jest usunięcie dowolnego DSiWare zainstalowanego przez twlnf, ale zgłoszono również, że przeniesienie *wszystkich* DSiWare na kartę SD i powrót do systemu może również okazać się pomocne.
-
-If you have downgraded the system in the past, updating back to v1.4.5 (or v1.4.6 if your DSi region is Chinese or Korean) can help fix this bug as well.
+To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
 
 If the issue persists, try this:
 1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option

@@ -23,13 +23,13 @@ title: Kopie zapasowe DSiWare
    - Files in `0003000f` cannot have their NDS file info viewed because they are not launchable DSiWare and do not contain a valid banner
 
 ### Section II - Extracting the DSiWare
-1. Highlight the `.app` file, then press <kbd class="face">Y</kbd> to add it to the clipboard
-1. Navigate your SD card to the directory where you'd like to place the dumped DSiWare title
-1. Press <kbd class="face">Y</kbd> again to paste the DSiWare title in the directory you are currently navigating
-   - You can change the name of the file after pasting it by pressing <kbd class="face">X</kbd> while holding <kbd class="R">R</kbd>
-   - Repeat this for all files you wish to copy to the same directory
+1. Zaznacz plik `.app`, a następnie naciśnij <kbd class="face">Y</kbd> aby dodać go do schowka
+1. Przejdź do katalogu, w którym chcesz umieścić zrzucony tytuł DSiWare
+1. Naciśnij <kbd class="face">Y</kbd> ponownie, aby wkleić tytuł DSiWare do katalogu, w którym aktualnie się znajdujesz
+   - Możesz zmienić nazwę pliku po wklejeniu go, naciskając <kbd class="face">X</kbd> i przytrzymując <kbd class="R">R</kbd>
+   - Powtórz tę czynność dla wszystkich plików, które chcesz skopiować do tego samego katalogu
 
-You should now see the DSiWare title in TWiLight Menu++ or the Unlaunch Filemenu.
+Tytuł DSiWare powinien być teraz widoczny w menu++ programu TWiLight lub w menu Unlaunch Filemenu.
 
 ### Section III - Extracting the save file (optional)
 1. In the same folder as `content` for your specified DSiWare, there will be a folder named `data`

@@ -8,7 +8,7 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 :::
 
-Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
+Unlaunch是系统启动时触发的一种漏洞。 This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
 
 - 通过组合键，在启动时启动应用程序(homebrew 或 DSiWare)
 - Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
@@ -21,13 +21,13 @@ Unlaunch is an exploit that takes place on system boot. This allows it to have h
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand). 虽然概率较低，Unlaunch仍有可能使DSi变砖。 A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 
 ::: warning
 
-请确定你的机器在此过程中保持充电状态。 突然断电可能会造成严重的损坏。
+请确保您的机器在后续过程中被充电。 突然断电可能会造成严重的损坏。
 
 :::
 
@@ -43,7 +43,7 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand). While t
    - 使用[镜像链接](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip)，如果上述链接无法工作 1.从`unlaunch.zip`中解压`UNLAUNH.DSI`并复制到你SD卡的任意位置 1.确认你的SD卡上仍然有TWiLight菜单++
 1. 从SD卡中删除`UNLAUNH.DSI`文件
 1. 确认你的SD卡上仍然有 TWiLight 菜单++
-   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit.html#twilight-menu) page
+   - 如果您不确定，请按照 [启动漏洞](launching-the-exploit.html#twilight-menu) 进行操作。
 
 ## 第二节——安装/更新Unlaunch
 
@@ -57,14 +57,14 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand). While t
    - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. If you want the Health and Safety screen and DSi Menu music and sounds when using the official Nintendo DSi Menu, then set `Launcher Patches` to `Off`
    - This will also keep the region locking and card whitelist, meaning that some flashcards won't be usable from the DSi Menu
-1. Exit TWiLight Menu++ Settings
+1. 退出 TWiLight 菜单++ 设置
 1. 想要原生DSi菜单，请选择`Launcher`
 1. 选择install选项
    - 如果未启动成功在`ERROR: MISMATCH IN FAT COPIES 排`，请查看我们[故障查询](疑难解答)页面
 1. 完成后，重启您的系统
 
 如果您此时看到 Unlaunch Filemenu 的屏幕，说明您已成功地破解了您的Nintendo DSi。
-- 如果您不确定，请按照 [启动漏洞利用](launching-the-exploit#twilight-menu) 页面中的说明进行操作
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting) page
 
 ## 第三部分 - 启动后配置
 
