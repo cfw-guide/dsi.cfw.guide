@@ -7,9 +7,7 @@ title: Hibaelhárítás
 
 A twlnf-nek van egy kritikus hibája, amikor nem frissíti megfelelően az egész NAND-ot a módosítása után, ami bizonyos homebrew-ok esetén (mint példul az Unlaunch telepítő) hibát dob.
 
-Habár javítható, a metódus, ahogy ez megtehető, nem kőbe vésett és változik a különböző rendszereken. Az egyik metódus, hogy törölj minden DSiWare-t ami a twlnf-en keresztül lett telepítve a múltban, de azt is jelentette valaki, hogy a mozgatása *minden* DSiWare-nek az SD kártyára, majd vissza segített bizonyos esetekben.
-
-Ha korábban downgrade-elted a rendszert, a vissza frissítése v1.4.5-re (vagy v1.4.6-ra, ha a DSi régiód kínai vagy koreai) is segíthet ezen a hibán.
+Ennek a javításához, niysd meg a [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases)-t és válaszd a `Fix FAT copy mismatch` opciót.
 
 Ha a hiba továbbra is fennáll, próbáld ezt:
 1. Csatold a NAND mentésedet a [ninfs](https://github.com/ihaveamac/ninfs/releases)-sel és engedélyezd, az `Allow writing` opciót

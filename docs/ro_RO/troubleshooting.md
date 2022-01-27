@@ -7,9 +7,7 @@ title: Troubleshooting
 
 twlnf are o eroare critică în care nu actualizează corect întregul NAND după ce este modificat, ce cauzează anumite aplicații homebrew (precum instalatorul Unlaunch) să afișeze o eroare.
 
-Deși se poate repara, metoda de a face asta depinde de fiecare sistem. O metodă este să ștergi orice joc DSiWare instalat în trecut prin twlnf, dar a fost descoperit că mutarea *tuturor* jocurilor DSiWare pe cardul SD și înapoi pe sistem poate ajuta în anumite cazuri.
-
-Dacă ți-ai dezactualizat sistemul în trecut, actualizarea la v1.4.5 (sau v1.4.6 dacă regiunea consolei DSi este China sau Coreea) poate ajuta la repararea acestui bug.
+Pentru a remedia asta, deschide [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), și selectează `Fix FAT copy mismatch`.
 
 Dacă problema persistă, încearcă asta:
 1. Montează copia NAND cu [ninfs](https://github.com/ihaveamac/ninfs/releases), și pornește opțiunea `Allow writing`
@@ -18,7 +16,7 @@ Dacă problema persistă, încearcă asta:
 
 ### Nu se aude nimic sau splash-ul de lansare nu apare când lansez "Launcher" în Unlaunch
 
-Dezvoltatorul Unlaunch-ului (nocash) a oprit implicit muzica de fundal și splash-ul de pornire. Poți recâștiga aceste efecte prin a [reinstala Unlaunch](installing-unlaunch) folosind TWiLight Menu++, sau prin folosirea [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Dezvoltatorul Unlaunch-ului (nocash) a dezactivat implicit muzica de fundal și splash-ul de pornire. Poți recâștiga aceste efecte prin a [reinstala Unlaunch](installing-unlaunch) folosind TWiLight Menu++, sau prin folosirea [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Când pornesc consola după ce am instalat Unlaunch apare doar un ecran negru
 
