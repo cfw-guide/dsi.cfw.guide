@@ -138,7 +138,8 @@ module.exports = {
 			"/zh_CN/": themeConfig.zh_CN,
 			"/translate/": themeConfig.translate
 		},
-		contributors: false
+		contributors: false,
+		lastUpdated: false
 	},
 
 	extendsMarkdown: md => {
