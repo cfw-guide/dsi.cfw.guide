@@ -4,6 +4,11 @@ const path = require("path");
 
 themeConfig.translate.selectLanguageName = "Translate";
 
+const adArr = [
+  { slot: '/22046652915/dsi-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743842328-0' },
+  { slot: '/22046652915/dsi-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743896812-0' }
+]
+
 module.exports = {
 	theme: path.resolve(__dirname, "./vuepress-theme"),
 
@@ -65,6 +70,8 @@ module.exports = {
 		[ 'meta', { name: 'theme-color', content: '#2E3440' } ],
 		[ 'script', { src: 'https://cdn.thisiswaldo.com/static/js/8532.js' } ],
 		[ 'script', {}, 'if (localStorage.getItem("vuepress-color-scheme") === "dark" || (localStorage.getItem("vuepress-color-scheme") !== "light" && (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches))) document.documentElement.classList.add("dark");' ],
+		[ 'script', { src: 'https://securepubads.g.doubleclick.net/tag/js/gpt.js' } ],
+		require('./plugins/createAdScript/lib/')(adArr)
 	],
 	locales: {
 		// The key is the path for the locale to be nested under.
@@ -125,8 +132,7 @@ module.exports = {
 		docsBranch: "master",
 		docsDir: "docs",
 		selectLanguageText: '<i class="fas fa-globe"></i>',
-		adTagOne: 'waldo-tag-8548',
-		adTagTwo: 'waldo-tag-8549',
+		adArr: adArr,
 		locales: {
 			"/": themeConfig.en_US,
 			"/es_ES/": themeConfig.es_ES,
