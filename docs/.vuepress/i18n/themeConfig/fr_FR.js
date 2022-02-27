@@ -2,7 +2,6 @@ module.exports = {
 	selectLanguageName: 'Français',
 	backToHome: 'Me ramener à l\'accueil',
 	editLinkText: 'Éditer cette page',
-	lastUpdatedText: 'Dernière mise à jour',
 	openInNewWindow: 'ouvrir dans une nouvelle fenêtre',
 	selectLanguageAriaLabel: 'Sélectionner la langue',
 	toggleDarkMode: '(dés)activer le mode sombre',

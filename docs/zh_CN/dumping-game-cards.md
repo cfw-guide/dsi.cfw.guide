@@ -21,15 +21,12 @@ This section is for dumping Game Cards using GodMode9i so they can be played on 
 1. 从 GodMode9i 目录中解压 `GodMode9i.nds` 并复制到你SD卡的任意位置
 
 ### 第二节——DSi上的操作
-1. 摁住 <kbd class="face">A</kbd> 和 <kbd class="face">B</kbd>键 后，再摁下 Dsi 的电源键
-   - 这应该能启动到Unlaunch Filemenu
-1. 从 Unlaunping Filemenu 启动 GodMode9i
+1. Launch GodMode9i
 1. Ensure the Game Card is inserted into the console
-1. 选择 GodMode9i 中的“NDS GAMECARD”选项
-1. 选择你是否需要空白填充内容（无游戏数据的内容）：
-   - Full: 包括填充内容
-   - Trim: 移除填充内容
-1. Repeat steps 3-5 for all Game Cards you wish to dump
+1. Select the "NDS GAMECARD" option in GodMode9i
+1. Select what you want to dump
+   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
+1. Repeat steps 2-4 for all Game Cards you wish to dump
 
 ::: tip
 

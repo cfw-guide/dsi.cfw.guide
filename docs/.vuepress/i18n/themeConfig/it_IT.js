@@ -2,7 +2,6 @@ module.exports = {
 	selectLanguageName: 'Italiano',
 	backToHome: 'Torna all’inizio',
 	editLinkText: 'Modifica questa pagina',
-	lastUpdatedText: 'Ultimo aggiornamento',
 	openInNewWindow: 'apri in nuova finestra',
 	selectLanguageAriaLabel: 'Seleziona lingua',
 	toggleDarkMode: 'attiva/disattiva modalità scura',

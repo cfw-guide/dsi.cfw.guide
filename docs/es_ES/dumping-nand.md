@@ -39,6 +39,6 @@ El hash SHA1 del archivo `nand.bin` no concordará con el hash almacenado en el 
 
 ::: tip
 
-Continua a [Instalar Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continuar a [Instalar Unlaunch](installing-unlaunch) (Paso opcional. No es compatible con consolas Nintendo DSi de desarrollo)
 
 :::

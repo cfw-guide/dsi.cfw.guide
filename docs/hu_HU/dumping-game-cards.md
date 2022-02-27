@@ -21,15 +21,12 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 1. Csomagold ki a `GodMode9i.nds`-t a GodMode9i archívból és rakd valahova az SD kártyádon
 
 ### II. rész - Nintendo DSi lépések
-1. Kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
-   - Ez el kell indítsa az Unlaunch Filemenu-t
-1. Indítsd el GodMode9i-t az Unlaunch Filemenu-ből
-1. Biztosítsd, hogy a játékkártya csatlakoztatott legyen a konzolra
-1. Válaszd az "NDS GAMECARD" opciót a GodMode9i-ben
-1. Válaszd ki, szeretnél-e paddingolni vagy sem:
-   - Full: Padding hozzáadva
-   - Trim: Paddingolás eltávolítva
-1. Ismételd meg a 3-5. lépéseket minden játék kártyára, amit szeretnél dumpolni
+1. Launch GodMode9i
+1. Ensure the Game Card is inserted into the console
+1. Select the "NDS GAMECARD" option in GodMode9i
+1. Select what you want to dump
+   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
+1. Repeat steps 2-4 for all Game Cards you wish to dump
 
 ::: tip
 

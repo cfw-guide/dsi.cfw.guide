@@ -21,15 +21,12 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 1. Extrae `GodMode9i.nds` del archivo GodMode9i y colócalo en cualquier lugar de tu tarjeta SD.
 
 ### Sección II - Instrucciones para Nintendo DSi
-1. Enciende tu consola mientras mantienes pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>
-   - Esto deberia iniciar el sistema de archivos de Unlaunch.
-1. Inicia GodMode9i desde el sistema de archivos de Unlaunch.
-1. Asegúrate de que el cartucho de juego esté insertado en la consola.
-1. Selecciona la opción "NDS GAMECARD" en GodMode9i.
-1. Seleccione si deseas que la ROM sea recortada o no:
-   - Full: La ROM se volcará tal cual está en el cartucho.
-   - Trim: Los archivos no necesarios al final de la ROM serán recortados.
-1. Repite los pasos 3 a 5 para todos los cartuchos que quieras volcar.
+1. Launch GodMode9i
+1. Ensure the Game Card is inserted into the console
+1. Select the "NDS GAMECARD" option in GodMode9i
+1. Select what you want to dump
+   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
+1. Repeat steps 2-4 for all Game Cards you wish to dump
 
 ::: tip
 

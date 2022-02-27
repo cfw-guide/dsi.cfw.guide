@@ -41,17 +41,17 @@ Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar.
 Como hiyaCFW no tiene mucha utilidad y era una parte problemática y confusa para muchos usuarios, fue trasladada a la [wiki de DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - Si fuiste referido a la página en cuestión desde otra guía, las instrucciones que estabas siguiendo muy probablemente estaban desactualizadas. Se te recomienda seguir esta guía en su lugar, ya que es mantenida y constantemente actualizada por los desarrolladores de estos proyectos.
 
-## What kind of SD card should I use?
-- You should buy an SD card from a trusted brand
-- A full-size SD card or a microSD card with an adapter will both work
-- Any capacity between 1 GB and 2 TB will work. For general usage, 8 GB is enough
-  - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
-- Speed class 8 or higher is recommended
+## ¿Qué clase de Tarjeta SD debería usar?
+- Deberías comprar una tarjeta SD de una marca confiable.
+- Funcionarán tanto una tarjeta SD de tamaño normal como una tarjeta micro SD con un adaptador.
+- Cualquier capacidad de entre 1 GB y 2 TB funcionarán. 8 GB suele ser suficiente para el uso general.
+  - Algunas aplicaciones, como hiyaCFW, pueden ver tiempos de carga prolongados según la capacidad de la tarjeta utilizada.
+- Se recomienda el uso de tarjetas de velocidad clase 8 o superior.
 
-## Can I use my DSi SD card on other systems?
-Generally, yes, with two exceptions:
-- hiyaCFW will only work on the system it was set up for
-- Even if you are using nds-bootstrap or a flashcard, friend codes in online NDS games will be reset when attempting to go online using a different console
+## ¿Puedo usar la tarjeta SD de mi consola en otros sistemas?
+Usualmente, sí, con un par de excepciones:
+- hiyaCFW solo funcionará en el sistema para el que se configuró.
+- Incluso si usas nds-bootstrap o una flashcart, los códigos de amigo en juegos en línea se resetearán cuando se intente entrar en línea usando una consola diferente.
 
-## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Should I use a previous version instead?
-The Unlaunch page has not been updated since version 2.0 was released, which was over two years ago. The vast majority of users experience no issues with this version, so it is considered safe.
+## La [página de Unlaunch](https://problemkaputt.de/unlaunch.htm) dice que la versión 2.0 no ha probado ser segura. ¿Debería usar una versión anterior?
+La página de Unlaunch no ha sido actualizada desde que se publicó la versión 2.0, cosa que ocurrió hace más de dos años. La gran mayoría de usuarios no han experimentado problemas usando esta versión, así que puede considerarse segura.

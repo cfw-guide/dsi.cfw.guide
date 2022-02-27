@@ -4,11 +4,12 @@ title: Instalar Unlaunch
 
 ::: danger
 
-Unlaunch is not compatible with Nintendo DSi development consoles.
+Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
 
 :::
 
 Unlaunch es un exploit que tiene lugar al arrancar el sistema. Esto le permite tener mas privilegios que los exploits normales de títulos DSiWare como Memory Pit, lo que hace que sea capaz de hacer lo siguiente:
+
 - Iniciar aplicaciones al encender el sistema (sea homebrew o DSiWare), con combinaciones de botones opcionales.
 - Acceder a la ranura Slot-1, permitiéndote volcar cartuchos de juegos e iniciar flashcarts incompatibles con tu sistema.
 - Remover el bloqueo regional en cartuchos de juegos con mejoras para Nintendo DSi o que sean exclusivos de la misma.
@@ -50,11 +51,11 @@ Asegúrate de que tu consola está cargada mientras sigues estos pasos. Si el si
    - Si esta es tu primera vez instalando Unlaunch, relanza TWiLight Menu++ a través del exploit que utilizaste antes.
    - Si ya has instalado Unlaunch y estás buscando actualizarlo, mantén pulsados <kbd class="face">A</kbd> y <kbd class="face">B</kbd> mientras enciendes la consola y selecciona el `TWiLight Menu++` en el que la ruta que acabe en `BOOT.NDS` se muestra en la pantalla inferior
 1. Entra en la configuración de TWiLight Menu++
-   - Si no has cambiado tu tema, sigue los pases en la página "Lanzando el Exploit". De lo contratio, consulta el manual de TWiLight Menu++
+   - Si no has cambiado tu tema, sigue los pasos en la página "Lanzando el Exploit". De cualquier otra forma, consulta el manual de TWiLight Menu++
 1. Presiona <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd class="face">X</kbd>/<kbd class="face">Y</kbd> hasta que llegues a la sección `Ajustes de Unlaunch`.
 1. Si quieres cambiar el la imágen que Unlaunch utiliza como fondo. selecciona la opción `Fondo` y elige el que quieras.
    - Si quieres crear tu propio fondo para Unlaunch, consulta la [página en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds).
-1. Si quieres mantener la música y los sonidos del Menú DSi, así como la pantalla de Salud y Seguridad, entonces `desactiva` la opción `Parches del Launcher`.
+1. Si quieres mantener la música y los sonidos del Menú DSi, así como la pantalla de Salud y Seguridad al usar el menú original de la consola, entonces `desactiva` la opción `Parches del Launcher`.
    - Hacer esto eviará el poder saltar el bloqueo regional y la incompatibildiad de flashcarts.
 1. Sal de la Configuración de TWiLight Menu++
 1. En el menú de navegación de archivos, ejecuta la aplicación `Unlaunch DSi Installer`.
@@ -77,7 +78,7 @@ Actualmente, Unlaunch inicia por defecto su sistema de archivos al encender la c
       - Para que alguna de estas opciones inicie TWiLight Menu++, selecciona el archivo `TWiLight Menu++` en el que la ruta que acabe en `BOOT.NDS` se muestre en la pantalla inferior.
       - Para que alguna de estas opciones inicie el Menú DSi original, selecciona el archivo `Launcher`.
    - La opción `LOAD ERROR` es en lo que tu DSi iniciará si lo que tú hayas configurado falla, como por ejemplo, una archivo en la tarjeta SD cuando esta no está en la consola.
-1. Select `SAVE & EXIT` to save your settings, then turn off your DSi
+1. Selecciona `SAVE & EXIT` para guardar la configuración, luego, apaga la consola.
 
 ## Sección IV - Limpiar la tarjeta SD
 

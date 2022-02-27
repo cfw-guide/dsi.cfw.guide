@@ -2,7 +2,6 @@ module.exports = {
 	selectLanguageName: '中文 (简体)',
 	backToHome: 'Take me home',
 	editLinkText: 'Edit this page',
-	lastUpdatedText: 'Last Updated',
 	openInNewWindow: 'open in new window',
 	selectLanguageAriaLabel: 'Select language',
 	toggleDarkMode: 'toggle dark mode',

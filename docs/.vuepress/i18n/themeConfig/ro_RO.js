@@ -2,7 +2,6 @@ module.exports = {
 	selectLanguageName: 'Română',
 	backToHome: 'Du-mă acasă',
 	editLinkText: 'Editează această pagină',
-	lastUpdatedText: 'Ultima actualizare',
 	openInNewWindow: 'deschide într-o fereastră nouă',
 	selectLanguageAriaLabel: 'Selectează limba',
 	toggleDarkMode: 'pornește modul întunecat',

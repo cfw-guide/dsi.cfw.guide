@@ -8,31 +8,17 @@ title: Copii DSiWare
 
 ## Nintendo DSi - Instrucțiuni
 
-### Secțiunea I - Idnetificarea jocului DSiWare dorit
-1. Lansează GodMode9i și selectează `[nand:] SYSNAND`
-1. Navighează la dosarul `title`
-1. Alege dosarul potrivit categoriei pe care o cauți
-   - `00030004`: DSiWare Standard
-   - `00030005`: Unelte Distractive Preinstalate
-   - `0003000f`: Date de Sistem (fișiere non-DSiWare, nu pot fi rulate)
-   - `00030015`: Unelte de Bază de Sistem
-   - `00030017`: Launcher
-1. Odată ce ai ales ce tip de DSiWare vrei să extragi, introdu un subdosar, și după aceea introdu `content`
-1. Acolo ar trebui să fie acum un fișier `.app` vizibil. Selectează fișierul, și alege `Show NDS file info`. Acesta îți va spune dacă este titlul DSiWare pe care îl cauți
-   - Dacă nu este titlul DSiWare pe care îl cauți, continuă să cauți în alte dosare până îl găsești
-   - Fișierele din `0003000f` nu pot avea informațiile despre fișierele NDS afișate deoarece nu sunt fișiere DSiWare lansabile și nu conțin un banner valid
+### Section I - Dumping the DSiware
+1. Launch GodMode9i
+1. Press <kbd>START</kbd> to open the START Menu
+1. Select `Title manager...`
+   - If this isn't shown, ensure you have your SD card and NAND mounted. If loading from hiyaCFW reload from somewhere else
+1. Select the title you want to dump
+1. Select what you want to dump
+1. Repeat steps 4-5 for all of the DSiWare you wish to dump
 
-### Secțiunea II - Extragerea jocului DSiWare
-1. Evidențiază fișierul `.app`, apoi apasă <kbd class="face">Y</kbd> pentru a-l adăuga la clipboard
-1. Navighează cardul SD până la dosarul în care dorești să-ți pui titlul DSiWare
-1. Apasă <kbd class="face">Y</kbd> din nou pentru pune titlul DSiWare în dosarul pe care în navighezi acum
-   - Poți schimba numele fișierului după ce l-ai pus în dosar dacă apeși <kbd class="face">X</kbd> în timp ce ții apăsat pe <kbd class="R">R</kbd>
-   - Repetă asta pentru toate fișierele pe care dorești să le copiezi în același dosar
+::: tip
 
-Ar trebui să vezi acum titlul DSiWare în TWiLight Menu++ sau în Meniul de Fișiere Unlaunch.
+The dumped DSiWare will be found in `sd:/gm9i/out`.
 
-### Secțiunea III - Extragerea fișierului de salvare (opțional)
-1. În același dosar în care se află `content` pentru jocul DSiWare speificat, se va afla un dosar numit `data`
-1. Înăuntrul dosarului `data` se află fișierul de salvare. Copiază acest fișier pe cardul tău SD la fel cum ai copiat titlul DSiWare însuși
-   - Unlaunch și nds-bootstrap folosesc extensiile `.pub` și `.prv` pentru fișierele de salvare DSiWare. Dacă fișierul tău de salvare DSiWare a fost inițial numit `public.sav`, folosește extensia `.pub`, și dacă fișierul de salvare a fost numit inițial `private.sav`, foloseșye extensia `.prv`
-   - Dacă dorești să folosești fișierul de salvare DSiWare cu TWiLight Menu ++, asigură-te că l-ai plasat în dosarul `saves` la locația ROM-ului tău
+:::

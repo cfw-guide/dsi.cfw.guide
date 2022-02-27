@@ -21,15 +21,12 @@ Folosești Windows, Linux sau macOS? Folosește [Lazy DSi Downloader](lazy-dsi-d
 1. Extrage `GodMode9i.nds` din arhiva GodMode9i și plasează-l oriunde pe cardul tău SD
 
 ### Secțiunea II - Instrucțiuni Nintendo DSi
-1. Pornește-ți consola în timp ce ții apăsat pe <kbd class="face">A</kbd> și <kbd class="face">B</kbd>
-   - Aceasta ar trebui să lanseze Meniul de Fișiere Unlaunch
-1. Lansează GodMode9i din Meniul de Fișiere Unlaunch
-1. Asigură-te că ai inserat Cardul de Joc în consolă
-1. Selectează opțiunea "NDS GAMECARD" în GodMode9i
-1. Selectează dacă vrei să-l tai sau nu:
-   - Full: Partea netăiată inclusă
-   - Trim: Partea netăiată tăiată
-1. Repetă pașii 3-5 pentru toate Cardurile de Joc cărora vrei să le faci copii
+1. Launch GodMode9i
+1. Ensure the Game Card is inserted into the console
+1. Select the "NDS GAMECARD" option in GodMode9i
+1. Select what you want to dump
+   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
+1. Repeat steps 2-4 for all Game Cards you wish to dump
 
 ::: tip
 

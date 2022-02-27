@@ -2,7 +2,6 @@ module.exports = {
 	selectLanguageName: 'Magyar',
 	backToHome: 'Vissza a főoldalra',
 	editLinkText: 'Ennek az oldalnak a szerkesztése',
-	lastUpdatedText: 'Utolsó frissítés',
 	openInNewWindow: 'megnyitás új ablakban',
 	selectLanguageAriaLabel: 'Válassz nyelvet',
 	toggleDarkMode: 'sötét módra váltás',
