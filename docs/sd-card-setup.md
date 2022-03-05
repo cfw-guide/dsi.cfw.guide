@@ -68,7 +68,8 @@ This will scan the SD card and correct any errors it finds.
 
 ### Section IV - Checking SD card read/write
 
-1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer.
+1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - It can also be extracted on an external device as long as that external device isn't your SD card
 1. With your SD card inserted into your computer, run `h2testw.exe`
 1. Select which language you'd like to see h2testw in
