@@ -6,7 +6,7 @@ title: 制作人员
 
 如果你喜欢他们的所做，请考虑捐助(如果他们有捐赠链接)。
 
-- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): 指南维护者
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): 指南维护者
 - [YourKalamity](https://github.com/YourKalamity/): Creator of Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): 域名持有者
 - Halvorsen: 提供了在主页上使用的Nintendo DSi图片

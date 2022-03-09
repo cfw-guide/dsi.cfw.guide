@@ -6,7 +6,7 @@ Acestea sunt mulțumirile pentru cei care ne-au ajutat cu site-ul ghid, homebrew
 
 Dacă îți place ce au făcut, ia în considerare să donezi (dacă ei au un link de donație).
 
-- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Întreținătorii ghidului
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Întreținătorii ghidului
 - [YourKalamity](https://github.com/YourKalamity/): Creator al Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): Deținătorul domeniului
 - Halvorsen: A oferit o poză al consolei Nintendo DSi a lui pentru a fi folosită pe pagina principală

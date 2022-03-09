@@ -8,17 +8,17 @@ title: Copii DSiWare
 
 ## Nintendo DSi - Instrucțiuni
 
-### Section I - Dumping the DSiware
-1. Launch GodMode9i
-1. Press <kbd>START</kbd> to open the START Menu
-1. Select `Title manager...`
-   - If this isn't shown, ensure you have your SD card and NAND mounted. If loading from hiyaCFW reload from somewhere else
-1. Select the title you want to dump
-1. Select what you want to dump
-1. Repeat steps 4-5 for all of the DSiWare you wish to dump
+### Secțiunea I - Creere copii DSiWare
+1. Lansează GodMode9i
+1. Apasă <kbd>START</kbd> pentru a deschide Meniul START
+1. Selectați `Title manager...`
+   - Dacă nu apare, asigură-te că ai un NAND și un card SD montate. Dacă se încarcă din hiyaCFW reîncarcă din altă parte
+1. Selectează titlul căruia vrei să-i creezi o copie
+1. Selectează ce vrei să copiezi
+1. Repetă pașii 4-5 pentru toate jocurile DSiWare pe care vrei să le copiezi
 
 ::: tip
 
-The dumped DSiWare will be found in `sd:/gm9i/out`.
+Jocul DSiWare copiat se va afla în `sd:/gm9i/out`.
 
 :::

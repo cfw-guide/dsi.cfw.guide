@@ -6,7 +6,7 @@ Ez a készítők listája, akik segítettek az útmutató weboldalon, homebrew �
 
 Ha tetszik amit csináltak, gondolkozz el a támogatásukon (ha van támogatási linkjük).
 
-- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Útmutató karbantartók
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Útmutató karbantartók
 - [YourKalamity](https://github.com/YourKalamity/): A Lazy DSi File Downloader készítője
 - [emiyl](https://emiyl.com/paypal): Domain birtokos
 - Halvorsen: Képet biztosított a saját Nintendo DSi-jéről, hogy használhassuk a weboldalon

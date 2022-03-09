@@ -15,7 +15,7 @@ Playing Game Card dumps on the console requires the use of a flashcard or nds-bo
 
 ## 如何更新我的自制程序？
 - **Unlaunch** - 按照 [安装Unlaunch](installing-unlaunch) 上的说明操作
-   - You do **not** need to uninstall Unlaunch before doing this
+   - 你**不**需要在更新Unlaunch之前卸载它
 - **hiyaCFW** - 替换在 SD 卡根目录上的`hiya.dsi`为 [更新版本](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - 复制 `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` 到SD卡根目录上的 `_nds` 文件夹
@@ -25,8 +25,8 @@ Playing Game Card dumps on the console requires the use of a flashcard or nds-bo
 其他自制程序可能会使用其他方法进行更新。
 
 ## 我是小白，又或者我想重新设置。 我该从哪里开始？
-- If you have not already modified your console or are looking to update Unlaunch on your system, we recommend starting from the beginning of the guide and following through the pages. 请务必阅读主页上的所有内容
-- If you have the latest version Unlaunch, follow Section 1b of [Launching the Exploit](launching-the-exploit#twilight-menu) to set up TWiLight Menu++ on your system
+- 如果您尚未破解您的机器，或者正在寻求在您的机器上更新Unlaunch ， 我们建议您从指南开头从头看起。 请务必阅读主页上的所有内容
+- 如果您有最新版本的Unlaunch， 按照第1b节 [启动漏洞](launching-the-exploit.html#twilight-menu) 在您的系统上设置 TWiLight Menu++
 
 ## 如何移除亲子管理功能？
 - [mkey 生成器（英文）](https://mkey.salthax.org) 可生成移除亲子管理功能所需要的代码

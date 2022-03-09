@@ -8,7 +8,7 @@ title: Backup DSiWare
 
 ## Nintendo DSi - Istruzioni
 
-### Section I - Dumping the DSiware
+### Section I - Dumping the DSiWare
 1. Launch GodMode9i
 1. Press <kbd>START</kbd> to open the START Menu
 1. Select `Title manager...`

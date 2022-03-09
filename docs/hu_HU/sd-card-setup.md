@@ -68,8 +68,9 @@ Ez ellenőrizni fogja az SD kártyádat és kijavít minden hibát, amit talál.
 
 ### IV. rész - Az SD kártya írás/olvasás ellenőrzése
 
-1. Töltsd le és csomagold ki [the h2testw archívot](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) bárhova a számítógépeden.
-   - Külső eszközre is kicsomagolhatOD, amíg az a külső eszköz nem az SD kártyád
+1. Töltsd le és csomagold ki [the h2testw archívot](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) bárhova a számítógépeden
+   - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)-ról
+   - Külső eszközre is kicsomagolhatod, amíg az a külső eszköz nem az SD kártyád
 1. Az SD kártyád legyen beillesztve a gépbe, majd futtasd a `h2testw.exe` fájlt
 1. Válaszd ki milyen nyelven szeretnéd a h2testw-t látni
 1. Válaszd ki az SD kártyád betűjelét, mint célt

@@ -4,17 +4,17 @@ title: 安装 Unlaunch
 
 ::: danger
 
-Unlaunch is not compatible with Nintendo DSi development consoles.
+Unlaunch 不适用于Nintendo DSi开发机。
 
 :::
 
-Unlaunch是系统启动时触发的一种漏洞。 This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
+Unlaunch是系统启动时触发的一种漏洞。 这个漏洞拥有比普通Memory Pit更高的权限，这使得它能够做以下事情：
 
 - 通过组合键，在启动时启动应用程序(homebrew 或 DSiWare)
-- Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
-- Region locks removed on DSi-Enhanced / Exclusive Game Cards
+- 访问 Slot-1，可允许您备份游戏卡带，并启动不兼容的烧录卡
+- 移除DSi增强/独占游戏的区域锁定
 - 通过 nds-bootstrap-hb 运行旧的 Nintendo DS homebrew
-- 从内部SD卡启动DSiWare
+- 砖机保护
 - The following for Memory Pit users (other exploits already allow these):
      - Using a Windows, Linux or macOS device? 使用 Windows、Linux 或 macOS 设备？使用 [Lazy DSi Downloader](lazy-dsi-downloader) 来自动设置您的 SD 卡。
      - 在 GBARunner2 中实现更好的声音
@@ -50,7 +50,7 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand). 虽然�
 1. 打开TWiLight Menu++
    - 如果这是您第一次安装 Unlaunch，请通过您使用的漏洞重新启动 TWiLight Menu++
    - 如果您已经安装了Unlaunch并恢复更新，在启动时选择<kbd class="face">A</kbd> + <kbd class="face">B</kbd>选择`TWiLight菜单+ +`,当`BOOT.NDS`显示在底部屏幕时。
-1. 启动暮光之城菜单++设置
+1. 启动 TWiLight Menu++ 设置
    - 如果您没有更改主题，请按“启动漏洞”页面中的步骤操作。 否则，请参阅TWiLight 菜单++ 手册
 1. 点击 <kbd class="l">L</kbd> / <kbd class="r">R</kbd> 或 <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> 直到您到达 `Unlaunch settings` 页面
 1. If you want to change Unlaunch's background image, select `Background` and choose the one you want

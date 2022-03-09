@@ -21,7 +21,7 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
 1. Estrai `GodMode9i.nds` dall'archivio GodMode9i e mettilo in un percorso qualsiasi sulla scheda SD
 
 ### Sezione II - Istruzioni Nintendo DSi
-1. Launch GodMode9i
+1. Avvia GodMode9i
 1. Ensure the Game Card is inserted into the console
 1. Select the "NDS GAMECARD" option in GodMode9i
 1. Select what you want to dump

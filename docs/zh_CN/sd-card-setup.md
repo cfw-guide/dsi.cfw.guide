@@ -68,7 +68,8 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 
 ### 第四节 - 检查 SD 卡读/写
 
-1. 下载 [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) 并将其解压到你电脑上任意地方。
+1. 下载 [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) 并将其解压到你电脑上任意地方
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - 也可以在外部设备上解压它，只要外部设备不是您的 SD 卡
 1. 将SD卡插入您的计算机，运行 `h2testw.exe`
 1. 在 h2testw 中选择中文或其他语言

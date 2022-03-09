@@ -6,7 +6,7 @@ Voici les remerciements pour ceux qui ont aidé à faire le site web du guide, l
 
 Si vous aimez ce qu'ils ont fait, envisagez de faire un don (s'ils ont un lien de don).
 
-- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44) : responsables des guides
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44) : responsables des guides
 - [YourKalamity](https://github.com/YourKalamity/) : créateur de Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal) : propriétaire du domaine
 - Halvorsen : a fourni une image de sa Nintendo DSi afin qu'elle soit utilisée sur la page d'accueil

@@ -8,17 +8,17 @@ title: DSiWare mentések
 
 ## Nintendo DSi - Lépések
 
-### Section I - Dumping the DSiware
-1. Launch GodMode9i
-1. Press <kbd>START</kbd> to open the START Menu
-1. Select `Title manager...`
-   - If this isn't shown, ensure you have your SD card and NAND mounted. If loading from hiyaCFW reload from somewhere else
-1. Select the title you want to dump
-1. Select what you want to dump
-1. Repeat steps 4-5 for all of the DSiWare you wish to dump
+### I. rész - A DSiWare dumpolása
+1. Indítsd el a GodMode9i-t
+1. Nyomj <kbd>START</kbd> gombot a START menü megnyitásához
+1. Válaszd a `Cím kezelő...` opciót
+   - Ha ez nem jelenik meg, ellenőrizd, hogy az SD kártyád és a NAND csatoltak. Ha hiyaCFW-ből töltötted, töltsd újra máshonnan
+1. Válaszd ki a címet, amit dumpolni akarsz
+1. Válaszd ki amit dumpolni akarsz
+1. Ismételd meg a 4-5. lépéseket minden DSIWare-re, amit szeretnél dumpolni
 
 ::: tip
 
-The dumped DSiWare will be found in `sd:/gm9i/out`.
+A dumpolt DSiWare-k az `sd:/gm9i/out` mappában lesznek megtalálhatók.
 
 :::

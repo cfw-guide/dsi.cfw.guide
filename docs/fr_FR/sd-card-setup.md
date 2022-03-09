@@ -68,7 +68,8 @@ Cette opération permet de scanner la carte SD et de corriger les erreurs qu'ell
 
 ### Section IV - Vérification de la lecture/écriture de la carte SD
 
-1. Téléchargez et extrayez [l'archive h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) n'importe où sur votre ordinateur.
+1. Téléchargez et extrayez [l'archive h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) n'importe où sur votre ordinateur
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Il peut également être extrait sur un périphérique externe tant qu'il ne s'agit pas de votre carte SD
 1. Avec votre carte SD insérée dans votre ordinateur, exécutez `h2testw.exe`
 1. Sélectionnez la langue dans laquelle vous souhaitez voir h2testw. Étant donné qu'il n'est pas disponible en français, les noms anglais seront utilisés et traduits pour ce guide

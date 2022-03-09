@@ -68,7 +68,8 @@ Questo processo esegue la scansione della scheda SD per correggere eventuali err
 
 ### Sezione IV - Controllo lettura/scrittura della scheda SD
 
-1. Scarica ed estrai [l'archivio h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) ovunque sul tuo computer.
+1. Scarica ed estrai [l'archivio h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) ovunque sul tuo computer
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Può anche essere estratto su un dispositivo esterno purché quel dispositivo esterno non sia la scheda SD
 1. Con la scheda SD inserita nel computer, esegui `h2testw.exe`
 1. Seleziona in quale lingua vuoi vedere h2testw

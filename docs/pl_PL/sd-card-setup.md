@@ -68,7 +68,8 @@ Spowoduje to skanowanie karty SD i poprawienie wszelkich wykrytych przez nią b�
 
 ### Sekcja IV - Sprawdzanie odczytu/zapisu karty SD
 
-1. Pobierz i rozpakuj [archiwum h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) w dowolnym miejscu na komputerze.
+1. Pobierz i rozpakuj [archiwum h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) w dowolnym miejscu na komputerze
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Można go również rozpakować na urządzeniu zewnętrznym, o ile to urządzenie zewnętrzne nie jest twoją kartą SD
 1. Z kartą SD włożoną do komputera, uruchom `h2testw.exe`
 1. Wybierz język, w którym chcesz zobaczyć h2testw

@@ -68,7 +68,8 @@ Acesta va scana cardul SD și va corecta orice eroare găsită.
 
 ### Secțiunea IV - Verificarea citirii/scrierii cardului SD
 
-1. Descarcă și extrage [arhiva h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) oriunde pe calculatorul tău.
+1. Descarcă și extrage [arhiva h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) oriunde pe calculatorul tău
+   - Dacă linkul de mai sus nu funcționează, descarcă [de pe archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Poate fi extrasă și pe un dispozitiv extern atâta timp cât dispoitivul extern nu este cardul tău SD
 1. Cu cardul SD introdus în calculatorul tău, rulează `h2testw.exe`
 1. Selectează în ce limbă ai vrea să vezi h2testw

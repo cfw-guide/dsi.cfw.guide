@@ -69,6 +69,7 @@ Esto escaneará la tarjeta SD y corregirá cualquier error que el sistema encuen
 ### Sección III - Comprobar que se pueden leer y escribir datos de/a la tarjera SD
 
 1. Descarga y extrae [el archivo h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) en cualquier lugar de tu ordenador.
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD.
 1. Con tu tarjeta SD insertada en tu ordenador, ejecuta `h2testw.exe`.
 1. Selecciona el lenguaje en el que te gustaría ver la interfaz de h2test2. En esta guía se utilizará la interfaz en inglés.

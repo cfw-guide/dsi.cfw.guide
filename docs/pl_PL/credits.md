@@ -6,7 +6,7 @@ To są zasługi dla tych, którzy pomagali przy stronie przewodnika, homebrew i 
 
 Jeśli podoba Ci się to, co zrobili, rozważ przekazanie darowizny (jeśli mają link).
 
-- [NightScript](https://nightyoshi370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Twórcy przewodników
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Twórcy przewodników
 - [YourKalamity](https://github.com/YourKalamity/): Twórca Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): Właściciel domeny
 - Halvorsen: Dostarczył obraz swojego Nintendo DSi do wykorzystania na stronie głównej
