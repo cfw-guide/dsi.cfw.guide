@@ -8,17 +8,17 @@ title: Respaldos de DSiWare
 
 ## Nintendo DSi - Instrucciones
 
-### Section I - Dumping the DSiWare
-1. Launch GodMode9i
-1. Press <kbd>START</kbd> to open the START Menu
-1. Select `Title manager...`
-   - If this isn't shown, ensure you have your SD card and NAND mounted. If loading from hiyaCFW reload from somewhere else
-1. Select the title you want to dump
-1. Select what you want to dump
-1. Repeat steps 4-5 for all of the DSiWare you wish to dump
+### Sección I - Volcar el título DSiWare
+1. Inicia GodMode9i
+1. Presiona <kbd>START</kbd> para abrir el menú START
+1. Selecciona `Explorador de títulos...`
+   - Si esta opción no aparece, asegúrate de que tanto tu tarjeta SD como tu NAND están montadas. Si iniciaste GodMode9i desde hiyaCFW, inícialo desde otra aplicación
+1. Selecciona el título que quieras volcar
+1. Seleccione lo que quieras volcar
+1. Repite los pasos 4 y 5 para todos los títulos DSiWare que quieras volcar
 
 ::: tip
 
-The dumped DSiWare will be found in `sd:/gm9i/out`.
+Lo que hayas volcado estará en la ruta `sd:/gm9i/out`.
 
 :::

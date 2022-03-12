@@ -69,7 +69,7 @@ Esto escaneará la tarjeta SD y corregirá cualquier error que el sistema encuen
 ### Sección III - Comprobar que se pueden leer y escribir datos de/a la tarjera SD
 
 1. Descarga y extrae [el archivo h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) en cualquier lugar de tu ordenador.
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+   - Si el enlace de arriba no funciona, intenta descargar desde [archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD.
 1. Con tu tarjeta SD insertada en tu ordenador, ejecuta `h2testw.exe`.
 1. Selecciona el lenguaje en el que te gustaría ver la interfaz de h2test2. En esta guía se utilizará la interfaz en inglés.
@@ -105,7 +105,7 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Toma nota del punto de montaje del dispositivo. En el ejemplo anterior, era `mmcblk0p1`
+1. Toma nota del punto de montaje del dispositivo. En el ejemplo de arriba, era `mmcblk0p1`
    - Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el slide para la protección de escritura desactivado.
 1. Haz la combinación de teclas CTRL + C para salir del menú
 1. Sigue las instrucciones pertinentes a la capacidad de tu tarjeta SD:

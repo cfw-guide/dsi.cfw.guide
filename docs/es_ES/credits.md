@@ -6,7 +6,7 @@ Estos son los créditos para aquellos que han ayudado con el sitio web de la gu�
 
 Si te gusta lo que han hecho, considera la posibilidad de donar (si tienen un enlace de donación).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Mantenimiento de la guía
 - [YourKalamity](https://github.com/YourKalamity/): Creador de Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal): Dueño del dominio
 - Halvorsen: Proporcionó una imagen de su Nintendo DSi para usar en la página de inicio
