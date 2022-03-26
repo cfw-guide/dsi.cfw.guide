@@ -15,9 +15,10 @@ Unlaunch to exploit, który ma miejsce przy starcie systemu. Dzięki temu ma on 
 - Region locks removed on DSi-Enhanced / Exclusive Game Cards
 - Uruchom stare homebrew DS przez nds-bootstrap-hb
 - Ochrona przed awarią
+- Removes Donor ROM requirement for running DSi-Enhanced games in DSi mode
 - The following for Memory Pit users (other exploits already allow these):
      - Improved compatibility with DSiWare launched from the SD card
-     - Lepszy dźwięk w GBARunner2
+     - Better sound in GBARunner2
 
 ::: danger
 
@@ -51,11 +52,11 @@ Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
    - Jeśli po raz pierwszy instalujesz program Unlaunch, uruchom ponownie program TWiLight Menu++ za pomocą użytego exploita
    - Jeśli już zainstalowałeś Unlaunch i chcesz go zaktualizować, przytrzymaj <kbd class="face">A</kbd> + <kbd class="face">B</kbd> podczas włączania i wybierz `TWiLight Menu++` gdzie `BOOT.NDS` jest pokazany na dolnym ekranie
 1. Uruchom Ustawienia TWiLight Menu++
-   - Jeśli nie zmieniłeś swojego motywu, podążaj za "Uruchomienie exploita". W przeciwnym razie należy zapoznać się z podręcznikiem TWiLight Menu++
+   - Jeśli nie zmieniłeś swojego motywu, podążaj za "Uruchomienie exploita". Otherwise, see the TWiLight Menu++ Manual
 1. Naciśnij <kbd class="l">L</kbd> / <kbd class="r">R</kbd> lub <kbd class="face">X</kbd> / <kbd class="face">Y</kbd>, aż dojdziesz do strony `Ustawienia Unlaunch`
 1. Jeśli chcesz zmienić obraz tła Unlauncha, wybierz `Tło` i wybierz to, które chcesz
-   - Jeśli chcesz stworzyć własne tło Unlaunch, skonsultuj się z [stroną wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-1. Jeśli chcesz, aby ekran Health and Safety oraz dźwięki menu DSi były włączone, ustaw `Launcher Patches` na `Off`
+   - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
+1. If you want the Health and Safety screen and DSi Menu music and sounds when using the official Nintendo DSi Menu, then set `Launcher Patches` to `Off`
    - This will also keep the region locking and card whitelist, meaning that some flashcards won't be usable from the DSi Menu
 1. Wyjdź z ustawień TWiLight Menu++
 1. W menu nawigacją plików uruchom `Unlaunch DSi Installer`
@@ -64,7 +65,7 @@ Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-down
 1. Po zakończeniu, uruchom ponownie system
 
 Jeśli w tym momencie zobaczysz Filemenu Unlaunch, pomyślnie zmodowałeś Nintendo DSi.
-- Jeśli widzisz czarny ekran, zajrzyj na stronę [Troubleshooting](troubleshooting)
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting) page
 
 ## Sekcja III - Konfiguracja po-Unlaunch
 

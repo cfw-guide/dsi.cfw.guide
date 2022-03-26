@@ -105,7 +105,7 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. 注意设备的挂载点 在上面的示例中，它是 `mmcblk0p1`
+1. 注意设备的挂载点 In the example above, it was `mmcblk0p1`
    - 如果 `RO` 设置为1, 确保锁定开关并没有滑下
 1. 按 CTRL + C 键退出菜单
 1. Follow the instructions relevant to your SD card's capacity:

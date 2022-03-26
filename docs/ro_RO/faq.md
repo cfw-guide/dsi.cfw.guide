@@ -2,6 +2,9 @@
 title: FAQ
 ---
 
+## Should I do a system update?
+No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
+
 ## Ce funcții voi pierde dacă îmi modific consola?
 - Dacă decizi să instalezi Unlaunch, nu vei pierde nici o funcție de sistem
 - Dacă folosești doar Memory Pit, nu vei putea să salvezi poze pe cardul SD prin aplicația Nintendo DSi Camera cât timp exploit-ul este instalat. Fie urmează [Exploit-uri Alternative](alternate-exploits), sau urmează [Instalarea Unlaunch](installing-unlaunch)
@@ -54,4 +57,4 @@ Deoarece hiyaCFW nu are un scop foarte funcțional și a fost o parte problemati
 - Chair dacă ai nds-bootstrap sau un flashcard, codurile de prieteni în jocurile NDS online vor fi resetate când încerci să te conectezi online folosind o consolă diferită
 
 ## [Pagina Unlaunch](https://problemkaputt.de/unlaunch.htm) spune că versiunea 2.0 nu este cunoscută ca fiind sigură. Ar trebui să folosesc versiuni anterioare?
-Pagina de dezlansare nu a fost actualizată de când versiunea 2.0 a fost lansată, care a fost cu peste doi ani în urmă. Marea majoritate a utilizatorilor nu a avut probleme cu această versiune, deci este considerată sigură.
+Pagina de dezlansare nu a fost actualizată de când versiunea 2.0 a fost lansată, care a fost cu peste doi ani în urmă. The vast majority of users experience no issues with this version, so it is considered safe.

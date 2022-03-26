@@ -39,6 +39,6 @@ Skrót SHA1 `nand.bin` nie będzie odpowiadał skrótowi zapisanemu w `nand.bin.
 
 ::: tip
 
-Przejdź do [Instalacja Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continue to [Installing Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
 
 :::

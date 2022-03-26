@@ -7,7 +7,7 @@ title: Solucion de problemas
 
 twlnf tiene un error critico en el que no actualiza correctamente toda la NAND después de modificarla, lo que hace que ciertos homebrew (como el instalador de Unlaunch) tire error.
 
-Para solucionar esto, abre [NAND Rirle Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), y selecciona la opción `Fix FAT copy mismatch`.
+Para solucionar esto, abre [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), y selecciona la opción `Fix FAT copy mismatch`.
 
 Si el problema persiste, prueba esto:
 1. Monta el respaldo de tu NAND con [ninfs](https://github.com/ihaveamac/ninfs/releases), y marca la opción `Allow writing`.

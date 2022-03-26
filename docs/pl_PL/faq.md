@@ -2,6 +2,9 @@
 title: FAQ
 ---
 
+## Should I do a system update?
+No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
+
 ## Jaką funkcjonalność stracę modując mój system?
 - Jeśli zdecydujesz się zainstalować Unlaunch, nie utracisz żadnych funkcji systemowych
 - Jeśli chcesz mieć tylko Memory Pit, nie będzie można wtedy zapisać zdjęcia na karcie SD za pośrednictwem aplikacji Nintendo DSi Camera. Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
@@ -20,7 +23,7 @@ Odtwarzanie zrzutów gier na konsoli wymaga użycia flashcarda lub nds-bootstrap
 - **TWiLight Menu++** - Postępuj zgodnie z instrukcjami na [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Skopiuj `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` do folderu `_nds` w katalogu głównym karty SD
    - Jeśli korzystasz z TWiLight Menu++, istnieje duża szansa, że najnowsze wersje nds-bootstrap zostaną uwzględnione w TWiLight Menu++
-- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, Forwarder3-DS, itp.** - Postępuj zgodnie z instrukcjami użytymi do ich pobrania
 
 Inne homebrew mogą używać innych metod do aktualizacji.
 

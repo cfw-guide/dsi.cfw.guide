@@ -2,6 +2,9 @@
 title: FAQ
 ---
 
+## Should I do a system update?
+No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
+
 ## Quale funzionalità perderò moddando il mio sistema?
 - Se decidi di installare Unlaunch, non perderai nessuna funzionalità di sistema
 - Se utilizzerai una configurazione con soltanto Memory-Pit, non sarà possibile salvare le foto sulla scheda SD tramite l'applicazione Fotocamera Nintendo DSi mentre l'exploit è installato. Puoi o passare ad un [exploit alternativo](alternate-exploits) o [installare Unlaunch](installing-unlaunch)

@@ -14,7 +14,7 @@ title: Respaldos de DSiWare
 1. Selecciona `Explorador de títulos...`
    - Si esta opción no aparece, asegúrate de que tanto tu tarjeta SD como tu NAND están montadas. Si iniciaste GodMode9i desde hiyaCFW, inícialo desde otra aplicación
 1. Selecciona el título que quieras volcar
-1. Seleccione lo que quieras volcar
+1. Selecciona lo que quieras volcar
 1. Repite los pasos 4 y 5 para todos los títulos DSiWare que quieras volcar
 
 ::: tip

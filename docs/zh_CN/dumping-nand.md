@@ -39,6 +39,6 @@ title: 提取NAND
 
 ::: tip
 
-继续 [安装Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continue to [Installing Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
 
 :::

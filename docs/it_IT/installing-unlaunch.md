@@ -15,6 +15,7 @@ Unlaunch è un exploit che si verifica all'avvio del sistema. Questo gli consent
 - Rimuovere blocchi regionali sui giochi DSi-Enhanced / cartucce di gioco esclusive
 - Eseguire i vecchi Homebrew del Nintendo DS tramite nds-bootstrap-hb
 - Protezione contro i brick
+- Removes Donor ROM requirement for running DSi-Enhanced games in DSi mode
 - Quanto segue per gli utenti di Memory Pit (altri exploit li consentono già):
      - Migliorare la compatibilità con DSiWare avviato dalla scheda SD
      - Avere audio migliore in GBARunner2

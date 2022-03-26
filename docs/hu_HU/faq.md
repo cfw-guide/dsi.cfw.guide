@@ -2,7 +2,10 @@
 title: GYIK
 ---
 
-## Milyen funkcionalitást vesztek el, ha módosítom a rendszerem?
+## Kell frissítenem a rendszert?
+Nem. A Nintendo DSi képes homebrew futtatására bármilyen verzión, beleértve a legutolsót is, de nincs előnye a frissítésnek. A DSi Shop teljesen le lett állítva, a DSi Camera Facebook integrációja régóta halott és az egyetlen dolog amit a frissítések csináltak, az a flashcard-ok blokkolása. Továbbá van egy extrém kicsi kockázata a DSi-d **brickelésének** a rendszer frissítéssel, ami hasonló kockázat az Unlaunch telepítéséhez.
+
+## Milyen funkcionalitást vesztek el, ha moddolom a rendszerem?
 - Ha úgy döntesz, hogy telepíted az Unlaunch-öt, nem fogsz elveszteni semmilyen funkcionalitást
 - Ha csak a Memory Pit telepítést végzed el, nem fogsz tudni fotókat menteni az SD kártyára, a Nintendo DSi Camera alkalmazással, amíg az exploit telepített. Vagy válts egy [alternatív exploit-ra](alternate-exploits) vagy [telepítsd az Unlaunch-öt](installing-unlaunch)
    - Ez azért van, mert a metaadat fájl (`pit.bin`) felülírásra kerül a Memory Pit exploit-tal

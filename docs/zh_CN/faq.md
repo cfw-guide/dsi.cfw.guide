@@ -2,9 +2,12 @@
 title: 常见问题
 ---
 
+## Should I do a system update?
+No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
+
 ## 修改我的系统将会丢失什么功能？
 - 如果您决定安装Unlaunch，您将不会丢失任何系统功能
-- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
+- 如果你只进行了Memory Pit漏洞的相关设置，您将无法通过 Nintendo DSi 相机应用程序将照片保存到 SD 卡。 Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
    - 这是因为元数据文件`pit.bin`已被Memory Pit漏洞 所覆盖
 
 ## How do I play Nintendo DS Game Card dumps?
@@ -20,7 +23,7 @@ Playing Game Card dumps on the console requires the use of a flashcard or nds-bo
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - 复制 `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` 到SD卡根目录上的 `_nds` 文件夹
    - 如果您使用 TWiLight Menu++，很有可能将最新的 nds-bootstrap 版本包含在TWiLight Menu++内
-- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, Forwarder3-DS, 等.** - 按照使用说明下载
 
 其他自制程序可能会使用其他方法进行更新。
 
