@@ -11,7 +11,7 @@ No. The Nintendo DSi is able to run homebrew on any version, including the lates
    - This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit
 
 ## Why is Flipnote Lenny recommended over Memory Pit?
-Nintendo DSi Camera only opens DSi WRAM access to the secondary CPU (ARM7), and has a weird bug where a certain part of memory past the first 4MB is write-protected, both of which can cause issues with DSi mode titles and homebrew.     
+Nintendo DSi Camera (which uses Memory Pit) only opens DSi WRAM access to the secondary CPU (ARM7), and has a weird bug where a certain part of memory past the first 4MB is write-protected, both of which can cause issues with DSi mode titles and homebrew.     
 By using Flipnote Studio (which uses Flipnote Lenny), DSi WRAM is accessible by both (ARM9 & ARM7) CPUs, and no part of memory is write-protected, both ensuring no issues with DSi mode titles and homebrew.
 
 ## How do I play Nintendo DS Game Card dumps?
