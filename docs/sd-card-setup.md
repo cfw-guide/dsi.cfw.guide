@@ -94,6 +94,12 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 
 :::: tab name="Linux" os="other"
 
+::: tip
+
+If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
+
+:::
+
 ### Section I - Formatting your SD card
 1. Make sure your SD card is **not** inserted into your Linux machine
 1. Launch the Linux Terminal
