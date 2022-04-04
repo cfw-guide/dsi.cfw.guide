@@ -5,8 +5,8 @@ const path = require("path");
 themeConfig.translate.selectLanguageName = "Translate";
 
 const adArr = [
-  { slot: '/22046652915/dsi-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743842328-0' },
-  { slot: '/22046652915/dsi-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1645743896812-0' }
+  { slot: '/22046652915/dsi-0', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072817917-0' },
+  { slot: '/22046652915/dsi-1', size: [[728, 90], [320, 50]], id: 'div-gpt-ad-1649072864305-0' }
 ]
 
 module.exports = {
