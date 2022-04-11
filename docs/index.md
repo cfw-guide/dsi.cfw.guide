@@ -59,7 +59,7 @@ Continue to [Launching the Exploit](launching-the-exploit)
 
 :::
 
-However, there is a very minor risk of **bricking** your console when installing Unlaunch and using Memory Pit causes issues in some cases so if you want the best experience without any risk it is instead recommended to use use Flipnote Lenny. You can always install Unlaunch later if you decide later on that you want it.
+However, there is a very minor risk of **bricking** your console when installing Unlaunch and using Memory Pit causes issues in some cases so if you have Flipnote Studio and want the best experience without any risk it is instead recommended to use use Flipnote Lenny. You can always install Unlaunch later if you decide later on that you want it.
 
 ::: tip
 
