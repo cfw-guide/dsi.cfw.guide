@@ -40,7 +40,7 @@ module.exports = {
 				children: [
 					"dsiware-backups",
 					"dumping-game-cards",
-					"file-extensions-(windows)",
+					"file-extensions-windows",
 					"restoring-nand",
 					"sd-card-setup",
 					"uninstalling-unlaunch"
@@ -71,7 +71,7 @@ module.exports = {
 				children: [
 					"dsiware-backups",
 					"dumping-game-cards",
-					"file-extensions-(windows)",
+					"file-extensions-windows",
 					"restoring-nand",
 					"sd-card-setup",
 					"uninstalling-unlaunch"
