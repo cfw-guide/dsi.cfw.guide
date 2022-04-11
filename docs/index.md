@@ -24,15 +24,6 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide is called Memory Pit, but there are other entry points you can use if Memory Pit is unusable.
 
-## What will this guide do to my system?
-
-Keep in mind that the guide is structured in a linear path, yet it generally depends on how deep you want to go in terms of modding the system.
-
-- We will be setting up an entry point to launch basic homebrew via Memory Pit, the exploit for the Nintendo DSi Camera application
-- We will then take a NAND backup, which is useful as a restoration point in case you mess up later on
-- Finally, for users that want access to the full capabilities of the DSi we will walk them through installing Unlaunch. Unlaunch allows homebrew to run with more permissions (such as Slot-1 access) and at system boot
-   - Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system. If you do not risk bricking, you can stop after taking a NAND backup
-
 ## What can I do by modding my system?
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
@@ -56,8 +47,24 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
+## What will this guide do to my system?
+
+The main homebrew application this guide has you install is TWiLight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+
+In order to run TWiLight Menu++ you will need an exploit that allows running homebrew. The three exploits covered by this guide are Memory Pit, Flipnote Lenny, and Unlaunch. It is generally recommended to start with Memory Pit, then use that to install Unlaunch so that will be the main path of this guide.
+
 ::: tip
 
 Continue to [Launching the Exploit](launching-the-exploit)
 
 :::
+
+However, there is a very minor risk of **bricking** your console when installing Unlaunch and using Memory Pit causes issues in some cases so if you want the best experience without any risk it is instead recommended to use use Flipnote Lenny. You can always install Unlaunch later if you decide later on that you want it.
+
+::: tip
+
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit)
+
+:::
+
+For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

@@ -5,29 +5,51 @@ title: FAQ
 ## Should I do a system update?
 No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
 
+## Which is the best exploit?
+Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit (as it's the simplest exploit) to install Unlaunch, however if you decide you don't want any risk it's recommended to instead use Flipnote Lenny as using Memory Pit can cause issues in certain cases. Below is a list of the pros and cons of each exploit:
+
+### Unlaunch
+Pros:
+- Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
+- Full access to the system without any restrictions, including:
+   - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
+   - Better sound in GBARunner2
+- Removes region locks on DSi-Enhanced/Exclusive Game Cards
+- Protection against most ways a DSi could brick
+- DSi-Enhanced games can be run in DSi mode without a Donor ROM
+- Old homebrew can be run via nds-bootstrap-hb
+
+Cons:
+- Very minor risk of **bricking** the console when installing
+- Another, slightly higher, risk of bricking if you decide to uninstall it
+
+### Flipnote Lenny
+Pros:
+- Better compatibility with DSi mode titles and homebrew than Memory Pit
+- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
+- Better sound in GBARunner2
+
+Cons:
+- Requires Flipnote Studio
+- Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
+- Access to Slot-1 (the DS Game Card) is blocked
+
+### Memory Pit
+Pros:
+- Quick and easy to use
+- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
+- Compatible will all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+
+Cons:
+- Requires loading the DSi Camera application every time you want to access homebrew
+- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
+- Access to Slot-1 (the DS Game Card) is blocked
+- Access to the DSP is blocked resulting in worse sound in GBARunner2
+
 ## What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
 - If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either use Flipnote Lenny or other [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
    - This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit
-
-## What is Unlaunch?
-Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
-- Launching applications at boot (homebrew or DSiWare), with optional button combinations
-- Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
-- Region locks removed on DSi-Enhanced / Exclusive Game Cards
-- Run old Nintendo DS homebrew via nds-bootstrap-hb
-- Brick-protection
-- Removes Donor ROM requirement for running DSi-Enhanced games in DSi mode
-- The following for Memory Pit users (Flipnote Lenny and other exploits already allow these):
-     - Improved compatibility with DSiWare launched from the SD card
-     - Better sound in GBARunner2
-
-There is a slim brick risk when installing Unlaunch, though should be the same as when starting up the System Menu and/or launching a title.
-
-## Why use Flipnote Lenny over Memory Pit?
-If you don't plan on installing Unlaunch, Flipnote Lenny is the best available exploit to use for these reasons:
-- Nintendo DSi Camera (which uses Memory Pit) only opens DSi WRAM access to the secondary CPU (ARM7), and has a weird bug where a certain part of memory past the first 4MB is write-protected, both of which can cause issues with DSi mode titles and homebrew.
-- By using Flipnote Studio (which uses Flipnote Lenny), DSi WRAM is accessible by both (ARM9 & ARM7) CPUs, and no part of memory is write-protected, both ensuring no issues with DSi mode titles and homebrew.
 
 ## How do I play Nintendo DS Game Card dumps?
 Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.

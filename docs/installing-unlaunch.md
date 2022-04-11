@@ -77,6 +77,23 @@ This section is optional and only serves for keeping your SD card tidy of files 
 
 :::
 
+:::: tabs
+
+::: tab name="Memory Pit" default
+
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-   - If you used another exploit, delete the files from that exploit instead
+   - If you made a backup of an existing `pit.bin` file, put it back now
 - Delete the `UNLAUNCH.DSI` file from your SD card
+
+:::
+
+::: tab name="Flipnote Lenny"
+
+- Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
+   - `sd:/private/ds/app/4B47554A/001` (Japan)
+   - `sd:/private/ds/app/4B475545/001` (USA)
+   - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
+   - You can also delete the entire folders for the regions besides your own
+- Delete the `UNLAUNCH.DSI` file from your SD card
+
+:::
