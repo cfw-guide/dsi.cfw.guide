@@ -48,7 +48,7 @@ Cons:
 
 ## What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
-- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either use Flipnote Lenny or other [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
+- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either use Flipnote Lenny or other [Alternate Exploits](alternate-exploits.html) instead, or follow [Installing Unlaunch](installing-unlaunch.html)
    - This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit
 
 ## How do I play Nintendo DS Game Card dumps?
@@ -58,7 +58,7 @@ Playing Game Card dumps on the console requires the use of a flashcard or nds-bo
    - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
 ## How do I update my homebrew?
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch) page
+- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
    - You do **not** need to uninstall Unlaunch before doing this
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)

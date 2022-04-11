@@ -10,7 +10,7 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 
@@ -24,7 +24,7 @@ Make sure your console is charged when following this process. A sudden power lo
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 
@@ -49,11 +49,11 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 1. Exit TWiLight Menu++ Settings
 1. In the file navigation menu, launch `Unlaunch DSi Installer`
 1. Select the install option
-   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting) page
+   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. When completed, reboot your system
 
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
-- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting) page
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
 
 ## Section III - Post-Unlaunch configuration
 

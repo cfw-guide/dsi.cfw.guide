@@ -55,7 +55,7 @@ In order to run TWiLight Menu++ you will need an exploit that allows running hom
 
 ::: tip
 
-Continue to [Launching the Exploit](launching-the-exploit)
+Continue to [Launching the Exploit](launching-the-exploit.html)
 
 :::
 
@@ -63,7 +63,7 @@ However, there is a very minor risk of **bricking** your console when installing
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit)
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
