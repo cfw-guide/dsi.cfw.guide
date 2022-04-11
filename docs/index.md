@@ -43,7 +43,7 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 
 ## What should I know before starting?
 
-- On Windows, it's recommended to [show file extensions](file-extensions-%28windows%29) if you are using the default File Explorer
+- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
