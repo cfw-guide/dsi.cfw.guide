@@ -8,6 +8,29 @@ No. The Nintendo DSi is able to run homebrew on any version, including the lates
 ## Which is the best exploit?
 Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit (as it's the simplest and most compatible exploit) to install Unlaunch, however if you decide you want to avoid any risk it's recommended to instead use Flipnote Lenny as using Memory Pit can cause issues in certain cases. Below is a list of the pros and cons of each exploit:
 
+### Memory Pit
+Pros:
+- Quick and easy to use
+- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
+- Compatible will all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+
+Cons:
+- Requires loading the DSi Camera application every time you want to access homebrew
+- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
+- Access to Slot-1 (the DS Game Card) is blocked
+- Access to the DSP is blocked resulting in worse sound in GBARunner2
+
+### Flipnote Lenny
+Pros:
+- Better compatibility with DSi mode titles and homebrew than Memory Pit
+- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
+- Better sound in GBARunner2
+
+Cons:
+- Requires Flipnote Studio
+- Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
+- Access to Slot-1 (the DS Game Card) is blocked
+
 ### Unlaunch
 Pros:
 - Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
@@ -22,29 +45,6 @@ Pros:
 Cons:
 - Very minor risk of **bricking** the console when installing
 - Another, slightly higher, risk of bricking if you decide to uninstall it
-
-### Flipnote Lenny
-Pros:
-- Better compatibility with DSi mode titles and homebrew than Memory Pit
-- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
-- Better sound in GBARunner2
-
-Cons:
-- Requires Flipnote Studio
-- Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked
-
-### Memory Pit
-Pros:
-- Quick and easy to use
-- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
-- Compatible will all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
-
-Cons:
-- Requires loading the DSi Camera application every time you want to access homebrew
-- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
-- Access to Slot-1 (the DS Game Card) is blocked
-- Access to the DSP is blocked resulting in worse sound in GBARunner2
 
 ## What functionality will I lose by modding my system?
 - If you decide to install Unlaunch, you will not lose any system functionality
