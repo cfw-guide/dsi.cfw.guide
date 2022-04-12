@@ -47,24 +47,8 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
-## What will this guide do to my system?
-
-The main homebrew application this guide has you install is TWiLight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
-
-In order to run TWiLight Menu++ you will need an exploit that allows running homebrew. The three exploits covered by this guide are Memory Pit, Flipnote Lenny, and Unlaunch. It is generally recommended to start with Memory Pit, then use that to install Unlaunch so that will be the main path of this guide.
-
 ::: tip
 
-Continue to [Launching the Exploit](launching-the-exploit.html)
+Continue to [Get Started](get-started.html)
 
 :::
-
-However, there is a very minor risk of **bricking** your console when installing Unlaunch and using Memory Pit causes issues in some cases so if you have Flipnote Studio and want the best experience without any risk it is instead recommended to use Flipnote Lenny. You can always install Unlaunch later if you decide later on that you want it.
-
-::: tip
-
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-
-:::
-
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

@@ -30,6 +30,7 @@ module.exports = {
 			{
 				text: "Guide",
 				children: [
+					"get-started",
 					"launching-the-exploit",
 					"dumping-nand",
 					"installing-unlaunch"
@@ -61,6 +62,7 @@ module.exports = {
 			{
 				text: "Guide",
 				children: [
+					"get-started",
 					"launching-the-flipnote-exploit",
 					"dumping-nand",
 					"installing-unlaunch"
