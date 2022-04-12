@@ -2,9 +2,40 @@
 title: "Get Started"
 ---
 
-## What will this guide do to my system?
+The main homebrew application this guide has you install is TWiLight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more. 
 
-The main homebrew application this guide has you install is TWiLight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+We'll begin with downloading it as well as some other homebrew tool(s), in preparation for the exploit steps.
+
+::: tip
+
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
+
+:::
+
+
+## Section I - Prep Work
+
+::: warning
+
+Ensure your SD card is [formatted correctly](sd-card-setup.html).
+
+:::
+
+1. Insert your SD card into your PC
+1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+1. Copy the `_nds` folder from the TWiLightMenu `.7z` to the root of your SD card
+1. Copy the `BOOT.NDS` file from the TWiLightMenu `.7z` to the root of your SD card
+1. Copy the `dumpTool.nds` file to the root of your SD card
+
+::: tip
+
+Unsure what the SD "root" is? [See this image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+
+:::
+
+
+## Section II - Selecting an exploit
 
 Below are two guide paths, with a minor difference in what it entails.
 
@@ -20,6 +51,7 @@ As Memory Pit is somewhat limited in homebrew compatibility, it is recommended t
 Continue to [Launching the Exploit](launching-the-exploit.html)
 
 :::
+
 
 ### Flipnote Lenny
 
