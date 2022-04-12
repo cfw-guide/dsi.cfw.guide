@@ -2,8 +2,8 @@
 title: Preguntas Frecuentes
 ---
 
-## Should I do a system update?
-No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
+## ¿Debería actualizar el sistema?
+No. La Nintendo DSi es capaz de ejecutar aplicaciones Homebrew en cualquier versión, inclutendo la última; sin embargo, actualizar no da ninguna ventaja. La Tienda DSi ha sido dada de baja, al igual que la integración de Facebook a la Cámara DSi. La única otra cosa que hacían las actualizaciones era bloquar flashcarts. También existe un pequeño pero presento riesgo de que tu consola sufre un **bloqueo total** al instalar una actualización de sistema. Más o menos igual de presente que el riesgo al instalar Unlaunch.
 
 ## ¿Qué funcionalidad perderé al modificar mi sistema?
 - Si decides instalar Unlaunch, no perderás ninguna funcionalidad del sistema.
@@ -22,7 +22,7 @@ Jugar ROMs volcadas en la consola requiere el uso de una flashcart o de nds-boot
 - **hiyaCFW** - Reemplaza el archivo `hiya.dsi` en la raíz de la tarjeta SD con la [última versión](https://github.com/RocketRobz/hiyaCFW/releases).
 - **TWiLight Menu++** - Sigue las instrucciones en la [Wiki de DS Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copia los archivos `nds-bootstrap-hb-release.nds` y `nds-bootstrap-release.nds` a la carpeta `_nds` en la raíz de tu tarjeta SD.
-   - Si usas TWiLight Menu++, hay una gran probabilidad de que la última versión de nds-bootstrap esté incluida en TWiLight Menu++
+   - Si usas TWiLight Menu++, es muy probable que la última versión de nds-bootstrap esté incluida en TWiLight Menu++.
 - **GodMode9i, dumpTool, Forwarder3-DS, etcétera** - Sigue las instrucciones usadas para descargarlos.
 
 Otros homebrew pueden utilizar otros métodos para actualizarse.

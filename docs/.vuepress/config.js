@@ -20,6 +20,9 @@ module.exports = {
 					"/": {
 						placeholder: i18n.en_US.search
 					},
+					"/de_DE/": {
+						placeholder: i18n.de_DE.search
+					},
 					"/es_ES/": {
 						placeholder: i18n.es_ES.search
 					},
@@ -81,6 +84,11 @@ module.exports = {
 			title: i18n.en_US.title,
 			description: i18n.en_US.description
 		},
+		"/de_DE/": {
+			lang: "de-DE",
+			title: i18n.de_DE.title,
+			description: i18n.de_DE.description
+		},
 		"/es_ES/": {
 			lang: "es-ES",
 			title: i18n.es_ES.title,
@@ -135,6 +143,7 @@ module.exports = {
 		adArr: adArr,
 		locales: {
 			"/": themeConfig.en_US,
+			"/de_DE/": themeConfig.de_DE,
 			"/es_ES/": themeConfig.es_ES,
 			"/fr_FR/": themeConfig.fr_FR,
 			"/hu_HU/": themeConfig.hu_HU,
