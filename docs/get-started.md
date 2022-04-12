@@ -12,6 +12,11 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 
 :::
 
+## Requirements
+
+- A way to copy downloaded files to your SD card
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows) or [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
+   - We advise you to not use WinRAR, as it is known to break things
 
 ## Section I - Prep Work
 
