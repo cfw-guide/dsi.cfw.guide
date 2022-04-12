@@ -32,7 +32,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
 1. Verify you still have TWiLight Menu++ on your SD card
-   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit.html#twilight-menu) page
+   - If you are unsure, follow the instructions from the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) page
 
 ## Section II - Installing/Updating Unlaunch
 
