@@ -4,12 +4,6 @@ title: Installing Unlaunch
 
 ::: danger
 
-Unlaunch is not compatible with Nintendo DSi development consoles.
-
-:::
-
-::: danger
-
 If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
@@ -17,6 +11,12 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). Wh
 ::: warning
 
 Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
+
+:::
+
+::: warning
+
+Unlaunch is not compatible with Nintendo DSi development consoles.
 
 :::
 

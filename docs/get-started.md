@@ -37,14 +37,14 @@ Unsure what the SD "root" is? [See this image](https://media.discordapp.net/atta
 
 ## Section II - Selecting an exploit
 
-Below are two guide paths, with a minor difference in what it entails.
+From here you have two options, with a minor difference in what each entails.
 
 
 ### Installing Unlaunch via Memory Pit
 
 Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions. Optionally, this exploit can be used to install Unlaunch, a bootcode exploit that allows full control of the console on boot.
 
-As Memory Pit is somewhat limited in homebrew compatibility, it is recommended to install Unlaunch, instead of using Memory Pit standalone. As this is the easiest method to install Unlaunch, this will be the recommended path. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
+As Memory Pit is somewhat limited in homebrew compatibility, it is recommended to install Unlaunch, instead of using Memory Pit standalone. As this is the easiest method to install Unlaunch, this is the recommended path. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
 
 ::: tip
 
@@ -57,7 +57,7 @@ Continue to [Launching the Exploit](launching-the-exploit.html)
 
 Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
 
-This exploit is better suited for standalone usage, and recommended if you do not plan on installing Unlaunch (explained in the Memory Pit section on this page.)
+If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
 
 You can always install Unlaunch later if you decide later on that you want it.
 
