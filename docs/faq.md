@@ -45,7 +45,7 @@ Pros:
 
 Cons:
 - Very minor risk of **bricking** the console when installing
-- Another, slightly higher, risk of bricking if you decide to uninstall it
+- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
 - Not compatible with development consoles
 
 ## Will I lose any functionality by modding my system?
