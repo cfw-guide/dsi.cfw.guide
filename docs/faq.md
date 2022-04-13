@@ -19,6 +19,7 @@ Cons:
 - Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
 - Access to Slot-1 (the DS Game Card) is blocked
 - Access to the DSP is blocked resulting in worse sound in GBARunner2
+- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
 
 ### Flipnote Lenny
 Pros:
@@ -45,11 +46,10 @@ Pros:
 Cons:
 - Very minor risk of **bricking** the console when installing
 - Another, slightly higher, risk of bricking if you decide to uninstall it
+- Not compatible with development consoles
 
-## What functionality will I lose by modding my system?
-- If you decide to install Unlaunch, you will not lose any system functionality
-- If you go with a Memory Pit-only setup, you will be unable to save photos to the SD card via the Nintendo DSi Camera application while the exploit is installed. Either use Flipnote Lenny or other [Alternate Exploits](alternate-exploits.html) instead, or follow [Installing Unlaunch](installing-unlaunch.html)
-   - This is because the metadata file (`pit.bin`) is overwritten with the Memory Pit exploit
+## Will I lose any functionality by modding my system?
+If you install Unlaunch or use Flipnote Lenny no functionality will be lost. If you use Memory Pit you will be unable to view photos on the SD card using the DSi Camera application while Memory Pit is installed. To regain the ability to view your SD card photos install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file.
 
 ## How do I play Nintendo DS Game Card dumps?
 Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
