@@ -24,35 +24,70 @@ module.exports = {
 		"uninstalling-unlaunch"
 	],
 
-	sidebar: [
-		"index.html",
-		{
-			text: "Guide",
-			children: [
-				"launching-the-exploit",
-				"dumping-nand",
-				"installing-unlaunch"
-			]
-		},
-		{
-			text: "Extras",
-			children: [
-				"dsiware-backups",
-				"dumping-game-cards",
-				"file-extensions-(windows)",
-				"restoring-nand",
-				"sd-card-setup",
-				"uninstalling-unlaunch"
-			]
-		},
-		{
-			text: "Other",
-			children: [
-				"faq",
-				"troubleshooting",
-				"credits",
-				"site-navigation"
-			]
-		}
-	]
+	sidebar: {
+		"/": [
+			"index.html",
+			{
+				text: "Guide",
+				children: [
+					"get-started",
+					"launching-the-exploit",
+					"dumping-nand",
+					"installing-unlaunch"
+				]
+			},
+			{
+				text: "Extras",
+				children: [
+					"dsiware-backups",
+					"dumping-game-cards",
+					"file-extensions-windows",
+					"restoring-nand",
+					"sd-card-setup",
+					"uninstalling-unlaunch"
+				]
+			},
+			{
+				text: "Other",
+				children: [
+					"faq",
+					"troubleshooting",
+					"credits",
+					"site-navigation"
+				]
+			}
+		],
+		"/launching-the-flipnote-exploit.html": [
+			"index.html",
+			{
+				text: "Guide",
+				children: [
+					"get-started",
+					"launching-the-flipnote-exploit",
+					"dumping-nand",
+					"installing-unlaunch"
+				]
+			},
+			{
+				text: "Extras",
+				children: [
+					"dsiware-backups",
+					"dumping-game-cards",
+					"file-extensions-windows",
+					"restoring-nand",
+					"sd-card-setup",
+					"uninstalling-unlaunch"
+				]
+			},
+			{
+				text: "Other",
+				children: [
+					"faq",
+					"troubleshooting",
+					"credits",
+					"site-navigation"
+				]
+			}
+		]
+	}
 };

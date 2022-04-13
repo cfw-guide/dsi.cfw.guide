@@ -4,25 +4,7 @@ title: Installing Unlaunch
 
 ::: danger
 
-Unlaunch is not compatible with Nintendo DSi development consoles.
-
-:::
-
-Unlaunch is an exploit that takes place on system boot. This allows it to have higher privileges than normal DSiWare exploits such as Memory Pit, which makes it able to do the following:
-
-- Launching applications at boot (homebrew or DSiWare), with optional button combinations
-- Access to Slot-1, allowing you to dump Game Cards and launch incompatible flashcards
-- Region locks removed on DSi-Enhanced / Exclusive Game Cards
-- Run old Nintendo DS homebrew via nds-bootstrap-hb
-- Brick-protection
-- Removes Donor ROM requirement for running DSi-Enhanced games in DSi mode
-- The following for Memory Pit users (other exploits already allow these):
-     - Improved compatibility with DSiWare launched from the SD card
-     - Better sound in GBARunner2
-
-::: danger
-
-If you have not yet done so, please follow [Dumping NAND](dumping-nand). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 
@@ -32,11 +14,17 @@ Make sure your console is charged when following this process. A sudden power lo
 
 :::
 
+::: warning
+
+Unlaunch is not compatible with Nintendo DSi development consoles.
+
+:::
+
 ## Section I - SD card setup
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 
@@ -44,7 +32,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
 1. Verify you still have TWiLight Menu++ on your SD card
-   - If you are unsure, follow the instructions from the [Launching the Exploit](launching-the-exploit.html#twilight-menu) page
+   - If you are unsure, follow the instructions from the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
 
 ## Section II - Installing/Updating Unlaunch
 
@@ -61,11 +49,11 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 1. Exit TWiLight Menu++ Settings
 1. In the file navigation menu, launch `Unlaunch DSi Installer`
 1. Select the install option
-   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting) page
+   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. When completed, reboot your system
 
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
-- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting) page
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
 
 ## Section III - Post-Unlaunch configuration
 
@@ -89,6 +77,23 @@ This section is optional and only serves for keeping your SD card tidy of files 
 
 :::
 
+:::: tabs
+
+::: tab name="Memory Pit" default
+
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-   - If you used another exploit, delete the files from that exploit instead
+   - If you made a backup of an existing `pit.bin` file, put it back now
 - Delete the `UNLAUNCH.DSI` file from your SD card
+
+:::
+
+::: tab name="Flipnote Lenny"
+
+- Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
+   - `sd:/private/ds/app/4B47554A/001` (Japan)
+   - `sd:/private/ds/app/4B475545/001` (USA)
+   - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
+   - You can also delete the entire folders for the regions besides your own
+- Delete the `UNLAUNCH.DSI` file from your SD card
+
+:::

@@ -14,14 +14,16 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader) to automatically setup your SD card.
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
 1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
 1. Place `dumpTool.nds` anywhere on your SD card
 
+
 ## Section II - Dumping the NAND
+
 1. Launch `dumpTool` through TWiLight Menu++
 1. Hit the <kbd class="face">A</kbd> button on your Nintendo DSi to start dumping your NAND
    - A NAND backup typically takes around 7 minutes
@@ -39,6 +41,6 @@ The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

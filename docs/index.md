@@ -24,15 +24,6 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmware version or region. All you need is an entry point and an SD card to store your homebrew. The main entry point used in this guide is called Memory Pit, but there are other entry points you can use if Memory Pit is unusable.
 
-## What will this guide do to my system?
-
-Keep in mind that the guide is structured in a linear path, yet it generally depends on how deep you want to go in terms of modding the system.
-
-- We will be setting up an entry point to launch basic homebrew via Memory Pit, the exploit for the Nintendo DSi Camera application
-- We will then take a NAND backup, which is useful as a restoration point in case you mess up later on
-- Finally, for users that want access to the full capabilities of the DSi we will walk them through installing Unlaunch. Unlaunch allows homebrew to run with more permissions (such as Slot-1 access) and at system boot
-   - Installing Unlaunch modifies your NAND, and in extreme edge cases has the potential to **brick** the system. If you do not risk bricking, you can stop after taking a NAND backup
-
 ## What can I do by modding my system?
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
@@ -52,12 +43,12 @@ Keep in mind that the guide is structured in a linear path, yet it generally dep
 
 ## What should I know before starting?
 
-- On Windows, it's recommended to [show file extensions](file-extensions-%28windows%29) if you are using the default File Explorer
+- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
 - If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
 
-Continue to [Launching the Exploit](launching-the-exploit)
+Continue to [Get Started](get-started.html)
 
 :::
