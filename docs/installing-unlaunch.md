@@ -38,7 +38,9 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
 
 1. Open TWiLight Menu++
    - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the exploit that you used
-   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the `TWiLight Menu++` where `BOOT.NDS` is shown on the bottom screen
+   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option labeled `TWiLight Menu++`
+   - If several options are labeled `TWiLight Menu++`, select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
+      - This happens because you are running an older version of TWiLight Menu++, unless you're doing it on purpose, is suggested that you [update your installation](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 1. Launch TWiLight Menu++ Settings
    - If you haven't changed your theme, follow the steps in the "Launching the Exploit" page. Otherwise, see the TWiLight Menu++ Manual
 1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
@@ -64,7 +66,7 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
 1. Navigate to `OPTIONS`, and look at the available options
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
    - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew, the Slot-1 card, wifiboot, or Unlaunch's Filemenu
-      - For TWiLight Menu++, select the `TWiLight Menu++` option where `BOOT.NDS` is shown on the bottom screen
+      - For TWiLight Menu++, select  `TWiLight Menu++`
       - For the original DSi Menu, select `Launcher`
    - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
 1. Select `SAVE & EXIT` to save your settings, then turn off your DSi
@@ -83,6 +85,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
    - If you made a backup of an existing `pit.bin` file, put it back now
+- You can now restore the `DCIM` folder that was on the root of your SD card, if this folder existed
 - Delete the `UNLAUNCH.DSI` file from your SD card
 
 :::
