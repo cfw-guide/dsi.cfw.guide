@@ -4,6 +4,14 @@ title: File Extensions (Windows)
 
 This is an add-on section for disabling Windows's default behavior of hiding file extensions, which will make finding referenced files in the guide much easier for you.
 
+## Windows 11 users
+1. Launch File Explorer by opening any directory, such as your SD card directory
+1. Click the "View" option on the top bar
+   - If the option is not present, click the `···` button on the rightmost part of the top bar 
+3. Click or hove your cursor on the `Show >` sumbenu
+4. Check the option labeled `File name xtensions`
+   ![Screenshot of hovering the "File name extensions" checkbox on Windows 11](/assets/images/windows-11-file-extensions.png)
+
 ## Windows 10 / 8.1 / 8 users
 1. Launch File Explorer by opening any directory, such as your SD card directory
 1. Click the "View" option on the ribbon menu
