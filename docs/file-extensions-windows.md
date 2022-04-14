@@ -7,7 +7,7 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
 
 ::::: tabs
 
-:::: tab name="Windows 11"
+:::: tab name="Windows 11" default
 
 1. Launch File Explorer by opening any directory, such as your SD card directory
 1. Click the "View" option on the top bar
