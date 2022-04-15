@@ -12,7 +12,7 @@ Unlaunch is overall the best exploit for the DSi, with the only downside being t
 Pros:
 - Quick and easy to use
 - No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
-- Compatible will all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+- Compatible with all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
 
 Cons:
 - Requires loading the DSi Camera application every time you want to access homebrew
