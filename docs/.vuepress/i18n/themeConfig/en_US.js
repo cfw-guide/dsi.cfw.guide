@@ -1,3 +1,8 @@
+const backups = "Backups";
+const guide = "Guide";
+const extras = "Extras";
+const other = "Other";
+
 module.exports = {
 	selectLanguageName: "English",
 
@@ -14,7 +19,7 @@ module.exports = {
 		"troubleshooting",
 		"faq",
 		{
-			text: "Backups",
+			text: backups,
 			children: [
 				"dsiware-backups",
 				"dumping-game-cards",
@@ -28,7 +33,7 @@ module.exports = {
 		"/": [
 			"index.html",
 			{
-				text: "Guide",
+				text: guide,
 				children: [
 					"get-started",
 					"launching-the-exploit",
@@ -37,7 +42,7 @@ module.exports = {
 				]
 			},
 			{
-				text: "Extras",
+				text: extras,
 				children: [
 					"dsiware-backups",
 					"dumping-game-cards",
@@ -48,7 +53,7 @@ module.exports = {
 				]
 			},
 			{
-				text: "Other",
+				text: other,
 				children: [
 					"faq",
 					"troubleshooting",
@@ -60,7 +65,7 @@ module.exports = {
 		"/get-started.html": [
 			"index.html",
 			{
-				text: "Guide",
+				text: guide,
 				children: [
 					"get-started",
 					"launching-the-exploit",
@@ -68,7 +73,7 @@ module.exports = {
 				]
 			},
 			{
-				text: "Extras",
+				text: extras,
 				children: [
 					"dsiware-backups",
 					"dumping-game-cards",
@@ -79,7 +84,7 @@ module.exports = {
 				]
 			},
 			{
-				text: "Other",
+				text: other,
 				children: [
 					"faq",
 					"troubleshooting",
@@ -91,7 +96,7 @@ module.exports = {
 		"/launching-the-flipnote-exploit.html": [
 			"index.html",
 			{
-				text: "Guide",
+				text: guide,
 				children: [
 					"get-started",
 					"launching-the-flipnote-exploit",
@@ -100,7 +105,7 @@ module.exports = {
 				]
 			},
 			{
-				text: "Extras",
+				text: extras,
 				children: [
 					"dsiware-backups",
 					"dumping-game-cards",
@@ -111,7 +116,7 @@ module.exports = {
 				]
 			},
 			{
-				text: "Other",
+				text: other,
 				children: [
 					"faq",
 					"troubleshooting",
