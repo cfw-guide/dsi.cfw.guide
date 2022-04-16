@@ -10,7 +10,7 @@ title: Desinstalar Unlaunch
 
 **ADVERTENCIA:** Desinstalar Unlaunch puede bloquear totalmente tu consola. Aquí hay algunos casos por los que podrías querer desinstalar Unlaunch, junto con soluciones que no lo requerirían.
 
-- **El fondo de Unlaunch da miedo:** [Reinstala Unlaunch](installing-unlaunch) siguiendo estas nuevas instrucciones. Ahora contienen instrucciones sobre cómo cambiar el fondo.
+- **El fondo de Unlaunch da miedo:** [Reinstala Unlaunch](installing-unlaunch.html) siguiendo las nuevas instrucciones. Ahora hay instrucciones para cambiar el fondo
 - **Tengo problemas con Unlaunch o con mi consola después de instalarlo:** La [página de solución de problemas](troubleshooting.html#unlaunch) puede tener la solución a muchos de los problemas que podrías estar experimentando.
 
 ::: warning
@@ -25,5 +25,5 @@ Si quieres desinstalar Unlaunch, **no debes** usar la opción de desinstalar que
 
 :::
 
-Una vez hayas revisado la información de arriba, puedes proceder a [Restaurar un respaldo de la NAND](restoring-nand). Estos pasos te indicaran como flashear el respaldo que hiciste al [volcar la NAND](dumping-nand).
-- Si ya posees el respaldo de la NAND de antes de instalar Unlaunch, sigue [los pasos necesarios para volcarla](dumping-nand) y luego procede a [restaurar un respaldo de la NAND](restoring-nand). Hay instrucciones para usuarios que tienen Unlaunch instalado en su respaldo.
+Una vez hayas revisado la información de arriba, puedes proceder a [Restaurar un respaldo de la NAND](restoring-nand.html). Estos pasos te indicaran cómo restaurar el respaldo que hiciste al [volcar la NAND](dumping-nand.html).
+- Si ya no tienes el respaldo de la NAND de antes de instalar Unlaunch, sigue [los pasos necesarios para volcarla](dumping-nand.html) y luego procede a [Restaurar un respaldo de la NAND](restoring-nand.html). Hay instrucciones para usuarios que tienen Unlaunch instalado en su respaldo

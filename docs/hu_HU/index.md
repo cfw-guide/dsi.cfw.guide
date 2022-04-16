@@ -24,15 +24,6 @@ A [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) alkalmazások
 
 Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, függetlenül a firmware-től és a régiótól. Az egyetlen amire szükséged van egy belépési pont és egy SD kártya, amint a homebrew-ot tárolod. A fő belépési pont ebben az útmutatóban a Memory Pit, de léteznek más belépési pontok is, amit használhatsz, ha a Memory Pit nem elérhető számodra.
 
-## Mit csinál ez az útmutató a rendszeremmel?
-
-Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és általában attól függ, milyen mélyre szeretnél menni a rendszer moddolásában.
-
-- Be fogunk éllítani egy belépési pontot, hogy homebrew indítható legyen a Memory Pit-en, a Nintendo DSi Camera exploitján keresztül
-- Ez után készítünk egy NAND mentést, ami hasznos visszaállítási pont, ha a későbbiekben összekeversz valamit
-- Azon felhasználók számára, akik a DSi teljes képességét szeretnék kihasználni, végig megyünk az Unlaunch telepítésén. Az Unlaunch lehetővé teszi, hogy a homebrew alkalmazások több joggal fussanak (mint például Slot-1 hozzáférés) illetve a rendszer boot során fussanak
-   - Az Unlaunch módosítja a NAND-ot és extrém esetekben **brickelheti ** a rendszert. Ha tartasz a brickeléstől, álj meg a NAND mentés elkészítését követően
-
 ## Mit tehetek a rendszerem moddolásával?
 
 - Futtathatsz Nintendo DS(i) játék mentéseket és ROM hackeket a DSi-d SD kártyájáról, a nélkül, hogy flashcard-ra lenne szükséged
@@ -52,12 +43,12 @@ Tartsd észben, hogy az útmutató lineáris lépésekben strukturált, és ált
 
 ## Mit kell tudnom, mielőtt belekezdenék?
 
-- Windows-on ajánloktt, hogy [megjelenjenek a fájl kiterjesztések](file-extensions-%28windows%29) ha az alapértelmezett Fájlkezelőt használod
+- Windows-on ajánlott, hogy [megjelenjenek a fájl kiterjesztések](file-extensions-windows.html), ha az alapértelmezett Fájlkezelőt használod
 - Ez egyetlen brickelési kockázat az Unlaunch telepítésekor lehetséges, de a kockázat minimális
 - Ha nem vagy tapasztalt a fájlok SD kártyára másolásával, rendelkezünk segéd eszközökkel erre a feladatra
 
 ::: tip
 
-Folytatás [Az Exploit indítása](launching-the-exploit) útmutatóval
+Folytasd a [Kezdeti lépések](get-started.html)-kel
 
 :::

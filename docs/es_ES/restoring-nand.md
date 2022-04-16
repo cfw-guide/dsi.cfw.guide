@@ -1,5 +1,5 @@
 ---
-title: Restaurando un respaldo de la NAND
+title: Rstaurar un respaldo de la NAND
 ---
 
 ::: danger

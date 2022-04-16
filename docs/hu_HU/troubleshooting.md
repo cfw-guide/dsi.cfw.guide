@@ -9,14 +9,9 @@ A twlnf-nek van egy kritikus hibája, amikor nem frissíti megfelelően az egés
 
 Ennek a javításához, niysd meg a [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases)-t és válaszd a `Fix FAT copy mismatch` opciót.
 
-Ha a hiba továbbra is fennáll, próbáld ezt:
-1. Csatold a NAND mentésedet a [ninfs](https://github.com/ihaveamac/ninfs/releases)-sel és engedélyezd, az `Allow writing` opciót
-1. Ha a NAND mentésed csatolt, csatold a `twl_main.img` fájlt. Ha Windows-t használsz, használhatod az [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) -ot a képfájl csatolásához
-1. Válaszd le a `twl_main.img` fájlt, majd válaszd le a NAND mentést a ninfs-ben. Ha a NAND mentésre került kövesd a [ NAND visszaállítását](restoring-nand) és folytasd az [Unlaunch telepítéssel](installing-unlaunch).
-
 ### Nincs hang vagy boot képernyő, amikor a "LAUNCHER" kerül indításra az Unlaunch-csel
 
-Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. Visszaszerezheted ezeket az effekteket az [Unlaunch újratelepítésével](installing-unlaunch) a TWiLight Menu++-n keresztül vagy a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) használatával.
+Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. Visszaszerezheted ezeket az effekteket az [Unlaunch újratelepítésével](installing-unlaunch.html) a TWiLight Menu++-ban az Unlaunch beállítások oldalon "Indító patch"-ek kikapcsolását követően, vagy a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) használatával.
 
 ### A bekapcsolás csak fekete képernyőt mutat az Unlaunch telepítése után
 
@@ -28,7 +23,7 @@ Ez valószínűleg egy rossz app választása miatt van a `NO BUTTON` opciónál
 
 ### Egyéb Unlaunch problémák
 
-Ha az Unlaunch `Clusters too large`, `Bad VBR`, `Bad MBR` hibát jelenít meg vagy nem jelenít meg semmilyen alkalmazást, miközben az SD kártya behelyezett, az SD kártyád valószínűleg nem jól formázott. Kövesd újra az [SD kártya telepítést](sd-card-setup).
+Ha az Unlaunch `Clusters too large`, `Bad VBR`, `Bad MBR` hibát jelenít meg vagy nem jelenít meg semmilyen alkalmazást, miközben az SD kártya behelyezett, az SD kártyád valószínűleg nem jól formázott. Kövesd újra az [SD kártya telepítést](sd-card-setup.html).
 
 ## TWiLight Menu++ hibaelhárítás
 

@@ -3,21 +3,21 @@ title: Navegación del sitio
 ---
 
 ## Proceso de guía principal
-- [Lanzar el Exploit](launching-the-exploit)
-- [Crear copia de seguridad de la NAND](dumping-nand)
-- [Instalar Unlaunch](installing-unlaunch)
+- [Lanzar el Exploit](launching-the-exploit.html)
+- [Hacer Copia de Seguridad de la NAND](dumping-nand.html)
+- [Instalar Unlaunch](installing-unlaunch.html)
 
 ## Secciones adicionales
-- [Preparación de la tarjeta SD](sd-card-setup)
-- [Lazy DSi Downloader](lazy-dsi-downloader)
-- [Extensiones de archivo (Windows)](file-extensions-%28windows%29)
-- [Volcar cartuchos de juegos](dumping-game-cards)
-- [Resplados de DSiWare](dsiware-backups)
-- [Desinstalar Unlaunch](uninstalling-unlaunch)
-- [Restaurar la NAND](restoring-nand)
+- [Preparación de la tarjeta SD](sd-card-setup.html)
+- [Lazy DSi Downloader](lazy-dsi-downloader.html)
+- [Extensiones de archivo (Windows)](file-extensions-windows.html)
+- [Volcar cartuchos de juegos](dumping-game-cards.html)
+- [Resplados de DSiWare](dsiware-backups.html)
+- [Desinstalar Unlaunch](uninstalling-unlaunch.html)
+- [Restaurar la NAND](restoring-nand.html)
 
 ## Otras páginas web
 - [Inicio](.)
-- [Preguntas Frecuentes (FAQ)](faq)
-- [Solucion de problemas](troubleshooting)
-- [Créditos](credits)
+- [Preguntas Frecuentes (FAQ)](faq.html)
+- [Solución de problemas](troubleshooting.html)
+- [Créditos](credits.html)

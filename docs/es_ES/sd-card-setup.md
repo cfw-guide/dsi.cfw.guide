@@ -2,11 +2,11 @@
 title: Preparacion de la tarjeta SD
 ---
 
-Esta página es para preparar la tarjeta SD para usarla con tu consola. En el proceso, formatearemos la tarjeta SD con un formate adecuado para la Nintendo DSi, y revisaremos la tarjeta en búsqueda de errores.
+Esta página es para preparar la tarjeta SD para usarla con tu consola. En el proceso, formatearemos la tarjeta SD con un formato adecuado para la Nintendo DSi, y revisaremos la tarjeta en búsqueda de errores.
 
 ::: danger
 
-Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir esto. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
+Asegúrate de hacer una copia de seguridad del contenido de tu tarjeta SD antes de seguir estos pasos. El contenido de tu tarjeta SD será ELIMINADO en el proceso.
 
 :::
 
@@ -28,13 +28,13 @@ Cualquier tarjeta SD de 64GB o mayor será formateada a `exFAT` en este proceso.
 
 :::
 
-1. Descargar la última versión de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/).
-   - Aceptar el Acuerdo de Licencia de Usuario Final para iniciar la descarga.
-1. Ejecuta `SD Card Formatter Setup` (el archivo `.exe` en el `.zip` descargado) con privilegios de administrador, e instala el programa.
-1. Ejecuta `SD Card Formatter` desde el Menú de Inicio con privilegios de administrador.
-1. Selecciona tu tarjeta SD.
-1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada.
-1. Inicia el proceso de formato.
+1. Descarga la última versión de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Aceptar el Acuerdo de Licencia de Usuario Final para iniciar la descarga
+1. Ejecuta `SD Card Formatter Setup` (el archivo `.exe` en el `.zip` descargado) con privilegios de administrador, e instala el programa
+1. Ejecuta `SD Card Formatter` desde el Menú de Inicio con privilegios de administrador
+1. Selecciona tu tarjeta SD
+1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada
+1. Inicia el proceso de formato
 
 ### Sección II - Formatear tu tarjeta SD con GUIFormat
 
@@ -46,37 +46,37 @@ Si tu tarjeta SD es de 32GB o de una menor capacidad, salta a la sección III.
 
 :::
 
-1. Descarga la última versión de [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm).
-   - Haz clic en la imagen en el sitio web para descargar la aplicación.
+1. Descarga la última versión de [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+   - Haz clic en la imagen en el sitio web para descargar la aplicación
 1. Ejecuta GUIFormat con permisos de administrador
-1. Selecciona la letra de tu unidad.
-1. Establece la opción `Allocation size unit` a `32768`.
-   - Si este tamaño de asignación es muy alto para tu tarjeta SD, selecciona el valor más alto que funcione.
-1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada.
-1. Inicia el proceso de formato.
+1. Selecciona la letra de tu unidad
+1. Establece la opción `Allocation size unit` a `32768`
+   - Si este tamaño de asignación es muy alto para tu tarjeta SD, selecciona el valor más alto que funcione
+1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada
+1. Inicia el proceso de formato
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
 ### Sección III - Comprobación de errores
-1. Ve a la ventana Propiedades de tu tarjeta SD.
-   - Abre el `Explorador de Windows`, ve a `Equipo` y haz clic derecho en tu tarjeta SD. Luego, haz clic en `Propiedades`.
-1. En la pestaña de Herramientas, selecciona la opción `Comprobar ahora`.
-1. Marca las casillas `Reparar automáticamente errores en el sistema de archivos` y `Examinar e intentar recuperar sectores defectuosos`.
-1. Inicia el proceso de verificación.
+1. Ve a la ventana Propiedades de tu tarjeta SD
+   - Abre el `Explorador de Windows`, ve a `Equipo` y haz clic derecho en tu tarjeta SD. Luego, haz clic en `Propiedades`
+1. En la pestaña de Herramientas, selecciona la opción `Comprobar ahora`
+1. Marca las casillas `Reparar automáticamente errores en el sistema de archivos` y `Examinar e intentar recuperar sectores defectuosos`
+1. Inicia el proceso de verificación
 
 Esto escaneará la tarjeta SD y corregirá cualquier error que el sistema encuentre.
 
 ### Sección III - Comprobar que se pueden leer y escribir datos de/a la tarjera SD
 
-1. Descarga y extrae [el archivo h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) en cualquier lugar de tu ordenador.
+1. Descarga y extrae [el archivo h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) en cualquier lugar de tu ordenador
    - Si el enlace de arriba no funciona, intenta descargar desde [archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-   - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD.
-1. Con tu tarjeta SD insertada en tu ordenador, ejecuta `h2testw.exe`.
-1. Selecciona el lenguaje en el que te gustaría ver la interfaz de h2test2. En esta guía se utilizará la interfaz en inglés.
-1. Establece como objetivo la letra de unidad de tu tarjeta SD.
-1. Asegúrate de que la opción `all available space` esté seleccionada.
-1. Haz clic en `Write + Verify`.
-- Espera hasta que el proceso se complete.
+   - También se puede extraer en un dispositivo externo mientras ese dispositivo externo no sea tu tarjeta SD
+1. Con tu tarjeta SD insertada en tu ordenador, ejecuta `h2testw.exe`
+1. Selecciona el lenguaje en el que te gustaría ver la interfaz de h2test2. En esta guía se utilizará la interfaz en inglés
+1. Establece como objetivo la letra de unidad de tu tarjeta SD
+1. Asegúrate de que la opción `all available space` esté seleccionada
+1. Haz clic en `Write + Verify`
+- Espera hasta que el proceso se complete
 
 ::: tip
 
@@ -86,13 +86,19 @@ Si la prueba muestra el resultado `Test finished without errors`, tu tarjeta SD 
 
 ::: danger
 
-Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
+Si la prueba muestra otro tipo de resultado, tu tarjeta SD puede estar corrupta o dañada, y tendrás que reemplazarla.
 
 :::
 
 ::::
 
 :::: tab name="Linux" os="other"
+
+::: tip
+
+Si TWiLight Menu++ falla al iniciar después de seguir este método, sigue las instrucciones para Windows en su lugar, ya sea iniciando Windows en otra partición, o utilizando una máquina virtual
+
+:::
 
 ### Sección I - Formatear tu tarjeta SD
 1. Asegúrate de que tu tarjeta SD **no** esté insertada en tu máquina Linux.
@@ -106,16 +112,16 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Toma nota del punto de montaje del dispositivo. En el ejemplo de arriba, era `mmcblk0p1`
-   - Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el slide para la protección de escritura desactivado.
+   - Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el interruptor para la protección de escritura no esté bajado
 1. Haz la combinación de teclas CTRL + C para salir del menú
 1. Sigue las instrucciones pertinentes a la capacidad de tu tarjeta SD:
-   - 2GB o menor: Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 16` para crear una única particion de formato FAT16 con un tamaño de asignación de 32KB en la tarjeta SD.
-   - 4GB o mayor: Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 32` para crear una única particion de formato FAT32 con un tamaño de asignación de 32KB en la tarjeta SD.
+   - 2GB o menor: Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 16` para crear una única particion de formato FAT16 con un tamaño de asignación de 32KB en la tarjeta SD
+   - 4GB o mayor: Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 32` para crear una única particion de formato FAT32 con un tamaño de asignación de 32KB en la tarjeta SD
 
 ### Sección II - Usar F3
 1. Descarga y extrae [el archivo F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) en cualquier lugar de tu ordenador.
-1. Lanza la terminal en el directorio de F3.
-1. Ejecuta `make` para compilar F3.
+1. Lanza la terminal en el directorio de F3
+1. Ejecuta `make` para compilar F3
 1. Con tu tarjeta SD insertada y montada, ejecuta `./f3write <punto de montura de tu tarjeta SD>`
    - Espera hasta que se complete el proceso. A continuación se muestra un ejemplo de mensaje de resultado:
    ```
@@ -154,7 +160,7 @@ Si la prueba muestra el resultado `Data LOST: 0. 0 Byte (0 sectors)` tu tarjeta 
 
 ::: danger
 
-Si la prueba muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
+Si la comprobación muestra otro tipo de resultado, tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla.
 
 :::
 
@@ -260,7 +266,7 @@ Si la prueba muestra el resultado `Data LOST: 0. 0 Byte (0 sectors)` tu tarjeta 
 
 ::: danger
 
-Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
+Si la comprobación muestra otro tipo de resultado, tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla.
 
 :::
 

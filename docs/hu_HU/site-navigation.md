@@ -3,21 +3,21 @@ title: Webhely navigáció
 ---
 
 ## Fő folyamat útmutató
-- [Az Exploit indítása](launching-the-exploit)
-- [NAND dumpolása](dumping-nand)
-- [Unlaunch telepítése](installing-unlaunch)
+- [Az Exploit indítása](launching-the-exploit.html)
+- [NAND dumpolása](dumping-nand.html)
+- [Unlaunch telepítése](installing-unlaunch.html)
 
 ## Kiegészítő fejezetek
-- [SD kártya telepítés](sd-card-setup)
-- [Lazy DSi Downloader](lazy-dsi-downloader)
-- [Fájlkiterjesztések (Windows)](file-extensions-%28windows%29)
-- [Játékkártyák dumpolása](dumping-game-cards)
-- [DSiWare mentések](dsiware-backups)
-- [Unlaunch eltávolítása](uninstalling-unlaunch)
-- [A NAND biztonsági másolat visszaállítása](restoring-nand)
+- [SD kártya telepítés](sd-card-setup.html)
+- [Lazy DSi Downloader](lazy-dsi-downloader.html)
+- [Fájlkiterjesztések (Windows)](file-extensions-windows.html)
+- [Játékkártyák dumpolása](dumping-game-cards.html)
+- [DSiWare mentések](dsiware-backups.html)
+- [Unlaunch eltávolítása](uninstalling-unlaunch.html)
+- [A NAND biztonsági másolat visszaállítása](restoring-nand.html)
 
 ## Más website oldalak
 - [Kezdőlap](.)
-- [Gyakran Ismételt Kérdések (GYIK)](faq)
-- [Hibaelhárítás](troubleshooting)
-- [Készítők](credits)
+- [Gyakran Ismételt Kérdések (GYIK)](faq.html)
+- [Hibaelhárítás](troubleshooting.html)
+- [Készítők](credits.html)

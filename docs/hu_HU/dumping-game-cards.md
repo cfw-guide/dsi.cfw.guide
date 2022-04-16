@@ -6,14 +6,14 @@ Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszh
 
 ## Követelmények
 - A dumpolando cím játék kártyája
-- A Nintendo DSi konzolod telepített [Unlaunch](installing-unlaunch)-csel
+- A Nintendo DSi konzolod telepített [Unlaunch](installing-unlaunch.html)-csel
 
 ## Instrukciók
 ### I. rész - SD kártya telepítés
 
 ::: tip
 
-Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader)-t, hogy automatikusan telepítse az SD kártyád.
+Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader.html)-t, hogy automatikusan telepítse az SD kártyád.
 
 :::
 

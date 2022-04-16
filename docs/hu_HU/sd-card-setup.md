@@ -94,6 +94,12 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 
 :::: tab name="Linux" os="other"
 
+::: tip
+
+Ha TWiLight Menu++ indtása sikertelen ezen metódus végrehajtása után, kérjük kövesd a Windows metódust helyett, vagy Windows-ra bootolással, vagy Windows virtuális gép használatával
+
+:::
+
 ### I. rész - Az SD kártya formázása
 1. Ellenőrizd, hogy az SD kártyád **nincs** bedugva a Linux gépedbe
 1. Indítsd el a Linux Terminal-t
@@ -190,7 +196,7 @@ Ez a rész 32 GB-nál nagyobb kártyák FAT32-re formázását írja le.
 
 ::: tip
 
-Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez
+Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
 
 :::
 
