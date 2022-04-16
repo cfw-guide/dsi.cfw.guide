@@ -57,6 +57,37 @@ module.exports = {
 				]
 			}
 		],
+		"/get-started.html": [
+			"index.html",
+			{
+				text: "Guide",
+				children: [
+					"get-started",
+					"launching-the-exploit",
+					"launching-the-flipnote-exploit"
+				]
+			},
+			{
+				text: "Extras",
+				children: [
+					"dsiware-backups",
+					"dumping-game-cards",
+					"file-extensions-windows",
+					"restoring-nand",
+					"sd-card-setup",
+					"uninstalling-unlaunch"
+				]
+			},
+			{
+				text: "Other",
+				children: [
+					"faq",
+					"troubleshooting",
+					"credits",
+					"site-navigation"
+				]
+			}
+		],
 		"/launching-the-flipnote-exploit.html": [
 			"index.html",
 			{
