@@ -14,14 +14,16 @@ Es wird dringenst empfohlen, dies zu tun. Ein NAND backup kann im falle, wenn de
 
 ::: tip
 
-Verwendest Du ein Windows-, Linux- oder macOS-Gerät? Nimm [Lazy DSi Downloader](lazy-dsi-downloader)her, um die SD-Karte automatisch einzurichten.
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
 1. Lade dir die neueste Version von [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds) herunter
 1. Platziere `dumpTool.nds` irgendwo auf deiner SD-Karte
 
+
 ## Abschnitt II - NAND-Dump durchführen
+
 1. Starte `dumpTool` mithilfe von TWiLight Menu++
 1. Drücke die <kbd class="face">A</kbd> Taste auf deinem DSi um den NAND-Dump zu starten
    - Ein NAND-Backup dauert in der Regel um die 7 Minuten
@@ -39,6 +41,6 @@ Der SHA1-Hash in `nand.bin` wird nicht mit dem Hash in `nand.bin.sha1` übereins
 
 ::: tip
 
-Mache weiter mit der [Unlaunch Installation](installing-unlaunch) (Optional und nicht kompatibel mit DSi Entwicklungskonsolen)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

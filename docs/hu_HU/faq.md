@@ -12,7 +12,7 @@ Az Unlaunch a legjobb exploit a DSi-hez, az egyetlen hátránya, hogy van egy ki
 Előnyök:
 - Gyorsan és könnyen használható
 - Nincs kockázata a konzol sérülésének, az eltávolítás olyan egyszerű, mint kivenni az SD kártyát vagy letörölni egy fájl
-- Compatible with all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+- Kompatibilis mind DSi konzollal, kivéve ha rossz a kamerája és még nem lett végrehajtva a kamera oktatóprogram
 
 Hátrányok:
 - Szükség van a DSi Camera betöltésére minden alkalommal, amikor a homebrew-okat szeretnéd elérni

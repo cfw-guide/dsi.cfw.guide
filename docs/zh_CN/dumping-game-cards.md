@@ -6,14 +6,14 @@ This section is for dumping Game Cards using GodMode9i so they can be played on 
 
 ## 需要准备
 - The Game Card of the title you would like to dump
-- 一台安装了[Unlaunch](installing-unlaunch)的Nintendo/iQue DSi
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
 
 ## 操作步骤
 ### 第一节 - SD 卡设置
 
 ::: tip
 
-正在使用Windows、Linux或 macOS 设备？ 使用 [Lazy DSi Downloader](lazy-dsi-downloader) 来自动设置您的 SD 卡。
+正在使用Windows、Linux或 macOS 设备？ Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 

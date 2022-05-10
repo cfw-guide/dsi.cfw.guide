@@ -6,14 +6,14 @@ Questa sezione riguarda il dumping delle cartucce utilizzando GodMode9i, per usa
 
 ## Requisiti
 - La cartuccia di gioco del titolo che si desidera effettuare un dump
-- Una console Nintendo DSi con [Unlaunch](installing-unlaunch) installato sopra
+- Una console Nintendo DSi con [Unlaunch](installing-unlaunch.html) installato
 
 ## Istruzioni
 ### Sezione I - Configurazione della Scheda SD
 
 ::: tip
 
-Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader) per configurare automaticamente la tua scheda SD.
+Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader.html) per configurare automaticamente la tua scheda SD.
 
 :::
 
@@ -22,11 +22,11 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
 
 ### Sezione II - Istruzioni Nintendo DSi
 1. Avvia GodMode9i
-1. Ensure the Game Card is inserted into the console
-1. Select the "NDS GAMECARD" option in GodMode9i
-1. Select what you want to dump
-   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
-1. Repeat steps 2-4 for all Game Cards you wish to dump
+1. Assicurati che la scheda di gioco sia inserita nella console
+1. Seleziona l'opzione "SCHEDA NDS" in GodMode9i
+1. Seleziona i dump da effettuare
+   - Le opzioni "Trimmed" per la ROM scaricheranno un file più piccolo che può salvare lo spazio della scheda SD. tuttavia non funzioneranno per la maggior parte delle patch come le ROM hack
+1. Ripeti i passaggi 2-4 per tutte le cartucce di cui desideri effettuare un dump
 
 ::: tip
 

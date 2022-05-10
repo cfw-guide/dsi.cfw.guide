@@ -10,7 +10,7 @@ title: Unlaunch Deinstallieren
 
 **WARNUNG:** Die Deinstallation von Unlaunch könnte deinen Nintendo DSi beschädigen. Dies könnten Gründe sein, warum du Unlaunch deinstallieren willst, aber mit Lösungen die keine Deinstallation benötigen.
 
-- **Der Unlaunch Hintergrund ist gruselig:**[Installiere Unlaunch neu](installing-unlaunch) mit den neuen Anweisungen. Sie beschreiben einen Weg, den Hintergrund zu ändern
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Sie beschreiben einen Weg, den Hintergrund zu ändern
 - **Ich habe ein Problem mit Unlaunch oder der Konsole nach der Installation:** Die [Troubleshooting](troubleshooting.html#unlaunch) Seite erklärt Lösungen für Probleme die sie haben könnten
 
 ::: warning
@@ -25,5 +25,5 @@ Bei der Unlaunch Deinstallation solltest du **NICHT** den in Unlaunch eingebaute
 
 :::
 
-Sobald du die obigen Informationen gelesen hast, fahre fort zu [NAND-Backup wiederherstellen](restoring-nand). Diese Anleitung führt dich durch das Flashen des NAND-Backups, das du bei [NAND dumpen](dumping-nand) gemacht hast.
-- Wenn du kein NAND-Backup mehr von bevor der Unlaunch Installation hast, folge [NAND dumpen](dumping-nand) und fahre dann zu [NAND-Backup wiederherstellen fort](restoring-nand). Dies sind Anweisungen für Nutzer die Unlaunch auf ihrem NAND-Backup installiert haben
+Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand.html).
+- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand.html) and proceed with [Restoring a NAND Backup](restoring-nand.html). Dies sind Anweisungen für Nutzer die Unlaunch auf ihrem NAND-Backup installiert haben

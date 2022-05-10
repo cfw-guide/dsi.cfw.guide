@@ -6,14 +6,14 @@ Ta sekcja służy do zrzucania kart z grami przy użyciu GodMode9i, aby można j
 
 ## Wymagania
 - Tytuł, który chcesz zrzucić
-- Nintendo DSi z zainstalowanym[Unlaunch](installing-unlaunch)
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
 
 ## Instrukcje
 ### Sekcja I - Konfiguracja karty SD
 
 ::: tip
 
-Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
+Korzystasz z Windows, Linux czy macOS? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 

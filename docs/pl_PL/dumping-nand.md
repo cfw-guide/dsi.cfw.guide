@@ -14,14 +14,16 @@ Bardzo zalecamy to zrobić. Kopia zapasowa NAND może być użyteczna w przypadk
 
 ::: tip
 
-Korzystasz z Windows, Linux czy macOS? Użyj [Lazy DSi Downloader](lazy-dsi-downloader), aby automatycznie skonfigurować kartę SD.
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
 1. Pobierz najnowszą wersję [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
 1. Umieść `dumpTool.nds` w dowolnym miejscu na karcie SD
 
+
 ## Sekcja II – Dumping NAND
+
 1. Uruchom `dumpTool` przez TWiLight Menu++
 1. Naciśnij przycisk <kbd class="face">A</kbd> na swoim Nintendo DSi, aby zacząć zrzucać swój NAND
    - Kopia zapasowa NAND zajmuje zazwyczaj około 7 minut
@@ -39,6 +41,6 @@ Skrót SHA1 `nand.bin` nie będzie odpowiadał skrótowi zapisanemu w `nand.bin.
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

@@ -11,7 +11,7 @@ Ez egy kiegészítő rész, amelyben kikapcsoljuk a Windows azon alap viselkedé
 1. Nyiss meg bármilyen mappát, mint például az SD kártyád, hogy elindítsd a Fájlkezelőt
 1. A felső sávban válaszd a "Nézet" opciót
    - Ha az opció nem látható, kattints a `···` gombra a jobb szélén a felső sávnak
-3. Click or hove your cursor on the `Show >` submenu
+3. Kattints vagy mozgasd a kurzort a `Megjelenés >` almenüre
 4. Pipáld be a `Fájlnévkiterjesztések` opciót ![Képernyőkép a "Fájl név kiterjesztések" jelölőnégyzetről Windows 11-en](/assets/images/windows-11-file-extensions.png)
 
 ::::

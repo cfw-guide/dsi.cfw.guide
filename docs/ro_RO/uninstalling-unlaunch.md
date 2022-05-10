@@ -10,7 +10,7 @@ title: Dezinstalarea Unlaunch
 
 **ATENȚIE:** O dezinstalare Unlaunch poate cauza consolei Nintendo DSi un brick. Aici sunt câteva cazuri despre motivul pentru care vrei să dezinstalezi Unlaunch dar cu soluți care nu necesită dezinstalare.
 
-- **Fundalul Unlaunch mă sperie:** [Reinstalează Unlaunch](installing-unlaunch) folosind noile instrucțiuni. Acestea conțin acum instrucțiuni privind modul de schimbare a fundalului
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Acestea conțin acum instrucțiuni privind modul de schimbare a fundalului
 - **Am o problemă cu Unlaunch sau consola mea după instalare:** Pagina de [Troubleshooting](troubleshooting.html#unlaunch) îți va explica cum să rezolvi multe probleme pe care le ai
 
 ::: warning
@@ -25,5 +25,5 @@ Când dezinstalezi Unlaunch, **NU** ar trebui să folosești dezinstalatorul în
 
 :::
 
-Odată ce ai citit informația de mai sus, mergi la [Restaurarea unei copii NAND](restoring-nand). Acesta te va ghida prin instalarea copiei NAND pe care ai creat-o în timp ce urmăreai [Creere copie NAND](dumping-nand).
-- Dacă nu mai ești în posesia unei copii NAND de dinaintea instalării Unlaunch, urmează [Creere copie NAND](dumping-nand) și mergi mai departe la [Restaurarea unei copii NAND](restoring-nand). Acolo sunt instrucțiuni pentru utilizatorii ce au instalat Unlaunch pe copia lor NAND
+Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand.html).
+- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand.html) and proceed with [Restoring a NAND Backup](restoring-nand.html). Acolo sunt instrucțiuni pentru utilizatorii ce au instalat Unlaunch pe copia lor NAND

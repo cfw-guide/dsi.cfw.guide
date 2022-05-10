@@ -24,40 +24,31 @@ Lese alle Einleitungsseiten (einschließlich dieser!) gründlich durch, bevor du
 
 Homebrew kann gratis auf allen Nintendo DSi Konsolen genutzt werden, unabhängig von Firmware-Version oder Region. Alles was du brauchst ist ein Einstiegspunkt und eine SD-Karte, um dein homebrew zu speichern. Der Haupteinstiegspunkt in dieser Anleitung wird Memory Pit genannt, es gibt aber auch andere Einstiegspunkte, die man verwenden kann, wenn Memory Pit instabil ist.
 
-## Was wird diese Anleitung mit meinem System machen?
+## What can I do by modding my system?
 
-Vergiss nicht, dass die Anleitung linear strukturiert ist, aber generell davon abhängt, wie stark du dein System modifizieren willst.
+- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
+- Run old-time classics using various emulators
+- Use normally incompatible flashcards
+- Redirect your NAND to the SD card using hiyaCFW
+- Watch your favorite movies using MPEG4Player
+- Display an image (referred to as the boot splash) on system launch
+- Play homebrew games
 
-- Wir werden einen Einstiegspunkt einrichten, um grundlegendes Homebrew über Memory Pit, den Exploit für die Nintendo DSi-Kamera-Anwendung, zu starten
-- Wir werden dann ein NAND-Backup erstellen, was als Wiederherstellungspunkt, wenn der DSi beschädigt wird, dienen kann
-- Für Benutzer, die Zugriff auf die vollen Möglichkeiten des DSi's wünschen, werden wir diese durch die Unlaunch Installation führen. Unlaunch ermöglicht die Ausführung von Homebrew mit mehr Berechtigungen (z. B. Slot-1-Zugriff) und beim Systemstart
-   - Durch die Installation von Unlaunch wird NAND modifiziert und kann in seltenen Fällen das System **beschädigen.**. Wenn du keine Schäden riskieren willst, kannst du auch aufhören, nachdem du ein NAND-Backup erstellt hast
+## Where can I find homebrew applications?
 
-## Was kann ich mit einem modifiziertem System machen?
+- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
 
-- Nintendo DS(i) game backups oder ROM-Hacks ohne eine Flashcard von der SD-Karte ausführen
-- Jegliche DSiWare (außerhalb der Region und/oder 3DS-Exklusiv) von der SD-Karte starten
-- Ausführen von DSiWare- und Homebrew-Anwendungen, wenn man beim Systemstart des Nintendo DSi bestimmte Tasten gedrückt hält
-- Retro-Klassiker mit verschiedenen Emulatoren spielen
-- Flashcards benutzen, welche normalerweise inkompatibel sind
-- Die NAND mit hiyaCFW zur SD-Karte umleiten
-- Deine Lieblingsfilme mit MPEG4Player anschauen
-- Ein Bild (genannt "boot splash") beim Systemstart zeigen
-- Homebrew Spiele spielen
+## What should I know before starting?
 
-## Wo finde ich Homebrew-Anwendungen?
-
-- [Universal-DB](https://db.universal-team.net/ds) hat modernstes homebrew, mit nützlicher Suche und Sortierung, um den Überblick zu behalten, was kürzlich aktualisiert wurde
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) hat viele ältere Homebrews, viele funktionieren aber nur auf Flash-Karten
-
-## Was sollte ich vor dem Start wissen?
-
-- Mit Windows ist es empfohlen, [Dateierweiterungen anzuzeigen](file-extensions-%28windows%29), wenn man den standard Windows Datei-Explorer nutzt
-- Das einzige Risiko, den Dsi zu beschädigen, kommt von der Unlaunch Installation, ist aber sehr unwahrscheinlich
-- Wenn du keine Erfahrung mit dem Kopieren von Dateien auf eine SD-Karte hast, sind verschiedene Hilfswerkzeuge verfügbar
+- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
+- The only brick risk comes from installing Unlaunch, and the brick risk is minimal
+- If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
 
-Fahre fort zu [Launching the Exploit](launching-the-exploit)
+Continue to [Get Started](get-started.html)
 
 :::

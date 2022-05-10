@@ -94,6 +94,12 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 :::: tab name="Linux" os="other"
 
+::: tip
+
+If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
+
+:::
+
 ### Sekcja I - Formatowanie karty SD
 1. Upewnij się, że Twoja karta SD **nie jest** włożona do maszyny Linux
 1. Uruchom Terminal Linux
@@ -154,7 +160,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -260,7 +266,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może będziesz musiał ją wymienić!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -270,7 +276,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 ::: tip
 
-Możesz teraz przywrócić zawartość karty SD i kontynuować.
+You can now restore the contents of your SD card and continue.
 
 :::
 

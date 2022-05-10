@@ -6,14 +6,14 @@ Această secțiune este pentru creerea de copii de Carduri de Joc folosind GodMo
 
 ## Cerințe
 - Cardul de Joc al titlului căruia vrei să-i creezi o copie
-- Consola ta Nintendo DSi cu [Unlaunch](installing-unlaunch) instalat
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
 
 ## Instrucțiuni
 ### Secțiunea I - Setarea cardului SD
 
 ::: tip
 
-Folosești Windows, Linux sau macOS? Folosește [Lazy DSi Downloader](lazy-dsi-downloader) pentru a-ți seta cardul SD automat.
+Folosești Windows, Linux sau macOS? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 

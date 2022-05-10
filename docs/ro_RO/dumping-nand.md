@@ -14,14 +14,16 @@ Este recomandat să faci acest lucru. O copie NAND poate fi folosită ca un punc
 
 ::: tip
 
-Folosești un dispozitiv Windows, Linux sau macOS? Folosește [Lazy DSi Downloader](lazy-dsi-downloader) pentru a-ți seta cardul SD automat.
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
 1. Descarcă ultima versiune a [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
 1. Plasează `dumptool.nds` oriunde pe cardul tău SD
 
+
 ## Secțiunea II - Creerea unei copii NAND
+
 1. Lansează `dumpTool` prin TWiLight Menu++
 1. Apasă butonul <kbd class="face">A</kbd> pe Nintendo DSi pentru a începe creerea unei copii NAND
    - O copiere NAND durează de obicei 7 minute
@@ -39,6 +41,6 @@ Hash-ul SHA1 al `nand.bin` nu se va potrivi cu hash-ul stocat în `nand.bin.sha1
 
 ::: tip
 
-Continuă la [Instalarea Unlaunch](installing-unlaunch) (Opțional, nu este compatibilă cu consolele de dezvoltare Nintendo DSi)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

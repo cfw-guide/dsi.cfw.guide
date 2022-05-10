@@ -94,6 +94,12 @@ Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sa
 
 :::: tab name="Linux" os="other"
 
+::: tip
+
+If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
+
+:::
+
 ### Secțiunea I - Formatarea cardului SD
 1. Asigură-te că **nu** ai introdus cardul SD în calculatorul tău Linux
 1. Lansează Terminalul Linux
@@ -148,13 +154,13 @@ ___
 
 ::: tip
 
-Dacă testul afișează rezultatul `Data LOST: 0.00 Byte (0 sectors)` cardul tău SD este sănătos și poți șterge toate fișierele `.h2w` de pe cardul SD.
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
 
 :::
 
 ::: danger
 
-Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să-l înlocuiți!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -166,13 +172,13 @@ Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sa
 
 ::: tip
 
-Această secțiune formatează cardul SD la specificațiile ale Asociației Cardului SD. Aceasta poate rezolva multe probleme ce pot apărea la rularea aplicațiilor homebrew.
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
 
 :::
 
 ::: danger
 
-Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie_ să urmărești Secțiunea II pentru a reformata la `FAT32`.
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
 
 :::
 
@@ -186,11 +192,11 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 
 ### Secțiunea II - Formatarea cardului SD cu Disk Utility
 
-Această secțiune formatează cardurile SD mai mari de 32GB în FAT32.
+This section formats SD cards larger than 32GB to FAT32.
 
 ::: tip
 
-Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
+If your SD card is 32GB or less in capacity, skip to Section III.
 
 :::
 
@@ -254,13 +260,13 @@ ___
 
 ::: tip
 
-Dacă testul afișează rezultatul `Data LOST: 0.00 Byte (0 sectors)` cardul tău SD este sănătos și poți șterge toate fișierele `.h2w` de pe cardul SD.
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
 
 :::
 
 ::: danger
 
-Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să-l înlocuiți!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -270,7 +276,7 @@ Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sa
 
 ::: tip
 
-Acum poți să restaurezi conținuturile cardului SD și să continui.
+You can now restore the contents of your SD card and continue.
 
 :::
 

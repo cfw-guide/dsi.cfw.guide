@@ -24,40 +24,31 @@ Dokładnie przeczytaj wszystkie strony wprowadzające (łącznie z tą!) przed p
 
 Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezależnie od wersji firmware'u czy regionu. Wszystko, czego potrzebujesz, to punkt wejścia i karta SD do przechowywania swojego homebrew. Główny punkt wejścia użyty w tym poradniku nazywa się Memory Pit, ale istnieją inne punkty wejścia, których możesz użyć, jeśli Memory Pit jest dla ciebie bezużyteczny.
 
-## Co ten przewodnik zrobi z moim systemem?
-
-Pamiętaj, że poradnik jest skonstruowany liniowo, ale to zależy od tego, jak głęboko chcesz się posunąć w modowaniu systemu.
-
-- Ustawimy punkt wejścia, aby uruchomić podstawowy homebrew poprzez Memory Pit, czyli exploit dla aplikacji Nintendo DSi Camera
-- Następnie wykonamy kopię zapasową NAND, która jest przydatna jako punkt przywracania w przypadku, gdyby coś się zepsuło
-- Wreszcie, dla użytkowników, którzy chcą zdobyć dostęp do pełnych możliwości DSi, przejdziemy ich przez instalację Unlaunch. Unlaunch pozwala na uruchamianie homebrew z większymi uprawnieniami (takimi jak dostęp do Pola-1)
-   - Instalacja Unlaunch modyfikuje twoją pamięć NAND, a w skrajnych przypadkach ma potencjał do **zablokowania** systemu. Jeśli nie chcesz ryzykować, możesz przestać po zrobieniu kopii zapasowej NAND
-
-## Co mogę zrobić modując swój system?
+## What can I do by modding my system?
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
-- Uruchom dowolny DSiWare (z innego regionu i/lub ekskluzywy na 3ds) z karty SD
-- Uruchom aplikacje DSiWare i homebrew trzymając specyficzne przyciski podczas włączania Nintendo DSi
-- Uruchom dawne klasyki za pomocą różnych emulatorów
-- Użyj normalnie niekompatybilnych flaschardów
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
+- Run old-time classics using various emulators
+- Use normally incompatible flashcards
 - Redirect your NAND to the SD card using hiyaCFW
-- Obejrzyj swoje ulubione filmy używając MPEG4Player
-- Wyświetlanie obrazu (zwanego rozbryzgiem startowym) podczas uruchamiania systemu
+- Watch your favorite movies using MPEG4Player
+- Display an image (referred to as the boot splash) on system launch
 - Play homebrew games
 
-## Gdzie mogę znaleźć aplikacje homebrew?
+## Where can I find homebrew applications?
 
-- [Universal-DB](https://db.universal-team.net/ds) zawiera większość nowoczesnych homebrew, z ładnym wyszukiwaniem i sortowaniem, aby śledzić, co zostało ostatnio zaktualizowane
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) ma wiele starszych homebrew, jednak wiele z nich będzie działać tylko na flashcardach
+- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
 
-## Co należy wiedzieć przed rozpoczęciem?
+## What should I know before starting?
 
-- W systemie Windows zaleca się, aby [pokazać rozszerzenia plików](file-extensions-%28windows%29), jeśli używasz domyślnego Eksploratora plików
-- Jedyne ryzyko związane z awarią pochodzi z instalacji Unlaunch, a ryzyko to jest minimalne
-- Jeśli nie masz doświadczenia w kopiowaniu plików na kartę SD, mamy do dyspozycji narzędzia pomocnicze
+- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
+- The only brick risk comes from installing Unlaunch, and the brick risk is minimal
+- If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
 
-Przejdź do [Uruchamianie Exploitu](launching-the-exploit)
+Continue to [Get Started](get-started.html)
 
 :::

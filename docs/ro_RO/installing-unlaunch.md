@@ -4,31 +4,19 @@ title: Instalarea Unlaunch
 
 ::: danger
 
-Unlaunch nu este compatibil cu consolele Nintendo DSi de dezvoltare.
-
-:::
-
-Unlaunch este un exploit ce are loc la pornirea sistemului. Aceasta îi permite să aibă privilegii mai mari decât exploit-urile normale DSiWare precum Memory Pit, ceea ce-i permite să facă următoarele:
-
-- Lansarea aplicațiilor la pornire (homebrew sau DSiWare), cu combinații de butoane opționale
-- Acces la Slot-1, permițându-ți să creezi backup-uri pentru Carduri de Joc și să lansezi flashcard-uri incompatibile
-- Blocajele de regiune scoase pe Cardurile de Joc Dsi-Enhanced / Exclusive
-- Să ruleze jocuri homebrew vechi pentru Nintendo DS prin nds-bootstrap-hb
-- Protecție împotriva brick-urilor
-- Removes Donor ROM requirement for running DSi-Enhanced games in DSi mode
-- Următoarele pentru utilizatorii de Memory Pit (alte exploit-uri deja permit acestea):
-     - Compatibilitate îmbunătățită pentru jocurile DSiWare lansate de pe cardul SD
-     - Sunet mai bun în GBARunner2
-
-::: danger
-
-Dacă nu ai făcut asta deja, te rugăm urmărește [Creere copie NAND](dumping-nand). Chiar dacă șansele sunt mici, Unlaunch poate să îi producă un brick consolei tale Nintendo DSi. O copie NAND + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) îți vor permite să restaurezi această copie, asta dacă știi să sudezi.
+If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 
 ::: warning
 
-Asigură-te că sistemul tău este încărcat când urmezi acest proces. O oprire bruscă poate rezulta daune grave.
+Make sure your console is charged when following this process. A sudden power loss could result in serious damage.
+
+:::
+
+::: warning
+
+Unlaunch is not compatible with Nintendo DSi development consoles.
 
 :::
 
@@ -36,7 +24,7 @@ Asigură-te că sistemul tău este încărcat când urmezi acest proces. O oprir
 
 ::: tip
 
-Folosești Windows, Linux sau macOS? Folosește [Lazy DSi Downloader](lazy-dsi-downloader) pentru a-ți seta automat cardul SD.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 
@@ -44,15 +32,17 @@ Folosești Windows, Linux sau macOS? Folosește [Lazy DSi Downloader](lazy-dsi-d
    - [Link oglindă](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), dacă cel de mai sus nu merge
 1. Extrage `UNLAUNCH.DSI` din arhiva `unlaunch.zip` și plaseaz-o oriunde pe cardul SD
 1. Verifică dacă încă mai ai TWiLight Menu++ pe cardul SD
-   - Dacă nu ești sigur, urmărește instrucțiunile de pe pagina [Lansarea Exploit-ului](launching-the-exploit.html#twilight-menu)
+   - If you are unsure, follow the instructions from the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
 
 ## Secțiunea II - Instalarea/Actualizarea Unlaunch
 
 1. Deschide TWiLight Menu++
    - Dacă asta este prima dată când instalezi Unlaunch, relansează TWiLight Menu++ prin exploit-ul pe care l-ai folosit
-   - Dacă ai instalat deja Unalaunch și vrei să-l actualizezi, ține apăsat pe <kbd class="face">A</kbd> + <kbd class="face">B</kbd> în timp ce pornești consola și selectează `TWiLight Menu++` unde `BOOT.NDS` apare pe ecranul de jos
+   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option labeled `TWiLight Menu++`
+   - If several options are labeled `TWiLight Menu++`, select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
+      - This happens because you are running an older version of TWiLight Menu++, unless you're doing it on purpose, is suggested that you [update your installation](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 1. Lansarea Setărilor TWiLight Menu++
-   - Dacă nu ți-ai schimbat tema, urmează pașii de pe pagina "Lansarea Exploit-ului". Altfel, consultă Manualul TWiLight Menu++
+   - If you haven't changed your theme, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Altfel, consultă Manualul TWiLight Menu++
 1. Apasă <kbd class="l">L</kbd> / <kbd class="r">R</kbd> sau <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> până ajungi la pagina `Setări Unlaunch`
 1. Dacă vrei să schimbi imaginea de fundal a Unlaunch, selectează `Fundal`și alege pe cea pe care o vrei
    - Dacă vrei să-ți creezi propriul fundal Unlaunch, vezi [pagina DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
@@ -61,22 +51,22 @@ Folosești Windows, Linux sau macOS? Folosește [Lazy DSi Downloader](lazy-dsi-d
 1. Ieși din Setările TWiLight Menu++
 1. În meniul de navigare fișiere, lansează `Unlaunch DSi Installer`
 1. Seelctează opțiunea de instalare
-   - Dacă Unlaunch îngheață la `ERROR: MSIMATCH IN FAT COPIES`, te rugăm uită-te pe pagina de [Troubleshooting](troubleshooting)
+   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. După ce ai terminat, repornește-ți sistemul
 
-Dacă vezi ecranul Meniului de Fișiere al Unlaunch, ți-ai modificat cu succes consola.
-- Dacă vezi un ecran negru, te rugăm să consulți pagina de [Troubleshooting](troubleshooting)
+If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
 
 ## Secțiunea III - Configurarea după Instalarea Unlaunch
 
-Momentan, Unlaunch își lansează implicit Meniul de Fișiere la pornire, dar aceasta poate fi schimbată pentru a lansa ce vrei tu.
+Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed launch whatever you want.
 
 1. Pornește-ți consola în timp ce ții apăsat pe <kbd class="face">A</kbd> și <kbd class="face">B</kbd>
    - Aceasta ar trebui să lanseze Meniul de Fișiere Unlaunch
 1. Navighează la `OPȚIUNI`, și uită-te la opțiunile disponibile
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> este hard-codat pentru a lansa în meniul Unlaunch, deci nu poate fi schimbat
    - Opțiunile `NO BUTTON` și `BUTTON A / B / X / Y` pot fi setate cum îți dorești și vor alege ce va lansa pe DSi la pornire în funcție debutoanele care sunt apăsate. Poți selecta orice DSiWare, homebrew, cardul Slot-1, wifiboot, sau Meniul de Fișiere al Unlaunch
-      - Pentru TWiLight Menu++, selectează opțiunea `TWiLight Menu++` unde `BOOT.NDS` este afișat pe ecranul de jos
+      - For TWiLight Menu++, select  `TWiLight Menu++`
       - Pentru Meniul DSi original, selectează `Launcher`
    - `LOAD ERROR` este ceea ce DSi va afișa dacă încarci ceve ce ai setat eșuează, precum faptul că nu ai introdus cardul SD
 1. Selectează `SAVE & EXIT` pentru a-ți salva setările, apoi oprește consola DSi
@@ -85,10 +75,28 @@ Momentan, Unlaunch își lansează implicit Meniul de Fișiere la pornire, dar a
 
 ::: tip
 
-Această secțiune este opțională și servește pentru a-ți curăța cardul SD.
+This section is optional and only serves for keeping your SD card tidy of files you won't need.
 
 :::
 
-- Șterge fișierul `sd:/private/ds/app/484E494A/pit.bin` de pe cardul SD
-   - Dacă ai folosit un alt expoit, șterge fișierele de la acel exploit
+:::: tabs
+
+::: tab name="Memory Pit" default
+
+- Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
+   - If you made a backup of an existing `pit.bin` file, put it back now
+- You can now restore the `DCIM` folder that was on the root of your SD card, if this folder existed
+- Delete the `UNLAUNCH.DSI` file from your SD card
+
+:::
+
+::: tab name="Flipnote Lenny"
+
+- Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
+   - `sd:/private/ds/app/4B47554A/001` (Japan)
+   - `sd:/private/ds/app/4B475545/001` (USA)
+   - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
+   - You can also delete the entire folders for the regions besides your own
 - Șterge fișierul `UNLAUNCH.DSI` de pe cardul SD
+
+:::

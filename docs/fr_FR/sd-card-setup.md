@@ -14,35 +14,35 @@ Assurez-vous de sauvegarder le contenu de votre carte SD AVANT de continuer. Tou
 
 :::: tab name="Windows" os="windows"
 
-### Section I - Formatting your SD card with SD Formatter
+### Section I - Formatage de votre carte SD avec SD Formatter
 
 ::: tip
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+Cette section formate la carte SD selon les spécifications de la SD Card Association. Cela peut résoudre de nombreux problèmes pouvant survenir lors de l'exécution d'applications homebrew.
 
 :::
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de ce processus. Vous _devez_ suivre la Section II pour reformater en `FAT32`.
 
 :::
 
-1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accept the End User License Agreement to start the download
-1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
-1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
-1. Select your SD card
+1. Téléchargez la dernière version de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Acceptez le contrat de licence utilisateur final pour lancer le téléchargement
+1. Exécutez `SD Card Formatter SetupSD` (le fichier `.exe`) dans le fichier `.zip` téléchargé avec les privilèges d'administrateur, puis installez le programme
+1. Exécutez `SD Card Formatter` à partir du menu Démarrer avec les privilèges d'administrateur
+1. Sélectionnez votre carte SD
 1. Assurez-vous que la case `Quick Format` (formatage rapide) est cochée
 1. Lancez le processus de formatage
 
-### Section II - Formatting your SD card with GUIFormat
+### Section II - Formatage de votre carte SD avec GUIFormat
 
-This section formats SD cards larger than 32GB to FAT32.
+Cette section formate les cartes SD supérieures à 32 Go en FAT32.
 
 ::: tip
 
-If your SD card is 32GB or less in capacity, skip to Section III.
+Si votre carte SD a une capacité de 32 Go ou moins, passez à la Section III.
 
 :::
 
@@ -69,7 +69,7 @@ Cette opération permet de scanner la carte SD et de corriger les erreurs qu'ell
 ### Section IV - Vérification de la lecture/écriture de la carte SD
 
 1. Téléchargez et extrayez [l'archive h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) n'importe où sur votre ordinateur
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+   - Si le lien ci-dessus ne fonctionne pas pour vous, téléchargez [sur archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Il peut également être extrait sur un périphérique externe tant qu'il ne s'agit pas de votre carte SD
 1. Avec votre carte SD insérée dans votre ordinateur, exécutez `h2testw.exe`
 1. Sélectionnez la langue dans laquelle vous souhaitez voir h2testw. Étant donné qu'il n'est pas disponible en français, les noms anglais seront utilisés et traduits pour ce guide
@@ -80,7 +80,7 @@ Cette opération permet de scanner la carte SD et de corriger les erreurs qu'ell
 
 ::: tip
 
-If the test shows the result `Test finished without errors`, your SD card is healthy and you can delete all `.h2w` files on your SD card.
+Si le test affiche le résultat `Test finished without errors`, votre carte SD est saine et vous pouvez supprimer tous les fichiers `.h2w` sur votre carte SD.
 
 :::
 
@@ -94,6 +94,12 @@ Si le test présente n'importe quel autre résultat, votre carte SD est peut êt
 
 :::: tab name="Linux" os="other"
 
+::: tip
+
+Si TWiLight Menu++ ne démarre pas après avoir suivi cette méthode, veuillez plutôt suivre la méthode Windows, soit en redémarrant sous Windows, soit en exécutant une machine virtuelle Windows
+
+:::
+
 ### Section I - Formatage de votre carte SD
 1. Assurez-vous que votre carte SD n'est pas **** insérée dans votre machine Linux
 1. Lancez le terminal Linux
@@ -105,12 +111,12 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Prenez note du point de montage de l'appareil. In the example above, it was `mmcblk0p1`
+1. Prenez note du point de montage de l'appareil. Dans l'exemple ci-dessus, c'était `mmcblk0p1`
    - Si `RO` est réglé sur 1, assurez-vous que l'interrupteur de verrouillage n'est pas glissé vers le bas
 1. Appuyez sur CTRL + C pour quitter le menu
-1. Follow the instructions relevant to your SD card's capacity:
-   - 2GB or lower: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 16` to create a single FAT16 partition with 32 KB cluster size on the SD card
-   - 4GB or higher: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
+1. Suivez les instructions relatives à la capacité de votre carte SD :
+   - 2 Go ou moins : saisissez `sudo mkdosfs /dev/(point de montage de l'appareil d'au dessus) -s 64 -F 16` pour créer une seule partition FAT16 avec une taille de cluster de 32 Ko sur la carte SD
+   - 4 Go ou plus : saisissez `sudo mkdosfs /dev/(point de montage de l'appareil d'au dessus) -s 64 -F 32` pour créer une seule partition FAT32 avec une taille de cluster de 32 Ko sur la carte SD
 
 ### Section II - Utilisation de F3
 1. Téléchargez et extrayez [l'archive F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) n'importe où sur votre ordinateur.
@@ -148,13 +154,13 @@ ___
 
 ::: tip
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+Si le test affiche le résultat `Data LOST : 0.00 Byte (0 sector)` votre carte SD est saine et vous pouvez supprimer tous les fichiers `.h2w` sur votre carte SD.
 
 :::
 
 ::: danger
 
-Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
+Si le test montre d'autres résultats, votre carte SD est peut-être corrompue ou endommagée et vous devrez peut-être la remplacer !
 
 :::
 
@@ -162,35 +168,35 @@ Si le test présente n'importe quel autre résultat, votre carte SD est peut êt
 
 :::: tab name="macOS" os="macos"
 
-### Section I - Formatting your SD card with SD Formatter
+### Section I - Formatage de votre carte SD avec SD Formatter
 
 ::: tip
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+Cette section formate la carte SD selon les spécifications de la SD Card Association. Cela peut résoudre de nombreux problèmes pouvant survenir lors de l'exécution d'homebrew.
 
 :::
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de ce processus. Vous _devez_ suivre la Section II pour reformater en `FAT32`.
 
 :::
 
-1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
-   - Accept the End User License Agreement to start the download
-1. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
-1. Run `SD Card Formatter`
-1. Select your SD card
+1. Téléchargez la dernière version de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
+   - Acceptez le contrat de licence utilisateur final pour lancer le téléchargement
+1. Exécutez `Install SD Card Formatter` (le fichier `.mpkg`) dans le fichier `.zip` téléchargé
+1. Exécutez `SD Card Formatter`
+1. Sélectionnez votre carte SD
 1. Assurez-vous que la case `Quick Format` (formatage rapide) est cochée
 1. Lancez le processus de formatage
 
-### Section II - Formatting your SD card with Disk Utility
+### Section II - Formatage de votre carte SD avec l'Utilitaire de disque
 
-This section formats SD cards larger than 32GB to FAT32.
+Cette section formate les cartes SD supérieures à 32 Go en FAT32.
 
 ::: tip
 
-If your SD card is 32GB or less in capacity, skip to Section III.
+Si votre carte SD a une capacité de 32 Go ou moins, passez à la Section III.
 
 :::
 
@@ -254,13 +260,13 @@ ___
 
 ::: tip
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+Si le test affiche le résultat `Data LOST : 0.00 Byte (0 sector)` votre carte SD est saine et vous pouvez supprimer tous les fichiers `.h2w` sur votre carte SD.
 
 :::
 
 ::: danger
 
-Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous pourrez être amené à la remplacer !
+Si le test montre d'autres résultats, votre carte SD est peut-être corrompue ou endommagée et vous devrez peut-être la remplacer !
 
 :::
 

@@ -42,7 +42,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
    - Ha több opció neve is `TWiLight Menu++`, válaszd azt az opciót, ahol a `BOOT.NDS` látható az útvonal végén az alsó képernyőn
       - Ez azért történik, mert a TWiLight Menu++ régebbi verzióját futtatod, amíg ez nem szándékos ajánlott, hogy [frissítsd a telepítésed](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 1. Indítsd el a TWiLight Menu++ Beállításokat
-   - Ha nem cserélted a témádat, kövesd a lépéseket "Az Exploit futtatása" oldalon. Egyéként tekintsd meg a TWiLight Menu++ kézikönyvet
+   - HA nem cserélted még a témádat, nyomj `SELECT` gombot és éríntsd meg a kis DS ikont az érintő képernyő alján. Egyéként tekintsd meg a TWiLight Menu++ kézikönyvet
 1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> vagy <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> gombokat, amíg el nem éred az `Unlaunch Beállítások` oldalt
 1. Ha szeretnéd cserélni az Unlaunch hátterét, válaszd a `Háttér` opciót és válaszd ki a neked tetszőt
    - Ha szeretnél saját Unlaunch hátteret, tekintsd meg a [DS-Homebrew Wiki oldalt](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)

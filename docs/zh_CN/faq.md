@@ -5,34 +5,75 @@ title: 常见问题
 ## Should I do a system update?
 No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. The DSi Shop has been taken fully offline, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards. There is also an, extremely small, risk of **bricking** your DSi when doing a system update, likely the same as the risk when installing Unlaunch.
 
-## 修改我的系统将会丢失什么功能？
-- 如果您决定安装Unlaunch，您将不会丢失任何系统功能
-- 如果你只进行了Memory Pit漏洞的相关设置，您将无法通过 Nintendo DSi 相机应用程序将照片保存到 SD 卡。 Either follow [Alternate Exploits](alternate-exploits) instead, or follow [Installing Unlaunch](installing-unlaunch)
-   - 这是因为元数据文件`pit.bin`已被Memory Pit漏洞 所覆盖
+## Which is the best exploit?
+Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit (as it's the simplest and most compatible exploit) to install Unlaunch, however if you decide you want to avoid any risk it's recommended to instead use Flipnote Lenny as using Memory Pit can cause issues in certain cases. Below is a list of the pros and cons of each exploit:
+
+### Memory Pit
+Pros:
+- Quick and easy to use
+- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
+- Compatible with all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+
+Cons:
+- Requires loading the DSi Camera application every time you want to access homebrew
+- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
+- Access to Slot-1 (the DS Game Card) is blocked
+- Access to the DSP is blocked resulting in worse sound in GBARunner2
+- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
+
+### Flipnote Lenny
+Pros:
+- Better compatibility with DSi mode titles and homebrew than Memory Pit
+- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
+- Better sound in GBARunner2
+
+Cons:
+- Requires Flipnote Studio
+- Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
+- Access to Slot-1 (the DS Game Card) is blocked
+
+### Unlaunch
+Pros:
+- Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
+- Full access to the system without any restrictions, including:
+   - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
+   - Better sound in GBARunner2
+- Removes region locks on DSi-Enhanced/Exclusive Game Cards
+- Protection against most ways a DSi could brick
+- DSi-Enhanced games can be run in DSi mode without a Donor ROM
+- Old homebrew can be run via nds-bootstrap-hb
+
+Cons:
+- Very minor risk of **bricking** the console when installing
+- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
+- Not compatible with development consoles
+
+## Will I lose any functionality by modding my system?
+If you install Unlaunch or use Flipnote Lenny no functionality will be lost. If you use Memory Pit you will be unable to view photos on the SD card using the DSi Camera application while Memory Pit is installed. To regain the ability to view your SD card photos install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file.
 
 ## How do I play Nintendo DS Game Card dumps?
 Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
-- 使用 TWiLight Menu++ 您可以在您的 SD 卡中找到 ROM 文件然后使用nds-bootstrap游玩。 使用 TWiLight Menu++ 的优点是有作弊菜单，每个游戏单独设置，并避免转发商设置的限制。 换言之，您可以直接将您的 ROM 文件丢进去SD卡，并在没有任何设置的情况下运行。 没有最多39个应用的限制，既不需要hiyaCFW，也不需要Unlaunch，而您的 SD 卡也没有任何空闲空间限制
+- With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
 - hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
    - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
-## 如何更新我的自制程序？
-- **Unlaunch** - 按照 [安装Unlaunch](installing-unlaunch) 上的说明操作
-   - 你**不**需要在更新Unlaunch之前卸载它
-- **hiyaCFW** - 替换在 SD 卡根目录上的`hiya.dsi`为 [更新版本](https://github.com/RocketRobz/hiyaCFW/releases)
+## How do I update my homebrew?
+- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
+   - You do **not** need to uninstall Unlaunch before doing this
+- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-- **nds-bootstrap** - 复制 `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` 到SD卡根目录上的 `_nds` 文件夹
-   - 如果您使用 TWiLight Menu++，很有可能将最新的 nds-bootstrap 版本包含在TWiLight Menu++内
-- **GodMode9i, dumpTool, Forwarder3-DS, 等.** - 按照使用说明下载
+- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
+   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
+- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
 
-其他自制程序可能会使用其他方法进行更新。
+Other homebrew might use other methods to update.
 
-## 我是小白，又或者我想重新设置。 我该从哪里开始？
-- 如果您尚未破解您的机器，或者正在寻求在您的机器上更新Unlaunch ， 我们建议您从指南开头从头看起。 请务必阅读主页上的所有内容
-- 如果您有最新版本的Unlaunch， 按照第1b节 [启动漏洞](launching-the-exploit.html#twilight-menu) 在您的系统上设置 TWiLight Menu++
+## I am new or I would like to redo my setup. Where do I start?
+- If you have not already modified your console or are looking to update Unlaunch on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage
+- If you have the latest version Unlaunch, follow the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) to set up TWiLight Menu++ on your system
 
-## 如何移除亲子管理功能？
-- [mkey 生成器（英文）](https://mkey.salthax.org) 可生成移除亲子管理功能所需要的代码
+## How can I remove parental controls?
+- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
 
 ## Can I change my Nintendo DSi's region?
 Yes, there are a few different methods depending on what you want to change:

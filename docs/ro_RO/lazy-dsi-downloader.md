@@ -9,7 +9,7 @@ title: Lazy DSi Downloader
 1. Pornește-ți consola Nintendo DSi
 1. Lansează aplicația Nintendo DSi Camera
 
-Dacă în momentul de față primești un tutorial și un crash când încerci să-l urmezi, atunci nu poți folosi Memory Pit. Te rugăm vezi [Exploit-uri Alternative](alternate-exploits).
+Dacă în momentul de față primești un tutorial și un crash când încerci să-l urmezi, atunci nu poți folosi Memory Pit. Please see [Alternate Exploits](alternate-exploits.html) instead.
 
 ## Ghid de configurare
 

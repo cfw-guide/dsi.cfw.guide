@@ -7,33 +7,28 @@ title: Problèmes et dépannage
 
 twlnf a un bug critique où il ne met pas correctement à jour la NAND entière après l'avoir modifié, ce qui fait que certains homebrews (comme l'installateur d'Unlaunch) montrent une erreur.
 
-To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
-
-If the issue persists, try this:
-1. Mount your NAND backup with [ninfs](https://github.com/ihaveamac/ninfs/releases), and enable the `Allow writing` option
-1. Once your NAND backup is mounted, mount `twl_main.img`. If you are using Windows, you can use [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html) to mount the image
-1. Unmount `twl_main.img`, then unmount the NAND backup in ninfs If the NAND was saved, follow [Restoring NAND](restoring-nand) and continue with [Installing Unlaunch](installing-unlaunch).
+Pour résoudre ce problème, ouvrez [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases) et sélectionnez `Fix FAT copy mismatch`.
 
 ### Il n'y a pas de son ou de chargement de démarrage lors du lancement de "LAUNCHER" en utilisant Unlaunch
 
-Le développeur de Unlaunch (nocash) a intentionnellement désactivé le fond sonore et le chargement de démarrage par défaut. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch) using TWiLight Menu++, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Le développeur de Unlaunch (nocash) a intentionnellement corrigé l'audio d'arrière-plan et le boot-splash par défaut. Vous pouvez retrouver ces effets en [réinstallant Unlaunch](installing-unlaunch.html) à l'aide de TWiLight Menu++ avec les "correctifs de lancement" désactivés sur la page Unlaunch des paramètres TWiLight Menu++, ou en utilisant [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
-### Powering on only shows a black screen after installing Unlaunch
+### La mise sous tension n'affiche qu'un écran noir après l'installation de Unlaunch
 
-Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Essayez d'éjecter la carte SD et de rallumer la console. S'il n'affiche toujours qu'un écran noir, vous devrez peut-être flasher votre NAND via un [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### After installing Unlaunch, I'm stuck booting into an application
+### Après avoir installé Unlaunch, je suis bloqué au démarrage d'une application ou du menu Unlaunch File
 
-This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
+Cela a probablement été causé par le choix de la mauvaise application pour l'option `NO BUTTON` dans Unlaunch. Maintenez <kbd class="face">A</kbd> + <kbd class="face">B</kbd> lors du démarrage de la console, accédez à `OPTIONS` et définissez `NO BUTTON` selon vos préférences.
 
-### Other Unlaunch problems
+### Autres problèmes Unlaunch
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup).
+Si Unlaunch affiche `Clusters too large`, `Bad VBR`, `Bad MBR`, ou n'affiche aucune application alors que la carte SD est insérée, votre carte SD n'a probablement pas été formatée correctement. Suivez de nouveau [Configuration de la carte SD](sd-card-setup.html).
 
 ## TWiLight Menu++  troubleshooting
 
-For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
+Pour le dépannage général de TWiLight Menu++, consultez sa [FAQ & Page de dépannage](https://wiki.ds-homebrew.com/twilightmenu/faq) sur le wiki DS-Homebrew.
 
-## Further assistance
+## Assistance supplémentaire
 
-If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv) Discord server.
+Si vous avez rencontré un problème qui n'est pas résolu ici, ou qui persiste malgré les solutions données, demandez de l'aide dans le [DS<sup>(i)</sup>Mode Hacking !](https://discord.gg/yD3spjv) Serveur Discord.

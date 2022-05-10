@@ -6,14 +6,14 @@ Dieser Abschnitt ist zum dumpen von Spielkarten mit GodMode9i, damit sie mit Emu
 
 ## Voraussetzungen
 - Die Spielkarte vom Spiel, das du dumpen willst
-- Deine Nintendo-DSi-Konsole, auf der [Unlaunch](installing-unlaunch) istalliert ist
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
 
 ## Anweisungen
 ### Abschnitt I - Vorbereitung der SD-Karte
 
 ::: tip
 
-Verwendest du ein Windows-, Linux- oder macOS-Gerät? Nimm [Lazy DSi Downloader](lazy-dsi-downloader) her, um deine SD-Karte automatisch einzurichten.
+Verwendest du ein Windows-, Linux- oder macOS-Gerät? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 

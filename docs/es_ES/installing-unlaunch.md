@@ -42,7 +42,7 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
    - Si aparecen varias opciones con el nombre `TWiLight Menu++`, escoge la opción en la que se muestra `BOOT.NDS` al final de la ruta en la pantalla inferior
       - Esto sucede debido a que tienes instalada una versión antigua de TWiLight Menu++. A menos que lo estés haciendo a propósito, sugerimos que [actualices tu instalación](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 1. Entra en la configuración de TWiLight Menu++
-   - Si no has cambiado tu tema, sigue los pasos en la página "Lanzar el Exploit". De cualquier otra forma, consulta el manual de TWiLight Menu++
+   - Por defecto, puedes entrar en los ajustes presionando `SELECT` y tocando el pequeño botón con un ícono de DS en la parte inferior de la pantalla táctil. Si has cambiado el tema, consulta el manual de TWiLight Menu++ para saber como entrar en los ajustes
 1. Presiona <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd class="face">X</kbd>/<kbd class="face">Y</kbd> hasta que llegues a la sección `Ajustes de Unlaunch`.
 1. Si quieres cambiar el la imágen que Unlaunch utiliza como fondo. selecciona la opción `Fondo` y elige el que quieras.
    - Si quieres crear tu propio fondo para Unlaunch, consulta la [página en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds).

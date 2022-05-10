@@ -94,6 +94,12 @@ If the test shows the result `Test finished without errors`, your SD card is hea
 
 :::: tab name="Linux" os="other"
 
+::: tip
+
+If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
+
+:::
+
 ### 第一节 - 格式化您的 SD 卡
 1. 请确保你的SD卡 **没有** 插入到你的Linux设备
 1. 启动Linux终端
@@ -154,7 +160,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -260,7 +266,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -270,7 +276,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: tip
 
-你现在可以恢复你的SD卡数据并继续此教程
+You can now restore the contents of your SD card and continue.
 
 :::
 

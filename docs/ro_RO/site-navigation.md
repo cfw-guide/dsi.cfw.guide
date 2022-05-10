@@ -3,21 +3,21 @@ title: Navigarea Site-ului
 ---
 
 ## Procesul principal al ghidului
-- [Lansarea Exploit-ului](launching-the-exploit)
-- [Creerea Backup-ului NAND](dumping-nand)
-- [Instalarea Unlaunch](installing-unlaunch)
+- [Lansarea Exploit-ului](launching-the-exploit.html)
+- [Creerea Backup-ului NAND](dumping-nand.html)
+- [Instalarea Unlaunch](installing-unlaunch.html)
 
 ## Secțiuni suplimentare
-- [Setarea Cardului SD](sd-card-setup)
-- [Lazy DSi Downloader](lazy-dsi-downloader)
-- [Extensii de fișiere (Windows)](file-extensions-%28windows%29)
-- [Creere backup-uri Carduri de Joc](dumping-game-cards)
-- [Backup-uri DSiWare](dsiware-backups)
-- [Dezinstalarea Unlaunch](uninstalling-unlaunch)
-- [Restaurare NAND](restoring-nand)
+- [Setarea Cardului SD](sd-card-setup.html)
+- [Lazy DSi Downloader](lazy-dsi-downloader.html)
+- [Extensii de fișiere (Windows)](file-extensions-windows.html)
+- [Creere backup-uri Carduri de Joc](dumping-game-cards.html)
+- [Backup-uri DSiWare](dsiware-backups.html)
+- [Dezinstalarea Unlaunch](uninstalling-unlaunch.html)
+- [Restaurare NAND](restoring-nand.html)
 
 ## Alte pagini ale website-ului
 - [Acasă](.)
-- [Întrebări Puse Frecvent (FAQ)](faq)
-- [Troubleshooting](troubleshooting)
-- [Mulțumiri](credits)
+- [Întrebări Puse Frecvent (FAQ)](faq.html)
+- [Troubleshooting](troubleshooting.html)
+- [Mulțumiri](credits.html)

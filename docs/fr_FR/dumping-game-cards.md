@@ -6,14 +6,14 @@ Cette section permet d'extraire des jeux de leur cartouche en utilisant GodMode9
 
 ## Prérequis
 - La cartouche de jeu du titre que vous souhaitez extraire
-- Votre Nintendo DSi avec [Unlaunch](installing-unlaunch) installé
+- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
 
 ## Instructions
 ### Section I - Configuration de la carte SD
 
 ::: tip
 
-Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader) pour configurer automatiquement votre carte SD.
+Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader.html) pour configurer automatiquement votre carte SD.
 
 :::
 
@@ -21,12 +21,12 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 1. Extrayez `GodMode9i.nds` de l'archive GodMode9i et copiez-le n'importe où sur votre carte SD
 
 ### Section II - Instructions Nintendo DSi
-1. Launch GodMode9i
-1. Ensure the Game Card is inserted into the console
-1. Select the "NDS GAMECARD" option in GodMode9i
-1. Select what you want to dump
-   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
-1. Repeat steps 2-4 for all Game Cards you wish to dump
+1. Lancez GodMode9i
+1. Assurez-vous que la carte de jeu est insérée dans la console
+1. Sélectionnez l'option "NDS GAMECARD" dans GodMode9i
+1. Sélectionnez ce que vous voulez dumper
+   - Les options "Trimmed" pour la ROM dumperont un fichier plus petit qui peut économiser de l'espace sur la carte SD, mais elles ne fonctionneront pas pour la plupart des correctifs tels que les hacks de ROM
+1. Répétez les étapes 2 à 4 pour toutes les cartes de jeu que vous souhaitez dumper
 
 ::: tip
 

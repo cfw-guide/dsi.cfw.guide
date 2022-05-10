@@ -69,7 +69,7 @@ Questo processo esegue la scansione della scheda SD per correggere eventuali err
 ### Sezione IV - Controllo lettura/scrittura della scheda SD
 
 1. Scarica ed estrai [l'archivio h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) ovunque sul tuo computer
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+   - Se il link qui sopra non ti funziona, scarica [da archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Può anche essere estratto su un dispositivo esterno purché quel dispositivo esterno non sia la scheda SD
 1. Con la scheda SD inserita nel computer, esegui `h2testw.exe`
 1. Seleziona in quale lingua vuoi vedere h2testw
@@ -93,6 +93,12 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 ::::
 
 :::: tab name="Linux" os="other"
+
+::: tip
+
+Se TWiLight Menu++ non riesce ad avviarsi dopo aver seguito questo metodo, si prega di seguire il metodo di Windows, riavviando su Windows oppure tramite esecuzione di una Windows Virtual Machine
+
+:::
 
 ### Sezione I - Formattazione della scheda SD
 1. Assicurati che la tua scheda SD **non sia** inserita nella tua macchina Linux
@@ -148,13 +154,13 @@ ___
 
 ::: tip
 
-Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua scheda SD è buona e puoi eliminare tutti i file `.h2w` dalla scheda SD.
+Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua scheda SD va bene e puoi eliminare tutti i file `.h2w` dalla scheda SD.
 
 :::
 
 ::: danger
 
-Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
+Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o danneggiata e potrebbe essere necessario sostituirla!
 
 :::
 
@@ -166,13 +172,13 @@ Qualora il test dovesse mostrare qualsiasi altro risultato, la tua scheda SD pot
 
 ::: tip
 
-Questa sezione serve per formattare la scheda SD secondo le specifiche della SD Card Association. Questo serve a risolvere problemi che potrebbero verificarsi con l'esecuzione di applicazione homebrew.
+Questa sezione riguarda la formattazione della scheda SD secondo le specifiche della SD Card Association. Può risolvere moltissimi problemi che potrebbero verificarsi con l'esecuzione di applicazioni homebrew.
 
 :::
 
 ::: danger
 
-Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo processo. _Devi_ seguire la Sezione II per riformattare in `FAT32`.
+Tutte le schede SD da 64GB o più grandi saranno formattate in `exFAT` con questo processo. _Devi_ seguire la Sezione II per riformattare in `FAT32`.
 
 :::
 
@@ -186,11 +192,11 @@ Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo proce
 
 ### Sezione II - Formattazione della scheda SD con Utility Disco
 
-Questa è una sezione di formattazione di schede SD più grandi di 32GB a FAT32.
+Questa sezione serve per formattare schede SD più grandi di 32GB in FAT32.
 
 ::: tip
 
-Se la tua scheda SD ha una capacità di 32 GB o inferiore, salta alla sezione III.
+Se la tua scheda SD ha una capacità di 32GB o minori, salta questa sezione e vai alla Sezione III.
 
 :::
 
@@ -254,7 +260,7 @@ ___
 
 ::: tip
 
-Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua scheda SD è buona e puoi eliminare tutti i file `.h2w` dalla scheda SD.
+Se il test mostra `Data LOST: 0.00 Byte (0 sectors)` come risultato, la tua scheda SD va bene e puoi eliminare tutti i file `.h2w` dalla scheda SD.
 
 :::
 
@@ -270,7 +276,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ::: tip
 
-Ora puoi ripristinare il contenuto della tua scheda SD e continuare.
+Ora è possibile ripristinare il contenuto della scheda SD e continuare.
 
 :::
 

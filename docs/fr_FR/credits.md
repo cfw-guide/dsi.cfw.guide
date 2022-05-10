@@ -13,7 +13,7 @@ Si vous aimez ce qu'ils ont fait, envisagez de faire un don (s'ils ont un lien d
 - découvreur et développeur des exploits de l'Appareil photo Nintendo DSi et Flipnote Studio
 - [WinterMute](https://devkitpro.org/support-devkitpro) : responsable de la chaîne d'outils de développement DS Homebrew et a utilisé l'exploit ugopwn Flipnote Studio pour faire Flipnote Lenny (supporte tous les firmwares et toutes les régions)
 - [nocash](http://problemkaputt.de/donate.htm) : développeur de Unlaunch
-- [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++ & GodMode9i
+- [RocketRobz](https://github.com/RocketRobz): Développeur de TWiLight Menu++ & GodMode9i
 - [zoogie](https://github.com/zoogie) : développeur de dumpTool, fonctionnant à partir de Memory Pit pour prendre en charge tous les firmwares et toutes les régions
 - [Plailect](https://github.com/Plailect) : création du guide de moddage 3DS original dont il s'est inspiré
 

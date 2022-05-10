@@ -1,3 +1,7 @@
+const backups = 'Backups';
+const guide = 'Guide';
+const extras = 'Extras';
+const other = 'Other';
 module.exports = {
 	selectLanguageName: 'Română',
 	backToHome: 'Du-mă acasă',
@@ -12,7 +16,7 @@ module.exports = {
 		'troubleshooting',
 		'faq',
 		{
-			text: 'Backup-uri',
+			text: backups,
 			children: [
 				'dsiware-backups',
 				'dumping-game-cards',
@@ -21,35 +25,101 @@ module.exports = {
 		},
 		'uninstalling-unlaunch'
 	],
-	sidebar: [
-		'index.html',
-		{
-			text: 'Ghid',
-			children: [
-				'launching-the-exploit',
-				'dumping-nand',
-				'installing-unlaunch'
-			]
-		},
-		{
-			text: 'Extra',
-			children: [
-				'dsiware-backups',
-				'dumping-game-cards',
-				'file-extensions-(windows)',
-				'restoring-nand',
-				'sd-card-setup',
-				'uninstalling-unlaunch'
-			]
-		},
-		{
-			text: 'Altele',
-			children: [
-				'faq',
-				'troubleshooting',
-				'credits',
-				'site-navigation'
-			]
-		}
-	]
+	sidebar: {
+		'/': [
+			'index.html',
+			{
+				text: guide,
+				children: [
+					'get-started',
+					'launching-the-exploit',
+					'dumping-nand',
+					'installing-unlaunch'
+				]
+			},
+			{
+				text: extras,
+				children: [
+					'dsiware-backups',
+					'dumping-game-cards',
+					'file-extensions-windows',
+					'restoring-nand',
+					'sd-card-setup',
+					'uninstalling-unlaunch'
+				]
+			},
+			{
+				text: other,
+				children: [
+					'faq',
+					'troubleshooting',
+					'credits',
+					'site-navigation'
+				]
+			}
+		],
+		'/get-started.html': [
+			'index.html',
+			{
+				text: guide,
+				children: [
+					'get-started',
+					'launching-the-exploit',
+					'launching-the-flipnote-exploit'
+				]
+			},
+			{
+				text: extras,
+				children: [
+					'dsiware-backups',
+					'dumping-game-cards',
+					'file-extensions-windows',
+					'restoring-nand',
+					'sd-card-setup',
+					'uninstalling-unlaunch'
+				]
+			},
+			{
+				text: other,
+				children: [
+					'faq',
+					'troubleshooting',
+					'credits',
+					'site-navigation'
+				]
+			}
+		],
+		'/launching-the-flipnote-exploit.html': [
+			'index.html',
+			{
+				text: guide,
+				children: [
+					'get-started',
+					'launching-the-flipnote-exploit',
+					'dumping-nand',
+					'installing-unlaunch'
+				]
+			},
+			{
+				text: extras,
+				children: [
+					'dsiware-backups',
+					'dumping-game-cards',
+					'file-extensions-windows',
+					'restoring-nand',
+					'sd-card-setup',
+					'uninstalling-unlaunch'
+				]
+			},
+			{
+				text: other,
+				children: [
+					'faq',
+					'troubleshooting',
+					'credits',
+					'site-navigation'
+				]
+			}
+		]
+	}
 };

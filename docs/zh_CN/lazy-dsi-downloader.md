@@ -9,7 +9,7 @@ title: Lazy DSi File Downloader（DSi懒人下载包）
 1. 打开你的任天堂DSi
 1. 启动到 Nintendo DSi 相机应用程序
 
-如果此时你在尝试进行教程时崩溃，那么你就不能使用Memory Pit漏洞. 请参阅[替代漏洞](alternate-exploits)。
+如果此时你在尝试进行教程时崩溃，那么你就不能使用Memory Pit漏洞. Please see [Alternate Exploits](alternate-exploits.html) instead.
 
 ## 设置指南
 

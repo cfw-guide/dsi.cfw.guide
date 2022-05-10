@@ -1,8 +1,8 @@
 ---
-title: Extraction de la NAND
+title: Dump de la NAND
 ---
 
-Cette page permet de sauvegarder de la NAND, qui est une copie des données sur le stockage interne de la Nintendo DSi. It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
+Cette page permet de sauvegarder de la NAND, qui est une copie des données sur le stockage interne de la Nintendo DSi. Elle peut être utilisée pour configurer hiyaCFW, ainsi que no$gba et melonDS pour l'émulation DSi.
 
 ::: tip
 
@@ -14,18 +14,20 @@ Il est fortement recommandé de le faire. Une sauvegarde de la NAND peut être u
 
 ::: tip
 
-Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader) pour configurer automatiquement votre carte SD.
+Si vous avez déjà téléchargé dumpTool dans une autre section de ce guide, vous pouvez sauter cette section.
 
 :::
 
 1. Téléchargez la dernière version de [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
 1. Placez `dumpTool.nds` n'importe où sur votre carte SD
 
-## Section II - Extraction de la NAND
+
+## Section II - Dump de la NAND
+
 1. Lancez `dumpTool` via TWiLight Menu++
-1. Appuyez sur le bouton <kbd class="face">A</kbd> de votre Nintendo DSi pour commencer à extraire votre NAND
-   - Une sauvegarde de la NAND prend environ 7 minutes, en général
-1. Lorsque la sauvegarde de la NAND est terminée, cliquez sur le bouton <kbd>START</kbd> de votre Nintendo DSi pour quitter dumpTool
+1. Appuyez sur le bouton <kbd class="face">A</kbd> de votre Nintendo DSi pour commencer à dumper votre NAND
+   - Une sauvegarde de la NAND prend, généralement, 7 minutes environ
+1. Lorsque la sauvegarde de la NAND est terminée, pressez le bouton <kbd>START</kbd> de votre Nintendo DSi pour quitter dumpTool
 1. Éteignez votre console et réinsérez votre carte SD dans votre périphérique
 1. Stockez cette sauvegarde dans un endroit sûr, là où vous ne la perdrez pas
    - Si possible, faites plusieurs sauvegardes sur différents périphériques de stockage
@@ -33,12 +35,12 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 
 ::: warning
 
-Le hachage SHA1 de `nand.bin` ne correspondra pas à celui stocké dans `nand.bin.sha1`. Ceci est dû au fait que dumpTool ajoute des données supplémentaires, connues sous le nom de pied de page no$gba, au fichier `nand.bin` après le calcul du hachage SHA1. Vous pouvez utiliser le [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) pour créer une copie sans le pied de page.
+Le hachage SHA1 de `nand.bin` ne correspondra pas à celui stocké dans `nand.bin.sha1`. Ceci est dû au fait que dumpTool ajoute des données supplémentaires, connues comme un pied de page no$gba, au fichier `nand.bin` après le calcul du hachage SHA1. Vous pouvez utiliser [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) pour créer une copie sans le pied de page.
 
 :::
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch) (Optional, not compatible with Nintendo DSi development consoles)
+Continuer vers [Installation d'Unlaunch](installing-unlaunch.html) (optionnel)
 
 :::

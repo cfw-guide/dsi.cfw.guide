@@ -24,40 +24,31 @@ Aplicațiile [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) su
 
 Homebrew poate rula gratuit pe toate consolele Nintendo DSi, indiferent de versiunea firmware sau regiune. Tot ce-ți trebuie este un punct de intrare și un card SD pentru a-ți stoca aplicațiile homebrew. Punctul de intrare principal folosit în acest ghid se numește Memory Pit, dar există și alte puncte de intrare pe care le poți folosi dacă Memory Pit este inutilizabil.
 
-## Ce va face acest ghid sistemului meu?
+## What can I do by modding my system?
 
-Ține minte că ghidul este structurat pe o traiectorie liniară, dar depinde de cât de departe vrei să mergi cu modificarea consolei tale.
+- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
+- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
+- Run old-time classics using various emulators
+- Use normally incompatible flashcards
+- Redirect your NAND to the SD card using hiyaCFW
+- Watch your favorite movies using MPEG4Player
+- Display an image (referred to as the boot splash) on system launch
+- Play homebrew games
 
-- Noi vom seta un punct de intrare pentru a lansa aplicații de bază homebrew prin Menory Pit, exploit-ul pentru aplicația Nintendo DSi Camera
-- Vom lua apoi copia NAND, ce este folositoare ca un punct de restaurare în cazul în care se va întâmpla ceva rău mai târziu
-- În sfârșit, pentru utilizatorii care vor acces la toate capacitățile consolei DSi vom trece prin acestea prin instalarea Unlaunch. Unlaunch permite homebrew să ruleze cu mai multe permisiuni (precum accesul la Slot-1) și la pornirea sistemului
-   - Instalarea Unlaunch îți va modifica NAND-ul, și în cazuri extreme particulare să aibă loc un **brick**. Dacă nu vrei să riști brick-ul, te poți opri după ce ai creat o copie NAND
+## Where can I find homebrew applications?
 
-## Ce pot face dacă îmi modific sistemul?
+- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
 
-- Să rulezi backup-uri de jocuri Nindendo DS(i) sau ROM hack-uri de pe cardul SD direct de pe DSi fără a necesita un flashcard
-- Să joci orice joc DSiWare (din afara regiunii sau/și exclusive pe 3DS) de pe cardul tău SD
-- Să intri în aplicații homebrew și DSiWare prin apăsarea lungă a unor butoane specifice când pornești consola Nintendo DSi
-- Să rulezi jocuri vechi clasice folosind emulatoare variate
-- Să rulezi flashcard-uri incompatibile
-- Să-ți redirecționezi NAND-ul pe cardul SD folosind hiyaCFW
-- Să te uiți la filmele tale preferate folosind MPEG4Player
-- Să afișezi o imagine (numită boot splash) la pornirea sistemului
-- Să rulezi jocuri homebrew
+## What should I know before starting?
 
-## Unde pot găsi aplicații homebrew?
-
-- [Universal-DB](https://db.universal-team.net/ds) are majoritatea aplicațiilor homebrew moderne, cu sortare și căutare frumoase pentru a fi conformat cu ceea ce a fost actualizat recent
-- [Gamebrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) are multe jocuri vechi homebrew, dar multe vor rula doar pe flashcard-uri
-
-## Ce trebuie să știu înainte de a începe?
-
-- Pe Windows, îți recomandă să [arăți extensiunile fișierelor](file-extensions-%28windows%29) dacă folosești Exploratorul de Fișiere implicit
-- Singurul risc de brick vine de la instalarea Unlaunch, iar riscul de brick este minim
-- Dacă nu ai experiență cu copierea fișierelor pe un card SD, avem unelte de ajutor la dispoziția ta
+- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
+- The only brick risk comes from installing Unlaunch, and the brick risk is minimal
+- If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
 
-Continuă la [Lansarea Exploit-ului](launching-the-exploit)
+Continue to [Get Started](get-started.html)
 
 :::
