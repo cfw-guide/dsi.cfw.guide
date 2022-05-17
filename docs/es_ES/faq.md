@@ -17,7 +17,7 @@ Ventajas:
 Desventajas:
 - Requiere abir la aplicación Cámara DSi cada vez que quieras acceder a aplicaciones homebrew
 - Incompatible con ciertos títulos en modo DSi y homebrew debido a la que la WRAM sólo se abre en la CPU ARM7, y que algunas direcciones de memoria pasados los 4MB en la RAM estan protegidos
-- El acceso a los cartuchos en Slot-1 (la ranura detrás de la consola) está prohibido
+- Las aplicaciónes homebrew no pueden acceder a la runara Slot-1 (donde van los cartuchos)
 - El acceso al procesador de señal digital (DSP) está prohibido, lo que resulta en sonido de baja calidad en GBARunner2
 - Las fotos en la tarjeta SD no se pueden ver en la aplicación Cámara DSi mientras Memory Pit esté instalado, ya que el álbum es el detonante del exploit
 
@@ -30,7 +30,7 @@ Ventajas:
 Desventajas:
 - Requiere Flipnote Studio
 - Requiere abrir Flipnote Studio cada vez que quieras acceder a aplicaciones homebrew, lo cual es un poco más lento que usar Memory Pit
-- El acceso a los cartuchos en Slot-1 (la ranura detrás de la consola) está prohibido
+- Las aplicaciónes homebrew no pueden acceder a la runara Slot-1 (donde van los cartuchos)
 
 ### Unlaunch
 Ventajas:

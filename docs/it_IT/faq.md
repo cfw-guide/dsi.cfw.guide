@@ -17,7 +17,7 @@ Pro:
 Contro:
 - Richiede di aprire l'app Fotocamera Nintendo DSi ogni volta che si desidera accedere all'homebrew
 - Non è compatibile con alcuni titoli e app homebrew in modalità DSi a causa della WRAM che è accessibile solo dalla CPU ARM7 e di alcune parti della memoria dopo i primi 4 MB che sono protetti da scrittura
-- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato
+- Access to Slot-1 (the DS Game Card) is blocked in homebrew
 - L'accesso al DSP è bloccato e ciò comporta un peggioramento del suono in GBARunner2
 - Le foto sulla scheda SD non possono essere visualizzate tramite l'applicazione Fotocamera Nintendo DSi mentre Memory Pit è installato, dato che ciò attiverebbe l'exploit
 
@@ -30,7 +30,7 @@ Pro:
 Contro:
 - Richiede Flipnote Studio
 - Richiede di aprire Flipnote Studio ogni volta che si desidera accedere all'homebrew, e ciò richiede poco più tempo di Memory Pit
-- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato
+- Access to Slot-1 (the DS Game Card) is blocked in homebrew
 
 ### Unlaunch
 Pro:

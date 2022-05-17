@@ -17,7 +17,7 @@ Előnyök:
 Hátrányok:
 - Szükség van a DSi Camera betöltésére minden alkalommal, amikor a homebrew-okat szeretnéd elérni
 - Inkompatibilis bizonyos DSi módú címekkl és homebrew-va azért mert a WRAM csak az ARM7 CPU számára nyitott és a memória egy része az első 4 MB után írásvédett
-- Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt
+- Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt homebrew esetén
 - A hozzáférés a DSP-hez blokkolt, ezért rosszabb a hang a GBARunner2-ben
 - A fényképek az SD kártyán nem megtekinthetők a DSi Camera alkalmazásban, amíg a Memory Pit telepített, mert ez a trigger az exploithoz
 
@@ -30,7 +30,7 @@ Előnyök:
 Hátrányok:
 - Kell hozzá Flipnote Studio
 - Szükség van a Flipnote Studio betöltésére minden alkalommal, amikor a homebrew-okat szeretnéd elérni, ami kicsit több időt igényel, mint a Memory Pit
-- Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt
+- Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt homebrew esetén
 
 ### Unlaunch
 Előnyök:

@@ -17,7 +17,7 @@ Pros:
 Cons:
 - Requires loading the DSi Camera application every time you want to access homebrew
 - Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
-- Access to Slot-1 (the DS Game Card) is blocked
+- Access to Slot-1 (the DS Game Card) is blocked in homebrew
 - Access to the DSP is blocked resulting in worse sound in GBARunner2
 - Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
 
@@ -30,7 +30,7 @@ Pros:
 Cons:
 - Requires Flipnote Studio
 - Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked
+- Access to Slot-1 (the DS Game Card) is blocked in homebrew
 
 ### Unlaunch
 Pros:
