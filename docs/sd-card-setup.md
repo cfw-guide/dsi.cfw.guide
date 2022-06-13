@@ -50,7 +50,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
    - Click on the picture on the website to download the app
 1. Run GUIFormat with Administrator permissions
 1. Select your drive letter
-1. Set your `Allocation size unit` it to `32768`
+1. Set the `Allocation size unit` to `32768`
    - If this is too large for your SD, set it to the highest one that works
 1. Make sure the `Quick Format` check box is checked
 1. Start the format process
