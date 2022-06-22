@@ -32,7 +32,7 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 - Run old-time classics using various emulators
 - Use normally incompatible flashcards
 - Redirect your NAND to the SD card using hiyaCFW
-- Watch your favorite movies using MPEG4Player
+- Watch your favorite movies using tuna-viDS
 - Display an image (referred to as the boot splash) on system launch
 - Play homebrew games
 
