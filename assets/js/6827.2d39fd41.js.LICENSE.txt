@@ -2,7 +2,7 @@
  * @license MIT */
 
 /*!
-  * vue-router v4.0.16
+  * vue-router v4.1.1
   * (c) 2022 Eduardo San Martin Morote
   * @license MIT
   */
