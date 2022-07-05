@@ -50,7 +50,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - This will also keep the region locking and card whitelist, meaning that some flashcards won't be usable from the DSi Menu
 1. Exit TWiLight Menu++ Settings
 1. In the file navigation menu, launch `Unlaunch DSi Installer`
-1. Select the install option
+1. Select the "install now" option
    - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. When completed, reboot your system
 
