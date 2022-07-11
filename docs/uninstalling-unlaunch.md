@@ -21,9 +21,10 @@ To reduce the chances of bricking, make sure that you have not installed any ill
 
 ::: warning
 
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller, because there is a chance that it will brick the console. Please see below for information on uninstalling it properly.
+When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Please see below for information on uninstalling it properly.
 
 :::
 
-Once you have reviewed the above information, proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through flashing the NAND backup you made during [Dumping NAND](dumping-nand.html).
-- If you are no longer in possession of a NAND backup from before you installed Unlaunch, follow [Dumping NAND](dumping-nand.html) and proceed with [Restoring a NAND Backup](restoring-nand.html). There are instructions for users who have Unlaunch installed on their NAND backup
+Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND bacup, then proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through uninstalling Unlaunch from the NAND backup and flashing that to your console.
+
+If you are not able to use no$gba or get an error after uninstalling Unlaunch in no$gba it is also possible to flash a NAND backup made prior to installing Unlaunch if you still have one, however it is recommended to try using a NAND backup that previously had Unlaunch first. This will make recovery significantly easier in the case of a brick requiring a hardmod as Unlaunch leaves the no$gba footer embedded in the NAND even when uninstalled.
