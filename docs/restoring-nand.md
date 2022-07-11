@@ -65,7 +65,7 @@ Follow this if you dumped your NAND backup after you installed Unlaunch and you 
 1. Once complete, choose `Power down`
 1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
-If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead.
+If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
 
 ## Flashing your NAND backup (Software)
 
