@@ -20,6 +20,7 @@ Cons:
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 - Access to the DSP is blocked resulting in worse sound in GBARunner2
 - Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
+     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
 
 ### Flipnote Lenny
 Pros:
