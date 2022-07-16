@@ -63,6 +63,7 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
 
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
    - This should launch the Unlaunch Filemenu
+   - If only the background is shown, or if no files from the SD card are shown (ex. `TWiLight Menu++`), then you'll need to [reformat the SD card](sd-card-setup.html)
 1. Navigate to `OPTIONS`, and look at the available options
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
    - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew, the Slot-1 card, wifiboot, or Unlaunch's Filemenu
