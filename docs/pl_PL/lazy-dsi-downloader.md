@@ -9,17 +9,16 @@ title: Lazy DSi Downloader
 1. Włącz swój Nintendo DSi
 1. Uruchom aplikację Nintendo DSi Camera
 
-Jeśli w tym momencie pojawi się samouczek i podczas jego wykonywania nastąpi awaria, to nie możesz użyć Memory Pit. Please see [Alternate Exploits](alternate-exploits.html) instead.
+If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
 
 ## Poradnik konfiguracji
 
-1. Jeśli korzystasz z systemu Windows, pobierz & najnowszą wersję [7-Zip](https://www.7-zip.org/download.html)
-   - To nie będzie działać z żadnym innym narzędziem jak WinRAR. Pobieranie plików Lazy DSi opiera się na samym 7-Zipie, a nie ogólnym ekstraktorze archiwum
-1. Pobierz najnowszą wersję [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) dla systemu operacyjnego
-1. Uruchom go za pomocą instrukcji wymienionych na stronie wydania
-1. Wciśnij Następny przycisk
-   - Nie jest wymagane przeczytanie tekstu na wstępie
-1. Jeśli w trakcie weryfikacji wystąpił błąd, należy wyłączyć opcję "Memory Pit"
-1. Wypełnij pola "Pobierz GodMode9i" i "Pobierz Unlaunch"
-   - Możesz wybrać dowolną z pozostałych aplikacji homebrew w `Additional homebrew...`, ale nie jest to obowiązkowe
-1. Poczekaj na pobranie wszystkiego, a następnie naciśnij Zakończ
+1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
+1. Launch it via the instructions for your operating system listed in the release page
+1. Hit the Next button
+   - The intro text isn't mandatory to read
+1. If your Nintendo DSi crashed during the verification steps above, toggle off the Memory Pit option
+   - As for which exploit to use, please visit our [Alternative Exploits](alternate-exploits.html) page
+1. Hit the check boxes for "Download latest GodMode9i version?"
+   - Feel free to select any of the other homebrew applications in `Click to add Additional homebrew...`, but this is not mandatory
+1. Wait for everything to download, then hit Finish

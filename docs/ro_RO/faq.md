@@ -16,10 +16,11 @@ Pros:
 
 Cons:
 - Requires loading the DSi Camera application every time you want to access homebrew
-- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU and some memory past the first 4 MB being write protected
+- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 - Access to the DSP is blocked resulting in worse sound in GBARunner2
 - Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
+     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
 
 ### Flipnote Lenny
 Pros:
@@ -78,7 +79,7 @@ Other homebrew might use other methods to update.
 ## Can I change my Nintendo DSi's region?
 Yes, there are a few different methods depending on what you want to change:
 - The safest and simplest method is to simply install TWiLight Menu++, it can use any official language and more without needing NAND modifications
-- If you want to actually change the system region and are using hiyaCFW, you can use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)
+- If you want to actually change the system region and are using hiyaCFW, you can use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
 
 ## What happened to the hiyaCFW installation guide?
@@ -99,3 +100,9 @@ Generally, yes, with two exceptions:
 
 ## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Should I use a previous version instead?
 The Unlaunch page has not been updated since version 2.0 was released, which was over two years ago. The vast majority of users experience no issues with this version, so it is considered safe.
+
+## How do I install DSiWare?
+There are three ways to play DSiWare on a DSi:
+- Simply run the ROM from TWiLight Menu++, this is the simplest and the only limit is the size of your SD card, however there are some minor compatibility issues
+- Install [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), then install the DSiWare using either [NTM](https://github.com/Epicpkmn11/NTM/releases) or [TMFH](https://github.com/JeffRuLz/TMFH/releases), as this is the actual DSi Menu this has a limit of 39 titles, but compatibility is perfect
+- Install directly to the SysNAND DSi Menu using [NTM](https://github.com/Epicpkmn11/NTM/releases), this also has perfect compatibility, but the 39 title and 1024 Block (128 MiB) limits both apply and there is an extremely minor brick risk due to writing to the internal NAND

@@ -50,7 +50,7 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
    - Questo manterrà pure il region lock e la whitelist delle cartucce, il che significa che alcune flashcard non saranno utilizzabili nel menu DSi
 1. Esci dalle impostazioni di TWiLight Menu++
 1. Nel menu di navigazione, avvia `Unlaunch DSi Installer`
-1. Selezionare l'opzione di installazione
+1. Select the "install now" option
    - Se Unlaunch si blocca a `ERROR: MISMATCH IN FAT COPIES`, si prega di dare un'occhiata alla pagina [Risoluzione dei problemi](troubleshooting.html)
 1. Una volta completato, riavvia il sistema
 
@@ -63,6 +63,7 @@ Attualmente, Unlaunch apre il suo menu all'avvio di default, ma può essere camb
 
 1. Accendi la console tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
    - Si dovrebbe avviare il menu di Unlaunch
+   - If only the background is shown, or if no files from the SD card are shown (ex. `TWiLight Menu++`), then you'll need to [reformat the SD card](sd-card-setup.html)
 1. Vai a `OPTIONS`, e guarda le opzioni disponibili
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> è stato fatto in codifica fissa per avviarsi nel menu di Unlaunch, e perciò non può essere modificato
    - Le opzioni `NO BUTTON` e `BUTTON A /B / X / Y` possono essere impostate come preferisci e sceglieranno come caricare il tuo DSi all'avvio a seconda dei pulsanti che vengono premuti. Puoi selezionare qualsiasi DSiWare, homebrew, la scheda Slot-1, wifiboot, o il menu di Unlaunch
@@ -84,7 +85,7 @@ Questa sezione è opzionale e serve solo per mantenere la scheda SD ordinata.
 ::: tab name="Memory Pit" default
 
 - Elimina il file `sd:/private/ds/app/484E494A/pit.bin` dalla tua scheda SD
-   - Se hai fatto il backup di un `pit.bin` esistente, rimetillo a posto ora
+   - If `tip.bin` still exists, then rename it back to `pit.bin`
 - Puoi ripristinare la cartella `DCIM` che era nella root della scheda SD, se questa cartella esisteva
 - Elimina il file `UNLAUNCH.DSI` dalla tua scheda SD
 

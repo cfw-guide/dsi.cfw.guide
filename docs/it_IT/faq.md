@@ -16,10 +16,11 @@ Pro:
 
 Contro:
 - Richiede di aprire l'app Fotocamera Nintendo DSi ogni volta che si desidera accedere all'homebrew
-- Non è compatibile con alcuni titoli e app homebrew in modalità DSi a causa della WRAM che è accessibile solo dalla CPU ARM7 e di alcune parti della memoria dopo i primi 4 MB che sono protetti da scrittura
+- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 - L'accesso al DSP è bloccato e ciò comporta un peggioramento del suono in GBARunner2
-- Le foto sulla scheda SD non possono essere visualizzate tramite l'applicazione Fotocamera Nintendo DSi mentre Memory Pit è installato, dato che ciò attiverebbe l'exploit
+- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
+     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
 
 ### Flipnote Lenny
 Pro:
@@ -78,7 +79,7 @@ Altre app homebrew potrebbero usare altri metodi per essere aggiornate.
 ## Posso cambiare la regione del mio Nintendo DSi?
 Sì, ci sono alcuni metodi diversi a seconda di ciò che si desidera cambiare:
 - Il metodo più semplice e sicuro è quello di installare semplicemente TWiLight Menu++, può utilizzare qualsiasi lingua ufficiale e altre senza bisogno di modifiche della NAND
-- Se si desidera effettivamente cambiare la regione di sistema e si sta utilizzando hiyaCFW, è possibile utilizzare [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) di Yoti
+- If you want to actually change the system region and are using hiyaCFW, you can use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Infine, se si desidera cambiare la regione sulla NAND di sistema, è possibile utilizzare il [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) di Mighty Max
 
 ## Cosa è successo alla guida all'installazione di hiyaCFW?
@@ -99,3 +100,9 @@ Generalmente sì, ma con due eccezioni:
 
 ## La pagina di [Unlaunch](https://problemkaputt.de/unlaunch.htm) dice che la versione 2.0 non è notoriamente sicura. Dovrei usare una versione precedente?
 La pagina di Unlaunch non è stata aggiornata da quando è stata rilasciata la versione 2.0, più di due anni fa. La stragrande maggioranza degli utenti non hanno problemi con questa versione, ed è perciò considerata sicura.
+
+## How do I install DSiWare?
+There are three ways to play DSiWare on a DSi:
+- Simply run the ROM from TWiLight Menu++, this is the simplest and the only limit is the size of your SD card, however there are some minor compatibility issues
+- Install [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), then install the DSiWare using either [NTM](https://github.com/Epicpkmn11/NTM/releases) or [TMFH](https://github.com/JeffRuLz/TMFH/releases), as this is the actual DSi Menu this has a limit of 39 titles, but compatibility is perfect
+- Install directly to the SysNAND DSi Menu using [NTM](https://github.com/Epicpkmn11/NTM/releases), this also has perfect compatibility, but the 39 title and 1024 Block (128 MiB) limits both apply and there is an extremely minor brick risk due to writing to the internal NAND

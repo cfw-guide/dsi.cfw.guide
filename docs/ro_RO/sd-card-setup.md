@@ -2,7 +2,7 @@
 title: Setarea Cardului SD
 ---
 
-Această pagină îți va pregăti cardul SD pentru consola Nintendo DSi. În acest proces, vom formata cardul SD într-un format potrivit pentru Nintendo DSi și vom căuta erori pe card.
+This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
 ::: danger
 
@@ -29,7 +29,8 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 :::
 
 1. Descarcă ultima versiune a [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Acceptă Accordul de Licență cu Utilizatorul pentru a începe descărcarea
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Accept the End User License Agreement to start the download
 1. Rulează `SD Card Formatter Setup` (fișierul `.exe`) în fișierul `.zip` descărcat cu privilegii de Administator, după aceea instalează programul
 1. Rulează `SD Card Formatter` din Meniul de Start cu privilegii de Administrator
 1. Selectează-ți cardul SD
@@ -50,7 +51,7 @@ Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
    - Apasă pe imaginea de pe site pentru a descărca aplicația
 1. Rulează GUIFormat cu permisiuni de Administrator
 1. Selectează litera drive-ului
-1. Setează `Unitatea alocării mărimii` la `32768`
+1. Set the `Allocation size unit` to `32768`
    - Dacă este prea mare pentru cardul tău SD, setează-l la cea mai mare valoare care funcționează
 1. Asigură-te că `Quick Format` este bifat
 1. Începe procesul de formatare
@@ -111,12 +112,14 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Ține minte punctul de notare al dispozitivului. În exemplul de mai sus, a fost `mmcblk0p1`
-   - Dacă `RO` este setat la 1, asigură-te că butonul de blocare nu este în jos
+1. Take note of the device name. In our example above, it was `mmcblk0p1`
+  + Dacă `RO` este setat la 1, asigură-te că butonul de blocare nu este în jos
 1. Apasă CTRL + C pentru a ieși din meniu
 1. Urmează instrucțiunile conform capacității cardului SD:
-   - Mai mic de 2GB: Scrie `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 16` pentru a crea o singură partiție FAT16 cu dimensiune cluster de 32KB pe cardul SD
-   - Mai mare 4GB: Scrie `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` pentru a crea o singură partiție FAT32 cu dimensiune cluster de 32KB pe cardul SD
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+         - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+         - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### Secţiunea II – Utilizarea F3
 1. Descarcă și extrage [arhiva F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) oriunde pe calculatorul tău.

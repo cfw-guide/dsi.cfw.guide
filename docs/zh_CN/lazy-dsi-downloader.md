@@ -9,17 +9,16 @@ title: Lazy DSi File Downloader（DSi懒人下载包）
 1. 打开你的任天堂DSi
 1. 启动到 Nintendo DSi 相机应用程序
 
-如果此时你在尝试进行教程时崩溃，那么你就不能使用Memory Pit漏洞. Please see [Alternate Exploits](alternate-exploits.html) instead.
+If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
 
 ## 设置指南
 
-1. 如果您使用Windows，请下载 & 安装最新版本的 [7-Zip](https://www.7-zip.org/download.html)
-   - 您拥有的任何其他解压工具将不适用，如WinRAR。 Lazy DSi File Downloader 依赖于7-Zip 本身，一般的解压工具则不行
-1. 下载最新版本的 [Lazy DSi File Downloader](https://github. com/yourkalamity/lazy-dsi-file-downloader/releases)
-1. 按照发布页面中列出的说明启动Lazy Dsi Downloader
-1. 点击Next按钮
-   - Intro text不是必须阅读的
-1. 如果您的验证步骤出现崩溃，请切换Memory Pit 选项
-1. 点击"Download GodMode9i" 和 "Download Unlaunch"的复选框
-   - 在`Additional homebrew...`中自由选择自制程序, 但这不是必须的
-1. 等待所有下载，然后点击完成
+1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
+1. Launch it via the instructions for your operating system listed in the release page
+1. Hit the Next button
+   - The intro text isn't mandatory to read
+1. If your Nintendo DSi crashed during the verification steps above, toggle off the Memory Pit option
+   - As for which exploit to use, please visit our [Alternative Exploits](alternate-exploits.html) page
+1. Hit the check boxes for "Download latest GodMode9i version?"
+   - Feel free to select any of the other homebrew applications in `Click to add Additional homebrew...`, but this is not mandatory
+1. Wait for everything to download, then hit Finish

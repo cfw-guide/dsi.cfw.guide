@@ -2,7 +2,7 @@
 title: SD kártya telepítés
 ---
 
-Ez az oldal az SD kártyád előkészítéséről szól a Nintendo DSi-hez. A folyamat során formázzuk az SD kártyát úgy, hogy megfelelő legyen a Nintendo DSi-hez és ellenőrizzük a kártyát hibákra.
+This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
 ::: danger
 
@@ -29,7 +29,8 @@ Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. K
 :::
 
 1. Töltsd le az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) legfrissebb verzióját
-   - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Accept the End User License Agreement to start the download
 1. Futtasd az `SD Card Formatter Setup`-ot (az `.exe` fájlt) a letöltött `.zip` fájlból rendszergazda joggal a program telepítéséhez
 1. Futtasd az `SD Card Formatter`-t a Start menüből rendszergazda joggal
 1. Válaszd ki az SD kártyád
@@ -50,7 +51,7 @@ Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez
    - Kattints a képre a weboldalon, hogy letöltsd az appot
 1. Futtasd a GUIFormat-ot Adminisztrátor joggal
 1. Válaszd ki az SD kártyád betűjelét
-1. Állítsd be az `Allocation size unit`-ot `32768`-ra
+1. Set the `Allocation size unit` to `32768`
    - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
 1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
 1. Indíts el a formázást
@@ -111,12 +112,14 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Jegyezd fel az eszköz csatolási pontját. A fenti példában ez `mmcblk0` volt
-   - + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
+1. Take note of the device name. In our example above, it was `mmcblk0p1`
+  + + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
 1. Nyomj CTRL + C-t a menüből kilépéshez
 1. Kövesd az SD kártyád kapacitásának megfelelő lépéseket:
-   - 2GB vagy kisebb: Írd be a `sudo mkdosfs /dev/(eszköz csatolási pont fentebbről) -s 64 -F 16` parancsot egy FAT16 partíció létrehozásához 32 KB cluster mérettel az SD kártyán
-   - 4GB vagy nagyobb: Írd be a `sudo mkdosfs /dev/(eszköz csatolási pont fentebbről) -s 64 -F 32` parancsot egy FAT32 partíció létrehozásához 32 KB cluster mérettel az SD kártyán
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+         - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+         - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### II. rész - Az F3 használata
 1. Töltsd le és csomagold ki [az F3 archívot](https://github.com/AltraMayor/f3/archive/v7.2.zip) bárhova a számítógépeden.

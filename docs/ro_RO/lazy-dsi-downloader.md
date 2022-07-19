@@ -9,17 +9,16 @@ title: Lazy DSi Downloader
 1. Pornește-ți consola Nintendo DSi
 1. Lansează aplicația Nintendo DSi Camera
 
-Dacă în momentul de față primești un tutorial și un crash când încerci să-l urmezi, atunci nu poți folosi Memory Pit. Please see [Alternate Exploits](alternate-exploits.html) instead.
+If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
 
 ## Ghid de configurare
 
-1. Dacă ești pe Windows, descarcă & instalează ultina versiune a [7-Zip](https://www.7-zip.org/download.html)
-   - Aceasta nu va merge cu niciun alt extractor de arhive pe care îl ai, precum WinRAR. Lazy DSi File Downloader se bazează pe 7-Zip în sine, nu pe un extraxtor general de arhive
-1. Descarcă ultima versiune a [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) pentru sistemul tău de operare
-1. Lansează-l urmând instrucțiunile enumerate pe pagina de lansare
-1. Apasă butonul Next
-   - Textul de introducere nu este obligatoriu de citit
-1. Dacă ai avut un crash în pașii de verificare, oprește opțiunea Memory Pit
-1. Apasă căsuțele de verificare pentru "Download GodMode9i" și "Download Unlaunch"
-   - Puteți selecta orice altă aplicație homebrew în `Aditional homebrew...`, dar nu este obligatoriu
-1. Așteaptă până ce totul s-a descărcat, apoi apasă Finish
+1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
+1. Launch it via the instructions for your operating system listed in the release page
+1. Hit the Next button
+   - The intro text isn't mandatory to read
+1. If your Nintendo DSi crashed during the verification steps above, toggle off the Memory Pit option
+   - As for which exploit to use, please visit our [Alternative Exploits](alternate-exploits.html) page
+1. Hit the check boxes for "Download latest GodMode9i version?"
+   - Feel free to select any of the other homebrew applications in `Click to add Additional homebrew...`, but this is not mandatory
+1. Wait for everything to download, then hit Finish

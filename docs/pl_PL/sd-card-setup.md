@@ -2,7 +2,7 @@
 title: Konfiguracja karty SD
 ---
 
-Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. W tym poradniku, sformatujemy kartę SD do formatu odpowiedniego dla Nintendo DSi i sprawdzimy błędy karty.
+This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
 ::: danger
 
@@ -29,6 +29,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
    - Accept the End User License Agreement to start the download
 1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
@@ -50,7 +51,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
    - Kliknij na zdjęcie na stronie internetowej, aby pobrać aplikację
 1. Uruchom GUIFormat z uprawnieniami administratora
 1. Wybierz literę dysku
-1. Ustaw `Allocation size unit` na `32768`
+1. Set the `Allocation size unit` to `32768`
    - Jeśli jest on zbyt duży dla twojego SD, ustaw go na najwyższy, który działa
 1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
 1. Rozpocznij proces formatowania
@@ -111,12 +112,14 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Weź pod uwagę punkt montowania urządzenia. In the example above, it was `mmcblk0p1`
-   - Jeśli `RO` jest ustawione na 1, upewnij się, że przełącznik blokady nie jest przesunięty w dół
+1. Take note of the device name. In our example above, it was `mmcblk0p1`
+  + Jeśli `RO` jest ustawione na 1, upewnij się, że przełącznik blokady nie jest przesunięty w dół
 1. Naciśnij CTRL + C, aby wyjść z menu
 1. Follow the instructions relevant to your SD card's capacity:
-   - 2GB or lower: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 16` to create a single FAT16 partition with 32 KB cluster size on the SD card
-   - 4GB or higher: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+         - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+         - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### Sekcja II – Używanie F3
 1. Pobierz i rozpakuj [archiwum F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) w dowolnym miejscu na swoim komputerze.

@@ -9,17 +9,16 @@ title: Lazy DSi Downloader
 1. Accendi il tuo Nintendo DSi
 1. Apri l'applicazione Fotocamera Nintendo DSi
 
-Se a questo punto il tutorial crasha mentre cerchi di completarlo, allora non puoi utilizzare Memory Pit. Utilizza invece un [Exploit Alternativo](alternate-exploits.html).
+If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
 
 ## Guida di configurazione
 
-1. Se sei su Windows, scarica e installa la versione più recente di [7-Zip](https://www.7-zip.org/download.html)
-   - Questo non funzionerà con nessun altro estrattore di archivi che hai, come WinRAR. Il Lazy DSi File Downloader si basa su 7-Zip stesso, e non è un estrattore di archivi generale
-1. Scarica la versione più recente di [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) per il tuo sistema operativo
-1. Avvialo attraverso le istruzioni elencate nella pagina delle release
-1. Premi il pulsante "Next"
-   - La lettura del testo iniziale non è obbligatoria
-1. Se hai un crash durante gli step di verifica, disattiva l'opzione Memory Pit
-1. Premi le caselle "Download GodMode9i" e "Download Unlaunch"
-   - Sentiti libero di selezionare qualsiasi altra applicazione homebrew di `Additional homebrew...`, ma non è obbligatorio
-1. Aspetta che i download finiscano, poi premi "Finish"
+1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
+1. Launch it via the instructions for your operating system listed in the release page
+1. Hit the Next button
+   - The intro text isn't mandatory to read
+1. If your Nintendo DSi crashed during the verification steps above, toggle off the Memory Pit option
+   - As for which exploit to use, please visit our [Alternative Exploits](alternate-exploits.html) page
+1. Hit the check boxes for "Download latest GodMode9i version?"
+   - Feel free to select any of the other homebrew applications in `Click to add Additional homebrew...`, but this is not mandatory
+1. Wait for everything to download, then hit Finish

@@ -1,23 +1,23 @@
 ---
-title: Index du site
+title: Navigation du site
 ---
 
-## Étapes du guide principal
+## Processus du guide principal
 - [Lancement de l'exploit](launching-the-exploit.html)
-- [Extraction de la NAND](dumping-nand.html)
-- [Installation de Unlauch](installing-unlaunch.html)
+- [Dumping de la NAND](dumping-nand.html)
+- [Installation d'Unlaunch](installing-unlaunch.html)
 
 ## Sections complémentaires
 - [Configuration de la carte SD](sd-card-setup.html)
 - [Lazy DSi Downloader](lazy-dsi-downloader.html)
-- [Extensions de fichier (Windows)](file-extensions-windows.html)
-- [Extraire des cartouches de jeu](dumping-game-cards.html)
-- [Sauvegardes DSiWare](dsiware-backups.html)
-- [Désinstallation de Unlauch](uninstalling-unlaunch.html)
+- [Extensions de fichiers (Windows)](file-extensions-windows.html)
+- [Dumping des cartes de jeu](dumping-game-cards.html)
+- [Sauvegardes des DSiWare](dsiware-backups.html)
+- [Désinstallation d'Unlauch](uninstalling-unlaunch.html)
 - [Restauration de la NAND](restoring-nand.html)
 
-## Autres pages du site web
+## Autres pages du site Web
 - [Accueil](.)
 - [Foire Aux Questions (FAQ)](faq.html)
-- [Problèmes et dépannage](troubleshooting.html)
-- [Remerciements](credits.html)
+- [Dépannage](troubleshooting.html)
+- [Crédits](credits.html)

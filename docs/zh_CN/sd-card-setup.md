@@ -2,7 +2,7 @@
 title: SD 卡设置
 ---
 
-此页用于为您的Nintendo DSi准备SD卡。 在此过程中，我们将格式化SD卡以符合任天堂DSi的格式 ，并且检查卡中的错误。
+This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
 ::: danger
 
@@ -29,6 +29,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
    - Accept the End User License Agreement to start the download
 1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
@@ -50,7 +51,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
    - 点击网页上的图片以下载应用程序
 1. 使用管理员权限运行 GUIFormat
 1. 选择 SD 卡对应的盘符
-1. 将 `Allocation size unit`设置为 `32768`
+1. Set the `Allocation size unit` to `32768`
    - 如果这对于您的 SD卡来说太大的话，请将它尽可能设置为最高
 1. 确认 `Quick Format` 复选框已被勾选
 1. 开始格式化进程
@@ -111,12 +112,14 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. 注意设备的挂载点 In the example above, it was `mmcblk0p1`
-   - 如果 `RO` 设置为1, 确保锁定开关并没有滑下
+1. Take note of the device name. In our example above, it was `mmcblk0p1`
+  + 如果 `RO` 设置为1, 确保锁定开关并没有滑下
 1. 按 CTRL + C 键退出菜单
 1. Follow the instructions relevant to your SD card's capacity:
-   - 2GB or lower: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 16` to create a single FAT16 partition with 32 KB cluster size on the SD card
-   - 4GB or higher: Type in `sudo mkdosfs /dev/(device mount point from above) -s 64 -F 32` to create a single FAT32 partition with 32 KB cluster size on the SD card
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+         - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+         - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### 第 二 节 - 使用F3
 1. 下载并解压 [ F3 文件](https://github.com/AltraMayor/f3/archive/v7.2.zip) 到你的计算机的任意地方

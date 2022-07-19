@@ -2,7 +2,7 @@
 title: Preparacion de la tarjeta SD
 ---
 
-Esta página es para preparar la tarjeta SD para usarla con tu consola. En el proceso, formatearemos la tarjeta SD con un formato adecuado para la Nintendo DSi, y revisaremos la tarjeta en búsqueda de errores.
+En ésta página te mostraremos cómo preparar tu tarjeta SD para ser usada en tu dispositivo. En el proceso, formatearemos la tarjeta SD y haremos comprobación de errores.
 
 ::: danger
 
@@ -29,7 +29,8 @@ Cualquier tarjeta SD de 64GB o mayor será formateada a `exFAT` en este proceso.
 :::
 
 1. Descarga la última versión de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Aceptar el Acuerdo de Licencia de Usuario Final para iniciar la descarga
+   - Si el enlace de más arriba no funciona, descarga [desde archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Acepta el contrato de licencia de usuario final para iniciar la descarga
 1. Ejecuta `SD Card Formatter Setup` (el archivo `.exe` en el `.zip` descargado) con privilegios de administrador, e instala el programa
 1. Ejecuta `SD Card Formatter` desde el Menú de Inicio con privilegios de administrador
 1. Selecciona tu tarjeta SD
@@ -111,12 +112,14 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Toma nota del punto de montaje del dispositivo. En el ejemplo de arriba, era `mmcblk0p1`
-   - Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el interruptor para la protección de escritura no esté bajado
+1. Toma nota del nombre del dispositivo. En nuestro ejemplo, era `mmcblk0p1`
+  + Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el interruptor para la protección de escritura no esté bajado
 1. Haz la combinación de teclas CTRL + C para salir del menú
 1. Sigue las instrucciones pertinentes a la capacidad de tu tarjeta SD:
-   - 2GB o menor: Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 16` para crear una única particion de formato FAT16 con un tamaño de asignación de 32KB en la tarjeta SD
-   - 4GB o mayor: Escribe `sudo mkdosfs /dev/(nombre del punto de montaje del dispositivo) -s 64 -F 32` para crear una única particion de formato FAT32 con un tamaño de asignación de 32KB en la tarjeta SD
+    - 2GB o menos: `sudo mkdosfs /dev/(nombre del dispositivo) -s 64 -F 16`
+         - Este comando creará en tu tarjeta SD una única partición con formato FAT16 y asignación de página de 32KB
+    - 4GB o más: `sudo mkdosfs /dev/(nombre del dispositivo) -s 64 -F 32`
+         - Este comando creará en tu tarjeta SD una única partición con formato FAT32 y asignación de página de 32KB
 
 ### Sección II - Usar F3
 1. Descarga y extrae [el archivo F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) en cualquier lugar de tu ordenador.

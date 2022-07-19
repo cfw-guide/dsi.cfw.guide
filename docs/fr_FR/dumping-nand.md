@@ -1,5 +1,5 @@
 ---
-title: Dump de la NAND
+title: Dumping de la NAND
 ---
 
 Cette page permet de sauvegarder de la NAND, qui est une copie des données sur le stockage interne de la Nintendo DSi. Elle peut être utilisée pour configurer hiyaCFW, ainsi que no$gba et melonDS pour l'émulation DSi.
@@ -22,7 +22,7 @@ Si vous avez déjà téléchargé dumpTool dans une autre section de ce guide, v
 1. Placez `dumpTool.nds` n'importe où sur votre carte SD
 
 
-## Section II - Dump de la NAND
+## Section II - Dumping de la NAND
 
 1. Lancez `dumpTool` via TWiLight Menu++
 1. Appuyez sur le bouton <kbd class="face">A</kbd> de votre Nintendo DSi pour commencer à dumper votre NAND

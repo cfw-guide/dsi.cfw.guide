@@ -32,7 +32,7 @@ Las aplicaciones Homebrew pueden ejecutarse de forma gratuita en todas las conso
 - Ejecutar títulos de consolas clásicas utilizando distintos emuladores
 - Utilizar flashcarts normalmente incompatibles
 - Redirigir tu NAND a la tarjeta SD usando hiyaCFW
-- Ver tus películas favoritas utilizando MPEG4Player
+- Ve tus películas favoritas usando tuna-viDS
 - Mostrar una imagen (llamada boot splash) al inciar el sistema
 - Ejecutar aplicaciones y juegos homebrew
 

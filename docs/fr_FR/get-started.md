@@ -1,22 +1,22 @@
 ---
-title: "Commencer"
+title: "Pour commencer"
 ---
 
-La principale application homebrew que ce guide vous propose d'installer est TWiLight Menu ++, qui est une mise à niveau/remplacement du menu Nintendo DSi qui permet d'exécuter d'autres applications homebrew, des jeux DS au détail, des émulateurs pour divers systèmes plus anciens, etc.
+La principale application homebrew que ce guide vous demande d'installer est TWiLight Menu++, qui est une mise à niveau/un remplacement du menu Nintendo DSi permettant d'exécuter d'autres applications homebrews, des jeux DS commerciaux, des émulateurs pour diverses anciennes consoles, etc.
 
 Nous commencerons par le télécharger ainsi que d'autres outils homebrew, en préparation des étapes de l'exploit.
 
 ::: tip
 
-Vous utilisez un appareil Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader.html) pour configurer automatiquement votre carte SD.
+Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader.html) pour configurer automatiquement votre carte SD.
 
 :::
 
-## Requis
+## Prérequis
 
 - Un moyen de copier les fichiers téléchargés sur votre carte SD
-- Une application capable d'extraire des archives, telle que [7-Zip](https://www.7-zip.org/) (Windows) ou [Le désarchiveur](https://apps. apple.com/us/app/the-unarchiver/id425424353) (macOS)
-   - Nous vous conseillons de ne pas utiliser WinRAR, car il est connu pour casser des choses
+- Une application capable d'extraire des archives, telle que [7-Zip](https://www.7-zip.org/) (Windows) ou [The Unarchiver](https://apps. apple.com/us/app/the-unarchiver/id425424353) (macOS)
+   - Nous vous conseillons de ne pas utiliser WinRAR, car il est connu pour casser les choses
 
 ## Section I - Travail préparatoire
 
@@ -35,25 +35,25 @@ Assurez-vous que votre carte SD est [formatée correctement](sd-card-setup.html)
 
 ::: tip
 
-Vous ne savez pas ce qu'est la "racine" SD ? [Voir cette image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Vous ne savez pas ce qu'est la « racine » de la carte SD ? [Consultez cette image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
 
 :::
 
 
 ## Section II - Sélection d'un exploit
 
-À partir de là, vous avez deux options, avec une différence mineure dans ce que chacune implique.
+À partir de là, deux options s'offrent à vous, avec une différence mineure dans ce que chacune implique.
 
 
-### Installation de Unlaunch via Memory Pit
+### Installation d'Unlaunch via Memory Pit
 
-Memory Pit est un exploit utilisant la caméra DSi, compatible avec toutes les versions de firmware. En option, cet exploit peut être utilisé pour installer Unlaunch, un exploit de code de démarrage qui permet un contrôle total de la console au démarrage.
+Memory Pit est un exploit utilisant l'appareil photo DSi, compatible avec toutes les versions du firmware. Facultativement, cet exploit peut être utilisé pour installer Unlaunch, un exploit bootcode qui permet le contrôle total de la console au démarrage.
 
-Comme Memory Pit est quelque peu limité dans la compatibilité homebrew, il est recommandé d'installer Unlaunch, au lieu d'utiliser Memory Pit autonome. Comme il s'agit de la méthode la plus simple pour installer Unlaunch, il s'agit du chemin recommandé. Cependant, il existe un risque très mineur de **bricker** votre console lors de l'installation de Unlaunch, donc si cela vous pose problème, consultez la méthode alternative ci-dessous.
+Comme Memory Pit est quelque peu limité dans sa compatibilité avec les homebrews, il est recommandé d'installer Unlaunch, au lieu d'utiliser Memory Pit de manière autonome. Comme c'est la méthode la plus facile pour installer Unlaunch, c'est le chemin recommandé. Cependant, il existe un risque très mineur de **brick** de votre console lors de l'installation d'Unlaunch, donc si cela vous préoccupe, consultez la méthode alternative ci-dessous.
 
 ::: tip
 
-Continuez vers [Lancer l'exploit](launching-the-exploit.html)
+Continuez vers [Lancement de l'exploit](launching-the-exploit.html)
 
 :::
 
@@ -62,9 +62,9 @@ Continuez vers [Lancer l'exploit](launching-the-exploit.html)
 
 Flipnote Lenny est un exploit utilisant l'application Flipnote Studio.
 
-Si vous avez Flipnote Studio et que vous ne prévoyez pas d'installer Unlaunch (expliqué ci-dessus), cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrew.
+Si vous avez Flipnote Studio et que vous ne prévoyez pas d'installer Unlaunch (expliqué ci-dessus), cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrews.
 
-Vous pouvez toujours installer Unlaunch plus tard si vous décidez plus tard que vous le souhaitez.
+Vous pouvez toujours installer Unlaunch plus tard si vous décidez plus tard que vous le voulez.
 
 ::: tip
 
@@ -72,4 +72,4 @@ Continuez vers [Lancement de l'exploit (Flipnote Lenny)](launching-the-flipnote-
 
 :::
 
-Pour une comparaison plus détaillée des avantages et des inconvénients des exploits disponibles, veuillez consulter la FAQ [Quel est le meilleur exploit ?](faq.html#which-is-the-best-exploit).
+Pour une comparaison plus détaillée des avantages et inconvénients des exploits disponibles, veuillez consulter sur la section [Quel est le meilleur exploit ?](faq.html#which-is-the-best-exploit) de la FAQ.

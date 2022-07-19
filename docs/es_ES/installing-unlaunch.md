@@ -50,7 +50,7 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
    - Hacer esto eviará el poder saltar el bloqueo regional y la incompatibildiad de flashcarts.
 1. Sal de la Configuración de TWiLight Menu++
 1. En el menú de navegación de archivos, ejecuta la aplicación `Unlaunch DSi Installer`.
-1. Selecciona la opción Install.
+1. Selecciona la opción "Install now"
    - Si Unlaunch se congela y te muestra el mensaje `ERROR: MISMATCH IN FAT COPIES`, por favor revisa la página de [solución de problemas](troubleshooting.html)
 1. Cuando todo esté listo, reinicia el sistema
 
@@ -63,6 +63,7 @@ Por defecto, Unlaunch inicia su sistema de archivos al encender la consola, pero
 
 1. Enciende tu consola mientras mantienes pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
    - Esto deberia iniciar el sistema de archivos de Unlaunch.
+   - Si sólo se muestra el fondo, o si no se muestran archivos de la tarjeta SD (ej.: `TWiLight Menu++`), necesitarás [reformatear tu tarjeta SD](sd-card-setup.html)
 1. Ve a `OPTIONS` y echa un vistazo a las opciones disponibles.
    - La opción <kbd class="face">A</kbd> + <kbd class="face">B</kbd> está configurada para inciar el sistema de archivos de Unlaunch. Esta opción está bloqueada y no puede ser cambiada.
    - Las opciónes `NO BUTTON` y `BUTTON A / B / X / Y` pueden ser modificadas como quieras para escoger qué cargará tu consola al encenderse dependiendo de los botones que mantengas persionados. Puedes configurar estas opciones para iniciar cualquier título DSiWare, Homebrew, la ranura Slot-1, Wifiboot o el sistema de archivos de Unlaunch.
@@ -84,7 +85,7 @@ Esta sección es opcional y solo sirve para mantener ordenada la tarjeta SD y re
 ::: tab name="Memory Pit" default
 
 - Elimina el archivo `sd:/private/ds/app/484E494A/pit.bin` de tu tarjeta SD
-   - Si hiciste una copia de seguridad de este archivo antes de comenzar el proceso, puedes restaurarla ahora
+   - Si `tip.bin` aún existe, renómbralo de vuelta a `pit.bin`
 - Ahora puede restaurar la carpeta `DCIM` que se encontraba en la carpeta raíz de su tarjeta SD, si esta carpeta existía
 - Elimina el archivo `UNLAUNCH.DSI` de tu tarjeta SD
 

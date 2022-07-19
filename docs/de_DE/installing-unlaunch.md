@@ -50,7 +50,7 @@ Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downl
    - Dies wird aber Regionssperre und Flashcard-whitelists beibehalten, weshalb manche Flashcards nicht im DSi Menü hergenommen werden können
 1. Verlasse die TWiLight Menu++ Einstellungen
 1. Wähle `Unlaunch DSi Installer` im Dateinavigationsmenü aus
-1. Wähle die Installationsoption aus
+1. Select the "install now" option
    - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. Starte das System nach Fertigstellung neu
 
@@ -63,6 +63,7 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
 
 1. Starte die Konsole während du <kbd class="face">A</kbd> und <kbd class="face">B</kbd> gedrückt hältst
    - Dies sollte ins Unlaunch Dateimenü starten
+   - If only the background is shown, or if no files from the SD card are shown (ex. `TWiLight Menu++`), then you'll need to [reformat the SD card](sd-card-setup.html)
 1. Navigiere zu `OPTIONS` und sieh dir die verfügbaren Optionen an
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> ist unveränderbar einprogrammiert, Unlaunch's Dateimenü zu starten
    - Die `NO BUTTON` und `BUTTON A / B / X / Y` Optionen können eingestellt werden wie immer man will, und bestimmen, was der DSi beim Systemstart ausführt, je nachdem welche Tasten man gedrückt hält. Man kann jegliche DSiWare, homebrew, die Slot-1 Spielkarte, wifiboot oder Unlaunch's Dateimenü auswählen
@@ -84,7 +85,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 ::: tab name="Memory Pit" default
 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-   - If you made a backup of an existing `pit.bin` file, put it back now
+   - If `tip.bin` still exists, then rename it back to `pit.bin`
 - You can now restore the `DCIM` folder that was on the root of your SD card, if this folder existed
 - Delete the `UNLAUNCH.DSI` file from your SD card
 

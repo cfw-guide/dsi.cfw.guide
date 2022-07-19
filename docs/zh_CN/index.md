@@ -24,31 +24,31 @@ header:
 
 自制软件可以在所有 Nintendo DSi 机器上免费、自由地运行，与固件版本或区域无关。 您需要的只是一个入口点和一个SD卡来存储您的自制程序。 本指南中使用的主要入口点将称为 Memory Pit. 但如果 Memory Pit 不可用，您还可以使用其他入口点。
 
-## What can I do by modding my system?
+## 我可以通过修改我的主机来做什么？
 
-- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
-- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
-- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
-- Run old-time classics using various emulators
-- Use normally incompatible flashcards
-- Redirect your NAND to the SD card using hiyaCFW
-- Watch your favorite movies using MPEG4Player
-- Display an image (referred to as the boot splash) on system launch
-- Play homebrew games
+- 直接从 DSi 的SD卡上运行 Nintendo DS(i) 游戏备份或ROM模组，而不需要烧录卡
+- 从SD卡启动任何DSiWare (跨区和/或3DS专用版本)
+- 在Nintendo DSi开机时通过长按特定的按钮来启动至DSiWare和自制程序
+- 用各种模拟器玩老游戏
+- 使用通常情况下不兼容的烧录卡
+- 将 NAND 重定向到 SD 卡中安装的 hiyaCFW
+- Watch your favorite movies using tuna-viDS
+- 在启动时显示自定义图像（取代原生启动动画）
+- 玩自制游戏
 
-## Where can I find homebrew applications?
+## 在哪里能找到自制软件？
 
-- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
+- [Universal-DB](https://db.universal-team.net/ds) 拥有最新的现代自制软件，并且可以通过搜索和排序快速寻找想要的软件
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) 拥有较旧的自制软件，这些软件可能只能在烧录卡上运行
 
-## What should I know before starting?
+## 在开始之前我应该知道什么？
 
-- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
-- The only brick risk comes from installing Unlaunch, and the brick risk is minimal
-- If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
+- 在 Windows 操作系统中，如果使用默认的文件资源管理器，建议[显示文件扩展名](file-extensions-windows.html)
+- 唯一会使设备变砖的风险来自 Unlaunch，但机率微乎其微
+- 如果您没有经验将文件复制到SD卡，我们有可用的辅助工具帮助您
 
 ::: tip
 
-Continue to [Get Started](get-started.html)
+继续至 [开始](get-started.html)
 
 :::

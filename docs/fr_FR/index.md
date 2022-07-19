@@ -14,7 +14,7 @@ Pour des guides complets sur les homebrew et les firmwares personnalisés pour d
 
 ::: tip
 
-Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de continuer.
+Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de poursuivre.
 
 :::
 
@@ -22,7 +22,7 @@ Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant
 
 Les applications [homebrews](https://fr.wikipedia.org/wiki/Homebrew_(jeu_vidéo)) sont des logiciels sans licence conçus pour des systèmes fermés tels que la Nintendo DSi. Ces applications peuvent aller d'utilitaires à des jeux homebrews personnalisés.
 
-Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nintendo DSi, quelle que soit la version du firmware ou la région. Tout ce dont vous avez besoin est d'un point d'entrée et une carte SD pour stocker votre homebrew. Le point d'entrée principal utilisé dans ce tutoriel est Memory Pit, mais il y en a d'autres que vous pouvez utiliser si Memory Pit est inutilisable.
+Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nintendo DSi, quelle que soit la version du firmware ou la région. Tout ce dont vous avez besoin est d'un point d'entrée et d'une carte SD pour stocker votre homebrew. Le point d'entrée principal utilisé dans ce tutoriel est Memory Pit, mais il y en a d'autres que vous pouvez utiliser si Memory Pit est inutilisable.
 
 ## Que puis-je faire en moddant mon système ?
 
@@ -32,7 +32,7 @@ Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nint
 - Exécutez de vieux classiques en utilisant divers émulateurs
 - Utilisez des linkers normalement incompatibles
 - Redirigez votre NAND vers la carte SD en utilisant hiyaCFW
-- Regardez vos films préférés en utilisant MPEG4Player
+- Regardez vos films préférés en utilisant tuna-viDS
 - Affichez une image (en tant qu'écran d'accueil) au lancement du système
 - Jouer à des jeux homebrews
 
@@ -49,6 +49,6 @@ Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nint
 
 ::: tip
 
-Continuer vers [Pour commencer](get-started.html)
+Continuez vers [Pour commencer](get-started.html)
 
 :::
