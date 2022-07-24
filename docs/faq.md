@@ -10,7 +10,7 @@ It is **not** recommended to update your DSi unless you know there are purchased
 - Flashcard compatibility is reduced, however this is bypassed if you install Unlaunch
 
 ## Which is the best exploit?
-Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit (as it's the simplest and most compatible exploit) to install Unlaunch, however if you decide you want to avoid any risk it's recommended to instead use Flipnote Lenny as using Memory Pit can cause issues in certain cases. Below is a list of the pros and cons of each exploit:
+Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit to install Unlaunch. If you want to avoid any risk it's recommended to instead use Flipnote Lenny as it has fewer issues in homebrew than Memory Pit while being just as safe and simple to remove. Below is a list of the pros and cons of each exploit:
 
 ### Memory Pit
 Pros:
