@@ -3,7 +3,11 @@ title: FAQ
 ---
 
 ## Should I do a system update?
-No. The Nintendo DSi is able to run homebrew on any version, including the latest, however there is no benefit to updating. Only previously downloaded titles can be redownloaded from the DSi Shop, the DSi Camera's Facebook integration is long dead, and the only other thing updates did was block flashcards and exploits, which you may need if the main exploits are not usable on your system. There is also an extremely small risk of **bricking** your DSi when performing a system update, likely the same as the risk when installing Unlaunch.
+It is **not** recommended to update your DSi unless you know there are purchased DSiWare. While it still possible to follow this guide if you do so, the only benefit to updating is the ability to access the Nintendo DSi Shop to redownload already purchased titles. All other benefits, such as Facebook integration in the Nintendo DSi Camera application, are no longer usable or are not significant enough to justify the downsides:
+
+- Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch
+- Older exploits are no longer possible to use, which may be required if you are unable use the recommended exploits
+- Flashcard compatibility is reduced, however this is bypassed if you install Unlaunch
 
 ## Which is the best exploit?
 Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit (as it's the simplest and most compatible exploit) to install Unlaunch, however if you decide you want to avoid any risk it's recommended to instead use Flipnote Lenny as using Memory Pit can cause issues in certain cases. Below is a list of the pros and cons of each exploit:
