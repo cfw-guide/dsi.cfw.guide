@@ -16,11 +16,11 @@ Előnyök:
 
 Hátrányok:
 - Szükség van a DSi Camera betöltésére minden alkalommal, amikor a homebrew-okat szeretnéd elérni
-- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU
+- Inkompatibilis bizonyos DSi módú címekkl és homebrew-va azért mert a WRAM csak az ARM7 CPU számára nyitott
 - Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt homebrew esetén
 - A hozzáférés a DSP-hez blokkolt, ezért rosszabb a hang a GBARunner2-ben
-- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
-     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+- A fényképek az SD kártyán nem megtekinthetők a DSi Camera alkalmazásban, amíg a Memory Pit telepített, mert ez a trigger az exploithoz
+     - Az egyetlen módja, hogy az SD kártyán található fotókat megtekintsd amíg a Memory Pit telepített, hogy elindítod a ROM dumpját a DSi Camera alkalmazásnak **TW**i**L**ight Menu++-szal, hgy bootoljon nds-bootstrap-re (v0.61.3 vagy későbbi)
 
 ### Flipnote Lenny
 Előnyök:
@@ -79,7 +79,7 @@ Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre
 ## Meg tudom változtatni a Nintendo DSi konzolom régióját?
 Igen, néhány különböző metódus áll rendelkezésre, attól függően mit szeretnél változtatni:
 - A legbiztonságosabb és legegyszerűbb metódus a TWiLight Menu++ telepítése, az bármelyik hivatalos nyelvet tudja használni, és még többet a NAND módosítása nélkül
-- If you want to actually change the system region and are using hiyaCFW, you can use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Ha tényleg szeretnéd cserélni a régiót és hiyaCFW-t használsz, akkor használhatod erre Yoti [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)-ját ázsiai DSI rendszerekhez. Amerikai DSi rendszerekhez használd a [hiyalang ezen verzióját](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Végül, ha cserélni akarod a régiót az aktuális rendszer NAND-ban, használhatod Mighty Max [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)-ét
 
 ## Mi történt a hiyaCFW telepítési útmutatóval?
@@ -101,8 +101,8 @@ Mivel a hiyaCFW nem ad sok funkcionalitás és problémás és avaró része vol
 ## Az [Unlaunch oldal](https://problemkaputt.de/unlaunch.htm) azt mondja, hogy a 2.0 verzió nem tekinthető biztonságosnak. Javasolt helyette egy korábbi verzió használata?
 Az Unlaunch oldal nem került frissítésre, mióta a 2.0 verzió kiadásra került, ami két évvel ezelőtt volt. A legtöbb felhasználó nem tapasztalt problémát ezzel a verzióval, így biztonságosnak tekinthető.
 
-## How do I install DSiWare?
-There are three ways to play DSiWare on a DSi:
-- Simply run the ROM from TWiLight Menu++, this is the simplest and the only limit is the size of your SD card, however there are some minor compatibility issues
-- Install [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), then install the DSiWare using either [NTM](https://github.com/Epicpkmn11/NTM/releases) or [TMFH](https://github.com/JeffRuLz/TMFH/releases), as this is the actual DSi Menu this has a limit of 39 titles, but compatibility is perfect
-- Install directly to the SysNAND DSi Menu using [NTM](https://github.com/Epicpkmn11/NTM/releases), this also has perfect compatibility, but the 39 title and 1024 Block (128 MiB) limits both apply and there is an extremely minor brick risk due to writing to the internal NAND
+## Hogyan telepítek DSiWare-t?
+Három lehetőség van DSiWare-re egy DSi-n:
+- Egyszerűen csak futtasd a ROM-ot a TWiLight Menu++-ból; ez a legegyszerűbb módja és az egyetlen korlát az SD kártyád mérete, habár jelentkezhetnek jelentéktelen kompatiblitási problémák
+- Telepítsd a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)-t, majd teleptsd a DSiWare-t vagy az [NTM](https://github.com/Epicpkmn11/NTM/releases) vagy a [TMFH](https://github.com/JeffRuLz/TMFH/releases) használatával; mivel ez az akutális DSi Menu a 39 cím korlátozás vonatkozik rá, de a kompatiblitás tökéletes
+- Telepítsd közvetlenül a SysNAND DSi Menu-be az [NTM](https://github.com/Epicpkmn11/NTM/releases) használatával; ennek is tökéletes kompatibilitása van, de a 39 cím és az 1024 Block (128 MiB) korátozások vonatkoznak rá, és van egy extrém kicsi brick kockázata belső NAND írása miatt

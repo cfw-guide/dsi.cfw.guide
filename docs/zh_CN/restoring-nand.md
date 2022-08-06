@@ -16,9 +16,9 @@ title: 还原 NAND备份
 
 首先，除了你打算这样做的原因之外，还有几种更安全的替代选择：
 - 可以使用 hiyaCFW 或 TWiLight 菜单++安装DSiWare
-- Recovering pictures can be done using [ninfs](https://github.com/ihaveamac/ninfs/releases), in combination with hiyaCFW or TWiLight Menu++ if you want them on console. The latest version of the HiyaCFW Helper allows you to copy your photos from your NAND to the SDNAND during setup
+- 如果您想要在终端上同时使用 TWiLight Menu++与hiyaCFW ，可以使用 [ninfs](https://github.com/ihaveamac/ninfs/releases)来恢复图片。 HiyaCFW助手的最新版本允许您在设置过程中将您的照片从 NAND 复制到 SDNAND
 - Restoring an Unlaunch button configuration can be done from the Unlaunch menu, which can be accessed by holding <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while powering the console on
-- 启动至Unlaunch导致错误？ Take out your SD card and try starting the system again. 如果这有用，那么是SD卡出了错，还原NAND备份将不会修复它
+- 启动至Unlaunch导致错误？ 取出SD卡，并且重启系统。 如果这有用，那么是SD卡出了错，还原NAND备份将不会修复它
 - "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
 - TWiLight 菜单++中的任何错误都与NAND无关，您应该尝试重新安装 TWiLight 菜单++或在 [Discord](https://ds-homebrew.com/discord) 上寻求帮助
 - 除非绝对有必要，否则应避免通过刷入NAND或使用其卸载器来卸载 您可以将自动启动密钥设置为“Launcher”，您的 DSi就会恢复正常了

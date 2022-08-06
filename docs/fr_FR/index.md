@@ -34,7 +34,7 @@ Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nint
 - Redirigez votre NAND vers la carte SD en utilisant hiyaCFW
 - Regardez vos films préférés en utilisant tuna-viDS
 - Affichez une image (en tant qu'écran d'accueil) au lancement du système
-- Jouer à des jeux homebrews
+- Jouez à des jeux homebrews
 
 ## Où puis-je trouver des applications homebrews ?
 

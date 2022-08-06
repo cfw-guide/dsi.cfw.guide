@@ -32,7 +32,7 @@ Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, független
 - Régi idők klasszikusait futtathatod különböző emulátorokkal
 - Használhatsz alaphelyzetben inkompatibilis flashcard-okat
 - Átirányíthatod a NAND-ot SD kártyára hiyaCFW-vel
-- Watch your favorite movies using tuna-viDS
+- Megtekintheted a kedvenc filmjeidet a tuna-viDS használatával
 - Megjeleníthetsz egy képet (amire boot képernyőként hivatkozunk) a rendszer indulásakor
 - Játszhatsz homebrew játékokat
 

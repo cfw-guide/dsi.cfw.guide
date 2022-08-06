@@ -50,7 +50,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
    - Ez megtartja a régió zárolást és a kártya fehérlistát, ami azt jelenti, hogy néhány flashcard nem lesz használható a DSi Menüből
 1. Lépj ki a TWiLight Menu++ Beállításokból
 1. A fájl navigáció menüből indítsd el az `Unlaunch DSi Installer`-t
-1. Select the "install now" option
+1. Válaszd az "install now" opciót
    - Ha az Unlaunch lefagy az `ERROR: MISMATCH IN FAT COPIES` üzenetnél, tekintsd meg a [Hibaelhárítás](troubleshooting.html) oldalt
 1. Ha végzett, indítsd újra a rendszered
 
@@ -63,7 +63,7 @@ Jelenleg az Unlaunch alapértelmezésben a Filemenu-t indítja bootoláskor, de 
 
 1. Kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
    - Ez el kell indítsa az Unlaunch Filemenu-t
-   - If only the background is shown, or if no files from the SD card are shown (ex. `TWiLight Menu++`), then you'll need to [reformat the SD card](sd-card-setup.html)
+   - Ha csak a háttér látszik vagy nem jelenik meg fájl az SD kártyáról (például `TWiLight Menu++`), akkor [újra kell formáznod az SD kártyát](sd-card-setup.html)
 1. Navigálj az `OPTIONS`-höz és nézd meg az elérhető opciókat
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> hardkódolt az Unlaunch menühöz, így az nem cserélhető
    - A `NO BUTTON` és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t, a Slot-1 kártyát vagy az Unlaunch Filemenu-t
@@ -85,7 +85,7 @@ Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon n
 ::: tab name="Memory Pit" default
 
 - Töröld az `sd:/private/ds/app/484E494A/pit.bin` fájlt az SD kártyádról
-   - If `tip.bin` still exists, then rename it back to `pit.bin`
+   - Ha a `tip.bin` még mindig létezik, nevezd vissza azt `pit.bin`-re
 - Most már visszaállíthatod a `DCIM` mappát, ami az SD kártyád göykerében volt, ha volt ilyen
 - Töröld az `UNLAUNCH.DSI` fájlt az SD kártyádról
 
