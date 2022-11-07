@@ -35,7 +35,8 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
 1. Select your SD card
 1. Make sure the `Quick Format` check box is checked
-1. Start the format process
+1. Press `Format` to start the format process
+   ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Section II - Formatting your SD card with GUIFormat
 
