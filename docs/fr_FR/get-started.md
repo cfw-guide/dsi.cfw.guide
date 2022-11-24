@@ -15,7 +15,7 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 ## Prérequis
 
 - Un moyen de copier les fichiers téléchargés sur votre carte SD
-- Une application capable d'extraire des archives, telle que [7-Zip](https://www.7-zip.org/) (Windows) ou [The Unarchiver](https://apps. apple.com/us/app/the-unarchiver/id425424353) (macOS)
+- Une application capable d'extraire des archives, telle que [7-Zip](https://www.7-zip.org/) (Windows) ou [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
    - Nous vous conseillons de ne pas utiliser WinRAR, car il est connu pour casser les choses
 
 ## Section I - Travail préparatoire

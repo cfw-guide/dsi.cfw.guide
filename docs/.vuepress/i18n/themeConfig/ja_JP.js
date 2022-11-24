@@ -1,16 +1,16 @@
-const backups = 'Backup';
-const guide = 'Guida';
-const extras = 'Extra';
-const other = 'Altro';
+const backups = 'バックアップ';
+const guide = 'ガイド';
+const extras = '応用編';
+const other = 'その他';
 module.exports = {
-	selectLanguageName: 'Italiano',
-	backToHome: 'Torna all’inizio',
-	editLinkText: 'Modifica questa pagina',
-	openInNewWindow: 'apri in nuova finestra',
-	selectLanguageAriaLabel: 'Seleziona lingua',
-	toggleDarkMode: 'attiva/disattiva modalità scura',
-	toggleSidebar: 'attiva/disattiva barra laterale',
-	discordNoticeText: 'Unisciti al server Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) per lo sviluppo di guide e aiuto.',
+	selectLanguageName: '日本語',
+	backToHome: 'ホームに移動する',
+	editLinkText: 'このページを編集',
+	openInNewWindow: '新しいウィンドウで表示',
+	selectLanguageAriaLabel: '言語を選択',
+	toggleDarkMode: 'ダークモードの切り替え',
+	toggleSidebar: 'サイドバーの切り替え',
+	discordNoticeText: '[DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discordサーバーに参加してガイドの開発とヘルプをご覧ください。',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',

@@ -1,75 +1,75 @@
 ---
-title: "Get Started"
+title: "Per iniziare"
 ---
 
-The main homebrew application this guide has you install is TWiLight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+L'applicazione homebrew principale che installerai con questa guida è TWiLight Menu++, un aggiornamento/sostituzione del Menu del Nintendo DSi che consente l'esecuzione di altre applicazioni homebrew, giochi commerciali per DS, emulatori di vecchie console e altro ancora.
 
-We'll begin with downloading it as well as some other homebrew tool(s), in preparation for the exploit steps.
+Per prima cosa lo scaricheremo, insieme ad altre applicazione homebrew, in preparazione dell'esecuzione dell'exploit.
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
+Usi un dispositivo con Windows, Linux o MacOS? Utilizza [Lazy DSi Downloader](lazy-dsi-downloader.html) per configurare automaticamente la tua scheda SD.
 
 :::
 
-## Requirements
+## Requisiti
 
-- A way to copy downloaded files to your SD card
-- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows) or [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
-   - We advise you to not use WinRAR, as it is known to break things
+- Un modo per copiare i file scaricati sulla scheda SD
+- Un'applicazione per l'estrazione di archivi, come [7-Zip](https://www.7-zip.org/) (Windows) o [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
+   - Ti consigliamo di non usare WinRAR, perché è noto causare problemi
 
-## Section I - Prep Work
+## Sezione I - Preparazione
 
 ::: warning
 
-Ensure your SD card is [formatted correctly](sd-card-setup.html).
+Assicurati che la scheda SD sia [formattata correttamente](sd-card-setup.html).
 
 :::
 
-1. Insert your SD card into your PC
-1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
-1. Copy the `dumpTool.nds` file to the root of your SD card
+1. Inserisci la scheda SD nel PC
+1. Scarica la versione più recente di [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+1. Scarica la versione più recente di [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+1. Copia la cartella `_nds` estratta da `TWiLightMenu-DSi.7z` nella root della scheda SD
+1. Copia il file `BOOT.NDS` estratto da `TWiLightMenu-DSi.7z` nella root della scheda SD
+1. Copia il file `dumpTool.nds` nella root della scheda SD
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Non sai cosa sia la "root" della SD? [Guarda questa immagine](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
 
 :::
 
 
-## Section II - Selecting an exploit
+## Sezione II - Scegliere l'exploit
 
-From here you have two options, with a minor difference in what each entails.
+Da qui hai due opzione, con una piccola differenza in ciò che ciascuna comporta.
 
 
-### Installing Unlaunch via Memory Pit
+### Installazione di Unlaunch tramite Memory Pit
 
-Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions. Optionally, this exploit can be used to install Unlaunch, a bootcode exploit that allows full control of the console on boot.
+Memory Pit è un exploit che utilizza la Fotocamera Nintendo DSi, compatibile con tutte le versioni del firmware. Facoltativamente, questo exploit può essere utilizzato per installare Unlaunch, un exploit del bootcode che consente il pieno controllo della console all'avvio.
 
-As Memory Pit is somewhat limited in homebrew compatibility, it is recommended to install Unlaunch, instead of using Memory Pit standalone. As this is the easiest method to install Unlaunch, this is the recommended path. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
+Poiché Memory Pit ha una compatibilità limitata con gli homebrew, si raccomanda d'installare Unlaunch, invece di utilizzare Memory Pit in modo autonomo. È il metodo più semplice per installare Unlaunch e perciò è il percorso consigliato. Tuttavia, c'è un rischio molto piccolo di **brick** della console durante l'installazione di Unlaunch, quindi se questa è una preoccupazione, segui il metodo alternativo sottostante.
 
 ::: tip
 
-Continue to [Launching the Exploit](launching-the-exploit.html)
+Continua con l'[Avvio dell'exploit](launching-the-exploit.html)
 
 :::
 
 
 ### Flipnote Lenny
 
-Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+Flipnote Lenny è un exploit che utilizza l'applicazione Flipnote Studio.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+Se hai Flipnote Studio e non hai intenzione d'installare Unlaunch (spiegato sopra), questo exploit è raccomandato dato che l'utilizzo di Memory Pit causa problemi in alcuni giochi e homebrew.
 
-You can always install Unlaunch later if you decide later on that you want it.
+È sempre possibile installare Unlaunch più tardi se dovessi cambiare idea.
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continua con [Avvio dell'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
+Per un confronto più dettagliato di pro e contro degli exploit disponibili, consulta [Qual è l'exploit migliore?](faq.html#which-is-the-best-exploit) nelle FAQ.

@@ -30,6 +30,9 @@ module.exports = {
 					"/it_IT/": {
 						placeholder: i18n.it_IT.search
 					},
+					"/ja_JP/": {
+						placeholder: i18n.ja_JP.search
+					},
 					"/pl_PL/": {
 						placeholder: i18n.pl_PL.search
 					},
@@ -102,6 +105,11 @@ module.exports = {
 			title: i18n.it_IT.title,
 			description: i18n.it_IT.description
 		},
+		"/ja_JP/": {
+			lang: "ja-JP",
+			title: i18n.ja_JP.title,
+			description: i18n.ja_JP.description
+		},
 		"/pl_PL/": {
 			lang: "pl-PL",
 			title: i18n.pl_PL.title,
@@ -144,6 +152,7 @@ module.exports = {
 			"/fr_FR/": themeConfig.fr_FR,
 			"/hu_HU/": themeConfig.hu_HU,
 			"/it_IT/": themeConfig.it_IT,
+			"/ja_JP/": themeConfig.ja_JP,
 			"/pl_PL/": themeConfig.pl_PL,
 			"/ro_RO/": themeConfig.ro_RO,
 			"/zh_CN/": themeConfig.zh_CN,

@@ -5,6 +5,7 @@ module.exports = {
 	fr_FR: require('./fr_FR'),
 	hu_HU: require('./hu_HU'),
 	it_IT: require('./it_IT'),
+	ja_JP: require('./ja_JP'),
 	pl_PL: require('./pl_PL'),
 	ro_RO: require('./ro_RO'),
 	zh_CN: require('./zh_CN'),

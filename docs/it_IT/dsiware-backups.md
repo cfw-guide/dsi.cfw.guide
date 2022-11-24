@@ -11,8 +11,8 @@ title: Backup DSiWare
 ### Sezione I - Dump dei DSiWare
 1. Avvia GodMode9i
 1. Premi <kbd>START</kbd> per aprire il menu START
-1. Select `Title manager...`
-   - If this isn't shown, ensure you have your SD card and NAND mounted. If loading from hiyaCFW reload from somewhere else
+1. Seleziona `Gestore titoli...`
+   - Se non appare, assicurarsi di avere la scheda SD e NAND montate. Se lo hai avviato da hiyaCFW, riavvialo da un'altra parte
 1. Seleziona il titolo di cui vuoi creare il dump
 1. Seleziona i dump da effettuare
 1. Ripeti i passaggi 4-5 per tutti i DSiWare di cui desideri effettuare un dump

@@ -16,11 +16,11 @@ Pro:
 
 Contro:
 - Richiede di aprire l'app Fotocamera Nintendo DSi ogni volta che si desidera accedere all'homebrew
-- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+- Incompatibile con alcuni titoli in modalità DSi e applicazioni homebrew a causa di WRAM aperto solo alla CPU ARM7
+- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato con gli hombrew
 - L'accesso al DSP è bloccato e ciò comporta un peggioramento del suono in GBARunner2
-- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
-     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+- Le foto sulla scheda SD non possono essere visualizzate tramite l'applicazione Fotocamera Nintendo DSi mentre Memory Pit è installato, dato che ciò attiverebbe l'exploit
+     - L'unico modo per visualizzare le foto della scheda SD mentre Memory Pit è installato è tramite l'esecuzione di un dump della ROM dell'applicazione Fotocamera Nintendo DSi usando **TW**i**L**ight Menu++ per avviarlo tramite nds-bootstrap (v0.61.3 or later)
 
 ### Flipnote Lenny
 Pro:
@@ -31,7 +31,7 @@ Pro:
 Contro:
 - Richiede Flipnote Studio
 - Richiede di aprire Flipnote Studio ogni volta che si desidera accedere all'homebrew, e ciò richiede poco più tempo di Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato con gli hombrew
 
 ### Unlaunch
 Pro:
@@ -79,7 +79,7 @@ Altre app homebrew potrebbero usare altri metodi per essere aggiornate.
 ## Posso cambiare la regione del mio Nintendo DSi?
 Sì, ci sono alcuni metodi diversi a seconda di ciò che si desidera cambiare:
 - Il metodo più semplice e sicuro è quello di installare semplicemente TWiLight Menu++, può utilizzare qualsiasi lingua ufficiale e altre senza bisogno di modifiche della NAND
-- If you want to actually change the system region and are using hiyaCFW, you can use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Se vuoi effettivamente cambiare la regione di sistema e stai utilizzando hiyaCFW, è possibile utilizzare [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) per i DSi asiatici. Per i DSi americani utilizza [questa versione di hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Infine, se si desidera cambiare la regione sulla NAND di sistema, è possibile utilizzare il [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) di Mighty Max
 
 ## Cosa è successo alla guida all'installazione di hiyaCFW?
@@ -101,8 +101,8 @@ Generalmente sì, ma con due eccezioni:
 ## La pagina di [Unlaunch](https://problemkaputt.de/unlaunch.htm) dice che la versione 2.0 non è notoriamente sicura. Dovrei usare una versione precedente?
 La pagina di Unlaunch non è stata aggiornata da quando è stata rilasciata la versione 2.0, più di due anni fa. La stragrande maggioranza degli utenti non hanno problemi con questa versione, ed è perciò considerata sicura.
 
-## How do I install DSiWare?
-There are three ways to play DSiWare on a DSi:
-- Simply run the ROM from TWiLight Menu++, this is the simplest and the only limit is the size of your SD card, however there are some minor compatibility issues
-- Install [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), then install the DSiWare using either [NTM](https://github.com/Epicpkmn11/NTM/releases) or [TMFH](https://github.com/JeffRuLz/TMFH/releases), as this is the actual DSi Menu this has a limit of 39 titles, but compatibility is perfect
-- Install directly to the SysNAND DSi Menu using [NTM](https://github.com/Epicpkmn11/NTM/releases), this also has perfect compatibility, but the 39 title and 1024 Block (128 MiB) limits both apply and there is an extremely minor brick risk due to writing to the internal NAND
+## Come installo i DSiWare?
+Ci sono tre modi per giocare con i DSiWare su un DSi:
+- Basta eseguire la ROM da TWiLight Menu++; è l'opzione più semplice e l'unico limite è la dimensione della scheda SD, tuttavia ci sono alcuni problemi minori di compatibilità
+- Installa [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) e dopo installa il DSiWare con [NTM](https://github.com/Epicpkmn11/NTM/releases) o [TMFH](https://github.com/JeffRuLz/TMFH/releases); poichè stai usando il Menu DSi ufficiale, avrai il limite di 39 titoli, ma la compatibilità è perfetta
+- Installa direttamente nel Menu DSi della SysNAND utilizzando [NTM](https://github.com/Epicpkmn11/NTM/releases); anche questa opzione ha una compatibilità perfetta, ma avrai i limiti di 39 titoli e 1024 Block (128 MiB), e vi è un rischio di brick estremamente minore dovuto alla scrittura nella NAND interna

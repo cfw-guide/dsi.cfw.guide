@@ -102,7 +102,7 @@ Si TWiLight Menu++ ne démarre pas après avoir suivi cette méthode, veuillez p
 :::
 
 ### Section I - Formatage de votre carte SD
-1. Assurez-vous que votre carte SD n'est pas **** insérée dans votre machine Linux
+1. Assurez-vous que votre carte SD n'est **pas** insérée dans votre machine Linux
 1. Lancez le terminal Linux
 1. Tapez `watch "lsblk"`
 1. Insérez votre carte SD dans votre machine Linux

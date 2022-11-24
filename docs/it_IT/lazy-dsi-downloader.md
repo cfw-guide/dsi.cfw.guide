@@ -9,16 +9,16 @@ title: Lazy DSi Downloader
 1. Accendi il tuo Nintendo DSi
 1. Apri l'applicazione Fotocamera Nintendo DSi
 
-If at this point you get a tutorial and crash when trying to follow it, then you cannot use Memory Pit.
+Se a questo punto il tutorial si arresta in modo anomalo mentre cerchi di completarlo, allora non puoi utilizzare Memory Pit.
 
 ## Guida di configurazione
 
-1. Download the latest release of [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) for your OS
-1. Launch it via the instructions for your operating system listed in the release page
-1. Hit the Next button
-   - The intro text isn't mandatory to read
-1. If your Nintendo DSi crashed during the verification steps above, toggle off the Memory Pit option
-   - As for which exploit to use, please visit our [Alternative Exploits](alternate-exploits.html) page
-1. Hit the check boxes for "Download latest GodMode9i version?"
-   - Feel free to select any of the other homebrew applications in `Click to add Additional homebrew...`, but this is not mandatory
-1. Wait for everything to download, then hit Finish
+1. Scarica la versione più recente di [Lazy DSi File Downloader](https://github.com/yourkalamity/lazy-dsi-file-downloader/releases) per il tuo sistema operativo
+1. Avvialo tramite le istruzioni per il tuo sistema operativo elencate nella pagina di rilascio
+1. Premi il pulsante "Next"
+   - La lettura del testo iniziale non è obbligatoria
+1. Se si verifica un arresto anomalo del Dsi durante i passaggi di verifica, disattiva l'opzione Memory Pit
+   - Per quale exploit usare, visita la nostra pagina [Exploit Alternativi](alternate-exploits.html)
+1. Seleziona le caselle per "Download latest GodMode9i version?"
+   - Sentiti libero di selezionare qualsiasi altra applicazione homebrew di `Click to add Additional homebrew...`, ma non è obbligatorio
+1. Aspetta che i download finiscano, poi premi "Finish"

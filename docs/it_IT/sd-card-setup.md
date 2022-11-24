@@ -2,7 +2,7 @@
 title: Configurazione Scheda SD
 ---
 
-This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
+Questa pagina serve a preparare la scheda SD per il tuo dispositivo. In questo processo, formatteremo la scheda SD e controlleremo la presenza di errori.
 
 ::: danger
 
@@ -29,8 +29,8 @@ Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo proce
 :::
 
 1. Scarica la versione più recente di [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accept the End User License Agreement to start the download
+   - Se il link qui sopra non ti funziona, scarica [da archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Accetta l'accordo di licenza con l'utente finale per avviare il download
 1. Esegui `SD Card Formatter Setup` (il file `.exe`) nel file `.zip` scaricato, con i privilegi Amministratore, quindi installa il programma
 1. Esegui `SD Card Formatter` dal Menu Start con i privilegi Amministratore
 1. Seleziona la tua scheda SD
@@ -51,7 +51,7 @@ Se la tua scheda SD ha una capacità di 32GB o meno, salta questa sezione e vai 
    - Clicca sulla foto nel sito per scaricare l'applicazione
 1. Esegui GUIFormat con i permessi dell'amministratore
 1. Seleziona la lettera del drive
-1. Set the `Allocation size unit` to `32768`
+1. Imposta l'`unità di dimensioni di allocazione` a `32768`
    - Se questa impostazione è troppo grande per la tua SD, seleziona quella più alta possibile
 1. Assicurati che la casella `Quick Format` sia spuntata
 1. Avvia il processo di formattazione
@@ -112,14 +112,14 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Take note of the device name. In our example above, it was `mmcblk0p1`
+1. Prendi nota del nome del dispositivo. Nell'esempio sopra, era `mmcblk0p1`
   + Se `RO` è impostato a 1, assicurati che l'interruttore di blocco non sia scivolato
 1. Premi CTRL + C per uscire dal menu
 1. Segui le istruzione relative alla capacità della tua scheda SD:
-    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
-         - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
-         - This creates a single FAT32 partition with 32 KB cluster size on the SD card
+    - 2GB o meno: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 16`
+         - Verrà creata un'unica partizione FAT16 con dimensione di allocazione di 32 KB sulla scheda SD
+    - 4GB o più: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 32`
+         - Verrà creata un'unica partizione FAT32 con dimensione di allocazione di 32 KB sulla scheda SD
 
 ### Sezione II - Uso Di F3
 1. Scarica ed estrai [l'archivio F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) in un percorso qualsiasi sul tuo computer.
