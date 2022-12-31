@@ -114,13 +114,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Take note of the device name. In our example above, it was `mmcblk0p1`
-  + If `RO` is set to 1, make sure the lock switch is not slid down
+   - If `RO` is set to 1, make sure the lock switch is not slid down
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Hit CTRL + C to exit the menu
 1. Follow the instructions relevant to your SD card's capacity:
-    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16` 
-	     - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
-	     - This creates a single FAT32 partition with 32 KB cluster size on the SD card
+   - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16` 
+      - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+   - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
+      - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### Section II - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
