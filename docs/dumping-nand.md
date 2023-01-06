@@ -6,6 +6,12 @@ This page is for making a NAND backup, which is a copy of the data on the Ninten
 
 ::: tip
 
+Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+
+:::
+
+::: tip
+
 It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 
 :::
