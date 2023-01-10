@@ -60,7 +60,7 @@ Continue to [Launching the Exploit](launching-the-exploit.html)
 
 ### stylehax
 
-stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) for users with a broken camera.
+stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
 
 For an Unlaunch-free experience, this exploit is recommended (alongside Flipnote Lenny) as using Memory Pit causes issues in some games and homebrew.
 
