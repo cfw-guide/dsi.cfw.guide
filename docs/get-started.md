@@ -66,7 +66,7 @@ For an Unlaunch-free experience, this exploit is recommended (alongside Flipnote
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
