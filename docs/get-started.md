@@ -42,7 +42,7 @@ Unsure what the SD "root" is? [See this image](https://media.discordapp.net/atta
 
 ## Section II - Selecting an exploit
 
-From here you have two options, with a minor difference in what each entails.
+From here you have three options, with a minor difference in what each entails.
 
 
 ### Installing Unlaunch via Memory Pit
