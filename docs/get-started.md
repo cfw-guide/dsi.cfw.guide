@@ -58,11 +58,24 @@ Continue to [Launching the Exploit](launching-the-exploit.html)
 :::
 
 
+### stylehax
+
+stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) for users with a broken camera.
+
+For an Unlaunch-free experience, this exploit is recommended (alongside Flipnote Lenny) as using Memory Pit causes issues in some games and homebrew.
+
+::: tip
+
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+
+:::
+
+
 ### Flipnote Lenny
 
 Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended (alongside stylehax) as using Memory Pit causes issues in some games and homebrew.
 
 You can always install Unlaunch later if you decide later on that you want it.
 

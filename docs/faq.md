@@ -26,14 +26,27 @@ Cons:
 - Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
      - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
 
+### stylehax
+Pros:
+- Better compatibility with DSi mode titles and homebrew than Memory Pit
+- Easy to use
+- No risk of damaging the console
+- Useable on consoles with broken camera
+- Better sound in GBARunner2
+
+Cons:
+- Requires internet access
+- Requires loading the DSi Browser every time you want to access homebrew, slightly more time consuming than Memory Pit
+- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+
 ### Flipnote Lenny
 Pros:
 - Better compatibility with DSi mode titles and homebrew than Memory Pit
 - No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
+- Useable on consoles with broken camera
 - Better sound in GBARunner2
 
 Cons:
-- Requires Flipnote Studio
 - Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 
