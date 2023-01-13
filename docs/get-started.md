@@ -85,4 +85,4 @@ Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-expl
 
 :::
 
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
+For a more detailed comparison of the pros and cons of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
