@@ -65,6 +65,8 @@ Suivez ceci si vous avez dumpé votre sauvegarde NAND après avoir installé Unl
 1. Une fois terminé, choisissez `Power down`
 1. Lancez à nouveau n'importe quelle ROM Nintendo DS et assurez-vous que votre menu DSi se charge et fonctionne correctement
 
+Si no$gba affiche une erreur quelconque au lieu de charger le menu DSi, ***ne flashez pas cette sauvegarde*** ! Si vous avez une ancienne sauvegarde NAND, vous pouvez essayer de l'utiliser à la place. N'essayez **pas** de désinstaller Unlaunch à l'aide de son programme de désinstallation sur la console, car il est très probable qu'il bricke votre DSi.
+
 ## Flashage de votre sauvegarde NAND (logiciel)
 
 ::: danger

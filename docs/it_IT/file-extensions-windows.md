@@ -11,8 +11,8 @@ Questa è una sezione aggiuntiva per disabilitare il comportamento predefinito d
 1. Avvia Esplora File aprendo una qualsiasi directory, come ad esempio quella della scheda SD
 1. Clicca sul menu "Visualizza" nella barra superiore
    - Se l'opzione non è presente, cliccare sul pulsante `··` sulla parte più destra della barra superiore
-3. Cliccare o spostare il cursore sul sottomenu `Mostra >`
-4. Controllare l'opzione etichettata `Estensioni nome file` ![Schermata della casella delle "Estensioni nomi file" su Windows 11](/assets/images/windows-11-file-extensions.png)
+1. Cliccare o spostare il cursore sul sottomenu `Mostra >`
+1. Controllare l'opzione etichettata `Estensioni nome file` ![Schermata della casella delle "Estensioni nomi file" su Windows 11](/assets/images/windows-11-file-extensions.png)
 
 ::::
 

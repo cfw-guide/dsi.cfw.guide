@@ -37,7 +37,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 ## II. rész - Az Unlaunch telepítése/frissítése
 
 1. Indítsd el a TWiLight Menu++-t
-   - Ha ez az első alkalom, hogy telepíted az Unlaunch-öt, töltsd újra a TWiLight Menu++-t az exploiton keresztül, amit használsz
+   - Ha ez az első alkalom, hogy telepíted az Unlaunch-öt, indítsd újra a TWiLight Menu++-t [az exploiton keresztül, amit használsz](launching-the-exploit.html)
    - Ha már telepítetted az Unlaunch-öt és frissíteni szeretnéd, tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, amíg bootolsz és válaszd a `TWiLight Menu++` opciót
    - Ha több opció neve is `TWiLight Menu++`, válaszd azt az opciót, ahol a `BOOT.NDS` látható az útvonal végén az alsó képernyőn
       - Ez azért történik, mert a TWiLight Menu++ régebbi verzióját futtatod, amíg ez nem szándékos ajánlott, hogy [frissítsd a telepítésed](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
@@ -46,11 +46,11 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> vagy <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> gombokat, amíg el nem éred az `Unlaunch Beállítások` oldalt
 1. Ha szeretnéd cserélni az Unlaunch hátterét, válaszd a `Háttér` opciót és válaszd ki a neked tetszőt
    - Ha szeretnél saját Unlaunch hátteret, tekintsd meg a [DS-Homebrew Wiki oldalt](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-1. Ha szeretnéd a Health and Safety képernyőt és a DSi Menu zenét és hangokat, amikor a hivatalos DSi Menut használod, állítsd a `Launcher Patchek`-et `Kikapcsolt`-ra
-   - Ez megtartja a régió zárolást és a kártya fehérlistát, ami azt jelenti, hogy néhány flashcard nem lesz használható a DSi Menüből
 1. Lépj ki a TWiLight Menu++ Beállításokból
-1. A fájl navigáció menüből indítsd el az `Unlaunch DSi Installer`-t
-1. Válaszd az "install now" opciót
+1. In the file navigation menu, launch `Unlaunch DSi Installer`
+   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
+     This method does not enable Unlaunch to use custom patches and background
+1. Select the "install now" option
    - Ha az Unlaunch lefagy az `ERROR: MISMATCH IN FAT COPIES` üzenetnél, tekintsd meg a [Hibaelhárítás](troubleshooting.html) oldalt
 1. Ha végzett, indítsd újra a rendszered
 

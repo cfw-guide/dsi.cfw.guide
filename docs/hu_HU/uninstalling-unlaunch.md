@@ -21,9 +21,10 @@ A brick-elés esélyeinek csökkentésére, legyél biztos abban, hogy nem telep
 
 ::: warning
 
-Ha eltávolítod az Unlaunch-öt, **NEM** szabad használnod a beépített eltávolítót, mert megvan az esélye, hogy brickeli a konzolt. Tekintsd át az alábbi információt a megfelelő eltávolításhoz.
+Ha eltávolítod az Unlaunch-öt, **NEM** szabad használnod a beépített eltávolítót közvetlenl a konzolodon, mert megvan az esélye, hogy brickeli a konzolt. Tekintsd át az alábbi információt a megfelelő eltávolításhoz.
 
 :::
 
-Ha áttekintetted az alábbi információt folytasd a [NAND mentés helyreállításával](restoring-nand.html). Ez végig vezet a NAND mentés flashelésén, amit a[NAND dumpolása](dumping-nand.html) során készítettél.
-- Ha már nem rendelkezel az Unlaunch telepítése előtti NAND mentéssel, kövesd a [NAND dumpolása](dumping-nand.html) részt, majd folytasd a [NAND mentés helyreállítása](restoring-nand.html) résszel. Van útmutató azok számára, akik telepítettek Unlaunch-öt a NAND mentésükre
+Ha áttekintetted a fenti információt, kövesd a [NAND mentése](dumping-nand.html) lépéseit, hogy egy új NAND mentést készíts, majd folytasd a [NAND mentés helyreállításával](restoring-nand.html). Ez az útmutató végig vezet az Unlaunch eltávolításán a NAND mentésből és annak flashelésén a konzolodra.
+
+Ha nem tudod használni a no$gba-t vagy hibát kapsz az Unlaunch eltávolítását követőne a no$gba-ban, lehtséges egy NAND mentés flashelése, ami az Unlaucnh telepítése előtt készült (ha rendelkezel még ilyennel), azonban javasolt, hogy próbáld meg először egy NAND mentéssel ami körábban tartalmazott Unlaunch-öt. Ez a visszaállítást jelentősen könnyebbé teszi ha egy brick miatt szükséges a hardmod, mivel az Unlaunch benne hagyja a no$gba láblécet a NAND-ban akkor is, ha eltávolításra kerül.

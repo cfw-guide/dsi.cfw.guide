@@ -32,7 +32,8 @@ header:
 - 様々なエミュレータを使用して古いゲームを動かす
 - 互換性のないマジコンを使用する
 - hiyaCFWを使用してNAND（システムデータ領域）をSDカードにリダイレクトする
-- tuna-viDSを使ってお気に入りの動画を見る
+- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
+     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
 - 本体起動時に画像（スプラッシュ画面）を表示する
 - 自作ゲームで遊ぶ
 

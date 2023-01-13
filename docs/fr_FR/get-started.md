@@ -42,7 +42,7 @@ Vous ne savez pas ce qu'est la « racine » de la carte SD ? [Consultez cette im
 
 ## Section II - Sélection d'un exploit
 
-À partir de là, deux options s'offrent à vous, avec une différence mineure dans ce que chacune implique.
+From here you have three options, with a minor difference in what each entails.
 
 
 ### Installation d'Unlaunch via Memory Pit
@@ -58,18 +58,31 @@ Continuez vers [Lancement de l'exploit](launching-the-exploit.html)
 :::
 
 
-### Flipnote Lenny
+### stylehax
 
-Flipnote Lenny est un exploit utilisant l'application Flipnote Studio.
+stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
 
-Si vous avez Flipnote Studio et que vous ne prévoyez pas d'installer Unlaunch (expliqué ci-dessus), cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrews.
-
-Vous pouvez toujours installer Unlaunch plus tard si vous décidez plus tard que vous le voulez.
+For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
 
 ::: tip
 
-Continuez vers [Lancement de l'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
-Pour une comparaison plus détaillée des avantages et inconvénients des exploits disponibles, veuillez consulter sur la section [Quel est le meilleur exploit ?](faq.html#which-is-the-best-exploit) de la FAQ.
+
+### Flipnote Lenny
+
+Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+
+If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+
+You can always install Unlaunch later if you decide later on that you want it.
+
+::: tip
+
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+
+:::
+
+For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

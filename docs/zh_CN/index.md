@@ -32,7 +32,8 @@ header:
 - 用各种模拟器玩老游戏
 - 使用通常情况下不兼容的烧录卡
 - 将 NAND 重定向到 SD 卡中安装的 hiyaCFW
-- Watch your favorite movies using tuna-viDS
+- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
+     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
 - 在启动时显示自定义图像（取代原生启动动画）
 - 玩自制游戏
 

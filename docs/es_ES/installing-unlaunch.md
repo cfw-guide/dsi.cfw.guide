@@ -37,7 +37,7 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
 ## Sección II - Instalar/Actualizar Unlaunch
 
 1. Abre TWiLight Menu++
-   - Si esta es tu primera vez instalando Unlaunch, lanza TWiLight Menu++ a través del exploit que utilizaste anteriormente
+   - Si esta es tu primera vez instalando Unlaunch, lanza TWiLight Menu++ a través del [exploit que utilizaste anteriormente](launching-the-exploit.html)
    - Si ya has instalado Unlaunch y lo que quieres es actualizarlo, mantén presionados <kbd class="face">A</kbd> y <kbd class="face">B</kbd> mientras enciendes la consola, y escoge la opción `TWiLight Menu++`
    - Si aparecen varias opciones con el nombre `TWiLight Menu++`, escoge la opción en la que se muestra `BOOT.NDS` al final de la ruta en la pantalla inferior
       - Esto sucede debido a que tienes instalada una versión antigua de TWiLight Menu++. A menos que lo estés haciendo a propósito, sugerimos que [actualices tu instalación](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
@@ -46,13 +46,13 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
 1. Presiona <kbd class="l">L</kbd>/<kbd class="r">R</kbd> o <kbd class="face">X</kbd>/<kbd class="face">Y</kbd> hasta que llegues a la sección `Ajustes de Unlaunch`.
 1. Si quieres cambiar el la imágen que Unlaunch utiliza como fondo. selecciona la opción `Fondo` y elige el que quieras.
    - Si quieres crear tu propio fondo para Unlaunch, consulta la [página en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds).
-1. Si quieres mantener la música y los sonidos del Menú DSi, así como la pantalla de Salud y Seguridad al usar el menú original de la consola, entonces `desactiva` la opción `Parches del Launcher`.
-   - Hacer esto eviará el poder saltar el bloqueo regional y la incompatibildiad de flashcarts.
 1. Sal de la Configuración de TWiLight Menu++
-1. En el menú de navegación de archivos, ejecuta la aplicación `Unlaunch DSi Installer`.
-1. Selecciona la opción "Install now"
-   - Si Unlaunch se congela y te muestra el mensaje `ERROR: MISMATCH IN FAT COPIES`, por favor revisa la página de [solución de problemas](troubleshooting.html)
-1. Cuando todo esté listo, reinicia el sistema
+1. In the file navigation menu, launch `Unlaunch DSi Installer`
+   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
+     This method does not enable Unlaunch to use custom patches and background
+1. Select the "install now" option
+   - Si Unlaunch se congela y muestra el mensaje `ERROR: MISMATCH IN FAT COPIES`, echa un vistazo a la página de [solución de problemas](troubleshooting.html)
+1. Al terminar, reinicia tu consola
 
 Si ves el sistema de archivos de Unlaunch en este punto, significa que has modificado exitosamente tu Nintendo DSi.
 - Si en cambio ves una pantalla en negro, por favor revisa la página de [solución de problemas](troubleshooting.html)

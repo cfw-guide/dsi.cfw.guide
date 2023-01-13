@@ -65,17 +65,19 @@ Urmează acești pași dacă ai creat o copie a NAND-ului după ce ai instalat U
 1. Odată finalizat, alege `Power down`
 1. Lansează orice ROM Nintendo DS din nou, și asigură-te că meniul DSi se încarcă și funcționează corect
 
+If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
+
 ## Instalarea copiei tale NAND (Software)
 
 ::: danger
 
-Asigură-te că ai parcurs toți pașii de mai sus deoarece aici devine periculos. Dacă ai fost trimis direct aici fără să urmărești pașii de mai sus, atunci du-te înapoi la început și citește toată pagina.
+Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 
 :::
 
 ::: danger
 
-Asigură-te că sistemul tău Nintendo DSi este bine încărcat înainte de a începe această secțiune.
+Make sure your Nintendo DSi system is well charged before beginning this section.
 
 :::
 
@@ -84,7 +86,7 @@ Asigură-te că sistemul tău Nintendo DSi este bine încărcat înainte de a î
 4. Apasă butonul `begin NAND restore`
 6. Odată ce restaurarea s-a încheiat, apasă <kbd>START</kbd> pentru a opri consola DSi
 
-NAND-ul tău ar trebui să fie restaurat.
+Your NAND should now be restored.
 
 ## Instalarea copiei tale NAND (Hardmod)
-Dacă nu poți porni consola Nintendo DSi, un hardmod este singurul mod prin care poți restaura o copie NAND. Cel mai bun ghid care există acum este [ghidul Nintendo DSi hardmod pe DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

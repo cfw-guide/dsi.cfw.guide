@@ -35,7 +35,7 @@ title: SDカードのセットアップ
 1. スタートメニューから`SD Card Formatter`を管理者権限で実行する
 1. SDカードを選択します
 1. `クイックフォーマット`が選択されていることを確認します
-1. フォーマットを開始します
+1. `フォーマット`を押してフォーマット作業を開始します ![Windows 11でのSD Card Formatterのスクリーンショット](/assets/images/sd-card-formatter.png)
 
 ### セクション II - GUIFormatでフォーマット
 
@@ -113,13 +113,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. 追加されたデバイス名をメモしてください。 上記の例では`mmcblk0p1`です
-  + `RO`が1になっていたら、ロックスイッチが下にスライドしないようにしてください
+   - `RO`が1になっていたら、ロックスイッチが下にスライドしないようにしてください
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Ctrl + C を押してメニューを終了します
 1. 次のうち、お使いのSDカードの容量にあった手順に従ってください：
-    - 2GB以下：`sudo mkdosfs /dev/(上で見つけたデバイス名) -s 64 -F 16`
-         - これにより、SDカード上にクラスタサイズが32KBのFAT16パーティションが一つ作成されます
-    - 4GB以上：`sudo mkdosfs /dev/(上で見つけたデバイス名) -s 64 -F 32`
-         - これにより、SDカード上にクラスタサイズが32KBのFAT32パーティションが一つ作成されます
+   - 2GB以下：`sudo mkdosfs /dev/(上で見つけたデバイス名) -s 64 -F 16`
+      - これにより、SDカード上にクラスタサイズが32KBのFAT16パーティションが一つ作成されます
+   - 4GB以上：`sudo mkdosfs /dev/(上で見つけたデバイス名) -s 64 -F 32`
+      - これにより、SDカード上にクラスタサイズが32KBのFAT32パーティションが一つ作成されます
 
 ### セクションII - F3の使用
 1. [F3のアーカイブ](https://github.com/AltraMayor/f3/archive/v7.2.zip)をダウンロード・展開します

@@ -3,9 +3,11 @@ title: Navigarea Site-ului
 ---
 
 ## Procesul principal al ghidului
-- [Lansarea Exploit-ului](launching-the-exploit.html)
-- [Creerea Backup-ului NAND](dumping-nand.html)
-- [Instalarea Unlaunch](installing-unlaunch.html)
+- [Get Started](get-started.html)
+- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
+- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Dumping NAND](dumping-nand.html)
+- [Installing Unlaunch](installing-unlaunch.html)
 
 ## Secțiuni suplimentare
 - [Setarea Cardului SD](sd-card-setup.html)

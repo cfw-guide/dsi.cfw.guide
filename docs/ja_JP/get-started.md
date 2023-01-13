@@ -42,7 +42,7 @@ SDカードの「ルート」が何だかわかりませんか？ [こちらを�
 
 ## セクション II - エクスプロイトの選択
 
-ここでは2つの選択肢があり、手順が僅かに異なります。
+From here you have three options, with a minor difference in what each entails.
 
 
 ### Memory Pit経由でUnlaunchをインストール
@@ -58,18 +58,31 @@ Memory PitはHomebrew互換性に多少制限があるため、Memory Pit単独�
 :::
 
 
-### Flipnote Lenny（うごくメモ帳エクスプロイト）
+### stylehax
 
-Flipnote Lennyはうごくメモ帳を利用したエクスプロイトです。
+stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
 
-うごくメモ帳を持っていて、上述のUnlaunchのインストールをするつもりがなければ、この方法がおすすめです。Memory Pit単独では一部のゲームやHomebrewで問題が発生するためです。
-
-必要なら、後でいつでもUnlaunchをインストールすることもできます。
+For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
 
 ::: tip
 
-[エクスプロイトを起動する（Flipnote Lenny）](launching-the-flipnote-exploit.html)に進む
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
-利用可能な各エクスプロイトの長所・短所をより詳しく知るには、よくある質問の[最も良いエクスプロイトはどれですか？](faq.html#which-is-the-best-exploit)を見てください。
+
+### Flipnote Lenny
+
+Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+
+If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+
+You can always install Unlaunch later if you decide later on that you want it.
+
+::: tip
+
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+
+:::
+
+For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

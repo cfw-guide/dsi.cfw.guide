@@ -3,7 +3,9 @@ title: Webhely navigáció
 ---
 
 ## Fő folyamat útmutató
-- [Az Exploit indítása](launching-the-exploit.html)
+- [Kezdeti lépések](get-started.html)
+- [Az Exploit indítása (Memory Pit)](launching-the-exploit.html)
+- [Az Exploit indítása (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [NAND dumpolása](dumping-nand.html)
 - [Unlaunch telepítése](installing-unlaunch.html)
 

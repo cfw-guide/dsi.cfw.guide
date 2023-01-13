@@ -6,7 +6,13 @@ Questa pagina riguarda la creazione di un backup della NAND, una copia dei dati 
 
 ::: tip
 
-Si consiglia vivamente di farlo. Un backup della NAND può essere utilizzato come punto di ripristino in futuro, nel caso in cui il DSi smetta di funzionare.
+Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+
+:::
+
+::: tip
+
+It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 
 :::
 
@@ -14,7 +20,7 @@ Si consiglia vivamente di farlo. Un backup della NAND può essere utilizzato com
 
 ::: tip
 
-Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare questa parte.
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
@@ -35,12 +41,12 @@ Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare
 
 ::: warning
 
-L'hash SHA1 del `nand.bin` non corrisponderà all'hash memorizzato in `nand.bin.sha1`. Questo accade poiché dumpTool aggiunge dei dati aggiuntivi, noti come footer NO$gba, al file `nand.bin` dopo che l'hash SHA1 è stato calcolato. È possibile utilizzare [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) per creare una copia senza il footer.
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 
 :::
 
 ::: tip
 
-Continua a [Installazione di Unlaunch](installing-unlaunch.html) (Optional)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

@@ -21,9 +21,10 @@ Pour réduire les risques de brick, assurez-vous que vous n'avez pas installé d
 
 ::: warning
 
-Lors de la désinstallation d'Unlaunch, vous ne devez **PAS** utiliser son programme de désinstallation intégré, car il y a une chance qu'il bloque la console. Veuillez voir ci-dessous pour obtenir des informations sur la façon de le désinstaller correctement.
+Lorsque vous désinstallez Unlaunch, n'utilisez **PAS** son désinstalleur intégré directement sur votre console car il y a une chance qu'il bricke la console. Veuillez voir ci-dessous pour obtenir des informations sur la façon de le désinstaller correctement.
 
 :::
 
-Une fois que vous avez examiné les informations ci-dessus, passez à la [restauration d'une sauvegarde de la NAND](restoring-nand.html). Cela vous guidera tout au long du flashage de la sauvegarde NAND que vous avez effectuée lors du [dumping de la NAND](dumping-nand.html).
-- Si vous n'êtes plus en possession d'une sauvegarde NAND avant d'installer Unlaunch, suivez [Dumping de la NAND](dumping-nand.html) et continuez avec [Restauration d'une sauvegarde NAND](restoring-nand.html). Il existe des instructions pour les utilisateurs qui ont installé Unlaunch sur leur sauvegarde NAND
+Une fois que vous avez examiné les informations ci-dessus, suivez les instructions de la page [Dumping de la NAND](dumping-nand.html) pour faire une nouvelle sauvegarde NAND, puis passez à [Restauration d'une sauvegarde de la NAND](restoring-nand.html). Cela vous guidera dans la désinstallation d'Unlaunch à partir de la sauvegarde NAND et le flashage de celle-ci sur votre console.
+
+Si vous n'êtes pas en mesure d'utiliser no$gba ou si vous obtenez une erreur après avoir désinstallé Unlaunch dans no$gba, il est également possible de flasher une sauvegarde NAND faite avant l'installation d'Unlaunch si vous en avez encore une. Cependant, il est d'abord recommandé d'essayer d'utiliser une sauvegarde NAND qui avait précédemment Unlaunch. Cela rendra la récupération beaucoup plus facile dans le cas d'un brick nécessitant un hardmod car Unlaunch laisse le pied de page no$gba intégré dans la NAND même lorsqu'il est désinstallé.

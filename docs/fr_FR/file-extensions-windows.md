@@ -11,8 +11,8 @@ Il s'agit d'une section complémentaire permettant de désactiver le comportemen
 1. Lancez l'Explorateur de fichiers en ouvrant n'importe quel répertoire, comme celui de votre carte SD
 1. Cliquez sur l'option « Afficher » dans la barre supérieure
    - Si l'option n'est pas présente, cliquez sur le bouton `···` dans la partie la plus à droite de la barre supérieure
-3. Cliquez ou déplacez votre curseur sur le sous-menu `Afficher >`
-4. Cochez l'option intitulée `Extensions de noms de fichier` ![Capture d'écran du survol de la case à cocher « Extensions de noms de fichier » sur Windows 11](/assets/images/windows-11-file-extensions.png)
+1. Cliquez ou déplacez votre curseur sur le sous-menu `Afficher >`
+1. Cochez l'option intitulée `Extensions de noms de fichier` ![Capture d'écran du survol de la case à cocher « Extensions de noms de fichier » sur Windows 11](/assets/images/windows-11-file-extensions.png)
 
 ::::
 

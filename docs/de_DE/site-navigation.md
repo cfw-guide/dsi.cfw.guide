@@ -3,9 +3,11 @@ title: Seteinnavigation
 ---
 
 ## Hauptanleitungs-Ablauf
-- [Starten des Exploits](launching-the-exploit.html)
-- [Dumpen der NAND](dumping-nand.html)
-- [Unlaunch Installation](installing-unlaunch.html)
+- [Get Started](get-started.html)
+- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
+- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Dumping NAND](dumping-nand.html)
+- [Installing Unlaunch](installing-unlaunch.html)
 
 ## Extra Bereiche
 - [Einrichtung der SD-Karte](sd-card-setup.html)

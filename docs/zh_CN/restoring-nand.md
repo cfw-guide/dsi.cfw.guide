@@ -65,17 +65,19 @@ Follow this if you dumped your NAND backup after you installed Unlaunch and you 
 1. Once complete, choose `Power down`
 1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
 
+If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
+
 ## 刷入你的NAND备份 (软件方式)
 
 ::: danger
 
-请确保您已经阅读过上述步骤，因为这是开始变得危险的地方。 如果您直接链接到这里而没有跟从以上内容，请回到顶端阅读整个页面。
+Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 
 :::
 
 ::: danger
 
-请确保您的 Nintendo DSi 在开始本节之前已经充满电。
+Make sure your Nintendo DSi system is well charged before beginning this section.
 
 :::
 
@@ -84,7 +86,7 @@ Follow this if you dumped your NAND backup after you installed Unlaunch and you 
 4. 按下 `begin NAND restore`
 6. 一旦恢复完成，按 <kbd>start</kbd> 关闭您的 DSi
 
-现在你的NAND应该已被还原。
+Your NAND should now be restored.
 
 ## 刷入你的NAND备份 (硬件修改)
-如果你不能启动你的Nintendo DSi，硬刷是恢复NAND备份的唯一途径。 目前存在的最佳指南是 [DS-Homebrew Wiki 上的 Nintendo DSi 硬破 指南](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi)。
+If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

@@ -65,17 +65,19 @@ Segui questa sezione se hai eseguito il dump del backup della tua NAND dopo aver
 1. Una volta completato, seleziona `Power down`
 1. Avvia qualsiasi ROM Nintendo DS e assicurati che il menu del DSi si avvii e funzioni correttamente
 
+If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
+
 ## Flash del backup della NAND (Software)
 
 ::: danger
 
-Assicurati di aver letto i passaggi sopra visto che è qui che diventa pericoloso. Se siete stati collegati direttamente qui senza seguire quanto scritto sopra, allora tornate in alto e leggete l'intera pagina.
+Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 
 :::
 
 ::: danger
 
-Assicurati che il tuo sistema Nintendo DSi sia ben caricato prima di iniziare questa sezione.
+Make sure your Nintendo DSi system is well charged before beginning this section.
 
 :::
 
@@ -84,7 +86,7 @@ Assicurati che il tuo sistema Nintendo DSi sia ben caricato prima di iniziare qu
 4. Premi il pulsante per `avviare il ripristino della NAND`
 6. Una volta terminato il ripristino, premi <kbd>START</kbd> per spegnere il tuo DSi
 
-La tua NAND dovrebbe ora essere ripristinata.
+Your NAND should now be restored.
 
 ## Flash del backup della NAND (Hardmod)
-Se non riesci ad avviare il tuo Nintendo DSi, un hardmod è l'unico modo per ripristinare un backup NAND. La migliore guida che attualmente esiste è la guida [ Hardmod Nintendo DSi sulla DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

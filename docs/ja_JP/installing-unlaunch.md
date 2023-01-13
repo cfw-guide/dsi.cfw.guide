@@ -37,7 +37,7 @@ Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](l
 ## セクション II - Unlaunchのインストール・更新
 
 1. TWiLight Menu++を起動します
-   - Unlaunchをインストールするのが初めてなら、以前使ったエクスプロイトでTWilight Menu++を再起動してください
+   - Unlaunchをインストールするのが初めてなら、[以前使ったエクスプロイト](launching-the-exploit.html)でTWilight Menu++を再起動してください
    - Unlaunchをインストール済で更新を考えている場合は、起動時に<kbd class="face">A</kbd>と<kbd class="face">B</kbd>を長押しし、`TWiLight Menu++`というラベルの付いたオプションを選択します
    - `TWiLight Menu++`がいくつもある場合、下画面のPathの最後に`BOOT.NDS`と表示されるものを選びます
       - あなたが意図的にやったのでなければ、これは古いバージョンのTWiLight Menu++を実行しているために発生しています。[インストールを更新](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)することをお勧めします
@@ -46,11 +46,11 @@ Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](l
 1. <kbd class="l">L</kbd>/<kbd class="r">R</kbd>または<kbd class="face">X</kbd>/<kbd class="face">Y</kbd>を押して`Unlaunch設定`ページに移動します
 1. Unlaunchの背景画像を変更したい場合は、`背景画像`を選択し、好みの画像を選択してください
    - 独自のUnlaunch背景を作成したい場合は、[DS-Homebrew Wiki ページ](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)をご覧ください
-1. 「健康と安全」画面と公式ニンテンドーDSiメニューに音が欲しい場合は、`ランチャーパッチ`を`オフ`にします
-   - これにより地域ロックとゲームカードのホワイトリストが維持され、一部のマジコンがDSiメニューから使用できなくなります
 1. TWiLight Menu++設定を終了します
-1. メニューで、`Unlaunch DSi Installer`を起動します
-1. 「Install now」 を選択します
+1. In the file navigation menu, launch `Unlaunch DSi Installer`
+   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
+     This method does not enable Unlaunch to use custom patches and background
+1. Select the "install now" option
    - Unlaunchが`ERROR: MISMATCH IN FAT COPIES`でフリーズしたときは、[トラブルシューティング](troubleshooting.html)をお確かめください
 1. 完了したら、本体を再起動します
 

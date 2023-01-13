@@ -35,7 +35,7 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 1. Rulează `SD Card Formatter` din Meniul de Start cu privilegii de Administrator
 1. Selectează-ți cardul SD
 1. Asigură-te că `Quick Format` este bifat
-1. Începe procesul de formatare
+1. Press `Format` to start the format process ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Secțiunea II - Formatarea cardului SD cu GUIFormat
 
@@ -113,13 +113,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Take note of the device name. In our example above, it was `mmcblk0p1`
-  + Dacă `RO` este setat la 1, asigură-te că butonul de blocare nu este în jos
+   - Dacă `RO` este setat la 1, asigură-te că butonul de blocare nu este în jos
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Apasă CTRL + C pentru a ieși din meniu
 1. Urmează instrucțiunile conform capacității cardului SD:
-    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
-         - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
-         - This creates a single FAT32 partition with 32 KB cluster size on the SD card
+   - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+      - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+   - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+      - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### Secţiunea II – Utilizarea F3
 1. Descarcă și extrage [arhiva F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) oriunde pe calculatorul tău.

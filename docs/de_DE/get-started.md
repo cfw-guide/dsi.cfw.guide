@@ -42,7 +42,7 @@ Unsure what the SD "root" is? [See this image](https://media.discordapp.net/atta
 
 ## Section II - Selecting an exploit
 
-From here you have two options, with a minor difference in what each entails.
+From here you have three options, with a minor difference in what each entails.
 
 
 ### Installing Unlaunch via Memory Pit
@@ -58,11 +58,24 @@ Continue to [Launching the Exploit](launching-the-exploit.html)
 :::
 
 
+### stylehax
+
+stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
+
+For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+
+::: tip
+
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
+
+:::
+
+
 ### Flipnote Lenny
 
 Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
 
 You can always install Unlaunch later if you decide later on that you want it.
 

@@ -35,7 +35,7 @@ Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo proce
 1. Esegui `SD Card Formatter` dal Menu Start con i privilegi Amministratore
 1. Seleziona la tua scheda SD
 1. Assicurati che la casella `Quick Format` sia spuntata
-1. Avvia il processo di formattazione
+1. Press `Format` to start the format process ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Sezione II - Formattazione della scheda SD con GUIFormat
 
@@ -113,13 +113,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Prendi nota del nome del dispositivo. Nell'esempio sopra, era `mmcblk0p1`
-  + Se `RO` è impostato a 1, assicurati che l'interruttore di blocco non sia scivolato
+   - Se `RO` è impostato a 1, assicurati che l'interruttore di blocco non sia scivolato
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Premi CTRL + C per uscire dal menu
 1. Segui le istruzione relative alla capacità della tua scheda SD:
-    - 2GB o meno: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 16`
-         - Verrà creata un'unica partizione FAT16 con dimensione di allocazione di 32 KB sulla scheda SD
-    - 4GB o più: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 32`
-         - Verrà creata un'unica partizione FAT32 con dimensione di allocazione di 32 KB sulla scheda SD
+   - 2GB o meno: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 16`
+      - Verrà creata un'unica partizione FAT16 con dimensione di allocazione di 32 KB sulla scheda SD
+   - 4GB o più: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 32`
+      - Verrà creata un'unica partizione FAT32 con dimensione di allocazione di 32 KB sulla scheda SD
 
 ### Sezione II - Uso Di F3
 1. Scarica ed estrai [l'archivio F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) in un percorso qualsiasi sul tuo computer.

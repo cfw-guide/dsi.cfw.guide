@@ -35,7 +35,7 @@ Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. K
 1. Futtasd az `SD Card Formatter`-t a Start menüből rendszergazda joggal
 1. Válaszd ki az SD kártyád
 1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-1. Indíts el a formázást
+1. Nyomd meg a `Format` gombot a formázás elindításához ![Képernyőkép a SD Card Formatter-ről Windows 11-en](/assets/images/sd-card-formatter.png)
 
 ### II. rész - Az SD kártya formázása az SD GUIFormat-tal
 
@@ -113,13 +113,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Jegyezd fel az eszköz nevét. A fenti példában ez `mmcblk0p1` volt
-  + + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
+   - + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Nyomj CTRL + C-t a menüből kilépéshez
 1. Kövesd az SD kártyád kapacitásának megfelelő lépéseket:
-    - - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`
-         - Ez létrehoz egy FAT16 partíciót 32 KB cluster mérettel az SD kártyán
-    - - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
-         - Ez létrehoz egy FAT32 partíciót 32 KB cluster mérettel az SD kártyán
+   - - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`
+      - Ez létrehoz egy FAT16 partíciót 32 KB cluster mérettel az SD kártyán
+   - - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
+      - Ez létrehoz egy FAT32 partíciót 32 KB cluster mérettel az SD kártyán
 
 ### II. rész - Az F3 használata
 1. Töltsd le és csomagold ki [az F3 archívot](https://github.com/AltraMayor/f3/archive/v7.2.zip) bárhova a számítógépeden.

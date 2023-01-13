@@ -32,7 +32,8 @@ Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nint
 - Exécutez de vieux classiques en utilisant divers émulateurs
 - Utilisez des linkers normalement incompatibles
 - Redirigez votre NAND vers la carte SD en utilisant hiyaCFW
-- Regardez vos films préférés en utilisant tuna-viDS
+- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
+     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
 - Affichez une image (en tant qu'écran d'accueil) au lancement du système
 - Jouez à des jeux homebrews
 

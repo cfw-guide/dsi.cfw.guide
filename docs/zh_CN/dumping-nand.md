@@ -6,7 +6,13 @@ title: 提取NAND
 
 ::: tip
 
-强烈建议你进行该步骤。 如果机器变砖，NAND备份可以用于系统恢复
+Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+
+:::
+
+::: tip
+
+It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 
 :::
 
@@ -35,7 +41,7 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 ::: warning
 
-`nand.bin` 的 SHA1 hash值将与 `nand.bin.sha1` 中储存的hash值不匹配。 这是因为在计算SHA1 hash值后，dumpTool对 `nand.bin` 文件增加了一个 no$gba 页脚的额外数据。 您可以使用 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) 创建一个无页脚的副本。
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 
 :::
 

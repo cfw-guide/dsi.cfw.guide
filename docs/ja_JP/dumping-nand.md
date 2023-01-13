@@ -6,7 +6,13 @@ title: NANDのバックアップ
 
 ::: tip
 
-バックアップを行うことを強くお勧めします。 後々ブリックした時に、復元ポイントとして使用できるためです。
+Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+
+:::
+
+::: tip
+
+It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 
 :::
 
@@ -14,7 +20,7 @@ title: NANDのバックアップ
 
 ::: tip
 
-すでにこのガイドの別のセクションでdumpToolをダウンロードしている場合は、このセクションをスキップできます。
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
@@ -35,12 +41,12 @@ title: NANDのバックアップ
 
 ::: warning
 
-`nand.bin`のSHA1ハッシュは、`nand.bin.sha1`に格納されているハッシュと一致しません。 これはSHA1ハッシュを計算後に、No$GBAフッターとして知られるデータをdumpToolが`nand.bin`に追加しているためです。 フッターなしでバックアップを作成するには、[hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)を使用します。
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 
 :::
 
 ::: tip
 
-[Unlaunchのインストール](installing-unlaunch.html)に進む（任意）
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

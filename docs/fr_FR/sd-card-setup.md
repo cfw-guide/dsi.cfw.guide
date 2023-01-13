@@ -35,7 +35,7 @@ Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de c
 1. Exécutez `SD Card Formatter` à partir du menu Démarrer avec les droits d'administrateur
 1. Sélectionnez votre carte SD
 1. Assurez-vous que la case `Quick Format` (« formatage rapide ») est cochée
-1. Lancez le processus de formatage
+1. Appuyez sur `Format` pour lancer le processus de formatage ![Capture d'écran de SD Card Formatter sur Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Section II - Formatage de votre carte SD avec GUIFormat
 
@@ -113,13 +113,14 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Prenez note du nom de l'appareil. Dans notre exemple ci-dessus, c'était `mmcblk0p1`
-  + Si `RO` est réglé sur 1, assurez-vous que l'interrupteur de verrouillage n'est pas glissé vers le bas
+   - Si `RO` est réglé sur 1, assurez-vous que l'interrupteur de verrouillage n'est pas glissé vers le bas
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Appuyez sur CTRL + C pour quitter le menu
 1. Suivez les instructions relatives à la capacité de votre carte SD :
-    - 2 Go ou moins : `sudo mkdosfs /dev/(nom de l'appareil ci-dessus) -s 64 -F 16`
-         - Cela crée une seule partition FAT16 avec une taille de cluster de 32 ko sur la carte SD
-    - 4 Go ou plus : `sudo mkdosfs /dev/(nom de l'appareil ci-dessus) -s 64 -F 32`
-         - Cela crée une seule partition FAT32 avec une taille de cluster de 32 ko sur la carte SD
+   - 2 Go ou moins : `sudo mkdosfs /dev/(nom de l'appareil ci-dessus) -s 64 -F 16`
+      - Cela crée une seule partition FAT16 avec une taille de cluster de 32 ko sur la carte SD
+   - 4 Go ou plus : `sudo mkdosfs /dev/(nom de l'appareil ci-dessus) -s 64 -F 32`
+      - Cela crée une seule partition FAT32 avec une taille de cluster de 32 ko sur la carte SD
 
 ### Section II - Utilisation de F3
 1. Téléchargez et extrayez [l'archive F3](https://github.com/AltraMayor/f3/archive/v7.2.zip) n'importe où sur votre ordinateur.

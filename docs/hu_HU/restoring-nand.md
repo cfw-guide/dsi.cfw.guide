@@ -65,6 +65,8 @@ Kövesd ezt, ha a NAND mentésed az után készítetted, hogy telepítetted az U
 1. Ha befejezte, válaszd a `Power down`-t
 1. Tölts be bármilyen Nintendo DS ROM-ot újra és ellenőrizd, hogy a DSi menüd betölts és megfelelően működik
 
+Ha no$gba bármilyen problémát mutat, a DSi menü betöktése helyett, ***ne flash-eld a mentésed***! Ha van egyrégebbi NAND mentésed, megpróbálhatod azt helyette. **Ne** próbáld meg eltávolítani az Unlaunch-öt az eltávolítóval (uninstaller) a konzolon, mert extrém nagy az esélye, hogy brick-eli a DSi-det.
+
 ## A NAND mentés flashelése (szoftver)
 
 ::: danger
@@ -87,4 +89,4 @@ Legyél biztos abban, hogy Nintendo DSi rendszered rendesen fel van töltve, mie
 A NAND-od most már helyreállított kell legyen.
 
 ## NAND mentés flashelése (Hardmod)
-Ha nem tudsz bebootolni a Nintendo DSi-dbe, csak a hardmod megoldás a NAND visszaállítására mentésből. A legjobb úmtutató erre a [Nintendo DSi hardmod útmutató a DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi)-ben.
+Ha nem tudsz bebootolni a Nintendo DSi-dbe, csak a hardmod megoldás a NAND visszaállítására mentésből. A legjobb útmutató erre a [Nintendo DSi hardmod útmutató a DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi)-ben.

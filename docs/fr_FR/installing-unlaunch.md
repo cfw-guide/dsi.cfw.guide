@@ -37,7 +37,7 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 ## Section II - Installation/Mise à jour d'Unlaunch
 
 1. Ouvrez TWiLight Menu++
-   - Si c'est la première fois que vous installez Unlaunch, relancez TWiLight Menu++ avec l'exploit que vous avez utilisé
+   - Si c'est la première fois que vous installez Unlaunch, relancez TWiLight Menu++ avec [l'exploit que vous avez utilisé](launching-the-exploit.html)
    - Si vous avez déjà installé Unlaunch et que vous cherchez à le mettre à jour, maintenez <kbd class="face">A</kbd> + <kbd class="face">B</kbd> pendant le démarrage et sélectionnez l'option intitulée `TWiLight Menu++`
    - Si plusieurs options sont intitulées `TWiLight Menu++`, sélectionnez l'option dans laquelle `BOOT.NDS` apparaît à la fin du chemin sur l'écran inférieur
       - Cela se produit parce que vous exécutez une ancienne version de TWiLight Menu++, à moins que vous ne le fassiez exprès, il vous est suggéré de [mettre à jour votre installation](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
@@ -46,11 +46,11 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 1. Pressez <kbd class="l">L</kbd> / <kbd class="r">R</kbd> ou <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> jusqu'à ce que vous atteigniez la page `Paramètres d'Unlaunch`
 1. Si vous voulez changer l'image en fond d'écran d'Unlaunch, sélectionnez `Fond d'écran` et choisissez celle qui vous convient
    - Si vous souhaitez créer votre propre fond d'écran d'Unlaunch, consultez la page du [wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-1. Si vous souhaitez que l'écran de santé et de sécurité ainsi que la musique et les sons du menu DSi soient disponibles lorsque vous utilisez le menu officiel de la Nintendo DSi, réglez l'option `Paramètres du lanceur` sur `Désactivé`
-   - Cela permettra également de conserver le verrouillage des régions et la liste blanche des cartes, ce qui signifie que certains linkers ne seront pas utilisables à partir du menu DSi
 1. Quittez les paramètres de TWiLight Menu++
-1. Dans le menu de navigation des fichiers, lancez `Unlaunch DSi Installer`
-1. Sélectionnez l'option « install now »
+1. In the file navigation menu, launch `Unlaunch DSi Installer`
+   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
+     This method does not enable Unlaunch to use custom patches and background
+1. Select the "install now" option
    - Si Unlaunch plante à `ERROR: MISMATCH IN FAT COPIES`, veuillez consulter la page de [dépannage](troubleshooting.html)
 1. Une fois terminé, redémarrez votre système
 

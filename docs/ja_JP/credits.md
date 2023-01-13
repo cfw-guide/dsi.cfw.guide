@@ -7,15 +7,16 @@ title: 謝辞
 彼らの功績に感心したら、是非寄付をご検討ください（寄付リンクがある場合）。
 
 - [NightScript](https://nightscript370.github.io/)、[Pk11](https://pk11.us/)、[Peter0x44](https://github.com/Peter0x44)：ガイド管理者
-- [YourKalamity](https://github.com/YourKalamity/)：Lazy DSi File Downloader製作者
+- [YourKalamity](https://github.com/YourKalamity): Creator of Lazy DSi File Downloader
 - [emiyl](https://emiyl.com/paypal)：ドメイン所有者
 - Halvorsen：ガイドのDSi画像提供者
 - [shutterbug2000](https://paypal.me/projectkaeru)：DSiカメラ・うごくメモ帳エクスプロイトの発見者・開発者
-- [WinterMute](https://devkitpro.org/support-devkitpro)：DS Homebrew開発ツールチェイン管理者、ugopwn派生のFlipnote Lenny（全地域対応・バージョン対応化）立役者
-- [nocash](http://problemkaputt.de/donate.htm)：Unlaunch開発者
-- [RocketRobz](https://github.com/RocketRobz)：TWiLight Menu++・GodMode9i開発者
-- [zoogie](https://github.com/zoogie)：dumpTool開発者、Memory Pitの全地域・バージョン対応化立役者
-- [Plailect](https://github.com/Plailect)：このガイドが制作の参考とした３DS改造ガイドの原作者
+- [nathanfarlow](https://github.com/nathanfarlow): Discoverer & Developer of DSi Browser exploit
+- [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew development toolchain & forked the ugopwn Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions)
+- [nocash](http://problemkaputt.de/donate.htm): Developer of Unlaunch
+- [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++ & GodMode9i
+- [zoogie](https://github.com/zoogie): Developer of dumpTool & forked Memory Pit to support all regions and firmwares
+- [Plailect](https://github.com/Plailect): Made the original 3DS Modding Guide, which this took inspiration from
 
 [プルリクエストを送る](https://github.com/cfw-guide/dsi.cfw.guide/)だけで、あなたもガイドに貢献できます！
 

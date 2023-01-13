@@ -1,5 +1,5 @@
 ---
-title: Rstaurar un respaldo de la NAND
+title: Restaurar un respaldo de la NAND
 ---
 
 ::: danger
@@ -65,17 +65,19 @@ Sigue estos pasos si has volcado tu respaldo de la NAND después de instalar Unl
 1. Una vez terminado, elige la opción `Power Down`.
 1. Ejecuta cualquier otra ROM de Nintendo DS para segurarte de que el menú carga y funciona correctamente.
 
+If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
+
 ## Sobreescribir utilizando tu respaldo de la NAND (por software)
 
 ::: danger
 
-Aquí es donde la cosa se vuelve peligrosa, así que asegúrate de haber leído bien los pasos anteriores. Si llegaste aquí a través de un enlace sin seguir los pasos anteriores, vuelve al principio de la página y leela por completo.
+Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
 
 :::
 
 ::: danger
 
-Asegúrate de que tu consola está cargada antes de comenzar con esta sección.
+Make sure your Nintendo DSi system is well charged before beginning this section.
 
 :::
 
@@ -84,7 +86,7 @@ Asegúrate de que tu consola está cargada antes de comenzar con esta sección.
 4. Pulsa el botón indicado para la opción `begin NAND restore`.
 6. Una vez finalizada la restauracion, pulsa <kbd>START</kbd> para apagar tu consola.
 
-La memoria NAND de tu consola debería estar restaurada.
+Your NAND should now be restored.
 
 ## Sobreescribir utilizando tu respaldo de la NAND (por modificación del hardware)
-Si tu consola no enciende o no incia el sistema, hacer una modificación del hardware es la única forma de restaurar un respaldo de la NAND. La mejor guía que existe actualmente es la [guía de modificación de hardware de Nintendo DSi en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

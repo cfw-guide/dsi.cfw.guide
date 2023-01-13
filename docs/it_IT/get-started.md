@@ -42,7 +42,7 @@ Non sai cosa sia la "root" della SD? [Guarda questa immagine](https://media.disc
 
 ## Sezione II - Scegliere l'exploit
 
-Da qui hai due opzione, con una piccola differenza in ciò che ciascuna comporta.
+From here you have three options, with a minor difference in what each entails.
 
 
 ### Installazione di Unlaunch tramite Memory Pit
@@ -58,18 +58,31 @@ Continua con l'[Avvio dell'exploit](launching-the-exploit.html)
 :::
 
 
-### Flipnote Lenny
+### stylehax
 
-Flipnote Lenny è un exploit che utilizza l'applicazione Flipnote Studio.
+stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
 
-Se hai Flipnote Studio e non hai intenzione d'installare Unlaunch (spiegato sopra), questo exploit è raccomandato dato che l'utilizzo di Memory Pit causa problemi in alcuni giochi e homebrew.
-
-È sempre possibile installare Unlaunch più tardi se dovessi cambiare idea.
+For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
 
 ::: tip
 
-Continua con [Avvio dell'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
-Per un confronto più dettagliato di pro e contro degli exploit disponibili, consulta [Qual è l'exploit migliore?](faq.html#which-is-the-best-exploit) nelle FAQ.
+
+### Flipnote Lenny
+
+Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+
+If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+
+You can always install Unlaunch later if you decide later on that you want it.
+
+::: tip
+
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+
+:::
+
+For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

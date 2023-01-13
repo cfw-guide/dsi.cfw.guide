@@ -6,7 +6,13 @@ Ez az oldal a NAND mentés készítéséről szól, ami egy másolata a Nintendo
 
 ::: tip
 
-Erősen ajánlott, hogy végrehajtsd ezt. Egy NAND mentés használható visszaállítási pontjaként a jövőben, ha brickelődne az eszközöd.
+Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+
+:::
+
+::: tip
+
+It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
 
 :::
 
@@ -14,7 +20,7 @@ Erősen ajánlott, hogy végrehajtsd ezt. Egy NAND mentés használható vissza�
 
 ::: tip
 
-Ha már letöltötted a dumpTool-t az útmutató egy másik része alapján, akkor átugorhatod ezt a részt.
+If you have already downloaded dumpTool from another section of this guide, you can skip this section.
 
 :::
 
@@ -35,12 +41,12 @@ Ha már letöltötted a dumpTool-t az útmutató egy másik része alapján, akk
 
 ::: warning
 
-Az SHA1 hash-e a `nand.bin`-nek nem fog egyezni a `nand.bin.sha1` fájlban tárolt értékkel. Ez azért van, mert a dumpTool további adatokat ad hozzá a `nand.bin`-hez, amit no$gba láblécnek hívunk, miután az SHA1 hash kiszámításra került. Használhatod a [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)-t olyan másolat létrehozásához, amiben nincs benne ez a lábléc.
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 
 :::
 
 ::: tip
 
-Folytatás az [Unlaunch telepítésével](installing-unlaunch.html) (Opcionális)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

@@ -3,7 +3,9 @@ title: サイトマップ
 ---
 
 ## 基本ガイド
-- [エクスプロイトの起動](launching-the-exploit.html)
+- [はじめる](get-started.html)
+- [Memory Pitの起動](launching-the-exploit.html)
+- [Flipnote Lennyの起動](launching-the-flipnote-exploit.html)
 - [NANDのバックアップ](dumping-nand.html)
 - [Unlaunchのインストール](installing-unlaunch.html)
 

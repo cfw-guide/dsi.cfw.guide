@@ -3,7 +3,9 @@ title: Navigation du site
 ---
 
 ## Processus du guide principal
-- [Lancement de l'exploit](launching-the-exploit.html)
+- [Pour commencer](get-started.html)
+- [Lancement de l'exploit (Memory Pit)](launching-the-exploit.html)
+- [Lancement de l'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [Dumping de la NAND](dumping-nand.html)
 - [Installation d'Unlaunch](installing-unlaunch.html)
 

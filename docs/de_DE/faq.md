@@ -3,10 +3,14 @@ title: FAQ
 ---
 
 ## Sollte ich ein Systemupdate durchführen?
-Nein. Der Nintendo DSi kann Homebrew in jeder Version ausführen, auch der neuesten, es gibt aber keinen Vorteil durch updaten. Der DSi Shop wurde vollständig offline genommen, die Facebookintegration der DSi Kamera ist inaktiv und die einzig andere Sache Updates machen, ist Flashcards zu blockieren. Es gibt auch ein extrem geringes Risiko, den DSi bei einem Systemupdate zu **beschädigen**, genauso wahrscheinlich wie das Risiko bei der Unlaunch-Installation.
+It is **not** recommended to update your DSi unless you know there are purchased DSiWare. While it still possible to follow this guide if you do so, the only benefit to updating is the ability to access the Nintendo DSi Shop to redownload already purchased titles. All other benefits, such as Facebook integration in the Nintendo DSi Camera application, are no longer usable or are not significant enough to justify the downsides:
+
+- Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch
+- Older exploits are no longer possible to use, which may be required if you are unable use the recommended exploits
+- Flashcard compatibility is reduced, however this is bypassed if you install Unlaunch
 
 ## Which is the best exploit?
-Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit (as it's the simplest and most compatible exploit) to install Unlaunch, however if you decide you want to avoid any risk it's recommended to instead use Flipnote Lenny as using Memory Pit can cause issues in certain cases. Below is a list of the pros and cons of each exploit:
+Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit to install Unlaunch. If you want to avoid any risk it's recommended to instead use Flipnote Lenny as it has fewer issues in homebrew than Memory Pit while being just as safe and simple to remove. Below is a list of the pros and cons of each exploit:
 
 ### Memory Pit
 Pros:
@@ -22,14 +26,27 @@ Cons:
 - Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
      - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
 
+### stylehax
+Pros:
+- Better compatibility with DSi mode titles and homebrew than Memory Pit
+- Easy to use
+- No risk of damaging the console
+- Useable on consoles with broken camera
+- Better sound in GBARunner2
+
+Cons:
+- Requires internet access
+- Requires loading the DSi Browser every time you want to access homebrew, slightly more time consuming than Memory Pit
+- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+
 ### Flipnote Lenny
 Pros:
 - Better compatibility with DSi mode titles and homebrew than Memory Pit
 - No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
+- Useable on consoles with broken camera
 - Better sound in GBARunner2
 
 Cons:
-- Requires Flipnote Studio
 - Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 
@@ -50,7 +67,9 @@ Cons:
 - Not compatible with development consoles
 
 ## Will I lose any functionality by modding my system?
-If you install Unlaunch or use Flipnote Lenny no functionality will be lost. If you use Memory Pit you will be unable to view photos on the SD card using the DSi Camera application while Memory Pit is installed. To regain the ability to view your SD card photos install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file.
+If you install Unlaunch or use Flipnote Lenny, no functionality will be lost. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
+- To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
+  - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
 
 ## How do I play Nintendo DS Game Card dumps?
 Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
@@ -98,11 +117,17 @@ Generally, yes, with two exceptions:
 - hiyaCFW will only work on the system it was set up for
 - Even if you are using nds-bootstrap or a flashcard, friend codes in online NDS games will be reset when attempting to go online using a different console
 
+## How do I switch to a new SD card after setting up homebrew?
+Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructions, then simply move your data from the old SD card to the new one.
+
+## Can I still use my system normally without the SD card inserted after setting up homebrew?
+Yes. If you did not install Unlaunch, your system will remain completely unmodified. If you *did* install Unlaunch, you may need to [configure Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) to automatically boot the original DSi Menu under specified conditions.
+
 ## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Should I use a previous version instead?
 The Unlaunch page has not been updated since version 2.0 was released, which was over two years ago. The vast majority of users experience no issues with this version, so it is considered safe.
 
-## How do I install DSiWare?
-There are three ways to play DSiWare on a DSi:
-- Simply run the ROM from TWiLight Menu++, this is the simplest and the only limit is the size of your SD card, however there are some minor compatibility issues
-- Install [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), then install the DSiWare using either [NTM](https://github.com/Epicpkmn11/NTM/releases) or [TMFH](https://github.com/JeffRuLz/TMFH/releases), as this is the actual DSi Menu this has a limit of 39 titles, but compatibility is perfect
-- Install directly to the SysNAND DSi Menu using [NTM](https://github.com/Epicpkmn11/NTM/releases), this also has perfect compatibility, but the 39 title and 1024 Block (128 MiB) limits both apply and there is an extremely minor brick risk due to writing to the internal NAND
+
+## How do I run dumped DSiWare?
+The recommended method is to simply launch them with TWiLight Menu++, due to the simple drag-and-drop method and there being no arbitrary limit. When nds-bootstrap is set as the launch method, it also gains the benefits of cheats and screenshots, as well as any other benefit provided by the in-game menu.
+
+However, for the few titles that are incompatible, you can use [NTM](https://github.com/Epicpkmn11/NTM/releases) to install them on either internal memory or [hiyaCFW's SDNAND](https://wiki.ds-homebrew.com/hiyacfw/installing). In addition to lacking the benefits above, there is also a limit of 39 titles that cannot exceed 128 MiB/1,024 blocks in size. For SysNAND, there is also a very small risk of bricking the system when writing to the internal NAND.
