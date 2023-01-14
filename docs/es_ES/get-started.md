@@ -42,7 +42,7 @@ Asegúrate de que tu tarjeta SD esté [formateada correctamente](sd-card-setup.h
 
 ## Sección II - Elegir un exploit
 
-From here you have three options, with a minor difference in what each entails.
+A partir de aquí, tienes tres opciones, cada una implica un proceso ligeramente distinto.
 
 
 ### Instalar Unlaunch usando Memory Pit
@@ -60,29 +60,29 @@ Continuar a [Lanzar el Exploit](launching-the-exploit.html)
 
 ### stylehax
 
-stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
+stylehax es un exploit que utiliza la aplicación Nintendo DSi Browser, y puede ser usado como una alternativa a Memory Pit para instalar Unlaunc si tu consola tiene la cámara averiada.
 
-For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+Si no quieres instalar Unlaunch, se recomienda usar este exploit ya que Memory Pit causa problemas en algunos juegos y aplicaciones homebrew.
 
 ::: tip
 
-Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
+Continuar a [Lanzar el Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
 
 ### Flipnote Lenny
 
-Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+Flipnote Lenny es un exploit que utiliza la aplicación Flipnote Studio.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+Si tienes Flipnote Studio y no planeas instalar Unlaunch, se recomienda usar este exploit por la misma razón que stylehax.
 
-You can always install Unlaunch later if you decide later on that you want it.
+Siempre puedes instalar Unlaunch más tarde si es lo que deseas.
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continuar a [Lanzar el Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
+Para una comparación más detallada de ventajas y desventajas de cada exploit, echa un vistazo a la pregunta [¿Cuál es el mejor exploit?](faq.html#which-is-the-best-exploit) en la página de Preguntas Frecuentes.

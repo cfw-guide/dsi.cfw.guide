@@ -42,7 +42,7 @@ Vous ne savez pas ce qu'est la « racine » de la carte SD ? [Consultez cette im
 
 ## Section II - Sélection d'un exploit
 
-From here you have three options, with a minor difference in what each entails.
+À partir de là, trois options s'offrent à vous, avec une différence mineure dans ce que chacune implique.
 
 
 ### Installation d'Unlaunch via Memory Pit
@@ -60,29 +60,29 @@ Continuez vers [Lancement de l'exploit](launching-the-exploit.html)
 
 ### stylehax
 
-stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
+stylehax est un exploit utilisant l'application Nintendo DSi Browser, et peut être utilisé comme une alternative à Memory Pit pour installer Unlaunch (expliqué ci-dessus) si votre DSi a un appareil photo cassé.
 
-For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+Pour une expérience sans Unlaunch, cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrews.
 
 ::: tip
 
-Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
+Continuez vers [Lancement de l'exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
 
 ### Flipnote Lenny
 
-Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+Flipnote Lenny est un exploit utilisant l'application Flipnote Studio.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+Si vous avez Flipnote Studio et que vous ne prévoyez pas d'installer Unlaunch (expliqué ci-dessus), cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrews.
 
-You can always install Unlaunch later if you decide later on that you want it.
+Vous pouvez toujours installer Unlaunch plus tard si vous décidez plus tard que vous le voulez.
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continuez vers [Lancement de l'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
+Pour une comparaison plus détaillée des avantages et inconvénients des exploits disponibles, veuillez consulter sur la section [Quel est le meilleur exploit ?](faq.html#which-is-the-best-exploit) de la FAQ.

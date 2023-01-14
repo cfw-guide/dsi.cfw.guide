@@ -18,7 +18,7 @@ Dies ist ein Extraabschnitt zum Deaktivieren vom Standardverhalten von Windows, 
 
 :::: tab name="Windows 10 / 8.1 / 8"
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
+1. Führe den Datei-Explorer aus, indem du ein Verzeichnis, wie beispielsweise das Verzeichnis deiner SD-Karte, öffnest
 1. Click the "View" option on the ribbon menu
 1. Check the box labeled "File name extensions" ![Screenshot of hovering the "File name extensions" checkbox on Windows 10](/assets/images/windows-10-file-extensions.png)
 

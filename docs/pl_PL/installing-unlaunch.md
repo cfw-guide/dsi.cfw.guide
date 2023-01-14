@@ -24,7 +24,7 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
+Korzystasz z Windows, Linux czy macOS? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 
@@ -87,7 +87,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
    - If `tip.bin` still exists, then rename it back to `pit.bin`
 - You can now restore the `DCIM` folder that was on the root of your SD card, if this folder existed
-- Delete the `UNLAUNCH.DSI` file from your SD card
+- Usuń plik `UNLAUNCH.DSI` z karty SD
 
 :::
 

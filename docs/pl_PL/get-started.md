@@ -8,11 +8,11 @@ We'll begin with downloading it as well as some other homebrew tool(s), in prepa
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
+Korzystasz z Windows, Linux czy macOS? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
 
 :::
 
-## Requirements
+## Wymagania
 
 - A way to copy downloaded files to your SD card
 - An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows) or [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
@@ -28,7 +28,7 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 1. Insert your SD card into your PC
 1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+1. Pobierz najnowszą wersję [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
 1. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
 1. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
 1. Copy the `dumpTool.nds` file to the root of your SD card

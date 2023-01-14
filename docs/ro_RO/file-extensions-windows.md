@@ -18,7 +18,7 @@ Aceasta este o secție suplimentară pentru a schimba ascunderea implicită exte
 
 :::: tab name="Windows 10 / 8.1 / 8"
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
+1. Lansează File Explorer prin deschiderea oricărui dosar, precum dosarul cardului SD
 1. Click the "View" option on the ribbon menu
 1. Check the box labeled "File name extensions" ![Screenshot of hovering the "File name extensions" checkbox on Windows 10](/assets/images/windows-10-file-extensions.png)
 

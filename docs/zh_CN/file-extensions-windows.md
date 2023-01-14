@@ -18,7 +18,7 @@ title: 文件扩展名 (Windows)
 
 :::: tab name="Windows 10 / 8.1 / 8"
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
+1. 打开资源管理器，导航到任意目录，例如SD卡的根目录。
 1. Click the "View" option on the ribbon menu
 1. Check the box labeled "File name extensions" ![Screenshot of hovering the "File name extensions" checkbox on Windows 10](/assets/images/windows-10-file-extensions.png)
 

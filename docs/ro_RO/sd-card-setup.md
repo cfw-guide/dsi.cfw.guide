@@ -30,7 +30,7 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 
 1. Descarcă ultima versiune a [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
    - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accept the End User License Agreement to start the download
+   - Acceptă Accordul de Licență cu Utilizatorul pentru a începe descărcarea
 1. Rulează `SD Card Formatter Setup` (fișierul `.exe`) în fișierul `.zip` descărcat cu privilegii de Administator, după aceea instalează programul
 1. Rulează `SD Card Formatter` din Meniul de Start cu privilegii de Administrator
 1. Selectează-ți cardul SD
@@ -164,7 +164,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să-l înlocuiți!
 
 :::
 
@@ -176,13 +176,13 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 
 ::: tip
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+Această secțiune formatează cardul SD la specificațiile ale Asociației Cardului SD. Aceasta poate rezolva multe probleme ce pot apărea la rularea aplicațiilor homebrew.
 
 :::
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie_ să urmărești Secțiunea II pentru a reformata la `FAT32`.
 
 :::
 
@@ -196,11 +196,11 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 
 ### Secțiunea II - Formatarea cardului SD cu Disk Utility
 
-This section formats SD cards larger than 32GB to FAT32.
+Această secțiune formatează cardulie SD mai mari de 32GB în FAT32.
 
 ::: tip
 
-If your SD card is 32GB or less in capacity, skip to Section III.
+Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
 
 :::
 
@@ -270,7 +270,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Dacă testul afișează orice alt rezultat, cardul tău SD ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să-l înlocuiți!
 
 :::
 

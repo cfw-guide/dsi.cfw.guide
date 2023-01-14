@@ -21,10 +21,10 @@ Para reducir la posibilidad de bloqueo total, asegúrate de que no has instalado
 
 ::: warning
 
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Echa un vistazo a la información de más abajo para desinstalar Unlaunch de la manera correcta.
+Al desinstalar la desinstalación, **NO** debes usar su desinstalador integrado directamente en tu consola ya que existe la posibilidad de que brickee la consola. Echa un vistazo a la información de más abajo para desinstalar Unlaunch de la manera correcta.
 
 :::
 
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND bacup, then proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through uninstalling Unlaunch from the NAND backup and flashing that to your console.
+Una vez que hayas revisado la información anterior, sigue las instrucciones de [Volcar la NAND](dumping-nand.html) para hacer un nuevo muelle de la NAND, luego proceda a [Restaurar una copia de seguridad de la NAND](restoring-nand.html). Esto te guiará a través de la desinstalación de la desinstalación de la copia de seguridad de la NAND y flashear a tu consola.
 
-If you are not able to use no$gba or get an error after uninstalling Unlaunch in no$gba it is also possible to flash a NAND backup made prior to installing Unlaunch if you still have one, however it is recommended to try using a NAND backup that previously had Unlaunch first. This will make recovery significantly easier in the case of a brick requiring a hardmod as Unlaunch leaves the no$gba footer embedded in the NAND even when uninstalled.
+Si no puedes usar ningún$gba o obtener un error después de desinstalar Unlaunch en ningún$gba también es posible flashear una copia de seguridad de la NAND hecha antes de instalar Unlaunch si todavía tienes una, Sin embargo, se recomienda intentar usar una copia de seguridad de la NAND que previamente tenía Unlaunch primero. Esto facilitará significativamente la recuperación en el caso de que un bloque requiera un hardmod ya que Unlaunch deja el pie de página no$gba incrustado en la NAND incluso cuando se desinstala.

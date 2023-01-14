@@ -32,8 +32,8 @@ Las aplicaciones Homebrew pueden ejecutarse de forma gratuita en todas las conso
 - Ejecutar títulos de consolas clásicas utilizando distintos emuladores
 - Utilizar flashcarts normalmente incompatibles
 - Redirigir tu NAND a la tarjeta SD usando hiyaCFW
-- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+- Ver tus películas favoritas usando FastVideoDSPlayer o tuna-viDS
+     - FastVideoDSEncoder requiere un CPU que soporte AVX2 (es probable que las CPUs más recientes lo soporten)
 - Mostrar una imagen (llamada boot splash) al inciar el sistema
 - Ejecutar aplicaciones y juegos homebrew
 

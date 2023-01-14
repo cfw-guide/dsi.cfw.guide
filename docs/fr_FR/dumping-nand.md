@@ -6,13 +6,13 @@ Cette page permet de sauvegarder de la NAND, qui est une copie des données sur 
 
 ::: tip
 
-Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+Assurez-vous que la carte SD dispose d'au moins 250 Mo d'espace libre, sinon vous rencontrerez un message d'erreur dans dumpTool.
 
 :::
 
 ::: tip
 
-It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
+Il est fortement recommandé de le faire. Une sauvegarde de la NAND peut être utilisée comme point de restauration dans le futur, en cas de brick de la console.
 
 :::
 
@@ -20,7 +20,7 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 
 ::: tip
 
-If you have already downloaded dumpTool from another section of this guide, you can skip this section.
+Si vous avez déjà téléchargé dumpTool dans une autre section de ce guide, vous pouvez sauter cette section.
 
 :::
 
@@ -41,12 +41,12 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 ::: warning
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
+Le hachage SHA1 de `nand.bin` ne correspondra pas à celui stocké dans `nand.bin.sha1`. Ceci est dû au fait que dumpTool ajoute des données supplémentaires, connues comme un pied de page no$gba, au fichier `nand.bin` après le calcul du hachage SHA1. Vous pouvez utiliser [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) pour créer une copie sans le pied de page.
 
 :::
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Continuer vers [Installation d'Unlaunch](installing-unlaunch.html) (optionnel)
 
 :::

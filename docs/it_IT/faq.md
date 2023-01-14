@@ -51,7 +51,7 @@ Contro:
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 
 ### Unlaunch
-Pros:
+Pro:
 - Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
 - Full access to the system without any restrictions, including:
    - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
@@ -61,7 +61,7 @@ Pros:
 - DSi-Enhanced games can be run in DSi mode without a Donor ROM
 - Old homebrew can be run via nds-bootstrap-hb
 
-Cons:
+Contro:
 - Very minor risk of **bricking** the console when installing
 - Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
 - Not compatible with development consoles

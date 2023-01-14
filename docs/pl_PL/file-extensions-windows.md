@@ -18,7 +18,7 @@ Jest to dodatek wyłączający domyślne zachowanie systemu Windows polegające 
 
 :::: tab name="Windows 10 / 8.1 / 8"
 
-1. Launch File Explorer by opening any directory, such as your SD card directory
+1. Uruchom Eksplorator plików poprzez otworzenie dowolnego katalogu, np. folderu karty SD
 1. Click the "View" option on the ribbon menu
 1. Check the box labeled "File name extensions" ![Screenshot of hovering the "File name extensions" checkbox on Windows 10](/assets/images/windows-10-file-extensions.png)
 

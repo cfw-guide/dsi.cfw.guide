@@ -47,10 +47,10 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 1. Si vous voulez changer l'image en fond d'écran d'Unlaunch, sélectionnez `Fond d'écran` et choisissez celle qui vous convient
    - Si vous souhaitez créer votre propre fond d'écran d'Unlaunch, consultez la page du [wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. Quittez les paramètres de TWiLight Menu++
-1. In the file navigation menu, launch `Unlaunch DSi Installer`
-   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
-     This method does not enable Unlaunch to use custom patches and background
-1. Select the "install now" option
+1. Dans le menu de navigation des fichiers, lancez `Unlaunch DSi Installer`
+   - Si vous voyez deux écrans noirs après le lancement, téléchargez [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), mettez son fichier .dsi à la racine de la carte SD, puis lancez GodMode9i en utilisant TWiLight Menu++ et lancez `Unlaunch.dsi`    
+     . Cette méthode ne permet pas à Unlaunch d'utiliser des patchs et des fonds personnalisés
+1. Sélectionnez l'option « install now »
    - Si Unlaunch plante à `ERROR: MISMATCH IN FAT COPIES`, veuillez consulter la page de [dépannage](troubleshooting.html)
 1. Une fois terminé, redémarrez votre système
 

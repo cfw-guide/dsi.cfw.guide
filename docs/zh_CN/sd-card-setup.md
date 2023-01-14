@@ -164,7 +164,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
 
 :::
 
@@ -270,7 +270,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::: danger
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+如果测试结果显示任何其他结果，您的 SD 卡可能已经出错或损坏，可能需要更换 ！
 
 :::
 

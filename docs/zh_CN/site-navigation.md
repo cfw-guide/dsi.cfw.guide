@@ -6,8 +6,8 @@ title: 网站导航
 - [Get Started](get-started.html)
 - [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
 - [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-- [Dumping NAND](dumping-nand.html)
-- [Installing Unlaunch](installing-unlaunch.html)
+- [提取NAND](dumping-nand.html)
+- [安装 Unlaunch](installing-unlaunch.html)
 
 ## 附加部分
 - [SD 卡设置](sd-card-setup.html)

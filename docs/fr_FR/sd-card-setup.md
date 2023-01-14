@@ -114,7 +114,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 ```
 1. Prenez note du nom de l'appareil. Dans notre exemple ci-dessus, c'était `mmcblk0p1`
    - Si `RO` est réglé sur 1, assurez-vous que l'interrupteur de verrouillage n'est pas glissé vers le bas
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+   - Assurez-vous que vous ciblez la **partition**, `mmcblk0p1` et non `mmcblk0`
 1. Appuyez sur CTRL + C pour quitter le menu
 1. Suivez les instructions relatives à la capacité de votre carte SD :
    - 2 Go ou moins : `sudo mkdosfs /dev/(nom de l'appareil ci-dessus) -s 64 -F 16`

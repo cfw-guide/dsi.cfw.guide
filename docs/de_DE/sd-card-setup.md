@@ -1,5 +1,5 @@
 ---
-title: SD Card Setup
+title: Einrichtung der SD-Karte
 ---
 
 This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.

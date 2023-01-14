@@ -3,11 +3,11 @@ title: Navegación del sitio
 ---
 
 ## Proceso de guía principal
-- [Get Started](get-started.html)
-- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
-- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-- [Dumping NAND](dumping-nand.html)
-- [Installing Unlaunch](installing-unlaunch.html)
+- [Empezar](get-started.html)
+- [Lanzando el Exploit (Memory Pit)](launching-the-exploit.html)
+- [Lanzar el Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Volcando NAND](dumping-nand.html)
+- [Instalando Unlaunch](installing-unlaunch.html)
 
 ## Secciones adicionales
 - [Preparación de la tarjeta SD](sd-card-setup.html)

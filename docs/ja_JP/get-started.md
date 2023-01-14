@@ -71,13 +71,13 @@ Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.htm
 :::
 
 
-### Flipnote Lenny
+### Flipnote Lenny（うごくメモ帳エクスプロイト）
 
-Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+Flipnote Lennyはうごくメモ帳を利用したエクスプロイトです。
 
 If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
 
-You can always install Unlaunch later if you decide later on that you want it.
+必要なら、後でいつでもUnlaunchをインストールすることもできます。
 
 ::: tip
 

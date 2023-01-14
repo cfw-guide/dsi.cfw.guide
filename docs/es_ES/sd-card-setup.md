@@ -35,7 +35,7 @@ Cualquier tarjeta SD de 64GB o mayor será formateada a `exFAT` en este proceso.
 1. Ejecuta `SD Card Formatter` desde el Menú de Inicio con privilegios de administrador
 1. Selecciona tu tarjeta SD
 1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada
-1. Press `Format` to start the format process ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
+1. Pulsa `Formato` para iniciar el proceso de formato ![Captura de pantalla de Formatter de Tarjeta SD en Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Sección II - Formatear tu tarjeta SD con GUIFormat
 
@@ -114,7 +114,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 ```
 1. Toma nota del nombre del dispositivo. En nuestro ejemplo, era `mmcblk0p1`
    - Si en la fila `RO` el valor está en 1, asegúrate de que la tarjeta SD tiene el interruptor para la protección de escritura no esté bajado
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+   - Asegúrese de que está dirigiendo la partición ****, `mmcblk0p1` no `mmcblk0`
 1. Haz la combinación de teclas CTRL + C para salir del menú
 1. Sigue las instrucciones pertinentes a la capacidad de tu tarjeta SD:
    - 2GB o menos: `sudo mkdosfs /dev/(nombre del dispositivo) -s 64 -F 16`
