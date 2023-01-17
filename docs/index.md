@@ -27,7 +27,8 @@ Homebrew can be run for free on all Nintendo DSi consoles, regardless of firmwar
 ## What can I do by modding my system?
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
-- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Launch any DSiWare from your SD card
+     - This means out-of-region and 3DS-exclusive DSiWare will also work
 - Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Run old-time classics using various emulators
 - Use normally incompatible flashcards
