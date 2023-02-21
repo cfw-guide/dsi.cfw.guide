@@ -8,7 +8,13 @@ We'll begin with downloading it as well as some other homebrew tool(s), in prepa
 
 ::: tip
 
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
+Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.     
+
+:::
+
+::: tip
+
+If you are having issues with Lazy DSi Downloader, then please follow the below instructions instead.    
 
 :::
 
