@@ -2,7 +2,7 @@
 title: 常见问题
 ---
 
-## Should I do a system update?
+## 我是否应该进行系统更新？
 It is **not** recommended to update your DSi unless you know there are purchased DSiWare. While it still possible to follow this guide if you do so, the only benefit to updating is the ability to access the Nintendo DSi Shop to redownload already purchased titles. All other benefits, such as Facebook integration in the Nintendo DSi Camera application, are no longer usable or are not significant enough to justify the downsides:
 
 - Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch

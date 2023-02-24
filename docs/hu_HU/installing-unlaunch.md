@@ -47,10 +47,10 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 1. Ha szeretnéd cserélni az Unlaunch hátterét, válaszd a `Háttér` opciót és válaszd ki a neked tetszőt
    - Ha szeretnél saját Unlaunch hátteret, tekintsd meg a [DS-Homebrew Wiki oldalt](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. Lépj ki a TWiLight Menu++ Beállításokból
-1. In the file navigation menu, launch `Unlaunch DSi Installer`
-   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
-     This method does not enable Unlaunch to use custom patches and background
-1. Select the "install now" option
+1. A fájl navigáció menüből indítsd el az `Unlaunch DSi Installer`-t
+   - Ha indítás után két fekete képernyőt látsz tölds le a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t és rakd a .dsi fájlját az SD kártya gyökerébe majd indítsd el a GodMode9i-t a TWiLight Menu++ használatával indítsd el az `Unlaunch.dsi`-t.    
+     Ez a metódus nem teszi lehetővé az Unlaunch-nek az egyedi patch-eket és az egyedi háttér beállítását
+1. Válaszd az "install now" opciót
    - Ha az Unlaunch lefagy az `ERROR: MISMATCH IN FAT COPIES` üzenetnél, tekintsd meg a [Hibaelhárítás](troubleshooting.html) oldalt
 1. Ha végzett, indítsd újra a rendszered
 

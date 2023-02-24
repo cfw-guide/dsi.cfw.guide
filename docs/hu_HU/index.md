@@ -32,8 +32,8 @@ Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, független
 - Régi idők klasszikusait futtathatod különböző emulátorokkal
 - Használhatsz alaphelyzetben inkompatibilis flashcard-okat
 - Átirányíthatod a NAND-ot SD kártyára hiyaCFW-vel
-- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+- Megtekintheted a kedvenc filmjeidet vagy a FastVideoDSPlayer vagy a tuna-viDS használatával
+     - A FastVideoDSEncoder-nek olyan CPU-ra van szüksége, amely támogatja az AVX2-t (az új CPU-k valószínűleg támogatják)
 - Megjeleníthetsz egy képet (amire boot képernyőként hivatkozunk) a rendszer indulásakor
 - Játszhatsz homebrew játékokat
 

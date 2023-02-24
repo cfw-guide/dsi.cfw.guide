@@ -114,7 +114,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 ```
 1. Jegyezd fel az eszköz nevét. A fenti példában ez `mmcblk0p1` volt
    - + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+   - Legyél biztos benne, hogy a megcélzott **partíció**, az `mmcblk0p1` nem pedig az `mmcblk0`
 1. Nyomj CTRL + C-t a menüből kilépéshez
 1. Kövesd az SD kártyád kapacitásának megfelelő lépéseket:
    - - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`

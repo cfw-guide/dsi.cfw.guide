@@ -32,8 +32,8 @@ L'Homebrew può essere eseguito gratuitamente su tutte le console Nintendo DSi, 
 - Avvia classici dei vecchi tempi utilizzando vari emulatori
 - Usare flashcard normalmente incompatibili
 - Reindirizzare la NAND alla scheda SD utilizzando hiyaCFW
-- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+- Guarda i tuoi film preferiti con FastVideoDSPlayer o tuna-viDS
+     - FastVideoDSEncoder richiede una CPU che supporti AVX2 (le CPU più recenti dovrebbero supportarlo)
 - Mostrare un'immagine (definita come immagine d'avvio) all'avvio del sistema
 - Giocare a giochi homebrew
 

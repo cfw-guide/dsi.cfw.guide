@@ -14,60 +14,60 @@ Unlaunch nel complesso è l'exploit migliore per il DSi, l'unico lato negativo �
 
 ### Memory Pit
 Pro:
-- Quick and easy to use
-- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
-- Compatible with all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+- Facile e semplice da usare
+- Nessun rischio di danneggiare la console, la disinstallazione è talmente semplice che basta rimuovere la SD o eliminare un file
+- Compatibile con tutte le console DSi a meno che non abbiano una fotocamera rotta e non abbiano completato il tutorial della app fotocamera
 
 Contro:
-- Requires loading the DSi Camera application every time you want to access homebrew
-- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
-- Access to the DSP is blocked resulting in worse sound in GBARunner2
-- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
-     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+- Richiede di aprire l'app Fotocamera Nintendo DSi ogni volta che si desidera accedere all'homebrew
+- Incompatibile con alcuni titoli in modalità DSi e applicazioni homebrew a causa di WRAM aperto solo alla CPU ARM7
+- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato con gli hombrew
+- L'accesso al DSP è bloccato e ciò comporta un peggioramento del suono in GBARunner2
+- Le foto sulla scheda SD non possono essere visualizzate tramite l'applicazione Fotocamera Nintendo DSi mentre Memory Pit è installato, dato che ciò attiverebbe l'exploit
+     - L'unico modo per visualizzare le foto della scheda SD mentre Memory Pit è installato è tramite l'esecuzione di un dump della ROM dell'applicazione Fotocamera Nintendo DSi usando **TW**i**L**ight Menu++ per avviarlo tramite nds-bootstrap (v0.61.3 or later)
 
 ### stylehax
 Pro:
-- Better compatibility with DSi mode titles and homebrew than Memory Pit
-- Easy to use
-- No risk of damaging the console
-- Useable on consoles with broken camera
-- Better sound in GBARunner2
+- Migliore compatibilità con titoli e app homebrew in modalità DSi rispetto a Memory Pit
+- Facile da usare
+- Nessun rischio di danneggiare la console
+- Utilizzabile su console con fotocamera rotta
+- Audio migliore in GBARunner2
 
 Contro:
-- Requires internet access
-- Requires loading the DSi Browser every time you want to access homebrew, slightly more time consuming than Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+- Richiede accesso a internet
+- Richiede di aprire DSi Browser ogni volta che si desidera accedere all'homebrew e ciò richiede poco più tempo di Memory Pit
+- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato con gli hombrew
 
 ### Flipnote Lenny
 Pro:
-- Better compatibility with DSi mode titles and homebrew than Memory Pit
-- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
-- Useable on consoles with broken camera
-- Better sound in GBARunner2
+- Migliore compatibilità con titoli e app homebrew in modalità DSi rispetto a Memory Pit
+- Nessun rischio di danneggiare la console, la disinstallazione è talmente semplice che basta rimuovere la SD o eliminare una cartella
+- Utilizzabile su console con fotocamera rotta
+- Audio migliore in GBARunner2
 
 Contro:
-- Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+- Richiede di aprire Flipnote Studio ogni volta che si desidera accedere all'homebrew e ciò richiede poco più tempo di Memory Pit
+- L'accesso allo Slot-1 (la scheda di gioco DS) è bloccato con gli hombrew
 
 ### Unlaunch
 Pro:
-- Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
-- Full access to the system without any restrictions, including:
-   - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
-   - Better sound in GBARunner2
-- Removes region locks on DSi-Enhanced/Exclusive Game Cards
-- Protection against most ways a DSi could brick
+- Consente di aprire app homebrew e DSiWare immediatamente all'avvio del sistema, con tasti di scelta rapidi opzionali
+- Pieno accesso al sistema senza alcuna limitazione, tra cui:
+   - Accesso allo Slot-1 che consente di eseguire il backup di Cartucce di Gioco e l'avvio di flashcard non compatibili
+   - Audio migliore in GBARunner2
+- Rimuove i blocchi regionali sulle carte di gioco DSi-Enhanced/Exclusive
+- Protezione contro la maggior parte dei modi con cui un DSi potrebbe rompersi
 - DSi-Enhanced games can be run in DSi mode without a Donor ROM
-- Old homebrew can be run via nds-bootstrap-hb
+- Vecchie app homebrew possono essere eseguite tramite nds-bootstrap-hb
 
 Contro:
-- Very minor risk of **bricking** the console when installing
-- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
-- Not compatible with development consoles
+- Un bassissimo rischio di **rompere** la console durante l'installazione
+- Un altro rischio, leggermente più alto, di rompere la console se si decide di [disinstallarlo](uninstalling-unlaunch.html)
+- Non compatibile con console di sviluppo
 
 ## Perderò qualche funzionalità se modifico il mio sistema?
-If you install Unlaunch or use Flipnote Lenny, no functionality will be lost. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
+Se si installa Unlaunch o si usa Flipnote Lenny, non si perderà alcuna funzionalità. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
 - To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
   - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
 
@@ -102,20 +102,20 @@ Yes, there are a few different methods depending on what you want to change:
 - Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
 
 ## Cosa è successo alla guida all'installazione di hiyaCFW?
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Poiché hiyaCFW non è molto pratico ed è stato un passaggio problematico e confusionario della guida per parecchi utenti, la guida è stata spostata alla [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - If you were linked to the page in question from another guide, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
 
 ## Che tipo di scheda SD dovrei utilizzare?
-- You should buy an SD card from a trusted brand
+- Dovresti acquistare una scheda SD di un marchio affidabile
 - A full-size SD card or a microSD card with an adapter will both work
 - Any capacity between 1 GB and 2 TB will work. For general usage, 8 GB is enough
   - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
 - Speed class 8 or higher is recommended
 
 ## Posso usare la mia scheda SD del DSi su altri sistemi?
-Generally, yes, with two exceptions:
-- hiyaCFW will only work on the system it was set up for
-- Even if you are using nds-bootstrap or a flashcard, friend codes in online NDS games will be reset when attempting to go online using a different console
+Generalmente sì, ma con due eccezioni:
+- hiyaCFW funzionerà solo sul sistema su cui è stato configurato
+- Anche se stai usando nds-bootstrap o una flashcard, i codici amico dei giochi online NDS verranno reimpostati quando si tenta di andare online utilizzando una console diversa
 
 ## How do I switch to a new SD card after setting up homebrew?
 Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructions, then simply move your data from the old SD card to the new one.

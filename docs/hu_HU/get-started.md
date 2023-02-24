@@ -42,7 +42,7 @@ Nem tudod, mi az SD "gyökér"? [Tekintsd meg ezt a képet](https://media.discor
 
 ## II. rész - Az exploit kiválasztása
 
-From here you have three options, with a minor difference in what each entails.
+Innentől kezdve három lehetőséged van, egy kis különbséggel, hogy melyik mivel jár.
 
 
 ### Az Unlaunch telepítése Memory Pit-tel
@@ -60,29 +60,29 @@ Folytatás [Az Exploit indítása](launching-the-exploit.html) útmutatóval
 
 ### stylehax
 
-stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
+A stylehax egy olyan exploit, ami a DSi Browser alkalmazást használja és alternatívaként használható a Memory Pit helyett az Unlaunch telepítéséhez (részletezve fentebb) ha a DSi-d kamerája hibás.
 
-For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+Az Unlaunch mentes élményhez ez az exploit ajánlott, mert a Memory Pit problémát okoz néhány játéknál vagy homebrew-nál.
 
 ::: tip
 
-Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
+Folytatás [Az Exploit indítása (stylehax)](launching-the-browser-exploit.html) útmutatóval
 
 :::
 
 
 ### Flipnote Lenny
 
-Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+A Flipnote Lenny egy exploit ami a Flipnote Studio alkalmazást használja.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+Ha van Flipnote Studio-d és nem tervezed az Unlaunch (fentebb bemutatva) telepítését, akkor ez az exploit ajánlott, ugyanazon okból, mint a stylehax.
 
-You can always install Unlaunch later if you decide later on that you want it.
+Mindig teleptheted az Unlaunch-öt később, ha úgy döntenél, hogy szeretnéd.
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Folytatás [Az Exploit indítása (Flipnote Lenny)](launching-the-flipnote-exploit.html) útmutatóval
 
 :::
 
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
+Részletesebb előnyök és hátrányok összehasonltásért az elérhető exploitokról tekints meg a [Melyik a legjobb exploit?](faq.html#which-is-the-best-exploit) GYIK-et.
