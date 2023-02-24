@@ -22,12 +22,6 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 ## Section I - SD card setup
 
-::: tip
-
-Using a Windows, Linux or macOS device? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
-
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
