@@ -22,12 +22,6 @@ Az Unlaunch nem kompatibilis a Nintendo DSi fejlesztői konzolokkal.
 
 ## I. rész - SD kártya telepítés
 
-::: tip
-
-Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader.html)-t, hogy automatikusan telepítse az SD kártyád.
-
-:::
-
 1. Töltsd le az [Unlaunch](https://problemkaputt.de/unlaunch.zip) legfrissebb kiadását
    - [Tükör link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), ha a fenti nem működne
 1. Csomagold ki az `UNLAUNCH.DSI`-t az `unlaunch.zip` archívból és rakd valahova az SD kártyádon

@@ -2,15 +2,9 @@
 title: "Get Started"
 ---
 
-The main homebrew application this guide has you install is TWiLight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
 
 We'll begin with downloading it as well as some other homebrew tool(s), in preparation for the exploit steps.
-
-::: tip
-
-正在使用Windows、Linux或 macOS 设备？ Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
 
 ## 首先需要…
 

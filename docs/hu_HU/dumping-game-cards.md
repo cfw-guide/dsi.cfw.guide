@@ -11,12 +11,6 @@ Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszh
 ## Instrukciók
 ### I. rész - SD kártya telepítés
 
-::: tip
-
-Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader.html)-t, hogy automatikusan telepítse az SD kártyád.
-
-:::
-
 1. Töltsd le a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) legfrissebb kiadását
 1. Csomagold ki a `GodMode9i.nds`-t a GodMode9i archívból és rakd valahova az SD kártyádon
 

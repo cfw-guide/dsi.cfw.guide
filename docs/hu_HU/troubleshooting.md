@@ -11,7 +11,7 @@ Ennek a javításához, niysd meg a [NAND Title Manager (NTM)](https://github.co
 
 ### Nincs hang vagy boot képernyő, amikor a "LAUNCHER" kerül indításra az Unlaunch-csel
 
-Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. Visszaszerezheted ezeket az effekteket az [Unlaunch újratelepítésével](installing-unlaunch.html) a TWiLight Menu++-ban az Unlaunch beállítások oldalon "Indító patch"-ek kikapcsolását követően, vagy a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) használatával.
+Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. Visszaszerezheted ezeket az effekteket az [Unlaunch újratelepítésével](installing-unlaunch.html) a TWiLight Menu++-ban az Unlaunch beállítások oldalon "Indító patch"-ek "Alapértelmezett"-re állítását követően, vagy a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) használatával.
 
 ### A bekapcsolás csak fekete képernyőt mutat az Unlaunch telepítése után
 

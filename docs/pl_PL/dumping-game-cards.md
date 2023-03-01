@@ -11,12 +11,6 @@ Ta sekcja służy do zrzucania kart z grami przy użyciu GodMode9i, aby można j
 ## Instrukcje
 ### Sekcja I - Konfiguracja karty SD
 
-::: tip
-
-Korzystasz z Windows, Linux czy macOS? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
-
 1. Pobierz najnowszą wersję [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
 1. Wyodrębnij `GodMode9i.nds` z archiwum GodMode9i i umieść go gdziekolwiek na karcie SD
 
@@ -30,6 +24,6 @@ Korzystasz z Windows, Linux czy macOS? Use [Lazy DSi Downloader](lazy-dsi-downlo
 
 ::: tip
 
-Zrzucone tytuły zostaną zamieszczone w `sd:/gm9i/out`.
+The dumped Game Cards will be found in `sd:/gm9i/out`.
 
 :::

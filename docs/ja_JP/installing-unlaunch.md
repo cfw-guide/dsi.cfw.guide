@@ -22,12 +22,6 @@ UnlaunchにはニンテンドーDSi開発機との互換性はありません。
 
 ## セクション I - SD カードのセットアップ
 
-::: tip
-
-Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](lazy-dsi-downloader.html)を使ってSDカードを自動セットアップできます。
-
-:::
-
 1. 最新版[Unlaunch](https://problemkaputt.de/unlaunch.zip)をダウンロードします
    - 上のリンクがダメなときは[こちらのミラーリンク](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip)から
 1. `UNLAUNCH.DSI`を`unlaunch.zip`から取り出し、SDカードの好きな場所へ配置します
@@ -54,12 +48,12 @@ Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](l
    - Unlaunchが`ERROR: MISMATCH IN FAT COPIES`でフリーズしたときは、[トラブルシューティング](troubleshooting.html)をお確かめください
 1. 完了したら、本体を再起動します
 
-この時点でUnlaunchのファイルメニューが表示されていれば、DSiの改造に成功しました！
+If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
 - 黒い画面しか表示されないときは、[トラブルシューティング](troubleshooting.html)をお確かめください
 
 ## セクション III - Unlaunchインストール後の設定
 
-Unlaunchは今はデフォルトでファイルメニューを起動しますが、好きなものを起動させるように変更できます。
+Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed launch whatever you want.
 
 1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源を入れる
    - これはUnlaunchのファイルメニューを開くホットキーです
@@ -76,7 +70,7 @@ Unlaunchは今はデフォルトでファイルメニューを起動しますが
 
 ::: tip
 
-このセクションは任意です。不要なファイルを削除してSDカードを整頓するためだけのものです。
+This section is optional and only serves for keeping your SD card tidy of files you won't need.
 
 :::
 

@@ -11,7 +11,7 @@ Para solucionar esto, abre [NAND Title Manager (NTM)](https://github.com/Epicpkm
 
 ### No hay audio o pantalla de inicio al ejectar Launcher (el menú original de DSi) usando Unlaunch
 
-El desarrollador de Unlaunch (nocash) parcheó intencionalmente el sonido del menú y la pantalla de inicio por defecto. Puedes restaurar estas características [reinstalando Unlaunch](installing-unlaunch.html) usando TWiLight Menu++ con la opción "Parches del launcher" deshabilitada en la página de Ajustes de Unlaunch en los Ajustes de TWiLight Menu++, o usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+El desarrollador de Unlaunch (nocash) parcheó intencionalmente el sonido del menú y la pantalla de inicio por defecto. Puedes restaurar estas características [reinstalando Unlaunch](installing-unlaunch.html) usando TWiLight Menu++ cambiando la opción "Parches del Launcher" a "Por Defecto" en la página de Ajustes de Unlaunch en los Ajustes de TWiLight Menu++, o usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Encender la consola solo muestra una pantalla en negro después de instalar Unlaunch
 

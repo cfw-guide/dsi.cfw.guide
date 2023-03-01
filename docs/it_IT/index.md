@@ -27,7 +27,8 @@ L'Homebrew può essere eseguito gratuitamente su tutte le console Nintendo DSi, 
 ## Cosa posso fare moddando il mio sistema?
 
 - Avviare i backup dei giochi Nintendo DS(i) o ROM hacks dalla scheda SD del DSi senza la necessità di una flashcard
-- Avvia qualsiasi DSiWare (fuori regione e/o esclusiva 3DS) dalla tua scheda SD
+- Avvia qualsiasi DSiWare dalla tua scheda SD
+     - Questo significa che pure i DSiWare fuori regione ed esclusive 3DS funzioneranno
 - Avviare DSiWare e app homebrew tenendo premuti pulsanti specifici quando si accende il Nintendo DSi
 - Avvia classici dei vecchi tempi utilizzando vari emulatori
 - Usare flashcard normalmente incompatibili
@@ -46,7 +47,6 @@ L'Homebrew può essere eseguito gratuitamente su tutte le console Nintendo DSi, 
 
 - Su Windows, si consiglia di [mostrare le estensioni di file](file-extensions-windows.html) se si utilizza il File Explorer predefinito
 - L'unico rischio di rompere il DSi deriva dall'installazione di Unlaunch, ma il rischio è minimo
-- Se non hai esperienza con la copia dei file su una scheda SD, abbiamo a tua disposizione strumenti di assistenza
 
 ::: tip
 

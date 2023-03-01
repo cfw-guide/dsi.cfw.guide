@@ -2,15 +2,9 @@
 title: "Kezdeti lépések"
 ---
 
-A fő homebrew alkalmazás, amit ez az útmutató telepít a TWiLight Menu++, ami egy feljavítása/cseréje a Nintendo DSi Menu-nek, és ami lehetővé teszi más homebrew-ok, kereskedelmi DS játékok, más régebbi rendszerek emulátorainak és egyebeknek a futtatását.
+A fő homebrew alkalmazás, amit ez az útmutató telepít a **TW**i**L**ight Menu++, ami egy feljavítása/cseréje a Nintendo DSi Menu-nek, és ami lehetővé teszi más homebrew-ok, kereskedelmi DS játékok, más régebbi rendszerek emulátorainak és egyebeknek a futtatását.
 
 A letöltésével fogunk kezdeni, illetve más homebrew eszköz(ök) letöltésével, hogy előkészüljünk az exploit lépéseire.
-
-::: tip
-
-Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](lazy-dsi-downloader.html)-t, hogy automatikusan telepítse az SD kártyád.
-
-:::
 
 ## Követelmények
 
@@ -22,7 +16,7 @@ Windows-t, Linux-ot vagy macOS-t használsz? Használd a [Lazy DSi Downloader](l
 
 ::: warning
 
-Biztosítsd, hogy az SD kártyád [megfelelően formázott](sd-card-setup.html).
+Biztosítsd, hogy az SD kártyád [megfelelően formázott](sd-card-setup.html) legyen.
 
 :::
 
@@ -47,7 +41,7 @@ Innentől kezdve három lehetőséged van, egy kis különbséggel, hogy melyik 
 
 ### Az Unlaunch telepítése Memory Pit-tel
 
-A Memory Pit egy exploit ami a DSi Camera-t használja és kompatibilis minden firmware verzióval. Opcionálisan, ez az exploit használható az Unlaunch telepítésére, ami egy bootcode exploit és telejs hozzáférést ad a konzolhoz bootoláskor.
+A Memory Pit egy exploit ami a DSi Camera-t használja és kompatibilis minden firmware verzióval. Opcionálisan, ez az exploit használható az Unlaunch telepítésére, ami egy bootcode exploit és teljes hozzáférést ad a konzolhoz bootoláskor.
 
 A Memory Pit valamennyire korlátozott homebrew kompatibilitással rendelkezik, ajánlott, hogy telepítsd az Unlaunch-öt, a Memory Pit önálló használata helyett. Ez a legkönnyebb metódusa az Unlaunch telepítésének, így ez az ajánlott módja. Azonban van egy nagyon kicsi kockázata a konzolod **brickelésének** az Unlaunch telepítésekor, így ha ez számít, akkor válassz másik metódust alább.
 

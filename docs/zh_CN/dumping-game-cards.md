@@ -11,12 +11,6 @@ This section is for dumping Game Cards using GodMode9i so they can be played on 
 ## 操作步骤
 ### 第一节 - SD 卡设置
 
-::: tip
-
-正在使用Windows、Linux或 macOS 设备？ Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
-
 1. 下载最新版本的 [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
 1. 从 GodMode9i 目录中解压 `GodMode9i.nds` 并复制到你SD卡的任意位置
 

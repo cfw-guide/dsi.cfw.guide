@@ -11,12 +11,6 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 ## Instrucciones
 ### Sección I - Preparación de la Tarjeta SD
 
-::: tip
-
-¿Estás usando Windows, Linux o macOS? Puedes usar [Lazy DSi Downloader](lazy-dsi-downloader.html) para configurar automáticamente tu tarjeta SD.
-
-:::
-
 1. Descarga la última versión de [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases).
 1. Extrae `GodMode9i.nds` del archivo .7z de GodMode9i y colócalo en cualquier lugar de tu tarjeta SD
 

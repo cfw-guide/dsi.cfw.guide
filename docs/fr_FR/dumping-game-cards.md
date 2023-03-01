@@ -11,12 +11,6 @@ Cette section est dédiée au dumping des cartes de jeu avec GodMode9i, afin que
 ## Instructions
 ### Section I - Configuration de la carte SD
 
-::: tip
-
-Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Downloader](lazy-dsi-downloader.html) pour configurer automatiquement votre carte SD.
-
-:::
-
 1. Téléchargez la dernière version de [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
 1. Extrayez `GodMode9i.nds` de l'archive GodMode9i et placez-le n'importe où sur votre carte SD
 
@@ -30,6 +24,6 @@ Vous utilisez un périphérique Windows, Linux ou macOS ? Utilisez [Lazy DSi Dow
 
 ::: tip
 
-Les cartes de jeu dumpées se trouveront dans `sd:/gm9i/out`.
+The dumped Game Cards will be found in `sd:/gm9i/out`.
 
 :::

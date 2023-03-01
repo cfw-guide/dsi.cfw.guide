@@ -27,7 +27,8 @@ Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nint
 ## Que puis-je faire en moddant mon système ?
 
 - Exécutez des sauvegardes de jeux Nintendo DS(i) ou des ROMs hacks à partir de votre carte SD DSi sans avoir besoin d'un linker
-- Lancez n'importe quel DSiWare (hors région et/ou exclusifs 3DS) à partir de votre carte SD
+- Launch any DSiWare from your SD card
+     - This means out-of-region and 3DS-exclusive DSiWare will also work
 - Démarrez les applications DSiWare et homebrews en maintenant enfoncés certains boutons lorsque vous allumez votre Nintendo DSi
 - Exécutez de vieux classiques en utilisant divers émulateurs
 - Utilisez des linkers normalement incompatibles
@@ -46,7 +47,6 @@ Les homebrews peuvent être exécutés gratuitement sur toutes les consoles Nint
 
 - Sous Windows, il est recommandé d'[afficher les extensions de fichiers](file-extensions-windows.html) si vous utilisez l'Explorateur de fichiers par défaut
 - Le seul risque de brick vient de l'installation d'Unlaunch, et le risque de brick est minime
-- Si vous n'avez pas l'habitude de copier des fichiers sur une carte SD, nous mettons à votre disposition des outils d'aide
 
 ::: tip
 

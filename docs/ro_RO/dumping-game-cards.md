@@ -11,12 +11,6 @@ Această secțiune este pentru creerea de copii de Carduri de Joc folosind GodMo
 ## Instrucțiuni
 ### Secțiunea I - Setarea cardului SD
 
-::: tip
-
-Folosești Windows, Linux sau macOS? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
-
 1. Descarcă ultima versiune a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
 1. Extrage `GodMode9i.nds` din arhiva GodMode9i și plasează-l oriunde pe cardul tău SD
 
@@ -30,6 +24,6 @@ Folosești Windows, Linux sau macOS? Use [Lazy DSi Downloader](lazy-dsi-download
 
 ::: tip
 
-Copia Cardului de joc se va afla în `sd:/gm9i/out`.
+The dumped Game Cards will be found in `sd:/gm9i/out`.
 
 :::

@@ -4,7 +4,7 @@ title: Installazione di Unlaunch
 
 ::: danger
 
-Se non l'hai ancora fatto, si prega di seguire [Effettuare il backup della NAND](dumping-nand.html). Nonostante le probabilità minime, Unlaunch potrebbe accidentalmente rompere il Nintendo DSi. Un backup della NAND + [un hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) ti permetterebbe di ripristinare questo backup, a condizione che tu sappia come saldare.
+Se non lo hai ancora fatto, sei pregato di seguire [Effettuare dump della NAND](dumping-nand.html). Nonostante le probabilità minime, Unlaunch potrebbe accidentalmente causare un brick al tuo Nintendo DSi. Un backup della NAND + [un hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) ti permetterebbe di ripristinare questo backup, a condizione che tu sappia come saldare.
 
 :::
 
@@ -22,12 +22,6 @@ Unlaunch non è compatibile con le console di sviluppo Nintendo DSi.
 
 ## Sezione I - Configurazione della scheda SD
 
-::: tip
-
-Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-downloader.html) per configurare automaticamente la tua scheda SD.
-
-:::
-
 1. Scarica l'ultima versione di [Unlaunch](https://problemkaputt.de/unlaunch.zip)
    - [Link Mirror](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), se quello sopra non funziona
 1. Estrai `UNLAUNCH.DSI` da `unlaunch.zip` e mettilo ovunque sulla tua scheda SD
@@ -39,8 +33,8 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
 1. Avvia TWiLight Menu++
    - Se questa è la tua prima volta che installi Unlaunch, avvia TWiLight Menu++ attraverso l'[exploit che hai utilizzato](launching-the-exploit.html)
    - Se hai già installato Unlaunch e stai cercando di aggiornarlo, tieni premuto <kbd class="face">A</kbd> + <kbd class="face">B</kbd> durante l'avvio e seleziona `TWiLight Menu++`
-   - Se più opzioni sono etichettate `TWiLight Menu++`, selezionare l'opzione in cui `BOOT. NDS` è mostrato alla fine del percorso nella schermata inferiore
-      - Questo accade perché haio una versione vecchia di TWiLight Menu++, a meno che tu non lo stia facendo apposta, è cosigliato di [aggiornare la tua installazione](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+   - Se più opzioni sono etichettate `TWiLight Menu++`, seleziona l'opzione in cui `BOOT. NDS` è mostrato alla fine del percorso nella schermata inferiore
+      - Questo accade perché hai una versione vecchia di TWiLight Menu++, e a meno che tu non lo stia facendo apposta, è cosigliato di [aggiornare la tua installazione](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 1. Apri le impostazioni di TWiLight Menu++
    - Se non hai cambiato tema, premi `SELECT` e tocca la piccola icona del DS nella parte inferiore del touch screen. Altrimenti, consulta il Manuale di TWiLight Menu++
 1. Premi <kbd class="l">L</kbd> / <kbd class="r">R</kbd> o <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> finché non raggiungi la pagina `Impostazioni Unlaunch`
@@ -54,12 +48,12 @@ Usi un dispositivo Windows, Linux o macOS? Usa [Lazy DSi Downloader](lazy-dsi-do
    - Se Unlaunch si blocca a `ERROR: MISMATCH IN FAT COPIES`, si prega di dare un'occhiata alla pagina [Risoluzione dei problemi](troubleshooting.html)
 1. Una volta completato, riavvia il sistema
 
-Se vedi la schermata del menu di Unlaunch a questo punto, Significa che hai modificato con successo il tuo Nintendo DSi.
+Se vedi la schermata del menu di Unlaunch a questo punto, significa che hai modificato con successo il tuo Nintendo DSi.
 - Se vedi una schermata nera, dai un'occhiata alla pagina [Risoluzione dei problemi](troubleshooting.html)
 
 ## Sezione III - Configurazione di Unlaunch
 
-Attualmente, Unlaunch apre il suo menu all'avvio di default, ma può essere cambiato aprendo all'avvio quello che vuoi.
+Attualmente, Unlaunch apre il suo menu all'avvio per impostazione predefinita, ma può essere cambiato aprendo all'avvio quello che vuoi.
 
 1. Accendi la console tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
    - Si dovrebbe avviare il menu di Unlaunch
@@ -76,7 +70,7 @@ Attualmente, Unlaunch apre il suo menu all'avvio di default, ma può essere camb
 
 ::: tip
 
-Questa sezione è opzionale e serve solo per mantenere la scheda SD ordinata.
+Questa sezione è facoltativa e serve solo per mantenere la scheda SD ordinata.
 
 :::
 

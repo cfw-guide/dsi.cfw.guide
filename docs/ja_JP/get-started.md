@@ -2,15 +2,9 @@
 title: "はじめる"
 ---
 
-このガイドでインストールするHomebrewアプリはTWiLight Menu++です。ニンテンドーDSiメニューのアップグレード・置き換えであり、他のHomebrewアプリや市販DSゲーム、昔の様々なゲーム機のエミュレータなどを起動させることができます。
+The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
 
 改造の準備として、TWiLight Menu++とその他Homebrewツールをダウンロードすることから始めます。
-
-::: tip
-
-Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](lazy-dsi-downloader.html)を使ってSDカードを自動セットアップできます。
-
-:::
 
 ## 必要事項
 
@@ -22,7 +16,7 @@ Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](l
 
 ::: warning
 
-SDカードが[正しくフォーマットされていること](sd-card-setup.html)を確認してください。
+Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 :::
 
@@ -35,7 +29,7 @@ SDカードが[正しくフォーマットされていること](sd-card-setup.h
 
 ::: tip
 
-SDカードの「ルート」が何だかわかりませんか？ [こちらをご覧ください](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Unsure what the SD "root" is? [See this image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
 
 :::
 
@@ -47,13 +41,13 @@ From here you have three options, with a minor difference in what each entails.
 
 ### Memory Pit経由でUnlaunchをインストール
 
-Memory PitはDSiカメラを利用したエクスプロイトで、すべてのファームウェアバージョンとに対応しています。 必要に応じて、このエクスプロイトを使用してUnlaunch（起動時に本体を完全に制御できるブートコードエクスプロイト）をインストールすることができます。
+Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions. Optionally, this exploit can be used to install Unlaunch, a bootcode exploit that allows full control of the console on boot.
 
-Memory PitはHomebrew互換性に多少制限があるため、Memory Pit単独で使用する代わりにUnlaunchをインストールすることをお勧めします。 これがUnlaunchをインストールする最も簡単な方法で、おすすめの手順です。 しかし、Unlaunchのインストールには僅かながら本体を**ブリック（文鎮化）する**可能性があるため、心配なら下記の代わりの方法をご覧ください。
+As Memory Pit is somewhat limited in homebrew compatibility, it is recommended to install Unlaunch, instead of using Memory Pit standalone. As this is the easiest method to install Unlaunch, this is the recommended path. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
 
 ::: tip
 
-[エクスプロイトを起動する](launching-the-exploit.html)に進む
+Continue to [Launching the Exploit](launching-the-exploit.html)
 
 :::
 
@@ -73,11 +67,11 @@ Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.htm
 
 ### Flipnote Lenny（うごくメモ帳エクスプロイト）
 
-Flipnote Lennyはうごくメモ帳を利用したエクスプロイトです。
+Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
 
 If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
 
-必要なら、後でいつでもUnlaunchをインストールすることもできます。
+You can always install Unlaunch later if you decide later on that you want it.
 
 ::: tip
 

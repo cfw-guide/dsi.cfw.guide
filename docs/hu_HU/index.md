@@ -27,7 +27,8 @@ Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, független
 ## Mit tehetek a rendszerem moddolásával?
 
 - Futtathatsz Nintendo DS(i) játék mentéseket és ROM hackeket a DSi-d SD kártyájáról, a nélkül, hogy flashcard-ra lenne szükséged
-- Futtathatsz bármilyen DSiWare alkalmazást (régión kívüli és/vagy 3DS exkluzív) az SD kártyádról
+- Indíts bármilyen DSiWare-t az SD kártyádról
+     - Ez azt jelenti, hogy a régiónk ívüli és 3DS-exklúzív DSiWare is működni fog
 - Bebootolhatsz DSiWare és homebrew alkalmazásokba a megfelelő gombok nyomva tartásával a Nintendo DSi bekapcsolásakor
 - Régi idők klasszikusait futtathatod különböző emulátorokkal
 - Használhatsz alaphelyzetben inkompatibilis flashcard-okat
@@ -46,7 +47,6 @@ Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, független
 
 - Windows-on ajánlott, hogy [megjelenjenek a fájl kiterjesztések](file-extensions-windows.html), ha az alapértelmezett Fájlkezelőt használod
 - Ez egyetlen brickelési kockázat az Unlaunch telepítésekor lehetséges, de a kockázat minimális
-- Ha nem vagy tapasztalt a fájlok SD kártyára másolásával, rendelkezünk segéd eszközökkel erre a feladatra
 
 ::: tip
 

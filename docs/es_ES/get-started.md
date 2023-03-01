@@ -2,15 +2,9 @@
 title: "Empezando el proceso"
 ---
 
-La aplicación homebrew principal que esta guía te ayuda a instalar es TWiLight Menu++, que es una versión mejorada/un reemplazo del Menú Nintendo DSi, que te permite ejecutar otras aplicaciones homebrew, juegos comerciales, emuladores para varios sistemas antiguos, y demás.
+La aplicación homebrew principal que esta guía te ayuda a instalar es **TW**i**L**ight Menu++, que es una versión mejorada/un reemplazo del Menú Nintendo DSi, que te permite ejecutar otras aplicaciones homebrew, juegos comerciales, emuladores para varios sistemas antiguos, y demás.
 
 Comenzaremos descargándolo, junto con otra(s) herramienta(s) homebrew, a modo de preparación para lanzar un exploit.
-
-::: tip
-
-¿Estás usando Windows, Linux o macOS? Puedes usar [Lazy DSi Downloader](lazy-dsi-downloader.html) para configurar automáticamente tu tarjeta SD.
-
-:::
 
 ## Requisitos
 
@@ -35,7 +29,7 @@ Asegúrate de que tu tarjeta SD esté [formateada correctamente](sd-card-setup.h
 
 ::: tip
 
-¿No sabes qué carpeta es la carpeta raíz? [Mira esta imagen](https://cdn.discordapp.com/attachments/744649302567157800/1070786885015834695/sdrootspanish.png)
+Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [esta imagen](https://cdn.discordapp.com/attachments/744649302567157800/1070786885015834695/sdrootspanish.png)
 
 :::
 
@@ -47,7 +41,7 @@ A partir de aquí, tienes tres opciones, cada una implica un proceso ligeramente
 
 ### Instalar Unlaunch usando Memory Pit
 
-Memory Pit es un exploit que utiliza la aplicación Cámara DSi, compatible con todas las versiones de firmware. De forma opcional, este exploit puede ser usado para instalar Unlaunch, un exploit de código de arranque que permite control total de la consola al encenderla.
+Memory Pit es un exploit que utiliza la aplicación Cámara Nintendo DSi, compatible con todas las versiones de firmware. De forma opcional, este exploit puede ser usado para instalar Unlaunch, un exploit de código de arranque que permite control total de la consola al encenderla.
 
 Ya que Memory Pit está algo limitado en cuanto a compatibilidad, se recomienda instalar Unlaunch en lugar de usar Memory Pit exclusivamente. Ya que este es el método más fácil de instalar Unlaunch, esta es la opción recomendada. Sin embargo, hay un pequeñísimo riesgo de causar un **bloqueo total** de la consola al instalar Unlaunch, así que si la posibilidad te preocupa, echa un vistazo al método de más abajo.
 
@@ -60,7 +54,7 @@ Continuar a [Lanzar el Exploit](launching-the-exploit.html)
 
 ### stylehax
 
-stylehax es un exploit que utiliza la aplicación Nintendo DSi Browser, y puede ser usado como una alternativa a Memory Pit para instalar Unlaunc si tu consola tiene la cámara averiada.
+stylehax es un exploit que utiliza la aplicación Nintendo DSi Browser, y puede ser usado como una alternativa a Memory Pit para instalar Unlaunch si tu consola tiene la cámara averiada.
 
 Si no quieres instalar Unlaunch, se recomienda usar este exploit ya que Memory Pit causa problemas en algunos juegos y aplicaciones homebrew.
 

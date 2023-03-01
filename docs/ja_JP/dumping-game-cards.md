@@ -11,12 +11,6 @@ title: ゲームカード（DSソフト）の吸い出し
 ## 手順
 ### セクション I - SDカードのセットアップ
 
-::: tip
-
-Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](lazy-dsi-downloader.html)を使ってSDカードを自動セットアップできます。
-
-:::
-
 1. 最新の[GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)をダウンロードします
 1. `GodMode9i.nds`をGodMode9iの圧縮ファイルから取り出し、SDカードの好きな場所へ配置します
 
@@ -30,6 +24,6 @@ Windows、Linux、macOSマシンをお使いですか？ [Lazy DSi Downloader](l
 
 ::: tip
 
-ソフトのバックアップは`sd:/gm9i/out`にあります。
+The dumped Game Cards will be found in `sd:/gm9i/out`.
 
 :::

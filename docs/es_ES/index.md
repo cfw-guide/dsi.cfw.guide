@@ -27,7 +27,8 @@ Las aplicaciones Homebrew pueden ejecutarse de forma gratuita en todas las conso
 ## Si modifico my consola, ¿qué puedo hacer?
 
 - Ejecutar ROMs volcadas de juegos para Nintendo DS(i) desde la tarjeta SD de tu consola, sin necesidad de una flashcart
-- Ejecutar cualquier título de DSiWare (sin importar el bloqueo regional o que sean exclusivos de 3DS) desde tu tarjeta SD
+- Ejecutar cualquier título DSiWare desde tu tarjeta SD
+     - Incluyendo títulos fuera de tu región y títulos DSiWare exclusivos de 3DS
 - Iniciar automáticamente DSiWare y aplicaciones Homebrew al mantener pulsados ciertos botónes mientras enciendes tu consola
 - Ejecutar títulos de consolas clásicas utilizando distintos emuladores
 - Utilizar flashcarts normalmente incompatibles
@@ -46,7 +47,6 @@ Las aplicaciones Homebrew pueden ejecutarse de forma gratuita en todas las conso
 
 - En Windows se recomienda [mostrar extensiones de archivo](file-extensions-windows.html) si estas usando el explorador de archivos por defecto
 - El único riesgo de bloqueo total del sistema viene de instalar Unlaunch, pero este riesgo es sumamente pequeño
-- Si no tienes experiencia con copiar archivos a una tarjeta SD, tenemos herramientas de ayuda a tu disposición
 
 ::: tip
 

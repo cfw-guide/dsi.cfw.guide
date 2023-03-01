@@ -11,12 +11,6 @@ Dieser Abschnitt ist zum dumpen von Spielkarten mit GodMode9i, damit sie mit Emu
 ## Anweisungen
 ### Abschnitt I - Vorbereitung der SD-Karte
 
-::: tip
-
-Verwendest du ein Windows-, Linux- oder macOS-Gerät? Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
-
 1. Lade die neueste Version von [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) herunter
 1. Entpacke `GodMode9i.nds` aus dem GodMode9i Archiv und platziere es irgendwo auf deiner SD-Karte
 
@@ -30,6 +24,6 @@ Verwendest du ein Windows-, Linux- oder macOS-Gerät? Use [Lazy DSi Downloader](
 
 ::: tip
 
-Die gedumpten Spielkarten befinden sich in `sd:/gm9i/out`.
+The dumped Game Cards will be found in `sd:/gm9i/out`.
 
 :::

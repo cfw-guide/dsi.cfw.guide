@@ -27,7 +27,8 @@ header:
 ## 改造することで何ができますか？
 
 - マジコン不要で、SDカードからDSiソフトの吸出しやチートを実行する
-- SDカードからDSiウェア（地域外・3DS専用もOK）を起動する
+- Launch any DSiWare from your SD card
+     - This means out-of-region and 3DS-exclusive DSiWare will also work
 - DSiの起動時に特定のボタンを押して、DSiウェアやHomebrewアプリを起動する
 - 様々なエミュレータを使用して古いゲームを動かす
 - 互換性のないマジコンを使用する
@@ -46,7 +47,6 @@ header:
 
 - Windowsで標準のファイルエクスプローラをお使いの場合は、[ファイル拡張子を表示させておく](file-extensions-windows.html)ことをお勧めします
 - ブリックの危険があるのはUnlaunchのインストールだけですが、危険は最小限になっています
-- SDカードへファイルをコピーするのに慣れていないときは、ヘルパーツールを利用できます
 
 ::: tip
 

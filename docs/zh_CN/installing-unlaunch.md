@@ -22,12 +22,6 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 ## 第一节 - SD 卡设置
 
-::: tip
-
-正在使用Windows、Linux或 macOS 设备？ Use [Lazy DSi Downloader](lazy-dsi-downloader.html) to automatically setup your SD card.
-
-:::
-
 1. 下载最新版本的[ Unlaunch ](https://problemkaputt.de/unlaunch.zip)
    - 使用[镜像链接](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip)，如果上述链接无法工作 1.从`unlaunch.zip`中解压`UNLAUNH.DSI`并复制到你SD卡的任意位置 1.确认你的SD卡上仍然有TWiLight菜单++
 1. 从SD卡中删除`UNLAUNH.DSI`文件

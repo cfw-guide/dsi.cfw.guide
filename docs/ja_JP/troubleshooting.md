@@ -11,7 +11,7 @@ twlnfには、NAND変更後に全体を適切に更新しない重大なバグ�
 
 ### Unlaunchで「Launcher」を起動すると音や起動スプラッシュ画面がない
 
-Unlaunchの開発者（nocash）は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 TWiLight Menu++のUnlaunch設定で「ランチャーパッチ」を無効にしてから[Unlaunchの再インストール](installing-unlaunch.html)をすることで復活も可能です。[hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)を使っても復活できます。
+Unlaunchの開発者（nocash）は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Unlaunchインストール後、電源を入れても画面が点かない
 

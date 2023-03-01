@@ -22,12 +22,6 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
 
 ## Sección I - Preparación de la tarjeta SD
 
-::: tip
-
-¿Estás usando Windows, Linux o macOS? Puedes usar [Lazy DSi Downloader](lazy-dsi-downloader.html) para configurar automáticamente tu tarjeta SD.
-
-:::
-
 1. Descarga la última version de [Unlaunch](https://problemkaputt.de/unlaunch.zip)
    - [Enlace alternativo](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), si el de arriba no funciona
 1. Extrae `UNLAUNCH.DSI` del archivo `unlaunch.zip`, y colócalo en cualquier lugar de tu tarjeta SD
@@ -54,7 +48,7 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
    - Si Unlaunch se congela y muestra el mensaje `ERROR: MISMATCH IN FAT COPIES`, echa un vistazo a la página de [solución de problemas](troubleshooting.html)
 1. Al terminar, reinicia tu consola
 
-Si ves el sistema de archivos de Unlaunch en este punto, significa que has modificado exitosamente tu Nintendo DSi.
+Si en este punto ves el sistema de archivos de Unlaunch, significa que has modificado exitosamente tu Nintendo DSi.
 - Si en cambio ves una pantalla en negro, por favor revisa la página de [solución de problemas](troubleshooting.html)
 
 ## Sección III - Configuración posterior

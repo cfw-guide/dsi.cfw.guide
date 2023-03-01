@@ -11,7 +11,7 @@ Per risolvere questo problema, apri [NAND Title Manager (NTM)](https://github.co
 
 ### Non c'è alcun audio o schermata d'avvio quando si avvia "Launcher" utilizzando Unlaunch
 
-Lo sviluppatore di Unlaunch (nocash) ha intenzionalmente rimosso l'audio di sottofondo e la schermata d'avvio come impostazione predefinita. Puoi riattivare questi effetti [reinstallando Unlaunch](installing-unlaunch.html) utilizzando TWiLight Menu++ con l'impostazione "Patch del Launcher" disattivata nella pagina "Impostazioni Unlaunch", oppure usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Lo sviluppatore di Unlaunch (nocash) ha intenzionalmente rimosso l'audio di sottofondo e la schermata d'avvio come impostazione predefinita. Puoi riattivare questi effetti [reinstallando Unlaunch](installing-unlaunch.html) utilizzando TWiLight Menu++ con l'impostazione "Patch del Launcher" impostata su "Predefinita" nella pagina "Impostazioni Unlaunch", oppure usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Accendere la console mostra solo uno schermo nero dopo aver installato di Unlaunch
 

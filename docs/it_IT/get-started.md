@@ -2,15 +2,9 @@
 title: "Per iniziare"
 ---
 
-L'applicazione homebrew principale che installerai con questa guida è TWiLight Menu++, un aggiornamento/sostituzione del Menu del Nintendo DSi che consente l'esecuzione di altre applicazioni homebrew, giochi commerciali per DS, emulatori di vecchie console e altro ancora.
+L'applicazione homebrew principale che installerai con questa guida è **TW**i**L**ight Menu++, un aggiornamento/sostituzione del menu del Nintendo DSi che consente l'esecuzione di altre applicazioni homebrew, giochi commerciali per DS, emulatori di vecchie console e altro ancora.
 
 Per prima cosa lo scaricheremo, insieme ad altre applicazione homebrew, in preparazione dell'esecuzione dell'exploit.
-
-::: tip
-
-Usi un dispositivo con Windows, Linux o MacOS? Utilizza [Lazy DSi Downloader](lazy-dsi-downloader.html) per configurare automaticamente la tua scheda SD.
-
-:::
 
 ## Requisiti
 
@@ -49,11 +43,11 @@ Da qui hai tre opzioni, con una piccola differenza in ciò che ciascuna comporta
 
 Memory Pit è un exploit che utilizza la Fotocamera Nintendo DSi, compatibile con tutte le versioni del firmware. Facoltativamente, questo exploit può essere utilizzato per installare Unlaunch, un exploit del bootcode che consente il pieno controllo della console all'avvio.
 
-Poiché Memory Pit ha una compatibilità limitata con gli homebrew, si raccomanda d'installare Unlaunch, invece di utilizzare Memory Pit in modo autonomo. È il metodo più semplice per installare Unlaunch e perciò è il percorso consigliato. Tuttavia, c'è un rischio molto piccolo di **brick** della console durante l'installazione di Unlaunch, quindi se questa è una preoccupazione, segui il metodo alternativo sottostante.
+Poiché Memory Pit ha una compatibilità limitata con gli homebrew, si raccomanda di installare Unlaunch, invece di utilizzare Memory Pit in modo autonomo. Visto che questo è il metodo più semplice per installare Unlaunch, è perciò il percorso più consigliato. Tuttavia, c'è un rischio molto marginale di causare un **brick** della console durante l'installazione di Unlaunch, quindi se questo ti preoccupa, segui il metodo alternativo sottostante.
 
 ::: tip
 
-Continua con l'[Avvio dell'exploit](launching-the-exploit.html)
+Continua con [Avvio dell'exploit](launching-the-exploit.html)
 
 :::
 
@@ -62,11 +56,11 @@ Continua con l'[Avvio dell'exploit](launching-the-exploit.html)
 
 stylehax è un exploit che utilizza l'applicazione DSi Browser e può essere utilizzato come alternativa a Memory Pit per l'installazione di Unlaunch (spiegato sopra) nel caso in cui il DSi abbia la fotocamera rotta.
 
-Questo exploit è raccomandato se non vuoi utilizzare Unlaunch, poiché l'utilizzo dell'exploit Memory Pit causa problemi in alcuni giochi e homebrew.
+Questo exploit è raccomandato se non si vuole utilizzare Unlaunch, poiché l'utilizzo dell'exploit Memory Pit causa problemi in alcuni giochi e homebrew.
 
 ::: tip
 
-Continua con l'[Avvio dell'exploit (stylehax)](launching-the-browser-exploit.html)
+Continua con [Avvio dell'exploit(stylehax)](launching-the-browser-exploit.html)
 
 :::
 
@@ -75,7 +69,7 @@ Continua con l'[Avvio dell'exploit (stylehax)](launching-the-browser-exploit.htm
 
 Flipnote Lenny è un exploit che utilizza l'applicazione Flipnote Studio.
 
-Se hai Flipnote Studio e non hai intenzione d'installare Unlaunch (spiegato sopra), questo exploit è raccomandato per la stessa regione di stylehax.
+Se hai Flipnote Studio e non hai intenzione di installare Unlaunch (spiegato sopra), questo exploit è raccomandato per la stessa ragione di stylehax.
 
 È sempre possibile installare Unlaunch più tardi se dovessi cambiare idea.
 

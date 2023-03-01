@@ -27,7 +27,8 @@ Homebrew poate rula gratuit pe toate consolele Nintendo DSi, indiferent de versi
 ## What can I do by modding my system?
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
-- Launch any DSiWare (out-of-region and/or 3DS exclusives) from your SD card
+- Launch any DSiWare from your SD card
+     - This means out-of-region and 3DS-exclusive DSiWare will also work
 - Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Run old-time classics using various emulators
 - Use normally incompatible flashcards
@@ -46,7 +47,6 @@ Homebrew poate rula gratuit pe toate consolele Nintendo DSi, indiferent de versi
 
 - On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
 - The only brick risk comes from installing Unlaunch, and the brick risk is minimal
-- If you are not experienced with copying files to an SD card, we have helper tools available at your disposal
 
 ::: tip
 
