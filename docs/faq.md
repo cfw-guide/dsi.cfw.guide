@@ -105,6 +105,12 @@ Yes, there are a few different methods depending on what you want to change:
 Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - If you were linked to the page in question from another guide, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
 
+## What happened with Lazy DSi Downloader? How do I install CFW without it?
+Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+
+To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+
 ## What kind of SD card should I use?
 - You should buy an SD card from a trusted brand
 - A full-size SD card or a microSD card with an adapter will both work
