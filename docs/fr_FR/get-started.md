@@ -2,7 +2,7 @@
 title: "Pour commencer"
 ---
 
-The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+La principale application homebrew que ce guide vous demande d'installer est **TW**i**L**ight Menu++, qui est une mise à niveau/un remplacement du menu Nintendo DSi permettant d'exécuter d'autres applications homebrews, des jeux DS commerciaux, des émulateurs pour diverses anciennes consoles, etc.
 
 Nous commencerons par le télécharger ainsi que d'autres outils homebrew, en préparation des étapes de l'exploit.
 
@@ -16,7 +16,7 @@ Nous commencerons par le télécharger ainsi que d'autres outils homebrew, en pr
 
 ::: warning
 
-Ensure your SD card is [formatted correctly](sd-card-setup.html).
+Assurez-vous que votre carte SD est [correctement formatée](sd-card-setup.html).
 
 :::
 
@@ -29,54 +29,54 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Vous ne savez pas ce qu'est la « racine » de la carte SD ? [Consultez cette image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
 
 :::
 
 
 ## Section II - Sélection d'un exploit
 
-From here you have three options, with a minor difference in what each entails.
+À partir de là, trois options s'offrent à vous, avec une différence mineure dans ce que chacune implique.
 
 
 ### Installation d'Unlaunch via Memory Pit
 
-Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions. Optionally, this exploit can be used to install Unlaunch, a bootcode exploit that allows full control of the console on boot.
+Memory Pit est un exploit utilisant l'appareil photo DSi, compatible avec toutes les versions du firmware. Facultativement, cet exploit peut être utilisé pour installer Unlaunch, un exploit bootcode qui permet le contrôle total de la console au démarrage.
 
-As Memory Pit is somewhat limited in homebrew compatibility, it is recommended to install Unlaunch, instead of using Memory Pit standalone. As this is the easiest method to install Unlaunch, this is the recommended path. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
+Comme Memory Pit est quelque peu limité dans sa compatibilité avec les homebrews, il est recommandé d'installer Unlaunch, au lieu d'utiliser Memory Pit de manière autonome. Comme c'est la méthode la plus facile pour installer Unlaunch, c'est le chemin recommandé. Cependant, il existe un risque très mineur de **brick** de votre console lors de l'installation d'Unlaunch, donc si cela vous préoccupe, consultez la méthode alternative ci-dessous.
 
 ::: tip
 
-Continue to [Launching the Exploit](launching-the-exploit.html)
+Continuez vers [Lancement de l'exploit](launching-the-exploit.html)
 
 :::
 
 
 ### stylehax
 
-stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
+stylehax est un exploit utilisant l'application Nintendo DSi Browser, et peut être utilisé comme une alternative à Memory Pit pour installer Unlaunch (expliqué ci-dessus) si votre DSi a un appareil photo cassé.
 
-For an Unlaunch-free experience, this exploit is recommended as using Memory Pit causes issues in some games and homebrew.
+Pour une expérience sans Unlaunch, cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrews.
 
 ::: tip
 
-Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
+Continuez vers [Lancement de l'exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
 
 
 ### Flipnote Lenny
 
-Flipnote Lenny is an exploit utilizing the Flipnote Studio application.
+Flipnote Lenny est un exploit utilisant l'application Flipnote Studio.
 
-If you have Flipnote Studio and do not plan on installing Unlaunch (explained above), this exploit is recommended for the same reason as stylehax.
+Si vous possédez Flipnote Studio et que vous ne prévoyez pas d'installer Unlaunch (expliqué ci-dessus), cet exploit est recommandé car l'utilisation de Memory Pit cause des problèmes dans certains jeux et homebrews.
 
-You can always install Unlaunch later if you decide later on that you want it.
+Vous pouvez toujours installer Unlaunch plus tard si vous décidez plus tard que vous le voulez.
 
 ::: tip
 
-Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continuez vers [Lancement de l'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
-For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.
+Pour une comparaison plus détaillée des avantages et inconvénients des exploits disponibles, veuillez consulter sur la section [Quel est le meilleur exploit ?](faq.html#which-is-the-best-exploit) de la FAQ.

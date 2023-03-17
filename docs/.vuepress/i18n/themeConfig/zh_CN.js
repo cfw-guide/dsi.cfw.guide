@@ -1,16 +1,16 @@
 const backups = '备份';
-const guide = 'Guide';
-const extras = 'Extras';
+const guide = '指南';
+const extras = '扩展';
 const other = '其他';
 module.exports = {
 	selectLanguageName: '中文 (简体)',
-	backToHome: 'Take me home',
-	editLinkText: 'Edit this page',
-	openInNewWindow: 'open in new window',
-	selectLanguageAriaLabel: 'Select language',
-	toggleDarkMode: 'toggle dark mode',
-	toggleSidebar: 'toggle sidebar',
-	discordNoticeText: 'Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.',
+	backToHome: '返回首页',
+	editLinkText: '编辑此页面',
+	openInNewWindow: '在新窗口打开',
+	selectLanguageAriaLabel: '选择语言',
+	toggleDarkMode: '切换暗色主题',
+	toggleSidebar: '切换侧边栏',
+	discordNoticeText: '加入 [DS⁽ⁱ⁾ 模式破解!](https://discord.gg/yD3spjv) Discord ，为本指南贡献力量。',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',

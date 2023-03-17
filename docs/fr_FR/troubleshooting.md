@@ -11,7 +11,7 @@ Pour résoudre ce problème, ouvrez [NAND Title Manager (NTM)](https://github.co
 
 ### Il n'y a pas de son ni d'écran de démarrage lors du lancement de « LAUNCHER » en utilisant Unlaunch
 
-Le développeur d'Unlaunch (nocash) a intentionnellement corrigé l'audio d'arrière-plan et l'écran de démarrage par défaut. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Le développeur d'Unlaunch (nocash) a intentionnellement corrigé l'audio d'arrière-plan et l'écran de démarrage par défaut. Vous pouvez retrouver ces effets en [réinstallant Unlaunch](installing-unlaunch.html) à l'aide de TWiLight Menu++ avec les « patchs de lancement » définis sur « Défaut » sur la page Unlaunch des paramètres de TWiLight Menu++, ou en utilisant [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Après l'installation de Unlaunch, l'écran est noir à la mise sous tension
 

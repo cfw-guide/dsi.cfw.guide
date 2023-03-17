@@ -24,6 +24,6 @@ Cette section est dédiée au dumping des cartes de jeu avec GodMode9i, afin que
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Les cartes de jeu dumpées se trouvent dans `sd:/gm9i/out`.
 
 :::

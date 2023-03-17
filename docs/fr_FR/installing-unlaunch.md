@@ -48,12 +48,12 @@ Unlaunch n'est pas compatible avec les consoles de développement Nintendo DSi.
    - Si Unlaunch plante à `ERROR: MISMATCH IN FAT COPIES`, veuillez consulter la page de [dépannage](troubleshooting.html)
 1. Une fois terminé, redémarrez votre système
 
-If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
+Si vous voyez l'écran du menu de fichiers d'Unlaunch, vous avez moddé votre Nintendo DSi avec succès.
 - Si vous voyez un écran noir, veuillez consulter la page de [dépannage](troubleshooting.html)
 
 ## Section III - Configuration post-Unlaunch
 
-Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed launch whatever you want.
+Actuellement, Unlaunch lance par défaut son menu Fichier au démarrage, mais cela peut être modifié pour lancer ce que vous voulez.
 
 1. Allumez votre console en maintenant <kbd class="face">A</kbd> et <kbd class="face">B</kbd>
    - Cela devrait lancer le menu Fichier d'Unlaunch
@@ -70,7 +70,7 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
 
 ::: tip
 
-This section is optional and only serves for keeping your SD card tidy of files you won't need.
+Cette section est facultative et ne sert qu'à débarrasser votre carte SD des fichiers dont vous n'avez pas besoin.
 
 :::
 
