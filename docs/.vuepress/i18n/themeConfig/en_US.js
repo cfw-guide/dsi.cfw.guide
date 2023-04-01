@@ -71,7 +71,7 @@ module.exports = {
 					"launching-the-exploit",
 					"launching-the-browser-exploit",
 					"launching-the-flipnote-exploit",
-					"launching-the-joyconhax-exploit"
+					"launching-the-joiconhax-exploit"
 				]
 			},
 			{
@@ -159,13 +159,13 @@ module.exports = {
 				]
 			}
 		],
-		"/launching-the-joyconhax-exploit.html": [
+		"/launching-the-joiconhax-exploit.html": [
 			"index.html",
 			{
 				text: guide,
 				children: [
 					"get-started",
-					"launching-the-joyconhax-exploit",
+					"launching-the-joiconhax-exploit",
 					"dumping-nand",
 					"installing-unlaunch"
 				]
