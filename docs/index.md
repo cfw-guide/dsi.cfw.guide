@@ -1,9 +1,8 @@
 ---
 home: true
 title: Home
-header:
-   overlay_image: /assets/images/home-page-feature.png
-   overlay_filter: 0.5
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
