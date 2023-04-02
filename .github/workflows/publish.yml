@@ -14,14 +14,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           persist-credentials: false
           submodules: recursive
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: 14
 
       - name: Install dependencies
         run: npm install
@@ -31,9 +31,8 @@ jobs:
         run: npm run docs:build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs/.vuepress/dist # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          branch: gh-pages # The branch the action should deploy to.
+          folder: docs/.vuepress/dist # The folder the action should deploy.
+          clean: true # Automatically remove deleted files from the deploy branch
