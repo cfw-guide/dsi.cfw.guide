@@ -70,8 +70,7 @@ module.exports = {
 					"get-started",
 					"launching-the-exploit",
 					"launching-the-browser-exploit",
-					"launching-the-flipnote-exploit",
-					"launching-the-joiconhax-exploit"
+					"launching-the-flipnote-exploit"
 				]
 			},
 			{
@@ -134,38 +133,6 @@ module.exports = {
 				children: [
 					"get-started",
 					"launching-the-flipnote-exploit",
-					"dumping-nand",
-					"installing-unlaunch"
-				]
-			},
-			{
-				text: extras,
-				children: [
-					"dsiware-backups",
-					"dumping-game-cards",
-					"file-extensions-windows",
-					"restoring-nand",
-					"sd-card-setup",
-					"uninstalling-unlaunch"
-				]
-			},
-			{
-				text: other,
-				children: [
-					"faq",
-					"troubleshooting",
-					"credits",
-					"site-navigation"
-				]
-			}
-		],
-		"/launching-the-joiconhax-exploit.html": [
-			"index.html",
-			{
-				text: guide,
-				children: [
-					"get-started",
-					"launching-the-joiconhax-exploit",
 					"dumping-nand",
 					"installing-unlaunch"
 				]
