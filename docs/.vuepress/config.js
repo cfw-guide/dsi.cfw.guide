@@ -1,12 +1,11 @@
 const { i18n, themeConfig } = require("./i18n");
 const container = require('markdown-it-container');
 const path = require("path");
+const { localTheme } = require('./vuepress-theme')
 
 themeConfig.translate.selectLanguageName = "Translate";
 
 module.exports = {
-	theme: path.resolve(__dirname, "./vuepress-theme"),
-
 	plugins: [
 		[
 			"@vuepress/plugin-search",
@@ -136,7 +135,7 @@ module.exports = {
 		}
 	},
 
-	themeConfig: {
+	theme: localTheme({
 		repo: "cfw-guide/dsi.cfw.guide",
 		docsBranch: "master",
 		docsDir: "docs",
@@ -160,7 +159,7 @@ module.exports = {
 		},
 		contributors: false,
 		lastUpdated: false
-	},
+	}),
 
 	extendsMarkdown: md => {
 		md.use(container, "tabs", {
