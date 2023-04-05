@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0d7c9347","path":"/hu_HU/file-extensions-windows.html","title":"F\xE1jlkiterjeszt\xE9sek (Windows)","lang":"hu-HU","frontmatter":{"title":"F\xE1jlkiterjeszt\xE9sek (Windows)"},"excerpt":"","headers":[],"git":{},"filePathRelative":"hu_HU/file-extensions-windows.md"}');export{e as data};

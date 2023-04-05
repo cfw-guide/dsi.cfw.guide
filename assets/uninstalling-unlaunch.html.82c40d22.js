@@ -1,0 +1,1 @@
+const t=JSON.parse(`{"key":"v-48ec9369","path":"/fr_FR/uninstalling-unlaunch.html","title":"D\xE9sinstallation d'Unlauch","lang":"fr-FR","frontmatter":{"title":"D\xE9sinstallation d'Unlauch"},"excerpt":"","headers":[],"git":{},"filePathRelative":"fr_FR/uninstalling-unlaunch.md"}`);export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-47341968","path":"/zh_CN/uninstalling-unlaunch.html","title":"\u5378\u8F7D Unlaunch","lang":"zh-CN","frontmatter":{"title":"\u5378\u8F7D Unlaunch"},"excerpt":"","headers":[],"git":{},"filePathRelative":"zh_CN/uninstalling-unlaunch.md"}');export{t as data};

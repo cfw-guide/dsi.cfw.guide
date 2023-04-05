@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-15932169","path":"/pl_PL/uninstalling-unlaunch.html","title":"Odinstalowywanie","lang":"pl-PL","frontmatter":{"title":"Odinstalowywanie"},"excerpt":"","headers":[],"git":{},"filePathRelative":"pl_PL/uninstalling-unlaunch.md"}');export{t as data};

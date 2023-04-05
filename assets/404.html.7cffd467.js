@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-29f46aca","path":"/pl_PL/404.html","title":"Strona nie znaleziona","lang":"pl-PL","frontmatter":{"title":"Strona nie znaleziona","layout":"single-no-ads","excerpt":"Strona nie znaleziona. Twoje piksele s\u0105 w innym p\u0142\xF3tnie.","sitemap":false},"excerpt":"","headers":[],"git":{},"filePathRelative":"pl_PL/404.md"}');export{e as data};
