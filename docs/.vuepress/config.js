@@ -140,6 +140,7 @@ module.exports = {
 		docsBranch: "master",
 		docsDir: "docs",
 		selectLanguageText: '<i class="fas fa-globe"></i>',
+      		repoLabel: '<i class="fab fa-github icon"></i>',
 		adUnits: [
 			"8408",
 			"8442"
