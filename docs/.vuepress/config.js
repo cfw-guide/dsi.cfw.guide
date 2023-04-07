@@ -2,6 +2,7 @@ const { i18n, themeConfig } = require("./i18n");
 const container = require('markdown-it-container');
 const path = require("path");
 const { localTheme } = require('./vuepress-theme')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
 
 themeConfig.translate.selectLanguageName = "Translate";
 
@@ -48,10 +49,9 @@ module.exports = {
 			}
 		],
 		[
-			'@vuepress/register-components',
-			{
+			registerComponentsPlugin({
 				componentsDir: path.resolve(__dirname, './components')
-			}
+			})
 		]
 	],
 
@@ -162,7 +162,7 @@ module.exports = {
 		lastUpdated: false
 	}),
 
-	extendsMarkdown: md => {
+	extendsMarkdown: (md) => {
 		md.use(container, "tabs", {
 			render: (tokens, idx) => {
 				const token = tokens[idx];
