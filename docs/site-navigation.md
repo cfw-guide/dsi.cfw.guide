@@ -11,7 +11,6 @@ title: Site Navigation
 
 ## Add-on sections
 - [SD Card Setup](sd-card-setup.html)
-- [Lazy DSi Downloader](lazy-dsi-downloader.html)
 - [File Extensions (Windows)](file-extensions-windows.html)
 - [Dumping Game Cards](dumping-game-cards.html)
 - [DSiWare Backups](dsiware-backups.html)
