@@ -24,7 +24,7 @@ Cons:
 - Access to Slot-1 (the DS Game Card) is blocked in homebrew
 - Access to the DSP is blocked resulting in worse sound in GBARunner2
 - Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
-     - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+    - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
 
 ### stylehax
 Pros:
@@ -54,8 +54,8 @@ Cons:
 Pros:
 - Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
 - Full access to the system without any restrictions, including:
-   - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
-   - Better sound in GBARunner2
+    - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
+    - Better sound in GBARunner2
 - Removes region locks on DSi-Enhanced/Exclusive Game Cards
 - Protection against most ways a DSi could brick
 - DSi-Enhanced games can be run in DSi mode without a Donor ROM
@@ -69,21 +69,21 @@ Cons:
 ## Will I lose any functionality by modding my system?
 If you install Unlaunch or use Flipnote Lenny, no functionality will be lost. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
 - To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
-  - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
+    - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
 
 ## How do I play Nintendo DS Game Card dumps?
 Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
 - With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
 - hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
-   - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
+    - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
 ## How do I update my homebrew?
 - **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
-   - You do **not** need to uninstall Unlaunch before doing this
+    - You do **not** need to uninstall Unlaunch before doing this
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
-   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
+    - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
 - **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
 
 Other homebrew might use other methods to update.
@@ -115,7 +115,7 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 - You should buy an SD card from a trusted brand
 - A full-size SD card or a microSD card with an adapter will both work
 - Any capacity between 1 GB and 2 TB will work. For general usage, 8 GB is enough
-  - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
+    - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
 - Speed class 8 or higher is recommended
 
 ## Can I use my DSi SD card on other systems?

@@ -10,7 +10,7 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
 
 1. Launch File Explorer by opening any directory, such as your SD card directory
 1. Click the "View" option on the top bar
-   - If the option is not present, click the `···` button on the rightmost part of the top bar 
+    - If the option is not present, click the `···` button on the rightmost part of the top bar 
 1. Click or hove your cursor on the `Show >` submenu
 1. Check the option labeled `File name extensions`
    ![Screenshot of hovering the "File name extensions" checkbox on Windows 11](/assets/images/windows-11-file-extensions.png)

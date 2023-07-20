@@ -10,7 +10,7 @@ We'll begin with downloading it as well as some other homebrew tool(s), in prepa
 
 - A way to copy downloaded files to your SD card
 - An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
-   - We advise you to not use WinRAR, as it is known to break things
+    - We advise you to not use WinRAR, as it is known to break things
 
 ## Section I - Prep Work
 
