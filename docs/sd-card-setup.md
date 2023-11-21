@@ -44,6 +44,12 @@ This section formats SD cards larger than 32GB to FAT32.
 
 ::: tip
 
+If you have not followed Section I yet, please do so.
+
+:::
+
+::: tip
+
 If your SD card is 32GB or less in capacity, skip to Section III.
 
 :::
