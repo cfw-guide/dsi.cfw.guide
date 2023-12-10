@@ -129,13 +129,13 @@ mmcblk0     179:0    0   3,8G  0 disk
     - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
       - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
-### Section II - Using SD Formatter
+### Section II - Formatting your SD card with SD Formatter
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/sd-memory-card-formatter-for-linux/)
    - If the above link doesn't work for you, download from archive.org ([x86_64](https://web.archive.org/web/20230501032300/https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv1.0.2_Linux_x86_64.tgz), [ARM64](https://web.archive.org/web/20231210015716/https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv1.0.2_Linux_ARM64.tgz))
    - Accept the end-user license agreement to start the download
 1. Extract the SD Formatter archive anywhere on your computer
 1. Launch the Linux Terminal
-1. Type `watch "lsblk"`
+1. Type `watch "lsblk`
 1. Insert your SD card into your Linux machine
 1. Observe the output. It should look something like this:
 ```
