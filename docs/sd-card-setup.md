@@ -129,7 +129,43 @@ mmcblk0     179:0    0   3,8G  0 disk
     - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
       - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
-### Section II - Using F3
+### Section II - Using SD Formatter
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/sd-memory-card-formatter-for-linux/)
+   - If the above link doesn't work for you, download from archive.org ([x86_64](https://web.archive.org/web/20230501032300/https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv1.0.2_Linux_x86_64.tgz), [ARM64](https://web.archive.org/web/20231210015716/https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv1.0.2_Linux_ARM64.tgz))
+   - Accept the end-user license agreement to start the download
+1. Extract the SD Formatter archive anywhere on your computer
+1. Launch the Linux Terminal
+1. Type `watch "lsblk"`
+1. Insert your SD card into your Linux machine
+1. Observe the output. It should look something like this:
+```
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdc      8:32   1   7.2G  0 disk
+└─sdc1   8:33   1   7.2G  0 part /run/media/user/FFFF-FFFF
+```
+1. Take note of the device name. In our example above, it was `sdc1`
+    - If `RO` is set to 1, make sure the lock switch is not slid down
+    - When unmounting, you need to target the **partition name**, and for formatting, to target the **disk name**. In this example, ours is `sdc1` and `sdc`
+    - Make sure you're targetting the **disk name and partition name**, `sdc` and `sdc1`
+1. Hit CTRL + C to exit the menu
+1. Unmount the partition using `sudo umount /dev/sdc1'
+1. Run `sudo ./format_sd --overwrite <disk mount point>`
+   - Wait until the process is complete. See below for an example output:
+```
+SD Card Formatter version 1.0.2 (build 3022.9.15.2d)
+Developed by Tuxera Inc.
+Done
+[========================================================================] 100 %
+SDHC formatting of "/dev/sdc" was successfully completed.
+Volume information:
+	File system: FAT32
+	Capacity: 7.2 GiB (7776239616 bytes)
+	Free space: 7.2 GiB (7772012544 bytes)
+	Cluster size: 32.0 kiB (32768 bytes)
+```
+1. Mount the partition using `sudo mount /dev/sdc1`
+
+### Section III - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
 1. Launch the terminal in the F3 directory
 1. Run `make` to compile F3
