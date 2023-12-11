@@ -108,28 +108,7 @@ If TWiLight Menu++ fails to start after following this method, please follow the
 
 :::
 
-### Section I - Formatting your SD card
-1. Make sure your SD card is **not** inserted into your Linux machine
-1. Launch the Linux Terminal
-1. Type `watch "lsblk"`
-1. Insert your SD card into your Linux machine
-1. Observe the output. It should match something like this:
-```
-NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-mmcblk0     179:0    0   3,8G  0 disk
-└─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
-```
-1. Take note of the device name. In our example above, it was `mmcblk0p1`
-    - If `RO` is set to 1, make sure the lock switch is not slid down
-    - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
-1. Hit CTRL + C to exit the menu
-1. Follow the instructions relevant to your SD card's capacity:
-    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16` 
-      - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
-      - This creates a single FAT32 partition with 32 KB cluster size on the SD card
-
-### Section II - Formatting your SD card with SD Formatter
+### Section I - Formatting your SD card with SD Formatter
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/sd-memory-card-formatter-for-linux/)
    - If the above link doesn't work for you, download from archive.org ([x86_64](https://web.archive.org/web/20230501032300/https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv1.0.2_Linux_x86_64.tgz), [ARM64](https://web.archive.org/web/20231210015716/https://sdcard.org/downloads/formatter/eula_linux/SDCardFormatterv1.0.2_Linux_ARM64.tgz))
    - Accept the end-user license agreement to start the download
@@ -164,6 +143,27 @@ Volume information:
 	Cluster size: 32.0 kiB (32768 bytes)
 ```
 1. Mount the partition using `sudo mount /dev/sdc1`
+
+### Section II - Formatting your SD card
+1. Make sure your SD card is **not** inserted into your Linux machine
+1. Launch the Linux Terminal
+1. Type `watch "lsblk"`
+1. Insert your SD card into your Linux machine
+1. Observe the output. It should match something like this:
+```
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+mmcblk0     179:0    0   3,8G  0 disk
+└─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
+```
+1. Take note of the device name. In our example above, it was `mmcblk0p1`
+    - If `RO` is set to 1, make sure the lock switch is not slid down
+    - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+1. Hit CTRL + C to exit the menu
+1. Follow the instructions relevant to your SD card's capacity:
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16` 
+      - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
+      - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### Section III - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
