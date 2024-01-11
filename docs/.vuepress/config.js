@@ -1,58 +1,54 @@
 const { i18n, themeConfig } = require("./i18n");
+const { localTheme } = require('./vuepress-theme');
 const container = require('markdown-it-container');
 const path = require("path");
-const { localTheme } = require('./vuepress-theme')
-const { registerComponentsPlugin } = require('@vuepress/plugin-register-components')
+const { registerComponentsPlugin } = require('@vuepress/plugin-register-components');
+const { searchPlugin } = require('@vuepress/plugin-search');
 
 themeConfig.translate.selectLanguageName = "Translate";
 
 module.exports = {
 	plugins: [
-		[
-			"@vuepress/plugin-search",
-			{
-				locales: {
-					"/": {
-						placeholder: i18n.en_US.search
-					},
-					"/de_DE/": {
-						placeholder: i18n.de_DE.search
-					},
-					"/es_ES/": {
-						placeholder: i18n.es_ES.search
-					},
-					"/fr_FR/": {
-						placeholder: i18n.fr_FR.search
-					},
-					"/hu_HU/": {
-						placeholder: i18n.hu_HU.search
-					},
-					"/it_IT/": {
-						placeholder: i18n.it_IT.search
-					},
-					"/ja_JP/": {
-						placeholder: i18n.ja_JP.search
-					},
-					"/pl_PL/": {
-						placeholder: i18n.pl_PL.search
-					},
-					"/ro_RO/": {
-						placeholder: i18n.ro_RO.search
-					},
-					"/zh_CN/": {
-						placeholder: i18n.zh_CN.search
-					},
-					"/translate/": {
-						placeholder: i18n.translate.search
-					}
+		searchPlugin({
+			locales: {
+				"/": {
+					placeholder: i18n.en_US.search
+				},
+				"/de_DE/": {
+					placeholder: i18n.de_DE.search
+				},
+				"/es_ES/": {
+					placeholder: i18n.es_ES.search
+				},
+				"/fr_FR/": {
+					placeholder: i18n.fr_FR.search
+				},
+				"/hu_HU/": {
+					placeholder: i18n.hu_HU.search
+				},
+				"/it_IT/": {
+					placeholder: i18n.it_IT.search
+				},
+				"/ja_JP/": {
+					placeholder: i18n.ja_JP.search
+				},
+				"/pl_PL/": {
+					placeholder: i18n.pl_PL.search
+				},
+				"/ro_RO/": {
+					placeholder: i18n.ro_RO.search
+				},
+				"/zh_CN/": {
+					placeholder: i18n.zh_CN.search
+				},
+				"/translate/": {
+					placeholder: i18n.translate.search
 				}
 			}
-		],
-		[
-			registerComponentsPlugin({
-				componentsDir: path.resolve(__dirname, './components')
-			})
-		]
+		}),
+		registerComponentsPlugin({
+			componentsDir: path.resolve(__dirname, './components')
+		})
 	],
 
 	head: [
