@@ -55,7 +55,7 @@ crwdns6607:0crwdne6607:0
 1. crwdns6309:0crwdne6309:0
 1. crwdns6311:0crwdne6311:0
 
-![](crwdns6609:0crwdne6609:0)
+![](http://0.0.0.0)
 
 ### crwdns6315:0crwdne6315:0
 1. crwdns6317:0crwdne6317:0

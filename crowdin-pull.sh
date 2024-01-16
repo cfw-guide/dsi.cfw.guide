@@ -13,3 +13,5 @@ for LANGUAGE in $LANGUAGES; do
 	ARG+="-l $LANGUAGE "
 done
 crowdin pull $ARG
+
+./fix\ in-context.sh
