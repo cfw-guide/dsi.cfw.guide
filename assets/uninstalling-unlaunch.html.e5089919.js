@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-ec7e4dee","path":"/ro_RO/uninstalling-unlaunch.html","title":"Dezinstalarea Unlaunch","lang":"ro-RO","frontmatter":{"title":"Dezinstalarea Unlaunch"},"excerpt":"","headers":[],"git":{},"filePathRelative":"ro_RO/uninstalling-unlaunch.md"}');export{a as data};

@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-6c546c4c","path":"/ja_JP/uninstalling-unlaunch.html","title":"Unlaunch\u306E\u30A2\u30F3\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB","lang":"ja-JP","frontmatter":{"title":"Unlaunch\u306E\u30A2\u30F3\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB"},"excerpt":"","headers":[],"git":{},"filePathRelative":"ja_JP/uninstalling-unlaunch.md"}');export{a as data};

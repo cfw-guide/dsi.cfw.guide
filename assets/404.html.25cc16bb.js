@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-653f50ea","path":"/de_DE/404.html","title":"Seite nicht gefunden","lang":"de-DE","frontmatter":{"title":"Seite nicht gefunden","layout":"single-no-ads","excerpt":"Seite nicht gefunden. Du bist auf eine Sackgasse gesto\xDFen.","sitemap":false},"excerpt":"","headers":[],"git":{},"filePathRelative":"de_DE/404.md"}');export{e as data};
