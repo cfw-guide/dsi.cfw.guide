@@ -18,7 +18,7 @@ Assurez-vous de sauvegarder le contenu de votre carte SD AVANT de continuer. Tou
 
 ::: tip
 
-Cette section formate la carte SD selon les spécifications de la SD Card Association. Cela peut résoudre de nombreux problèmes pouvant survenir lors de l'exécution d'applications homebrews.
+Cette section formate la carte SD selon les spécifications de la SD Card Association. Cela peut résoudre de nombreux problèmes pouvant survenir lors de l'exécution d'applications homebrew.
 
 :::
 
@@ -176,7 +176,7 @@ Si le test donne d'autres résultats, votre carte SD est peut-être corrompue ou
 
 ::: tip
 
-Cette section formate la carte SD selon les spécifications de la SD Card Association. Cela peut résoudre de nombreux problèmes pouvant survenir lors de l'exécution d'applications homebrews.
+Cette section formate la carte SD selon les spécifications de la SD Card Association. Cela peut résoudre de nombreux problèmes pouvant survenir lors de l'exécution d'applications homebrew.
 
 :::
 

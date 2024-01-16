@@ -2,17 +2,17 @@
 title: Zrzucanie NAND
 ---
 
-Ta strona służy do tworzenia kopii zapasowej NAND, która jest kopią danych znajdujących się w pamięci wewnętrznej Nintendo DSi. It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
+Ta strona służy do tworzenia kopii zapasowej NAND, która jest kopią danych znajdujących się w pamięci wewnętrznej Nintendo DSi. Może być użyta do konfiguracji hiyaCFW, a także no$gba i melonDS w celu emulacji DSi.
 
 ::: tip
 
-Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+Upewnij się, że karta SD ma co najmniej 250MB wolnego miejsca, w przeciwnym razie pojawi się komunikat o błędzie.
 
 :::
 
 ::: tip
 
-It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
+Jest to bardzo zalecane. Kopia zapasowa NAND może być użyta jako punkt przywracania w przyszłości w przypadku awarii.
 
 :::
 
@@ -20,7 +20,7 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 
 ::: tip
 
-If you have already downloaded dumpTool from another section of this guide, you can skip this section.
+Jeśli już pobrałeś narzędzie dumpTool z innej sekcji tego poradnika, możesz pominąć tę sekcję.
 
 :::
 
@@ -41,12 +41,12 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 ::: warning
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
+Hash SHA1 `nand.bin` nie będzie odpowiadał hash'owi zapisanemu w `nand.bin.sha1`. Dzieje się tak, ponieważ dumpTool dodaje dodatkowe dane znane jako footer no$gba do pliku `nand.bin` po obliczeniu hash'u SHA1. Możesz użyć [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases), aby utworzyć kopię bez tego elementu.
 
 :::
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+(Opcjonalnie) Przejdź do [Instalacja Unlaunch'a](installing-unlaunch.html)
 
 :::

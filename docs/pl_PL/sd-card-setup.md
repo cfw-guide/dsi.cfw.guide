@@ -2,11 +2,11 @@
 title: Konfiguracja karty SD
 ---
 
-This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
+Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. W trakcie tego procesu sformatujemy kartę SD i sprawdzimy czy karta nie ma błędów.
 
 ::: danger
 
-Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfiguracji. Twoja karta SD będzie zresetowana w tym procesie.
+Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfiguracji. Twoja karta SD zostanie SFORMATOWANA w tym procesie.
 
 :::
 
@@ -14,36 +14,36 @@ Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfig
 
 :::: tab name="Windows" os="windows"
 
-### Section I - Formatting your SD card with SD Formatter
+### Sekcja I - Formatowanie karty SD za pomocą SD Formatter
 
 ::: tip
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+Ta sekcja formatuje kartę SD do specyfikacji przez SD Card Association. Może to naprawić wiele problemów, które mogą wystąpić podczas uruchamiania aplikacji homebrew.
 
 :::
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Wszystkie karty 64GB lub większe zostaną sformatowane do systemu plików `exFAT` w tym procesie. _Musisz_ postępować zgodnie z sekcją II, aby przeformatować do `FAT32`.
 
 :::
 
-1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accept the End User License Agreement to start the download
-1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
-1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
-1. Select your SD card
+1. Pobierz najnowszą wersję [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Jeśli powyższy link nie działa dla Ciebie, pobierz [z archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Zaakceptuj umowę licencyjną użytkownika, aby rozpocząć pobieranie
+1. Uruchom `SD Card Formatter Setup` (plik `.exe`), który znajduje się w pobranym plik `.zip`. Pamiętaj aby uruchomić program z uprawnieniami administratora
+1. Uruchom `SD Card Formatter` z Menu Start z uprawnieniami administratora
+1. Wybierz swoją kartę SD
 1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
-1. Press `Format` to start the format process ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
+1. Naciśnij `Format` aby rozpocząć proces formatowania ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
-### Section II - Formatting your SD card with GUIFormat
+### Sekcja II - Formatowanie karty SD za pomocą GUIFormat
 
-This section formats SD cards larger than 32GB to FAT32.
+Ta sekcja formatuje karty SD większe niż 32GB na FAT32.
 
 ::: tip
 
-If your SD card is 32GB or less in capacity, skip to Section III.
+Jeśli karta SD ma pojemność 32GB lub mniej, należy przejść do sekcji III.
 
 :::
 
@@ -51,7 +51,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
    - Kliknij na zdjęcie na stronie internetowej, aby pobrać aplikację
 1. Uruchom GUIFormat z uprawnieniami administratora
 1. Wybierz literę dysku
-1. Set the `Allocation size unit` to `32768`
+1. Ustaw `Allocation size unit` na `32768`
    - Jeśli jest on zbyt duży dla twojego SD, ustaw go na najwyższy, który działa
 1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
 1. Rozpocznij proces formatowania
@@ -70,7 +70,7 @@ Spowoduje to skanowanie karty SD i poprawienie wszelkich wykrytych przez nią b�
 ### Sekcja IV - Sprawdzanie odczytu/zapisu karty SD
 
 1. Pobierz i rozpakuj [archiwum h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) w dowolnym miejscu na komputerze
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+   - Jeśli powyższy link nie działa dla Ciebie, pobierz [z archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
    - Można go również rozpakować na urządzeniu zewnętrznym, o ile to urządzenie zewnętrzne nie jest twoją kartą SD
 1. Z kartą SD włożoną do komputera, uruchom `h2testw.exe`
 1. Wybierz język, w którym chcesz zobaczyć h2testw
@@ -81,7 +81,7 @@ Spowoduje to skanowanie karty SD i poprawienie wszelkich wykrytych przez nią b�
 
 ::: tip
 
-If the test shows the result `Test finished without errors`, your SD card is healthy and you can delete all `.h2w` files on your SD card.
+Jeśli test pokazuje wynik `Test finished without errors`, Twoja karta SD jest dobra i możesz usunąć wszystkie pliki `.h2w` na twojej karcie SD.
 
 :::
 
@@ -97,7 +97,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 ::: tip
 
-If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
+Jeśli TWiLight Menu++ nie uruchomi się po zastosowaniu tej metody, należy zastosować się do metody Windows, poprzez uruchomienie systemu Windows lub uruchomienie maszyny wirtualnej Windows
 
 :::
 
@@ -112,7 +112,7 @@ NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Take note of the device name. In our example above, it was `mmcblk0p1`
+1. Zapamiętaj nazwę urządzenia. In our example above, it was `mmcblk0p1`
    - Jeśli `RO` jest ustawione na 1, upewnij się, że przełącznik blokady nie jest przesunięty w dół
    - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Naciśnij CTRL + C, aby wyjść z menu
@@ -172,17 +172,17 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 :::: tab name="macOS" os="macos"
 
-### Section I - Formatting your SD card with SD Formatter
+### Sekcja I - Formatowanie karty SD za pomocą SD Formatter
 
 ::: tip
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
+Ta sekcja formatuje kartę SD do specyfikacji przez SD Card Association. Może to naprawić wiele problemów, które mogą wystąpić podczas uruchamiania aplikacji homebrew.
 
 :::
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Wszystkie karty 64GB lub większe zostaną sformatowane do systemu plików `exFAT` w tym procesie. _Musisz_ postępować zgodnie z sekcją II, aby przeformatować do `FAT32`.
 
 :::
 
@@ -190,17 +190,17 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
    - Accept the End User License Agreement to start the download
 1. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
 1. Run `SD Card Formatter`
-1. Select your SD card
+1. Wybierz swoją kartę SD
 1. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
 1. Rozpocznij proces formatowania
 
 ### Section II - Formatting your SD card with Disk Utility
 
-This section formats SD cards larger than 32GB to FAT32.
+Ta sekcja formatuje karty SD większe niż 32GB na FAT32.
 
 ::: tip
 
-If your SD card is 32GB or less in capacity, skip to Section III.
+Jeśli karta SD ma pojemność 32GB lub mniej, należy przejść do sekcji III.
 
 :::
 

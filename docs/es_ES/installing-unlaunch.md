@@ -42,8 +42,8 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
    - Si quieres crear tu propio fondo para Unlaunch, consulta la [página en la Wiki de DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds).
 1. Sal de la Configuración de TWiLight Menu++
 1. En el menú de navegación de archivos, ejecuta la aplicación `Unlaunch DSi Installer`
-   - Si ves dos pantallas negras después de lanzar, descarga [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), pon su . si en la raíz SD, luego inicia GodMode9i usando TWiLight Menu+++, e inicia `Desiniciar. si`    
-     Este método no habilita Unlaunch para usar parches personalizados y fondo
+   - Si ves dos pantallas en negro después de ejecutar la aplicación, descarga [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), pon su archivo .dsi en la raíz de tu tarjeta SD, luego inicia GodMode9i usando TWiLight Menu+++, e inicia `Unlaunch.dsi`    
+     Este método no permite instalar Unlaunch con fondos personalizados ni con la configuración de parches cambiada.
 1. Selecciona la opción "Install now"
    - Si Unlaunch se congela y muestra el mensaje `ERROR: MISMATCH IN FAT COPIES`, echa un vistazo a la página de [solución de problemas](troubleshooting.html)
 1. Al terminar, reinicia tu consola

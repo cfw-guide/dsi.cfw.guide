@@ -1,16 +1,16 @@
-const backups = 'Backups';
-const guide = 'Guide';
-const extras = 'Extras';
-const other = 'Other';
+const backups = 'Kopie zapasowe';
+const guide = 'Poradnik';
+const extras = 'Dodatki';
+const other = 'Inne';
 module.exports = {
 	selectLanguageName: 'Polski',
-	backToHome: 'Take me home',
-	editLinkText: 'Edit this page',
-	openInNewWindow: 'open in new window',
-	selectLanguageAriaLabel: 'Select language',
-	toggleDarkMode: 'toggle dark mode',
-	toggleSidebar: 'toggle sidebar',
-	discordNoticeText: 'Join the [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord server for guide development and help.',
+	backToHome: 'Powrót na stronę główną',
+	editLinkText: 'Edytuj tę stronę',
+	openInNewWindow: 'otwórz w nowym oknie',
+	selectLanguageAriaLabel: 'Wybierz język',
+	toggleDarkMode: 'włącz tryb ciemny',
+	toggleSidebar: 'przełącz boczny pasek',
+	discordNoticeText: 'Dołącz do serwera Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) w celu opracowania przewodnika i pomocy.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',

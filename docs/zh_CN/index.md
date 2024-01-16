@@ -27,7 +27,7 @@ header:
 ## 我可以通过修改我的主机来做什么？
 
 - 直接从 DSi 的SD卡上运行 Nintendo DS(i) 游戏备份或ROM模组，而不需要烧录卡
-- Launch any DSiWare from your SD card
+- 从SD卡启动任意DSiWare
      - This means out-of-region and 3DS-exclusive DSiWare will also work
 - 在Nintendo DSi开机时通过长按特定的按钮来启动至DSiWare和自制程序
 - 用各种模拟器玩老游戏

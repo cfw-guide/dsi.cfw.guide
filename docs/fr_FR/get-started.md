@@ -2,7 +2,7 @@
 title: "Pour commencer"
 ---
 
-La principale application homebrew que ce guide vous demande d'installer est **TW**i**L**ight Menu++, qui est une mise à niveau/un remplacement du menu Nintendo DSi permettant d'exécuter d'autres applications homebrews, des jeux DS commerciaux, des émulateurs pour diverses anciennes consoles, etc.
+La principale application homebrew que ce guide vous demande d'installer est **TW**i**L**ight Menu++, qui est une mise à niveau/un remplacement du menu Nintendo DSi permettant d'exécuter d'autres applications homebrew, des jeux DS commerciaux, des émulateurs pour diverses anciennes consoles, etc.
 
 Nous commencerons par le télécharger ainsi que d'autres outils homebrew, en préparation des étapes de l'exploit.
 

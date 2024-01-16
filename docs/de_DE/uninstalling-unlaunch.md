@@ -10,7 +10,7 @@ title: Unlaunch Deinstallieren
 
 **WARNUNG:** Die Deinstallation von Unlaunch könnte deinen Nintendo DSi beschädigen. Dies könnten Gründe sein, warum du Unlaunch deinstallieren willst, aber mit Lösungen die keine Deinstallation benötigen.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Sie beschreiben einen Weg, den Hintergrund zu ändern
+- **Der Unlaunch-Hintergrund ist fürchterlich/gefällt mir nicht:** [Installiere Unlaunch](installing-unlaunch.html) mit der neuen Anleitung neu. Sie beschreiben einen Weg, den Hintergrund zu ändern
 - **Ich habe ein Problem mit Unlaunch oder der Konsole nach der Installation:** Die [Troubleshooting](troubleshooting.html#unlaunch) Seite erklärt Lösungen für Probleme die sie haben könnten
 
 ::: warning
@@ -21,7 +21,7 @@ Um das Risiko zu verringern, den DSi zu beschädigen, stelle sicher, dass du kei
 
 ::: warning
 
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Siehe die korrekte Information zur Deinstallation unten.
+Wenn du Unlaunch deinstallieren willst, verwende bitte **NICHT** den eingebauten Deinstallierer, da er deine Konsole zerstören könnte. Siehe die korrekte Information zur Deinstallation unten.
 
 :::
 

@@ -6,13 +6,13 @@ title: 提取NAND
 
 ::: tip
 
-Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+请确保SD卡有至少 250MB 可用空间，否则您将会在转储工具中出现错误消息。
 
 :::
 
 ::: tip
 
-It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
+强烈建议你进行该步骤。 如果机器变砖，NAND备份可以用于系统恢复
 
 :::
 
@@ -20,7 +20,7 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 
 ::: tip
 
-If you have already downloaded dumpTool from another section of this guide, you can skip this section.
+如果您已经从本指南的另一个部分下载了转储工具，您可以跳过此部分。
 
 :::
 

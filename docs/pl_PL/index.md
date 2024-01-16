@@ -1,6 +1,6 @@
 ---
 home: true
-title: Dom
+title: Strona Domowa
 header:
   overlay_image: /assets/images/home-page-feature.png
   overlay_filter: 0.5
@@ -8,7 +8,7 @@ header:
 
 ::: tip
 
-Aby uzyskać całkowity przewodnik do homebrew i niestandardowych firmware dla innych urządzeń, sprawdź poradnik [CFW.Poradnik](https://cfw.guide/).
+Aby uzyskać całkowity przewodnik do homebrew i niestandardowych oprogramowań dla innych urządzeń, sprawdź poradnik [CFW.Poradnik](https://cfw.guide/).
 
 :::
 
@@ -22,34 +22,34 @@ Dokładnie przeczytaj wszystkie strony wprowadzające (łącznie z tą!) przed p
 
 [Aplikacje Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) są nielicencjonowanymi programami stworzonymi dla systemów zamkniętych, takich jak Nintendo DSi. Aplikacje te mogą obejmować zarówno programy użytkowe, jak i niestandardowe gry homebrew.
 
-Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezależnie od wersji firmware'u czy regionu. Wszystko, czego potrzebujesz, to punkt wejścia i karta SD do przechowywania swojego homebrew. Główny punkt wejścia użyty w tym poradniku nazywa się Memory Pit, ale istnieją inne punkty wejścia, których możesz użyć, jeśli Memory Pit jest dla ciebie bezużyteczny.
+Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezależnie od wersji firmware'u czy regionu. Wszystko, czego potrzebujesz, to exploit i karta SD do przechowywania twojego homebrew. Główny punkt wejścia użyty w tym poradniku nazywa się Memory Pit, ale istnieją inne punkty wejścia, których możesz użyć, jeśli Memory Pit jest dla ciebie bezużyteczny.
 
-## What can I do by modding my system?
+## Co mogę zrobić, gdy zmoduję swój system?
 
-- Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
-- Launch any DSiWare from your SD card
-     - This means out-of-region and 3DS-exclusive DSiWare will also work
-- Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
-- Run old-time classics using various emulators
-- Use normally incompatible flashcards
-- Redirect your NAND to the SD card using hiyaCFW
-- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
-- Display an image (referred to as the boot splash) on system launch
-- Play homebrew games
+- Uruchamiać kopie zapasowe gier Nintendo DS(i) oraz ROM hacki z twojej karty SD bez użycia flashcard'a
+- Uruchamiać dowolne DSiWare z karty SD
+     - Oznacza to, że DSiWare z innych regionów oraz z 3DS'a również będzie działać
+- Uruchamiać aplikacje DSiWare i homebrew trzymając specyficzne przyciski podczas włączania Nintendo DSi
+- Uruchamiać gry retro za pomocą różnych emulatorów
+- Użyj normalnie niekompatybilnych flashcard'ów
+- Utworzyć kopię NAND na karcie SD używając hiyaCFW
+- Oglądać ulubione filmy za pomocą FastVideoDSPlayer albo tuna-viDS
+     - FastVideoDSEncoder wymaga CPU wspierającego AVX2 (nowsze CPU będą go obsługiwać)
+- Wyświetlanie obrazu (zwanego boot splash'em) podczas uruchamiania systemu
+- Grać w gry homebrew
 
-## Where can I find homebrew applications?
+## Gdzie mogę znaleźć aplikacje homebrew?
 
-- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
+- [Universal-DB](https://db.universal-team.net/ds) zawiera większość nowoczesnego homebrew, z ładnym wyszukiwaniem i sortowaniem, aby wiedzieć, co zostało ostatnio zaktualizowane
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) ma wiele starszego homebrew, jednak wiele z nich będzie działać tylko na flashcardach
 
-## What should I know before starting?
+## Co należy wiedzieć przed rozpoczęciem?
 
-- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
-- The only brick risk comes from installing Unlaunch, and the brick risk is minimal
+- W systemie Windows zaleca się, aby [pokazać rozszerzenia plików](file-extensions-windows), jeśli używasz domyślnego Eksploratora plików
+- Jedyne ryzyko związane z awarią pochodzi z instalacji Unlaunch, a ryzyko to jest minimalne
 
 ::: tip
 
-Continue to [Get Started](get-started.html)
+Przejdź do [Zacznij](get-started.html)
 
 :::

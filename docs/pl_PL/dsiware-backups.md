@@ -8,17 +8,17 @@ title: Kopie zapasowe DSiWare
 
 ## Nintendo DSi - Instrukcje
 
-### Section I - Dumping the DSiWare
-1. Launch GodMode9i
-1. Press <kbd>START</kbd> to open the START Menu
-1. Select `Title manager...`
-   - If this isn't shown, ensure you have your SD card and NAND mounted. If loading from hiyaCFW reload from somewhere else
-1. Select the title you want to dump
-1. Select what you want to dump
-1. Repeat steps 4-5 for all of the DSiWare you wish to dump
+### Sekcja I – Zrzucanie DSiWare
+1. Uruchom GodMode9i
+1. Naciśnij <kbd>START</kbd>, aby otworzyć menu START
+1. Wybierz `Title manager...`
+   - Jeśli ta opcja nie wyświetla się, upewnij się, że twoja karta SD oraz NAND są zamontowane. Jeżeli uruchamiasz z hiyaCFW to uruchom z innego miejsca
+1. Wybierz tytuł, który chcesz zrzucić
+1. Wybierz co chcesz zrzucić
+1. Powtórz kroki 4-5 dla wszystkich tytułów, które chcesz zrzucić
 
 ::: tip
 
-The dumped DSiWare will be found in `sd:/gm9i/out`.
+Zrzucone tytuły zostaną umieszczone w `sd:/gm9i/out`.
 
 :::

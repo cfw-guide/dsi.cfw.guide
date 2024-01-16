@@ -1,12 +1,12 @@
 const backups = 'Backups';
-const guide = 'Guide';
+const guide = 'Anleitung';
 const extras = 'Extras';
-const other = 'Other';
+const other = 'Sonstiges';
 module.exports = {
 	selectLanguageName: 'Deutsch',
 	backToHome: 'Zurück zur Startseite',
 	editLinkText: 'Bearbeite diese Seite',
-	openInNewWindow: 'in einem neuen Fenster öffnen',
+	openInNewWindow: 'in neuem Fenster öffnen',
 	selectLanguageAriaLabel: 'Sprache auswählen',
 	toggleDarkMode: 'dunkles Design an-/ausschalten',
 	toggleSidebar: 'Seitenleiste ein-/ausblenden',

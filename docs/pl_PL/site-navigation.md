@@ -3,9 +3,9 @@ title: Nawigacja stroną
 ---
 
 ## Główny poradnik
-- [Get Started](get-started.html)
-- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
-- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Wprowadzenie](get-started.html)
+- [Uruchamianie Exploitu (Memory Pit)](launching-the-exploit.html)
+- [Uruchamianie Exploitu (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [Zrzucanie NAND](dumping-nand.html)
 - [Instalacja Unlaunch](installing-unlaunch.html)
 

@@ -15,7 +15,7 @@ title: Navigation du site
 - [Extensions de fichiers (Windows)](file-extensions-windows.html)
 - [Dumping des cartes de jeu](dumping-game-cards.html)
 - [Sauvegardes des DSiWare](dsiware-backups.html)
-- [Désinstallation d'Unlauch](uninstalling-unlaunch.html)
+- [Désinstallation d'Unlaunch](uninstalling-unlaunch.html)
 - [Restauration de la NAND](restoring-nand.html)
 
 ## Autres pages du site Web

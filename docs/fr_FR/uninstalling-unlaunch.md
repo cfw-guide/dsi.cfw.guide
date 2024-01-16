@@ -1,5 +1,5 @@
 ---
-title: Désinstallation d'Unlauch
+title: Désinstallation d'Unlaunch
 ---
 
 ::: danger
