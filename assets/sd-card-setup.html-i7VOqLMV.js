@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6e591a66","path":"/hu_HU/sd-card-setup.html","title":"SD kártya telepítés","lang":"hu-HU","frontmatter":{"title":"SD kártya telepítés"},"headers":[],"git":{},"filePathRelative":"hu_HU/sd-card-setup.md"}');export{t as data};

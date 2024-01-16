@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4330580a","path":"/es_ES/404.html","title":"Página no encontrada","lang":"es-ES","frontmatter":{"title":"Página no encontrada","layout":"single-no-ads","excerpt":"Página no encontrada. Parece que tus píxeles están en otro lienzo.","sitemap":false},"headers":[],"git":{},"filePathRelative":"es_ES/404.md"}');export{e as data};

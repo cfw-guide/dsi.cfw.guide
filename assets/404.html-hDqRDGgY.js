@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-6d10bc6a","path":"/hu_HU/404.html","title":"Az oldal nem található","lang":"hu-HU","frontmatter":{"title":"Az oldal nem található","layout":"single-no-ads","excerpt":"Oldal nem található. A pixeleid másik vásznon vannak.","sitemap":false},"headers":[],"git":{},"filePathRelative":"hu_HU/404.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-85cb69ee","path":"/hu_HU/uninstalling-unlaunch.html","title":"Unlaunch eltávolítása","lang":"hu-HU","frontmatter":{"title":"Unlaunch eltávolítása"},"headers":[],"git":{},"filePathRelative":"hu_HU/uninstalling-unlaunch.md"}');export{t as data};

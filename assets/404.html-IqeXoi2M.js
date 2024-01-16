@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-51b3466c","path":"/fr_FR/404.html","title":"Page non trouvée","lang":"fr-FR","frontmatter":{"title":"Page non trouvée","layout":"single-no-ads","excerpt":"Page non trouvée. Vos pixels sont sur une autre toile.","sitemap":false},"headers":[],"git":{},"filePathRelative":"fr_FR/404.md"}');export{e as data};

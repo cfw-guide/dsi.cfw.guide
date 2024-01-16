@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4d58bc50","path":"/ja_JP/file-extensions-windows.html","title":"ファイル拡張子（Windows）","lang":"ja-JP","frontmatter":{"title":"ファイル拡張子（Windows）"},"headers":[],"git":{},"filePathRelative":"ja_JP/file-extensions-windows.md"}');export{e as data};

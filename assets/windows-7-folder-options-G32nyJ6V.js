@@ -1,0 +1,1 @@
+const s="/assets/images/windows-11-file-extensions.png",o="/assets/images/windows-10-file-extensions.png",n="/assets/images/windows-7-folder-options-start-menu.png",t="/assets/images/windows-7-folder-options.png";export{s as _,o as a,n as b,t as c};

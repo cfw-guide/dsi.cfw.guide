@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-80426b2c","path":"/ro_RO/404.html","title":"Pagina nu a fost găsită","lang":"ro-RO","frontmatter":{"title":"Pagina nu a fost găsită","layout":"single-no-ads","excerpt":"Pagina nu a fost găsită. Pixelii tăi sunt pe o altă pânză.","sitemap":false},"headers":[],"git":{},"filePathRelative":"ro_RO/404.md"}');export{t as data};

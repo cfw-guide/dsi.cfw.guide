@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1a2c050a","path":"/ja_JP/404.html","title":"ページが見つかりません","lang":"ja-JP","frontmatter":{"title":"ページが見つかりません","layout":"single-no-ads","excerpt":"ページが見つかりません。 あなたが見たい物は別のページにあります。","sitemap":false},"headers":[],"git":{},"filePathRelative":"ja_JP/404.md"}');export{a as data};

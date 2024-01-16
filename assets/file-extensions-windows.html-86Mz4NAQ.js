@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4ab7a147","path":"/ro_RO/file-extensions-windows.html","title":"Extensii de Fișiere (Windows)","lang":"ro-RO","frontmatter":{"title":"Extensii de Fișiere (Windows)"},"headers":[],"git":{},"filePathRelative":"ro_RO/file-extensions-windows.md"}');export{e as data};

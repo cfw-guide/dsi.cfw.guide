@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-70ac7a74","path":"/fr_FR/sd-card-setup.html","title":"Configuration de la carte SD","lang":"fr-FR","frontmatter":{"title":"Configuration de la carte SD"},"headers":[],"git":{},"filePathRelative":"fr_FR/sd-card-setup.md"}');export{t as data};

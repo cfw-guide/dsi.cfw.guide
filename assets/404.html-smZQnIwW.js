@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-0106c12a","path":"/it_IT/404.html","title":"Pagina non trovata","lang":"it-IT","frontmatter":{"title":"Pagina non trovata","layout":"single-no-ads","excerpt":"Pagina non trovata. I tuoi pixel sono in un altro canvas.","sitemap":false},"headers":[],"git":{},"filePathRelative":"it_IT/404.md"}');export{a as data};

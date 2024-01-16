@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c90680ee","path":"/de_DE/uninstalling-unlaunch.html","title":"Unlaunch Deinstallieren","lang":"de-DE","frontmatter":{"title":"Unlaunch Deinstallieren"},"headers":[],"git":{},"filePathRelative":"de_DE/uninstalling-unlaunch.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-ef01926c","path":"/zh_CN/file-extensions-windows.html","title":"文件扩展名 (Windows)","lang":"zh-CN","frontmatter":{"title":"文件扩展名 (Windows)"},"headers":[],"git":{},"filePathRelative":"zh_CN/file-extensions-windows.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2b1951a7","path":"/pl_PL/file-extensions-windows.html","title":"Rozszerzenia plików (Windows)","lang":"pl-PL","frontmatter":{"title":"Rozszerzenia plików (Windows)"},"headers":[],"git":{},"filePathRelative":"pl_PL/file-extensions-windows.md"}');export{e as data};

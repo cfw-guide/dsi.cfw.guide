@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cd24af34","path":"/ro_RO/sd-card-setup.html","title":"Setarea Cardului SD","lang":"ro-RO","frontmatter":{"title":"Setarea Cardului SD"},"headers":[],"git":{},"filePathRelative":"ro_RO/sd-card-setup.md"}');export{t as data};
