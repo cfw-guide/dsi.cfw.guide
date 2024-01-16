@@ -13,6 +13,7 @@ module.exports = {
 			description: i18n.en_US.description,
 			discordNoticeText: i18n.en_US.discordNoticeText
 		},
+/*
 		"/de_DE/": {
 			lang: "de-DE",
 			title: i18n.de_DE.title,
@@ -77,6 +78,7 @@ module.exports = {
 				[ 'script', {src: "//cdn.crowdin.com/jipt/jipt.js"} ]
 			],
 		}
+*/
 	},
 
 	theme: emiylTheme({
@@ -91,6 +93,7 @@ module.exports = {
 		],
 		locales: {
 			"/": themeConfig.en_US,
+/*
 			"/de_DE/": themeConfig.de_DE,
 			"/es_ES/": themeConfig.es_ES,
 			"/fr_FR/": themeConfig.fr_FR,
@@ -101,10 +104,16 @@ module.exports = {
 			"/ro_RO/": themeConfig.ro_RO,
 			"/zh_CN/": themeConfig.zh_CN,
 			"/translate/": themeConfig.translate
+*/
 		},
 		contributors: false,
 		lastUpdated: false
 	}),
+
+	pagePatterns: [
+		'*.md',
+		'!*/*.md'
+	],
 
 	head: [
 		[ 'link', { rel: 'apple-touch-icon', sizes: "180x180", href: '/assets/favicon/apple-touch-icon.png' } ],
