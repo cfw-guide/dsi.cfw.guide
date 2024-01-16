@@ -9,8 +9,9 @@ A letöltésével fogunk kezdeni, illetve más homebrew eszköz(ök) letöltés�
 ## Követelmények
 
 - Egy mód arra, hogy a letöltött fájlokat az SD kártyádra másold
-- Egy alkalmazás, ami ki tud tömöríteni csomagolt állományokat, mint például a[7-Zip](https://www.7-zip.org/) (Windows) vagy a [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
-   - Azt tanácsoljuk, hogy ne használj WinRAR-t, mert ismert arról, hogy elront dolgokat
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+    - Azt tanácsoljuk, hogy ne használj WinRAR-t, mert ismert arról, hogy elront dolgokat
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
 
 ## I. rész - Előkészületek
 

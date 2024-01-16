@@ -9,8 +9,9 @@ Comenzaremos descargándolo, junto con otra(s) herramienta(s) homebrew, a modo d
 ## Requisitos
 
 - Una forma de copiar archivos a tu tarjeta SD
-- Una aplicación que te permita extraer archivos, como [7-Zip](https://www.7-zip.org/) (en Windows y Linux) o [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (en macOS)
-   - Se recomienda evitar el uso de WinRAR, ya que usualmente arruina el proceso
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+    - Se recomienda evitar el uso de WinRAR, ya que usualmente arruina el proceso
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
 
 ## Sección I - Preparación
 

@@ -10,7 +10,7 @@ Esta es una sección adicional para desactivar el comportamiento predeterminado 
 
 1. Inicia el explorador de archivos, puedes hacerlo abriendo cualquier carpeta (como la de tu tarjeta SD), o clicando el ícono en la barra de tareas
 1. Haz clic en la opción "Ver" en la barra superior
-   - Si la opción no está presente, haz clic en el botón `···` en la parte derecha de la barra superior
+    - Si la opción no está presente, haz clic en el botón `···` en la parte derecha de la barra superior
 1. Haz clic o mantén el cursor en el submenú `Mostrar >`
 1. Marca la opción `Extensiones de archivo` ![Captura de pantalla al poner el cursor sobre la casilla "extensiones de nombre de archivo" en Windows 11](/assets/images/windows-11-file-extensions.png)
 

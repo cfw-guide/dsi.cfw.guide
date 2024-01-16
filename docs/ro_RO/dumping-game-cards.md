@@ -19,7 +19,7 @@ Această secțiune este pentru creerea de copii de Carduri de Joc folosind GodMo
 1. Asigură-te că ai introdus cardul de joc în consolă
 1. Selectează opțiunea "NDS GAMECARS" în GodMode9i
 1. Selectează ce vrei să copiezi
-   - Opțiunile "Trimmed" pentru ROM vor crea un fișier mai mic ce va fi salvat pe cardul SD, dar nu vor funcționa cu majoritatea patch-urilor precum ROM hack-uri
+    - Opțiunile "Trimmed" pentru ROM vor crea un fișier mai mic ce va fi salvat pe cardul SD, dar nu vor funcționa cu majoritatea patch-urilor precum ROM hack-uri
 1. Repetă pași 2-4 pentru toate cardurile de joc pe care vrei să le copiezi
 
 ::: tip

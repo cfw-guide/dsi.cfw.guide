@@ -10,7 +10,6 @@ module.exports = {
 	selectLanguageAriaLabel: 'Elegir idioma',
 	toggleDarkMode: 'act./desac. modo oscuro',
 	toggleSidebar: 'act./desac. barra lateral',
-	discordNoticeText: 'Únete al servidor [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) en Discord para obtener soporte y seguir el desarrollo de la guía.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',

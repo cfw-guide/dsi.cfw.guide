@@ -9,8 +9,9 @@ The main homebrew application this guide has you install is **TW**i**L**ight Men
 ## 必要事項
 
 - ダウンロードしたファイルをSDカードへコピーする手段
-- アーカイブを展開するソフト。[7-Zip](https://www.7-zip.org/)（Windows）や[The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353)（macOS）など
-   - WinRARの使用はお勧めしません。ファイルが壊れる恐れがあるためです。
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+    - WinRARの使用はお勧めしません。ファイルが壊れる恐れがあるためです。
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
 
 ## セクション I - 準備
 

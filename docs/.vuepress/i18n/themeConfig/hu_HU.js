@@ -10,7 +10,6 @@ module.exports = {
 	selectLanguageAriaLabel: 'Válassz nyelvet',
 	toggleDarkMode: 'sötét módra váltás',
 	toggleSidebar: 'oldalsáv ki-bekapcsolás',
-	discordNoticeText: 'Csatlakozz a [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discord szerverhez az útmutató fejlesztéséhez és segítségért.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',

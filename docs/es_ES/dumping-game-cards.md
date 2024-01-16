@@ -19,7 +19,7 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 1. Asegúrate de que el cartucho de juego esté insertado en la consola
 1. Selecciona la opción "TARJETA DE JUEGO NDS" en GodMode9i
 1. Selecciona lo que quieras volcar
-   - La opción "Trimmeado" volcará un archivo más pequeño, útil para ahorrar espacio en la tarjeta SD. Estos archivos no funcionarán para la mayoría de parches y romhacks
+    - La opción "Trimmeado" volcará un archivo más pequeño, útil para ahorrar espacio en la tarjeta SD. Estos archivos no funcionarán para la mayoría de parches y romhacks
 1. Repite los pasos 2 a 4 para todos los cartuchos que quieras volcar
 
 ::: tip

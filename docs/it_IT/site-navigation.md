@@ -11,7 +11,6 @@ title: Navigazione Sito
 
 ## Sezione aggiuntive
 - [Setup Scheda SD](sd-card-setup.html)
-- [Lazy DSi Downloader](lazy-dsi-downloader.html)
 - [Estensioni File (Windows)](file-extensions-windows.html)
 - [Dumping delle cartucce di gioco](dumping-game-cards.html)
 - [Backup DSiWare](dsiware-backups.html)

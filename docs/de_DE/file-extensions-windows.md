@@ -10,7 +10,7 @@ Dies ist ein Extraabschnitt zum Deaktivieren vom Standardverhalten von Windows, 
 
 1. Führe den Datei-Explorer aus, indem du ein Verzeichnis, wie beispielsweise das Verzeichnis deiner SD-Karte, öffnest
 1. Click the "View" option on the top bar
-   - If the option is not present, click the `···` button on the rightmost part of the top bar
+    - If the option is not present, click the `···` button on the rightmost part of the top bar
 1. Click or hove your cursor on the `Show >` submenu
 1. Check the option labeled `File name extensions` ![Screenshot of hovering the "File name extensions" checkbox on Windows 11](/assets/images/windows-11-file-extensions.png)
 

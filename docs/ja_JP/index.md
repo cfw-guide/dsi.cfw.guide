@@ -1,9 +1,8 @@
 ---
 home: true
 title: ホーム
-header:
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
@@ -28,13 +27,13 @@ header:
 
 - マジコン不要で、SDカードからDSiソフトの吸出しやチートを実行する
 - Launch any DSiWare from your SD card
-     - This means out-of-region and 3DS-exclusive DSiWare will also work
+    - This means out-of-region and 3DS-exclusive DSiWare will also work
 - DSiの起動時に特定のボタンを押して、DSiウェアやHomebrewアプリを起動する
 - 様々なエミュレータを使用して古いゲームを動かす
 - 互換性のないマジコンを使用する
 - hiyaCFWを使用してNAND（システムデータ領域）をSDカードにリダイレクトする
 - Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+    - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
 - 本体起動時に画像（スプラッシュ画面）を表示する
 - 自作ゲームで遊ぶ
 

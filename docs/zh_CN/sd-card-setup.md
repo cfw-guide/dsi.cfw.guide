@@ -29,8 +29,8 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accept the End User License Agreement to start the download
+    - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+    - Accept the End User License Agreement to start the download
 1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
 1. 选择你的 SD 卡
@@ -43,16 +43,22 @@ This section formats SD cards larger than 32GB to FAT32.
 
 ::: tip
 
+If you have not followed Section I yet, please do so.
+
+:::
+
+::: tip
+
 If your SD card is 32GB or less in capacity, skip to Section III.
 
 :::
 
 1. 下载最新版本的 [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-   - 点击网页上的图片以下载应用程序
+    - 点击网页上的图片以下载应用程序
 1. 使用管理员权限运行 GUIFormat
 1. 选择 SD 卡对应的盘符
 1. Set the `Allocation size unit` to `32768`
-   - 如果这对于您的 SD卡来说太大的话，请将它尽可能设置为最高
+    - 如果这对于您的 SD卡来说太大的话，请将它尽可能设置为最高
 1. 确认 `Quick Format` 复选框已被勾选
 1. 开始格式化进程
 
@@ -60,7 +66,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 
 ### 第三节——检查错误
 1. 转到SD卡的属性窗口
-   - `Windows 文件管理器` -> `此电脑` -> 右键点击你的SD卡 -> `属性`
+    - `Windows 文件管理器` -> `此电脑` -> 右键点击你的SD卡 -> `属性`
 1. 在“工具”选项卡中选择`检查`
 1. 同时检查`"自动修复文件系统错误"`和`"扫描并尝试恢复错误扇区"`
 1. 开始进行检查
@@ -70,8 +76,8 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 ### 第四节 - 检查 SD 卡读/写
 
 1. 下载 [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) 并将其解压到你电脑上任意地方
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-   - 也可以在外部设备上解压它，只要外部设备不是您的 SD 卡
+    - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+    - 也可以在外部设备上解压它，只要外部设备不是您的 SD 卡
 1. 将SD卡插入您的计算机，运行 `h2testw.exe`
 1. 在 h2testw 中选择中文或其他语言
 1. 在“Drive”一行选择你的 SD 卡盘符
@@ -113,13 +119,13 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Take note of the device name. In our example above, it was `mmcblk0p1`
-   - 如果 `RO` 设置为1, 确保锁定开关并没有滑下
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+    - 如果 `RO` 设置为1, 确保锁定开关并没有滑下
+    - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. 按 CTRL + C 键退出菜单
 1. Follow the instructions relevant to your SD card's capacity:
-   - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
       - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-   - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
       - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### 第 二 节 - 使用F3
@@ -127,7 +133,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. 在F3文件夹里启动终端
 1. 输入 `make` 对F3进行打包
 1. 插入并安装SD卡，输入 `./f3write <your sd card mount point>`
-   - 等待处理完毕。 请参阅下面的示例。
+    - 等待处理完毕。 请参阅下面的示例。
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -187,7 +193,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 :::
 
 1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
-   - Accept the End User License Agreement to start the download
+    - Accept the End User License Agreement to start the download
 1. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
 1. Run `SD Card Formatter`
 1. 选择你的 SD 卡
@@ -209,20 +215,20 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 1. 启动"Disk Utility"应用程序
 1. 通过左上角的 `View` 面板，选择 `Show All Devices`
 1. 从侧边栏选择你的SD卡
-   - 确保你选择的是正确的设备, 否则你可能会格式化错误的驱动器
+    - 确保你选择的是正确的设备, 否则你可能会格式化错误的驱动器
 1. 点击顶端的`Erase`
 1. 确保 `Format` 设置为 `MS-DOS (FAT32)`
-   - 在 El Capitan(10.11) 中通过 Catalina (10.15) 选择 `MS-DOS (FAT)`
+    - 在 El Capitan(10.11) 中通过 Catalina (10.15) 选择 `MS-DOS (FAT)`
 1. 确保 `Scheme` 被设置为 `Master Boot Record`
-   - 如果"Scheme"不显示, 点击"Cancel"并确保你选择的不是声音设备
+    - 如果"Scheme"不显示, 点击"Cancel"并确保你选择的不是声音设备
 1. 点击 `Erase`, 再点击 `Close`
 
 #### OS X Yosemite (10.10) 及更早版本
 1. 启动"Disk Utility"应用程序
 1. 从侧边栏选择你的SD卡
-   - 确保你选择的是正确的设备, 否则你可能会格式化错误的驱动器
+    - 确保你选择的是正确的设备, 否则你可能会格式化错误的驱动器
 1. 点击顶部的 `Partition`
-   - 如果"Partition"不显示, 请确保你选择的不是声音设备
+    - 如果"Partition"不显示, 请确保你选择的不是声音设备
 1. 确保`Partition Layout` 被设为 `1 Partition`
 1. 确保 `Format` 设置为 `MS-DOS (FAT)`
 1. 从设置按钮 (分区表下方), 选择`"Master Boot Record"`
@@ -231,9 +237,9 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 ### 第 三 节 - 使用F3键
 1. 打开终端
 1. 输入 `brew install f3`，从brew安装 F3
-   - 如果你没有brew，请根据说明 [brew.sh](https://brew.sh) 安装
+    - 如果你没有brew，请根据说明 [brew.sh](https://brew.sh) 安装
 1. 插入并安装SD卡，输入 `f3write <your sd card mount point>`
-   - 等待处理完毕。 请参阅下面的示例。
+    - 等待处理完毕。 请参阅下面的示例。
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -244,7 +250,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
    Average Writing speed: 4.90 MB/s
    ```
 1. 运行 `f3read <your sd card mount point>`
-   - 等待处理完毕。 请参阅下面的示例。
+    - 等待处理完毕。 请参阅下面的示例。
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten

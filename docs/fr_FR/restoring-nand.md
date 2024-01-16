@@ -30,13 +30,13 @@ La seule chose que vous devriez faire avec votre NAND est d'installer Unlaunch. 
 - La dernière version de [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Un moyen d'exécuter des homebrews avec un accès à la NAND, comme Unlaunch ou Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), pour vérifier votre sauvegarde de la NAND (téléchargez la « Windows gaming version »)
-   - Les utilisateurs de macOS et Linux peuvent utiliser [WINE](https://winehq.org) pour exécuter no$gba
+    - Les utilisateurs de macOS et Linux peuvent utiliser [WINE](https://winehq.org) pour exécuter no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Dumping du BIOS pour une utilisation sur no$gba
 1. Extrayez `dsibiosdumper.nds` depuis l'archive `dsibiosdumper.zip` et placez-le n'importe où sur votre carte SD
 2. Allumez votre console en maintenant <kbd class="face">A</kbd> et <kbd class="face">B</kbd>
-   - Cela devrait lancer le menu Fichier d'Unlaunch
+    - Cela devrait lancer le menu Fichier d'Unlaunch
 3. Lancez dsibiosdumper depuis le menu Fichier d'Unlaunch
 4. Appuyez sur <kbd class="face">A</kbd> pour dumper le BIOS sur la carte SD
 5. Appuyez sur <kbd>START</kbd> pour quitter dsibiosdumper
@@ -60,7 +60,7 @@ Suivez ceci si vous avez dumpé votre sauvegarde NAND après avoir installé Unl
 1. Téléchargez la dernière version de l'[installateur d'Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Extrayez `UNLAUNCH.DSI` de `unlaunch.zip`
 1. Lancez `UNLAUNCH.DSI` dans no$gba et démarrez-le depuis l'emplacement de la carte de jeu
-   - Cela devrait démarrer le programme d'installation d'Unlaunch, qui ressemble au menu Fichier d'Unlaunch
+    - Cela devrait démarrer le programme d'installation d'Unlaunch, qui ressemble au menu Fichier d'Unlaunch
 1. Choisissez `Uninstall`
 1. Une fois terminé, choisissez `Power down`
 1. Lancez à nouveau n'importe quelle ROM Nintendo DS et assurez-vous que votre menu DSi se charge et fonctionne correctement

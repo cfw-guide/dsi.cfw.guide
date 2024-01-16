@@ -29,8 +29,8 @@ Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. K
 :::
 
 1. Töltsd le az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) legfrissebb verzióját
-   - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)-ról
-   - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
+    - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)-ról
+    - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
 1. Futtasd az `SD Card Formatter Setup`-ot (az `.exe` fájlt) a letöltött `.zip` fájlból rendszergazda joggal a program telepítéséhez
 1. Futtasd az `SD Card Formatter`-t a Start menüből rendszergazda joggal
 1. Válaszd ki az SD kártyád
@@ -43,16 +43,22 @@ Ez a rész 32 GB-nál nagyobb kártyák FAT32-re formázását írja le.
 
 ::: tip
 
+If you have not followed Section I yet, please do so.
+
+:::
+
+::: tip
+
 Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez
 
 :::
 
 1. Töltsd le a [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) legfrissebb kiadását
-   - Kattints a képre a weboldalon, hogy letöltsd az appot
+    - Kattints a képre a weboldalon, hogy letöltsd az appot
 1. Futtasd a GUIFormat-ot Adminisztrátor joggal
 1. Válaszd ki az SD kártyád betűjelét
 1. Állítsd be az `Allocation size unit`-ot `32768`-ra
-   - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
+    - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
 1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
 1. Indíts el a formázást
 
@@ -60,7 +66,7 @@ Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez
 
 ### III. rész - Ellenőrzés hibákra
 1. Menj a tulajdonságaihoz az SD kártyádnak
-   - `Windows Explorer` -> `Ez a gép` -> Jobb kattintás az SD kártyádon -> `Tulajdonságok`
+    - `Windows Explorer` -> `Ez a gép` -> Jobb kattintás az SD kártyádon -> `Tulajdonságok`
 1. Az eszközök fülön válaszd az `Ellenőrzés most` opciót
 1. Válaszd ki `Fájl rendszer hibák automatikus javítása` és `Hibás szektorok kereséses és javítása` opciókat egyaránt
 1. Indítsd el az ellenőrzési folyamatot
@@ -70,8 +76,8 @@ Ez ellenőrizni fogja az SD kártyádat és kijavít minden hibát, amit talál.
 ### IV. rész - Az SD kártya írás/olvasás ellenőrzése
 
 1. Töltsd le és csomagold ki [the h2testw archívot](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) bárhova a számítógépeden
-   - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)-ról
-   - Külső eszközre is kicsomagolhatod, amíg az a külső eszköz nem az SD kártyád
+    - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)-ról
+    - Külső eszközre is kicsomagolhatod, amíg az a külső eszköz nem az SD kártyád
 1. Az SD kártyád legyen beillesztve a gépbe, majd futtasd a `h2testw.exe` fájlt
 1. Válaszd ki milyen nyelven szeretnéd a h2testw-t látni
 1. Válaszd ki az SD kártyád betűjelét, mint célt
@@ -113,13 +119,13 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Jegyezd fel az eszköz nevét. A fenti példában ez `mmcblk0p1` volt
-   - + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
-   - Legyél biztos benne, hogy a megcélzott **partíció**, az `mmcblk0p1` nem pedig az `mmcblk0`
+    - + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
+    - Legyél biztos benne, hogy a megcélzott **partíció**, az `mmcblk0p1` nem pedig az `mmcblk0`
 1. Nyomj CTRL + C-t a menüből kilépéshez
 1. Kövesd az SD kártyád kapacitásának megfelelő lépéseket:
-   - - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`
+    - - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`
       - Ez létrehoz egy FAT16 partíciót 32 KB cluster mérettel az SD kártyán
-   - - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
+    - - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
       - Ez létrehoz egy FAT32 partíciót 32 KB cluster mérettel az SD kártyán
 
 ### II. rész - Az F3 használata
@@ -127,7 +133,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Indítsd el a terminált az F3 könyvtárában
 1. Futtasd a `make`-et az F3 fordításához
 1. Bedugott és csatolt SD kártya mellett futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-   - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
+    - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -187,7 +193,7 @@ Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. K
 :::
 
 1. Töltsd le az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/) legfrissebb verzióját
-   - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
+    - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
 1. Futtasd az `Install SD Card Formatter Setup`-ot (az `.mpkg` fájlt) a letöltött `.zip` fájlból
 1. Futtasd az `SD Card Formatter`-t
 1. Válaszd ki az SD kártyád
@@ -209,20 +215,20 @@ Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
 1. Indítsd el a Disk Utility alkalmazást
 1. Válaszd a `Show All Devices` opciót a bal felső `View` panelen
 1. Válaszd ki az SD kártyád az oldalpanelen
-   - Legyél biztos abban, hogy a jó meghajtót választod, egyébként rossz merevlemezt törölhetsz!
+    - Legyél biztos abban, hogy a jó meghajtót választod, egyébként rossz merevlemezt törölhetsz!
 1. Kattints az `Erase`-re felül
 1. Ellenőrizd, hogy a `Format` beállítása `MS-DOS (FAT32)`
-   - El Capitan (10.11)-tól Catalina (10.15)-ig válaszd az `MS-DOS (FAT)` opciót
+    - El Capitan (10.11)-tól Catalina (10.15)-ig válaszd az `MS-DOS (FAT)` opciót
 1. Ellenőrizd, hogy a `Scheme` beállítása `Master Boot Record`
-   - Ha a `Scheme` nem jelenik meg, nyomj `Cancel`-t és ellenőrizd, hogy az eszközt választottad-e ki egy kötet helyett
+    - Ha a `Scheme` nem jelenik meg, nyomj `Cancel`-t és ellenőrizd, hogy az eszközt választottad-e ki egy kötet helyett
 1. Kattints az `Erase`-re, majd a `Close`-ra
 
 #### OS X Yosemite (10.10) és korábbi
 1. Indítsd el a Disk Utility alkalmazást
 1. Válaszd ki az SD kártyád az oldalpanelen
-   - Legyél biztos abban, hogy a jó meghajtót választod, egyébként rossz merevlemezt törölhetsz!
+    - Legyél biztos abban, hogy a jó meghajtót választod, egyébként rossz merevlemezt törölhetsz!
 1. Kattints az `Partition`-re felül
-   - Ha a `Partition` nem jelenik meg, ellenőrizd, hogy az eszközt választottad-e ki egy kötet helyett
+    - Ha a `Partition` nem jelenik meg, ellenőrizd, hogy az eszközt választottad-e ki egy kötet helyett
 1. Ellenőrizd, hogy a `Partition Layout` beállított `1 Partition`-re
 1. Ellenőrizd, hogy a `Format` beállítása `MS-DOS (FAT)`
 1. Az Options gombnál (a partíciós tábla alatt), válaszd a `Master Boot Record` opciót.
@@ -231,9 +237,9 @@ Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
 ### III. rész - Az F3 használata
 1. Nyisd meg a terminált
 1. Telepítsd az F3-t a brew-ból a `brew install f3` futtatásával
-   - Ha nincs brew-od, telepítsd azt a [brew.sh](https://brew.sh) instrukciókkal
+    - Ha nincs brew-od, telepítsd azt a [brew.sh](https://brew.sh) instrukciókkal
 1. Bedugott és csatolt SD kártya mellett futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-   - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
+    - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -244,7 +250,7 @@ Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
    Average Writing speed: 4.90 MB/s
    ```
 1. Futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-   - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
+    - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten

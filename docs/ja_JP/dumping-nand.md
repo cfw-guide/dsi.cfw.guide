@@ -32,12 +32,12 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 1. `dumpTool`をTWiLight Menu++から起動します
 1. NANDのバックアップを開始するには、DSiの<kbd class="face">A</kbd>ボタンを押します
-   - NANDバックアップは通常約7分かかります
+    - NANDバックアップは通常約7分かかります
 1. NANDバックアップが完了したら、<kbd>START</kbd>ボタンを押してdumpToolを終了します
 1. 本体の電源を切ってSDカードをパソコンなどに挿入します
 1. このバックアップを、安全で、失くす心配のない場所に保管します
-   - 可能であれば、異なるストレージ機器に複数のバックアップを作成します
-   - 他の場所にバックアップできたら、SDカードからは消してOKです
+    - 可能であれば、異なるストレージ機器に複数のバックアップを作成します
+    - 他の場所にバックアップできたら、SDカードからは消してOKです
 
 ::: warning
 

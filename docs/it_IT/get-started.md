@@ -9,8 +9,9 @@ Per prima cosa lo scaricheremo, insieme ad altre applicazione homebrew, in prepa
 ## Requisiti
 
 - Un modo per copiare i file scaricati sulla scheda SD
-- Un'applicazione per l'estrazione di archivi, come [7-Zip](https://www.7-zip.org/) (Windows) o [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
-   - Ti consigliamo di non usare WinRAR, perché è noto causare problemi
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+    - Ti consigliamo di non usare WinRAR, perché è noto causare problemi
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
 
 ## Sezione I - Preparazione
 

@@ -1,9 +1,8 @@
 ---
 home: true
 title: DSi Útmutató
-header:
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
@@ -28,13 +27,13 @@ Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, független
 
 - Futtathatsz Nintendo DS(i) játék mentéseket és ROM hackeket a DSi-d SD kártyájáról, a nélkül, hogy flashcard-ra lenne szükséged
 - Indíts bármilyen DSiWare-t az SD kártyádról
-     - Ez azt jelenti, hogy a régiónk ívüli és 3DS-exklúzív DSiWare is működni fog
+    - Ez azt jelenti, hogy a régiónk ívüli és 3DS-exklúzív DSiWare is működni fog
 - Bebootolhatsz DSiWare és homebrew alkalmazásokba a megfelelő gombok nyomva tartásával a Nintendo DSi bekapcsolásakor
 - Régi idők klasszikusait futtathatod különböző emulátorokkal
 - Használhatsz alaphelyzetben inkompatibilis flashcard-okat
 - Átirányíthatod a NAND-ot SD kártyára hiyaCFW-vel
 - Megtekintheted a kedvenc filmjeidet vagy a FastVideoDSPlayer vagy a tuna-viDS használatával
-     - A FastVideoDSEncoder-nek olyan CPU-ra van szüksége, amely támogatja az AVX2-t (az új CPU-k valószínűleg támogatják)
+    - A FastVideoDSEncoder-nek olyan CPU-ra van szüksége, amely támogatja az AVX2-t (az új CPU-k valószínűleg támogatják)
 - Megjeleníthetsz egy képet (amire boot képernyőként hivatkozunk) a rendszer indulásakor
 - Játszhatsz homebrew játékokat
 

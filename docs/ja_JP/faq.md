@@ -24,7 +24,7 @@ Unlaunchは全体的に最良のDSiエクスプロイトです。唯一の欠点
 - HomebrewではSlot-1（DSゲームカード）へのアクセス不能
 - DSPへのアクセスが不能で、結果としてGBARunner2の音質が悪化
 - Memory Pitがインストールされている間は、SDカード上の写真がDSiカメラアプリで表示できない（エクスプロイトのトリガーであるため）
-     - Memory PitがインストールされているときにSDカードの写真を見る唯一の方法は、**TW**i**L**ight Menu++でＤＳｉカメラアプリを吸い出して（v0.61.3以降の）nds-bootstrapから起動することです
+    - Memory PitがインストールされているときにSDカードの写真を見る唯一の方法は、**TW**i**L**ight Menu++でＤＳｉカメラアプリを吸い出して（v0.61.3以降の）nds-bootstrapから起動することです
 
 ### stylehax
 長所
@@ -54,8 +54,8 @@ Unlaunchは全体的に最良のDSiエクスプロイトです。唯一の欠点
 長所
 - 本体起動時にHomebrewやDSiウェアを直ちに読み込み可能。また任意のショートカットキーを指定可能
 - システムへの無制限なフルアクセス
-   - Slot-1にアクセスしてゲームカードの吸出し、互換性のないマジコンの読込みが可能
-   - GBARunner2での音質が良い
+    - Slot-1にアクセスしてゲームカードの吸出し、互換性のないマジコンの読込みが可能
+    - GBARunner2での音質が良い
 - DSi対応・専用ソフトのリージョンロックを解除可能
 - 起こりうるDSiブリックに対する保護機能
 - ドナーROMを使わずにDSi対応ゲームをDSiモードで起動可能
@@ -69,21 +69,21 @@ Unlaunchは全体的に最良のDSiエクスプロイトです。唯一の欠点
 ## システムを改造することで、失われる機能はありますか？
 Unlaunchをインストールしても、Flipnote Lennyを使用しても、何ら機能は失われません。 Memory Pitを使用すると、DSiカメラを使ってSDカード上の写真を閲覧できなくなります。**TW**i**L**ight Menu++を使用してnds-bootstrap経由でDSiカメラアプリのROMダンプを起動するというのが閲覧する唯一の方法です。
 - DSiメニューからカメラアプリを起動したときにSDカードの写真閲覧機能を取り戻すには、Unlaunchをインストールするか別のエクスプロイトに切り替えるかして、その後Memory Pitの`pit.bin`ファイルを消去します
-  - `tip.bin`が同じフォルダに存在する場合、`pit.bin`に名前を戻します
+    - `tip.bin`が同じフォルダに存在する場合、`pit.bin`に名前を戻します
 
 ## 吸い出したDSソフトはどうやってプレイできますか？
 吸い出したDSソフトで遊ぶには、マジコンもしくはnds-bootstrap（Slot-1の読み書きをリダイレクトすることで、内部SDカードからゲームをプレイ可能にするプログラム）の使用が必要です。
 - TWiLight Menu++を使えば、SDカード内のROMをnds-bootstrapでプレイすることができます。 TWiLight Menu++を使用する利点は、チートメニューが使えること、ゲームごとに設定を変更できること、フォワーダ（下記リンク参照）による制限を回避できることです。 つまり、ROMファイルを適当に配置するだけで、事前準備なしでプレイできます。 39タイトルという制約（後述）もなく、hiyaCFWやUnlaunchも必要なく、利用できるSDカードの（空き）容量制限もありません
 - hiyaCFWユーザならDS-Homebrew Wikiの[DSゲームフォワーダ](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card)ガイドを参考に、SD NAND DSiメニュー用のフォワーダを作成できますが、いくつか制限があります。 39タイトルまでの厳しい制限があり、作成自体がTWiLight Menu++を使うよりも不便です。
-   - hiyaCFWを持ってないがフォワーダを使用したい場合は、DS-Homebrew Wikiの[hiyaCFWインストールガイド](https://wiki.ds-homebrew.com/hiyacfw/installing)に従ってください
+    - hiyaCFWを持ってないがフォワーダを使用したい場合は、DS-Homebrew Wikiの[hiyaCFWインストールガイド](https://wiki.ds-homebrew.com/hiyacfw/installing)に従ってください
 
 ## Homebrewを更新するにはどうすればいいですか？
 - **Unlaunch**―[Unlaunchのインストール](installing-unlaunch.html)ページの手順に従ってください
-   - 更新前にアンインストールする必要は**ありません**
+    - 更新前にアンインストールする必要は**ありません**
 - **hiyaCFW**―SDカードのルートにある`hiya.dsi`を[更新されたリリース](https://github.com/RocketRobz/hiyaCFW/releases)で置き換えてください
 - **TWiLight Menu++**―[DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)の指示に従ってください
 - **nds-bootstrap**―SDカードのルートにある`_nds`フォルダに、`nds-bootstrap-hb-release.nds`と`nds-bootstrap-release.nds`をコピーしてください
-   - TWiLight Menu++を使用している場合は、すでに最新のnds-bootstrapが含まれている可能性が高いです
+    - TWiLight Menu++を使用している場合は、すでに最新のnds-bootstrapが含まれている可能性が高いです
 - **GodMode9i, dumpTool, Forwarder3-DS, etc**―ダウンロード時の手順に従ってください
 
 他のHomebrewはそれぞれのやり方で更新できます。
@@ -105,11 +105,17 @@ Unlaunchをインストールしても、Flipnote Lennyを使用しても、何�
 hiyaCFWはあまり機能的な役目を果たさず、多くのユーザにとって問題・混乱の種となるガイドでした。 そのため[DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing)に移動しました。
 - 他のガイドからそのページに誘導された場合、おそらく古いガイドを参考にしてしまったのでしょう。 代わりにこのガイドを使用してください。こちらはプロジェクト開発者によって絶えず維持されています
 
+## What happened with Lazy DSi Downloader? How do I install CFW without it?
+Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+
+To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+
 ## どんな種類のSDカードを使うべきですか？
 - 信頼できるブランドからSDカードを購入しましょう
 - フルサイズのSDカードまたはmicroSDカード（アダプター併用）はどちらでも使用できます
 - 1GB以上2TB以下のどんな容量でもいけます。 一般的な使い方では、8GBで十分です
-  - hiyaCFWなどの一部のソフトウェアでは、SDカードの容量が大きいほどロード時間が長くなることがあります
+    - hiyaCFWなどの一部のソフトウェアでは、SDカードの容量が大きいほどロード時間が長くなることがあります
 - スピードクラス8以上をお勧めします
 
 ## 他の本体で同じDSiのSDカードを使用できますか？

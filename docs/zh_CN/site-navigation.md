@@ -11,7 +11,6 @@ title: 网站导航
 
 ## 附加部分
 - [SD 卡设置](sd-card-setup.html)
-- [Lazy DSi File Downloader（DSi懒人下载包）](lazy-dsi-downloader.html)
 - [文件扩展名 (Windows)](file-extensions-windows.html)
 - [Dumping Game Cards](dumping-game-cards.html)
 - [DSiware备份](dsiware-backups.html)

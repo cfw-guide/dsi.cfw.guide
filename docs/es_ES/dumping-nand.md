@@ -32,12 +32,12 @@ Si ya has descargado dumpTool desde otra sección de esta guía, puedes saltarte
 
 1. Inicia `dumpTool` desde TWiLight Menu++
 1. Presiona el botón <kbd class="face">A</kbd> de la Nintendo DSi para empazar a volcar la NAND
-   - Hacer un respaldo de la NAND usualmente toma al rededor de 7 minutos
+    - Hacer un respaldo de la NAND usualmente toma al rededor de 7 minutos
 1. Cuando el respaldo esté completo, presiona el botón <kbd>START</kbd> de tu consola para salir de dumpTool
 1. Apaga la consola e introduce la tarjeta SD en tu dispositivo
 1. Guarda este respaldo en un lugar seguro, donde no puedas perderlo
-   - De ser posible, haz multiples copias y almacénalas en dispositivos distintos
-   - Cuando lo hayas guardado en otro lugar, puedes borrarlo de la tarjeta SD
+    - De ser posible, haz multiples copias y almacénalas en dispositivos distintos
+    - Cuando lo hayas guardado en otro lugar, puedes borrarlo de la tarjeta SD
 
 ::: advertencia
 

@@ -25,6 +25,6 @@ Unlaunchを削除するとき、本体上でUnlaunch付属のアンインスト�
 
 :::
 
-上記の情報を確認し終えたら、まず[NANDのバックアップ](dumping-nand.html)の手順を完了して新しくバックアップを取ります。それから[NANDバックアップの復元](restoring-nand.html)に進みます。 これにより、NANDバックアップからUnlaunchをアンインストールし、本体に書き込むことができます。
+Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). これにより、NANDバックアップからUnlaunchをアンインストールし、本体に書き込むことができます。
 
 no$gbaを使用できない場合や、no$gbaでUnlaunchをアンインストール後にエラーが発生した場合は、Unlaunchインストール以前のNANDバックアップをフラッシュすることも可能です。しかし、以前Unlaunch含んでいたNANDバックアップをまず使ってみるのをお勧めします。 UnlaunchはアンインストールされてもNANDにno$gbaフッターを埋め込んだままなので、上記操作によって、Hardmodが必要となるブリックの場合も修復が格段に簡単になるためです。

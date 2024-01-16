@@ -10,7 +10,6 @@ module.exports = {
 	selectLanguageAriaLabel: '选择语言',
 	toggleDarkMode: '切换暗色主题',
 	toggleSidebar: '切换侧边栏',
-	discordNoticeText: '加入 [DS⁽ⁱ⁾ 模式破解!](https://discord.gg/yD3spjv) Discord ，为本指南贡献力量。',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',

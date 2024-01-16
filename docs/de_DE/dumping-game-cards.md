@@ -19,7 +19,7 @@ Dieser Abschnitt ist zum dumpen von Spielkarten mit GodMode9i, damit sie mit Emu
 1. Stelle sicher, dass die Spielkarte sich in der Konsole befindet
 1. Wähle die "NDS GAMECARD" option in GodMode9i
 1. Wähle aus, was du dumpen willst
-   - Die "Trimmed" Version für die ROM wird eine kleinere Datei dumpen, die SD-Kartenplatz sparen kann, wird aber für die meisten Patches wie ROM Hacks nicht funktionieren
+    - Die "Trimmed" Version für die ROM wird eine kleinere Datei dumpen, die SD-Kartenplatz sparen kann, wird aber für die meisten Patches wie ROM Hacks nicht funktionieren
 1. Wiederhole Schritt 2-4 für alle Spielkarten die du dumpen willst
 
 ::: tip

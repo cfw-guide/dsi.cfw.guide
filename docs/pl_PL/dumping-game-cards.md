@@ -19,7 +19,7 @@ Ta sekcja służy do zrzucania kart z grami przy użyciu GodMode9i, aby można j
 1. Ensure the Game Card is inserted into the console
 1. Select the "NDS GAMECARD" option in GodMode9i
 1. Select what you want to dump
-   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
+    - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
 1. Repeat steps 2-4 for all Game Cards you wish to dump
 
 ::: tip

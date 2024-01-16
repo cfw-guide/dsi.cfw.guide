@@ -32,12 +32,12 @@ Jeśli już pobrałeś narzędzie dumpTool z innej sekcji tego poradnika, możes
 
 1. Uruchom `dumpTool` przez TWiLight Menu++
 1. Naciśnij przycisk <kbd class="face">A</kbd> na swoim Nintendo DSi, aby zacząć zrzucać swój NAND
-   - Kopia zapasowa NAND zajmuje zazwyczaj około 7 minut
+    - Kopia zapasowa NAND zajmuje zazwyczaj około 7 minut
 1. Kiedy kopiowanie NAND zostanie zakończona, naciśnij przycisk <kbd>START</kbd> na swoim Nintendo DSi, aby wyjść z dumpTool
 1. Wyłącz konsolę i włóż kartę SD z powrotem do komputera
 1. Przechowuj tę kopię w bezpiecznym miejscu, gdzie jej nie stracisz
-   - Jeśli to możliwe, utwórz wiele kopii zapasowych na różnych urządzeniach pamięci masowej
-   - Po wykonaniu kopii zapasowej w innym miejscu, możesz usunąć ją z karty SD
+    - Jeśli to możliwe, utwórz wiele kopii zapasowych na różnych urządzeniach pamięci masowej
+    - Po wykonaniu kopii zapasowej w innym miejscu, możesz usunąć ją z karty SD
 
 ::: warning
 

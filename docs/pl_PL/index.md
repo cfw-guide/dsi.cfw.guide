@@ -1,9 +1,8 @@
 ---
 home: true
 title: Strona Domowa
-header:
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
@@ -28,13 +27,13 @@ Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezal
 
 - Uruchamiać kopie zapasowe gier Nintendo DS(i) oraz ROM hacki z twojej karty SD bez użycia flashcard'a
 - Uruchamiać dowolne DSiWare z karty SD
-     - Oznacza to, że DSiWare z innych regionów oraz z 3DS'a również będzie działać
+    - Oznacza to, że DSiWare z innych regionów oraz z 3DS'a również będzie działać
 - Uruchamiać aplikacje DSiWare i homebrew trzymając specyficzne przyciski podczas włączania Nintendo DSi
 - Uruchamiać gry retro za pomocą różnych emulatorów
 - Użyj normalnie niekompatybilnych flashcard'ów
 - Utworzyć kopię NAND na karcie SD używając hiyaCFW
 - Oglądać ulubione filmy za pomocą FastVideoDSPlayer albo tuna-viDS
-     - FastVideoDSEncoder wymaga CPU wspierającego AVX2 (nowsze CPU będą go obsługiwać)
+    - FastVideoDSEncoder wymaga CPU wspierającego AVX2 (nowsze CPU będą go obsługiwać)
 - Wyświetlanie obrazu (zwanego boot splash'em) podczas uruchamiania systemu
 - Grać w gry homebrew
 

@@ -9,8 +9,9 @@ We'll begin with downloading it as well as some other homebrew tool(s), in prepa
 ## Wymagania
 
 - A way to copy downloaded files to your SD card
-- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows) or [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
-   - We advise you to not use WinRAR, as it is known to break things
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+    - We advise you to not use WinRAR, as it is known to break things
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
 
 ## Section I - Prep Work
 

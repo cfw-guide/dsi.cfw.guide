@@ -30,13 +30,13 @@ Az egyetlen dolog, amit a NAND-oddal kell tenned az az Unlaunch telepítése. Ha
 - A [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds) legutolsó kiadása
 - Egy mód arra, hogy homebrew-ot futtass NAND hozzáféréssel, mint az Unlaunch vagy a Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), a NAND mentésed ellenőrzéséhez (Töltsd le a 'Windows gaming version'-t)
-   - macOS és Linux felhasználók használhatják a [WINE](https://winehq.org)-t a no$gba futtatásához
+    - macOS és Linux felhasználók használhatják a [WINE](https://winehq.org)-t a no$gba futtatásához
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## A BIOS dumpolása a no$gba-ban történő használathoz
 1. Csomagold ki az `dsibiosdumper.nds`-t az `dsibiosdumper.zip` archívból és rakd valahova az SD kártyádon
 2. Kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
-   - Ez el kell indítsa az Unlaunch Filemenu-t
+    - Ez el kell indítsa az Unlaunch Filemenu-t
 3. Indítsd el dsibiosdumper-t az Unlaunch Filemenu-ből
 4. Nyomj <kbd class="face">A</kbd> gombot a BIOS SD kártyára dumpolásához
 5. Nyomj <kbd>START</kbd> gombot a dsibiosdumper-ből kilépéshez
@@ -60,7 +60,7 @@ Kövesd ezt, ha a NAND mentésed az után készítetted, hogy telepítetted az U
 1. Töltsd le az [Unlaunch](https://problemkaputt.de/unlaunch.zip) legfrissebb kiadását
 1. Csomagold ki az `UNLAUNCH.DSI`-t az `unlaunch.zip` fájlból
 1. Töltsd be az `UNLAUNCH.DSI`-t a no$gba-ban és indítsd el a Game Card slot-ból
-   - Ez el kell indítsa az Unlaunch telepítőt, ami hasonlóan néz ki, mint az Unlaunch Filemenu
+    - Ez el kell indítsa az Unlaunch telepítőt, ami hasonlóan néz ki, mint az Unlaunch Filemenu
 1. Válaszd az `Uninstall`-t
 1. Ha befejezte, válaszd a `Power down`-t
 1. Tölts be bármilyen Nintendo DS ROM-ot újra és ellenőrizd, hogy a DSi menüd betölts és megfelelően működik

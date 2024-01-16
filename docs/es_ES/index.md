@@ -1,9 +1,8 @@
 ---
 home: true
 title: Inicio
-header:
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
@@ -28,13 +27,13 @@ Las aplicaciones Homebrew pueden ejecutarse de forma gratuita en todas las conso
 
 - Ejecutar ROMs volcadas de juegos para Nintendo DS(i) desde la tarjeta SD de tu consola, sin necesidad de una flashcart
 - Ejecutar cualquier título DSiWare desde tu tarjeta SD
-     - Incluyendo títulos fuera de tu región y títulos DSiWare exclusivos de 3DS
+    - Incluyendo títulos fuera de tu región y títulos DSiWare exclusivos de 3DS
 - Iniciar automáticamente DSiWare y aplicaciones Homebrew al mantener pulsados ciertos botónes mientras enciendes tu consola
 - Ejecutar títulos de consolas clásicas utilizando distintos emuladores
 - Utilizar flashcarts normalmente incompatibles
 - Redirigir tu NAND a la tarjeta SD usando hiyaCFW
 - Ver tus películas favoritas usando FastVideoDSPlayer o tuna-viDS
-     - FastVideoDSEncoder requiere un CPU que soporte AVX2 (es probable que las CPUs más recientes lo soporten)
+    - FastVideoDSEncoder requiere un CPU que soporte AVX2 (es probable que las CPUs más recientes lo soporten)
 - Mostrar una imagen (llamada boot splash) al inciar el sistema
 - Ejecutar aplicaciones y juegos homebrew
 

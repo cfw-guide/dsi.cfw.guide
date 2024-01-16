@@ -30,13 +30,13 @@ La única cosa que deberías hacer con tu NAND es instalar Unlaunch. De cualquie
 - La última versión de [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds).
 - Una forma de ejecutar homebrew con acceso a la NAND, como Unlaunch o Memory Pit.
 - [no$gba](https://problemkaputt.de/gba.htm), para comprobar si tu respaldo de la NAND funciona y está en buen estado. Descarga el archivo cuyo enlace dice "Download no$gba Windows gaming version".
-   - Los usuarios de macOS y Linux puede usar[WINE](https://winehq.org) para ejecutar no$gba.
+    - Los usuarios de macOS y Linux puede usar[WINE](https://winehq.org) para ejecutar no$gba.
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Volcar la BIOS para su uso en no$gba
 1. Extrae `dsibiosdumper.nds` del archivo `dsibiosdumper.zip` y colócalo en cualquier lugar de tu tarjeta SD.
 2. Enciende tu consola manteniendo pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
-   - Esto debería iniciar el sistema de archivos de Unlaunch.
+    - Esto debería iniciar el sistema de archivos de Unlaunch.
 3. Ejecuta dsbiosdumper desde el sistema de archivos de Unlaunch.
 4. Pulsa <kbd class="face">A</kbd> para volcar la BIOS a la tarjeta SD.
 5. Pulsa <kbd>START</kbd> para salir de dsibiosdumper.
@@ -60,7 +60,7 @@ Sigue estos pasos si has volcado tu respaldo de la NAND después de instalar Unl
 1. Descarga la última versión del [instalador de Unlaunch](https://problemkaputt.de/unlaunch.zip).
 1. Extrae el archivo `UNLAUNCH.DSI` del archivo comprimido `unlaunch.zip`.
 1. Ejecuta `UNLAUNCH.DSI` como ROM en no$gba e inícialo desde la ranura para cartuchos.
-   - Esto debería iniciar el instalador, que se ve parecido al sistema de archivos de Unlaunch.
+    - Esto debería iniciar el instalador, que se ve parecido al sistema de archivos de Unlaunch.
 1. Elige la opción `Uninstall`.
 1. Una vez terminado, elige la opción `Power Down`.
 1. Ejecuta cualquier otra ROM de Nintendo DS para segurarte de que el menú carga y funciona correctamente.

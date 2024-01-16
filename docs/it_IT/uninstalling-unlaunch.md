@@ -25,6 +25,6 @@ Per disinstallare Unlaunch, **NON** si dovrebbe utilizzare il suo disinstallator
 
 :::
 
-Dopo aver esaminato le informazioni qui sopra, segui le istruzioni [Effettuare dump della NAND](dumping-nand.html) per fare un nuovo backup della NAND, poi procedi a [Ripristino di un backup della NAND](restoring-nand.html). Ti guiderà attraverso la disinstallazione di Unlaunch dal backup della NAND e al suo flash alla tua console.
+Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Ti guiderà attraverso la disinstallazione di Unlaunch dal backup della NAND e al suo flash alla tua console.
 
 Se non sei in grado di usare no$gba o di ottenere un errore dopo la disinstallazione di Unlaunch in no$gba è anche possibile effettuare un flash del backup della NAND fatto prima dell'installazione di Unlaunch se ne hai ancora uno; tuttavia, si consiglia di provare a utilizzare un backup della NAND che precedentemente aveva Unlaunch prima. Questo renderà il recupero significativamente più facile nel caso di un brick che richiede un hardmod poiché Unlaunch lascia il footer no$gba incorporato nella NAND anche quando disinstallato.

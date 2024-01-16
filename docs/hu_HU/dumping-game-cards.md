@@ -19,7 +19,7 @@ Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszh
 1. Biztosítsd, hogy a játékkártya csatlakoztatott legyen a konzolra
 1. Válaszd az "NDS JÁTÉKKÁRTYA" opciót a GodMode9i-ben
 1. Válaszd ki amit dumpolni akarsz
-   - A "Vágott" opciók a ROM-okhoz kisebb fájlt dumpolnak, ami SD kártya helyet takart meg, de nem fognak működni a legtöbb patch-el, mint példul a ROM hack-ek
+    - A "Vágott" opciók a ROM-okhoz kisebb fájlt dumpolnak, ami SD kártya helyet takart meg, de nem fognak működni a legtöbb patch-el, mint példul a ROM hack-ek
 1. Ismételd meg a 2-4. lépéseket minden játék kártyára, amit szeretnél dumpolni
 
 ::: tip

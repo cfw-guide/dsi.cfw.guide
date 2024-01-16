@@ -32,12 +32,12 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 1. Starte `dumpTool` mithilfe von TWiLight Menu++
 1. Drücke die <kbd class="face">A</kbd> Taste auf deinem DSi um den NAND-Dump zu starten
-   - Ein NAND-Backup dauert in der Regel um die 7 Minuten
+    - Ein NAND-Backup dauert in der Regel um die 7 Minuten
 1. Sobald das NAND-Backup fertig ist, drücke <kbd>START</kbd> auf deinem DSi um `dumpTool` zu verlassen
 1. Schalte die Konsole aus und schiebe die SD-Karte zurück in den Computer
 1. Verschiebe das Nand-Backup an einen Ort, wo es nicht verloren geht
-   - Wenn möglich, mache eine Kopie/backup vom Nand-Backup auf verschiedenen Geräten
-   - Erst wenn das NAND-Backup auf einem anderen Gerät gespeichert wurde, kann man es von der SD-Karte löschen
+    - Wenn möglich, mache eine Kopie/backup vom Nand-Backup auf verschiedenen Geräten
+    - Erst wenn das NAND-Backup auf einem anderen Gerät gespeichert wurde, kann man es von der SD-Karte löschen
 
 ::: warning
 

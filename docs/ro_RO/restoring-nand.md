@@ -30,13 +30,13 @@ Singurul lucru pe care trebuie să-l faci cu NNAD-ul tău este să instalezi Unl
 - Ultima versiune a [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Un mod prin care să rulezi homebrew cu acces la NAND, precum Unlaunch sau Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), pentru a-ți examina copia NAND (Descarcă versiunea 'Windows gaming version')
-   - Utilizatorii de macOS și Linux pot folosi [WINE](https://winehq.org) pentru a rula no$gba
+    - Utilizatorii de macOS și Linux pot folosi [WINE](https://winehq.org) pentru a rula no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Crearea unei copii BIOS pentru a o folosi în no$gba
 1. Extrage `dsibiosdumper` din arhiva `dsibiosdumper.zip` și plaseaz=o oriunde pe cardul SD
 2. Pornește-ți consola în timp ce ții apăsat pe <kbd class="face">A</kbd> și <kbd class="face">B</kbd>
-   - Aceasta ar trebui să lanseze Meniul de Fișiere Unlaunch
+    - Aceasta ar trebui să lanseze Meniul de Fișiere Unlaunch
 3. Lansează dsibiosdumper din Meniul de Fișiere Unlaunch
 4. Apasă <kbd class="face">A</kbd>pentru a crea o copie BIOS pe cardul SD
 5. Apasă <kbd>START</kbd> pentru a ieși din dsibiosdumper
@@ -60,7 +60,7 @@ Urmează acești pași dacă ai creat o copie a NAND-ului după ce ai instalat U
 1. Descarcă ultima versiune a [instalatorului Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Extrage `UNLAUNCH.DSI` din `unlaunch.zip`
 1. Lansează `UNLAUNCH.DSI` în no$gba și pornește-l din slotul Cardului de Joc
-   - Acesta ar trebui să pornească instalatorul Unlaunch, care arată similar cu Meniul de Fișiere Unlaunch
+    - Acesta ar trebui să pornească instalatorul Unlaunch, care arată similar cu Meniul de Fișiere Unlaunch
 1. Alege `Uninstall`
 1. Odată finalizat, alege `Power down`
 1. Lansează orice ROM Nintendo DS din nou, și asigură-te că meniul DSi se încarcă și funcționează corect

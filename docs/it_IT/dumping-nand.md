@@ -32,12 +32,12 @@ Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare
 
 1. Avvia `dumpTool` attraverso TWiLight Menu++
 1. Premi il pulsante <kbd class="face">A</kbd> sul tuo Nintendo DSi per iniziare a creare un backup della NAND
-   - Un backup della NAND richiede in genere circa 7 minuti
+    - Un backup della NAND richiede in genere circa 7 minuti
 1. Quando il backup della NAND è completato, premi il pulsante <kbd>START</kbd> sul tuo Nintendo DSi per uscire da dumpTool
 1. Spegni la console e inserisci la scheda SD nel tuo computer
 1. Salva questo backup in un posto sicuro, dove non lo perderai
-   - Se possibile, effettua molteplici backup su diversi dispositivi di archiviazione
-   - Una volta conservato il backup altrove, lo si può eliminare dalla scheda SD
+    - Se possibile, effettua molteplici backup su diversi dispositivi di archiviazione
+    - Una volta conservato il backup altrove, lo si può eliminare dalla scheda SD
 
 ::: warning
 

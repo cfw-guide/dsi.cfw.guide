@@ -11,7 +11,6 @@ title: Nawigacja stroną
 
 ## Sekcje dodatków
 - [Konfiguracja karty SD](sd-card-setup.html)
-- [Lazy DSi Downloader](lazy-dsi-downloader.html)
 - [Rozszerzenia plików (Windows)](file-extensions-windows.html)
 - [Zrzucanie kart gry](dumping-game-cards.html)
 - [Kopie zapasowe DSiWare](dsiware-backups.html)

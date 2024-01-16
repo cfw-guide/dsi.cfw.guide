@@ -11,7 +11,6 @@ title: サイトマップ
 
 ## 応用ガイド
 - [SDカードのセットアップ](sd-card-setup.html)
-- [Lazy DSi Downloader](lazy-dsi-downloader.html)
 - [ファイル拡張子（Windows）](file-extensions-windows.html)
 - [ゲームカードのダンプ](dumping-game-cards.html)
 - [DSiWareのバックアップ](dsiware-backups.html)

@@ -30,13 +30,13 @@ NANDの操作を必要とする事柄は、Unlaunchのインストールのみ�
 - 最新版の[SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - UnlaunchやMemory Pitなど、NANDアクセス可能なHomebrewを実行する方法
 - NANDバックアップをチェックするための[no$gba](https://problemkaputt.de/gba.htm)（Windows gaming version）
-   - macOS・Linux利用者は[WINE](https://winehq.org)でno$gbaを利用できます
+    - macOS・Linux利用者は[WINE](https://winehq.org)でno$gbaを利用できます
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## no$gbaに使用するBIOSのダンプ
 1. `dsibiosdumper.zip`アーカイブから `dsibiosdumper.nds`を取り出し、SDカード上の任意の場所に配置します
 2. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源を入れます
-   - これはUnlaunchのファイルメニューを開くホットキーです
+    - これはUnlaunchのファイルメニューを開くホットキーです
 3. メニューからdsibiosdumperを起動します
 4. <kbd class="face">A</kbd>を押してBIOSをSDカードにダンプします
 5. <kbd>START</kbd>を押して、dsibiosdumperを終了します
@@ -60,7 +60,7 @@ no$gbaでDSiメニューかUnlaunch Filemenuがロードされた場合は、次
 1. 最新版の[Unlaunch installer](https://problemkaputt.de/unlaunch.zip)をダウンロードします
 1. `UNLAUNCH.DSI`を`unlaunch.zip`から取り出します
 1. `UNLAUNCH.DSI`をno$gbaで起動してゲームカード スロットから開始します
-   - Unlaunch installerが起動します。見た目はUnlaunch Filemenuに似ています
+    - Unlaunch installerが起動します。見た目はUnlaunch Filemenuに似ています
 1. `Uninstall`を選びます
 1. 完了したら`Power down`を選びます
 1. DS ROMを再度起動し、DSiメニューがロードされ正常に動作することを確認します

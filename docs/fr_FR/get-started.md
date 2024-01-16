@@ -9,8 +9,9 @@ Nous commencerons par le télécharger ainsi que d'autres outils homebrew, en pr
 ## Prérequis
 
 - Un moyen de copier les fichiers téléchargés sur votre carte SD
-- Une application capable d'extraire des archives, telle que [7-Zip](https://www.7-zip.org/) (Windows) ou [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS)
-   - Nous vous conseillons de ne pas utiliser WinRAR, car il est connu pour casser les choses
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+    - Nous vous conseillons de ne pas utiliser WinRAR, car il est connu pour casser les choses
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
 
 ## Section I - Travail préparatoire
 

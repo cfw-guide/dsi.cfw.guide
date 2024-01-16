@@ -2,6 +2,12 @@
 title: Unlaunch telepítése
 ---
 
+::: warning
+
+If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
+
+:::
+
 ::: danger
 
 Ha még nem tetted meg, kérjük készíts egy [NAND mentést](dumping-nand.html). Habár az esélyek kicsik, az Unlaunch brickelheti véletlenül a Nintendo DSi-det. Egy NAND mentés + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) lehetővé teszi, hogy helyreállítsd ezt a mentést, ha tudod, hogy hogyan kell forrasztani.
@@ -23,29 +29,29 @@ Az Unlaunch nem kompatibilis a Nintendo DSi fejlesztői konzolokkal.
 ## I. rész - SD kártya telepítés
 
 1. Töltsd le az [Unlaunch](https://problemkaputt.de/unlaunch.zip) legfrissebb kiadását
-   - [Tükör link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), ha a fenti nem működne
+    - [Tükör link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), ha a fenti nem működne
 1. Csomagold ki az `UNLAUNCH.DSI`-t az `unlaunch.zip` archívból és rakd valahova az SD kártyádon
 1. Ellenőrizd, hogy még rajta van a TWiLight Menu++ az SD kártyádon
-   - Ha nem vagy biztos benne, kövesd a [TWiLight Menu++ telepítési útmutatót](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
+    - Ha nem vagy biztos benne, kövesd a [TWiLight Menu++ telepítési útmutatót](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
 
 ## II. rész - Az Unlaunch telepítése/frissítése
 
 1. Indítsd el a TWiLight Menu++-t
-   - Ha ez az első alkalom, hogy telepíted az Unlaunch-öt, indítsd újra a TWiLight Menu++-t [az exploiton keresztül, amit használsz](launching-the-exploit.html)
-   - Ha már telepítetted az Unlaunch-öt és frissíteni szeretnéd, tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, amíg bootolsz és válaszd a `TWiLight Menu++` opciót
-   - Ha több opció neve is `TWiLight Menu++`, válaszd azt az opciót, ahol a `BOOT.NDS` látható az útvonal végén az alsó képernyőn
+    - Ha ez az első alkalom, hogy telepíted az Unlaunch-öt, indítsd újra a TWiLight Menu++-t [az exploiton keresztül, amit használsz](launching-the-exploit.html)
+    - Ha már telepítetted az Unlaunch-öt és frissíteni szeretnéd, tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, amíg bootolsz és válaszd a `TWiLight Menu++` opciót
+    - Ha több opció neve is `TWiLight Menu++`, válaszd azt az opciót, ahol a `BOOT.NDS` látható az útvonal végén az alsó képernyőn
       - Ez azért történik, mert a TWiLight Menu++ régebbi verzióját futtatod, amíg ez nem szándékos ajánlott, hogy [frissítsd a telepítésed](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 1. Indítsd el a TWiLight Menu++ Beállításokat
-   - HA nem cserélted még a témádat, nyomj `SELECT` gombot és éríntsd meg a kis DS ikont az érintő képernyő alján. Egyéként tekintsd meg a TWiLight Menu++ kézikönyvet
+    - HA nem cserélted még a témádat, nyomj `SELECT` gombot és éríntsd meg a kis DS ikont az érintő képernyő alján. Egyéként tekintsd meg a TWiLight Menu++ kézikönyvet
 1. Nyomj <kbd class="l">L</kbd> / <kbd class="r">R</kbd> vagy <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> gombokat, amíg el nem éred az `Unlaunch Beállítások` oldalt
 1. Ha szeretnéd cserélni az Unlaunch hátterét, válaszd a `Háttér` opciót és válaszd ki a neked tetszőt
-   - Ha szeretnél saját Unlaunch hátteret, tekintsd meg a [DS-Homebrew Wiki oldalt](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
+    - Ha szeretnél saját Unlaunch hátteret, tekintsd meg a [DS-Homebrew Wiki oldalt](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. Lépj ki a TWiLight Menu++ Beállításokból
 1. A fájl navigáció menüből indítsd el az `Unlaunch DSi Installer`-t
-   - Ha indítás után két fekete képernyőt látsz tölds le a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t és rakd a .dsi fájlját az SD kártya gyökerébe majd indítsd el a GodMode9i-t a TWiLight Menu++ használatával indítsd el az `Unlaunch.dsi`-t.    
-     Ez a metódus nem teszi lehetővé az Unlaunch-nek az egyedi patch-eket és az egyedi háttér beállítását
+    - Ha indítás után két fekete képernyőt látsz tölds le a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)-t és rakd a .dsi fájlját az SD kártya gyökerébe majd indítsd el a GodMode9i-t a TWiLight Menu++ használatával indítsd el az `Unlaunch.dsi`-t.    
+      Ez a metódus nem teszi lehetővé az Unlaunch-nek az egyedi patch-eket és az egyedi háttér beállítását
 1. Válaszd az "install now" opciót
-   - Ha az Unlaunch lefagy az `ERROR: MISMATCH IN FAT COPIES` üzenetnél, tekintsd meg a [Hibaelhárítás](troubleshooting.html) oldalt
+    - Ha az Unlaunch lefagy az `ERROR: MISMATCH IN FAT COPIES` üzenetnél, tekintsd meg a [Hibaelhárítás](troubleshooting.html) oldalt
 1. Ha végzett, indítsd újra a rendszered
 
 Ha az Unlaunch Filemenu képernyőt látod ezen a ponton, akkor sikeresen moddoltad a Nintendo DSi-det.
@@ -56,14 +62,14 @@ Ha az Unlaunch Filemenu képernyőt látod ezen a ponton, akkor sikeresen moddol
 Jelenleg az Unlaunch alapértelmezésben a Filemenu-t indítja bootoláskor, de ez módosítható bármire, amit szeretnél.
 
 1. Kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
-   - Ez el kell indítsa az Unlaunch Filemenu-t
-   - Ha csak a háttér látszik vagy nem jelenik meg fájl az SD kártyáról (például `TWiLight Menu++`), akkor [újra kell formáznod az SD kártyát](sd-card-setup.html)
+    - Ez el kell indítsa az Unlaunch Filemenu-t
+    - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
 1. Navigálj az `OPTIONS`-höz és nézd meg az elérhető opciókat
-   - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> hardkódolt az Unlaunch menühöz, így az nem cserélhető
-   - A `NO BUTTON` és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t, a Slot-1 kártyát vagy az Unlaunch Filemenu-t
+    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> hardkódolt az Unlaunch menühöz, így az nem cserélhető
+    - A `NO BUTTON` és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t, a Slot-1 kártyát vagy az Unlaunch Filemenu-t
       - A TWiLight Menu++-hoz válasz a `TWiLight Menu++` opciót
       - Az eredeti DSi Menühöz, válaszd a `Launcher`-t
-   - `LOAD ERROR` az, amit a DSi be fog tölteni, amikor amit beállítottál az hibára fut, mert például az SD kártya nem lett beillesztve
+    - `LOAD ERROR` az, amit a DSi be fog tölteni, amikor amit beállítottál az hibára fut, mert például az SD kártya nem lett beillesztve
 1. Válaszd a `SAVE & EXIT` opciót a beállításaid mentéséhez, majd kapcsold ki a DSi konzolod
 
 ## IV. rész - Takarítás az SD kártyán
@@ -79,8 +85,8 @@ Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon n
 ::: tab name="Memory Pit" default
 
 - Töröld az `sd:/private/ds/app/484E494A/pit.bin` fájlt az SD kártyádról
-   - Ha a `tip.bin` még mindig létezik, nevezd vissza azt `pit.bin`-re
-- Most már visszaállíthatod a `DCIM` mappát, ami az SD kártyád göykerében volt, ha volt ilyen
+- Rename `tip.bin` back to `pit.bin`, and leave it intact
+- You can now restore the `DCIM` folder that was on the root of your SD card
 - Töröld az `UNLAUNCH.DSI` fájlt az SD kártyádról
 
 :::
@@ -88,10 +94,10 @@ Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon n
 ::: tab name="Flipnote Lenny"
 
 - Töröld a `800031_104784BAB6B57_000.ppm` és a `T00031_1038C2A757B77_000.ppm` fájlokat a következő mappából:
-   - `sd:/private/ds/app/4B47554A/001` (Japán)
-   - `sd:/private/ds/app/4B475545/001` (USA)
-   - `sd:/private/ds/app/4B475556/001` (Europa/Ausztrália)
-   - Törölheted az összes mappát a saját régiódón kívül is
+    - `sd:/private/ds/app/4B47554A/001` (Japán)
+    - `sd:/private/ds/app/4B475545/001` (USA)
+    - `sd:/private/ds/app/4B475556/001` (Europa/Ausztrália)
+    - Törölheted az összes mappát a saját régiódón kívül is
 - Töröld az `UNLAUNCH.DSI` fájlt az SD kártyádról
 
 :::

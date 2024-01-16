@@ -29,8 +29,8 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 :::
 
 1. Descarcă ultima versiune a [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Acceptă Accordul de Licență cu Utilizatorul pentru a începe descărcarea
+    - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+    - Acceptă Accordul de Licență cu Utilizatorul pentru a începe descărcarea
 1. Rulează `SD Card Formatter Setup` (fișierul `.exe`) în fișierul `.zip` descărcat cu privilegii de Administator, după aceea instalează programul
 1. Rulează `SD Card Formatter` din Meniul de Start cu privilegii de Administrator
 1. Selectează-ți cardul SD
@@ -43,16 +43,22 @@ Această secțiune formatează cardulie SD mai mari de 32GB în FAT32.
 
 ::: tip
 
+If you have not followed Section I yet, please do so.
+
+:::
+
+::: tip
+
 Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
 
 :::
 
 1. Descarcă ultima versiune a [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-   - Apasă pe imaginea de pe site pentru a descărca aplicația
+    - Apasă pe imaginea de pe site pentru a descărca aplicația
 1. Rulează GUIFormat cu permisiuni de Administrator
 1. Selectează litera drive-ului
 1. Set the `Allocation size unit` to `32768`
-   - Dacă este prea mare pentru cardul tău SD, setează-l la cea mai mare valoare care funcționează
+    - Dacă este prea mare pentru cardul tău SD, setează-l la cea mai mare valoare care funcționează
 1. Asigură-te că `Quick Format` este bifat
 1. Începe procesul de formatare
 
@@ -60,7 +66,7 @@ Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
 
 ### Secțiunea III – Căutarea de erori
 1. Mergi la fereastra de proprietăți a cardului SD
-   - `Windows Explorer` -> `Acest PC` -> Apasă click dreapta pe cardul SD -> `Proprietăți`
+    - `Windows Explorer` -> `Acest PC` -> Apasă click dreapta pe cardul SD -> `Proprietăți`
 1. În fila cu unelte, selectează `Verifică Acum`
 1. Bifează `Repară automat erorile sistemului de fișiere` și `Scanează pentru și încearcă recuperarea sectoarelor rele`
 1. Începe procesul de verificare
@@ -70,8 +76,8 @@ Acesta va scana cardul SD și va corecta orice eroare găsită.
 ### Secțiunea IV - Verificarea citirii/scrierii cardului SD
 
 1. Descarcă și extrage [arhiva h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) oriunde pe calculatorul tău
-   - Dacă linkul de mai sus nu funcționează, descarcă [de pe archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
-   - Poate fi extrasă și pe un dispozitiv extern atâta timp cât dispoitivul extern nu este cardul tău SD
+    - Dacă linkul de mai sus nu funcționează, descarcă [de pe archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+    - Poate fi extrasă și pe un dispozitiv extern atâta timp cât dispoitivul extern nu este cardul tău SD
 1. Cu cardul SD introdus în calculatorul tău, rulează `h2testw.exe`
 1. Selectează în ce limbă ai vrea să vezi h2testw
 1. Setează litera cardului SD ca și țintă
@@ -113,13 +119,13 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 1. Take note of the device name. In our example above, it was `mmcblk0p1`
-   - Dacă `RO` este setat la 1, asigură-te că butonul de blocare nu este în jos
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+    - Dacă `RO` este setat la 1, asigură-te că butonul de blocare nu este în jos
+    - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
 1. Apasă CTRL + C pentru a ieși din meniu
 1. Urmează instrucțiunile conform capacității cardului SD:
-   - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+    - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
       - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-   - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+    - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
       - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
 ### Secţiunea II – Utilizarea F3
@@ -127,7 +133,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Lansează terminalul în dosarul F3
 1. Rulează `make` pentru a compila F3
 1. Cu cardul SD introdus și montat, rulează `./f3write <your sd card mount point>`
-   - Așteaptă până procesul s-a încheiat. Vezi mai jos un exemplu de rezultat:
+    - Așteaptă până procesul s-a încheiat. Vezi mai jos un exemplu de rezultat:
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -187,7 +193,7 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 :::
 
 1. Descarcă ultima versiune a [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
-   - Acceptă Accordul de Licență cu Utilizatorul pentru a începe descărcarea
+    - Acceptă Accordul de Licență cu Utilizatorul pentru a începe descărcarea
 1. Rulați `Instalați cardul SD Formatter` (fișierul `.mpkg`) în fișierul descărcat `.zip`
 1. Rulează `SD Card Formatter`
 1. Selectează-ți cardul SD
@@ -209,20 +215,20 @@ Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
 1. Lansează aplicația Disk Utility
 1. Selectează `Show All Devices` în panoul `View` din stânga sus
 1. Selectează cardul SD din bara laterală
-   - Asigură-te că ai ales dispozitivul corect, altfel ai putea șterge din greșeală drive-ul greșit!
+    - Asigură-te că ai ales dispozitivul corect, altfel ai putea șterge din greșeală drive-ul greșit!
 1. Apasă `Erase` în vârf
 1. Asigură-te că `Format` este setat la `MS-DOS (FAT32)`
-   - De la El Capitan (10.11) până la Catalina (10.15) alege `MS-DOS (FAT)`
+    - De la El Capitan (10.11) până la Catalina (10.15) alege `MS-DOS (FAT)`
 1. Asigură-te că `Scheme` este setat la `Master Boot Record`
-   - Dacă `Scheme` nu apare, apasă `Cancel` și asigură-te că ai ales dispozitivul corect în loc de un volum
+    - Dacă `Scheme` nu apare, apasă `Cancel` și asigură-te că ai ales dispozitivul corect în loc de un volum
 1. Apasă `Erase`, apoi apasă `Close`
 
 #### OS X Yosemit (10.10) și anterior
 1. Lansează aplicația Disk Utility
 1. Selectează cardul SD din bara laterală
-   - Asigură-te că ai ales dispozitivul corect, altfel ai putea șterge din greșeală drive-ul greșit!
+    - Asigură-te că ai ales dispozitivul corect, altfel ai putea șterge din greșeală drive-ul greșit!
 1. Apasă `Partition` în vârf
-   - Dacă `Partition` nu apare, asigură-te că ai ales dispozitivul în loc de un volum
+    - Dacă `Partition` nu apare, asigură-te că ai ales dispozitivul în loc de un volum
 1. Asigură-te că `Partition Layout` este setat la `1 Partition`
 1. Asigură-te că `Format` este setat la`MS-DOS (FAT)`
 1. Din butonul de Opțiuni (sub tabelul de partiții), selectează `Master Boot Record`.
@@ -231,9 +237,9 @@ Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
 ### Secțiunea III – Utilizarea F3
 1. Deschide Terminalul
 1. Instalează F3 din brew prin rularea a `brew install f3`
-   - Dacă nu ai brew, instalează-l cu instrucțiunile de pe [brew.sh](https://brew.sh)
+    - Dacă nu ai brew, instalează-l cu instrucțiunile de pe [brew.sh](https://brew.sh)
 1. Cu cardul SD introdus și montat, rulează `f3write <your sd card mount point>`
-   - Așteaptă până procesul s-a încheiat. Vezi mai jos un exemplu de rezultat:
+    - Așteaptă până procesul s-a încheiat. Vezi mai jos un exemplu de rezultat:
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -244,7 +250,7 @@ Dacă ai un card SD mai mic de 32GB, sari la Secțiunea III.
    Average Writing speed: 4.90 MB/s
    ```
 1. Rulează `f3read <your sd card mount point>`
-   - Așteaptă până procesul s-a încheiat. Vezi mai jos un exemplu de rezultat:
+    - Așteaptă până procesul s-a încheiat. Vezi mai jos un exemplu de rezultat:
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten

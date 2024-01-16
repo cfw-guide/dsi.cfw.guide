@@ -19,7 +19,7 @@ Questa sezione riguarda il dumping delle cartucce utilizzando GodMode9i, per usa
 1. Assicurati che la scheda di gioco sia inserita nella console
 1. Seleziona l'opzione "SCHEDA NDS" in GodMode9i
 1. Seleziona i dump da effettuare
-   - Le opzioni "Trimmed" per la ROM scaricheranno un file più piccolo che può salvare lo spazio della scheda SD. tuttavia non funzioneranno per la maggior parte delle patch come le ROM hack
+    - Le opzioni "Trimmed" per la ROM scaricheranno un file più piccolo che può salvare lo spazio della scheda SD. tuttavia non funzioneranno per la maggior parte delle patch come le ROM hack
 1. Ripeti i passaggi 2-4 per tutte le cartucce di cui desideri effettuare un dump
 
 ::: tip

@@ -11,7 +11,6 @@ title: Navigarea Site-ului
 
 ## Secțiuni suplimentare
 - [Setarea Cardului SD](sd-card-setup.html)
-- [Lazy DSi Downloader](lazy-dsi-downloader.html)
 - [Extensii de fișiere (Windows)](file-extensions-windows.html)
 - [Creere backup-uri Carduri de Joc](dumping-game-cards.html)
 - [Backup-uri DSiWare](dsiware-backups.html)

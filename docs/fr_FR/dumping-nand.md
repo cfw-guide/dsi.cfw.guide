@@ -32,12 +32,12 @@ Si vous avez déjà téléchargé dumpTool dans une autre section de ce guide, v
 
 1. Lancez `dumpTool` via TWiLight Menu++
 1. Appuyez sur le bouton <kbd class="face">A</kbd> de votre Nintendo DSi pour commencer à dumper votre NAND
-   - Une sauvegarde de la NAND prend, généralement, 7 minutes environ
+    - Une sauvegarde de la NAND prend, généralement, 7 minutes environ
 1. Lorsque la sauvegarde de la NAND est terminée, pressez le bouton <kbd>START</kbd> de votre Nintendo DSi pour quitter dumpTool
 1. Éteignez votre console et réinsérez votre carte SD dans votre périphérique
 1. Stockez cette sauvegarde dans un endroit sûr, là où vous ne la perdrez pas
-   - Si possible, faites plusieurs sauvegardes sur différents périphériques de stockage
-   - Une fois que vous l'avez sauvegardée ailleurs, vous pouvez la supprimer de la carte SD
+    - Si possible, faites plusieurs sauvegardes sur différents périphériques de stockage
+    - Une fois que vous l'avez sauvegardée ailleurs, vous pouvez la supprimer de la carte SD
 
 ::: warning
 

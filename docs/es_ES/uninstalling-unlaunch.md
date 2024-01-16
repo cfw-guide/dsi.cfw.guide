@@ -25,6 +25,6 @@ Al desinstalar la desinstalación, **NO** debes usar su desinstalador integrado 
 
 :::
 
-Una vez que hayas revisado la información anterior, sigue las instrucciones de [Volcar la NAND](dumping-nand.html) para hacer un nuevo muelle de la NAND, luego proceda a [Restaurar una copia de seguridad de la NAND](restoring-nand.html). Esto te guiará a través de la desinstalación de la desinstalación de la copia de seguridad de la NAND y flashear a tu consola.
+Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Esto te guiará a través de la desinstalación de la desinstalación de la copia de seguridad de la NAND y flashear a tu consola.
 
 Si no puedes usar ningún$gba o obtener un error después de desinstalar Unlaunch en ningún$gba también es posible flashear una copia de seguridad de la NAND hecha antes de instalar Unlaunch si todavía tienes una, Sin embargo, se recomienda intentar usar una copia de seguridad de la NAND que previamente tenía Unlaunch primero. Esto facilitará significativamente la recuperación en el caso de que un bloque requiera un hardmod ya que Unlaunch deja el pie de página no$gba incrustado en la NAND incluso cuando se desinstala.

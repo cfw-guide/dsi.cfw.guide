@@ -24,7 +24,7 @@ Hátrányok:
 - Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt homebrew esetén
 - A hozzáférés a DSP-hez blokkolt, ezért rosszabb a hang a GBARunner2-ben
 - A fényképek az SD kártyán nem megtekinthetők a DSi Camera alkalmazásban, amíg a Memory Pit telepített, mert ez a trigger az exploithoz
-     - Az egyetlen módja, hogy az SD kártyán található fotókat megtekintsd amíg a Memory Pit telepített, hogy elindítod a ROM dumpját a DSi Camera alkalmazásnak **TW**i**L**ight Menu++-szal, hgy bootoljon nds-bootstrap-re (v0.61.3 vagy későbbi)
+    - Az egyetlen módja, hogy az SD kártyán található fotókat megtekintsd amíg a Memory Pit telepített, hogy elindítod a ROM dumpját a DSi Camera alkalmazásnak **TW**i**L**ight Menu++-szal, hgy bootoljon nds-bootstrap-re (v0.61.3 vagy későbbi)
 
 ### stylehax
 Előnyök:
@@ -54,8 +54,8 @@ Hátrányok:
 Előnyök:
 - Lehetővé teszi Allows homebrew és DSiWare azonnali betöltését rendszer bootoláskor, opcionális gyorsgombokkal
 - Teljes hozzáférés a rendszerhez, korlátozások nélkül, beleértve:
-   - Hozzáférés a Slot-1-hez, ami lehetővé teszi a játék kártyák dumpolását és inkompatibilis flashcard-ok betöltését
-   - Jobb hang a GBARunner2-ben
+    - Hozzáférés a Slot-1-hez, ami lehetővé teszi a játék kártyák dumpolását és inkompatibilis flashcard-ok betöltését
+    - Jobb hang a GBARunner2-ben
 - A régió zárakat eltávolítja a DSi-Enchanced/Exkluzív játék kártyák esetében
 - Védelem a legtöbb lehetőség ellen, ami a DSi-t brickelheti
 - DSi-Enhanced játékok futhatnak DSi módban Donor ROM nélkül
@@ -69,21 +69,21 @@ Hátrányok:
 ## Vesztek el funkcionalitást, ha moddolom a rendszerem?
 Ha telepíted az Unlaunch-öt vagy a Flipnote Lenny-t használod, nem vesztesz el funkcionalitást. Ha a Memory Pit-et használod, nem fogsz tudni fotókat megnézni az SD kártyáról a DSi Camera alkalmazással, kivéve ha egy DSi Camera ROM-ot indítasz a**TW**i**L**ight Menu++ használatával, bootoljon be rá az nds-bootstrap használatával.
 - Ahhoz, hogy újra tudjál az SD kártyáról fotókat megtekinteni a DSi Camera indításakor, telepítsd az Unlaunch-öt vagy válts más exploitra és töröld a Memory Pit `pit.bin` fájlját
-  - Ha a `tip.bin` létezik ugyanabban a mappában, nevezd vissza azt `pit.bin`-re
+    - Ha a `tip.bin` létezik ugyanabban a mappában, nevezd vissza azt `pit.bin`-re
 
 ## Hogyan játszhatok Nintendo DS játék kártya dumpokkal?
 A játék kártya dump játékok használatához a konzolnak szüksége van flashcard-ra vagy nds-bootstrap-re, egy programra, ami lehetővé teszi, hogy a belső SD kártyáról játszhatók legyenek a játékok a Slot-1 írás és olvasás átirányításával.
 - A TWiLight Menu++-szal navigálhatsz az SD kártyádon, hogy megtaláld a ROM fájlokat, amiket nds-bootstrap-pel játszhatsz. A TWiLight Menu++ használatának előnye a csalás menü, a játékonkénti beállítások és hogy megkerüli a korlátozásokat, amikkel a forwarder-ek rendelkeznek. Más szavakkal, csak felmásolod a ROM fájlokat és játszhatsz velük bármilyen telepítés nélkül. Nincs 39 cím limit, sem hiyaCFW, sem Unlaunch nem szükséges és nincs korlátozás az SD kártya szabad tárhelyével kapcsolatosan sem
 - A hiyaCFW felhasználók létrehozhatnak forwarder-eket az SDNAND DSi Menu-be a DS-Homebrew Wiki [DS játék forwarder-ek](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) útumutató használatával, de vannak korlátozásai. Van egy 39 címes limit és kevésbé kényelmes beállítani, mint használni a TWiLight Menu++-t
-   - Ha nincs hiyaCFW-d és szeretnél forwarder-eket használni, kövesd a [hiyaCFW telepítési útmutatót](https://wiki.ds-homebrew.com/hiyacfw/installing) a DS-Homebrew Wiki-n
+    - Ha nincs hiyaCFW-d és szeretnél forwarder-eket használni, kövesd a [hiyaCFW telepítési útmutatót](https://wiki.ds-homebrew.com/hiyacfw/installing) a DS-Homebrew Wiki-n
 
 ## Hogyan tudom frissíteni a homebrew appjaim?
 - **Unlaunch** - Kövesd az útmutatót az [Unlaunch telepítése](installing-unlaunch.html) oldalon
-   - **Nem** kell eltávolítanod az Unlaunch-öt mielőtt ezt csinálod
+    - **Nem** kell eltávolítanod az Unlaunch-öt mielőtt ezt csinálod
 - **hiyaCFW** - Cseréld a `hiya.dsi`-t az SD kártyád gyökerében a [legfrissebb kiadásból](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Kövesd a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi) lépéseit
 - **nds-bootstrap** - Másold az `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` fájlokat az `_nds` mappába, az SD kártyád gyökerében
-   - Ha használsz TWiLight Menu++-t, erős rá az esély, hogy a legfrissebb nds-bootstrap kiadás is megtalálható a TWiLight Menu++-ban
+    - Ha használsz TWiLight Menu++-t, erős rá az esély, hogy a legfrissebb nds-bootstrap kiadás is megtalálható a TWiLight Menu++-ban
 - **GodMode9i, dumpTool, Forwarder3-DS, stb.** - Kövesd azokat az útmutatókat ami alapján letöltötted őket
 
 Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre.
@@ -105,11 +105,17 @@ Igen, néhány különböző metódus áll rendelkezésre, attól függően mit 
 Mivel a hiyaCFW nem ad sok funkcionalitást és problémás és zavaró része volt az útmutatónak, átmozgatásra került a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing)-be.
 - Ha linkelve lettél az oldalra egy másik útmutatóból, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutatót helyette, mert folyamatosan karbantartott a projekt fejlesztői által
 
+## What happened with Lazy DSi Downloader? How do I install CFW without it?
+Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+
+To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+
 ## Milyen SD kártyát kell, hogy használjak?
 - Megbízható márkájú SD kártyát kell vásárolnod
 - Egy teljes méretű SD kártya vagy egy microSD kártya adapterrel is megfelelő
 - Bármilyen méret 1 GB és 2 TB között működni fog. Általános használatra 8 GB elég
-  - Néhány szoftver, mint például a hiyaCFW, hosszabb töltési idővel rendelkezhet nagyobb SD kártya kapacitás esetén
+    - Néhány szoftver, mint például a hiyaCFW, hosszabb töltési idővel rendelkezhet nagyobb SD kártya kapacitás esetén
 - 8-as sebesség osztályú vagy gyorsabb ajánlott
 
 ## Használhatom a DSi SD kártyámat más rendszereken is?

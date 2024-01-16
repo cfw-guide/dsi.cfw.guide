@@ -30,13 +30,13 @@ L'unica cosa che dovresti fare con la tua NAND è installare Unlaunch. Altriment
 - L'ultima versione di [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Un modo per eseguire homebrew con l'accesso alla NAND, come Unlaunch o Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), per controllare il backup della NAND (scarica la versione di gioco di Windows)
-   - gli utenti macOS e Linux possono usare [WINE](https://winehq.org) per avviare no$gba
+    - gli utenti macOS e Linux possono usare [WINE](https://winehq.org) per avviare no$gba
 - [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Fare un dump della BIOS per utilizzarlo in no$gba
 1. Estrai `dsibiosdumper.nds` dall'archivio `dsibiosdumper.zip` e posizionalo ovunque sulla tua scheda SD
 2. Accendi la console tenendo premuto <kbd class="face">A</kbd> e <kbd class="face">B</kbd>
-   - Questo dovrebbe avviare il menu di Unlaunch
+    - Questo dovrebbe avviare il menu di Unlaunch
 3. Avvia dsibiosdumper tramite il menu di Unlaunch
 4. Premi <kbd class="face">A</kbd> per scaricare la BIOS sulla scheda SD
 5. Premi <kbd>START</kbd> per uscire da dsibiosdumper
@@ -60,7 +60,7 @@ Segui questa sezione se hai eseguito il dump del backup della tua NAND dopo aver
 1. Scarica l'ultima versione dell'[installer di Unlaunch](https://problemkaputt.de/unlaunch.zip)
 1. Estrai `UNLAUNCH.DSI` da `unlaunch.zip`
 1. Avvia `UNLAUNCH.DSI` su no$gba e avvialo dallo slot delle cartucce di gioco
-   - Dovrebbe avviare l'installer di Unlaunch, che assomiglia al menu di Unlaunch
+    - Dovrebbe avviare l'installer di Unlaunch, che assomiglia al menu di Unlaunch
 1. Seleziona `Uninstall`
 1. Una volta completato, seleziona `Power down`
 1. Avvia qualsiasi ROM per Nintendo DS e assicurati che il menu del DSi si avvii e funzioni correttamente

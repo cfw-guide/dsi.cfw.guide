@@ -1,9 +1,8 @@
 ---
 home: true
 title: Acasă
-header:
-  overlay_image: /assets/images/home-page-feature.png
-  overlay_filter: 0.5
+heroImage: /assets/images/home-page-feature.png
+heroFilter: 0.5
 ---
 
 ::: tip
@@ -28,13 +27,13 @@ Homebrew poate rula gratuit pe toate consolele Nintendo DSi, indiferent de versi
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
 - Launch any DSiWare from your SD card
-     - This means out-of-region and 3DS-exclusive DSiWare will also work
+    - This means out-of-region and 3DS-exclusive DSiWare will also work
 - Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Run old-time classics using various emulators
 - Use normally incompatible flashcards
 - Redirect your NAND to the SD card using hiyaCFW
 - Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-     - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+    - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
 - Display an image (referred to as the boot splash) on system launch
 - Play homebrew games
 

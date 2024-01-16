@@ -24,7 +24,7 @@ Inconvénients :
 - L'accès au Slot-1 (la carte de jeu DS) est bloqué dans les homebrews
 - L'accès au DSP est bloqué, ce qui entraîne une dégradation du son dans GBARunner2
 - Les photos sur la carte SD ne peuvent pas être visualisées dans l'appareil photo DSi lorsque Memory Pit est installé, car c'est le déclencheur de l'exploit
-     - La seule façon de visualiser les photos de la carte SD alors que Memory Pit est installé, est de lancer un dump de la ROM de l'application Appareil photo Nintendo DSi en utilisant **TW**i**L**ight Menu++ pour le lancer via nds-bootstrap (v0.61.3 ou plus)
+    - La seule façon de visualiser les photos de la carte SD alors que Memory Pit est installé, est de lancer un dump de la ROM de l'application Appareil photo Nintendo DSi en utilisant **TW**i**L**ight Menu++ pour le lancer via nds-bootstrap (v0.61.3 ou plus)
 
 ### stylehax
 Avantages :
@@ -54,8 +54,8 @@ Inconvénients :
 Avantages :
 - Permet de lancer les homebrews et DSiWare immédiatement au démarrage du système, avec des boutons de raccourci facultatifs
 - Accès complet au système sans aucune restriction, y compris :
-   - Accès au Slot-1 permettant de dumper les cartes de jeu et de charger des linkers incompatibles
-   - Meilleur son dans GBARunner2
+    - Accès au Slot-1 permettant de dumper les cartes de jeu et de charger des linkers incompatibles
+    - Meilleur son dans GBARunner2
 - Supprime les verrouillages régionaux sur les cartes de jeu optimisées/exclusives DSi
 - Protection contre la plupart des risques de brick de la DSi
 - Les jeux optimisés DSi peuvent être exécutés en mode DSi sans ROM donatrice
@@ -69,21 +69,21 @@ Inconvénients :
 ## Est-ce que je perdrai des fonctionnalités en moddant mon système ?
 Si vous installez Unlaunch ou utilisez Flipnote Lenny, vous ne perdrez aucune fonctionnalité. Si vous utilisez Memory Pit, vous ne pourrez pas visualiser les photos sur la carte SD à l'aide de l'application Appareil photo Nintendo DSi, à moins de lancer un dump de cette ROM en utilisant **TW**i**L**ight Menu++ pour le charger via nds-bootstrap.
 - Pour retrouver la possibilité de visualiser les photos de votre carte SD lors du lancement de l'appareil photo DSi à partir du menu DSi, installez Unlaunch ou passez à un autre exploit, puis supprimez le fichier `pit.bin` de Memory Pit
-  - Si `tip.bin` existe dans le même dossier, renommez-le en `pit.bin`
+    - Si `tip.bin` existe dans le même dossier, renommez-le en `pit.bin`
 
 ## Comment puis-je jouer aux dumps de cartes de jeu Nintendo DS ?
 La lecture des dumps de cartes de jeu sur la console nécessite l'utilisation d'un linker ou de nds-bootstrap, un programme qui permet de jouer à partir de la carte SD interne en redirigeant les lectures et les écritures du Slot-1 vers celle-ci.
 - Avec TWiLight Menu++, vous pouvez naviguer sur votre carte SD pour trouver des fichiers ROMs à jouer avec nds-bootstrap. L'avantage d'utiliser TWiLight Menu++ est d'avoir un menu de triche, des paramètres par jeu et d'éviter les restrictions apportées par les forwarders. En d'autres termes, vous pouvez déposer vos fichiers ROMs directement et les lire sans aucune configuration. Il n'y a pas de limite de 39 titres, ni hiyaCFW ou Unlaunch ne sont nécessaires et il n'y a aucune restriction sur l'espace libre de la carte SD que vous pouvez avoir
 - Les utilisateurs de hiyaCFW peuvent créer des forwarders pour le menu DSi de la SDNAND en utilisant le guide des [forwarders de jeux DS](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) sur le wiki DS-Homebrew, mais il présente certaines limites. Il y a une limite stricte de 39 titres, et ils sont moins pratiques à réaliser qu'en utilisant TWiLight Menu++
-   - Si vous ne disposez pas de hiyaCFW et que vous souhaitez utiliser des forwarders, vous pouvez suivre le [guide d'installation de hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) sur le wiki DS-Homebrew
+    - Si vous ne disposez pas de hiyaCFW et que vous souhaitez utiliser des forwarders, vous pouvez suivre le [guide d'installation de hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) sur le wiki DS-Homebrew
 
 ## Comment puis-je mettre à jour mes homebrews ?
 - **Unlaunch** - Suivez les instructions de la page [Installation d'Unlaunch](installing-unlaunch.html)
-   - Vous n'avez **pas** besoin de désinstaller Unlaunch avant de faire cela
+    - Vous n'avez **pas** besoin de désinstaller Unlaunch avant de faire cela
 - **hiyaCFW** - Remplacez `hiya.dsi` à la racine de la carte SD par la [version mise à jour](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Suivez les instructions sur le [wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
 - **nds-bootstrap** - Copiez `nds-bootstrap-hb-release.nds` et `nds-bootstrap-release.nds` dans le dossier `_nds` à la racine de votre carte SD
-   - Si vous utilisez TWiLight Menu++, il y a beaucoup de chance que la dernière version de nds-bootstrap soit incluse avec celui-ci
+    - Si vous utilisez TWiLight Menu++, il y a beaucoup de chance que la dernière version de nds-bootstrap soit incluse avec celui-ci
 - **GodMode9i, dumpTool, Forwarder3-DS, etc** - Suivez les instructions utilisées pour les télécharger
 
 D'autres homebrews peuvent utiliser d'autres méthodes de mise à jour.
@@ -105,11 +105,17 @@ Oui, il existe plusieurs méthodes différentes selon ce que vous voulez changer
 Parce que hiyaCFW n'a pas beaucoup d'utilité fonctionnelle et constituait une partie problématique et confuse du guide pour de nombreux utilisateurs, elle a été déplacée vers le [wiki DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - Si le lien vers la page en question provient d'un autre guide, les instructions que vous suiviez étaient très probablement périmées. Veuillez plutôt utiliser ce guide, car il est maintenu en permanence par les développeurs de ces projets
 
+## What happened with Lazy DSi Downloader? How do I install CFW without it?
+Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+
+To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+
 ## Quel type de carte SD dois-je utiliser ?
 - Vous devez acheter une carte SD d'une marque de confiance
 - Une carte SD de taille normale ou une carte microSD avec un adaptateur fonctionneront toutes les deux
 - Toute capacité comprise entre 1 Go et 2 To fonctionnera. Pour un usage général, 8 Go suffisent
-  - Certains logiciels, comme hiyaCFW, peuvent avoir des temps de chargement plus longs avec des cartes SD de plus grande capacité
+    - Certains logiciels, comme hiyaCFW, peuvent avoir des temps de chargement plus longs avec des cartes SD de plus grande capacité
 - La classe de vitesse 8 ou plus est recommandée
 
 ## Puis-je utiliser ma carte SD DSi sur d'autres systèmes ?

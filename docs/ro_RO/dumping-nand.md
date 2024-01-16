@@ -32,12 +32,12 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 1. Lansează `dumpTool` prin TWiLight Menu++
 1. Apasă butonul <kbd class="face">A</kbd> pe Nintendo DSi pentru a începe creerea unei copii NAND
-   - O copiere NAND durează de obicei 7 minute
+    - O copiere NAND durează de obicei 7 minute
 1. Când copierea NAND este completă, apasă butonul <kbd>START</kbd> pe Nintendo DSi pentru a ieși din dumpTool
 1. Oprește-ți consola și inserează cardul SD înapoi în dispozitiv
 1. Păstrează această copie undeva în siguranță, unde nu-l poți pierde
-   - Dacă este posibil, creează mai multe copii pe mai multe dispozitive
-   - Odată ce ai salvat-o în alt loc, poți să o ștergi de pe cardul SD
+    - Dacă este posibil, creează mai multe copii pe mai multe dispozitive
+    - Odată ce ai salvat-o în alt loc, poți să o ștergi de pe cardul SD
 
 ::: warning
 

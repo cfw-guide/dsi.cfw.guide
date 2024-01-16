@@ -32,12 +32,12 @@ Ha már letöltötted a dumpTool-t az útmutató egy másik része alapján, akk
 
 1. Indítsd el a `dumpTool`-t a TWiLight Menu++-on keresztül
 1. Nyomd meg az <kbd class="face">A</kbd> gombot a Nintendo DSi-den a NAND dumpolás indításához
-   - Egy NAND mentés általában 7 percig tart
+    - Egy NAND mentés általában 7 percig tart
 1. Ha a NAND mentés kész, nyomd meg a <kbd>START</kbd> gombot a Nintendo DSi-den, hogy kilép a dumpTool-ból
 1. Kapcsold ki a konzolodat és helyezd vissza az SD kártyádat az eszközödbe
 1. Tárold ezt a mentés egy biztonságos helyen, ahol nem veszted el
-   - Ha lehet, több mentésed legyen különböző tároló eszközökön
-   - Ha elmentetted máshová, törölheted az SD kártyádról
+    - Ha lehet, több mentésed legyen különböző tároló eszközökön
+    - Ha elmentetted máshová, törölheted az SD kártyádról
 
 ::: warning
 

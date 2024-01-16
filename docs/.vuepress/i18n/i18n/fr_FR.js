@@ -1,5 +1,6 @@
 module.exports = {
 	title: 'Guide DSi',
 	description: 'Le guide complet pour modder votre Nintendo DSi.',
+	discordNoticeText: 'Rejoignez le serveur Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) pour le développement du guide et l\'aide.',
 	search: 'Rechercher'
 };

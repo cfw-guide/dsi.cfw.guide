@@ -11,7 +11,6 @@ title: Webhely navigáció
 
 ## Kiegészítő fejezetek
 - [SD kártya telepítés](sd-card-setup.html)
-- [Lazy DSi Downloader](lazy-dsi-downloader.html)
 - [Fájlkiterjesztések (Windows)](file-extensions-windows.html)
 - [Játékkártyák dumpolása](dumping-game-cards.html)
 - [DSiWare mentések](dsiware-backups.html)

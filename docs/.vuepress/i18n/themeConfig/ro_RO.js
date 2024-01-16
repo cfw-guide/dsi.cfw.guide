@@ -10,7 +10,6 @@ module.exports = {
 	selectLanguageAriaLabel: 'Selectează limba',
 	toggleDarkMode: 'pornește modul întunecat',
 	toggleSidebar: 'pornește bara laterală',
-	discordNoticeText: 'Alătură-te serverului de Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) pentru dezvoltarea ghidului și ajutor.',
 	navbar: [
 		'sd-card-setup',
 		'troubleshooting',
