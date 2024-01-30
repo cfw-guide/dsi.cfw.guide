@@ -98,7 +98,7 @@ Other homebrew might use other methods to update.
 ## Can I change my Nintendo DSi's region?
 Yes, there are a few different methods depending on what you want to change:
 - The safest and simplest method is to simply install TWiLight Menu++, it can use any official language and more without needing NAND modifications
-- If you want to actually change the system region and are using hiyaCFW, you can use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- If you want to actually change the system region and are using hiyaCFW, open the config menu, and change the region setting (not possible with CHN and KOR NANDs)
 - Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
 
 ## What happened to the hiyaCFW installation guide?
