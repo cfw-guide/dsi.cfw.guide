@@ -24,7 +24,7 @@ This section formats the SD card to the specifications by the SD Card Associatio
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
@@ -40,11 +40,11 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 
 ### Section II - Formatting your SD card with GUIFormat
 
-This section formats SD cards larger than 32GB to FAT32.
+This section formats SD cards which are 64GB or larger to FAT32.
 
 ::: tip
 
-If you have not followed Section I yet, please do so.
+If your SD card is 64GB or more in capacity, and if you have not followed Section I yet, please do so.
 
 :::
 
