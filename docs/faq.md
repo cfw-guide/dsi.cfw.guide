@@ -31,7 +31,7 @@ Pros:
 - Better compatibility with DSi mode titles and homebrew than Memory Pit
 - Easy to use
 - No risk of damaging the console
-- Useable on consoles with broken camera
+- Usable on consoles with broken camera
 - Better sound in GBARunner2
 
 Cons:
@@ -43,7 +43,7 @@ Cons:
 Pros:
 - Better compatibility with DSi mode titles and homebrew than Memory Pit
 - No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
-- Useable on consoles with broken camera
+- Usable on consoles with broken camera
 - Better sound in GBARunner2
 
 Cons:
