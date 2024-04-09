@@ -1,1 +1,0 @@
-import{_ as s,o as t,c as o,f as a}from"./app-EN4LfqlV.js";const r={props:{id:{default:"tab"}}},c={class:"tab-container"};function n(e,_,d,f,l,p){return t(),o("div",c,[a(e.$slots,"default")])}const u=s(r,[["render",n],["__file","Tabs.vue"]]);export{u as default};
