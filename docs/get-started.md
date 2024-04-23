@@ -30,7 +30,7 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Unsure what the SD "root" is? [See this image](/assets/images/sdroot.png)
 
 :::
 
