@@ -1,0 +1,39 @@
+name: Upload source files to Crowdin
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'docs/**.md'
+      - 'docs/.vuepress/i18n/i18n/en-US.json'
+      - 'docs/.vuepress/i18n/themeConfig/text/en-US.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          submodules: recursive
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+        # Build the site using VuePress
+        # No point pushing to Crowdin if the site build is failing
+      - name: Run VuePress
+        run: npm run docs:build
+
+      - name: Push to Crowdin
+        uses: crowdin/github-action@v1
+        with:
+          upload_sources: true
+        env:
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
