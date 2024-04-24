@@ -30,7 +30,7 @@ Asegúrate de que tu tarjeta SD esté [formateada correctamente](sd-card-setup.h
 
 ::: tip
 
-Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [esta imagen](https://cdn.discordapp.com/attachments/744649302567157800/1070786885015834695/sdrootspanish.png)
+Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [esta imagen](/assets/images/sdroot/es_ES.png)
 
 :::
 

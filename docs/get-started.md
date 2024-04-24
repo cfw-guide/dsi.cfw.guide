@@ -30,7 +30,7 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](/assets/images/sdroot.png)
+Unsure what the SD "root" is? [See this image](/assets/images/sdroot/en_US.png)
 
 :::
 

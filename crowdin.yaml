@@ -9,3 +9,5 @@ files:
     translation: /docs/.vuepress/i18n/i18n/%locale_with_underscore%.js
   - source: /docs/.vuepress/i18n/themeConfig/en_US.js
     translation: /docs/.vuepress/i18n/themeConfig/%locale_with_underscore%.js
+  - source: /docs/.vuepress/public/assets/images/sdroot/en_US.png
+    translation: /docs/.vuepress/public/assets/images/sdroot/%locale_with_underscore%.png
