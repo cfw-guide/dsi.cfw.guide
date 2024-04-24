@@ -42,7 +42,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 ### Section II - Formatting your SD card with GUIFormat
 
 This section formats SD cards which are 64GB or larger to FAT32.     
-This also applies to 4GB-32GB SD cards which have not been formatted with `32768` as the allocation size unit.
+This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
 
