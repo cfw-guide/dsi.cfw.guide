@@ -36,7 +36,7 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 1. Select your SD card
 1. Make sure the `Quick Format` check box is checked
 1. Press `Format` to start the format process
-    - If you're using a 4GB-32GB SD card, and the allocation size unit is not reported as `32768`, you'll need to follow Section II as well
+    - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well
    ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Section II - Formatting your SD card with GUIFormat
