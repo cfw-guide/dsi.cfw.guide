@@ -1,4 +1,2 @@
-module.exports = {
-	i18n: require("./i18n"),
-	themeConfig: require("./themeConfig")
-};
+export * as i18n from './i18n/index';
+export * as themeConfig from './themeConfig/index'

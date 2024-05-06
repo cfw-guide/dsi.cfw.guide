@@ -5,8 +5,8 @@ preserve_hierarchy: true
 files:
   - source: /docs/*.md
     translation: /docs/%locale_with_underscore%/%original_file_name%
-  - source: /docs/.vuepress/i18n/i18n/en_US.js
-    translation: /docs/.vuepress/i18n/i18n/%locale_with_underscore%.js
+  - source: /docs/.vuepress/i18n/i18n/en_US.json
+    translation: /docs/.vuepress/i18n/i18n/%locale_with_underscore%.json
   - source: /docs/.vuepress/i18n/themeConfig/en_US.js
     translation: /docs/.vuepress/i18n/themeConfig/%locale_with_underscore%.js
   - source: /docs/.vuepress/public/assets/images/sdroot/en_US.png

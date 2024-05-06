@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	selectLanguageName: 'crwdns5451:0crwdne5451:0',
 	backToHome: 'crwdns5453:0crwdne5453:0',
 	contributorsText: 'crwdns5455:0crwdne5455:0',

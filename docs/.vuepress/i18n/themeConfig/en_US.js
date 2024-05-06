@@ -3,7 +3,7 @@ const guide = "Guide";
 const extras = "Extras";
 const other = "Other";
 
-module.exports = {
+export default {
 	selectLanguageName: "English",
 
 	backToHome: "Take me home",

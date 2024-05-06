@@ -1,6 +1,0 @@
-module.exports = {
-	title: 'DSi ガイド',
-	description: 'ニンテンドーDSiを改造するための完全なガイド',
-	discordNoticeText: '[DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/yD3spjv) Discordサーバーに参加してガイドの開発とヘルプをご覧ください。',
-	search: '検索'
-};

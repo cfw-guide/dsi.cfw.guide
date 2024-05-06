@@ -2,7 +2,7 @@ const backups = 'Backups';
 const guide = 'Guide';
 const extras = 'Extras';
 const other = 'Other';
-module.exports = {
+export default {
 	selectLanguageName: 'Română',
 	backToHome: 'Du-mă acasă',
 	editLinkText: 'Editează această pagină',

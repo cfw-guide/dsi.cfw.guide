@@ -2,7 +2,7 @@ const backups = 'Mentések';
 const guide = 'Útmutató';
 const extras = 'Extrák';
 const other = 'Egyéb';
-module.exports = {
+export default {
 	selectLanguageName: 'Magyar',
 	backToHome: 'Vissza a főoldalra',
 	editLinkText: 'Ennek az oldalnak a szerkesztése',

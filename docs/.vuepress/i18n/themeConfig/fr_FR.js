@@ -2,7 +2,7 @@ const backups = 'Sauvegardes';
 const guide = 'Guide';
 const extras = 'Extras';
 const other = 'Autres';
-module.exports = {
+export default {
 	selectLanguageName: 'Français',
 	backToHome: 'Me ramener à l\'accueil',
 	editLinkText: 'Éditer cette page',

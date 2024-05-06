@@ -2,7 +2,7 @@ const backups = '备份';
 const guide = '指南';
 const extras = '扩展';
 const other = '其他';
-module.exports = {
+export default {
 	selectLanguageName: '中文 (简体)',
 	backToHome: '返回首页',
 	editLinkText: '编辑此页面',

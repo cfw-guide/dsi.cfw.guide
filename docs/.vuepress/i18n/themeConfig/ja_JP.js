@@ -2,7 +2,7 @@ const backups = 'バックアップ';
 const guide = 'ガイド';
 const extras = '応用編';
 const other = 'その他';
-module.exports = {
+export default {
 	selectLanguageName: '日本語',
 	backToHome: 'ホームに移動する',
 	editLinkText: 'このページを編集',
