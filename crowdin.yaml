@@ -7,7 +7,7 @@ files:
     translation: /docs/%locale_with_underscore%/%original_file_name%
   - source: /docs/.vuepress/i18n/i18n/en_US.json
     translation: /docs/.vuepress/i18n/i18n/%locale_with_underscore%.json
-  - source: /docs/.vuepress/i18n/themeConfig/en_US.js
-    translation: /docs/.vuepress/i18n/themeConfig/%locale_with_underscore%.js
+  - source: /docs/.vuepress/i18n/themeConfig/text/en_US.json
+    translation: /docs/.vuepress/i18n/themeConfig/text/%locale_with_underscore%.json
   - source: /docs/.vuepress/public/assets/images/sdroot/en_US.png
     translation: /docs/.vuepress/public/assets/images/sdroot/%locale_with_underscore%.png

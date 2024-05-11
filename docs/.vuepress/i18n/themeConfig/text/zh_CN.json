@@ -1,0 +1,13 @@
+{
+    "backups": "备份",
+    "guide": "指南",
+    "extras": "扩展",
+    "other": "其他",
+    "selectLanguageName": "中文 (简体)",
+    "backToHome": "返回首页",
+    "editLinkText": "编辑此页面",
+    "openInNewWindow": "在新窗口打开",
+    "selectLanguageAriaLabel": "选择语言",
+    "toggleDarkMode": "切换暗色主题",
+    "toggleSidebar": "切换侧边栏"
+}

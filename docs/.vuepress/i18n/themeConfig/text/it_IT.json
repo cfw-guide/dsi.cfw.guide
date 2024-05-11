@@ -1,0 +1,13 @@
+{
+    "backups": "Backup",
+    "guide": "Guida",
+    "extras": "Extra",
+    "other": "Altro",
+	"selectLanguageName": "Italiano",
+	"backToHome": "Torna all’inizio",
+	"editLinkText": "Modifica questa pagina",
+	"openInNewWindow": "apri in nuova finestra",
+	"selectLanguageAriaLabel": "Seleziona lingua",
+	"toggleDarkMode": "attiva/disattiva modalità scura",
+	"toggleSidebar": "attiva/disattiva barra laterale"
+}

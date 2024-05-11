@@ -1,0 +1,13 @@
+{
+    "backups": "Respaldos",
+    "guide": "Guía",
+    "extras": "Extras",
+    "other": "Otros",
+    "selectLanguageName": "Español",
+    "backToHome": "Ir a la página de inicio",
+    "editLinkText": "Editar esta página",
+    "openInNewWindow": "abrir en una ventana nueva",
+    "selectLanguageAriaLabel": "Elegir idioma",
+    "toggleDarkMode": "act./desac. modo oscuro",
+    "toggleSidebar": "act./desac. barra lateral"
+}

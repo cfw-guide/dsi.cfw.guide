@@ -1,155 +1,159 @@
-const backups = '备份';
-const guide = '指南';
-const extras = '扩展';
-const other = '其他';
+const locale = 'zh_CN';
+import { zh_CN as localeData } from './text'
+
+const backups = localeData.backups;
+const guide = localeData.guide;
+const extras = localeData.extras;
+const other = localeData.other;
+
 export default {
-	selectLanguageName: '中文 (简体)',
-	backToHome: '返回首页',
-	editLinkText: '编辑此页面',
-	openInNewWindow: '在新窗口打开',
-	selectLanguageAriaLabel: '选择语言',
-	toggleDarkMode: '切换暗色主题',
-	toggleSidebar: '切换侧边栏',
+	selectLanguageName: localeData.selectLanguageName,
+	backToHome: localeData.backToHome,
+	editLinkText: localeData.editLinkText,
+	openInNewWindow: localeData.openInNewWindow,
+	selectLanguageAriaLabel: localeData.selectLanguageAriaLabel,
+	toggleDarkMode: localeData.toggleDarkMode,
+	toggleSidebar: localeData.toggleSidebar,
 	navbar: [
-		'sd-card-setup',
-		'troubleshooting',
-		'faq',
+		`/${locale}/sd-card-setup`,
+		`/${locale}/troubleshooting`,
+		`/${locale}/faq`,
 		{
 			text: backups,
 			children: [
-				'dsiware-backups',
-				'dumping-game-cards',
-				'dumping-nand'
+				`/${locale}/dsiware-backups`,
+				`/${locale}/dumping-game-cards`,
+				`/${locale}/dumping-nand`
 			]
 		},
-		'uninstalling-unlaunch'
+		`/${locale}/uninstalling-unlaunch`
 	],
 	sidebar: {
-		'/': [
-			'index.html',
+		[`/${locale}/`]: [
+			`/${locale}/index.html`,
 			{
 				text: guide,
 				children: [
-					'get-started',
-					'launching-the-exploit',
-					'dumping-nand',
-					'installing-unlaunch'
+					`/${locale}/get-started`,
+					`/${locale}/launching-the-exploit`,
+					`/${locale}/dumping-nand`,
+					`/${locale}/installing-unlaunch`
 				]
 			},
 			{
 				text: extras,
 				children: [
-					'dsiware-backups',
-					'dumping-game-cards',
-					'file-extensions-windows',
-					'restoring-nand',
-					'sd-card-setup',
-					'uninstalling-unlaunch'
+					`/${locale}/dsiware-backups`,
+					`/${locale}/dumping-game-cards`,
+					`/${locale}/file-extensions-windows`,
+					`/${locale}/restoring-nand`,
+					`/${locale}/sd-card-setup`,
+					`/${locale}/uninstalling-unlaunch`
 				]
 			},
 			{
 				text: other,
 				children: [
-					'faq',
-					'troubleshooting',
-					'credits',
-					'site-navigation'
+					`/${locale}/faq`,
+					`/${locale}/troubleshooting`,
+					`/${locale}/credits`,
+					`/${locale}/site-navigation`
 				]
 			}
 		],
-		'/get-started.html': [
-			'index.html',
+		[`/${locale}/get-started.html`]: [
+			`/${locale}/index.html`,
 			{
 				text: guide,
 				children: [
-					'get-started',
-					'launching-the-exploit',
-					'launching-the-browser-exploit',
-					'launching-the-flipnote-exploit'
+					`/${locale}/get-started`,
+					`/${locale}/launching-the-exploit`,
+					`/${locale}/launching-the-browser-exploit`,
+					`/${locale}/launching-the-flipnote-exploit`
 				]
 			},
 			{
 				text: extras,
 				children: [
-					'dsiware-backups',
-					'dumping-game-cards',
-					'file-extensions-windows',
-					'restoring-nand',
-					'sd-card-setup',
-					'uninstalling-unlaunch'
+					`/${locale}/dsiware-backups`,
+					`/${locale}/dumping-game-cards`,
+					`/${locale}/file-extensions-windows`,
+					`/${locale}/restoring-nand`,
+					`/${locale}/sd-card-setup`,
+					`/${locale}/uninstalling-unlaunch`
 				]
 			},
 			{
 				text: other,
 				children: [
-					'faq',
-					'troubleshooting',
-					'credits',
-					'site-navigation'
+					`/${locale}/faq`,
+					`/${locale}/troubleshooting`,
+					`/${locale}/credits`,
+					`/${locale}/site-navigation`
 				]
 			}
 		],
-		'/launching-the-browser-exploit.html': [
-			'index.html',
+		[`/${locale}/launching-the-browser-exploit.html`]: [
+			`/${locale}/index.html`,
 			{
 				text: guide,
 				children: [
-					'get-started',
-					'launching-the-browser-exploit',
-					'dumping-nand',
-					'installing-unlaunch'
+					`/${locale}/get-started`,
+					`/${locale}/launching-the-browser-exploit`,
+					`/${locale}/dumping-nand`,
+					`/${locale}/installing-unlaunch`
 				]
 			},
 			{
 				text: extras,
 				children: [
-					'dsiware-backups',
-					'dumping-game-cards',
-					'file-extensions-windows',
-					'restoring-nand',
-					'sd-card-setup',
-					'uninstalling-unlaunch'
+					`/${locale}/dsiware-backups`,
+					`/${locale}/dumping-game-cards`,
+					`/${locale}/file-extensions-windows`,
+					`/${locale}/restoring-nand`,
+					`/${locale}/sd-card-setup`,
+					`/${locale}/uninstalling-unlaunch`
 				]
 			},
 			{
 				text: other,
 				children: [
-					'faq',
-					'troubleshooting',
-					'credits',
-					'site-navigation'
+					`/${locale}/faq`,
+					`/${locale}/troubleshooting`,
+					`/${locale}/credits`,
+					`/${locale}/site-navigation`
 				]
 			}
 		],
-		'/launching-the-flipnote-exploit.html': [
-			'index.html',
+		[`/${locale}/launching-the-flipnote-exploit.html`]: [
+			`/${locale}/index.html`,
 			{
 				text: guide,
 				children: [
-					'get-started',
-					'launching-the-flipnote-exploit',
-					'dumping-nand',
-					'installing-unlaunch'
+					`/${locale}/get-started`,
+					`/${locale}/launching-the-flipnote-exploit`,
+					`/${locale}/dumping-nand`,
+					`/${locale}/installing-unlaunch`
 				]
 			},
 			{
 				text: extras,
 				children: [
-					'dsiware-backups',
-					'dumping-game-cards',
-					'file-extensions-windows',
-					'restoring-nand',
-					'sd-card-setup',
-					'uninstalling-unlaunch'
+					`/${locale}/dsiware-backups`,
+					`/${locale}/dumping-game-cards`,
+					`/${locale}/file-extensions-windows`,
+					`/${locale}/restoring-nand`,
+					`/${locale}/sd-card-setup`,
+					`/${locale}/uninstalling-unlaunch`
 				]
 			},
 			{
 				text: other,
 				children: [
-					'faq',
-					'troubleshooting',
-					'credits',
-					'site-navigation'
+					`/${locale}/faq`,
+					`/${locale}/troubleshooting`,
+					`/${locale}/credits`,
+					`/${locale}/site-navigation`
 				]
 			}
 		]
