@@ -1,5 +1,6 @@
 import { i18n, themeConfig } from "./i18n/index"
 import { emiylTheme } from "./vuepress-theme";
+import { viteBundler } from '@vuepress/bundler-vite';
 
 themeConfig.translate.selectLanguageName = "Translate";
 
@@ -35,6 +36,8 @@ module.exports = {
 		contributors: false,
 		lastUpdated: false
 	}),
+
+	bundler: viteBundler(),
 
 	head: [
 		[ 'link', { rel: 'apple-touch-icon', sizes: "180x180", href: '/assets/favicon/apple-touch-icon.png' } ],
