@@ -1,3 +1,5 @@
 [submodule "docs/.vuepress/vuepress-theme"]
 	path = docs/.vuepress/vuepress-theme
 	url = https://github.com/emiyl/emiyl-theme-2
+[submodule "docs/.vuepress/vuepress-theme/"]
+	url = https://github.com/lifehackerhansol/emiyl-theme-2
