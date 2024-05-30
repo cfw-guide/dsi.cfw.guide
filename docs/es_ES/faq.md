@@ -98,18 +98,19 @@ Otras aplicaciones homebrew pueden usar otros métodos para actualizar.
 ## ¿Puedo cambiar la región de mi consola?
 Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar:
 - El método más simple y seguro es instalar TWiLight Menu++, te permite usar cualquier lenguaje oficial y aún más sin requerir modificaciones de la NAND
-- Si quieres cambiar la región del sistema y usas hiyaCFW, puedes usar [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) de Yoti para consolas asiáticas. Para consolas americanas, usa [esta versión de hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Si quieres cambiar la región del sistema y estás usando hiyaCFW, abre el menú de configuración y cambia la configuración de región (no es posible con NANDs de las regiones de China y Corea)
+    - Si esto hace que la pantalla táctil deje de funcionar, revierte el cambio de región y usa [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) de Yoti para consolas asiáticas. Para consolas americanas, usa [esta versión de hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Por último, si quieres cambiar la región en la memoria NAND del sistema, puedes usar [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/), de Mighty Max
 
 ## ¿Qué pasó con la guía de instalación de hiyaCFW?
 Como hiyaCFW no tiene mucha utilidad y era una parte problemática y confusa de la guía para muchos usuarios, fue movida a la [wiki de DS-Homebrew](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - Si fuiste referido a la página en cuestión desde otra guía, las instrucciones que estabas siguiendo muy probablemente estaban desactualizadas. Se te recomienda seguir esta guía en su lugar, ya que es mantenida y constantemente actualizada por los desarrolladores de estos proyectos
 
-## What happened with Lazy DSi Downloader? How do I install CFW without it?
-Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+## ¿Qué pasó con Lazy DSi Downloader? ¿Cómo instalo homebrew sin usarlo?
+Lazy DSi Downloader era un programa que, esencialmente, te permitía saltar el proceso de instalación manual, ya que descargaba e instalaba los archivos necesarios en tu tarjeta SD. Sin embargo, por como fue programado y distribuido, muchos usuarios encontraban problemas varios y terminaban teniendo que instalar homebrew de forma manual, ya que eras más rápido y/o sencillo que resolver lo que fuese que estuviese causando el problema.
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
-- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+Para evitar que más usuarios tengan estos problemas, ya no recomendamos usar Lazy DSi Downloader, y en su lugar recomendamos [realizar el proceso de instalación manual](get-started.html).
+- Si llegaste a esta página por un tercero que recomendaba usar Lazy DSi Downloader, las instrucciones que estabas siguiendo estaban desactualizadas. Por favor, usa esta guía, ya que es mantenida constantemente por los desarrolladores de estos proyectos.
 
 ## ¿Qué tipo de tarjeta SD debería usar?
 - Deberías comprar una tarjeta SD de una marca confiable
@@ -130,7 +131,7 @@ Sí, asegúrate de formatear tu nueva tarjeta SD usando la página de [preparaci
 Sí. Si no instalaste Unlaunch, tu consola permanecerá con el sistema intacto. Si *sí* instalaste Unlaunch, puede que necesites [configurar Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) para iniciar el Menú DSi original automáticamente bajo ciertas condiciones.
 
 ## La [página de Unlaunch](https://problemkaputt.de/unlaunch.htm) dice que la versión 2.0 no es segura. ¿Debería usar una versión anterior?
-La página de Unlaunch no ha sido actualizada desde que se publicó la versión 2.0, cosa que ocurrió hace más de dos años. La gran mayoría de usuarios no han experimentado problemas usando esta versión, así que puede considerarse segura.
+La página de Unlaunch no ha sido actualizada desde que se publicó la versión 2.0, en 2019. La gran mayoría de usuarios no han experimentado problemas usando esta versión, así que puede considerarse segura.
 
 
 ## ¿Cómo puedo jugar títulos DSi volcados?

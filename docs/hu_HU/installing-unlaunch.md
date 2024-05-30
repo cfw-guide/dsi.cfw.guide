@@ -4,7 +4,7 @@ title: Unlaunch telepítése
 
 ::: warning
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
+Ha nincs hozzáférésed egy PC-hez, vagy a PC-d ChromeOS-t futtat, ne telepítsd az Unlaunch-öt. Egy PC (ami Windows, Linux, vagy macOS operációs rendszerű) szükséges hogy kijavtsunk pár hibát ami az Unlaunch teleptésekor előfordulhat.
 
 :::
 
@@ -63,7 +63,7 @@ Jelenleg az Unlaunch alapértelmezésben a Filemenu-t indítja bootoláskor, de 
 
 1. Kapcsold be a konzolod, miközben nyomva tartod az <kbd class="face">A</kbd> és <kbd class="face">B</kbd> gombokat
     - Ez el kell indítsa az Unlaunch Filemenu-t
-    - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
+    - Ha semmi nem listázott vagy csak a `TWiLight Menu++` nem listázott (még legörgetés után sem), akkor [újra kell formáznod az SD kártyád](sd-card-setup.html)
 1. Navigálj az `OPTIONS`-höz és nézd meg az elérhető opciókat
     - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> hardkódolt az Unlaunch menühöz, így az nem cserélhető
     - A `NO BUTTON` és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t, a Slot-1 kártyát vagy az Unlaunch Filemenu-t
@@ -85,8 +85,8 @@ Ez a rész opcionális és csak azt a célt szolgálja, hogy az SD kártyádon n
 ::: tab name="Memory Pit" default
 
 - Töröld az `sd:/private/ds/app/484E494A/pit.bin` fájlt az SD kártyádról
-- Rename `tip.bin` back to `pit.bin`, and leave it intact
-- You can now restore the `DCIM` folder that was on the root of your SD card
+- Nevezd vissza a `tip.bin` fájlt a `pit.bin` névre, és hagyd ahogy van
+- Most már visszaállíthatod a `DCIM` mappát, ami az SD kártyád gyökerében volt
 - Töröld az `UNLAUNCH.DSI` fájlt az SD kártyádról
 
 :::

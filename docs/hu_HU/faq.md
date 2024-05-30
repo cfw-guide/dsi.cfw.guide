@@ -98,18 +98,19 @@ Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre
 ## Meg tudom változtatni a Nintendo DSi konzolom régióját?
 Igen, néhány különböző metódus áll rendelkezésre, attól függően mit szeretnél változtatni:
 - A legbiztonságosabb és legegyszerűbb metódus a TWiLight Menu++ telepítése, az bármelyik hivatalos nyelvet tudja használni, és még többet a NAND módosítása nélkül
-- Ha tényleg szeretnéd cserélni a régiót és hiyaCFW-t használsz, akkor használhatod erre Yoti [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)-ját ázsiai DSI rendszerekhez. Amerikai DSi rendszerekhez használd a [hiyalang ezen verzióját](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Ha tényleg szeretnéd cserélni a régiót és hiyaCFW-t használsz, nyisd meg a konfigurációs menüt és állítsd át a régiós beállításokat (nem lehetséges CHN vagy KOR NAND-okkal)
+    - Ha ez elrontja az érintőképernyős bevitelt, állítsd vissza a beállítást az eredetire, és akkor használhatod helyette erre Yoti [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)-ját az ázsiai DSi rendszerekhez. Amerikai DSi rendszerekhez használd a [hiyalang ezen verzióját](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Végül, ha cserélni akarod a régiót az aktuális rendszer NAND-ban, használhatod Mighty Max [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)-ét
 
 ## Mi történt a hiyaCFW telepítési útmutatóval?
 Mivel a hiyaCFW nem ad sok funkcionalitást és problémás és zavaró része volt az útmutatónak, átmozgatásra került a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing)-be.
 - Ha linkelve lettél az oldalra egy másik útmutatóból, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutatót helyette, mert folyamatosan karbantartott a projekt fejlesztői által
 
-## What happened with Lazy DSi Downloader? How do I install CFW without it?
-Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+## Mi történt a Lazy DSi Downloader-rel? Hogyan telepítek CFW-t nélküle?
+A Lazy DSi Downloader egy olyan program volt, ami lehetővé tette, hogy átugorjuk a kézi telepítést azzal, hogy letölti és a helyére rakja a szükséges fájlokat és mappákat az SD kártyádra. Azonban a módtól, ahogy programozva és terjesztve lett, sok felhasználó tapasztalt különböző hibákat és végül kötött ki a kézi teleptésnél, mivel az gyorsabb és/vagy könnyebb, mint kijavtani azt ami a hibát okozta.
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
-- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+Azért, hogy megóvjuk a felhasználókat ezektől a problémáktól, már nem javasoljuk a Lazy DSi Downloader használatát, és helyette a [kézi teleptés végrehajtása a javasolt út](get-started.html).
+- Ha linkelve lettél az oldalra egy másik útmutatóból, ami a Lazy DSi Downloader-t ajánlja, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutatót helyette, mert folyamatosan karbantartott a projekt fejlesztői által.
 
 ## Milyen SD kártyát kell, hogy használjak?
 - Megbízható márkájú SD kártyát kell vásárolnod
@@ -130,7 +131,7 @@ Formázd az SD kártyát a [SD kártya telepítés](sd-card-setup.html) lépése
 Igen. Ha nem telepíted az Unlaunch-öt, a rendszered teljesen módosítatlan marad. Ha *did* telepíted az Unlaunch-öt, szükséged lehet [az Unlaunch beállítására](installing-unlaunch.html#section-iii-post-unlaunch-configuration), hogy automatikusan bootolj az eredeti DSi Menüre bizonyos kondíciók esetén.
 
 ## Az [Unlaunch oldal](https://problemkaputt.de/unlaunch.htm) azt mondja, hogy a 2.0 verzió nem tekinthető biztonságosnak. Javasolt helyette egy korábbi verzió használata?
-Az Unlaunch oldal nem került frissítésre, mióta a 2.0 verzió kiadásra került, ami két évvel ezelőtt volt. A legtöbb felhasználó nem tapasztalt problémát ezzel a verzióval, így biztonságosnak tekinthető.
+Az Unlaunch oldal nem került frissítésre, mióta a 2.0 verzió kiadásra került 2019-ben. A legtöbb felhasználó nem tapasztalt problémát ezzel a verzióval, így biztonságosnak tekinthető.
 
 
 ## Hogyan futtathatok dumpolt DSiWare-t?

@@ -25,6 +25,6 @@ Wenn du Unlaunch deinstallieren willst, verwende bitte **NICHT** den eingebauten
 
 :::
 
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through uninstalling Unlaunch from the NAND backup and flashing that to your console.
+Sobald Sie die obigen Informationen überprüft haben, folgen Sie den Anweisungen [Dumping NAND](dumping-nand.html) um ein neues NAND-Backup zu erstellen dann gehen Sie zu [Wiederherstellung eines NAND Backup](restoring-nand.html). Dies führt Sie durch die Deinstallation aus dem NAND-Backup und das Flashen auf Ihre Konsole.
 
-If you are not able to use no$gba or get an error after uninstalling Unlaunch in no$gba it is also possible to flash a NAND backup made prior to installing Unlaunch if you still have one, however it is recommended to try using a NAND backup that previously had Unlaunch first. This will make recovery significantly easier in the case of a brick requiring a hardmod as Unlaunch leaves the no$gba footer embedded in the NAND even when uninstalled.
+Wenn Sie nach der Deinstallation in keinem $gba keinen $gba verwenden oder einen Fehler bekommen können, ist es auch möglich, ein NAND-Backup vor der Installation von Unstart zu flashen, falls Sie eines noch haben es wird jedoch empfohlen, zunächst ein NAND-Backup zu verwenden, das zuvor Unstart hatte. Dies wird die Wiederherstellung im Fall eines Bausteins erheblich erleichtern, der eine Hardmod benötigt, da Unlaunch die keine$gba Fußzeile im NAND enthält, auch wenn sie deinstalliert wird.

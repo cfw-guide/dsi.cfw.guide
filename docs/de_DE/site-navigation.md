@@ -3,9 +3,9 @@ title: Seteinnavigation
 ---
 
 ## Hauptanleitungs-Ablauf
-- [Get Started](get-started.html)
-- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
-- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Erste Schritte](get-started.html)
+- [Starte denn Exploit (Memory-Pit)](launching-the-exploit.html)
+- [Starte den Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [NAND dumpen](dumping-nand.html)
 - [Installation von Unlaunch](installing-unlaunch.html)
 

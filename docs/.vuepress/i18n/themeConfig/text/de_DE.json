@@ -3,11 +3,11 @@
     "guide": "Anleitung",
     "extras": "Extras",
     "other": "Sonstiges",
-	"selectLanguageName": "Deutsch",
-	"backToHome": "Zurück zur Startseite",
-	"editLinkText": "Bearbeite diese Seite",
-	"openInNewWindow": "in neuem Fenster öffnen",
-	"selectLanguageAriaLabel": "Sprache auswählen",
-	"toggleDarkMode": "dunkles Design an-/ausschalten",
-	"toggleSidebar": "Seitenleiste ein-/ausblenden"
+    "selectLanguageName": "Deutsch",
+    "backToHome": "Zurück zur Startseite",
+    "editLinkText": "Bearbeite diese Seite",
+    "openInNewWindow": "in neuem Fenster öffnen",
+    "selectLanguageAriaLabel": "Sprache auswählen",
+    "toggleDarkMode": "dunkles Design an-/ausschalten",
+    "toggleSidebar": "Seitenleiste ein-/ausblenden"
 }

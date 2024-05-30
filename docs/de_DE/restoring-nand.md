@@ -42,51 +42,51 @@ Die einzige Sache, die du mit deiner NAND machen solltest, ist Unlaunch zu Insta
 5. Drücke <kbd>START</kbd>, um dsibiosdumper zu verlassen
 
 ## Teste dein NAND-Backup
-Es ist sehr wichtig auszuprobieren, ob dein NAND-Backup funktioniert, bevor du versuchst, es zu deiner Konsole wiederherzustellen, wenn es brick error in no$gba anzeigt, wird es deine Konsole höchstwahrscheinlich auch beschädigen.
+Es ist sehr wichtig auszuprobieren, ob dein NAND-Backup funktioniert, bevor du versuchst, es zu deiner Konsole wiederherzustellen, wenn es Beschädigungs error in no$gba anzeigt, wird es deine Konsole höchstwahrscheinlich auch beschädigen.
 1. Extrahiere `NO$GBA.EXE` von `no$gba-w.zip` zu einem Ordner auf deinem Computer
 2. Kopiere dein NAND-BAckup zum Ordner, in den du `NO$GBA.EXE` plaziert hast und benenne es zu `DSI-1.MMC` um
 3. Kopiere `bios7i.bin` und `bios9i.bin`, genannt `BIOSDSI7.ROM `und `BIOSDSI9.ROM` zum Ordner, in den du `NO$GBA.EXE` plaziert hast.
 4. Führe `NO$GBA.EXE` aus
-5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
-6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
-7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
-8. Click `Save Now`
-9. Launch any Nintendo DS ROM (`.nds` file)
+5. Klicken Sie auf `Optionen` > `Emulation Setup` um das Emulation Setup Fenster zu öffnen
+6. Ändern Sie `Reset/Startup Eintrag` auf `GBA/NDS BIOS (Nintendo Logo)`
+7. Ändern Sie `NDS Mode/Colors` auf `DSi (Einzelhandel/16MB)`
+8. Klick `Jetzt speichern`
+9. Starte jede Nintendo DS ROM (`.nds` Datei)
 
-If no$gba loads the DSi menu (or the Unlaunch Filemenu), then continue to the next section. If it shows any kind of error ***do not flash that backup***!
+Wenn no$gba das DSi Menü (oder das Filemenu deinstallieren) lädt, fahren Sie mit dem nächsten Abschnitt fort. Wenn es irgendeine Art von Fehler ***blinkt nicht das Backup***!
 
-## Uninstalling Unlaunch from your NAND backup (optional)
-Follow this if you dumped your NAND backup after you installed Unlaunch and you would like to uninstall Unlaunch from your system. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
-1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
-1. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
-1. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
-    - This should start the Unlaunch installer, which looks similar to to the Unlaunch Filemenu
-1. Choose `Uninstall`
-1. Once complete, choose `Power down`
-1. Launch any Nintendo DS ROM again, and ensure your DSi menu loads and is working properly
+## Deinstalliere Unlaunch von deinem NAND-Backup (optional)
+Folgen Sie dies, wenn Sie Ihr NAND-Backup nach der Installation von Unlaunch gedumpt haben und Sie Deinstallation von Deinstallieren möchten. Wenn Sie nicht versuchen Deinstallieren zu versuchen, tun Sie **nicht** diesen Abschnitt.
+1. Lade die neueste version von [Unlaunch](https://problemkaputt.de/unlaunch.zip) herunter
+1. Extrahiere `UNLAUNCH.DSI` von `unlaunch.zip`
+1. Starte `UNLAUNCH.DSI` in keinem$gba und starte es vom Spielkarten-Slot
+    - Dies sollte den Unstart-Installer starten, der dem Dateimanager "Unstart" ähnelt
+1. Wähle `Uninstall` aus
+1. Nach Abschluss wählen Sie `Power down`
+1. Starte alle Nintendo DS ROM erneut und stelle sicher, dass dein DSi Menü geladen wird und ordnungsgemäß funktioniert
 
-If no$gba shows any kind of error instead of loading the DSi menu, ***do not flash that backup***! If you have an older NAND backup you may want to try using that instead. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
+Wenn kein$gba einen Fehler anzeigt, anstatt das DSi Menü zu laden, dann blinkt ***diese Sicherung nicht***! Wenn du ein älteres NAND-Backup hast, solltest du es stattdessen versuchen. **nicht** versuchen, Deinstallationen unter Verwendung seines Deinstallationsprogramms auf der Konsole zu deinstallieren. Dies ist sehr wahrscheinlich, dass dies deine DSi-Datei bricken wird.
 
-## Flashing your NAND backup (Software)
+## Flashen Ihrer NAND-Backup (Software)
 
 ::: danger
 
-Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
+Vergewissern Sie sich, dass Sie die oben genannten Schritte durchgelesen haben, da es hier gefährlich wird. Wenn Sie direkt auf hier verlinkt wurden, ohne den obigen zu folgen, dann gehen Sie zurück nach oben und lesen Sie diese ganze Seite.
 
 :::
 
 ::: danger
 
-Make sure your Nintendo DSi system is well charged before beginning this section.
+Stellen Sie sicher, dass Ihr Nintendo DSi System gut geladen ist, bevor Sie diesen Abschnitt starten.
 
 :::
 
-1. With your SD card inserted, power on your Nintendo DSi while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
-3. Launch SafeNANDManager
-4. Press the button to `begin NAND restore`
-6. Once the restore finishes, press <kbd>START</kbd> to turn off your DSi
+1. Mit Ihrer SD-Karte eingefügt, betreiben Sie Ihr Nintendo DSI, während Sie <kbd class="face"> A </kbd> und <kbd class="face"> B </kbd> halten
+3. Starte SafeNANDManager
+4. Drücke den Knopf um NAND `zu starten`
+6. Sobald die Wiederherstellung abgeschlossen ist, drücke <kbd>START</kbd> um deinen DSi auszuschalten
 
-Your NAND should now be restored.
+Dein NAND sollte jetzt wiederhergestellt werden.
 
-## Flashing your NAND backup (Hardmod)
-If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+## Flashen Ihrer NAND-Backup (Hardmod)
+Wenn du deinen Nintendo DSi nicht booten kannst, ist eine Hardmod die einzige Möglichkeit, ein NAND-Backup wiederherzustellen. Die beste Anleitung, die derzeit existiert, ist die [Nintendo DSi Hardmod Anleitung auf dem DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

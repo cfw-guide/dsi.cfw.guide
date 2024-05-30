@@ -4,7 +4,7 @@ title: Installation d'Unlaunch
 
 ::: warning
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
+Si vous n'avez pas accès à un PC, ou si votre PC fonctionne sous ChromeOS, n'installez pas Unlaunch. Un PC (fonctionnant sous Windows, Linux ou macOS) est nécessaire pour résoudre certains problèmes qui peuvent survenir après l'installation de Unlaunch.
 
 :::
 
@@ -63,7 +63,7 @@ Actuellement, Unlaunch lance par défaut son menu Fichier au démarrage, mais ce
 
 1. Allumez votre console en maintenant <kbd class="face">A</kbd> et <kbd class="face">B</kbd>
     - Cela devrait lancer le menu Fichier d'Unlaunch
-    - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
+    - Si rien n'est listé, ou si seul `TWiLight Menu++` n'est pas listé (même après avoir défilé vers le bas), vous devrez [reformater la carte SD](sd-card-setup.html)
 1. Naviguez vers `OPTIONS` et regardez les options disponibles
     - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> est codé en dur pour être lancé dans le menu de Unlaunch, et ne peut donc pas être modifié
     - Les options `NO BUTTON` et `BUTTON A / B / X / Y` peuvent être réglées comme vous le souhaitez et choisiront ce que votre DSi charge au démarrage en fonction des boutons maintenus. Vous pouvez sélectionner n'importe quel DSiWare ou homebrew, la carte Slot-1, wifiboot, ou le menu Fichier d'Unlaunch
@@ -85,8 +85,8 @@ Cette section est facultative et ne sert qu'à débarrasser votre carte SD des f
 ::: tab name="Memory Pit" default
 
 - Supprimez le fichier `sd:/private/ds/app/484E494A/pit.bin` de votre carte SD
-- Rename `tip.bin` back to `pit.bin`, and leave it intact
-- You can now restore the `DCIM` folder that was on the root of your SD card
+- Renommez `tip.bin` en `pit.bin`, et laissez-le intact
+- Vous pouvez maintenant restaurer le dossier `DCIM` qui était à la racine de votre carte SD
 - Supprimez le fichier `UNLAUNCH.DSI` de votre carte SD
 
 :::

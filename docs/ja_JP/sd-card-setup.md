@@ -24,7 +24,7 @@ title: SDカードのセットアップ
 
 ::: danger
 
-この操作では、64GB以上のSDカードは`exFAT`でフォーマットされます。 その場合はセクション II に従って`FAT32`で再フォーマット_しなければなりません_。
+この操作では、64GB以上のSDカードは`exFAT`でフォーマットされます。 You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
@@ -35,17 +35,13 @@ title: SDカードのセットアップ
 1. スタートメニューから`SD Card Formatter`を管理者権限で実行する
 1. SDカードを選択します
 1. `クイックフォーマット`が選択されていることを確認します
-1. `フォーマット`を押してフォーマット作業を開始します ![Windows 11でのSD Card Formatterのスクリーンショット](/assets/images/sd-card-formatter.png)
+1. `フォーマット`を押してフォーマット作業を開始します
+    - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well ![Windows 11でのSD Card Formatterのスクリーンショット](/assets/images/sd-card-formatter.png)
 
 ### セクション II - GUIFormatでフォーマット
 
-このセクションでは、32GBより大きいSDカードをFAT32でフォーマットします。
-
-::: tip
-
-If you have not followed Section I yet, please do so.
-
-:::
+This section formats SD cards which are 64GB or larger to FAT32.     
+This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
 

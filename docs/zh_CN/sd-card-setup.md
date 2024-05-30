@@ -24,7 +24,7 @@ This section formats the SD card to the specifications by the SD Card Associatio
 
 ::: danger
 
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
@@ -35,17 +35,13 @@ Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _m
 1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
 1. 选择你的 SD 卡
 1. 确认 `Quick Format` 复选框已被勾选
-1. Press `Format` to start the format process ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
+1. Press `Format` to start the format process
+    - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Section II - Formatting your SD card with GUIFormat
 
-This section formats SD cards larger than 32GB to FAT32.
-
-::: tip
-
-If you have not followed Section I yet, please do so.
-
-:::
+This section formats SD cards which are 64GB or larger to FAT32.     
+This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
 

@@ -1,5 +1,5 @@
 ---
-title: Problembehandlung
+title: Fehlerbeseitigung & Problemlösungen
 ---
 
 ## Unlaunch
@@ -11,24 +11,24 @@ Um dies zu reparieren, öffne [NAND Title Manager (NTM)](https://github.com/Epic
 
 ### Es gibt kein Ton- oder Boot-splash beim ausführen von "Launcher" mit Unlaunch
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Der Entwickler von Unlaunch (nocash) hat absichtlich die Hintergrundmusik und Bootsplashes standardmäßig entfernt. Sie können diese Effekte wieder erlangen, indem Sie [deinstallieren](installing-unlaunch.html) mit Hilfe von TWiLight Menu++ mit "Launcher Patches" auf "Standard" auf der Unlaunch-Seite der TWiLight Menu++ Einstellungen neu installieren, oder mit [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Der Systemstart nach Unlaunchinstallation zeigt nur einen schwarzen Bildschirm
 
-Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Versuche, deine SD Karte zu entfernen und die Konsole erneut zu starten. Wenn es immer noch nur einen schwarzen Bildschirm zeigt, müssen Sie möglicherweise Ihr NAND über eine [Hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) neu flashen.
 
 ### Nach der Unlaunchinstallation stecke ich beim Systemstart in einer Anwendung oder dem Unlaunch Dateimenü fest
 
-This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
+Dies wurde warscheinlich durch die Wahl einer falschen Anwendung für die `NO BUTTON` Einstellung in Unlaunch ausgelöst. Halte <kbd class="face">A</kbd> + <kbd class="face">B</kbd> während dem Systemstart und wähle `OPTIONS`, setze dann `NO BUTTON` zu der Anwendung deiner Wahl.
 
 ### Andere Unlaunch Probleme
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
+Wenn Unlaunch `Clusters too large`, `Bad VBR`, `Bad MBR` oder keine Anwendungen anzeigt, während die SD-Karte eingesteckt ist, ist die SD-Karte wahrscheinlich nicht korrekt formatiert. Folge die [Einrichtung der SD-Karte](sd-card-setup.html) erneut.
 
 ## TWiLight Menu++
 
-For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
+Für allgemeine TWiLight Menu++ Fehlerbehebung, lesen Sie die [FAQ & Fehlerbehebung](https://wiki.ds-homebrew.com/twilightmenu/faq) Seite im DS-Homebrew Wiki.
 
 ## Weitere Assistenz
 
-If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv) Discord server.
+Wenn du ein Problem feststellst, was hier nicht gelöst wird, oder trotz der oben aufgeführten Lösungen weiterhin besteht, bitte um Hilfe im [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv) Discord Server.

@@ -9,9 +9,9 @@ A letöltésével fogunk kezdeni, illetve más homebrew eszköz(ök) letöltés�
 ## Követelmények
 
 - Egy mód arra, hogy a letöltött fájlokat az SD kártyádra másold
-- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+- Egy alkalmazás, ami ki tud tömöríteni csomagolt állományokat, mint például a [7-Zip](https://www.7-zip.org/) (Windows), a [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS) vagy a [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
     - Azt tanácsoljuk, hogy ne használj WinRAR-t, mert ismert arról, hogy elront dolgokat
-    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor (Windows Explorer), as it'll cause an error saying that the filename is too long or not valid
 
 ## I. rész - Előkészületek
 
@@ -22,15 +22,23 @@ Biztosítsd, hogy az SD kártyád [megfelelően formázott](sd-card-setup.html) 
 :::
 
 1. Tedd be az SD kártyád a PC számítógépedbe
-1. Töltsd le a [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) legfrissebb kiadását
+1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+    - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
 1. Töltsd le a [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds) legfrissebb kiadását
+1. Open `TWiLightMenu-DSi.7z`
+    - If you're using Windows, ensure 7-Zip is installed, then follow these steps:
+        1. Right-click on `TWiLightMenu-DSi.7z`
+        1. If using Windows 11, click `Show more options`
+        1. Hover over `7-zip`
+        1. Click `Open archive`
 1. Másold ki az `_nds` mappát `TWiLightMenu-DSi.7z` fájlból az SD kártyád gyökerébe
 1. Másold ki a `BOOT.NDS` fájlt `TWiLightMenu-DSi.7z` fájlból az SD kártyád gyökerébe
+1. Close `TWiLightMenu-DSi.7z`
 1. Másold a `dumpTool.nds` fájlt az SD kártyád gyökerébe
 
 ::: tip
 
-Nem tudod, mi az SD "gyökér"? [Tekintsd meg ezt a képet](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Nem tudod, mi az SD "gyökér"? [Tekintsd meg ezt a képet](/assets/images/sdroot/en_US.png)
 
 :::
 

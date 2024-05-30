@@ -6,7 +6,7 @@ Dieser Abschnitt ist zum dumpen von Spielkarten mit GodMode9i, damit sie mit Emu
 
 ## Voraussetzungen
 - Die Spielkarte vom Spiel, das du dumpen willst
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- Deine Nintendo-DSi-Konsole, auf der [Unlaunch](installing-unlaunch.html) istalliert ist
 
 ## Anweisungen
 ### Abschnitt I - Vorbereitung der SD-Karte
@@ -24,6 +24,6 @@ Dieser Abschnitt ist zum dumpen von Spielkarten mit GodMode9i, damit sie mit Emu
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Die Dumps werden in `sd:/gm9i/out` gespeichert.
 
 :::

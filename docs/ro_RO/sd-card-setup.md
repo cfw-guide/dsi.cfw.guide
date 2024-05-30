@@ -24,7 +24,7 @@ Această secțiune formatează cardul SD la specificațiile ale Asociației Card
 
 ::: danger
 
-Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie_ să urmărești Secțiunea II pentru a reformata la `FAT32`.
+Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
@@ -35,17 +35,13 @@ Orice card SD de peste 64GB va fi formatat la `exFAT` în acest proces. _Trebuie
 1. Rulează `SD Card Formatter` din Meniul de Start cu privilegii de Administrator
 1. Selectează-ți cardul SD
 1. Asigură-te că `Quick Format` este bifat
-1. Press `Format` to start the format process ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
+1. Press `Format` to start the format process
+    - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Secțiunea II - Formatarea cardului SD cu GUIFormat
 
-Această secțiune formatează cardulie SD mai mari de 32GB în FAT32.
-
-::: tip
-
-If you have not followed Section I yet, please do so.
-
-:::
+This section formats SD cards which are 64GB or larger to FAT32.     
+This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
 

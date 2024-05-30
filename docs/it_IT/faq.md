@@ -98,18 +98,19 @@ Altre app homebrew potrebbero usare altri metodi per essere aggiornate.
 ## Posso cambiare la regione del mio Nintendo DSi?
 Sì, ci sono alcuni metodi diversi a seconda di ciò che si desidera cambiare:
 - Il metodo più semplice e sicuro è quello di installare semplicemente TWiLight Menu++, può utilizzare qualsiasi lingua ufficiale e altre senza bisogno di modifiche alla NAND
-- Se vuoi effettivamente cambiare la regione di sistema e stai utilizzando hiyaCFW, è possibile utilizzare [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) per i DSi asiatici. Per i DSi americani utilizza [questa versione di hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Se desideri effettivamente cambiare la regione di sistema e utilizzi hiyaCFW, apri il menu di configurazione e cambia l'impostazione della regione (non è possibile con NAND CHN o KOR)
+    - Se ciò rompe l'input del touch screen, rimetti la regione originale e utilizza piuttosto [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) di Yoti per i sistemi DSi asiatici. Per i DSi americani utilizza [questa versione di hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Infine, se si desidera cambiare la regione sulla NAND di sistema, è possibile utilizzare il [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) di Mighty Max
 
 ## Cosa è successo alla guida all'installazione di hiyaCFW?
 Poiché hiyaCFW non è molto pratico ed è stato un passaggio problematico e confusionario della guida per parecchi utenti, È stata spostata alla [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
 - Se sei stato collegato alla pagina in questione da un'altra guida, le istruzioni che stai seguendo sono obsolete. È consigliato invece di utilizzare questa guida, dato che viene aggiornata costantemente dagli sviluppatori di questi progetti
 
-## What happened with Lazy DSi Downloader? How do I install CFW without it?
-Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+## Cosa è successo con Lazy DSi Downloader? Come posso installare CFW senza di esso?
+Lazy DSi Downloader era un programma che essenzialmente permetteva di saltare il processo di installazione manuale scaricando e posizionando i file e le cartelle necessari sulla scheda SD. Tuttavia, a causa del modo in cui è stato programmato e distribuito, molti utenti hanno incontrato vari problemi e finito per dover fare ricorso all'installazione manuale, in quanto più rapida e/o più facile nella risoluzione di qualsiasi cosa causi il problema.
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
-- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+Per evitare che più utenti incontrino questi problemi, non consigliamo più di utilizzare Lazy DSi Downloader, ma piuttosto [la configurazione manuale](get-started.html).
+- Se sei stato collegato a questa guida da una terza parte che ha raccomandato di utilizzare Lazy DSi Downloader, le istruzioni che stavi seguendo erano molto probabilmente obsolete. È consigliato l'utilizzo di questa guida, dato che viene aggiornata costantemente dagli sviluppatori di questi progetti.
 
 ## Che tipo di scheda SD dovrei utilizzare?
 - Dovresti acquistare una scheda SD di un marchio affidabile
@@ -130,7 +131,7 @@ Formatta la tua nuova scheda SD utilizzando le istruzioni [Configurazione scheda
 Sì. Se non è stato installato Unlaunch, il sistema rimarrà completamente non modificato. Se *hai* installato Unlaunch, potresti aver bisogno di [configurare Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) per avviare automaticamente il menu DSi originale in condizioni specifiche.
 
 ## La pagina di [Unlaunch](https://problemkaputt.de/unlaunch.htm) dice che la versione 2.0 non è notoriamente sicura. Dovrei usare una versione precedente?
-La pagina di Unlaunch non è stata aggiornata da quando è stata rilasciata la versione 2.0, più di due anni fa. La stragrande maggioranza degli utenti non hanno problemi con questa versione, ed è perciò considerata sicura.
+La pagina di Unlaunch non è stata aggiornata da quando è stata rilasciata la versione 2.0 nel 2019. La stragrande maggioranza degli utenti non hanno problemi con questa versione, ed è perciò considerata sicura.
 
 
 ## Come faccio ad avviare i dump dei DSiWare?

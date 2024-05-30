@@ -98,7 +98,8 @@ Unlaunchをインストールしても、Flipnote Lennyを使用しても、何�
 ## DSiのリージョン（地域）を変更できますか？
 はい。変更したいものによって方法が異なります。
 - 最も安全かつ簡単な方法は、単にTWiLight Menu++をインストールすることです。本体のNANDを変更せず、任意の公式・非公式の言語を使用できます
-- hiyaCFWを使用していて、実際にシステムのリージョンを変更したい場合、アジアのDSiシステムにはYotiの[hiyalang](https://github.com/Yoti/cli_hiyalang/releases)が使用できます。 アメリカのDSi機種には、[このバージョンのhiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)が利用可能です。
+- If you want to actually change the system region and are using hiyaCFW, open the config menu, and change the region setting (not possible with CHN and KOR NANDs)
+    - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. アメリカのDSi機種には、[このバージョンのhiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)が利用可能です。
 - 最後に、実際のシステムNANDでリージョンを変更したい場合は、Mighty Maxの[DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)を使用できます。
 
 ## hiyaCFWのインストールガイドはどうなったんですか？
@@ -130,7 +131,7 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 はい。 Unlaunchをインストールしなければ、システムは何ら変更されません。 Unlaunchを*インストールした*場合は、[Unlaunchの設定](installing-unlaunch.html#section-iii-post-unlaunch-configuration)で元のDSiメニューを自動起動するように変更を加える必要があるかもしれません。
 
 ## [Unlaunchのサイト](https://problemkaputt.de/unlaunch.htm)には「バージョン2.0は安全性不明」と書かれています。 以前のバージョンを使用するほうが良いですか？
-Unlaunchのサイトは、2年以上前にバージョン2.0がリリースされて以来更新されていません。 多くのユーザがこのバージョンを使っていて問題が発生していないため、安全だと考えられます。
+The Unlaunch page has not been updated since version 2.0 was released in 2019. 多くのユーザがこのバージョンを使っていて問題が発生していないため、安全だと考えられます。
 
 
 ## How do I run dumped DSiWare?

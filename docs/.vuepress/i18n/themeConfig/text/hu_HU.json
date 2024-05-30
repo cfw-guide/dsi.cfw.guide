@@ -3,11 +3,11 @@
     "guide": "Útmutató",
     "extras": "Extrák",
     "other": "Egyéb",
-	"selectLanguageName": "Magyar",
-	"backToHome": "Vissza a főoldalra",
-	"editLinkText": "Ennek az oldalnak a szerkesztése",
-	"openInNewWindow": "megnyitás új ablakban",
-	"selectLanguageAriaLabel": "Válassz nyelvet",
-	"toggleDarkMode": "sötét módra váltás",
-	"toggleSidebar": "oldalsáv ki-bekapcsolás"
+    "selectLanguageName": "Magyar",
+    "backToHome": "Vissza a főoldalra",
+    "editLinkText": "Ennek az oldalnak a szerkesztése",
+    "openInNewWindow": "megnyitás új ablakban",
+    "selectLanguageAriaLabel": "Válassz nyelvet",
+    "toggleDarkMode": "sötét módra váltás",
+    "toggleSidebar": "oldalsáv ki-bekapcsolás"
 }

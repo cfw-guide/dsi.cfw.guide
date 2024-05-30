@@ -11,7 +11,7 @@ The main homebrew application this guide has you install is **TW**i**L**ight Men
 - ダウンロードしたファイルをSDカードへコピーする手段
 - An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
     - WinRARの使用はお勧めしません。ファイルが壊れる恐れがあるためです。
-    - If you're using Windows 11, we also advise you to not use it's built-in extractor, as it'll cause an error saying that the filename is too long or not valid
+    - If you're using Windows 11, we also advise you to not use it's built-in extractor (Windows Explorer), as it'll cause an error saying that the filename is too long or not valid
 
 ## セクション I - 準備
 
@@ -22,15 +22,23 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 :::
 
 1. SDカードをPCに挿入します
-1. 最新の[TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)をダウンロードします
+1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+    - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
 1. 最新の[dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)をダウンロードします
+1. Open `TWiLightMenu-DSi.7z`
+    - If you're using Windows, ensure 7-Zip is installed, then follow these steps:
+        1. Right-click on `TWiLightMenu-DSi.7z`
+        1. If using Windows 11, click `Show more options`
+        1. Hover over `7-zip`
+        1. Click `Open archive`
 1. `_nds`フォルダを`TWiLightMenu-DSi.7z`からSDカードのルートへコピーします
 1. `BOOT.NDS`ファイルを`TWiLightMenu-DSi.7z`からSDカードのルートへコピーします
+1. Close `TWiLightMenu-DSi.7z`
 1. `dumpTool.nds`ファイルをSDカードのルートへコピーします
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](https://media.discordapp.net/attachments/489307733074640926/756947922804932739/wherestheroot.png)
+Unsure what the SD "root" is? [See this image](/assets/images/sdroot/en_US.png)
 
 :::
 

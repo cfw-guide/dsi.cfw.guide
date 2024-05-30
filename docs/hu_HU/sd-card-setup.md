@@ -24,7 +24,7 @@ Ez a rész leformázza az SD kártyát az SD Card Association előírásai szeri
 
 ::: danger
 
-Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. Követned _kell_ a II. részt a `FAT32`-re újra formázáshoz.
+Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. Követned _kell_ a mindkét részt a `FAT32`-re újra formázáshoz.
 
 :::
 
@@ -35,17 +35,13 @@ Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. K
 1. Futtasd az `SD Card Formatter`-t a Start menüből rendszergazda joggal
 1. Válaszd ki az SD kártyád
 1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-1. Nyomd meg a `Format` gombot a formázás elindításához ![Képernyőkép a SD Card Formatter-ről Windows 11-en](/assets/images/sd-card-formatter.png)
+1. Nyomd meg a `Format` gombot a formázás elindításához
+    - Ha 4GB-32GB SD kártyát használsz, és a cluster méret nem `32 kilobájt`-nak jelezett, akkor követned kell a II. részt ![Képernyőkép a SD Card Formatter-ről Windows 11-en](/assets/images/sd-card-formatter.png)
 
 ### II. rész - Az SD kártya formázása az SD GUIFormat-tal
 
-Ez a rész 32 GB-nál nagyobb kártyák FAT32-re formázását írja le.
-
-::: tip
-
-If you have not followed Section I yet, please do so.
-
-:::
+Ez a rész a 64GB vagy nagyobb SD kártyákat formázza FAT32-re-     
+Ez vonatkozik továbbá a 4GB-32GB SD kártyákra is, amelyek nem 32kb cluster mérettel lettek formázva.
 
 ::: tip
 

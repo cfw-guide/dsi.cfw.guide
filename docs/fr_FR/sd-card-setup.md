@@ -24,7 +24,7 @@ Cette section formate la carte SD selon les spécifications de la SD Card Associ
 
 ::: danger
 
-Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de ce processus. Vous _devez_ suivre la section II pour reformater en `FAT32`.
+Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de ce processus. You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
@@ -35,17 +35,13 @@ Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de c
 1. Exécutez `SD Card Formatter` à partir du menu Démarrer avec les droits d'administrateur
 1. Sélectionnez votre carte SD
 1. Assurez-vous que la case `Quick Format` (« formatage rapide ») est cochée
-1. Appuyez sur `Format` pour lancer le processus de formatage ![Capture d'écran de SD Card Formatter sur Windows 11](/assets/images/sd-card-formatter.png)
+1. Appuyez sur `Format` pour lancer le processus de formatage
+    - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well ![Capture d'écran de SD Card Formatter sur Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Section II - Formatage de votre carte SD avec GUIFormat
 
-Cette section formate les cartes SD supérieures à 32 Go en FAT32.
-
-::: tip
-
-If you have not followed Section I yet, please do so.
-
-:::
+This section formats SD cards which are 64GB or larger to FAT32.     
+This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
 
@@ -139,7 +135,7 @@ mmcblk0     179:0    0   3,8G  0 disk
    Free space: 29.71 GB
    Creating file 1.h2w ... OK!
    ...
-   Creating file 30.h2w ... OK!
+   Creating file 30.h2w ... OK !
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
@@ -245,7 +241,7 @@ Si votre carte SD a une capacité de 32 Go ou moins, passez à la section III.
    Free space: 29.71 GB
    Creating file 1.h2w ... OK!
    ...
-   Creating file 30.h2w ... OK!
+   Creating file 30.h2w ... OK !
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```

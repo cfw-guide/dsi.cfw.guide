@@ -24,7 +24,7 @@ Questa sezione serve per formattare la scheda SD secondo le specifiche della SD 
 
 ::: danger
 
-Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo processo. _Devi_ seguire la Sezione II per riformattare in `FAT32`.
+Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo processo. _Devi_ seguire la Sezione I e II per riformattare in `FAT32`.
 
 :::
 
@@ -35,17 +35,13 @@ Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo proce
 1. Esegui `SD Card Formatter` dal Menu Start con i privilegi Amministratore
 1. Seleziona la tua scheda SD
 1. Assicurati che la casella `Quick Format` sia spuntata
-1. Premi `Format` per avvuare il processo di formattazione ![Schermata della formattazione della scheda SD su Windows 11](/assets/images/sd-card-formatter.png)
+1. Premi `Format` per avvuare il processo di formattazione
+    - Se stai usando una scheda SD da 4GB-32GB e la dimensione del cluster non è riportata come `32 kilobyte`, avrai bisogno di seguire anche la Sezione II ![Schermata della formattazione della scheda SD su Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Sezione II - Formattazione della scheda SD con GUIFormat
 
-Questa sezione serve per formattare schede SD più grandi di 32GB in FAT32.
-
-::: tip
-
-If you have not followed Section I yet, please do so.
-
-:::
+Questa sezione formatta schede SD che sono 64GB o più grandi di FAT32.     
+Questo vale anche per le schede SD 4GB-32GB che non sono state formattate con dimensioni del cluster 32kb.
 
 ::: tip
 

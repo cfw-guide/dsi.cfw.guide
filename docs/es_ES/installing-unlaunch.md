@@ -4,7 +4,7 @@ title: Instalar Unlaunch
 
 ::: warning
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
+Si no tienes acceso a una PC, o si el sistema operativo de tu PC es ChromeOS, no instales Unlaunch. Se requiere una PC (cuyo sistema operativo sea Windows, Linux o macOS) para arreglar algunos problemas que podrían surgir después de instalar Unlanch.
 
 :::
 
@@ -63,7 +63,7 @@ Por defecto, Unlaunch inicia su sistema de archivos al encender la consola, pero
 
 1. Enciende tu consola mientras mantienes pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
     - Esto deberia iniciar el sistema de archivos de Unlaunch.
-    - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
+    - Si `TWiLight Menu++` no se muestra en la lista (incluso después de desplazar el cursor hacia abajo), debes [reformatear tu tarjeta SD](sd-card-setup.html)
 1. Ve a `OPTIONS` y echa un vistazo a las opciones disponibles.
     - La opción <kbd class="face">A</kbd> + <kbd class="face">B</kbd> está configurada para inciar el sistema de archivos de Unlaunch. Esta opción está bloqueada y no puede ser cambiada.
     - Las opciónes `NO BUTTON` y `BUTTON A / B / X / Y` pueden ser modificadas como quieras para escoger qué cargará tu consola al encenderse dependiendo de los botones que mantengas persionados. Puedes configurar estas opciones para iniciar cualquier título DSiWare, Homebrew, la ranura Slot-1, Wifiboot o el sistema de archivos de Unlaunch.
@@ -85,8 +85,8 @@ Esta sección es opcional y solo sirve para mantener ordenada la tarjeta SD y re
 ::: tab name="Memory Pit" default
 
 - Elimina el archivo `sd:/private/ds/app/484E494A/pit.bin` de tu tarjeta SD
-- Rename `tip.bin` back to `pit.bin`, and leave it intact
-- You can now restore the `DCIM` folder that was on the root of your SD card
+- Renombra `tip.bin` a `pit.bin` y déjalo estar
+- Ya puedes restaurar la carpeta `DCIM` que estaba en la carpeta raíz de tu tarjeta SD
 - Elimina el archivo `UNLAUNCH.DSI` de tu tarjeta SD
 
 :::
