@@ -1,5 +1,5 @@
 ---
-title: Preparación de la tarjeta SD
+title: Preparacion de la tarjeta SD
 ---
 
 En ésta página te mostraremos cómo preparar tu tarjeta SD para ser usada en tu dispositivo. En el proceso, formatearemos la tarjeta SD y haremos comprobación de errores.
@@ -24,28 +24,28 @@ Esta sección formatea la tarjeta SD según las especificaciones de la Asociaci�
 
 ::: danger
 
-Cualquier tarjeta SD de 64GB o mayor será formateada a `exFAT` en este proceso. _Debes_ seguir las secciones I y II para reformatear a </code>FAT32`.</p>
+Cualquier tarjeta SD de 64GB o mayor será formateada a `exFAT` en este proceso. _Debes_ seguir la sección II para reformatear a `FAT32`.
 
-<p spaces-before="0">:::</p>
+:::
 
-<ol start="1">
-<li>Descarga la última versión de <a href="https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/">SD Formatter</a>
-
-<ul>
-<li>Si el enlace de más arriba no funciona, descarga <a href="https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/">desde archive.org</a></li>
-<li>Acepta el contrato de licencia de usuario final para iniciar la descarga</li>
-</ul></li>
-<li>Ejecuta <code>SD Card Formatter Setup` (el archivo `.exe` en el `.zip` descargado) con privilegios de administrador, e instala el programa</li>
-1 Ejecuta `SD Card Formatter` desde el Menú de Inicio con privilegios de administrador
-1 Selecciona tu tarjeta SD
-1 Asegúrate de que la casilla de la opción `Quick Format` esté marcada
-1 Pulsa `Formato` para iniciar el proceso de formato
-    - Si estás usando una tarjeta SD de 4 a 32GB y el tamaño de asignación de página no es `32 kilobytes`, sigue la sección II de todas formas ![Captura de pantalla de Formatter de Tarjeta SD en Windows 11](/assets/images/sd-card-formatter.png)</ol>
+1. Descarga la última versión de [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+    - Si el enlace de más arriba no funciona, descarga [desde archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+    - Acepta el contrato de licencia de usuario final para iniciar la descarga
+1. Ejecuta `SD Card Formatter Setup` (el archivo `.exe` en el `.zip` descargado) con privilegios de administrador, e instala el programa
+1. Ejecuta `SD Card Formatter` desde el Menú de Inicio con privilegios de administrador
+1. Selecciona tu tarjeta SD
+1. Asegúrate de que la casilla de la opción `Quick Format` esté marcada
+1. Pulsa `Formato` para iniciar el proceso de formato ![Captura de pantalla de Formatter de Tarjeta SD en Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Sección II - Formatear tu tarjeta SD con GUIFormat
 
-Esta sección formatea tarjetas SD de 64GB o mayor a FAT32.     
-Esto también se aplica a tarjetas SD de 4 a 32GB que no han sido formateadas con un tamaño de asignación de 32kb.
+Esta sección formatea tarjetas SD de tamaños mayores a 32GB al formato FAT32.
+
+::: tip
+
+If you have not followed Section I yet, please do so.
+
+:::
 
 ::: tip
 
