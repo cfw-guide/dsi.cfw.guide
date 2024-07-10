@@ -36,4 +36,4 @@ jobs:
         with:
           upload_sources: true
         env:
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
