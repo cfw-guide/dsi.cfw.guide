@@ -31,7 +31,7 @@ Az egyetlen dolog, amit a NAND-oddal kell tenned az az Unlaunch telepítése. Ha
 - Egy mód arra, hogy homebrew-ot futtass NAND hozzáféréssel, mint az Unlaunch vagy a Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), a NAND mentésed ellenőrzéséhez (Töltsd le a 'Windows gaming version'-t)
     - macOS és Linux felhasználók használhatják a [WINE](https://winehq.org)-t a no$gba futtatásához
-- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## A BIOS dumpolása a no$gba-ban történő használathoz
 1. Csomagold ki az `dsibiosdumper.nds`-t az `dsibiosdumper.zip` archívból és rakd valahova az SD kártyádon

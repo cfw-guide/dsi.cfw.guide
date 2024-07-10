@@ -31,7 +31,7 @@ NANDの操作を必要とする事柄は、Unlaunchのインストールのみ�
 - UnlaunchやMemory Pitなど、NANDアクセス可能なHomebrewを実行する方法
 - NANDバックアップをチェックするための[no$gba](https://problemkaputt.de/gba.htm)（Windows gaming version）
     - macOS・Linux利用者は[WINE](https://winehq.org)でno$gbaを利用できます
-- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## no$gbaに使用するBIOSのダンプ
 1. `dsibiosdumper.zip`アーカイブから `dsibiosdumper.nds`を取り出し、SDカード上の任意の場所に配置します

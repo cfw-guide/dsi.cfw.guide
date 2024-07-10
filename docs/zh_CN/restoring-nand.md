@@ -31,7 +31,7 @@ title: 还原 NAND备份
 - 有利用NAND运行自制程序的方法，例如Unlaunch或Memory Pit 漏洞
 - [no$gba](https://problemkaputt.de/gba.htm), 用来检查您的 NAND 备份 (下载 'Windows gaming version')
     - macOS 和 Linux 用户可以使用 [WINE](https://winehq.org) 来运行no$gba
-- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## 提取BIOS 以便使用no$gba
 1. 从 `dsibiodumper.zip` 压缩包中解压 `dsibiosdumper.nds` 并将其放置在你SD卡的任意位置

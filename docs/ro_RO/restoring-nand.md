@@ -31,7 +31,7 @@ Singurul lucru pe care trebuie să-l faci cu NNAD-ul tău este să instalezi Unl
 - Un mod prin care să rulezi homebrew cu acces la NAND, precum Unlaunch sau Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), pentru a-ți examina copia NAND (Descarcă versiunea 'Windows gaming version')
     - Utilizatorii de macOS și Linux pot folosi [WINE](https://winehq.org) pentru a rula no$gba
-- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Crearea unei copii BIOS pentru a o folosi în no$gba
 1. Extrage `dsibiosdumper` din arhiva `dsibiosdumper.zip` și plaseaz=o oriunde pe cardul SD

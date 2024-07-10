@@ -11,7 +11,7 @@ Per prima cosa lo scaricheremo, insieme ad altre applicazione homebrew, in prepa
 - Un modo per copiare i file scaricati sulla scheda SD
 - Un'applicazione per l'estrazione di archivi, come [7-Zip](https://www.7-zip.org/) (Windows) o [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), o [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
     - Ti consigliamo di non usare WinRAR, perché è noto causare problemi
-    - If you're using Windows 11, we also advise you to not use it's built-in extractor (Windows Explorer), as it'll cause an error saying that the filename is too long or not valid
+    - Se stai usando Windows 11, ti consigliamo di non utilizzare l'estrattore integrato (Windows Explorer), perché causerà un errore dicendo che il nome del file è troppo lungo o non valido
 
 ## Sezione I - Preparazione
 
@@ -22,18 +22,18 @@ Assicurati che la scheda SD sia [formattata correttamente](sd-card-setup.html).
 :::
 
 1. Inserisci la scheda SD nel PC
-1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
+1. Scarica l'ultima versione di [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+    - Se non si scarica, apri la pagina [](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest)e scarica `TWiLightMenu-DSi.7z`
 1. Scarica la versione più recente di [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Open `TWiLightMenu-DSi.7z`
-    - If you're using Windows, ensure 7-Zip is installed, then follow these steps:
-        1. Right-click on `TWiLightMenu-DSi.7z`
-        1. If using Windows 11, click `Show more options`
-        1. Hover over `7-zip`
-        1. Click `Open archive`
+1. Apri `TWiLightMenu-DSi.7z`
+    - Se stai usando Windows, assicurati che 7-Zip sia installato, segui questi passaggi:
+        1. Click destro su `TWiLightMenu-DSi.7z`
+        1. Se utilizzi Windows 11, fai clic su `Mostra più opzioni`
+        1. Vai sopra `7-zip`
+        1. Clicca `Apri archivio`
 1. Copia la cartella `_nds` estratta da `TWiLightMenu-DSi.7z` nella root della scheda SD
 1. Copia il file `BOOT.NDS` estratto da `TWiLightMenu-DSi.7z` nella root della scheda SD
-1. Close `TWiLightMenu-DSi.7z`
+1. Chiudi `TWiLightMenu-DSi.7z`
 1. Copia il file `dumpTool.nds` nella root della scheda SD
 
 ::: tip

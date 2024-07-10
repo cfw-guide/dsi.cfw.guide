@@ -31,7 +31,7 @@ Jedyną rzeczą, którą powinieneś zrobić ze swoją pamięcią NAND jest inst
 - Sposób uruchamiania homebrew z dostępem NAND, takim jak Unlaunch lub Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), aby sprawdzić kopię zapasową NAND (Pobierz wersję dla Windows)
     - użytkownicy macOS i Linux mogą używać [WINE](https://winehq.org), aby uruchomić no$gba
-- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Zrzucenie BIOS do użycia w no$gba
 1. Wypakuj `dsibiosdumper.nds` z archiwum `dsibiosdumper.zip` i umieść go w dowolnym miejscu na karcie SD

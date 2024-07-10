@@ -31,7 +31,7 @@ Die einzige Sache, die du mit deiner NAND machen solltest, ist Unlaunch zu Insta
 - Ein Weg, homebrew mit NAND Zugang auszuführen, wie Unlaunch oder Memory Pit
 - [no$gba](https://problemkaputt.de/gba.htm), um dein NAND-Backup zu überprüfen (Installiere die "Windows gaming Version")
     - macOS und Linux Nutzer können [WINE](https://winehq.org) nutzen, um no$gba auszuführen
-- [dsibiosdumper](http://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Das Bios für no$gba Verwendung dumpen
 1. Extrahiere `dsibiosdumper.nds` vom `dsibiosdumper.zip` Archiv und plaziere es irgendwo auf deiner SD-Karte
