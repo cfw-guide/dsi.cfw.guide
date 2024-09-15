@@ -1,51 +1,51 @@
 ---
-title: "Get Started"
+title: "开始"
 ---
 
-The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+本指南所安装的主要自制程序是 **TW**i**L**ight Menu++， 这是对 Nintendo DSi 菜单的升级/替换，允许运行其他自制应用程序，零售DS 游戏，各种旧平台的模拟器等等。
 
-We'll begin with downloading it as well as some other homebrew tool(s), in preparation for the exploit steps.
+我们将从下载它以及其他一些自制程序工具开始，以便为接下来的利用漏洞破解做准备。
 
-## 首先需要…
+## 安装要求
 
-- A way to copy downloaded files to your SD card
-- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
-    - We advise you to not use WinRAR, as it is known to break things
-    - If you're using Windows 11, we also advise you to not use it's built-in extractor (Windows Explorer), as it'll cause an error saying that the filename is too long or not valid
+- 将下载的文件复制到SD卡的方法
+- 可以解压档案的应用程序，例如 [7-Zip](https://www.7-zip.org/) (Windows) 或 [The Unarchiver](https://apps.apple.com/cn/app/the-unarchiver/id425424353) (macOS)
+    - 我们不建议您使用WinRAR，因为它可能会损坏数据
+    - 如果您正在使用 Windows 11，我们也建议您不要使用它的内置解压 (Windows资源管理器)， 它会导致一个错误，说文件名太长或无效
 
-## Section I - Prep Work
+## 第一步 – 准备工作
 
 ::: warning
 
-Ensure your SD card is [formatted correctly](sd-card-setup.html).
+确保你的SD卡已[正确格式化](sd-card-setup.html)。
 
 :::
 
-1. Insert your SD card into your PC
-1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
+1. 将您的 SD 卡插入计算机
+1. 下载最新版本的 [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+    - 点击后如果没有自动下载，那么就打开 [发布页](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), 并下载 `TWiLightMenu-DSi.7z`
 1. 下载最新版本的 [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Open `TWiLightMenu-DSi.7z`
-    - If you're using Windows, ensure 7-Zip is installed, then follow these steps:
-        1. Right-click on `TWiLightMenu-DSi.7z`
-        1. If using Windows 11, click `Show more options`
-        1. Hover over `7-zip`
-        1. Click `Open archive`
-1. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
-1. Close `TWiLightMenu-DSi.7z`
-1. Copy the `dumpTool.nds` file to the root of your SD card
+1. 打开 `TWiLightMenu-DSi.7z`
+    - 如果您正在使用 Windows，请确认 7-Zip 已经安装，然后遵循以下步骤：
+        1. 右击 `TWiLightMenu-DSi.7z`
+        1. 如果使用 Windows 11，点击 `显示更多选项`
+        1. 鼠标移动到 `7-zip`
+        1. 点击`打开文件`
+1. 将 `TWiLightMenu-DSi.7z` 中的 `_nds` 文件夹解压到SD卡的根目录
+1. 将`TWiLightMenu-DSi.7z` 中的 `BOOT.NDS`文件解压到SD卡的根目录
+1. 关闭 `TWiLightMenu-DSi.7z`
+1. 将 `dumpTool.nds` 文件复制到SD卡的根目录下
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](/assets/images/sdroot/en_US.png)
+不确定SD卡"根目录"是什么？ [查看此图像](/assets/images/sdroot/en_US.png)
 
 :::
 
 
-## Section II - Selecting an exploit
+## 第二步 — 选择漏洞
 
-From here you have three options, with a minor difference in what each entails.
+从这里开始，你有三个选项，每个选项的工作量略有不同。
 
 
 ### Installing Unlaunch via Memory Pit

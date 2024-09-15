@@ -2,11 +2,11 @@
 title: SD kártya telepítés
 ---
 
-Ez az oldal az SD kártyád előkészítéséről szól az eszközödhöz. A folyamat során formázzuk az SD kártyát, majd ellenőrizzük hibákra.
+This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
 ::: danger
 
-Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT követnéd a lépéseket. Az SD kártya WIPEOLVA lesz a folyamat során.
+Make sure to backup your SD card contents BEFORE following this. Your SD card will be WIPED in the process.
 
 :::
 
@@ -14,82 +14,85 @@ Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT köve
 
 :::: tab name="Windows" os="windows"
 
-### I. rész - Az SD kártya formázása az SD Formatter-rel
+### Section I - Formatting your SD card with SD Formatter
 
 ::: tip
 
-Ez a rész leformázza az SD kártyát az SD Card Association előírásai szerint. Ez javíthat számtalan problémát, ami homebrew alkalmazások futtatásakor előfordulhat.
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
 
 :::
 
 ::: danger
 
-Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. Követned _kell_ a mindkét részt a `FAT32`-re újra formázáshoz.
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
-1. Töltsd le az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) legfrissebb verzióját
-    - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)-ról
-    - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
-1. Futtasd az `SD Card Formatter Setup`-ot (az `.exe` fájlt) a letöltött `.zip` fájlból rendszergazda joggal a program telepítéséhez
-1. Futtasd az `SD Card Formatter`-t a Start menüből rendszergazda joggal
-1. Válaszd ki az SD kártyád
-1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-1. Nyomd meg a `Format` gombot a formázás elindításához
-    - Ha 4GB-32GB SD kártyát használsz, és a cluster méret nem `32 kilobájt`-nak jelezett, akkor követned kell a II. részt ![Képernyőkép a SD Card Formatter-ről Windows 11-en](/assets/images/sd-card-formatter.png)
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
+   - Accept the End User License Agreement to start the download
+2. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
+3. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
+4. Select your SD card
+5. Make sure the `Quick Format` check box is checked
+6. Press `Format` to start the format process
+   - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well
+     ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
-### II. rész - Az SD kártya formázása az SD GUIFormat-tal
+### Section II - Formatting your SD card with GUIFormat
 
-Ez a rész a 64GB vagy nagyobb SD kártyákat formázza FAT32-re-     
-Ez vonatkozik továbbá a 4GB-32GB SD kártyákra is, amelyek nem 32kb cluster mérettel lettek formázva.
+This section formats SD cards which are 64GB or larger to FAT32.\
+This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
 
-Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez
+If your SD card is 32GB or less in capacity, skip to Section III.
 
 :::
 
-1. Töltsd le a [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) legfrissebb kiadását
-    - Kattints a képre a weboldalon, hogy letöltsd az appot
-1. Futtasd a GUIFormat-ot Adminisztrátor joggal
-1. Válaszd ki az SD kártyád betűjelét
-1. Állítsd be az `Allocation size unit`-ot `32768`-ra
-    - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
-1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-1. Indíts el a formázást
+1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
+   - Click on the picture on the website to download the app
+2. Run GUIFormat with Administrator permissions
+3. Select your drive letter
+4. Set the `Allocation size unit` to `32768`
+   - If this is too large for your SD, set it to the highest one that works
+5. Make sure the `Quick Format` check box is checked
+6. Start the format process
 
 ![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
 
-### III. rész - Ellenőrzés hibákra
-1. Menj a tulajdonságaihoz az SD kártyádnak
-    - `Windows Explorer` -> `Ez a gép` -> Jobb kattintás az SD kártyádon -> `Tulajdonságok`
-1. Az eszközök fülön válaszd az `Ellenőrzés most` opciót
-1. Válaszd ki `Fájl rendszer hibák automatikus javítása` és `Hibás szektorok kereséses és javítása` opciókat egyaránt
-1. Indítsd el az ellenőrzési folyamatot
+### Section III - Checking for errors
 
-Ez ellenőrizni fogja az SD kártyádat és kijavít minden hibát, amit talál.
+1. Go to the properties window of your SD card
+   - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
+2. In the tools tab, Select `Check Now`
+3. Check both `Automatically fix file system errors` and `Scan for and attempt recovery of bad sectors`
+4. Start the checking process
 
-### IV. rész - Az SD kártya írás/olvasás ellenőrzése
+This will scan the SD card and correct any errors it finds.
 
-1. Töltsd le és csomagold ki [the h2testw archívot](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) bárhova a számítógépeden
-    - Ha a fenti link nem működik, töltsd le az [archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)-ról
-    - Külső eszközre is kicsomagolhatod, amíg az a külső eszköz nem az SD kártyád
-1. Az SD kártyád legyen beillesztve a gépbe, majd futtasd a `h2testw.exe` fájlt
-1. Válaszd ki milyen nyelven szeretnéd a h2testw-t látni
-1. Válaszd ki az SD kártyád betűjelét, mint célt
-1. Bizonyosodj meg róla, hogy az `all available space` van kiválasztva
-1. Kattints a `Write + Verify` gombra
-- Várj, amíg a folyamat befejeződik
+### Section IV - Checking SD card read/write
+
+1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer
+   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+   - It can also be extracted on an external device as long as that external device isn't your SD card
+2. With your SD card inserted into your computer, run `h2testw.exe`
+3. Select which language you'd like to see h2testw in
+4. Set your SD card's drive letter as your target
+5. Ensure `all available space` is selected
+6. Click `Write + Verify`
+
+- Wait until the process is completed
 
 ::: tip
 
-Ha a teszt eredménye `Test finished without errors`, az SD kártyád hibátlan, és törölheted a `.h2w` fájlokat az SD kártyádról.
+If the test shows the result `Test finished without errors`, your SD card is healthy and you can delete all `.h2w` files on your SD card.
 
 :::
 
 ::: danger
 
-Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -99,37 +102,41 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 
 ::: tip
 
-Ha TWiLight Menu++ indtása sikertelen ezen metódus végrehajtása után, kérjük kövesd a Windows metódust helyett, vagy Windows-ra bootolással, vagy Windows virtuális gép használatával
+If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
 
 :::
 
-### I. rész - Az SD kártya formázása
-1. Ellenőrizd, hogy az SD kártyád **nincs** bedugva a Linux gépedbe
-1. Indítsd el a Linux Terminal-t
-1. Írd be a `watch "lsblk"` parancsot
-1. Helyezd az SD kártyád a Linux számítógépbe
-1. Figyeld a kimenetet. Valami hasonlót kell kapj:
+### Section I - Formatting your SD card
+
+1. Make sure your SD card is **not** inserted into your Linux machine
+2. Launch the Linux Terminal
+3. Type `watch "lsblk"`
+4. Insert your SD card into your Linux machine
+5. Observe the output. It should match something like this:
+
 ```
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
-1. Jegyezd fel az eszköz nevét. A fenti példában ez `mmcblk0p1` volt
-    - + Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
-    - Legyél biztos benne, hogy a megcélzott **partíció**, az `mmcblk0p1` nem pedig az `mmcblk0`
-1. Nyomj CTRL + C-t a menüből kilépéshez
-1. Kövesd az SD kártyád kapacitásának megfelelő lépéseket:
-    - - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`
-      - Ez létrehoz egy FAT16 partíciót 32 KB cluster mérettel az SD kártyán
-    - - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
-      - Ez létrehoz egy FAT32 partíciót 32 KB cluster mérettel az SD kártyán
 
-### II. rész - Az F3 használata
-1. Töltsd le és csomagold ki [az F3 archívot](https://github.com/AltraMayor/f3/archive/v7.2.zip) bárhova a számítógépeden.
-1. Indítsd el a terminált az F3 könyvtárában
-1. Futtasd a `make`-et az F3 fordításához
-1. Bedugott és csatolt SD kártya mellett futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-    - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
+1. Take note of the device name. In our example above, it was `mmcblk0p1`
+   - If `RO` is set to 1, make sure the lock switch is not slid down
+   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+2. Hit CTRL + C to exit the menu
+3. Follow the instructions relevant to your SD card's capacity:
+   - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
+     - This creates a single FAT16 partition with 32 KB cluster size on the SD card
+   - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
+     - This creates a single FAT32 partition with 32 KB cluster size on the SD card
+
+### Section II - Using F3
+
+1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
+2. Launch the terminal in the F3 directory
+3. Run `make` to compile F3
+4. With your SD card inserted and mounted, run `./f3write <your sd card mount point>`
+   - Wait until the process is complete. See below for an example output:
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -139,34 +146,35 @@ mmcblk0     179:0    0   3,8G  0 disk
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-- Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
-   ```
-   $ ./f3read /media/michel/6135-3363/
-                     SECTORS      ok/corrupted/changed/overwritten
-   Validating file 1.h2w ... 2097152/        0/      0/      0
-   ...
-   Validating file 30.h2w ... 1491904/        0/      0/      0
+5. Run `./f3read <your sd card mount point>`
 
-      Data OK: 29.71 GB (62309312 sectors)
-   Data LOST: 0.00 Byte (0 sectors)
-               Corrupted: 0.00 Byte (0 sectors)
-      Slightly changed: 0.00 Byte (0 sectors)
-            Overwritten: 0.00 Byte (0 sectors)
-   Average Reading speed: 9.42 MB/s
-   ```
+- Wait until the process is complete. See below for an example output:
+  ```
+  $ ./f3read /media/michel/6135-3363/
+                    SECTORS      ok/corrupted/changed/overwritten
+  Validating file 1.h2w ... 2097152/        0/      0/      0
+  ...
+  Validating file 30.h2w ... 1491904/        0/      0/      0
+
+     Data OK: 29.71 GB (62309312 sectors)
+  Data LOST: 0.00 Byte (0 sectors)
+              Corrupted: 0.00 Byte (0 sectors)
+     Slightly changed: 0.00 Byte (0 sectors)
+           Overwritten: 0.00 Byte (0 sectors)
+  Average Reading speed: 9.42 MB/s
+  ```
 
 ___
 
 ::: tip
 
-Ha a teszt eredménye `Data LOST: 0.00 Byte (0 sectors)`, az SD kártyád rendben van és most már törölheted az összes `.h2w` fájlt róla.
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
 
 :::
 
 ::: danger
 
-Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -174,68 +182,70 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 
 :::: tab name="macOS" os="macos"
 
-### I. rész - Az SD kártya formázása az SD Formatter-rel
+### Section I - Formatting your SD card with SD Formatter
 
 ::: tip
 
-Ez a rész leformázza az SD kártyát az SD Card Association előírásai szerint. Ez javíthat számtalan problémát, ami homebrew alkalmazások futtatásakor előfordulhat.
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
 
 :::
 
 ::: danger
 
-Bármilyen 64GB vagy nagyobb SD `exFAT`-ra lesz formázva ebben a folyamatban. Követned _kell_ a II. részt a `FAT32`-re újra formázáshoz.
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow Section II to re-format to `FAT32`.
 
 :::
 
-1. Töltsd le az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/) legfrissebb verzióját
-    - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
-1. Futtasd az `Install SD Card Formatter Setup`-ot (az `.mpkg` fájlt) a letöltött `.zip` fájlból
-1. Futtasd az `SD Card Formatter`-t
-1. Válaszd ki az SD kártyád
-1. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-1. Indíts el a formázást
+1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
+   - Accept the End User License Agreement to start the download
+2. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
+3. Run `SD Card Formatter`
+4. Select your SD card
+5. Make sure the `Quick Format` check box is checked
+6. Start the format process
 
-### II. rész - Az SD kártyád formázása Disk Utility-vel
+### Section II - Formatting your SD card with Disk Utility
 
-Ez a rész 32 GB-nál nagyobb kártyák FAT32-re formázását írja le.
+This section formats SD cards larger than 32GB to FAT32.
 
 ::: tip
 
-Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
+If your SD card is 32GB or less in capacity, skip to Section III.
 
 :::
 
-#### OS X El Capitan (10.11) és későbbi
+#### OS X El Capitan (10.11) and later
 
-1. Indítsd el a Disk Utility alkalmazást
-1. Válaszd a `Show All Devices` opciót a bal felső `View` panelen
-1. Válaszd ki az SD kártyád az oldalpanelen
-    - Legyél biztos abban, hogy a jó meghajtót választod, egyébként rossz merevlemezt törölhetsz!
-1. Kattints az `Erase`-re felül
-1. Ellenőrizd, hogy a `Format` beállítása `MS-DOS (FAT32)`
-    - El Capitan (10.11)-tól Catalina (10.15)-ig válaszd az `MS-DOS (FAT)` opciót
-1. Ellenőrizd, hogy a `Scheme` beállítása `Master Boot Record`
-    - Ha a `Scheme` nem jelenik meg, nyomj `Cancel`-t és ellenőrizd, hogy az eszközt választottad-e ki egy kötet helyett
-1. Kattints az `Erase`-re, majd a `Close`-ra
+1. Launch the Disk Utility application
+2. Select `Show All Devices` in the top-left `View` panel
+3. Select your SD card from the sidebar
+   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+4. Click `Erase` at the top
+5. Ensure that `Format` is set to `MS-DOS (FAT32)`
+   - On El Capitan (10.11) through Catalina (10.15) choose `MS-DOS (FAT)`
+6. Ensure that `Scheme` is set to `Master Boot Record`
+   - If `Scheme` does not appear, click `Cancel` and make sure to choose the device instead of a volume
+7. Click `Erase`, then click `Close`
 
-#### OS X Yosemite (10.10) és korábbi
-1. Indítsd el a Disk Utility alkalmazást
-1. Válaszd ki az SD kártyád az oldalpanelen
-    - Legyél biztos abban, hogy a jó meghajtót választod, egyébként rossz merevlemezt törölhetsz!
-1. Kattints az `Partition`-re felül
-    - Ha a `Partition` nem jelenik meg, ellenőrizd, hogy az eszközt választottad-e ki egy kötet helyett
-1. Ellenőrizd, hogy a `Partition Layout` beállított `1 Partition`-re
-1. Ellenőrizd, hogy a `Format` beállítása `MS-DOS (FAT)`
-1. Az Options gombnál (a partíciós tábla alatt), válaszd a `Master Boot Record` opciót.
-1. Kattintsd az `OK` -> `Apply` -> `Partition` opciókra
+#### OS X Yosemite (10.10) and earlier
 
-### III. rész - Az F3 használata
-1. Nyisd meg a terminált
-1. Telepítsd az F3-t a brew-ból a `brew install f3` futtatásával
-    - Ha nincs brew-od, telepítsd azt a [brew.sh](https://brew.sh) instrukciókkal
-1. Bedugott és csatolt SD kártya mellett futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-    - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
+1. Launch the Disk Utility application
+2. Select your SD card from the sidebar
+   - Make sure you choose the correct device, otherwise you might accidentally erase the wrong drive!
+3. Click `Partition` at the top
+   - If `Partition` does not appear, make sure to choose the device instead of a volume
+4. Ensure that `Partition Layout` is set to `1 Partition`
+5. Ensure that `Format` is set to `MS-DOS (FAT)`
+6. From the Options button (below the partition table), select `Master Boot Record`.
+7. Click `OK` -> `Apply` -> `Partition`
+
+### Section III - Using F3
+
+1. Open Terminal
+2. Install F3 from brew by running `brew install f3`
+   - If you don't have brew, install it with the instructions on [brew.sh](https://brew.sh)
+3. With your SD card inserted and mounted, run `f3write <your sd card mount point>`
+   - Wait until the process is complete. See below for an example output:
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -245,8 +255,8 @@ Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-1. Futtasd a következő parancsot: `./f3write <az sd kártyád csatolási pontja>`
-    - Várj, amíg a folyamat befejeződik. Alább egy példa kimenet látható:
+4. Run `f3read <your sd card mount point>`
+   - Wait until the process is complete. See below for an example output:
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten
@@ -266,13 +276,13 @@ ___
 
 ::: tip
 
-Ha a teszt eredménye `Data LOST: 0.00 Byte (0 sectors)`, az SD kártyád rendben van és most már törölheted az összes `.h2w` fájlt róla.
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
 
 :::
 
 ::: danger
 
-Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg hibás, vagy sérült, és le kell cserélned!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 
 :::
 
@@ -282,7 +292,6 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 
 ::: tip
 
-Most már helyreállíthatod az SD kártyád tartalmát és folytathatod.
+You can now restore the contents of your SD card and continue.
 
 :::
-

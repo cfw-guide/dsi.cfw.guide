@@ -4,13 +4,13 @@ title: 安装 Unlaunch
 
 ::: warning
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
+如果您没有访问 PC的权限，或者您的 PC 正在运行 ChromeOS，请不要安装 Unlaunch。 需要 PC (运行 Windows, Linux 或 macOS) 来解决安装后可能发生的一些问题。
 
 :::
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). While the chances are slim, Unlaunch can accidentally brick your Nintendo DSi. A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+在此之前，请先进行 [NAND备份](dumping-nand)。 虽然概率较低，Unlaunch仍有可能使DSi变砖。 A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
 
 :::
 

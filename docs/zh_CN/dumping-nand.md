@@ -2,7 +2,7 @@
 title: 提取NAND
 ---
 
-这个页面用于备份NAND，它是DSi内部数据的拷贝。 It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
+这个页面用于备份NAND，它是DSi内部数据的拷贝。 它可以用来配置hiyaCFW自定义固件，以及no$gba和melonDS对DSi的模拟。
 
 ::: tip
 
@@ -41,12 +41,12 @@ title: 提取NAND
 
 ::: warning
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
+`nand.bin` 的 SHA1 hash值将与 `nand.bin.sha1` 中储存的hash值不匹配。 这是因为在计算SHA1 hash值后，dumpTool对 `nand.bin` 文件增加了一个 no$gba 页脚的额外数据。 您可以使用 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) 来创建一个无页脚的副本。
 
 :::
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+继续 [安装Unlaunch](installing-unlaunch.html)（可选）
 
 :::

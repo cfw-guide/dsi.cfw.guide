@@ -27,13 +27,13 @@ heroFilter: 0.5
 
 - 直接从 DSi 的SD卡上运行 Nintendo DS(i) 游戏备份或ROM模组，而不需要烧录卡
 - 从SD卡启动任意DSiWare
-    - This means out-of-region and 3DS-exclusive DSiWare will also work
+    - 这意味着锁区和3DS专用的 DSiWare 也能正常运行
 - 在Nintendo DSi开机时通过长按特定的按钮来启动至DSiWare和自制程序
 - 用各种模拟器玩老游戏
 - 使用通常情况下不兼容的烧录卡
 - 将 NAND 重定向到 SD 卡中安装的 hiyaCFW
-- Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-    - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+- 使用 FastVideoDSPlayer 或 tuna-vidS 观看您最喜欢的电影
+    - FastVideoDS编码器需要支持 AVX2 的 CPU (较新的 CPU 可能支持它)
 - 在启动时显示自定义图像（取代原生启动动画）
 - 玩自制游戏
 

@@ -3,7 +3,7 @@ title: 网站导航
 ---
 
 ## 主要指南进程
-- [Get Started](get-started.html)
+- [开始](get-started.html)
 - [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
 - [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [提取NAND](dumping-nand.html)
