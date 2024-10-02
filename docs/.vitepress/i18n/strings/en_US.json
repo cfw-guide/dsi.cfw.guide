@@ -1,0 +1,33 @@
+{
+    "title": "DSi Guide",
+    "description": "The complete guide to modding your Nintendo DSi",
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+
+    "backups": "Backups",
+    "guide": "Guide",
+    "extras": "Extras",
+    "other": "Other",
+    "pages": {
+        "credits": "Credits",
+        "dsiware-backups": "DSiWare Backups",
+        "dumping-game-cards": "Dumping Game Cards",
+        "dumping-nand": "Dumping NAND",
+        "faq": "FAQ",
+        "file-extensions-windows": "File Extensions (Windows)",
+        "get-started": "Get Started",
+        "installing-unlaunch": "Installing Unlaunch",
+        "launching-the-exploit": "Launching the Exploit",
+        "launching-the-browser-exploit": "Launching the Exploit (stylehax)",
+        "launching-the-flipnote-exploit": "Launching the Exploit (Flipnote Lenny)",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "SD Card Setup",
+        "site-navigation": "Site Navigation",
+        "troubleshooting": "Troubleshooting",
+        "uninstalling-unlaunch": "Uninstalling Unlaunch"
+    }
+}
