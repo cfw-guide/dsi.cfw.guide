@@ -5,8 +5,7 @@ on:
     branches: [ master ]
     paths:
       - 'docs/**.md'
-      - 'docs/.vuepress/i18n/i18n/en-US.json'
-      - 'docs/.vuepress/i18n/themeConfig/text/en-US.json'
+      - 'docs/.vitepress/i18n/strings/en_US.json'
   workflow_dispatch:
 
 jobs:

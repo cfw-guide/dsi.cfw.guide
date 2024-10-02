@@ -1,8 +1,11 @@
 ---
-home: true
-title: Home
-heroImage: /assets/images/home-page-feature.png
-heroFilter: 0.5
+layout: home
+title: DSi Guide
+hero:
+  text: DSi Guide
+  tagline: "The complete guide to modding your Nintendo DSi"
+  image:
+    src: /assets/images/home-page-feature.png
 ---
 
 ::: tip

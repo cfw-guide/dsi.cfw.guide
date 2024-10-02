@@ -1,6 +1,4 @@
----
-title: "Get Started"
----
+# Get Started
 
 The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more. 
 

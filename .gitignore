@@ -1,6 +1,8 @@
-*.lock
-*.log
-.temp
-.cache
+# Node.js and NPM
 node_modules
-docs/.vuepress/dist
+npm-debug.log*
+codekit-config.json
+
+# VitePress
+docs/.vitepress/cache
+docs/.vitepress/dist
