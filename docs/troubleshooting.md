@@ -1,6 +1,4 @@
----
-title: Troubleshooting
----
+# Troubleshooting
 
 ## Unlaunch
 ### Unlaunch freezes at `MISMATCH IN FAT COPIES`

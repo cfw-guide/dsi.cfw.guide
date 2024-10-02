@@ -1,6 +1,4 @@
----
-title: Dumping NAND
----
+# Dumping NAND
 
 This page is for making a NAND backup, which is a copy of the data on the Nintendo DSi's internal storage. It can be used to set up hiyaCFW, as well as no$gba and melonDS for DSi emulation.
 

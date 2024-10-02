@@ -1,6 +1,4 @@
----
-title: Installing Unlaunch
----
+# Installing Unlaunch
 
 ::: warning
 
@@ -82,7 +80,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 
 :::: tabs
 
-::: tab name="Memory Pit" default
+::: tab default Memory Pit
 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
 - Rename `tip.bin` back to `pit.bin`, and leave it intact
@@ -91,7 +89,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 
 :::
 
-::: tab name="Flipnote Lenny"
+::: tab Flipnote Lenny
 
 - Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
     - `sd:/private/ds/app/4B47554A/001` (Japan)
