@@ -1,6 +1,4 @@
----
-title: Site Navigation
----
+# Site Navigation
 
 ## Main guide process
 - [Get Started](get-started.html)
@@ -18,7 +16,7 @@ title: Site Navigation
 - [Restoring NAND](restoring-nand.html)
 
 ## Other website pages
-- [Home](.)
+- [Home](index)
 - [Frequently Asked Questions (FAQ)](faq.html)
 - [Troubleshooting](troubleshooting.html)
 - [Credits](credits.html)

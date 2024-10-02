@@ -1,12 +1,10 @@
----
-title: File Extensions (Windows)
----
+# File Extensions (Windows)
 
 This is an add-on section for disabling Windows's default behavior of hiding file extensions, which will make finding referenced files in the guide much easier for you.
 
 ::::: tabs
 
-:::: tab name="Windows 11" default
+:::: tab default Windows 11
 
 1. Launch File Explorer by opening any directory, such as your SD card directory
 1. Click the "View" option on the top bar
@@ -17,7 +15,7 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
    
 ::::
    
-:::: tab name="Windows 10 / 8.1 / 8"
+:::: tab Windows 10 / 8.1 / 8
 
 1. Launch File Explorer by opening any directory, such as your SD card directory
 1. Click the "View" option on the ribbon menu
@@ -26,7 +24,7 @@ This is an add-on section for disabling Windows's default behavior of hiding fil
    
 ::::
 
-:::: tab name="Windows 7 / Vista / XP"
+:::: tab Windows 7 / Vista / XP
 
 1. Open the start menu by clicking on it or using the Windows key
 1. Search for "Folder Options" and select the corresponding result
