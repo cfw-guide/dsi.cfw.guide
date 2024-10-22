@@ -31,4 +31,4 @@ Az általános TWiLight Menu++ hibaelhárításhoz tekintsd meg a [GYIK & hibael
 
 ## További segítség
 
-Ha olyan hibába ütköztél, ami nincs megoldva itt, vagy egy olyanba, ami továbbra is fenn áll a megadott megoldások ellenére kérj segítséget a [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv) Discord szerveren.
+Ha olyan hibába ütköztél, ami nincs megoldva itt, vagy egy olyanba, ami továbbra is fenn áll a megadott megoldások ellenére kérj segítséget a [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord szerveren.

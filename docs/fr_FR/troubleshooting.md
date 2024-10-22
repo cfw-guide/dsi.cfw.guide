@@ -31,4 +31,4 @@ Pour un dépannage général de TWiLight Menu++, consultez sa page [FAQ et dépa
 
 ## Assistance supplémentaire
 
-Si vous avez rencontré un problème qui n'est pas résolu ici, ou qui persiste malgré les solutions données, demandez de l'aide sur le serveur Discord [DS<sup>(i)</sup>Mode Hacking!](https://discord.gg/yD3spjv).
+Si vous avez rencontré un problème qui n'est pas résolu ici, ou qui persiste malgré les solutions données, demandez de l'aide sur le serveur Discord [DS<sup>(i)</sup>Mode Hacking!](https://discord.gg/fCzqcWteC4).

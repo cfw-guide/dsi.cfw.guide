@@ -31,4 +31,4 @@ Unlaunchで`Clusters too large`、`Bad VBR`、`Bad MBR`と表示される、あ�
 
 ## サポート
 
-ここで解決できない問題に出くわした、あるいは上記の方法で解決しなかった場合は、[DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv)のDiscordサーバで質問してください。
+ここで解決できない問題に出くわした、あるいは上記の方法で解決しなかった場合は、[DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4)のDiscordサーバで質問してください。

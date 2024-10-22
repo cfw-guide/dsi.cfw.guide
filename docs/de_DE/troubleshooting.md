@@ -31,4 +31,4 @@ Für allgemeine TWiLight Menu++ Fehlerbehebung, lesen Sie die [FAQ & Fehlerbeheb
 
 ## Weitere Assistenz
 
-Wenn du ein Problem feststellst, was hier nicht gelöst wird, oder trotz der oben aufgeführten Lösungen weiterhin besteht, bitte um Hilfe im [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/yD3spjv) Discord Server.
+Wenn du ein Problem feststellst, was hier nicht gelöst wird, oder trotz der oben aufgeführten Lösungen weiterhin besteht, bitte um Hilfe im [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord Server.
