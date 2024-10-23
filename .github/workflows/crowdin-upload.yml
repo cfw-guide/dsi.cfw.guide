@@ -18,16 +18,18 @@ jobs:
           persist-credentials: false
           submodules: recursive
 
-      - uses: actions/setup-node@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-        # Build the site using VuePress
+        # Build the site using Vitepress
         # No point pushing to Crowdin if the site build is failing
-      - name: Run VuePress
+      - name: Build site
         run: npm run docs:build
 
       - name: Push to Crowdin
