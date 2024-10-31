@@ -1,13 +1,12 @@
----
-title: トラブルシューティング
----
+# トラブルシューティング
 
 ## Unlaunch
-### `MISMATCH IN FAT COPIES`でUnlaunchがフリーズする
+
+### Unlaunch freezes at `MISMATCH IN FAT COPIES`
 
 twlnfには、NAND変更後に全体を適切に更新しない重大なバグがあります。これはUnlaunchインストーラなどの特定のHomebrewアプリでエラーが発生する原因となります。
 
-これを修正するには、[NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases)を開き、`Fix FAT copy mismatch`を選択します。
+To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
 
 ### Unlaunchで「Launcher」を起動すると音や起動スプラッシュ画面がない
 
@@ -15,20 +14,20 @@ Unlaunchの開発者（nocash）は、意図的にBGMとスプラッシュ画面
 
 ### Unlaunchインストール後、電源を入れても画面が点かない
 
-SDカードを取り出して、本体の電源を入れてみてください。 それでもまだ画面が黒いままの場合は、[Hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)によってNANDをフラッシュする必要があるかもしれません。
+SDカードを取り出して、本体の電源を入れてみてください。 If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
 ### Unlaunchのインストール後、アプリやUnlaunchファイルメニューの起動が止まる
 
-これはおそらく、Unlaunchの`NO BUTTON`オプションで間違ったアプリを選択したことによって引き起こされます。 電源を入れるときに<kbd class="face">A</kbd> + <kbd class="face">B</kbd>を長押しし、`OPTIONS`から`NO BUTTON`の設定をお好みに合わせて設定してください。
+This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
 
 ### その他のUnlaunchの問題
 
-Unlaunchで`Clusters too large`、`Bad VBR`、`Bad MBR`と表示される、あるいはSDカードを挿入してもアプリが何も表示されない場合、SDカードが正しくフォーマットされていない可能性があります。 [SDカードセットアップ](sd-card-setup.html)をもう一度試してください。
+If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
 
 ## TWiLight Menu++
 
-一般的なTWiLight Menu++トラブルシューティングについては、DS-Homebrew Wikiの[よくある質問とトラブルシューティング](https://wiki.ds-homebrew.com/twilightmenu/faq)ページを参照してください。
+For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
 
 ## サポート
 
-ここで解決できない問題に出くわした、あるいは上記の方法で解決しなかった場合は、[DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4)のDiscordサーバで質問してください。
+If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.

@@ -1,71 +1,76 @@
----
-title: NANDバックアップの復元
----
+# NANDバックアップの復元
 
 ::: danger
 
-警告！ これは***危険***です。 NANDは非常に繊細であり、特に複数回書き込みした場合は、これらのステップに忠実に従ってもブリックする危険性があります。 最後の手段としてのみ使用するべきです！
+警告！ This is _**dangerous**_. NANDは非常に繊細であり、特に複数回書き込みした場合は、これらのステップに忠実に従ってもブリックする危険性があります。 最後の手段としてのみ使用するべきです！
 
 :::
 
 ::: tip
 
-このページの*どれか一つでも*スキップしてはいけません。一つでも間違うと、DSiをブリックする可能性が大幅に増加します。
+Do not skip _anything_ on this page, any mistake greatly increases chance of bricking your DSi.
 
 :::
 
 まず、復元を行いたい問題について、より安全な解決策を提示します：
+
 - DSiウェアのインストールは、hiyaCFWまたはTWiLight Menu++を使って行うことができます
-- 写真の復元には[ninfs](https://github.com/ihaveamac/ninfs/releases)が利用できます。本体上で行いたい場合はhiyaCFWやTWiLight Menu++と組み合わせて使用します。 HiyaCFW Helperの最新版では、セットアップ中にNANDからSDNANDへ写真をコピーすることができます
+- Recovering pictures can be done using [ninfs](https://github.com/ihaveamac/ninfs/releases), in combination with hiyaCFW or TWiLight Menu++ if you want them on console. HiyaCFW Helperの最新版では、セットアップ中にNANDからSDNANDへ写真をコピーすることができます
 - Unlaunchのボタン設定の復元はUnlaunchメニューから行えます。本体の電源投入時に<kbd class="face">A</kbd> + <kbd class="face">B</kbd>を長押しすることでメニューを開けます
 - Unlaunchの起動時にエラーが発生してお困りですか？ SDカードを取り出し、本体を再起動してみてください。 動く場合は、問題はSDカードにあるため、NANDバックアップを復元しても問題は解決されません
-- 起動時に「エラーが発生しました（An error has occurred）...」などと出たときはhiyaCFWのエラーで、NANDは無関係かもしれません。詳細は、DS-Homebrew Wikiの[hiyaCFW よくある質問・トラブルシューティング](https://wiki.ds-homebrew.com/hiyacfw/faq)を参照してください
-- TWiLight Menu++のエラーはNANDとは無関係で、修正にはTWiLight Menu++の再インストールをするか[Discord](https://ds-homebrew.com/discord)で助けを求めるべきです
+- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
+- Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on [Discord](https://ds-homebrew.com/discord)
 - Unlaunchの削除は、NANDをフラッシュするか、付属アンインストーラを使用するかにかかわらず、絶対に必要でない限り行うべきではありません。UnlaunchのAutoboot設定をLauncherにすれば、DSiは純正品のように機能します
 
 NANDの操作を必要とする事柄は、Unlaunchのインストールのみです。 それ以外の場合は上記の代替案を使用してください。
 
 ## 必要事項
-- **同じDSiからの**NANDバックアップ
-- 最新版の[SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
+
+- Your NAND backup **from the same DSi**
+- The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - UnlaunchやMemory Pitなど、NANDアクセス可能なHomebrewを実行する方法
-- NANDバックアップをチェックするための[no$gba](https://problemkaputt.de/gba.htm)（Windows gaming version）
-    - macOS・Linux利用者は[WINE](https://winehq.org)でno$gbaを利用できます
+- [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
+  - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
 - [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## no$gbaに使用するBIOSのダンプ
-1. `dsibiosdumper.zip`アーカイブから `dsibiosdumper.nds`を取り出し、SDカード上の任意の場所に配置します
+
+1. Extract `dsibiosdumper.nds` from the `dsibiosdumper.zip` archive and place it anywhere on your SD card
 2. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源を入れます
-    - これはUnlaunchのファイルメニューを開くホットキーです
+   - これはUnlaunchのファイルメニューを開くホットキーです
 3. メニューからdsibiosdumperを起動します
 4. <kbd class="face">A</kbd>を押してBIOSをSDカードにダンプします
 5. <kbd>START</kbd>を押して、dsibiosdumperを終了します
 
 ## NANDバックアップのテスト
-本体へNANDバックアップを復元する前に、まずそれが動くかテストすることが非常に重要です。no$gbaでブリックエラーが表示される場合は、おそらく本体もブリックしてしまいます。
-1. `NO$GBA.EXE`を`no$gba-w.zip`から取り出します
-2. NANDバックアップを`NO$GBA.EXE`のあるフォルダにコピーし、`DSI-1.MMC`に名前を変更します
-3. `bios7i.bin`と`bios9i.bin`を`NO$GBA.EXE`のフォルダへコピーし、それぞれ`BIOSDSI7.ROM`と`BIOSDSI9.ROM`に改名します
-4. `NO$GBA.EXE`を実行します
-5. `Options` > `Emulation Setup`をクリックしてエミュレーション設定ウィンドウを開きます
-6. `Reset/Startup Entrypoint`を`GBA/NDS BIOS (Nintendo logo)`に変更します
-7. `NDS Mode/Colors`を`DSi (retail/16MB)`に変更します
-8. `Save Now`をクリックします
-9. 任意のDS ROM（`.nds`ファイル）を起動します
 
-no$gbaでDSiメニューかUnlaunch Filemenuがロードされた場合は、次のセクションに進みます。 何かエラーが表示された場合、***そのバックアップを利用してはいけません***！
+本体へNANDバックアップを復元する前に、まずそれが動くかテストすることが非常に重要です。no$gbaでブリックエラーが表示される場合は、おそらく本体もブリックしてしまいます。
+
+1. Extract `NO$GBA.EXE` from `no$gba-w.zip` to a folder on your computer
+2. Copy your NAND backup to the folder you put `NO$GBA.EXE` in and rename it to `DSI-1.MMC`
+3. Copy `bios7i.bin` and `bios9i.bin` to the folder you put `NO$GBA.EXE`, named `BIOSDSI7.ROM` and `BIOSDSI9.ROM`, respectively.
+4. Run `NO$GBA.EXE`
+5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
+6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
+7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
+8. Click `Save Now`
+9. Launch any Nintendo DS ROM (`.nds` file)
+
+no$gbaでDSiメニューかUnlaunch Filemenuがロードされた場合は、次のセクションに進みます。 If it shows any kind of error _**do not flash that backup**_!
 
 ## NANDバックアップからUnlaunchを除去（任意）
-もしUnlaunchをインストールした後にNANDバックアップを作成し、かつシステムからUnlaunchを削除したいなら、この手順に従ってください。 Unlaunchの削除をするつもりがなければ、この操作は必要**ありません**。
-1. 最新版の[Unlaunch installer](https://problemkaputt.de/unlaunch.zip)をダウンロードします
-1. `UNLAUNCH.DSI`を`unlaunch.zip`から取り出します
-1. `UNLAUNCH.DSI`をno$gbaで起動してゲームカード スロットから開始します
-    - Unlaunch installerが起動します。見た目はUnlaunch Filemenuに似ています
-1. `Uninstall`を選びます
-1. 完了したら`Power down`を選びます
-1. DS ROMを再度起動し、DSiメニューがロードされ正常に動作することを確認します
 
-no$gbaでDSiメニューが表示されずに何かエラーが出た場合、***そのバックアップを利用してはいけません***！ 古いNANDバックアップをお持ちの場合は、代わりにそれを試したほうが良いです。 本体上でUnlaunch付属のアンインストーラーを使ってUnlaunchの削除をしては**いけません**。DSiをブリックする可能性が非常に高いためです。
+もしUnlaunchをインストールした後にNANDバックアップを作成し、かつシステムからUnlaunchを削除したいなら、この手順に従ってください。 If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+
+1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
+2. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
+3. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
+   - Unlaunch installerが起動します。見た目はUnlaunch Filemenuに似ています
+4. Choose `Uninstall`
+5. Once complete, choose `Power down`
+6. DS ROMを再度起動し、DSiメニューがロードされ正常に動作することを確認します
+
+If no$gba shows any kind of error instead of loading the DSi menu, _**do not flash that backup**_! 古いNANDバックアップをお持ちの場合は、代わりにそれを試したほうが良いです。 Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
 
 ## NANDバックアップの書き込み（ソフト的手法）
 
@@ -82,11 +87,12 @@ no$gbaでDSiメニューが表示されずに何かエラーが出た場合、**
 :::
 
 1. SDカードを挿入した状態で、<kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源を入れます
-3. SafeNANDManagerを起動します
-4. `begin NAND restore`に対応するボタンを押して復元を開始します
-6. 復元が完了したら、<kbd>START</kbd>を押してDSiの電源を切ります
+2. SafeNANDManagerを起動します
+3. Press the button to `begin NAND restore`
+4. 復元が完了したら、<kbd>START</kbd>を押してDSiの電源を切ります
 
 これでNANDが復元されたはずです。
 
 ## NANDバックアップの書き込み（ハード的手法）
-DSiが起動できない場合は、Hardmod（ハードウェア改造）がNANDバックアップを復元する唯一の方法です。 現存する最良のガイドは、[DS-Homebrew Wiki上のDSi Hardmodガイド](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi)です。
+
+DSiが起動できない場合は、Hardmod（ハードウェア改造）がNANDバックアップを復元する唯一の方法です。 The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

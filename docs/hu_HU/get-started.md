@@ -1,65 +1,60 @@
----
-title: "Kezdeti lépések"
----
+# Kezdeti lépések
 
-A fő homebrew alkalmazás, amit ez az útmutató telepít a **TW**i**L**ight Menu++, ami egy feljavítása/cseréje a Nintendo DSi Menu-nek, és ami lehetővé teszi más homebrew-ok, kereskedelmi DS játékok, más régebbi rendszerek emulátorainak és egyebeknek a futtatását.
+The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
 
 A letöltésével fogunk kezdeni, illetve más homebrew eszköz(ök) letöltésével, hogy előkészüljünk az exploit lépéseire.
 
 ## Követelmények
 
 - Egy mód arra, hogy a letöltött fájlokat az SD kártyádra másold
-- Egy alkalmazás, ami ki tud tömöríteni csomagolt állományokat, mint például a [7-Zip](https://www.7-zip.org/) (Windows), a [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS) vagy a [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
-    - Azt tanácsoljuk, hogy ne használj WinRAR-t, mert ismert arról, hogy elront dolgokat
-    - Ha Windows 11-et használsz javasoljuk, hogy ne használd a beépített csomagolót (Windows Explorer), mert hibát okoz azzal, hogy azt mondja a fájlnév túl hosszú vagy nem érvényes
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+  - Azt tanácsoljuk, hogy ne használj WinRAR-t, mert ismert arról, hogy elront dolgokat
+  - Ha Windows 11-et használsz javasoljuk, hogy ne használd a beépített csomagolót (Windows Explorer), mert hibát okoz azzal, hogy azt mondja a fájlnév túl hosszú vagy nem érvényes
 
 ## I. rész - Előkészületek
 
 ::: warning
 
-Biztosítsd, hogy az SD kártyád [megfelelően formázott](sd-card-setup.html) legyen.
+Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 :::
 
 1. Tedd be az SD kártyád a PC számítógépedbe
-1. Töltsd le a [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) legfrissebb kiadását
-    - Ha nem tölt le, nyisd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), és töltsd le a `TWiLightMenu-DSi.7z` fájlt
-1. Töltsd le a [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds) legfrissebb kiadását
-1. Nyisd meg a `TWiLightMenu-DSi.7z` fájlt
-    - Ha Windows-t használ, biztosítsd, hogy a 7-Zip telepítve van, majd kövesd a következő lépéseket:
-        1. Kattints jobb gombbal a `TWiLightMenu-DSi.7z` fájlra
-        1. Ha Windows 11-et használsz, kattints a `Több lehetőség megjelenítése` opcióra
-        1. Menj a `7-zip` felé
-        1. Kattints az `Archívum megnyitása` opcióra
-1. Másold ki az `_nds` mappát `TWiLightMenu-DSi.7z` fájlból az SD kártyád gyökerébe
-1. Másold ki a `BOOT.NDS` fájlt `TWiLightMenu-DSi.7z` fájlból az SD kártyád gyökerébe
-1. Zárd be a `TWiLightMenu-DSi.7z` fájlt
-1. Másold a `dumpTool.nds` fájlt az SD kártyád gyökerébe
+2. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+   - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
+3. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+4. Open `TWiLightMenu-DSi.7z`
+   - Ha Windows-t használ, biztosítsd, hogy a 7-Zip telepítve van, majd kövesd a következő lépéseket:
+     1. Right-click on `TWiLightMenu-DSi.7z`
+     2. If using Windows 11, click `Show more options`
+     3. Hover over `7-zip`
+     4. Click `Open archive`
+5. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
+6. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
+7. Close `TWiLightMenu-DSi.7z`
+8. Copy the `dumpTool.nds` file to the root of your SD card
 
 ::: tip
 
-Nem tudod, mi az SD "gyökér"? [Tekintsd meg ezt a képet](/assets/images/sdroot/en_US.png)
+Nem tudod, mi az SD "gyökér"? [See this image](/assets/images/sdroot/en_US.png)
 
 :::
-
 
 ## II. rész - Az exploit kiválasztása
 
 Innentől kezdve három lehetőséged van, egy kis különbséggel, hogy melyik mivel jár.
 
-
 ### Az Unlaunch telepítése Memory Pit-tel
 
 A Memory Pit egy exploit ami a DSi Camera-t használja és kompatibilis minden firmware verzióval. Opcionálisan, ez az exploit használható az Unlaunch telepítésére, ami egy bootcode exploit és teljes hozzáférést ad a konzolhoz bootoláskor.
 
-A Memory Pit valamennyire korlátozott homebrew kompatibilitással rendelkezik, ajánlott, hogy telepítsd az Unlaunch-öt, a Memory Pit önálló használata helyett. Ez a legkönnyebb metódusa az Unlaunch telepítésének, így ez az ajánlott módja. Azonban van egy nagyon kicsi kockázata a konzolod **brickelésének** az Unlaunch telepítésekor, így ha ez számít, akkor válassz másik metódust alább.
+A Memory Pit valamennyire korlátozott homebrew kompatibilitással rendelkezik, ajánlott, hogy telepítsd az Unlaunch-öt, a Memory Pit önálló használata helyett. Ez a legkönnyebb metódusa az Unlaunch telepítésének, így ez az ajánlott módja. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
 
 ::: tip
 
-Folytatás [Az Exploit indítása](launching-the-exploit.html) útmutatóval
+Continue to [Launching the Exploit](launching-the-exploit.html)
 
 :::
-
 
 ### stylehax
 
@@ -69,10 +64,9 @@ Az Unlaunch mentes élményhez ez az exploit ajánlott, mert a Memory Pit probl�
 
 ::: tip
 
-Folytatás [Az Exploit indítása (stylehax)](launching-the-browser-exploit.html) útmutatóval
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
-
 
 ### Flipnote Lenny
 
@@ -84,8 +78,8 @@ Mindig teleptheted az Unlaunch-öt később, ha úgy döntenél, hogy szeretnéd
 
 ::: tip
 
-Folytatás [Az Exploit indítása (Flipnote Lenny)](launching-the-flipnote-exploit.html) útmutatóval
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
-Részletesebb előnyök és hátrányok összehasonltásért az elérhető exploitokról tekints meg a [Melyik a legjobb exploit?](faq.html#which-is-the-best-exploit) GYIK-et.
+For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

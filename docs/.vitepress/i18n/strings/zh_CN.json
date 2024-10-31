@@ -1,6 +1,32 @@
 {
     "title": "DSi 破解指南",
     "description": "最完整的 Nintendo DSi 破解指南",
-    "discordNoticeText": "加入 [DS⁽ⁱ⁾ 模式破解!](https://discord.gg/fCzqcWteC4) Discord ，为本指南贡献力量。",
-    "search": "搜索"
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+    "backups": "备份",
+    "guide": "指南",
+    "extras": "扩展",
+    "other": "其他",
+    "pages": {
+        "credits": "制作人员",
+        "dsiware-backups": "DSiware备份",
+        "dumping-game-cards": "Dumping Game Cards",
+        "dumping-nand": "提取NAND",
+        "faq": "常见问题",
+        "file-extensions-windows": "文件扩展名 (Windows)",
+        "get-started": "开始",
+        "installing-unlaunch": "安装 Unlaunch",
+        "launching-the-exploit": "启动漏洞",
+        "launching-the-browser-exploit": "Launching the Exploit (stylehax)",
+        "launching-the-flipnote-exploit": "Launching the Exploit (Flipnote Lenny)",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "SD 卡设置",
+        "site-navigation": "网站导航",
+        "troubleshooting": "故障排查",
+        "uninstalling-unlaunch": "卸载 Unlaunch"
+    }
 }

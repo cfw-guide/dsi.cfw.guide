@@ -1,6 +1,4 @@
----
-title: Konfiguracja karty SD
----
+# Konfiguracja karty SD
 
 Ta strona jest przeznaczona do przygotowania karty SD dla Twojego Nintendo DSi. W trakcie tego procesu sformatujemy kartę SD i sprawdzimy czy karta nie ma błędów.
 
@@ -12,7 +10,7 @@ Upewnij się, że stworzyłeś kopię zapasową karty SD PRZED Zaczęciem konfig
 
 ::::: tabs
 
-:::: tab name="Windows" os="windows"
+:::: tab default Windows
 
 ### Sekcja I - Formatowanie karty SD za pomocą SD Formatter
 
@@ -97,7 +95,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 ::::
 
-:::: tab name="Linux" os="other"
+:::: tab Linux
 
 ::: tip
 
@@ -179,7 +177,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 ::::
 
-:::: tab name="macOS" os="macos"
+:::: tab macOS
 
 ### Sekcja I - Formatowanie karty SD za pomocą SD Formatter
 

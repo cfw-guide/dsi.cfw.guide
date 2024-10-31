@@ -1,6 +1,4 @@
----
-title: Preparación de la tarjeta SD
----
+# Preparación de la tarjeta SD
 
 This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
@@ -12,7 +10,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 
 ::::: tabs
 
-:::: tab name="Windows" os="windows"
+:::: tab default Windows
 
 ### Section I - Formatting your SD card with SD Formatter
 
@@ -98,7 +96,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 
 ::::
 
-:::: tab name="Linux" os="other"
+:::: tab Linux
 
 ::: tip
 
@@ -180,7 +178,7 @@ If the test shows any other results, your SD card may be corrupted or damaged an
 
 ::::
 
-:::: tab name="macOS" os="macos"
+:::: tab macOS
 
 ### Section I - Formatting your SD card with SD Formatter
 

@@ -1,6 +1,4 @@
----
-title: SD 卡设置
----
+# SD 卡设置
 
 This page is for preparing your SD card for your device. In the process, we'll format the SD card and check the card for errors.
 
@@ -12,7 +10,7 @@ This page is for preparing your SD card for your device. In the process, we'll f
 
 ::::: tabs
 
-:::: tab name="Windows" os="windows"
+:::: tab default Windows
 
 ### Section I - Formatting your SD card with SD Formatter
 
@@ -97,7 +95,7 @@ If the test shows the result `Test finished without errors`, your SD card is hea
 
 ::::
 
-:::: tab name="Linux" os="other"
+:::: tab Linux
 
 ::: tip
 
@@ -179,7 +177,7 @@ If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is 
 
 ::::
 
-:::: tab name="macOS" os="macos"
+:::: tab macOS
 
 ### Section I - Formatting your SD card with SD Formatter
 

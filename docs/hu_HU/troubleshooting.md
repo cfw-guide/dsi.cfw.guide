@@ -1,34 +1,33 @@
----
-title: Hibaelhárítás
----
+# Hibaelhárítás
 
 ## Unlaunch
-### Az Unlaunch lefagy a `MISMATCH IN FAT COPIES` üzenetnél
+
+### Unlaunch freezes at `MISMATCH IN FAT COPIES`
 
 A twlnf-nek van egy kritikus hibája, amikor nem frissíti megfelelően az egész NAND-ot a módosítása után, ami bizonyos homebrew-ok esetén (mint példul az Unlaunch telepítő) hibát dob.
 
-Ennek a javításához, niysd meg a [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases)-t és válaszd a `Fix FAT copy mismatch` opciót.
+To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
 
 ### Nincs hang vagy boot képernyő, amikor a "LAUNCHER" kerül indításra az Unlaunch-csel
 
-Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. Visszaszerezheted ezeket az effekteket az [Unlaunch újratelepítésével](installing-unlaunch.html) a TWiLight Menu++-ban az Unlaunch beállítások oldalon "Indító patch"-ek "Alapértelmezett"-re állítását követően, vagy a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) használatával.
+Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### A bekapcsolás csak fekete képernyőt mutat az Unlaunch telepítése után
 
-Vedd ki az SD kártyád és próbáld újra indítani a rendszered. Ha továbbra is fekete képernyőt mutat, lehet, hogy flash-elned kell a NAND-od [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)-on keresztül.
+Vedd ki az SD kártyád és próbáld újra indítani a rendszered. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
 ### Az Unlaunch telepítése után beragadok egy alkalmazásba bootolásnál
 
-Ez valószínűleg egy rossz app választása miatt van a `NO BUTTON` opciónál az Unlaunch-ben. Tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat a konzol indításakor és menj az `OPTIONS` menübe, majd állítsd be a `NO BUTTON` opciót arra, amire szeretnéd.
+This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
 
 ### Egyéb Unlaunch problémák
 
-Ha az Unlaunch `Clusters too large`, `Bad VBR`, `Bad MBR` hibát jelenít meg vagy nem jelenít meg semmilyen alkalmazást, miközben az SD kártya behelyezett, az SD kártyád valószínűleg nem jól formázott. Kövesd újra az [SD kártya telepítést](sd-card-setup.html).
+If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
 
 ## TWiLight Menu++ hibaelhárítás
 
-Az általános TWiLight Menu++ hibaelhárításhoz tekintsd meg a [GYIK & hibaelhárítás](https://wiki.ds-homebrew.com/twilightmenu/faq) oldalt a DS-Homebrew Wiki-n.
+For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
 
 ## További segítség
 
-Ha olyan hibába ütköztél, ami nincs megoldva itt, vagy egy olyanba, ami továbbra is fenn áll a megadott megoldások ellenére kérj segítséget a [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord szerveren.
+If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.

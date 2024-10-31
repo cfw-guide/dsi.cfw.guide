@@ -1,25 +1,28 @@
 ---
-home: true
-title: Acasă
-heroImage: /assets/images/home-page-feature.png
-heroFilter: 0.5
+layout: home
+title: Ghidul DSi
+hero:
+  text: Ghidul DSi
+  tagline: Ghidul complet pentru a-ți modifica sistemul Nintendo DSi
+  image:
+    src: /assets/images/home-page-feature.png
 ---
 
 ::: tip
 
-Pentru ghiduri complete spre homebrew și custom firmware pentru alte dispozitive, uită-te la [CFW.Guide](https://cfw.guide/).
+For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide/).
 
 :::
 
 ::: tip
 
-Citește cu atenție toate paginile introductive (inclusiv pe aceasta!) înainte de a continua.
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
 
 :::
 
 ## Ce este homebrew?
 
-Aplicațiile [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) sunt programe nelicențiate făcute pentru sisteme închise precum Nintendo DSi. Aceste aplicații pot varia de la utilități la jocuri personalizate homebrew.
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) applications are unlicensed software made for closed systems such as the Nintendo DSi. Aceste aplicații pot varia de la utilități la jocuri personalizate homebrew.
 
 Homebrew poate rula gratuit pe toate consolele Nintendo DSi, indiferent de versiunea firmware sau regiune. Tot ce-ți trebuie este un punct de intrare și un card SD pentru a-ți stoca aplicațiile homebrew. Punctul de intrare principal folosit în acest ghid se numește Memory Pit, dar există și alte puncte de intrare pe care le poți folosi dacă Memory Pit este inutilizabil.
 
@@ -27,13 +30,13 @@ Homebrew poate rula gratuit pe toate consolele Nintendo DSi, indiferent de versi
 
 - Run Nintendo DS(i) game backups or ROM hacks from your DSi SD card without the need of a flashcard
 - Launch any DSiWare from your SD card
-    - This means out-of-region and 3DS-exclusive DSiWare will also work
+  - This means out-of-region and 3DS-exclusive DSiWare will also work
 - Boot into DSiWare and homebrew applications by holding specific buttons when turning on your Nintendo DSi
 - Run old-time classics using various emulators
 - Use normally incompatible flashcards
 - Redirect your NAND to the SD card using hiyaCFW
 - Watch your favorite movies using either FastVideoDSPlayer or tuna-viDS
-    - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
+  - FastVideoDSEncoder requires a CPU supporting AVX2 (newer CPUs will likely support it)
 - Display an image (referred to as the boot splash) on system launch
 - Play homebrew games
 

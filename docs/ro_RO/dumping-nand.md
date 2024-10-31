@@ -1,6 +1,4 @@
----
-title: Copiere NAND
----
+# Copiere NAND
 
 Această pagină este pentru creerea unei copii NAND, ce este o copie a datelor de pe stocarea interna a Nintendo DSi. Ea poate fi folosit pentru a seta hiyaCFW, precum și no$gba și melonDS pentru emularea DSi.
 
@@ -24,20 +22,19 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 :::
 
-1. Descarcă ultima versiune a [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Plasează `dumptool.nds` oriunde pe cardul tău SD
-
+1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+2. Place `dumpTool.nds` anywhere on your SD card
 
 ## Secțiunea II - Creerea unei copii NAND
 
-1. Lansează `dumpTool` prin TWiLight Menu++
-1. Apasă butonul <kbd class="face">A</kbd> pe Nintendo DSi pentru a începe creerea unei copii NAND
-    - O copiere NAND durează de obicei 7 minute
-1. Când copierea NAND este completă, apasă butonul <kbd>START</kbd> pe Nintendo DSi pentru a ieși din dumpTool
-1. Oprește-ți consola și inserează cardul SD înapoi în dispozitiv
-1. Păstrează această copie undeva în siguranță, unde nu-l poți pierde
-    - Dacă este posibil, creează mai multe copii pe mai multe dispozitive
-    - Odată ce ai salvat-o în alt loc, poți să o ștergi de pe cardul SD
+1. Launch `dumpTool` through TWiLight Menu++
+2. Apasă butonul <kbd class="face">A</kbd> pe Nintendo DSi pentru a începe creerea unei copii NAND
+   - O copiere NAND durează de obicei 7 minute
+3. Când copierea NAND este completă, apasă butonul <kbd>START</kbd> pe Nintendo DSi pentru a ieși din dumpTool
+4. Oprește-ți consola și inserează cardul SD înapoi în dispozitiv
+5. Păstrează această copie undeva în siguranță, unde nu-l poți pierde
+   - Dacă este posibil, creează mai multe copii pe mai multe dispozitive
+   - Odată ce ai salvat-o în alt loc, poți să o ștergi de pe cardul SD
 
 ::: warning
 

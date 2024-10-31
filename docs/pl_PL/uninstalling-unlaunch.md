@@ -1,14 +1,12 @@
----
-title: Odinstalowywanie
----
+# Odinstalowywanie Unlaunch
 
 ::: danger
 
-**Instalacja lub odinstalowanie Unlaunch może losowo zablokować konsolę! Zostałeś ostrzeżony!**
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
 
 :::
 
-**OSTRZEŻENIE:** Odinstalowanie może zablokować Twój Nintendo DSi. Oto kilka przypadków powodów, dla których możesz chcieć odinstalować Unlaunch, ale z rozwiązaniami które nie wymagają odinstalowania.
+**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Oto kilka przypadków powodów, dla których możesz chcieć odinstalować Unlaunch, ale z rozwiązaniami które nie wymagają odinstalowania.
 
 - **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Obecnie zawierają instrukcje dotyczące zmiany tła
 - **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have

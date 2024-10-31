@@ -1,17 +1,15 @@
----
-title: Dezinstalarea Unlaunch
----
+# Dezinstalarea Unlaunch
 
 ::: danger
 
-**Instalarea sau dezinstalarea a Unlaunch poate cauza un brick la întâmplare! Ai fost avertizat!**
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
 
 :::
 
-**ATENȚIE:** O dezinstalare Unlaunch poate cauza consolei Nintendo DSi un brick. Aici sunt câteva cazuri despre motivul pentru care vrei să dezinstalezi Unlaunch dar cu soluți care nu necesită dezinstalare.
+**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Aici sunt câteva cazuri despre motivul pentru care vrei să dezinstalezi Unlaunch dar cu soluți care nu necesită dezinstalare.
 
 - **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Acestea conțin acum instrucțiuni privind modul de schimbare a fundalului
-- **Am o problemă cu Unlaunch sau consola mea după instalare:** Pagina de [Troubleshooting](troubleshooting.html#unlaunch) îți va explica cum să rezolvi multe probleme pe care le ai
+- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
 

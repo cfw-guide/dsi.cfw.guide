@@ -1,6 +1,4 @@
----
-title: Einrichtung der SD-Karte
----
+# Einrichtung der SD-Karte
 
 Diese Seite ist für die Vorbereitung deiner SD-Karte für dein Gerät. In diesem Prozess formatieren wir die SD-Karte und überprüfen die Karte auf Fehler.
 
@@ -12,7 +10,7 @@ Stellen Sie sicher, dass Sie den Inhalt Ihrer SD-Karte sichern VOR diesem. Die d
 
 ::::: tabs
 
-:::: tab name="Windows" os="windows"
+:::: tab default Windows
 
 ### Abschnitt I - Formatieren Ihrer SD-Karte mit SD Formatter
 
@@ -97,7 +95,7 @@ Falls der Test jedoch ein anderes Ergebnis anzeigen sollte, ist deine SD Karte m
 
 ::::
 
-:::: tab name="Linux" os="other"
+:::: tab Linux
 
 ::: tip
 
@@ -179,7 +177,7 @@ Falls der Test jedoch ein anderes Ergebnis anzeigen sollte, ist deine SD Karte m
 
 ::::
 
-:::: tab name="macOS" os="macos"
+:::: tab macOS
 
 ### Abschnitt I - Formatieren Ihrer SD-Karte mit SD Formatter
 
@@ -281,7 +279,7 @@ ___
 
 ::: danger
 
-Falls es jedoch ein anderes Ergebnis anzeigen sollte, ist deine SD-Karte möglicherweise beschädigt.
+Falls der Test jedoch ein anderes Ergebnis anzeigen sollte, ist deine SD Karte möglicherweise korrupt oder beschädigt und du müsstest diese eventuell austauschen!
 
 :::
 

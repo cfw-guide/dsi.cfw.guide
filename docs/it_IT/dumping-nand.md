@@ -1,6 +1,4 @@
----
-title: Effettuare dump della NAND
----
+# Effettuare dump della NAND
 
 Questa pagina riguarda la creazione di un backup della NAND, una copia dei dati della memoria interna del Nintendo DSi. Può essere usato per installare hiyaCFW, e per l'emulazione del DSi tramite no$gba e melonDS.
 
@@ -24,29 +22,28 @@ Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare
 
 :::
 
-1. Scarica l'ultima versione di [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Posiziona `dumpTool.nds` in un percorso qualsiasi sulla tua scheda SD
-
+1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+2. Place `dumpTool.nds` anywhere on your SD card
 
 ## Sezione II - Dump della NAND
 
-1. Avvia `dumpTool` attraverso TWiLight Menu++
-1. Premi il pulsante <kbd class="face">A</kbd> sul tuo Nintendo DSi per iniziare a creare un backup della NAND
-    - Un backup della NAND richiede in genere circa 7 minuti
-1. Quando il backup della NAND è completato, premi il pulsante <kbd>START</kbd> sul tuo Nintendo DSi per uscire da dumpTool
-1. Spegni la console e inserisci la scheda SD nel tuo computer
-1. Salva questo backup in un posto sicuro, dove non lo perderai
-    - Se possibile, effettua molteplici backup su diversi dispositivi di archiviazione
-    - Una volta conservato il backup altrove, lo si può eliminare dalla scheda SD
+1. Launch `dumpTool` through TWiLight Menu++
+2. Premi il pulsante <kbd class="face">A</kbd> sul tuo Nintendo DSi per iniziare a creare un backup della NAND
+   - Un backup della NAND richiede in genere circa 7 minuti
+3. Quando il backup della NAND è completato, premi il pulsante <kbd>START</kbd> sul tuo Nintendo DSi per uscire da dumpTool
+4. Spegni la console e inserisci la scheda SD nel tuo computer
+5. Salva questo backup in un posto sicuro, dove non lo perderai
+   - Se possibile, effettua molteplici backup su diversi dispositivi di archiviazione
+   - Una volta conservato il backup altrove, lo si può eliminare dalla scheda SD
 
 ::: warning
 
-L'hash SHA1 di `nand.bin` non corrisponderà all'hash memorizzato in `nand.bin.sha1`. Questo accade poiché dumpTool aggiunge dei dati aggiuntivi, noti come footer NO$gba, al file `nand.bin` dopo che l'hash SHA1 è stato calcolato. È possibile utilizzare [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) per creare una copia senza il footer.
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 
 :::
 
 ::: tip
 
-Continua con [Installazione di Unlaunch](installing-unlaunch.html) (facoltativo)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

@@ -1,6 +1,32 @@
 {
     "title": "DSi Útmutató",
     "description": "A Nintendo DSi moddolás teljes útmutatója",
-    "discordNoticeText": "Csatlakozz a [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord szerverhez az útmutató fejlesztéséhez és segítségért.",
-    "search": "Keresés"
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+    "backups": "Mentések",
+    "guide": "Útmutató",
+    "extras": "Extrák",
+    "other": "Egyéb",
+    "pages": {
+        "credits": "Készítők",
+        "dsiware-backups": "DSiWare mentések",
+        "dumping-game-cards": "Játékkártyák dumpolása",
+        "dumping-nand": "NAND dumpolása",
+        "faq": "GYIK",
+        "file-extensions-windows": "Fájlkiterjesztések (Windows)",
+        "get-started": "Kezdeti lépések",
+        "installing-unlaunch": "Unlaunch telepítése",
+        "launching-the-exploit": "Az Exploit indítása",
+        "launching-the-browser-exploit": "Az Exploit indítása (stylehax)",
+        "launching-the-flipnote-exploit": "Az Exploit indítása (Flipnote Lenny)",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "SD kártya telepítés",
+        "site-navigation": "Webhely navigáció",
+        "troubleshooting": "Hibaelhárítás",
+        "uninstalling-unlaunch": "Unlaunch eltávolítása"
+    }
 }

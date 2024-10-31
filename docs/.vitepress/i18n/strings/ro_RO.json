@@ -1,6 +1,32 @@
 {
     "title": "Ghidul DSi",
     "description": "Ghidul complet pentru a-ți modifica sistemul Nintendo DSi",
-    "discordNoticeText": "Alătură-te serverului de Discord [DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/fCzqcWteC4) pentru dezvoltarea ghidului și ajutor.",
-    "search": "Căutare"
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+    "backups": "Backups",
+    "guide": "Guide",
+    "extras": "Extras",
+    "other": "Other",
+    "pages": {
+        "credits": "Mulțumiri",
+        "dsiware-backups": "Backup-uri DSiWare",
+        "dumping-game-cards": "Creere backup-uri Carduri de Joc",
+        "dumping-nand": "Copiere NAND",
+        "faq": "FAQ",
+        "file-extensions-windows": "Extensii de fișiere (Windows)",
+        "get-started": "Get Started",
+        "installing-unlaunch": "Instalarea Unlaunch",
+        "launching-the-exploit": "Lansarea Exploit-ului",
+        "launching-the-browser-exploit": "Launching the Exploit (stylehax)",
+        "launching-the-flipnote-exploit": "Launching the Exploit (Flipnote Lenny)",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "Setarea Cardului SD",
+        "site-navigation": "Navigarea Site-ului",
+        "troubleshooting": "Troubleshooting",
+        "uninstalling-unlaunch": "Dezinstalarea Unlaunch"
+    }
 }

@@ -1,17 +1,15 @@
----
-title: Unlaunchのアンインストール
----
+# Unlaunchのアンインストール
 
 ::: danger
 
-**Unlaunchのインストール・アンインストールでは本体がランダムにブリック（文鎮化）することがあります！ 警告しましたよ！**
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
 
 :::
 
-**警告：**Unlaunchのアンインストールにより、お使いのDSiがブリックする可能性があります。 Unlaunchをアンインストールしたくても、そうせずに済む場合がいくつかあります。例えば：
+**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Unlaunchをアンインストールしたくても、そうせずに済む場合がいくつかあります。例えば：
 
-- **Unlaunchの背景が怖い：**[Unlaunchの再インストール](installing-unlaunch.html)で解決します。 背景を変更する手順も紹介されています
-- **Unlaunchインストール後、Unlaunchや本体に問題が起きている：**[トラブルシューティング](troubleshooting.html#unlaunch)ページに、問題解決に役立つ情報があります
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. 背景を変更する手順も紹介されています
+- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
 
@@ -21,7 +19,7 @@ title: Unlaunchのアンインストール
 
 ::: warning
 
-Unlaunchを削除するとき、本体上でUnlaunch付属のアンインストーラを**使ってはいけません**。本体がブリックするおそれがあります。 正しくアンインストールする方法については、以下をご覧ください。
+When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. 正しくアンインストールする方法については、以下をご覧ください。
 
 :::
 

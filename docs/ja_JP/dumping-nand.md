@@ -1,6 +1,4 @@
----
-title: NANDのバックアップ
----
+# NANDのバックアップ
 
 このページは、NAND（DSi内部ストレージ）のバックアップ作成に関するものです。 hiyaCFWのセットアップや、DSiエミュレータ「No$GBA」や「melonDS」のセットアップに使用できます。
 
@@ -24,20 +22,19 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 :::
 
-1. 最新の[dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)をダウンロードします
-1. SDカードの好きな場所に`dumpTool.nds`を移動します
-
+1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+2. Place `dumpTool.nds` anywhere on your SD card
 
 ## Section II - NANDのバックアップ
 
-1. `dumpTool`をTWiLight Menu++から起動します
-1. NANDのバックアップを開始するには、DSiの<kbd class="face">A</kbd>ボタンを押します
-    - NANDバックアップは通常約7分かかります
-1. NANDバックアップが完了したら、<kbd>START</kbd>ボタンを押してdumpToolを終了します
-1. 本体の電源を切ってSDカードをパソコンなどに挿入します
-1. このバックアップを、安全で、失くす心配のない場所に保管します
-    - 可能であれば、異なるストレージ機器に複数のバックアップを作成します
-    - 他の場所にバックアップできたら、SDカードからは消してOKです
+1. Launch `dumpTool` through TWiLight Menu++
+2. NANDのバックアップを開始するには、DSiの<kbd class="face">A</kbd>ボタンを押します
+   - NANDバックアップは通常約7分かかります
+3. NANDバックアップが完了したら、<kbd>START</kbd>ボタンを押してdumpToolを終了します
+4. 本体の電源を切ってSDカードをパソコンなどに挿入します
+5. このバックアップを、安全で、失くす心配のない場所に保管します
+   - 可能であれば、異なるストレージ機器に複数のバックアップを作成します
+   - 他の場所にバックアップできたら、SDカードからは消してOKです
 
 ::: warning
 

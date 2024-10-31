@@ -1,24 +1,24 @@
----
-title: Backup DSiWare
----
+# Backup DSiWare
 
 ## Requisiti
-- L'ultima versione di [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
-    - Scarica l'archivio, estrai il contenuto e posizionalo `GodMode9i.nds` ovunque sulla tua scheda SD
+
+- The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
+  - Download the archive, extract the contents and place `GodMode9i.nds` anywhere on your SD card
 
 ## Nintendo DSi - Istruzioni
 
 ### Sezione I - Dump dei DSiWare
+
 1. Avvia GodMode9i
-1. Premi <kbd>START</kbd> per aprire il menu START
-1. Seleziona `Gestore titoli...`
-    - Se non appare, assicurarsi di avere la scheda SD e NAND montate. Se lo hai avviato da hiyaCFW, riavvialo da un'altra parte
-1. Seleziona il titolo di cui vuoi creare il dump
-1. Seleziona i dump da effettuare
-1. Ripeti i passaggi 4-5 per tutti i DSiWare di cui desideri effettuare un dump
+2. Premi <kbd>START</kbd> per aprire il menu START
+3. Select `Title manager...`
+   - Se non appare, assicurarsi di avere la scheda SD e NAND montate. Se lo hai avviato da hiyaCFW, riavvialo da un'altra parte
+4. Seleziona il titolo di cui vuoi creare il dump
+5. Seleziona i dump da effettuare
+6. Ripeti i passaggi 4-5 per tutti i DSiWare di cui desideri effettuare un dump
 
 ::: tip
 
-I dump dei DSiWare sono trovati in `sd:/gm9i/out`.
+The dumped DSiWare will be found in `sd:/gm9i/out`.
 
 :::

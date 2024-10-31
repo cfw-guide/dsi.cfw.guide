@@ -1,9 +1,8 @@
----
-title: 故障排查
----
+# 故障排查
 
 ## Unlaunch
-### Unlaunch 停留在 `MISMATCH IN FAT COPIES`
+
+### Unlaunch freezes at `MISMATCH IN FAT COPIES`
 
 在没有正确更新整个NAND时破解，twlnf会有一个关键的bug。 这会导致某些自制程序(如Unlaunch安装程序) 出现错误。
 

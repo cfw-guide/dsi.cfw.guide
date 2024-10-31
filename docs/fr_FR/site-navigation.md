@@ -1,24 +1,25 @@
----
-title: Navigation du site
----
+# Navigation du site
 
 ## Processus du guide principal
-- [Pour commencer](get-started.html)
-- [Lancement de l'exploit (Memory Pit)](launching-the-exploit.html)
-- [Lancement de l'exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-- [Dumping de la NAND](dumping-nand.html)
-- [Installation d'Unlaunch](installing-unlaunch.html)
+
+- [Get Started](get-started.html)
+- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
+- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Dumping NAND](dumping-nand.html)
+- [Installing Unlaunch](installing-unlaunch.html)
 
 ## Sections complémentaires
-- [Configuration de la carte SD](sd-card-setup.html)
-- [Extensions de fichiers (Windows)](file-extensions-windows.html)
-- [Dumping des cartes de jeu](dumping-game-cards.html)
-- [Sauvegardes des DSiWare](dsiware-backups.html)
-- [Désinstallation d'Unlaunch](uninstalling-unlaunch.html)
-- [Restauration de la NAND](restoring-nand.html)
+
+- [SD Card Setup](sd-card-setup.html)
+- [File Extensions (Windows)](file-extensions-windows.html)
+- [Dumping Game Cards](dumping-game-cards.html)
+- [DSiWare Backups](dsiware-backups.html)
+- [Uninstalling Unlaunch](uninstalling-unlaunch.html)
+- [Restoring NAND](restoring-nand.html)
 
 ## Autres pages du site Web
-- [Accueil](.)
-- [Foire Aux Questions (FAQ)](faq.html)
-- [Dépannage](troubleshooting.html)
-- [Crédits](credits.html)
+
+- [Home](index)
+- [Frequently Asked Questions (FAQ)](faq.html)
+- [Troubleshooting](troubleshooting.html)
+- [Credits](credits.html)

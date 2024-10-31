@@ -1,6 +1,4 @@
----
-title: Dumping de la NAND
----
+# Dumping de la NAND
 
 Cette page permet de sauvegarder de la NAND, qui est une copie des données sur le stockage interne de la Nintendo DSi. Elle peut être utilisée pour configurer hiyaCFW, ainsi que no$gba et melonDS pour l'émulation DSi.
 
@@ -24,29 +22,28 @@ Si vous avez déjà téléchargé dumpTool dans une autre section de ce guide, v
 
 :::
 
-1. Téléchargez la dernière version de [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Placez `dumpTool.nds` n'importe où sur votre carte SD
-
+1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+2. Place `dumpTool.nds` anywhere on your SD card
 
 ## Section II - Dumping de la NAND
 
-1. Lancez `dumpTool` via TWiLight Menu++
-1. Appuyez sur le bouton <kbd class="face">A</kbd> de votre Nintendo DSi pour commencer à dumper votre NAND
-    - Une sauvegarde de la NAND prend, généralement, 7 minutes environ
-1. Lorsque la sauvegarde de la NAND est terminée, pressez le bouton <kbd>START</kbd> de votre Nintendo DSi pour quitter dumpTool
-1. Éteignez votre console et réinsérez votre carte SD dans votre périphérique
-1. Stockez cette sauvegarde dans un endroit sûr, là où vous ne la perdrez pas
-    - Si possible, faites plusieurs sauvegardes sur différents périphériques de stockage
-    - Une fois que vous l'avez sauvegardée ailleurs, vous pouvez la supprimer de la carte SD
+1. Launch `dumpTool` through TWiLight Menu++
+2. Appuyez sur le bouton <kbd class="face">A</kbd> de votre Nintendo DSi pour commencer à dumper votre NAND
+   - Une sauvegarde de la NAND prend, généralement, 7 minutes environ
+3. Lorsque la sauvegarde de la NAND est terminée, pressez le bouton <kbd>START</kbd> de votre Nintendo DSi pour quitter dumpTool
+4. Éteignez votre console et réinsérez votre carte SD dans votre périphérique
+5. Stockez cette sauvegarde dans un endroit sûr, là où vous ne la perdrez pas
+   - Si possible, faites plusieurs sauvegardes sur différents périphériques de stockage
+   - Une fois que vous l'avez sauvegardée ailleurs, vous pouvez la supprimer de la carte SD
 
 ::: warning
 
-Le hachage SHA1 de `nand.bin` ne correspondra pas à celui stocké dans `nand.bin.sha1`. Ceci est dû au fait que dumpTool ajoute des données supplémentaires, connues comme un pied de page no$gba, au fichier `nand.bin` après le calcul du hachage SHA1. Vous pouvez utiliser [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) pour créer une copie sans le pied de page.
+The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
 
 :::
 
 ::: tip
 
-Continuer vers [Installation d'Unlaunch](installing-unlaunch.html) (optionnel)
+Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
 
 :::

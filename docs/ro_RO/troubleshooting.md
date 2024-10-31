@@ -1,13 +1,12 @@
----
-title: Troubleshooting
----
+# Troubleshooting
 
 ## Unlaunch
-### Unlaunch îngheață la `MISMATCH IN FAT COPIES`
+
+### Unlaunch freezes at `MISMATCH IN FAT COPIES`
 
 twlnf are o eroare critică în care nu actualizează corect întregul NAND după ce este modificat, ce cauzează anumite aplicații homebrew (precum instalatorul Unlaunch) să afișeze o eroare.
 
-Pentru a remedia asta, deschide [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), și selectează `Fix FAT copy mismatch`.
+To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
 
 ### Nu se aude nimic sau splash-ul de lansare nu apare când lansez "Launcher" în Unlaunch
 

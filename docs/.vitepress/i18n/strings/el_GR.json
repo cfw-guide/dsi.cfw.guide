@@ -1,0 +1,32 @@
+{
+    "title": "Οδηγός DSi",
+    "description": "Ένας πλήρης οδηγός τροποποίησης για το Nintendo DSi σας",
+    "langMenuLabel": "Αλλαγή γλώσσας",
+    "darkModeSwitchLabel": "Εμφάνιση",
+    "darkModeSwitchTitle": "Ενεργοποίηση σκουρόχρωμου θέματος",
+    "lightModeSwitchTitle": "Ενεργοποίηση ανοιχτόχρωμου θέματος",
+    "sidebarMenuLabel": "Μενού",
+    "returnToTopLabel": "Επιστροφή στο πάνω μέρος",
+    "backups": "Αντίγραφα ασφαλείας",
+    "guide": "Οδηγός",
+    "extras": "Πρόσθετο υλικό",
+    "other": "Άλλα",
+    "pages": {
+        "credits": "Ευχαριστίες",
+        "dsiware-backups": "Αντίγραφα ασφαλείας για DSiWare",
+        "dumping-game-cards": "Αποτύπωση κασετών παιχνιδιών",
+        "dumping-nand": "Αποτύπωση της NAND",
+        "faq": "Συχνές ερωτήσεις",
+        "file-extensions-windows": "Επεκτάσεις αρχείων (Windows)",
+        "get-started": "Έναρξη",
+        "installing-unlaunch": "Εγκατάσταση του Unlaunch",
+        "launching-the-exploit": "Εκκίνηση του exploit",
+        "launching-the-browser-exploit": "Εκκίνηση του exploit (stylehax)",
+        "launching-the-flipnote-exploit": "Εκκίνηση του exploit (Flipnote Lenny)",
+        "restoring-nand": "Επαναφορά αντιγράφου ασφαλείας της NAND",
+        "sd-card-setup": "Διαμόρφωση κάρτας SD",
+        "site-navigation": "Πλοήγηση ιστοτόπου",
+        "troubleshooting": "Επίλυση προβλημάτων",
+        "uninstalling-unlaunch": "Αφαίρεση του Unlaunch"
+    }
+}

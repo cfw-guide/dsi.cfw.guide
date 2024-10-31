@@ -1,17 +1,15 @@
----
-title: 卸载 Unlaunch
----
+# 卸载 Unlaunch
 
 ::: danger
 
-**正在安装或卸载Unlaunch，可能会随机是你的机器变砖！ 你已被警告！**
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
 
 :::
 
-**警告:** 卸载Unlaunch可能会砖掉你的 DSi 。 这里有一些关于您可能想要卸载Unlaunch，但并不需要卸载Unlaunch就可解决问题的例子。
+**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. 这里有一些关于您可能想要卸载Unlaunch，但并不需要卸载Unlaunch就可解决问题的例子。
 
 - **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. 它们现在包含关于如何改变背景的说明
-- **没有开机界面，且音乐丢失：** 使用 [新操作说明](troubleshooting.html#unlaunch) 重新安装。 它们现在包含缓解此问题的说明
+- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
 

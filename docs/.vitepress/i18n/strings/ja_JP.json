@@ -1,6 +1,32 @@
 {
     "title": "DSi ガイド",
     "description": "ニンテンドーDSiを改造するための完全なガイド",
-    "discordNoticeText": "[DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/fCzqcWteC4) Discordサーバーに参加してガイドの開発とヘルプをご覧ください。",
-    "search": "検索"
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+    "backups": "バックアップ",
+    "guide": "ガイド",
+    "extras": "応用編",
+    "other": "その他",
+    "pages": {
+        "credits": "クレジット",
+        "dsiware-backups": "DSiWareのバックアップ",
+        "dumping-game-cards": "ゲームカードのダンプ",
+        "dumping-nand": "NANDのバックアップ",
+        "faq": "よくある質問",
+        "file-extensions-windows": "ファイル拡張子（Windows）",
+        "get-started": "はじめる",
+        "installing-unlaunch": "Unlaunchのインストール",
+        "launching-the-exploit": "エクスプロイトの起動",
+        "launching-the-browser-exploit": "Launching the Exploit (stylehax)",
+        "launching-the-flipnote-exploit": "Flipnote Lennyの起動",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "SDカードのセットアップ",
+        "site-navigation": "サイトマップ",
+        "troubleshooting": "トラブルシューティング",
+        "uninstalling-unlaunch": "Unlaunchのアンインストール"
+    }
 }

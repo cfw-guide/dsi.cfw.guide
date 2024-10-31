@@ -1,6 +1,4 @@
----
-title: Configurazione Scheda SD
----
+# Setup Scheda SD
 
 Questa pagina serve a preparare la scheda SD per il tuo dispositivo. In questo processo, formatteremo la scheda SD e controlleremo la presenza di errori.
 
@@ -12,7 +10,7 @@ Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire
 
 ::::: tabs
 
-:::: tab name="Windows" os="windows"
+:::: tab default Windows
 
 ### Sezione I - Formattazione della scheda SD con SD Formatter
 
@@ -97,7 +95,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ::::
 
-:::: tab name="Linux" os="other"
+:::: tab Linux
 
 ::: tip
 
@@ -147,7 +145,7 @@ mmcblk0     179:0    0   3,8G  0 disk
    ```
 5. Esegui `./f3write <la tua scheda sd>`
 
-- Attendi che il processo sia completato. Vedi sotto per un esempio dell'output:
+- Attendi che il processo sia completato. Qui sotto vedrai un esempio di output:
   ```
   $ ./f3read /media/michel/6135-3363/
                     SECTORS      ok/corrupted/changed/overwritten
@@ -179,24 +177,24 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ::::
 
-:::: tab name="macOS" os="macos"
+:::: tab macOS
 
 ### Sezione I - Formattazione della scheda SD con SD Formatter
 
 ::: tip
 
-Questa sezione serve per formattare la scheda SD secondo le specifiche della SD Card Association. Può risolvere moltissimi problemi che potrebbero verificarsi con l'esecuzione di applicazioni homebrew.
+Questa sezione riguarda la formattazione della scheda SD secondo le specifiche della SD Card Association. Questo serve a risolvere problemi che potrebbero verificarsi con l'esecuzione di applicazione homebrew.
 
 :::
 
 ::: danger
 
-Tutte le schede SD da 64GB o più saranno formattate in `exFAT` con questo processo. _Devi_ seguire la Sezione II per riformattare in `FAT32`.
+Tutte le schede SD da 64GB o più grandi saranno formattate in `exFAT` con questo processo. _Devi_ seguire la Sezione II per riformattare in `FAT32`.
 
 :::
 
 1. Scarica la versione più recente di [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
-   - Accetta l'accordo di licenza con l'utente finale per avviare il download
+   - Accetta il Contratto di Licenza per l'Utente Finale per avviare il download
 2. Esefui `Install SD Card Formatter` (il file `.mpkg`) nel file`.zip` scaricato
 3. Esegui `Sd Card Formatter`
 4. Seleziona la tua scheda SD
@@ -209,7 +207,7 @@ Questa sezione serve per formattare schede SD più grandi di 32GB in FAT32.
 
 ::: tip
 
-Se la tua scheda SD ha una capacità di 32GB o meno, salta questa sezione e vai alla Sezione III.
+Se la tua scheda SD ha una capacità di 32GB o minori, salta questa sezione e vai alla Sezione III.
 
 :::
 
@@ -228,7 +226,7 @@ Se la tua scheda SD ha una capacità di 32GB o meno, salta questa sezione e vai 
 
 #### OS X Yosemite (10.10) e precedenti
 
-1. Avvia l'applicazione Utility Disco
+1. Avviare l'applicazione Utility Disco
 2. Seleziona la tua scheda SD dalla barra laterale
    - Assicurati di selezionare il dispositivo correto, altrimenti potresti formattare l'unità sbagliata!
 3. Clicca `Partiziona` in alto
@@ -244,7 +242,7 @@ Se la tua scheda SD ha una capacità di 32GB o meno, salta questa sezione e vai 
 2. Installa F3 da brew esegunedo `brew install f3`
    - Se non hai brew, installalo con le istruzioni su [brew.sh](https://brew.sh)
 3. Con la scheda SD inserita e montata, esegui run `f3write <your sd card mount point>`
-   - Attendi che il processo venga completato. Qui sotto vedrai un esempio di output:
+   - Attendi che il processo sia completato. Qui sotto vedrai un esempio di output:
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -255,7 +253,7 @@ Se la tua scheda SD ha una capacità di 32GB o meno, salta questa sezione e vai 
    Average Writing speed: 4.90 MB/s
    ```
 4. Esegui `./f3read <your sd card mount point>`
-   - Attendi che il processo venga completato. Vedi sotto per un esempio dell'output:
+   - Attendi che il processo sia completato. Qui sotto vedrai un esempio di output:
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten

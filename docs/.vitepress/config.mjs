@@ -13,7 +13,15 @@ export default defineConfig({
     [ 'script', { type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/8406.js' } ],
   ],
   locales: {
-    root: i18n.en_US
+    root: i18n.en_US,
+    de_DE: i18n.de_DE,
+    el_GR: i18n.el_GR,
+    es_ES: i18n.es_ES,
+    fr_FR: i18n.fr_FR,
+    hu_HU: i18n.hu_HU,
+    it_IT: i18n.it_IT,
+    ja_JP: i18n.ja_JP,
+    uk_UA: i18n.uk_UA
   },
   themeConfig: {
     docFooter: {
@@ -69,12 +77,6 @@ export default defineConfig({
     }
   },
   srcExclude: [
-    'de_DE/**',
-    'es_ES/**',
-    'fr_FR/**',
-    'hu_HU/**',
-    'it_IT/**',
-    'ja_JP/**',
     'pl_PL/**',
     'ro_RO/**',
     'zh_CN/**'

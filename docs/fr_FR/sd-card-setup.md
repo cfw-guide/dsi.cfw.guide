@@ -1,6 +1,4 @@
----
-title: Configuration de la carte SD
----
+# Configuration de la carte SD
 
 Cette page est destinée à préparer votre carte SD pour votre appareil. Au cours de ce processus, nous formaterons la carte SD et vérifierons qu'il n'y a pas d'erreurs sur la carte.
 
@@ -12,7 +10,7 @@ Assurez-vous de sauvegarder le contenu de votre carte SD AVANT de continuer. Tou
 
 ::::: tabs
 
-:::: tab name="Windows" os="windows"
+:::: tab default Windows
 
 ### Section I - Formatage de votre carte SD avec SD Formatter
 
@@ -97,7 +95,7 @@ Si le test donne d'autres résultats, votre carte SD est peut-être corrompue ou
 
 ::::
 
-:::: tab name="Linux" os="other"
+:::: tab Linux
 
 ::: tip
 
@@ -179,7 +177,7 @@ Si le test donne d'autres résultats, votre carte SD est peut-être corrompue ou
 
 ::::
 
-:::: tab name="macOS" os="macos"
+:::: tab macOS
 
 ### Section I - Formatage de votre carte SD avec SD Formatter
 

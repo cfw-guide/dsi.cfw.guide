@@ -1,6 +1,32 @@
 {
     "title": "DSi-Anleitung",
     "description": "Die vollständige Anleitung zum Modifizieren deines Nintendo DSi",
-    "discordNoticeText": "Trete dem \"[DS⁽ⁱ⁾ Mode Hacking!](https://discord.gg/fCzqcWteC4)\" Discord Server bei, um Verbesserungen für die Anleitung vorzuschlagen und Hilfe zu erhalten.",
-    "search": "Suche"
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+    "backups": "Backups",
+    "guide": "Anleitung",
+    "extras": "Extras",
+    "other": "Sonstiges",
+    "pages": {
+        "credits": "Credits",
+        "dsiware-backups": "DSiWare Backups",
+        "dumping-game-cards": "Spielkarten dumpen",
+        "dumping-nand": "NAND dumpen",
+        "faq": "Häufig gestellte Fragen",
+        "file-extensions-windows": "Dateierweiterungen (Windows)",
+        "get-started": "Erste Schritte",
+        "installing-unlaunch": "Installation von Unlaunch",
+        "launching-the-exploit": "Den Exploit ausführen",
+        "launching-the-browser-exploit": "Starte die Exploit (Stylehax)",
+        "launching-the-flipnote-exploit": "Starte den Exploit (Flipnote Lenny)",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "Einrichtung der SD-Karte",
+        "site-navigation": "Seteinnavigation",
+        "troubleshooting": "Problembehandlung",
+        "uninstalling-unlaunch": "Unlaunch deinstallieren"
+    }
 }

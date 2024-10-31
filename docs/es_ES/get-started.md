@@ -1,65 +1,60 @@
----
-title: "Empezando el proceso"
----
+# Empezando el proceso
 
-La aplicación homebrew principal que esta guía te ayuda a instalar es **TW**i**L**ight Menu++, que es una versión mejorada/un reemplazo del Menú Nintendo DSi, que te permite ejecutar otras aplicaciones homebrew, juegos comerciales, emuladores para varios sistemas antiguos, y demás.
+The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
 
 Comenzaremos descargándolo, junto con otra(s) herramienta(s) homebrew, a modo de preparación para lanzar un exploit.
 
 ## Requisitos
 
 - Una forma de copiar archivos a tu tarjeta SD
-- Una aplicación que pueda extraer archivos comprimidos, como [7-Zip](https://www.7-zip.org/) (para Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (para macOS), o [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (para Chromebook)
-    - Se recomienda evitar el uso de WinRAR, ya que usualmente arruina el proceso
-    - Si estás usando Windows 11, evitar también usar el extractor incorporado en el sistema (Explorador de archivos), ya que causa un error referente al nombre del archivo siendo inválido o muy grande
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+  - Se recomienda evitar el uso de WinRAR, ya que usualmente arruina el proceso
+  - Si estás usando Windows 11, evitar también usar el extractor incorporado en el sistema (Explorador de archivos), ya que causa un error referente al nombre del archivo siendo inválido o muy grande
 
 ## Sección I - Preparación
 
 ::: warning
 
-Asegúrate de que tu tarjeta SD esté [formateada correctamente](sd-card-setup.html).
+Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 :::
 
 1. Inserta tu tarjeta SD en tu ordenador
-1. Descarga la versión más reciente de [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - Si no se descarga, abre la página [de "Releases"](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), y descarga a `TWiLightMenu-DSi.7z`
-1. Descarga la versión más reciente de [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Abre a `TWiLightMenu-DSi.7z`
-    - Si estás a utilizar el Windows, asegúrate de que 7-Zip está instalado, entonces siga estos pasos:
-        1. Pulse con el botón derecho del ratón en `TWiLightMenu-DSi.7z`
-        1. Si estás a usar el Windows 11, pulse `Mostrar más opciones`
-        1. Pasa el cursor por encima de `7-zip`
-        1. Pulse `Abrir comprimido`
-1. Copia la carpeta `_nds` del archivo `TWiLightMenu.DSi.7z` a la carpeta raíz de tu tarjeta SD
-1. Copia el archivo `BOOT.NDS` del archivo `TWiLightMenu-DSi.7z` a la carpeta raíz de tu tarjeta SD
-1. Sal de `TWiLightMenu-DSi.7z`
-1. Copia el archivo `dumpTool.nds` a la carpeta raíz de tu tarjeta SD
+2. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+   - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
+3. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+4. Open `TWiLightMenu-DSi.7z`
+   - Si estás a utilizar el Windows, asegúrate de que 7-Zip está instalado, entonces siga estos pasos:
+     1. Right-click on `TWiLightMenu-DSi.7z`
+     2. If using Windows 11, click `Show more options`
+     3. Hover over `7-zip`
+     4. Click `Open archive`
+5. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
+6. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
+7. Close `TWiLightMenu-DSi.7z`
+8. Copy the `dumpTool.nds` file to the root of your SD card
 
 ::: tip
 
-Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [esta imagen](/assets/images/sdroot/es_ES.png).
+Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [See this image](/assets/images/sdroot/en_US.png)
 
 :::
-
 
 ## Sección II - Elegir un exploit
 
 A partir de aquí, tienes tres opciones, cada una implica un proceso ligeramente distinto.
 
-
 ### Instalar Unlaunch usando Memory Pit
 
 Memory Pit es un exploit que utiliza la aplicación Cámara Nintendo DSi, compatible con todas las versiones de firmware. De forma opcional, este exploit puede ser usado para instalar Unlaunch, un exploit de código de arranque que permite control total de la consola al encenderla.
 
-Ya que Memory Pit está algo limitado en cuanto a compatibilidad, se recomienda instalar Unlaunch en lugar de usar Memory Pit exclusivamente. Ya que este es el método más fácil de instalar Unlaunch, esta es la opción recomendada. Sin embargo, hay un pequeñísimo riesgo de causar un **bloqueo total** de la consola al instalar Unlaunch, así que si la posibilidad te preocupa, echa un vistazo al método de más abajo.
+Ya que Memory Pit está algo limitado en cuanto a compatibilidad, se recomienda instalar Unlaunch en lugar de usar Memory Pit exclusivamente. Ya que este es el método más fácil de instalar Unlaunch, esta es la opción recomendada. However, there is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, see the alternate method below.
 
 ::: tip
 
-Continuar a [Lanzar el Exploit](launching-the-exploit.html)
+Continue to [Launching the Exploit](launching-the-exploit.html)
 
 :::
-
 
 ### stylehax
 
@@ -69,10 +64,9 @@ Si no quieres instalar Unlaunch, se recomienda usar este exploit ya que Memory P
 
 ::: tip
 
-Continuar a [Lanzar el Exploit (stylehax)](launching-the-browser-exploit.html)
+Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
-
 
 ### Flipnote Lenny
 
@@ -84,8 +78,8 @@ Siempre puedes instalar Unlaunch más tarde si es lo que deseas.
 
 ::: tip
 
-Continuar a [Lanzar el Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+Continue to [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 
 :::
 
-Para una comparación más detallada de ventajas y desventajas de cada exploit, echa un vistazo a la pregunta [¿Cuál es el mejor exploit?](faq.html#which-is-the-best-exploit) en la página de Preguntas Frecuentes.
+For a more detailed pros and cons comparision of the available exploits, please see the [Which is the best exploit?](faq.html#which-is-the-best-exploit) FAQ.

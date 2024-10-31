@@ -1,9 +1,8 @@
----
-title: Rozwiązywanie problemów
----
+# Troubleshooting
 
 ## Unlaunch
-### Czy Unlaunch zamraża się na `MISMATCH IN FAT COPIES`
+
+### Unlaunch freezes at `MISMATCH IN FAT COPIES`
 
 twlnf ma krytyczny błąd, w którym nie aktualizuje poprawnie całego NAND po jego modyfikacji, który powoduje, że niektóre homebrew (takie jak Unlaunch installer) wyrzucą błąd.
 

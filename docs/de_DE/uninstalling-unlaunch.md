@@ -1,17 +1,15 @@
----
-title: Unlaunch Deinstallieren
----
+# Unlaunch deinstallieren
 
 ::: danger
 
-**Die Installation oder Deinstallation von Unlaunch könnte deine Konsole beschädigen! Du wurdest gewarnt!**
+**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
 
 :::
 
-**WARNUNG:** Die Deinstallation von Unlaunch könnte deinen Nintendo DSi beschädigen. Dies könnten Gründe sein, warum du Unlaunch deinstallieren willst, aber mit Lösungen die keine Deinstallation benötigen.
+**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Dies könnten Gründe sein, warum du Unlaunch deinstallieren willst, aber mit Lösungen die keine Deinstallation benötigen.
 
-- **Der Unlaunch-Hintergrund ist fürchterlich/gefällt mir nicht:** [Installiere Unlaunch](installing-unlaunch.html) mit der neuen Anleitung neu. Sie beschreiben einen Weg, den Hintergrund zu ändern
-- **Ich habe ein Problem mit Unlaunch oder der Konsole nach der Installation:** Die [Troubleshooting](troubleshooting.html#unlaunch) Seite erklärt Lösungen für Probleme die sie haben könnten
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Sie beschreiben einen Weg, den Hintergrund zu ändern
+- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
 
@@ -21,10 +19,10 @@ Um das Risiko zu verringern, den DSi zu beschädigen, stelle sicher, dass du kei
 
 ::: warning
 
-Wenn du Unlaunch deinstallieren willst, verwende bitte **NICHT** den eingebauten Deinstallierer, da er deine Konsole zerstören könnte. Siehe die korrekte Information zur Deinstallation unten.
+When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Siehe die korrekte Information zur Deinstallation unten.
 
 :::
 
-Sobald Sie die obigen Informationen überprüft haben, folgen Sie den Anweisungen [Dumping NAND](dumping-nand.html) um ein neues NAND-Backup zu erstellen dann gehen Sie zu [Wiederherstellung eines NAND Backup](restoring-nand.html). Dies führt Sie durch die Deinstallation aus dem NAND-Backup und das Flashen auf Ihre Konsole.
+Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Dies führt Sie durch die Deinstallation aus dem NAND-Backup und das Flashen auf Ihre Konsole.
 
 Wenn Sie nach der Deinstallation in keinem $gba keinen $gba verwenden oder einen Fehler bekommen können, ist es auch möglich, ein NAND-Backup vor der Installation von Unstart zu flashen, falls Sie eines noch haben es wird jedoch empfohlen, zunächst ein NAND-Backup zu verwenden, das zuvor Unstart hatte. Dies wird die Wiederherstellung im Fall eines Bausteins erheblich erleichtern, der eine Hardmod benötigt, da Unlaunch die keine$gba Fußzeile im NAND enthält, auch wenn sie deinstalliert wird.

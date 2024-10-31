@@ -1,0 +1,32 @@
+{
+    "title": "Посібник DSi",
+    "description": "Повний посібник по модифікації Nintendo DSi",
+    "langMenuLabel": "Switch language",
+    "darkModeSwitchLabel": "Appearance",
+    "darkModeSwitchTitle": "Switch to dark theme",
+    "lightModeSwitchTitle": "Switch to light theme",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Return to top",
+    "backups": "Резервні копії",
+    "guide": "Посібник",
+    "extras": "Додатково",
+    "other": "Інше",
+    "pages": {
+        "credits": "Подяки",
+        "dsiware-backups": "Резервні копії DSiWare",
+        "dumping-game-cards": "Копіювання даних з Ігрових Картриджів",
+        "dumping-nand": "Створення резервної копії NAND",
+        "faq": "ЧаПи",
+        "file-extensions-windows": "Розширення файлів (Windows)",
+        "get-started": "Початок",
+        "installing-unlaunch": "Встановлення Unlaunch",
+        "launching-the-exploit": "Запуск експлойту",
+        "launching-the-browser-exploit": "Запуск експлойту (stylehax)",
+        "launching-the-flipnote-exploit": "Запуск експлойту (Flipnote Lenny)",
+        "restoring-nand": "Restoring a NAND Backup",
+        "sd-card-setup": "Конфігурація SD карти",
+        "site-navigation": "Навігація по сайту",
+        "troubleshooting": "Розв'язання проблем",
+        "uninstalling-unlaunch": "Видалення Unlaunch"
+    }
+}

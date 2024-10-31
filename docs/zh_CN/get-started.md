@@ -1,52 +1,48 @@
----
-title: "开始"
----
+# 开始
 
-本指南所安装的主要自制程序是 **TW**i**L**ight Menu++， 这是对 Nintendo DSi 菜单的升级/替换，允许运行其他自制应用程序，零售DS 游戏，各种旧平台的模拟器等等。
+The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
 
 我们将从下载它以及其他一些自制程序工具开始，以便为接下来的利用漏洞破解做准备。
 
-## 安装要求
+## 首先需要…
 
 - 将下载的文件复制到SD卡的方法
-- 可以解压档案的应用程序，例如 [7-Zip](https://www.7-zip.org/) (Windows) 或 [The Unarchiver](https://apps.apple.com/cn/app/the-unarchiver/id425424353) (macOS)
-    - 我们不建议您使用WinRAR，因为它可能会损坏数据
-    - 如果您正在使用 Windows 11，我们也建议您不要使用它的内置解压 (Windows资源管理器)， 它会导致一个错误，说文件名太长或无效
+- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+  - 我们不建议您使用WinRAR，因为它可能会损坏数据
+  - 如果您正在使用 Windows 11，我们也建议您不要使用它的内置解压 (Windows资源管理器)， 它会导致一个错误，说文件名太长或无效
 
 ## 第一步 – 准备工作
 
 ::: warning
 
-确保你的SD卡已[正确格式化](sd-card-setup.html)。
+Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 :::
 
 1. 将您的 SD 卡插入计算机
-1. 下载最新版本的 [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - 点击后如果没有自动下载，那么就打开 [发布页](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), 并下载 `TWiLightMenu-DSi.7z`
-1. 下载最新版本的 [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. 打开 `TWiLightMenu-DSi.7z`
-    - 如果您正在使用 Windows，请确认 7-Zip 已经安装，然后遵循以下步骤：
-        1. 右击 `TWiLightMenu-DSi.7z`
-        1. 如果使用 Windows 11，点击 `显示更多选项`
-        1. 鼠标移动到 `7-zip`
-        1. 点击`打开文件`
-1. 将 `TWiLightMenu-DSi.7z` 中的 `_nds` 文件夹解压到SD卡的根目录
-1. 将`TWiLightMenu-DSi.7z` 中的 `BOOT.NDS`文件解压到SD卡的根目录
-1. 关闭 `TWiLightMenu-DSi.7z`
-1. 将 `dumpTool.nds` 文件复制到SD卡的根目录下
+2. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+   - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
+3. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+4. Open `TWiLightMenu-DSi.7z`
+   - 如果您正在使用 Windows，请确认 7-Zip 已经安装，然后遵循以下步骤：
+     1. Right-click on `TWiLightMenu-DSi.7z`
+     2. If using Windows 11, click `Show more options`
+     3. Hover over `7-zip`
+     4. Click `Open archive`
+5. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
+6. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
+7. Close `TWiLightMenu-DSi.7z`
+8. Copy the `dumpTool.nds` file to the root of your SD card
 
 ::: tip
 
-不确定SD卡"根目录"是什么？ [查看此图像](/assets/images/sdroot/en_US.png)
+不确定SD卡"根目录"是什么？ [See this image](/assets/images/sdroot/en_US.png)
 
 :::
-
 
 ## 第二步 — 选择漏洞
 
 从这里开始，你有三个选项，每个选项的工作量略有不同。
-
 
 ### Installing Unlaunch via Memory Pit
 
@@ -60,7 +56,6 @@ Continue to [Launching the Exploit](launching-the-exploit.html)
 
 :::
 
-
 ### stylehax
 
 stylehax is an exploit utilizing the DSi Browser application, and can be used as an alternative to Memory Pit for installing Unlaunch (explained above) if your DSi has a broken camera.
@@ -72,7 +67,6 @@ For an Unlaunch-free experience, this exploit is recommended as using Memory Pit
 Continue to [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 
 :::
-
 
 ### Flipnote Lenny
 
