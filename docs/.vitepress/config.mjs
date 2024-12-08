@@ -12,6 +12,9 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/assets/favicon/favicon.ico' }],
     [ 'script', { type: 'text/javascript', src: '//cdn.thisiswaldo.com/static/js/8406.js' } ],
   ],
+  sitemap: {
+    hostname: 'https://dsi.cfw.guide'
+  },
   locales: {
     root: i18n.en_US,
     de_DE: i18n.de_DE,
