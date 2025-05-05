@@ -123,6 +123,13 @@ mmcblk0     179:0    0   3,8G  0 disk
     - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32` 
       - This creates a single FAT32 partition with 32 KB cluster size on the SD card
 
+::: tip
+
+If you get an error message saying: `mkdosfs: /dev/(device name) contains a mounted file system`, you will need to `sudo umount /dev/(device name from above)` in order to complete the above step.
+You should then reinsert the SD card **or** recreate the MOUNTPOINT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) to continue.
+
+:::
+
 ### Section II - Using F3
 1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v7.2.zip) anywhere on your computer.
 1. Launch the terminal in the F3 directory
