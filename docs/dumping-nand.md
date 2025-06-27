@@ -34,7 +34,7 @@ If you have already downloaded dumpTool from another section of this guide, you 
 1. When the NAND backup is complete, hit the <kbd>START</kbd> button on your Nintendo DSi to exit dumpTool
 1. Power off your console and insert your SD card back into your device
 1. On the SD card, go to where `dumpTool.nds` is placed, and you'll see a new folder called `DT######...` which contains the NAND backup
-    - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 checksum of the backup
+    - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 hash of the backup
 1. Store the `DT######...` folder somewhere safe, where you won't lose it
     - If possible, make multiple backups across different storage devices
     - Once you've backed it up elsewhere, you can delete it from the SD card
