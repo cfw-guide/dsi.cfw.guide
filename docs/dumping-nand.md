@@ -28,7 +28,8 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 ## Section II - Dumping the NAND
 
-1. Launch `dumpTool` through TWiLight Menu++
+1. Launch `dumpTool` through the menu you have installed
+    - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
 1. Hit the <kbd class="face">A</kbd> button on your Nintendo DSi to start dumping your NAND
     - A NAND backup typically takes around 7 minutes
 1. When the NAND backup is complete, hit the <kbd>START</kbd> button on your Nintendo DSi to exit dumpTool
