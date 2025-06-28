@@ -1,8 +1,6 @@
 # Get Started
 
-The main homebrew application this guide has you install is **TW**i**L**ight Menu++, which is an upgrade/replacement to the Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more. 
-
-We'll begin with downloading it as well as some other homebrew tool(s), in preparation for the exploit steps.
+We'll begin with downloading some homebrew tool(s), in preparation for the exploit steps.
 
 ## Requirements
 
@@ -20,19 +18,9 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 :::
 
 1. Insert your SD card into your PC
-1. Download the latest release of [TWiLight Menu++](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-    - If it does not download, open the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest), and download `TWiLightMenu-DSi.7z`
 1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Open `TWiLightMenu-DSi.7z`
-    - If you're using Windows, ensure 7-Zip is installed, then follow these steps:
-	    1. Right-click on `TWiLightMenu-DSi.7z`
-		1. If using Windows 11, click `Show more options`
-		1. Hover over `7-zip`
-		1. Click `Open archive`
-1. Copy the `_nds` folder from `TWiLightMenu-DSi.7z` to the root of your SD card
-1. Copy the `BOOT.NDS` file from `TWiLightMenu-DSi.7z` to the root of your SD card
-1. Close `TWiLightMenu-DSi.7z`
 1. Copy the `dumpTool.nds` file to the root of your SD card
+1. Rename `dumpTool.nds` to `boot.nds`
 
 ::: tip
 
