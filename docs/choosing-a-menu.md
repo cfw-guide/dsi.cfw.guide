@@ -53,7 +53,7 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 
 ### Pros
 
-- The most lightweight menu available.
+- The fastest and most lightweight menu available.
 - No features are missing from the menu (ex. start menu and graphical info/settings menu) when compared to the Wood UI menu from TWLMenu++.
 - Customizeable by installing user-made custom themes.
 - Unlaunch is not required to use this.
