@@ -4,7 +4,7 @@ There are three menus available in order to launch games. Choose whichever one t
 
 ## [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)
 
-This is custom firmware which redirects NAND access to the SD card, and as a result, runs the DSi system menu along with system applications and DSiWare from the SD card instead of the system memory.
+The first and only custom firmware which redirects NAND access to the SD card, and as a result, runs the DSi system menu along with system applications and DSiWare from the SD card instead of the system memory.
 
 Install this if you're looking for an experience which is close to stock as possible.
 
@@ -43,8 +43,9 @@ This is developed an upgrade/replacement to the original Nintendo DSi Menu that 
 
 ### Cons
 
-- The DSi Menu UI has a few inaccuracies, such as the music being shortend and in low quality, different scrolling when dragging the scroll bar, and different transparency on the edges of the username text.
+- The DSi Menu UI has a few inaccuracies, such as the music being shortened and in low quality, different scrolling when dragging the scroll bar, and different transparency on the edges of the username text.
 - The Wood UI theme is missing some features, such as the start menu.
+- Can take a few seconds to switch between menus, such as the ROM selection menu, the DS Classic Menu, and/or Settings menu.
 
 ## [akmenu-next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2)
 
