@@ -63,7 +63,7 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 
 - Restricted to only launching DS or DSi games. To launch games from prior consoles, you'll need to install emulators.
 - Music and/or sound effects cannot be used.
-- Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually
+- Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually.
 
 ## After installation
 
