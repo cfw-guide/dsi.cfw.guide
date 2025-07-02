@@ -18,9 +18,8 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 :::
 
 1. Insert your SD card into your PC
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-1. Copy the `dumpTool.nds` file to the root of your SD card
-1. Rename `dumpTool.nds` to `boot.nds`
+1. Download the latest release of [dumpTool](/assets/files/dumptool/boot.nds) as `boot.nds`
+1. Copy the `boot.nds` file to the root of your SD card
 
 ::: tip
 
