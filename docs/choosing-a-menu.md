@@ -2,6 +2,8 @@
 
 There are three menus available in order to launch games. Choose whichever one that suits your needs.
 
+If you are unsure which one to use, then choose **TW**i**L**ight Menu++.
+
 ## [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)
 
 The first and only custom firmware which redirects NAND access to the SD card, and as a result, runs the DSi system menu along with system applications and DSiWare from the SD card instead of the system memory.
