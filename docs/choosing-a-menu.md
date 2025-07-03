@@ -2,7 +2,7 @@
 
 There are three menus available in order to launch games. Choose whichever one that suits your needs.
 
-If you are unsure which one to use, then choose **TW**i**L**ight Menu++.
+If you are unsure (or cannot decide) which one to use, then choose **TW**i**L**ight Menu++.
 
 ## [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)
 
