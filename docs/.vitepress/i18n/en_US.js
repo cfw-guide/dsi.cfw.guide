@@ -60,6 +60,7 @@ const themeConfig = {
 					{ text: localeData.pages["launching-the-browser-exploit"], link: `/launching-the-browser-exploit` },
 					{ text: localeData.pages["launching-the-flipnote-exploit"], link: `/launching-the-flipnote-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/dumping-nand` },
+					{ text: localeData.pages["choosing-a-menu"], link: `/choosing-a-menu` }
 					{ text: localeData.pages["installing-unlaunch"], link: `/installing-unlaunch` }
 				]
 			},
@@ -73,6 +74,7 @@ const themeConfig = {
 					{ text: localeData.pages["get-started"], link: `/get-started`}, 
 					{ text: localeData.pages["launching-the-browser-exploit"], link: `/launching-the-browser-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/dumping-nand` },
+					{ text: localeData.pages["choosing-a-menu"], link: `/choosing-a-menu` }
 					{ text: localeData.pages["installing-unlaunch"], link: `/installing-unlaunch` }
 				]
 			},
@@ -86,6 +88,7 @@ const themeConfig = {
 					{ text: localeData.pages["get-started"], link: `/get-started`}, 
 					{ text: localeData.pages["launching-the-flipnote-exploit"], link: `/launching-the-flipnote-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/dumping-nand` },
+					{ text: localeData.pages["choosing-a-menu"], link: `/choosing-a-menu` }
 					{ text: localeData.pages["installing-unlaunch"], link: `/installing-unlaunch` }
 				]
 			},
@@ -99,6 +102,7 @@ const themeConfig = {
 					{ text: localeData.pages["get-started"], link: `/get-started`}, 
 					{ text: localeData.pages["launching-the-exploit"], link: `/launching-the-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/dumping-nand` },
+					{ text: localeData.pages["choosing-a-menu"], link: `/choosing-a-menu` }
 					{ text: localeData.pages["installing-unlaunch"], link: `/installing-unlaunch` }
 				]
 			},
