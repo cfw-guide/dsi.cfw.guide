@@ -45,7 +45,7 @@ This is developed an upgrade/replacement to the original Nintendo DSi Menu that 
 
 ### Cons
 
-- The DSi Menu UI has a few inaccuracies, such as the music being shortened and in low quality, different scrolling when dragging the scroll bar, and different transparency on the edges of the username text.
+- The DSi Menu UI has a few inaccuracies, such as the music being shortened and in low quality (can be worked around with an add-on), and different scrolling when dragging the scroll bar.
 - The Wood UI theme is missing some features, such as the start menu.
 - Can take a few seconds to switch between menus, such as the ROM selection menu, the DS Classic Menu, and/or Settings menu.
 
