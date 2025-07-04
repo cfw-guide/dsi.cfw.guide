@@ -28,16 +28,19 @@ If you have already downloaded dumpTool from another section of this guide, you 
 
 ## Section II - Dumping the NAND
 
-1. Launch `dumpTool` through TWiLight Menu++
+1. Launch `dumpTool` through the menu you have installed
+    - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
 1. Hit the <kbd class="face">A</kbd> button on your Nintendo DSi to start dumping your NAND
     - A NAND backup typically takes around 7 minutes
 1. When the NAND backup is complete, hit the <kbd>START</kbd> button on your Nintendo DSi to exit dumpTool
 1. Power off your console and insert your SD card back into your device
 1. On the SD card, go to where `dumpTool.nds` is placed, and you'll see a new folder called `DT######...` which contains the NAND backup
+    - If dumpTool is downloaded from the [Get Started](get-started.html) page, it'll be named `boot.nds`
     - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 hash of the backup
 1. Store the `DT######...` folder somewhere safe, where you won't lose it
     - If possible, make multiple backups across different storage devices
     - Once you've backed it up elsewhere, you can delete it from the SD card
+1. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete it from the SD card root
 
 ::: warning
 
@@ -47,6 +50,6 @@ The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Continue to [Choosing a Menu](choosing-a-menu.html)
 
 :::

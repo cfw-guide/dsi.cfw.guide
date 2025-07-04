@@ -29,26 +29,52 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
     - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
-1. Verify you still have TWiLight Menu++ on your SD card
-    - If you are unsure, follow the instructions from the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
 
 ## Section II - Installing/Updating Unlaunch
 
-1. Open TWiLight Menu++
-    - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the [exploit that you used](launching-the-exploit.html)
-    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option labeled `TWiLight Menu++`
-    - If several options are labeled `TWiLight Menu++`, select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
-      - This happens because you are running an older version of TWiLight Menu++, unless you're doing it on purpose, is suggested that you [update your installation](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-1. Launch TWiLight Menu++ Settings
-    - If you haven't changed your theme, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Otherwise, see the TWiLight Menu++ Manual
+### With Custom Patches and Background
+
+::: warning
+
+If you are not using **TW**i**L**ight Menu++, then follow the `No Custom Patches and Background` method below.
+
+:::
+
+The DSi Menu music will play from both the system itself and hiyaCFW (if installed).     
+Using a custom background is also possible.
+
+1. Open **TW**i**L**ight Menu++
+    - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
+    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the `TWiLight Menu++` option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
+1. Launch **TW**i**L**ight Menu++ Settings
+    - If you haven't changed the UI, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Otherwise, see the TWiLight Menu++ Manual
 1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
 1. If you want to change Unlaunch's background image, select `Background` and choose the one you want
     - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
 1. Exit TWiLight Menu++ Settings
-1. In the file navigation menu, launch `Unlaunch DSi Installer`
-    - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`    
-   This method does not enable Unlaunch to use custom patches and background
-1. Select the "install now" option
+1. In the menu where the icons are listed, launch `Unlaunch DSi Installer` (listed as `UNLAUNCH.DSI` depending on which menu is used and/or how it's displayed)
+1. Select the `Install now` option
+    - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
+1. When completed, reboot your system
+
+If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
+- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
+
+### No Custom Patches and Background
+
+The DSi Menu music will not play after you've installed Unlaunch. If you're using hiyaCFW or plan to, the music will still play there.     
+Also, using a custom background is not possible.
+
+1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
+    - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
+	- If you have not installed either of those menus, and you are looking to install hiyaCFW, start the [exploit that you used](launching-the-exploit.html) in order to start GodMode9**i**, then open the SD card (listed as `sd:`)
+    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
+1. If you are using **TW**i**L**ight Menu++, then launch it's settings menu
+    - If you haven't changed the UI, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Otherwise, see the **TW**i**L**ight Menu++ Manual
+	1. Press `L`/`R` to switch to the Unlaunch settings page
+	1. Turn off the `Unlaunch Patches` setting
+1. In the menu where the icons are listed, launch `Unlaunch DSi Installer` (listed as `UNLAUNCH.DSI` depending on which menu is used and/or how it's displayed)
+1. Select the `Install now` option
     - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. When completed, reboot your system
 
@@ -61,11 +87,10 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
 
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
     - This should launch the Unlaunch Filemenu
-    - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
+    - If nothing is listed, or if only the NAND contents are listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
 1. Navigate to `OPTIONS`, and look at the available options
     - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> is hardcoded to launch into Unlaunch's menu, and as such cannot be changed
-    - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew, the Slot-1 card, wifiboot, or Unlaunch's Filemenu
-      - For TWiLight Menu++, select  `TWiLight Menu++`
+    - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
       - For the original DSi Menu, select `Launcher`
     - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
 1. Select `SAVE & EXIT` to save your settings, then turn off your DSi
