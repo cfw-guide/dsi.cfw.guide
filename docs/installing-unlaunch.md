@@ -74,6 +74,7 @@ Also, using a custom background is not possible.
 	1. Press `L`/`R` to switch to the Unlaunch settings page
 	1. Turn off the `Unlaunch Patches` setting
 1. In the menu where the icons are listed, launch `Unlaunch DSi Installer` (listed as `UNLAUNCH.DSI` depending on which menu is used and/or how it's displayed)
+    - If using GodMode9**i**, select `Boot file (Direct)`
 1. Select the `Install now` option
     - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
 1. When completed, reboot your system
