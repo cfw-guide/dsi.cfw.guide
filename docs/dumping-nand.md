@@ -40,7 +40,7 @@ If you have already downloaded dumpTool from another section of this guide, you 
 1. Store the `DT######...` folder somewhere safe, where you won't lose it
     - If possible, make multiple backups across different storage devices
     - Once you've backed it up elsewhere, you can delete it from the SD card
-1. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete it from the SD card root
+1. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 
