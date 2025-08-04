@@ -29,6 +29,7 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
     - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
 1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
+    - If using akmenu-next, rename `UNLAUNCH.DSI` to `UNLAUNCH.NDS`
 
 ## Section II - Installing/Updating Unlaunch
 
