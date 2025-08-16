@@ -1,5 +1,7 @@
 # Installing Unlaunch
 
+You are about to install Unlaunch, a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+
 ::: warning
 
 If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
@@ -23,8 +25,6 @@ Make sure your console is charged when following this process. A sudden power lo
 Unlaunch is not compatible with Nintendo DSi development consoles.
 
 :::
-
-You are about to install Unlaunch, a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
 
 ## Section I - SD card setup
 
