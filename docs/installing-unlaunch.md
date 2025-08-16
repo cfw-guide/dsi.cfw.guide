@@ -24,6 +24,8 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 :::
 
+You are about to install Unlaunch, a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+
 ## Section I - SD card setup
 
 1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
@@ -32,13 +34,12 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 ## Section II - Installing/Updating Unlaunch
 
+If you are using **TW**i**L**ight Menu++, then follow the `Custom Patches and Background` method below.     
+Otherwise, if you are using either akmenu-next or hiyaCFW (or plan to install the latter), follow the `No Custom Patches and Background` method.
+
+If you want to try a different menu later, the changes applied by either method you followed will persist on the console.
+
 ### With Custom Patches and Background
-
-::: warning
-
-If you are not using **TW**i**L**ight Menu++, then follow the `No Custom Patches and Background` method below.
-
-:::
 
 The DSi Menu music will play from both the system itself and hiyaCFW (if installed).     
 Using a custom background is also possible.
