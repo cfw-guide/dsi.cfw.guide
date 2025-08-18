@@ -17,7 +17,7 @@ Try ejecting the SD card and powering the console on again. If it still only sho
 
 ### Powering off in the DSi Menu takes 5-10 seconds
 
-The only solutions are rebooting with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
+The only solutions are starting the DSi Menu with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### After installing Unlaunch, I'm stuck booting into an application or the Unlaunch Filemenu
 
