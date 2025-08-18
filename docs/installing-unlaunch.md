@@ -28,57 +28,26 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 
 ## Section I - SD card setup
 
-1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
-    - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
-1. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
+1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
+1. Place `unlaunch-installer.dsi` anywhere on your SD card
 
 ## Section II - Installing/Updating Unlaunch
-
-If you are using **TW**i**L**ight Menu++, then follow the `Custom Patches and Background` method below.     
-Otherwise, if you are using either akmenu-next or hiyaCFW (or plan to install the latter), follow the `No Custom Patches and Background` method.
-
-If you want to try a different menu later, the changes applied by either method you followed will persist on the console.
-
-### With Custom Patches and Background
-
-The DSi Menu music will play from both the system itself and hiyaCFW (if installed).     
-Using a custom background is also possible.
-
-1. Open **TW**i**L**ight Menu++
-    - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
-    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the `TWiLight Menu++` option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
-1. Launch **TW**i**L**ight Menu++ Settings
-    - If you haven't changed the UI, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Otherwise, see the TWiLight Menu++ Manual
-1. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
-1. If you want to change Unlaunch's background image, select `Background` and choose the one you want
-    - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-1. Exit TWiLight Menu++ Settings
-1. In the menu where the icons are listed, launch `Unlaunch DSi Installer` (listed as `UNLAUNCH.DSI` depending on which menu is used and/or how it's displayed)
-1. Select the `Install now` option
-    - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
-1. When completed, reboot your system
-
-If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
-- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
-
-### No Custom Patches and Background
-
-The DSi Menu music will not play after you've installed Unlaunch. If you're using hiyaCFW or plan to, the music will still play there.     
-Also, using a custom background is not possible.
 
 1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
     - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
 	- If you have not installed either of those menus, and you are looking to install hiyaCFW, start the [exploit that you used](launching-the-exploit.html) in order to start GodMode9**i**, then open the SD card (listed as `sd:`)
     - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
-1. If you are using **TW**i**L**ight Menu++, then launch it's settings menu
-    - If you haven't changed the UI, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Otherwise, see the **TW**i**L**ight Menu++ Manual
-	1. Press `L`/`R` to switch to the Unlaunch settings page
-	1. Turn off the `Unlaunch Patches` setting
-1. In the menu where the icons are listed, launch `Unlaunch DSi Installer` (listed as `UNLAUNCH.DSI` depending on which menu is used and/or how it's displayed)
-    - If using GodMode9**i**, select `Boot file (Direct)` after selecting `UNLAUNCH.DSI`
-1. Select the `Install now` option
-    - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
-1. When completed, reboot your system
+1. In the menu where the icons are listed, launch `Safe Unlaunch installer` (listed as `unlaunch-installer.dsi` depending on which menu is used and/or how it's displayed)
+    - If using GodMode9**i**, select `Boot file (Direct)` after selecting `unlaunch-installer.dsi`
+1. Press the `A` button after the `WARNING` message appears
+    - If the battery LED is red, it'll tell you to plug in the console. Select `Yes` to continue after plugging it in
+1. If Unlaunch is already installed, select the `Uninstall unlaunch` or `Restore launcher tmd` option, and press `A` once it's done
+1. If you want to change the default background, select `[Custom background]` and press `A` to select the one you want to use
+    - You can put custom backgrounds in a folder called `backgrounds` on the SD card root
+1. If you want to keep both the DSi splash (with health and safety message) and the sound in the DSi system menu, select `Enable sound and splash` and press `A` to turn it on
+1. Select the `Install unlaunch` option, and press the `A` button
+1. Press the `A` button once installation is done
+1. Press `POWER` to reboot your system
 
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
 - If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
