@@ -41,10 +41,9 @@ To check, press the <kbd class="face">POWER</kbd> button and immediately hold th
 
 ## Section III - Memory Pit
 
-Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions. Optionally, this exploit can be used to install Unlaunch.
+Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions.
 
-There is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, use an [alternate exploit](alternate-exploits.html) instead, or proceed with the guide normally, but avoid installing Unlaunch.     
-Keep in mind that if you don't install Unlaunch, homebrew compatibility will be somewhat limited if you only use Memory Pit.
+If using the exploit without installing Unlaunch, compatibility with some homebrews could be limited. If you encounter issues with DSi homebrews, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
 
 ::: tip
 
