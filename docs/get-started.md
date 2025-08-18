@@ -34,7 +34,7 @@ Unlaunch is a bootcode exploit which gets installed onto the DSi console itself,
 
 Some DSi consoles that are sold as used/refurbished might already have Unlaunch installed.
 
-To check, press the `POWER` button and immediately hold the `A`+`B` buttons.
+To check, press the <kbd class="face">POWER</kbd> button and immediately hold the <kbd class="face">A</kbd> + <kbd class="face">B</kbd> buttons.
 - If you see a menu which shows `Nocash Unlaunch.dsi` on the top screen, this means Unlaunch is already installed, and you can continue with [dumping the NAND](dumping-nand.html).
 - If the DSi starts normally with the DSi Menu appearing, proceed with Section III.
 
