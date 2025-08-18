@@ -54,7 +54,7 @@ If you see Unlaunch's Filemenu screen at this point, you have successfully modde
 
 ## Section III - Post-Unlaunch configuration
 
-Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed launch whatever you want.
+Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed to launch whatever you want.
 
 1. Power on your console while holding <kbd class="face">A</kbd> and <kbd class="face">B</kbd>
     - This should launch the Unlaunch Filemenu
