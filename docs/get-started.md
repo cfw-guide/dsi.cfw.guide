@@ -30,6 +30,8 @@ Unsure what the SD "root" is? [See this image](/assets/images/sdroot/en_US.png)
 
 ## Section II - Checking if Unlaunch is already installed
 
+Unlaunch is a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+
 Some DSi consoles that are sold as used/refurbished might already have Unlaunch installed.
 
 To check, press the `POWER` button and immediately hold the `A`+`B` buttons.
@@ -41,7 +43,7 @@ To check, press the `POWER` button and immediately hold the `A`+`B` buttons.
 
 Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions.
 
-Optionally, this exploit can be used to install Unlaunch, a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+Optionally, this exploit can be used to install Unlaunch (see Section II for what Unlaunch is).
 
 There is a very minor risk of **bricking** your console when installing Unlaunch, so if this is a concern, use an [alternate exploit](alternate-exploits.html) instead, or proceed with the guide normally, but avoid installing Unlaunch.     
 Keep in mind that if you don't install Unlaunch, homebrew compatibility will be somewhat limited if you only use Memory Pit.
