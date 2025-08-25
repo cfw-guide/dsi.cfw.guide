@@ -4,18 +4,11 @@ There are three menus available in order to launch games. Choose whichever one t
 
 If you are unsure (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
 
-## [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing)
+## [hiyaCFW](installing-unlaunch-and-hiyacfw.html)
 
 The first and only custom firmware which redirects NAND access to the SD card, and as a result, runs the DSi system menu along with system applications and DSiWare from the SD card instead of the system memory.
 
 Install this if you're looking for an experience which is close to stock as possible.
-
-### Before installing
-
-1. Download [GodMode9**i**](https://github.com/DS-Homebrew/GodMode9i/releases/latest/download/GodMode9i.dsi)
-1. Copy the `GodMode9i.dsi` file to the root of your SD card
-1. Rename `GodMode9i.dsi` to `boot.nds`
-1. Install Unlaunch by following the guide linked at the bottom of this page
 
 ### Pros
 
@@ -24,7 +17,6 @@ Install this if you're looking for an experience which is close to stock as poss
 
 ### Cons
 
-- Requires Unlaunch to be installed in order to use.
 - Restricted to only launching DS or DSi games. To launch games from prior consoles, you'll need to create forwarders for apps which emulate those consoles.
 - Limited to 39 icons on-screen due to how the original DSi Menu works.
 - Menu UI is not customizeable.
@@ -39,8 +31,6 @@ This is developed an upgrade/replacement to the original Nintendo DSi Menu that 
 - Most UIs are customizeable by installing user-made custom themes.
 - Games from the DS, DSi, and GBA can be launched.
 - Games from older consoles prior to the GBA can be launched by installing an add-on.
-- Unlaunch is not required to use this.
-- The background in the Unlaunch menu can be changed, and when installing Unlaunch, the DSi Menu music will be re-enabled by default if you start `Launcher` from the menu.
 - Can be installed alongside hiyaCFW.
 
 ### Cons
@@ -58,7 +48,6 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 - The fastest and most lightweight menu available.
 - No features are missing from the menu (ex. start menu and graphical info/settings menu) when compared to the Wood UI from TWLMenu++.
 - Customizeable by installing user-made custom themes.
-- Unlaunch is not required to use this.
 - Can be installed alongside hiyaCFW.
 
 ### Cons
