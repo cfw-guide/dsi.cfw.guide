@@ -50,7 +50,11 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
 - If you see a black screen or if nothing is listed, please take a look at the [Troubleshooting](troubleshooting.html) page
 
-## Section III - Cleaning up your SD card
+## Section III - Installing hiyaCFW
+
+Go to [this page](https://wiki.ds-homebrew.com/hiyacfw/installing) to install hiyaCFW.
+
+## Section IV - Cleaning up your SD card
 
 ::: tip
 
@@ -79,7 +83,3 @@ This section is optional and only serves for keeping your SD card tidy of files 
 - Delete the `unlaunch-installer.dsi` file from your SD card
 
 :::
-
-## Section IV - Installing hiyaCFW
-
-Lastly, go to [this page](https://wiki.ds-homebrew.com/hiyacfw/installing) to install hiyaCFW.
