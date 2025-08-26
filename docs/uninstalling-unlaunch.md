@@ -18,4 +18,4 @@ To reduce the chances of bricking, make sure that you have not installed any ill
 
 :::
 
-Once you have reviewed the above information, follow the [Dumping NAND](installing-unlaunch.html) instructions up to the uninstall part.
+Once you have reviewed the above information, follow the [Installing Unlaunch](installing-unlaunch.html) instructions up to the uninstall part.
