@@ -31,7 +31,33 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
 1. Place `unlaunch-installer.dsi` anywhere on your SD card
 
-## Section II - Installing/Updating Unlaunch
+## Section II - Updating DSi system version
+
+::: tip
+
+If Unlaunch is already installed and you are looking to update or uninstall Unlaunch, skip to Section III
+
+:::
+
+1. In the DSi Menu, launch the System Settings application (the icon is gray and has a white wrench)
+    - The version will be shown on the bottom-right of the top screen
+    - If the version is `Ver 1.4.2`, proceed with performing a system update
+	- Otherwise, go straight to Section III
+1. Touch the number `4` to go to the fourth page
+1. Touch `System Update`
+    - It is the third option if your console isn't in your native language
+1. Touch `Yes` when asked to connect to the internet and update
+    - It is the left-side option if your console isn't in your native language
+	- If the version is already up to date, go straight to Section III
+1. Touch the `Next` button
+    - It is the right-side option if your console isn't in your native language
+1. Touch the `I Accept` button
+    - It is the top option if your console isn't in your native language
+1. Touch the `OK` button
+    - It is the bottom right-side option if your console isn't in your native language
+1. Wait for the system to update, and reboot when finished
+
+## Section III - Installing/Updating Unlaunch
 
 1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
     - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
@@ -51,7 +77,7 @@ Unlaunch is not compatible with Nintendo DSi development consoles.
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
 - If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
 
-## Section III - Post-Unlaunch configuration
+## Section IV - Post-Unlaunch configuration
 
 Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed to launch whatever you want.
 
@@ -65,7 +91,7 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
     - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
 1. Select `SAVE & EXIT` to save your settings, then turn off your DSi
 
-## Section IV - Cleaning up your SD card
+## Section V - Cleaning up your SD card
 
 ::: tip
 
