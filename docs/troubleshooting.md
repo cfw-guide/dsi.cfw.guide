@@ -15,9 +15,9 @@ The developer of Unlaunch (nocash) has intentionally patched out the background 
 
 Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### Powering off in the DSi Menu or System Settings takes 5-10 seconds
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
 
-The only solutions are starting the DSi Menu or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### After installing Unlaunch, I'm stuck booting into an application or the Unlaunch Filemenu
 
