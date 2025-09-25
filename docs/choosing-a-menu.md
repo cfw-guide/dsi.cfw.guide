@@ -21,7 +21,7 @@ Install this if you're looking for an experience which is close to stock as poss
 - Limited to 39 icons on-screen due to how the original DSi Menu works.
 - Menu UI is not customizeable.
 
-## [**TW**i**L**ight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
+## [**TW**i**L**ight Menu++](installing-twilight-menu.html)
 
 This is developed an upgrade/replacement to the original Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
 
@@ -35,11 +35,11 @@ This is developed an upgrade/replacement to the original Nintendo DSi Menu that 
 
 ### Cons
 
-- The DSi Menu UI has a few inaccuracies, such as the music being shortened and in low quality (can be worked around with an add-on), and different scrolling when dragging the scroll bar.
+- The DSi Menu UI has a few inaccuracies, such as the music being shortened and in low quality (can be worked around by installing an add-on), and different scrolling when dragging the scroll bar.
 - The Wood UI is missing some features, such as the start menu.
 - Can take a few seconds to switch between menus, such as the ROM selection menu, the DS Classic Menu, and/or Settings menu.
 
-## [akmenu-next](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2)
+## [AKMenu-Next](installing-akmenu-next.html)
 
 This is an upgraded version of the original Wood/akmenu flashcard menu, made to be compatible with the DSi SD card.
 
@@ -55,14 +55,3 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 - Restricted to only launching DS or DSi games. To launch games from prior consoles, you'll need to install emulators.
 - Music and/or sound effects cannot be used.
 - Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually.
-
-## After installation
-
-Run the [exploit that you used](launching-the-exploit.html) to start dumpTool, and the installed menu (either TWiLight Menu++ or akmenu-next in this case) will then start.
-- If you're using TWiLight Menu++ for the first time, it will ask you to select your language and region. These do not need to match your console's language or region so set them to whichever you prefer.
-
-::: tip
-
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
-
-:::
