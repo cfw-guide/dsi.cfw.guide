@@ -2,13 +2,14 @@
 
 ::: danger
 
-**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
 
 :::
 
-**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Unlaunchをアンインストールしたくても、そうせずに済む場合がいくつかあります。例えば：
+**WARNING:** While uninstalling Unlaunch is relatively safe, there is still a small chance of bricking your Nintendo DSi. Unlaunchをアンインストールしたくても、そうせずに済む場合がいくつかあります。例えば：
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. 背景を変更する手順も紹介されています
+- **I don't want to use a custom menu anymore and I don't like having the Unlaunch file menu show on boot:** You can follow the [Unlaunch post install steps](installing-unlaunch.html#section-iv-post-unlaunch-configuration) to have Unlaunch autoboot the DSi menu
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) by selecting one of the available custom backgrounds
 - **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
@@ -17,12 +18,4 @@
 
 :::
 
-::: warning
-
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. 正しくアンインストールする方法については、以下をご覧ください。
-
-:::
-
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). これにより、NANDバックアップからUnlaunchをアンインストールし、本体に書き込むことができます。
-
-no$gbaを使用できない場合や、no$gbaでUnlaunchをアンインストール後にエラーが発生した場合は、Unlaunchインストール以前のNANDバックアップをフラッシュすることも可能です。しかし、以前Unlaunch含んでいたNANDバックアップをまず使ってみるのをお勧めします。 UnlaunchはアンインストールされてもNANDにno$gbaフッターを埋め込んだままなので、上記操作によって、Hardmodが必要となるブリックの場合も修復が格段に簡単になるためです。
+Once you have reviewed the above information, follow the [Installing Unlaunch](installing-unlaunch.html) instructions up to the uninstall part.

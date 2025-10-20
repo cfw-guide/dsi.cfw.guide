@@ -2,13 +2,14 @@
 
 ::: danger
 
-**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
 
 :::
 
-**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Ось деякі випадки, чому ви захочете видалити Unlaunch, але які не потребують видалення.
+**WARNING:** While uninstalling Unlaunch is relatively safe, there is still a small chance of bricking your Nintendo DSi. Ось деякі випадки, чому ви захочете видалити Unlaunch, але які не потребують видалення.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Тепер вони містять інструкції для зміни тла
+- **I don't want to use a custom menu anymore and I don't like having the Unlaunch file menu show on boot:** You can follow the [Unlaunch post install steps](installing-unlaunch.html#section-iv-post-unlaunch-configuration) to have Unlaunch autoboot the DSi menu
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) by selecting one of the available custom backgrounds
 - **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
@@ -17,12 +18,4 @@
 
 :::
 
-::: warning
-
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Будь ласка, перегляньте дані нижче про видалення програми належним чином.
-
-:::
-
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Це допоможе вам видалити Unlaunch з резервної копії NAND і прошити нову копію на вашій консолі.
-
-Якщо ви з якоїсь причини не можете використовувати no$gba або отримуєте помилку після видалення Unlaunch в no$gba, також можливо прошити резервну копію NAND, яку ви робили перед інсталяцією Unlaunch (якщо у вас ще є та копія), однак рекомендується спробувати використати резервну копію NAND, яка раніше мала Unlaunch. Це значно полегшить відновлення у випадку цеглювання (потребує хардмод), оскільки Unlaunch залишає no$gba футер вбудований в NAND навіть після видалення.
+Once you have reviewed the above information, follow the [Installing Unlaunch](installing-unlaunch.html) instructions up to the uninstall part.

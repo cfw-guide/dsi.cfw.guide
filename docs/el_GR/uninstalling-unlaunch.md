@@ -2,14 +2,15 @@
 
 ::: danger
 
-**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+Οι διαδικασίες εγκατάστασης και αφαίρεσης του Unlaunch, αν και είναι ασφαλείς, κάνουν εγγραφή στη NAND, επομένως υπάρχει μια μικρή πιθανότητα να καταστεί μη λειτουργική η κονσόλα σας!
 
 :::
 
-**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Ακολουθούν ορισμένες περιπτώσεις όπου θα θέλατε ενδεχομένως να καταργήσετε την εγκατάσταση του Unlaunch, αλλά με λύσεις που δεν απαιτούν αυτό το δραστικό μέτρο.
+**ΠΡΟΕΙΔΟΠΟΙΗΣΗ:** Αν και η κατάργηση του Unlaunch είναι σχετικά ασφαλής, εξακολουθεί να υπάρχει μια μικρή πιθανότητα να καταστεί μη λειτουργικό το Nintendo DSi σας. Ακολουθούν ορισμένες περιπτώσεις όπου θα θέλατε ενδεχομένως να καταργήσετε την εγκατάσταση του Unlaunch, αλλά με λύσεις που δεν απαιτούν αυτό το δραστικό μέτρο.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Περιέχουν πλέον οδηγίες για το πώς να αλλάξετε το φόντο
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
+- **Δεν θέλω να χρησιμοποιώ πλέον ένα προσαρμοσμένο μενού και δεν μου αρέσει που εμφανίζεται το μενού αρχείων Unlaunch κατά την εκκίνηση:** Μπορείτε να ακολουθήσετε τα [βήματα μετά την εγκατάσταση του Unlaunch](installing-unlaunch.html#section-iv-post-unlaunch-configuration) για να το ρυθμίσετε έτσι, ώστε να εκκινεί αυτόματα στο μενού DSi
+- **Η εικόνα παρασκηνίου του Unlaunch είναι τρομακτικό:** [Εγκαταστήστε εκ νέου το Unlaunch](installing-unlaunch.html) επιλέγοντας μία από τις διαθέσιμες προσαρμοσμένες εικόνες παρασκηνίου
+- **Αντιμετωπίζω ένα πρόβλημα με το Unlaunch ή την κονσόλα μου μετά την εγκατάσταση:** Η σελίδα [Επίλυση προβλημάτων](troubleshooting.html#unlaunch) θα σας εξηγήσει πώς να διορθώσετε πολλά από τα ζητήματα που ενδέχεται να συναντήσετε
 
 ::: warning
 
@@ -17,12 +18,4 @@
 
 :::
 
-::: warning
-
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Δείτε παρακάτω για πληροφορίες σχετικά με τον σωστό τρόπο αφαίρεσης.
-
-:::
-
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Αυτή η σελίδα θα σας καθοδηγήσει σχετικά με την κατάργηση της εγκατάστασης του Unlaunch από το αντίγραφο ασφαλείας της NAND, το οποίο θα φορτώσετε στην κονσόλα σας.
-
-Εάν δεν μπορείτε να χρησιμοποιήσετε το no$gba ή λάβετε σφάλμα μετά την αφαίρεση του Unlaunch στο no$gba, μπορείτε επίσης να φορτώσετε ένα αντίγραφο ασφαλείας της NAND που δημιουργήθηκε πριν από την εγκατάσταση του Unlaunch εάν το έχετε ακόμα. Ωστόσο, προτείνουμε να δοκιμάσετε πρώτα με ένα αντίγραφο ασφαλείας της NAND που διέθετε το Unlaunch στο παρελθόν. Αυτό θα κάνει σημαντικά πιο εύκολη την επαναφορά της κονσόλας αν καταστεί μη λειτουργική, στην οποία περίπτωση θα ήταν απαραίτητο ένα hardmod. Αυτό συμβαίνει επειδή το Unlaunch αφήνει το υποσέλιδο του no$gba ενσωματωμένο στη NAND ακόμα και μετά την αφαίρεση.
+Μόλις διαβάσετε τις παραπάνω πληροφορίες, ακολουθήστε τις οδηγίες της ενότητας [Εγκατάσταση του Unlaunch](installing-unlaunch.html), μέχρι το σημείο που κάνει λόγο για αφαίρεση του Unlaunch.

@@ -123,12 +123,6 @@ It is **not** recommended to update your DSi unless you know there are purchased
   - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
 
-## Що сталося з інструкцією по встановленню hiyaCFW?
-
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-
-- Якщо ви були перенаправлені з відповідним питанням з іншого посібника, то, скоріш за все, інструкції, за яким ви слідкували, були застарілими. Замість цього, будь ласка, використовуйте цей посібник, оскільки він постійно підтримується розробниками проєктів, що тут згадуються
-
 ## Що сталося з Lazy DSi Downloader? Як мені встановити CFW без цього додатку?
 
 Lazy DSi Downloader - це програма, яка дозволяла вам пропустити процес ручного встановлення, завантаживши необхідні файли та теки на SD карту. Але, через те, як вона була запрограмована та розподілена, багато користувачів зіткнулися з різними проблемами, та врешті-решт були змушені робити ручне встановлення, оскільки воно булр швидше та/або простіше ніж виправляти все, що спричиняло проблему.

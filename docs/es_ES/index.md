@@ -3,7 +3,7 @@ layout: home
 title: Guía de DSi
 hero:
   text: Guía de DSi
-  tagline: Una guia completa para modificar tu Nintendo DSi
+  tagline: "Una guia completa para modificar tu Nintendo DSi"
   image:
     src: /assets/images/home-page-feature.png
 ---

@@ -1,33 +1,37 @@
-# Troubleshooting
+# Rozwiązywanie Problemów
 
 ## Unlaunch
 
-### Unlaunch freezes at `MISMATCH IN FAT COPIES`
+### Unlaunch zawiesza się na `MISMATCH IN FAT COPIES`
 
 twlnf ma krytyczny błąd, w którym nie aktualizuje poprawnie całego NAND po jego modyfikacji, który powoduje, że niektóre homebrew (takie jak Unlaunch installer) wyrzucą błąd.
 
-To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
+Aby to naprawić, uruchom [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases) i wybierz `Fix FAT copy mismatch`.
 
 ### Nie ma dźwięku lub boot splashu podczas uruchamiania "LAUNCHER" za pomocą Unlaunch
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Deweloper Unlaunch (nocash) celowo załatał domyślnie audio w tle i boot-splash. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
-### Powering on only shows a black screen after installing Unlaunch
+### Uruchamianie pokazuje tylko czarny ekran po instalacji Unlaunch
 
-Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Spróbuj wysunąć kartę SD i ponownie uruchomić konsolę. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### After installing Unlaunch, I'm stuck booting into an application
 
-This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
+Jest to prawdopodobnie spowodowane przez wybranie złej aplikacji pod opcją `NO BUTTON` w Unlaunch. Przytrzymaj <kbd class="face">A</kbd> + <kbd class="face">B</kbd> podczas uruchamiania konsoli, wejdź w `OPTIONS` i ustaw na cokolwiek chcesz.
 
-### Other Unlaunch problems
+### Inne problemy Unlaunch
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
+Jeżeli Unlaunch pokazuje `Clusters too large`, `Bad VBR`, `Bad MBR`, lub nie pokazują się żadne aplikacje, podczas gdy karta SD jest włożona, karta SD jest prawdopodobnie źle sformatowana. Jeszcze raz zrób [konfigurację karty SD](sd-card-setup.html).
 
-## TWiLight Menu++  troubleshooting
+## TWiLight Menu++
 
-For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
+Dla ogólnego rozwiązywania problemów TWiLight Menu++ zobacz jego stronę [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) na Wiki DS-Homebrew.
 
-## Further assistance
+## Dalsza pomoc
 
-If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.
+Jeżeli napotkałeś problem, który nie ma rozwiązania tutaj, albo który następuje nawet mimo podanych rozwiązań, zapytan o pomoc na serwerze discord [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4).

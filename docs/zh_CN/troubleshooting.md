@@ -1,4 +1,4 @@
-# 故障排查
+# 疑难解答
 
 ## Unlaunch
 
@@ -10,13 +10,17 @@ To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/r
 
 ### 在使用 Unlaunch启动"LAUNCHER"时没有声音或启动画面
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Powering on only shows a black screen after installing Unlaunch
 
-Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### After installing Unlaunch, I'm stuck booting into an application
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
+
+### 安装Unlaunch后启动软件卡住了
 
 This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
 

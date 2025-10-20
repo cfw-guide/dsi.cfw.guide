@@ -2,9 +2,9 @@
 
 ## Πρέπει να κάνω ενημέρωση του συστήματος;
 
-It is **not** recommended to update your DSi unless you know there are purchased DSiWare. Ενώ μπορείτε ακόμα να ακολουθήσετε αυτόν τον οδηγό αν το κάνετε, το μόνο όφελος μιας ενημέρωσης είναι η δυνατότητα πρόσβασης στο Nintendo DSi Shop για να κάνετε ξανά λήψη των ήδη αγορασμένων τίτλων. Όλα τα υπόλοιπα οφέλη, όπως η ενσωμάτωση του Facebook στην εφαρμογή «Nintendo DSi Camera», δεν λειτουργούν πλέον ή δεν είναι αρκετά σημαντικά για να δικαιολογήσουν τα μειονεκτήματα:
+**Δεν** συνιστάται να ενημερώσετε το DSi σας, εκτός κι αν γνωρίζετε ότι έχετε αγοράσει DSiWare. Ενώ μπορείτε ακόμα να ακολουθήσετε αυτόν τον οδηγό αν το κάνετε, το μόνο όφελος μιας ενημέρωσης είναι η δυνατότητα πρόσβασης στο Nintendo DSi Shop για να κάνετε ξανά λήψη των ήδη αγορασμένων τίτλων. Όλα τα υπόλοιπα οφέλη, όπως η ενσωμάτωση του Facebook στην εφαρμογή «Nintendo DSi Camera», δεν λειτουργούν πλέον ή δεν είναι αρκετά σημαντικά για να δικαιολογήσουν τα μειονεκτήματα:
 
-- Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch
+- Η εγκατάσταση των ενημερώσεων συστήματος είναι γνωστό ότι, περιστασιακά, καθιστά μη λειτουργικές τις κονσόλες, με την ίδια περίπου συχνότητα που ισχύει και για την εγκατάσταση του Unlaunch
 - Δεν είναι πλέον δυνατή η χρήση των παλαιότερων exploit, τα οποία μπορεί να είναι απαραίτητα αν δεν μπορείτε να χρησιμοποιήσετε τα προτεινόμενα exploit
 - Μειώνεται η συμβατότητα με τις flashcard, αλλά αυτό το πρόβλημα μπορεί να παρακαμφθεί με την εγκατάσταση του Unlaunch
 
@@ -27,7 +27,7 @@ It is **not** recommended to update your DSi unless you know there are purchased
 - Δεν επιτρέπεται η πρόσβαση στο Slot-1 (κασέτα παιχνιδιού DS) από τις εφαρμογές homebrew
 - Δεν επιτρέπεται η πρόσβαση στο DSP, με αποτέλεσμα τον χειρότερο ήχο στο GBARunner2
 - Δεν είναι δυνατή η προβολή των φωτογραφιών της κάρτας SD από την εφαρμογή «DSi Camera» όσο είναι εγκατεστημένο το Memory Pit, καθώς αυτή είναι η λειτουργία που ενεργοποιεί το exploit
-  - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+  - Ο μόνος τρόπος για να κάνετε προβολή φωτογραφιών της κάρτας SD όσο είναι εγκατεστημένο το Memory Pit, είναι να εκκινήσετε μια αποτύπωση της ROM της εφαρμογής «DSi Camera» μέσω του **TW**i**L**ight Menu++, ώστε να γίνει εκκίνησή της μέσω του nds-bootstrap (έκδοση 0.61.3 ή νεότερη)
 
 ### stylehax
 
@@ -74,45 +74,45 @@ It is **not** recommended to update your DSi unless you know there are purchased
 
 Μειονεκτήματα:
 
-- Very minor risk of **bricking** the console when installing
-- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
+- Πολύ μικρός κίνδυνος να καταστεί **μη λειτουργική** η κονσόλα κατά την εγκατάσταση
+- Ελαφρώς υψηλότερος κίνδυνος να καταστεί μη λειτουργική η κονσόλα αν αποφασίσετε να [το αφαιρέσετε](uninstalling-unlaunch.html)
 - Δεν είναι συμβατό με κονσόλες για προγραμματιστές
 
 ## Θα χάσω οποιαδήποτε λειτουργία τροποποιώντας το σύστημά μου;
 
-Εάν εγκαταστήσετε το Unlaunch ή αν χρησιμοποιήσετε το Flipnote Lenny, δεν θα χαθεί κανένος είδους λειτουργικότητα. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
+Εάν εγκαταστήσετε το Unlaunch ή αν χρησιμοποιήσετε το Flipnote Lenny, δεν θα χαθεί κανένος είδους λειτουργικότητα. Εάν χρησιμοποιήσετε το Memory Pit, δεν θα μπορείτε να κάνετε προβολή των φωτογραφιών της κάρτας SD μέσω της DSi Camera, εκτός αν κάνετε εκκίνηση μιας αποτύπωσης της ROM της εφαρμογής «DSi Camera» μέσω του **TW**i**L**ight Menu++, ώστε να γίνει εκκίνησή της μέσω του nds-bootstrap.
 
-- To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
-  - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
+- Για να ανακτήσετε τη δυνατότητα προβολής φωτογραφιών από την κάρτα SD σας κατά την εκκίνηση της DSi Camera από το μενού του DSi, εγκαταστήστε το Unlaunch ή χρησιμοποιήστε ένα άλλο exploit και έπειτα, διαγράψτε το αρχείο `pit.bin` του Memory Pit
+  - Εάν υπάρχει το `tip.bin` στον ίδιο φάκελο, μετονομάστε το ξανά σε `pit.bin`
 
 ## Πώς μπορώ να παίξω αποτυπώσεις των κασετών παιχνιδιών για Nintendo DS;
 
 Η εκτέλεση των αποτυπώσεων κασετών παιχνιδιών στην κονσόλα απαιτεί τη χρήση μιας flashcard ή του nds-bootstrap, το οποίο είναι ένα πρόγραμμα που επιτρέπει την εκτέλεση των παιχνιδιών από την εσωτερική κάρτα SD, κάνοντας ανακατεύθυνση των λειτουργιών ανάγνωσης και εγγραφής του Slot-1.
 
 - Με το TWiLight Menu++, μπορείτε να πλοηγηθείτε στην κάρτα SD σας για να βρείτε και να εκτελέσετε αρχεία ROM μέσω του nds-bootstrap. Τα πλεονεκτήματα του TWiLight Menu++ περιλαμβάνουν ένα μενού για cheat, ρυθμίσεις ανά παιχνίδι και κατάργηση των περιορισμών που φέρουν οι διεργασίες προώθησης (forwarder). Με άλλα λόγια, μπορείτε να αποθέσετε τα αρχεία ROM απευθείας και να παίξετε χωρίς καμία επιπρόσθετη ρύθμιση. Δεν υφίσταται το όριο των 39 τίτλων, δεν απαιτείται ούτε το hiyaCFW ούτε το Unlaunch και δεν υπάρχει κανένας περιορισμός για τον ελεύθερο χώρο που μπορείτε να έχετε στην κάρτα SD
-- hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Υπάρχει το αυστηρό όριο των 39 τίτλων και αυτή η μέθοδος είναι λιγότερο βολική από τη χρήση του TWiLight Menu++
-  - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
+- Οι χρήστες του hiyaCFW μπορούν να δημιουργήσουν forwarder για το μενού του DSi της SDNAND μέσω του οδηγού [Forwarder παιχνιδιών DS](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) στο DS-Homebrew Wiki, αλλά υπάρχουν περιορισμοί. Υπάρχει το αυστηρό όριο των 39 τίτλων και αυτή η μέθοδος είναι λιγότερο βολική από τη χρήση του TWiLight Menu++
+  - Εάν δεν διαθέτετε το hiyaCFW και επιθυμείτε να χρησιμοποιήσετε forwarder, μπορείτε να ακολουθήσετε τον [οδηγό εγκατάστασης του hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) στο DS-Homebrew Wiki
 
 ## Πώς μπορώ να ενημερώσω το homebrew;
 
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
-  - You do **not** need to uninstall Unlaunch before doing this
-- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
-- **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
+- **Unlaunch** - Ακολουθήστε τις οδηγίες της σελίδας [Αφαίρεση του Unlaunch](installing-unlaunch.html)
+  - **Δεν** χρειάζεται να αφαιρέσετε το Unlaunch πριν το κάνετε αυτό
+- **hiyaCFW** - Αντικαταστήστε το `hiya.dsi` στη ρίζα της κάρτας SD με αυτό της [ενημερωμένης έκδοσης](https://github.com/RocketRobz/hiyaCFW/releases)
+- **TWiLight Menu++** - Ακολουθήστε τις οδηγίες στο [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **nds-bootstrap** - Αντιγράψτε τα `nds-bootstrap-hb-release.nds` και `nds-bootstrap-release.nds` στον φάκελο `_nds` της ρίζας της κάρτας SD σας
   - Εάν χρησιμοποιείτε το TWiLight Menu++, υπάρχει μεγάλη πιθανότητα η πιο πρόσφατη έκδοση του nds-bootstrap να συμπεριλαμβάνεται στο TWiLight Menu++
-- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, Forwarder3-DS κ.λπ.** - Ακολουθήστε τις οδηγίες που χρησιμοποιήσατε για τη λήψη τους
 
 Άλλα λογισμικά homebrew ενδέχεται να χρησιμοποιούν διαφορετικές μεθόδους ενημέρωσης.
 
 ## Κάνω για πρώτη φορά εγκατάσταση ή θέλω να την κάνω εκ νέου. Από πού ξεκινάω;
 
 - Εάν δεν έχετε ήδη τροποποιήσει την κονσόλα σας ή θέλετε να ενημερώσετε το Unlaunch στο σύστημά σας, σας συνιστούμε να ξεκινήσετε από την αρχή του οδηγού και να ακολουθήσετε τις οδηγίες των σελίδων. Φροντίστε να διαβάσετε τα πάντα στην αρχική σελίδα
-- If you have the latest version Unlaunch, follow the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) to set up TWiLight Menu++ on your system
+- Εάν διαθέτετε την πιο πρόσφατη έκδοση του Unlaunch, ακολουθήστε τον [οδηγό εγκατάστασης του TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) για να εγκαταστήσετε το TWiLight Menu++ στο σύστημά σας
 
-## Πώς μπορώ να αφαιρέσω τον γονικό έλεγχο;
+## Πώς μπορώ να καταργήσω τον γονικό έλεγχο;
 
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- Η [γεννήτρια mkey](https://mkey.salthax.org) μπορεί να δημιουργήσει τον κωδικό που απαιτείται για την κατάργηση του γονικού ελέγχου
 
 ## Μπορώ να αλλάξω την περιοχή του Nintendo DSi μου;
 
@@ -120,20 +120,14 @@ It is **not** recommended to update your DSi unless you know there are purchased
 
 - Η ασφαλέστερη και απλούστερη μέθοδος είναι να εγκαταστήσετε απλώς το TWiLight Menu++, το οποίο μπορεί, μεταξύ άλλων, να χρησιμοποιήσει οποιαδήποτε επίσημη γλώσσα χωρίς να χρειαστούν τροποποιήσεις της NAND
 - Εάν θέλετε να αλλάξετε την περιοχή του συστήματος και χρησιμοποιείτε το hiyaCFW, ανοίξτε το μενού ρυθμίσεων και αλλάξτε τη ρύθμιση περιοχής (δεν είναι δυνατό με τις NAND των περιοχών CHN και KOR)
-  - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
-- Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
-
-## Τι συνέβη στον οδηγό εγκατάστασης του hiyaCFW;
-
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-
-- Εάν οδηγηθήκατε στην εν λόγω σελίδα μέσω ενός συνδέσμου από κάποιον άλλο οδηγό, οι οδηγίες που ακολουθήσατε είναι πιθανότατα παρωχημένες. Χρησιμοποιήστε αυτόν τον οδηγό, καθώς συντηρείται διαρκώς από τους προγραμματιστές αυτών των έργων
+  - Εάν χαλάσει η είσοδος αφής, επαναφέρετε τη ρύθμιση περιοχής στην αρχική. Μπορείτε να χρησιμοποιήσετε το [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) του Yoti για ασιατικά συστήματα DSi. Για τα αμερικανικά συστήματα DSi, χρησιμοποιήστε [αυτήν την έκδοση του hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Τέλος, αν θέλετε να αλλάξετε την περιοχή της πραγματικής NAND του συστήματος, μπορείτε να χρησιμοποιήσετε το [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) του Mighty Max
 
 ## Τι συνέβη με το Lazy DSi Downloader; Πώς μπορώ να εγκαταστήσω το CFW χωρίς αυτό;
 
 Το Lazy DSi Downloader ήταν ένα πρόγραμμα που σάς επέτρεπε ουσιαστικά να παραλείψετε τη μη αυτόματη διαδικασία εγκατάστασης, κάνοντας λήψη και τοποθέτηση των απαραίτητων αρχείων και φακέλων στην κάρτα SD σας. Ωστόσο, λόγω του τρόπου ανάπτυξης και διανομής του, πολλοί χρήστες αντιμετώπιζαν διάφορα ζητήματα και κατέληγαν στη χειροκίνητη μέθοδο εγκατάστασης, καθώς ήταν πιο γρήγορη ή/και εύκολη από τη διόρθωση του οποιουδήποτε ζητήματος.
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+Για να μην αντιμετωπίσουν ακόμα περισσότεροι χρήστες αυτά τα ζητήματα, δεν προτείνουμε πλέον τη χρήση του Lazy DSi Downloader. Αντ' αυτού, η [χειροκίνητη διαδικασία εγκατάστασης](get-started.html) αποτελεί την προτεινόμενη μέθοδο.
 
 - Εάν οδηγηθήκατε σε αυτόν τον οδηγό μέσω ενός συνδέσμου από κάποιον τρίτο που προτείνει τη χρήση του Lazy DSi Downloader, οι οδηγίες που ακολουθήσατε είναι πιθανότατα παρωχημένες. Χρησιμοποιήστε αυτόν τον οδηγό, καθώς συντηρείται διαρκώς από τους προγραμματιστές αυτών των έργων.
 
@@ -154,13 +148,13 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 
 ## Πώς μπορώ να χρησιμοποιήσω μια νέα κάρτα SD μετά την εγκατάσταση του homebrew;
 
-Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructions, then simply move your data from the old SD card to the new one.
+Διαμορφώστε τη νέα σας κάρτα SD σύμφωνα με τις οδηγίες της σελίδας [Διαμόρφωση κάρτας SD](sd-card-setup.html) και έπειτα, μεταφέρετε απλώς τα δεδομένα σας από την παλιά κάρτα SD στην καινούρια.
 
 ## Μπορώ να χρησιμοποιήσω το σύστημά μου κανονικά, χωρίς την κάρτα SD, μετά την εγκατάσταση του homebrew;
 
-Ναι. Εάν δεν εγκαταστήσατε το Unlaunch, το σύστημά σας θα παραμείνει αμετάβλητο. If you _did_ install Unlaunch, you may need to [configure Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) to automatically boot the original DSi Menu under specified conditions.
+Ναι. Εάν δεν εγκαταστήσατε το Unlaunch, το σύστημά σας θα παραμείνει αμετάβλητο. Εάν _εγκαταστήσατε_ το Unlaunch, ίσως χρειαστεί να [ρυθμίσετε το Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) έτσι, ώστε να κάνει αυτόματη εκκίνηση του αρχικού μενού του DSi υπό συγκεκριμένες συνθήκες.
 
-## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Πρέπει να χρησιμοποιήσω προηγούμενη έκδοση;
+## Η [σελίδα του Unlaunch](https://problemkaputt.de/unlaunch.htm) αναφέρει ότι η έκδοση 2.0 δεν είναι γνωστή ως ασφαλής. Πρέπει να χρησιμοποιήσω προηγούμενη έκδοση;
 
 Η σελίδα του Unlaunch δεν έχει ενημερωθεί από την κυκλοφορία της έκδοσης 2.0 το 2019. Η συντριπτική πλειοψηφία των χρηστών δεν αντιμετωπίζει προβλήματα με αυτήν την έκδοση, επομένως θεωρείται ασφαλής.
 
@@ -168,4 +162,4 @@ Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructio
 
 Ο προτεινόμενος τρόπος είναι να τα εκκινείτε μέσω του TWiLight Menu++, λόγω της απλής μεθόδου μεταφοράς και απόθεσης και της απουσίας αυθαίρετων ορίων. Εάν ορίσετε το nds-bootstrap ως τη μέθοδο εκκίνησης, θα έχετε επίσης τις δυνατότητες για cheat και στιγμιότυπα οθόνης, καθώς και οποιαδήποτε άλλα οφέλη που παρέχει το μενού εντός του παιχνιδιού.
 
-However, for the few titles that are incompatible, you can use [NTM](https://github.com/Epicpkmn11/NTM/releases) to install them on either internal memory or [hiyaCFW's SDNAND](https://wiki.ds-homebrew.com/hiyacfw/installing). Πέρα από την έλλειψη των παραπάνω πλεονεκτημάτων, υπάρχει επίσης και το όριο των 39 τίτλων, οι οποίοι δεν μπορούν να υπερβαίνουν τα 128 MiB/1.024 block σε μέγεθος. Για τη SysNAND, υπάρχει επίσης ένας πολύ μικρός κίνδυνος να καταστεί μη λειτουργικό το σύστημα κατά την εγγραφή στην εσωτερική NAND.
+Ωστόσο, για τους λίγους τίτλους που δεν είναι συμβατοί, μπορείτε να χρησιμοποιήσετε το [NTM](https://github.com/Epicpkmn11/NTM/releases) για να τους εγκαταστήσετε είτε στην εσωτερική μνήμη είτε στη [SDNAND του hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing). Πέρα από την έλλειψη των παραπάνω πλεονεκτημάτων, υπάρχει επίσης και το όριο των 39 τίτλων, οι οποίοι δεν μπορούν να υπερβαίνουν τα 128 MiB/1.024 μπλοκ σε μέγεθος. Για τη SysNAND, υπάρχει επίσης ένας πολύ μικρός κίνδυνος να καταστεί μη λειτουργικό το σύστημα κατά την εγγραφή στην εσωτερική NAND.

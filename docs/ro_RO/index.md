@@ -3,7 +3,7 @@ layout: home
 title: Ghidul DSi
 hero:
   text: Ghidul DSi
-  tagline: Ghidul complet pentru a-ți modifica sistemul Nintendo DSi
+  tagline: "Ghidul complet pentru a-ți modifica sistemul Nintendo DSi"
   image:
     src: /assets/images/home-page-feature.png
 ---

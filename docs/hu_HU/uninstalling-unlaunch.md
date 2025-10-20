@@ -2,14 +2,15 @@
 
 ::: danger
 
-**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+Az Unlaunch telepítése és eltávolítása, habár biztonságos, ír a konzol NAND memóriájába, így van egy kis esélye annak, hogy brickelheti a konzolodat!
 
 :::
 
-**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Itt van néhány eset, ami miatt arra gondolhatsz, hogy eltávolítsd az Unlaunch-öt de vannak más megoldások is, mint az eltávolítás.
+**FIGYELEM:** Habár az Unlaunch reltaíve biztonságos, van egy kis esély rá, hogy brick-elheti a Nintendo DSi-det. Itt van néhány eset, ami miatt arra gondolhatsz, hogy eltávolítsd az Unlaunch-öt de vannak más megoldások is, mint az eltávolítás.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Ezek már tartalmazzák a lépéseit a háttér csere módjának
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
+- **Nem szeretnék többet egyéni menüt használni, és nem szeretem, hogyaz Unlaunch fájl menü jön be bootoláskor:** Követheted az [Unlaunch telepítési utáni lépések](installing-unlaunch.html#section-iv-post-unlaunch-configuration) útmutatót, hogy az Unlaunch autobootolja a DSi menüt
+- **Az Unlaunch háttér félelmetes:** [Telepítsd újra az Unlaunch](installing-unlaunch.html)-öt kiválasztva valamelyik egyéni hátteret
+- **Problémám van az Unlaunch-csel vagy konzolommal a telepítése után:** A [hibaelhárítás](troubleshooting.html#unlaunch) oldal leírja, hogyan javíthatod a legtöbb problémát
 
 ::: warning
 
@@ -17,12 +18,4 @@ A brick-elés esélyeinek csökkentésére, legyél biztos abban, hogy nem telep
 
 :::
 
-::: warning
-
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Tekintsd át az alábbi információt a megfelelő eltávolításhoz.
-
-:::
-
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Ez az útmutató végig vezet az Unlaunch eltávolításán a NAND mentésből és annak flashelésén a konzolodra.
-
-Ha nem tudod használni a no$gba-t vagy hibát kapsz az Unlaunch eltávolítását követőne a no$gba-ban, lehtséges egy NAND mentés flashelése, ami az Unlaucnh telepítése előtt készült (ha rendelkezel még ilyennel), azonban javasolt, hogy próbáld meg először egy NAND mentéssel ami körábban tartalmazott Unlaunch-öt. Ez a visszaállítást jelentősen könnyebbé teszi ha egy brick miatt szükséges a hardmod, mivel az Unlaunch benne hagyja a no$gba láblécet a NAND-ban akkor is, ha eltávolításra kerül.
+Ha áttekintetted a fenti információt, kövesd az [Unlaunch telepítése](installing-unlaunch.html) útmutató lépéseit, az eltávolítási részig.

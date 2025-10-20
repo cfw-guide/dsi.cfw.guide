@@ -3,7 +3,7 @@ layout: home
 title: DSi ガイド
 hero:
   text: DSi ガイド
-  tagline: ニンテンドーDSiを改造するための完全なガイド
+  tagline: "ニンテンドーDSiを改造するための完全なガイド"
   image:
     src: /assets/images/home-page-feature.png
 ---

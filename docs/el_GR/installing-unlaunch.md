@@ -1,20 +1,22 @@
 # Εγκατάσταση του Unlaunch
 
-::: warning
+Πρόκειται να εγκαταστήσετε το Unlaunch, ένα μόνιμο exploit του κώδικα εκκίνησης που εγκαθίσταται στο ίδιο το DSi, επιτρέποντας τον πλήρη έλεγχο της κονσόλας κατά την εκκίνηση. Ως εκ τούτου, παρέχει στις εφαρμογές homebrew πλήρη πρόσβαση για το υλικό χωρίς περιορισμούς από τις εφαρμογές συστήματος του DSi ή τους τίτλους DSiWare.
 
-Εάν δεν έχετε πρόσβαση σε έναν υπολογιστή, ή αν ο υπολογιστής σας διαθέτει ChromeOS, τότε μην εγκαταστήσετε το Unlaunch. Απαιτείται ένας υπολογιστής (με Windows, Linux ή macOS) προκειμένου να διορθώσετε ορισμένα ζητήματα που ενδέχεται να προκύψουν μετά την εγκατάσταση του Unlaunch.
+::: danger
+
+Εάν δεν το έχετε κάνει ήδη, ακολουθήστε τα βήματα της σελίδας [Αποτύπωση της NAND](dumping-nand.html). Ένα αντίγραφο ασφαλείας της NAND, σε συνδυασμό με το [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) (ή ένα [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod), εφόσον γνωρίζετε πώς να κάνετε συγκόλληση), θα σας επιτρέψει να επαναφέρετε το αντίγραφο ασφαλείας σε περίπτωση που η κονσόλα καταστεί μη λειτουργική στην πορεία.
 
 :::
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). Αν και οι πιθανότητες είναι ελάχιστες, το Unlaunch μπορεί να καταστήσει το Nintendo DSi σας μη λειτουργικό (brick). A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+Οι διαδικασίες εγκατάστασης και αφαίρεσης του Unlaunch, αν και είναι ασφαλείς, κάνουν εγγραφή στη NAND, επομένως υπάρχει μια μικρή πιθανότητα να καταστεί μη λειτουργική η κονσόλα σας!
 
 :::
 
 ::: warning
 
-Βεβαιωθείτε ότι η κονσόλα σας είναι φορτισμένη όταν ακολουθήσετε αυτήν τη διαδικασία. Μια ξαφνική απώλεια ισχύος θα μπορούσε να προκαλέσει σοβαρή βλάβη.
+Εάν δεν έχετε πρόσβαση σε έναν υπολογιστή, ή αν ο υπολογιστής σας διαθέτει ChromeOS, τότε μην εγκαταστήσετε το Unlaunch. Απαιτείται ένας υπολογιστής (με Windows, Linux ή macOS) για να διασφαλιστεί ότι η κάρτα SD θα διαμορφωθεί με τρόπο τέτοιο έτσι, ώστε να είναι συμβατή με το Unlaunch.
 
 :::
 
@@ -26,52 +28,71 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). Α
 
 ## Ενότητα I - Διαμόρφωση κάρτας SD
 
-1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
-   - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
-2. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
-3. Βεβαιωθείτε ότι έχετε ακόμα το TWiLight Menu++ στην κάρτα SD σας
-   - If you are unsure, follow the instructions from the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
+1. Κάντε λήψη της πιο πρόσφατης έκδοσης του [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
+2. Τοποθετήστε το `unlaunch-installer.dsi` οπουδήποτε στην κάρτα SD σας
 
-## Ενότητα II - Εγκατάσταση/ενημέρωση του Unlaunch
+## Ενότητα II - Ενημέρωση της έκδοσης συστήματος DSi
 
-1. Ανοίξτε το TWiLight Menu++
-   - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the [exploit that you used](launching-the-exploit.html)
-   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option labeled `TWiLight Menu++`
-   - If several options are labeled `TWiLight Menu++`, select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
-     - This happens because you are running an older version of TWiLight Menu++, unless you're doing it on purpose, is suggested that you [update your installation](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-2. Ανοίξτε τις ρυθμίσεις του TWiLight Menu++
-   - If you haven't changed your theme, press `SELECT` and touch the small DS icon on the bottom of the touch screen. Διαφορετικά, ανατρέξτε στο εγχειρίδιο του TWiLight Menu++
-3. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
-4. If you want to change Unlaunch's background image, select `Background` and choose the one you want
-   - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-5. Κλείστε τις ρυθμίσεις του TWiLight Menu++
-6. In the file navigation menu, launch `Unlaunch DSi Installer`
-   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`\
-     This method does not enable Unlaunch to use custom patches and background
-7. Επιλέξτε «install now»
-   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
-8. Όταν ολοκληρωθεί η διαδικασία, επανεκκινήστε το σύστημά σας
+::: tip
+
+Εάν το Unlaunch είναι ήδη εγκατεστημένο και θέλετε να κάνετε ενημέρωση ή αφαίρεση του Unlaunch, μεταβείτε στην Ενότητα III
+
+:::
+
+1. Στο μενού DSi, εκκινήστε την εφαρμογή «System Settings» (το εικονίδιο είναι γκρι και έχει ένα λευκό κλειδί)
+   - Η έκδοση εμφανίζεται στην κάτω δεξιά γωνία της πάνω οθόνης
+   - Εάν η έκδοση είναι η `Ver 1.4.2`, προχωρήστε στην εκτέλεση της ενημέρωσης συστήματος
+   - Διαφορετικά, μεταβείτε κατευθείαν στην Ενότητα III
+2. Αγγίξτε τον αριθμό `4` για να μεταβείτε στην τέταρτη σελίδα
+3. Αγγίξτε το `System Update`
+   - Είναι η τρίτη επιλογή αν η κονσόλα δεν είναι στη μητρική σας γλώσσα
+4. Αγγίξτε το `Yes` όταν σας ζητηθεί να συνδεθείτε στο διαδίκτυο και κάντε την ενημέρωση
+   - Είναι η αριστερή επιλογή αν η κονσόλα δεν είναι στη μητρική σας γλώσσα
+   - Εάν η έκδοση είναι ήδη η πιο πρόσφατη, μεταβείτε κατευθείαν στην Ενότητα III
+5. Αγγίξτε το κουμπί `Next`
+   - Είναι η δεξιά επιλογή αν η κονσόλα δεν είναι στη μητρική σας γλώσσα
+6. Αγγίξτε το κουμπί `I Accept`
+   - Είναι η πάνω επιλογή αν η κονσόλα δεν είναι στη μητρική σας γλώσσα
+7. Αγγίξτε το κουμπί `OK`
+   - Είναι η κάτω επιλογή αν η κονσόλα δεν είναι στη μητρική σας γλώσσα
+8. Περιμένετε μέχρι να ενημερωθεί το σύστημα και όταν ολοκληρωθεί η διαδικασία, κάντε επανεκκίνηση
+
+## Ενότητα III - Εγκατάσταση/ενημέρωση του Unlaunch
+
+1. Ανοίξτε το μενού που έχετε εγκαταστήσει (το **TW**i**L**ight Menu++ ή το akmenu-next)
+   - Εάν εγκαθιστάτε για πρώτη φορά το Unlaunch, εκκινήστε ξανά το μενού μέσω του [exploit που χρησιμοποιήσατε](launching-the-exploit.html)
+   - Εάν έχετε ήδη εγκαταστήσει το Unlaunch και θέλετε να το ενημερώσετε, κρατήστε πατημένα τα <kbd class="face">A</kbd> + <kbd class="face">B</kbd> κατά την εκκίνηση
+2. Στο μενού όπου εμφανίζονται τα εικονίδια, εκκινήστε το `Safe Unlaunch installer` (αναγράφεται ως `unlaunch-installer.dsi` ανάλογα με το μενού που χρησιμοποιείται ή/και τον τρόπο εμφάνισης)
+3. Πατήστε το κουμπί <kbd class="face">A</kbd> αφού εμφανιστεί το μήνυμα `WARNING`
+   - Εάν η ένδειξη LED της μπαταρίας είναι κόκκινη, θα σας ζητηθεί να συνδέσετε την κονσόλα σε μια πηγή ρεύματος. Επιλέξτε `Yes` για να συνεχίσετε αφού τη συνδέσετε
+4. Εάν θέλετε να αλλάξετε το προεπιλεγμένο φόντο, επιλέξτε `[Custom background]` και πατήστε το <kbd class="face">A</kbd> για να επιλέξετε αυτό που θέλετε να χρησιμοποιήσετε
+   - Συμπεριλαμβάνονται τρεις προσαρμοσμένες εικόνες παρασκηνίου, αλλά μπορείτε να προσθέσετε περισσότερες σε έναν φάκελο με το όνομα `backgrounds` στη ρίζα της κάρτας SD (δημιουργήστε τον φάκελο αν δεν υπάρχει)
+5. Εάν θέλετε να διατηρήσετε τόσο την οθόνη εκκίνησης του DSi (με το μήνυμα υγείας και ασφάλειας) όσο και τον ήχο στο μενού συστήματος του DSi, επιλέξτε `Enable sound and splash` και πατήστε το <kbd class="face">A</kbd> για ενεργοποίηση
+6. Εάν το Unlaunch είναι ήδη εγκατεστημένο, επιλέξτε `Uninstall unlaunch` ή `Restore launcher tmd` και πατήστε το <kbd class="face">A</kbd> μόλις ολοκληρωθεί η ενέργεια
+   - Εάν θέλετε απλώς να **αφαιρέσετε** το Unlaunch, μπορείτε να σταματήσετε εδώ
+7. Επιλέξτε `Install unlaunch` και πατήστε το κουμπί <kbd class="face">A</kbd>
+8. Πατήστε το κουμπί <kbd class="face">A</kbd> μόλις ολοκληρωθεί η εγκατάσταση
+9. Πατήστε το <kbd class="face">POWER</kbd> για να επανεκκινήσετε το σύστημά σας
 
 Εάν, σε αυτό το σημείο, δείτε την οθόνη του μενού του Unlaunch, έχετε τροποποιήσει επιτυχώς το Nintendo DSi σας.
 
-- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
+- Εάν δείτε μια μαύρη οθόνη, ρίξτε μια ματιά στη σελίδα [Επίλυση προβλημάτων](troubleshooting.html)
 
-## Ενότητα III - Ρυθμίσεις μετά την εγκατάσταση του Unlaunch
+## Ενότητα IV - Ρυθμίσεις μετά την εγκατάσταση του Unlaunch
 
 Σε αυτό το σημείο, το Unlaunch εκκινεί το δικό του μενού κατά την εκκίνηση, αλλά μπορείτε να αλλάξετε αυτήν τη συμπεριφορά.
 
 1. Ενεργοποιήστε την κονσόλα σας κρατώντας πατημένα τα <kbd class="face">A</kbd> και <kbd class="face">B</kbd>
    - Αυτή η ενέργεια θα πρέπει να εκκινήσει το μενού του Unlaunch
-   - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
-2. Navigate to `OPTIONS`, and look at the available options
+   - Εάν δεν υπάρχει καμία καταχώρηση στη λίστα ή αν παρατίθενται μόνο τα περιεχόμενα της NAND (ακόμα κι αν κάνετε κύλιση προς τα κάτω), τότε θα χρειαστεί να [διαμορφώσετε εκ νέου την κάρτα SD](sd-card-setup.html)
+2. Μεταβείτε στο `OPTIONS` και δείτε τις διαθέσιμες επιλογές
    - Ο συνδυασμός πλήκτρων <kbd class="face">A</kbd> + <kbd class="face">B</kbd> έχει ρυθμιστεί σε επίπεδο κώδικα έτσι, ώστε να κάνει εκκίνηση στο μενού του Unlaunch και ως εκ τούτου, δεν είναι δυνατή η προσαρμογή του
-   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. Μπορείτε να επιλέξετε οποιοδήποτε DSiWare, εφαρμογή homebrew, την κασέτα του Slot-1, το wifiboot ή το μενού του Unlaunch
-     - For TWiLight Menu++, select  `TWiLight Menu++`
-     - For the original DSi Menu, select `Launcher`
-   - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
-3. Select `SAVE & EXIT` to save your settings, then turn off your DSi
+   - Μπορείτε να ρυθμίσετε τις επιλογές `NO BUTTON` και `BUTTON A / B / X / Y` με όποιον τρόπο επιθυμείτε και να επιλέξετε τι θα φορτώνει το DSi σας κατά την εκκίνηση, ανάλογα με τον συνδυασμό των πλήκτρων που κρατάτε πατημένα. Μπορείτε να επιλέξετε οποιοδήποτε DSiWare, εφαρμογή homebrew (συμπεριλαμβανομένου οποιουδήποτε μενού εγκαταστήσατε), την κάρτα Slot-1 card, το wifiboot ή το μενού αρχείων του Unlaunch
+     - Για το αρχικό μενού του DSi, επιλέξτε `Launcher`
+   - Εάν αποτύχει η φόρτωση της επιλογής που έχετε ορίσει, όπως στην περίπτωση που δεν έχει γίνει εισαγωγή της κάρτας SD, τότε το DSi σας θα εμφανίσει το μήνυμα `LOAD ERROR`
+3. Επιλέξτε `SAVE & EXIT` για να αποθηκεύσετε τις ρυθμίσεις σας και έπειτα, απενεργοποιήστε το DSi σας
 
-## Ενότητα IV - Εκκαθάριση της κάρτας SD
+## Ενότητα V - Εκκαθάριση της κάρτας SD σας
 
 ::: tip
 
@@ -83,20 +104,20 @@ If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). Α
 
 :::tab default Memory Pit
 
-- Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-- Rename `tip.bin` back to `pit.bin`, and leave it intact
-- You can now restore the `DCIM` folder that was on the root of your SD card
-- Delete the `UNLAUNCH.DSI` file from your SD card
+- Διαγράψτε το αρχείο `sd:/private/ds/app/484E494A/pit.bin` από την κάρτα SD σας
+- Μετονομάστε ξανά το `tip.bin` σε `pit.bin` και αφήστε το άθικτο
+- Μπορείτε τώρα να επαναφέρετε τον φάκελο `DCIM` που βρισκόταν στη ρίζα της κάρτας SD σας
+- Διαγράψτε το αρχείο `unlaunch-installer.dsi` από την κάρτα SD σας
 
 :::
 
 :::tab Flipnote Lenny
 
-- Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
-  - `sd:/private/ds/app/4B47554A/001` (Japan)
-  - `sd:/private/ds/app/4B475545/001` (USA)
-  - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
+- Διαγράψτε τα αρχεία `800031_104784BAB6B57_000.ppm` και `T00031_1038C2A757B77_000.ppm` από το εσωτερικό των εξής φακέλων:
+  - `sd:/private/ds/app/4B47554A/001` (Ιαπωνία)
+  - `sd:/private/ds/app/4B475545/001` (ΗΠΑ)
+  - `sd:/private/ds/app/4B475556/001` (Ευρώπη/Αυστραλία)
   - Μπορείτε επίσης να διαγράψετε ολόκληρους τους φακέλους που αφορούν άλλες περιοχές εκτός της δικής σας
-- Delete the `UNLAUNCH.DSI` file from your SD card
+- Διαγράψτε το αρχείο `unlaunch-installer.dsi` από την κάρτα SD σας
 
 :::

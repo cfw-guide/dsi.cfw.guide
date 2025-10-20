@@ -3,7 +3,7 @@ layout: home
 title: DSi-Anleitung
 hero:
   text: DSi-Anleitung
-  tagline: Die vollständige Anleitung zum Modifizieren deines Nintendo DSi
+  tagline: "Die vollständige Anleitung zum Modifizieren deines Nintendo DSi"
   image:
     src: /assets/images/home-page-feature.png
 ---

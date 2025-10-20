@@ -1,10 +1,10 @@
-# Setup Scheda SD
+# Configurazione scheda SD
 
 Questa pagina serve a preparare la scheda SD per il tuo dispositivo. In questo processo, formatteremo la scheda SD e controlleremo la presenza di errori.
 
 ::: danger
 
-Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire la guida. La tua scheda SD verrà FORMATTATA e i file dentro essa verrano eliminati nel processo.
+Assicuratindi fare dei backup ai contenuti della scheda SD PRIMA di seguire la guida. La tua scheda SD verrà FORMATTATA e i file dentro essa verrano eliminati nel processo.
 
 :::
 
@@ -16,7 +16,7 @@ Assicurarsi di eseguire il backup dei contenuti della scheda SD PRIMA di seguire
 
 ::: tip
 
-Questa sezione riguarda la formattazione della scheda SD secondo le specifiche della SD Card Association. Questo serve a risolvere problemi che potrebbero verificarsi con l'esecuzione di applicazione homebrew.
+Questa sezione riguarda la formattazione della scheda SD secondo le specifiche della SD Card Association. Serve a risolvere problemi che potrebbero verificarsi con l'esecuzione di applicazione homebrew.
 
 :::
 
@@ -28,17 +28,17 @@ Tutte le schede SD da 64GB o più grandi saranno formattate in `exFAT` con quest
 
 1. Scarica la versione più recente di [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
    - Se il link qui sopra non ti funziona, scarica [da archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accetta il Contratto di Licenza per l'Utente Finale per avviare il download
+   - Accetta il contratto di licenza per l'utente finale per avviare il download
 2. Esegui `SD Card Formatter Setup` (il file `.exe`) nel file `.zip` scaricato, con i privilegi Amministratore, quindi installa il programma
 3. Esegui `SD Card Formatter` dal Menu Start con i privilegi Amministratore
 4. Seleziona la tua scheda SD
 5. Assicurati che la casella `Quick Format` sia spuntata
-6. Premi `Format` per avvuare il processo di formattazione
+6. Premi `Format` per avviare il processo di formattazione
    - Se stai usando una scheda SD da 4GB-32GB e la dimensione del cluster non è riportata come `32 kilobyte`, avrai bisogno di seguire anche la Sezione II ![Schermata della formattazione della scheda SD su Windows 11](/assets/images/sd-card-formatter.png)
 
 ### Sezione II - Formattazione della scheda SD con GUIFormat
 
-Questa sezione formatta schede SD che sono 64GB o più grandi di FAT32.\
+Questa sezione formatta schede SD che sono 64GB o più grandi di FAT32.  
 Questo vale anche per le schede SD 4GB-32GB che non sono state formattate con dimensioni del cluster 32kb.
 
 ::: tip
@@ -99,7 +99,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ::: tip
 
-Se TWiLight Menu++ non riesce ad avviarsi dopo aver seguito questo metodo, si prega di seguire il metodo di Windows, riavviando su Windows oppure tramite esecuzione di una Windows Virtual Machine
+Se TWiLight Menu++ non riesce ad avviarsi dopo aver seguito questo metodo, prova a seguire il metodo di Windows, riavviando su Windows oppure tramite esecuzione di una Windows Virtual Machine
 
 :::
 
@@ -126,6 +126,13 @@ mmcblk0     179:0    0   3,8G  0 disk
      - Verrà creata un'unica partizione FAT16 con dimensione di allocazione di 32 KB sulla scheda SD
    - 4GB o più: `sudo mkdosfs /dev/(nome dispositivo indicato prima) -s 64 -F 32`
      - Verrà creata un'unica partizione FAT32 con dimensione di allocazione di 32 KB sulla scheda SD
+
+::: tip
+
+If you get an error message saying: `mkdosfs: /dev/(device name) contains a mounted file system`, you will need to `sudo umount /dev/(device name from above)` in order to complete the above step.
+Dovresti reinserire la scheda SD **o** ricreare il MOUNTPOINT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(nome del dispositivo) /run/media/user/FFFF-FFFF`) per continuare.
+
+:::
 
 ### Sezione II - Uso Di F3
 
@@ -183,7 +190,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ::: tip
 
-Questa sezione riguarda la formattazione della scheda SD secondo le specifiche della SD Card Association. Questo serve a risolvere problemi che potrebbero verificarsi con l'esecuzione di applicazione homebrew.
+Questa sezione riguarda la formattazione della scheda SD secondo le specifiche della SD Card Association. Serve a risolvere problemi che potrebbero verificarsi con l'esecuzione di applicazione homebrew.
 
 :::
 
@@ -194,7 +201,7 @@ Tutte le schede SD da 64GB o più grandi saranno formattate in `exFAT` con quest
 :::
 
 1. Scarica la versione più recente di [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
-   - Accetta il Contratto di Licenza per l'Utente Finale per avviare il download
+   - Accetta il contratto di licenza per l'utente finale per avviare il download
 2. Esefui `Install SD Card Formatter` (il file `.mpkg`) nel file`.zip` scaricato
 3. Esegui `Sd Card Formatter`
 4. Seleziona la tua scheda SD
@@ -289,6 +296,7 @@ Se il test mostra altri risultati, la tua scheda SD potrebbe essere corrotta o d
 
 ::: tip
 
-Ora è possibile ripristinare il contenuto della scheda SD e continuare.
+Ora è possibile ripristinare i contenuti della scheda SD e continuare.
 
 :::
+

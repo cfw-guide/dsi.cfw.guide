@@ -1,171 +1,165 @@
 # FAQ
 
-## Should I do a system update?
+## Czy powinienem zrobić aktualizację systemu?
 
-It is **not** recommended to update your DSi unless you know there are purchased DSiWare. While it still possible to follow this guide if you do so, the only benefit to updating is the ability to access the Nintendo DSi Shop to redownload already purchased titles. All other benefits, such as Facebook integration in the Nintendo DSi Camera application, are no longer usable or are not significant enough to justify the downsides:
+**Nie** jest rekomendowane, żeby aktualizować swoje DSi, chyba że wiesz, że są kupione DSiWare. Jest wciąż możliwe, żeby kontynuować z tym poradnikiem, jeżeli tak zrobisz, ale jedynym plusem jest możliwość dostępu do Nintendo DSi Shop, aby instalować już kupione tytuły. Wszystkie inne plusy, takie jak integracja Facebook'a w aplikacji Nintendo DSi Camera, nie są już zdolne do użytku lub nie są wystarczające, aby uzasadnić minusy:
 
-- Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch
-- Older exploits are no longer possible to use, which may be required if you are unable use the recommended exploits
-- Flashcard compatibility is reduced, however this is bypassed if you install Unlaunch
+- Instalowanie aktualizacji systemowych może okazjonalnie **spowodować awarię** konsoli, z mniej więcej taką samą częstotliwością, jak instalowanie Unlaunch
+- Starsze exploit'y mogą już nie być zdatne do użytku, jeżeli nie jesteś w stanie użyć zalecanych exploit'ów
+- Kompatybilność z Flashcard'ami jest zmniejszona, jednak jest to obchodzone, jeśli zainstalujesz Unlaunch
 
-## Which is the best exploit?
+## Jaki jest najlepszy exploit?
 
-Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit to install Unlaunch. If you want to avoid any risk it's recommended to instead use Flipnote Lenny as it has fewer issues in homebrew than Memory Pit while being just as safe and simple to remove. Below is a list of the pros and cons of each exploit:
+Unlaunch jest ogółem najlepszym exploit'em dla DSi, z jedynym minusem, że jest mała szansa na awarię podczas instalacji. Ogółem jest zalecane, aby użyć Memory Pit do instalacji Unlaunch. Jeżeli chcesz ominąć jakiekolwiek ryzyko to zalecane jest użycie Flipnote Lenny, bo ma mniej problemów z homebrew niż Memory Pit, podczas gdy jest tak samo bezpieczne i proste do usunięcia. Poniżej jest lista plusów i minusów każdego exploit'a:
 
 ### Memory Pit
 
-Pros:
+Plusy:
 
-- Quick and easy to use
-- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one file
-- Compatible with all DSi consoles unless they have a broken camera and haven't completed the camera tutorial
+- Szybkie i proste do użytku
+- Brak ryzyka uszkodzenia konsoli, odinstalowywanie jest tak proste jak usunięcie karty SD lub usunięcia jednego pliku
+- Kompatybilne z każdą konsolą DSi, chyba że mają zepsutą kamerę albo nie skończyły wprowadzenia kamery
 
-Cons:
+Minusy:
 
-- Requires loading the DSi Camera application every time you want to access homebrew
-- Incompatible with certain DSi mode titles and homebrew due to WRAM only being open to the ARM7 CPU
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
-- Access to the DSP is blocked resulting in worse sound in GBARunner2
-- Photos on the SD card cannot be viewed in the DSi Camera application while Memory Pit is installed, as this is the trigger for the exploit
-  - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+- Wymaga uruchamiania aplikacji DSi Camera za każdym razem, gdy chcesz uruchomić homebrew
+- Niekompatybilne z niektórymi tytułami DSi mode i z homebrew, bo WRAM jest dostępny tylko dla CPU ARM7
+- Dostęp do Slot-1 (czyli DS Game Card) jest zablokowany w homebrew
+- Dostęp do DSP jest zablokowany skutkując gorszym dźwiękiem w GBARunner2
+- Zdjęcia na karcie SD nie mogą być oglądane, gdy aplikacji DSi Camera ma zainstalowany Memory Pit, ponieważ jest to miejsce wywołania exploit'u
+  - Jedynym sposobem na oglądanie zdjęć na karcie SD, podczas gdy Memory Pit jest zainstalowany jest odpalenie zrzutu ROM aplikacji DSi Camera i używając **TW**i**L**ight Menu++, by odpalić go poprzez nds-bootstrap (v0.61.3 lub nowszy)
 
 ### stylehax
 
-Pros:
+Plusy:
 
-- Better compatibility with DSi mode titles and homebrew than Memory Pit
-- Easy to use
-- No risk of damaging the console
-- Useable on consoles with broken camera
-- Better sound in GBARunner2
+- Lepsza kompatybilność z tytułami DSi mode i homebrew od Memory Pit
+- Łatwe do użytku
+- Brak ryzyka uszkodzenia konsoli
+- Używalne na konsolach z niedziałającą kamerą
+- Lepszy dźwięk w GBARunner2
 
-Cons:
+Minusy:
 
-- Requires internet access
-- Requires loading the DSi Browser every time you want to access homebrew, slightly more time consuming than Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+- Wymaga dostępu do internetu
+- Wymaga uruchamiania DSi Browser za każdym razem, gry chcesz mieć dostęp do homebrew, trochę bardziej czasochłonne niż Memory Pit
+- Dostęp do Slot-1 (czyli DS Game Card) jest zablokowany w homebrew
 
 ### Flipnote Lenny
 
-Pros:
+Plusy:
 
-- Better compatibility with DSi mode titles and homebrew than Memory Pit
-- No risk of damaging the console, uninstalling is as simple as removing the SD or deleting one folder
-- Useable on consoles with broken camera
-- Better sound in GBARunner2
+- Lepsza kompatybilność z tytułami DSi mode i homebrew od Memory Pit
+- Brak ryzyka uszkodzenia konsoli, odinstalowywanie jest tak proste, jak usunięcie karty SD lub usunięcie jednego pliku
+- Używalne na konsolach z niedziałającą kamerą
+- Lepszy dźwięk w GBARunner2
 
-Cons:
+Minusy:
 
-- Requires loading Flipnote Studio every time you want to access homebrew, slightly more time consuming than Memory Pit
-- Access to Slot-1 (the DS Game Card) is blocked in homebrew
+- Wymaga ładowania Flipnote Studio za każdym razem, gdy chcesz mieć dostęp do homebrew, trochę bardziej czasochłonne niż Memory Pit
+- Dostęp do Slot-1 (czyli DS Game Card) jest zablokowany w homebrew
 
 ### Unlaunch
 
-Pros:
+Plusy:
 
-- Allows loading homebrew and DSiWare immediately on system boot, with optional button hotkeys
-- Full access to the system without any restrictions, including:
-  - Access to Slot-1 allowing dumping Game Cards and loading incompatible flashcards
-  - Better sound in GBARunner2
-- Removes region locks on DSi-Enhanced/Exclusive Game Cards
-- Protection against most ways a DSi could brick
-- DSi-Enhanced games can be run in DSi mode without a Donor ROM
-- Old homebrew can be run via nds-bootstrap-hb
+- Pozwala na ładowanie homebrew i DSiWare automatycznie po włączeniu systemu, opcjonalne skróty klawiszowe
+- Pełny dostęp do systemu bez żadnych ograniczeń, wliczając:
+  - Dostęp do Slot-1 pozwalając na zrzucanie Kart Gry i ładowanie niekompatybilnych flashcard'ów
+  - Lepszy dźwięk w GBARunner2
+- Usuwa zablokowanie regionu na Kartach Gry DSi-Enchanced/Exclusive
+- Zabezpieczenie przed większością sposobów, w jakie DSi mogłoby mieć awarię
+- Gry DSi-Enhanced mogą być otwieranie w DSi mode bez romu dawczego
+- Stare homebrew może być uruchamianie poprzez nds-boostrap-hb
 
-Cons:
+Minusy:
 
-- Very minor risk of **bricking** the console when installing
-- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
-- Not compatible with development consoles
+- Bardzo małe ryzyko **zablokowania** konsoli podczas instalacji
+- Inne, trochę większe, ryzyko spowodowania awarii, jeżeli zdecydujesz się go [odinstalować](uninstalling-unlaunch.html)
+- Nie jest kompatybilne z konsolami deweloperskimi
 
-## Will I lose any functionality by modding my system?
+## Czy stracę jakąkolwiek funkcjonalność poprzez modyfikowanie mojego systemu?
 
-If you install Unlaunch or use Flipnote Lenny, no functionality will be lost. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
+Jeśli zainstalujesz Unlaunch albo użyjesz Flipnote Lenny, nie stracisz żadnej funkcjonalności. Jeśli użyjesz Memory Pit, nie będziesz w stanie przeglądać zdjęć na karcie SD podczas używania DSi Camera, chyba że uruchomisz zrzut ROM-u aplikacji DSi Camera, używając **TW**i**L**ight Menu++, aby uruchomić go poprzez nds-bootstrap.
 
-- To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
-  - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
+- Aby odzyskać możliwość oglądania twoich zdjęć na karcie SD podczas uruchamiania DSi Camera z DSi Menu, zainstaluj Unlaunch albo zmień na inny exploit, potem usuń plik `pit.bin` Memory Pit
+  - Jeżeli `tip.bin` istnieje w tym samym katalogu, zmień jego nazwę z powrotem na `pit.bin`
 
-## How do I play Nintendo DS Game Card dumps?
+## Jak mogę grać w zrzuty Kart Gier Nintendo DS?
 
-Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
+Granie w zrzuty Kart Gier na konsoli wymaga użycia flashcard'a albo nds-bootstrap, programu, który pozwala na granie w gry z wewnętrzej karty SD poprzez przekierowanie odczytów i zapisów do Slot-1.
 
-- With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
-- hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
-  - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
+- Z TWiLight Menu++ możesz nawigować po twojej karcie SD, aby znaleźć pliki ROM do uruchamiania poprzez nds-bootstrap. Zaletami używania TWiLight Menu++ jest menu oszustw, ustawienia na grę i unikanie restrykcji, które posiadają forwarder'y. Innymi słowy, możesz przenieść swoje pliki ROM bezpośrednio i grać bez żadnej konfiguracji. Nie ma limitu 39 tytułów ani hiyaCFW, ani Unlaunch nie są wymagane i nie ma restrykcji o wolnym miejscu na karcie SD, jakie możesz mieć
+- Użytkownicy hiyaCFW mogą tworzyć przekazywacze do DSi Menu SDNAND-u używając poradnika [Przekazywaczy DS Game](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) na Wiki DS-Homebrew, ale ma swoje limitacje. Jest twardy limit 39 tytułów, ale są mniej praktyczne do zrobienia niż używanie TWiLight Menu++
+  - Użytkownicy hiyaCFW mogą tworzyć forwarder'y do DSi Menu SDNAND-u używając poradnika [Fowarder'ów DS Game](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) na Wiki DS-Homebrew, ale ma to swoje limitacje
 
-## How do I update my homebrew?
+## Jak mogę aktualizować moje homebrew?
 
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
-  - You do **not** need to uninstall Unlaunch before doing this
-- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
-- **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
-  - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
-- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
+- **Unlaunch** - Podążaj za instrukcjami na stronie [Instalowanie Unlaunch](installing-unlaunch.html)
+  - **Nie** potrzebujesz odinstalowywać Unlaunch przed robieniem tego
+- **hiyaCFW** - Zamień `hiya.dsi` na początku karty SD z [zaktualizowanego wydania](https://github.com/RocketRobz/hiyaCFW/releases)
+- **TWiLight Menu++** - Podążaj za instrukcjami na [Wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **nds-bootstrap** - Skopiuj `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` do folderu `_nds` na początku twojej karty SD
+  - Jeżeli używasz TWiLight Menu++, to jest duża szansa, że masz najnowszą wersję nds-bootstrap zawartą z TWiLight Menu++
+- **GodMode9i, dumpTool, Forwarder3-DS, itp.** - Podążaj za instrukcjami używanymi do pobrania ich
 
-Other homebrew might use other methods to update.
+Inne homebrew mogą używać inne metody aktualizacji.
 
-## I am new or I would like to redo my setup. Where do I start?
+## Jestem nowy lub chciałbym odnowić moją instalację. Gdzie mam zacząć?
 
-- If you have not already modified your console or are looking to update Unlaunch on your system, we recommend starting from the beginning of the guide and following through the pages. Be sure to read everything on the homepage
-- If you have the latest version Unlaunch, follow the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) to set up TWiLight Menu++ on your system
+- Jeżeli jeszcze nie zmodyfikowałeś swojej konsoli albo chcesz zaktualizować Unlaunch na swoim systemie, zalecamy rozpoczęcie od początku poradnika i podążanie przez wszystkie strony. Upewnij się, że przeczytałeś wszystko na stronie głównej
+- Jeżeli masz najnowszą wersję Unlaunch, podążaj za [poradnikiem instalacji TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi), aby ustawić TWiLight Menu++ na swoim systemie
 
-## How can I remove parental controls?
+## Jak mogę usunąć kontrolę rodzicielską?
 
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- [Generator mkey](https://mkey.salthax.org) może wygenerować kod wymagany do usunięcia kontroli rodzicielskiej
 
-## Can I change my Nintendo DSi's region?
+## Czy mogę zmienić region mojego Nintendo DSi?
 
-Yes, there are a few different methods depending on what you want to change:
+Tak, jest parę różnych metod, w zależności od tego, co chcesz zmienić:
 
-- The safest and simplest method is to simply install TWiLight Menu++, it can use any official language and more without needing NAND modifications
-- If you want to actually change the system region and are using hiyaCFW, open the config menu, and change the region setting (not possible with CHN and KOR NANDs)
-  - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
-- Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
+- Najbezpieczniejsza i najprostsza metoda to po prostu zainstalowanie TWiLight Menu++, może używać jakiegokolwiek oficjalnego języka i więcej bez modyfikacji NAND-u
+- Jeżeli właściwie chcesz zmienić region systemu i używasz hiyaCFW, otwórz menu konfiguracyjne, i zmień ustawienie regionu (nie jest to możliwe z NAND-ami CHN i KOR)
+  - Jeżeli zepsuje to wprowadzanie dotykowe, przywróć swoje ustawienia do oryginalnych, i możesz używać zamiast tego [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) Yoti'ego dla Azjatyckich systemów DSi. Dla Amerykańskich systemów DSi, użyj [tę wersję hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Na koniec, jeżeli chcesz zmienić region na właściwym NAND-zie systemowych, możesz użyc [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/https://gbatemp.net/threads/release-dsi-language-patcher.582836/) Mighty Max'a
 
-## What happened to the hiyaCFW installation guide?
+## Co stało się z Lazy DSi Downloader? Jak zainstaluje CFW bez niego?
 
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Lazy DSi Downloader był programem, który praktycznie pozwalał Ci na pominięcie manualnego procesu konfiguracji poprzez pobieranie i przenoszenie wymaganych plików do folderów na twojej karcie SD. Jednakże, z powodu tego, jak był on zaprogramowany i rozprowadzany, wielu użytkowników miało różne problemy i kończyli, robiąc manualne ustawienie, bo było to szybsze i/lub łatwiejsze niż naprawianie czegokolwiek, co powodowało problem.
 
-- If you were linked to the page in question from another guide, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects
+Aby zapobiec większej liczbie użytkowników przed napotykaniem tych problemów, nie zalecamy już używania Lazy DSi Downloaded, i zamiast tego [zrobienie manualnego ustawienia](get-started.html) jest zalecaną drogą.
 
-## What happened with Lazy DSi Downloader? How do I install CFW without it?
+- Jeżeli byłeś tu skierowany przez osoby trzecie, które zalecały używanie Lazy DSi Downloader, to instrukcje, jakimi podążałeś, były najprawdopodobniej przestarzałe. Proszę, zamiast tego użyj tego poradnika, bo jest on utrzymywany przez deweloperów tych projektów.
 
-Lazy DSi Downloader was a program that essentially allowed you to skip the manual setup process by downloading and placing the necessary files and folders on your SD card. However, due to the way it was programmed and distributed, many users encountered various issues and ended up having to do the manual set up, as it was quicker and/or easier than fixing whatever was causing the issue.
+## Jaki typ karty SD powinienem użyć?
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+- Powinieneś kupić kartę SD od zaufanej firmy
+- Pełno-rozmiarowa karta SD lub karta microSD z adapterem powinny równie dobrze działać
+- Jakakolwiek wielkość pomiędzy 1 GB a 2 TB będzie działać. Dla ogólnego użytku, 8 GB jest wystarczające
+  - Niektóre oprogramowanie, takie jak hitaCFW, może mieć o wiele dłuższy czas ładowania z kartami SD o większej pojemności
+- Klasa prędkości 8 lub większa jest zalecana
 
-- If you were linked to this guide by a third party that recommended using Lazy DSi Downloader, the instructions you were following were most likely outdated. Please use this guide instead, as it is maintained constantly by the developers of these projects.
+## Czy mogę użyć moją karte SD DSi na innych systemach?
 
-## What kind of SD card should I use?
+Ogólnie, tak, jednak są dwa wyjątki:
 
-- You should buy an SD card from a trusted brand
-- A full-size SD card or a microSD card with an adapter will both work
-- Any capacity between 1 GB and 2 TB will work. For general usage, 8 GB is enough
-  - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
-- Speed class 8 or higher is recommended
+- hiyaCFW będzie działać tylko na systemie, na jakim był ustawiony
+- Nawet jeżeli używasz nds-bootstrap lub flashcard'a, kody znajomego w sieciowych grach NDS będzie resetowany, jeżeli spróbujesz pójść online używając innej konsoli
 
-## Can I use my DSi SD card on other systems?
+## Jak mogę zmienić do nowej karty SD po ustawieniu homebrew?
 
-Generally, yes, with two exceptions:
+Sformatuj swoją kartę SD używając instrukcji [Konfiguracji Karty SD](sd-card-setup.html), potem po prostu przenieś swoje dane ze starej karty SD do nowej.
 
-- hiyaCFW will only work on the system it was set up for
-- Even if you are using nds-bootstrap or a flashcard, friend codes in online NDS games will be reset when attempting to go online using a different console
+## Czy mogę wciąż używać mojego systemu normalnie bez karty SD po skonfigurowaniu homebrew?
 
-## How do I switch to a new SD card after setting up homebrew?
+Tak. Jeżeli nie instalowałeś Unlaunch, twój system będzie zupełnie niezmodyfikowany. Jeżeli **zainstalowałeś** Unlaunch, będziesz musiał [skonfigurować Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration), aby automatycznie uruchamiał się do oryginalnego DSi Menu pod ustalonymi kondycjami.
 
-Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructions, then simply move your data from the old SD card to the new one.
+## [Strona Unlaunch](https://problemkaputt.de/unlaunch.htm) mówi, że wersja 2.0 nie jest bezpieczna. Czy powinienem użyć wcześniejszej wersji?
 
-## Can I still use my system normally without the SD card inserted after setting up homebrew?
+Strona Unlaunch nie była aktualizowana, od kiedy wersja 2.0 była wydana w 2019. Większość użytkowników nie doświadcza problemów z tą wersją, więc jest ona uznana za bezpieczną.
 
-Yes. If you did not install Unlaunch, your system will remain completely unmodified. If you _did_ install Unlaunch, you may need to [configure Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) to automatically boot the original DSi Menu under specified conditions.
+## Jak mam uruchamiać zrzucone DSiware?
 
-## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Should I use a previous version instead?
+Zalecaną metodą jest po prostu uruchomienie ich za pomocą TWiLight Menu++, z powodu prostej metody "przeciągnij i upuść" i braku arbitralnych limitów. Kiedy nds-bootstrap jest ustawiony jako domyślna metoda, zyskuje on także zalety innych oszustw i zrzutów ekranu, oraz innych zalet zawartych przez menu w grze.
 
-The Unlaunch page has not been updated since version 2.0 was released in 2019. The vast majority of users experience no issues with this version, so it is considered safe.
-
-## How do I run dumped DSiWare?
-
-The recommended method is to simply launch them with TWiLight Menu++, due to the simple drag-and-drop method and there being no arbitrary limit. When nds-bootstrap is set as the launch method, it also gains the benefits of cheats and screenshots, as well as any other benefit provided by the in-game menu.
-
-However, for the few titles that are incompatible, you can use [NTM](https://github.com/Epicpkmn11/NTM/releases) to install them on either internal memory or [hiyaCFW's SDNAND](https://wiki.ds-homebrew.com/hiyacfw/installing). In addition to lacking the benefits above, there is also a limit of 39 titles that cannot exceed 128 MiB/1,024 blocks in size. For SysNAND, there is also a very small risk of bricking the system when writing to the internal NAND.
+Jednakże, dla tych kilku tytułów, które nie są kompatybilne, możesz użyć [NTM](https://github.com/Epicpkmn11/NTM/releases), aby zainstalować je albo w pamięci wewnętrznej albo w [SDNAND hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing). W dodatku do braku w. w. zalet jest też limit 39 tytułów, które nie mogą być większe od 128MiB/1.024 bloków wielkości. Dla SysNAND istnieje też bardzo małe ryzyko awarii systemu podczas zapisywania do wewnętrznego NAND-u.

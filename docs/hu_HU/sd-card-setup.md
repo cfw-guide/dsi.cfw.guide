@@ -39,7 +39,7 @@ Bármilyen 64GB vagy nagyobb SD exFAT-ra lesz formázva ebben a folyamatban. Kö
 
 ### II. rész - Az SD kártya formázása a GUIFormat-tal
 
-Ez a rész 64 GB-nál nagyobb SD kártyák FAT32-re formázását írja le.\
+Ez a rész 64 GB-nál nagyobb SD kártyák FAT32-re formázását írja le.  
 Ez vomatkozik azokra a 4GB-32GB SD kártyákra is, amiket nem 32kb cluster mérettel formáztak.
 
 ::: tip
@@ -127,6 +127,13 @@ mmcblk0     179:0    0   3,8G  0 disk
      - Ez létrehoz egy FAT16 partíciót 32 KB cluster mérettel az SD kártyán
    - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
      - Ez létrehoz egy FAT32 partíciót 32 KB cluster mérettel az SD kártyán
+
+::: tip
+
+Ha egy hibaüzentet kapsz ezzel a tartalommal: `mkdosfs: /dev/(eszköznév) contains a mounted file system`, akkor futtatnod kell a `sudo umount /dev/(esköz neve fentről)` parancsot annak érdekében, hogy végre tudd hajtani a fenti lépést.
+Ez után újra kell csatlakoztatnod az SD kártyát **vagy** újra létre kell hoznod a CSATOLÁSI PONTOT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) a folytatáshoz.
+
+:::
 
 ### II. rész - Az F3 használata
 
@@ -293,3 +300,4 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 Most már helyreállíthatod az SD kártyád tartalmát és folytathatod.
 
 :::
+

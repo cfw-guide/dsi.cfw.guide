@@ -22,28 +22,34 @@ Jeśli już pobrałeś narzędzie dumpTool z innej sekcji tego poradnika, możes
 
 :::
 
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-2. Place `dumpTool.nds` anywhere on your SD card
+1. Pobierz najnowsze wydanie [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+2. Przenieś `dumpTool.nds` gdziekolwiek na twoją kartę SD
 
 ## Sekcja II – Dumping NAND
 
-1. Launch `dumpTool` through TWiLight Menu++
+1. Launch `dumpTool` through the menu you have installed
+   - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
+   - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. Naciśnij przycisk <kbd class="face">A</kbd> na swoim Nintendo DSi, aby zacząć zrzucać swój NAND
    - Kopia zapasowa NAND zajmuje zazwyczaj około 7 minut
 3. Kiedy kopiowanie NAND zostanie zakończona, naciśnij przycisk <kbd>START</kbd> na swoim Nintendo DSi, aby wyjść z dumpTool
 4. Wyłącz konsolę i włóż kartę SD z powrotem do komputera
-5. Przechowuj tę kopię w bezpiecznym miejscu, gdzie jej nie stracisz
+5. On the SD card, go to where `dumpTool.nds` is placed, and you'll see a new folder called `DT######...` which contains the NAND backup
+   - If dumpTool is downloaded from the [Get Started](get-started.html) page, it'll be named `boot.nds`
+   - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 hash of the backup
+6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Jeśli to możliwe, utwórz wiele kopii zapasowych na różnych urządzeniach pamięci masowej
    - Po wykonaniu kopii zapasowej w innym miejscu, możesz usunąć ją z karty SD
+7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
+Hasz SHA1 `nand.bin` nie będzie zgodny z haszem zapisanym w `nand.bin.sha1`. Jest tak ponieważ dumpTool dodaje dodatkowe dane znane jako stopka no$gba do pliku `nand.bin` po kalkulacji haszu SHA1. Możesz użyć [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) aby utworzyć kopię bez stopki.
 
 :::
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Continue to [Choosing a Menu](choosing-a-menu.html)
 
 :::

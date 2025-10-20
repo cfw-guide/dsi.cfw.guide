@@ -2,8 +2,8 @@
 
 ## Requisitos
 
-- The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
-  - Download the archive, extract the contents and place `GodMode9i.nds` anywhere on your SD card
+- La última versión de [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
+  - Descarga el archivo, extrae el contenido y coloca `GodMode9i.nds` en cualquier lugar de tu tarjeta SD
 
 ## Nintendo DSi - Instrucciones
 
@@ -11,7 +11,7 @@
 
 1. Inicia GodMode9i
 2. Presiona <kbd>START</kbd> para abrir el menú START
-3. Select `Title manager...`
+3. Selecciona `Title manager...`
    - Si esta opción no aparece, asegúrate de que tanto tu tarjeta SD como tu NAND están montadas. Si iniciaste GodMode9i desde hiyaCFW, inícialo desde otra aplicación
 4. Selecciona el título que quieras volcar
 5. Selecciona lo que quieras volcar
@@ -19,6 +19,6 @@
 
 ::: tip
 
-The dumped DSiWare will be found in `sd:/gm9i/out`.
+Las ROMs volcadas se encontrarán en `sd:/gm9i/out`.
 
 :::

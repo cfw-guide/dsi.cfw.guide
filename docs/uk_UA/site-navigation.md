@@ -4,8 +4,10 @@
 
 - [Get Started](get-started.html)
 - [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
+- [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
 - [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [Dumping NAND](dumping-nand.html)
+- [Choosing a Menu](choosing-a-menu.html)
 - [Installing Unlaunch](installing-unlaunch.html)
 
 ## Додатково

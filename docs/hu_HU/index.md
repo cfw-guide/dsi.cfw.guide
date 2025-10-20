@@ -3,26 +3,26 @@ layout: home
 title: DSi Útmutató
 hero:
   text: DSi Útmutató
-  tagline: A Nintendo DSi moddolás teljes útmutatója
+  tagline: "A Nintendo DSi moddolás teljes útmutatója"
   image:
     src: /assets/images/home-page-feature.png
 ---
 
 ::: tip
 
-For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide/).
+Más készülékekhez szóló teljes homebrew és egyedi firmware útmutatókért keresd fel a [CFW.Guide](https://cfw.guide/) oldalt.
 
 :::
 
 ::: tip
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is!) mielőtt folytatnád.
 
 :::
 
 ## Mi az a Homebrew?
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) applications are unlicensed software made for closed systems such as the Nintendo DSi. Ezek az alkalmazások lehetnek segédeszközök, egyedi homebrew játékok.
+A [Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) alkalmazások nem licencszelt szoftverek, zárt rendszerekre mint például a Nintendo DSi. Ezek az alkalmazások lehetnek segédeszközök, egyedi homebrew játékok.
 
 Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, függetlenül a firmware-től és a régiótól. Az egyetlen amire szükséged van egy belépési pont és egy SD kártya, amint a homebrew-ot tárolod. A fő belépési pont ebben az útmutatóban a Memory Pit, de léteznek más belépési pontok is, amit használhatsz, ha a Memory Pit nem elérhető számodra.
 
@@ -42,16 +42,16 @@ Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, független
 
 ## Hol találhatok homebrew alkalmazásokat?
 
-- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
+- Az [Universal-DB](https://db.universal-team.net/ds) tartalmazza a legtöbb modern homebrew alkalmazást, szép kereséssel és rendezéssel, hogy nyomon követhető legyen mi került frissítésre aktuálisan
+- A [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) sok régi homebrew-t tartalmaz, bár nagy részük csak flashcard-on működik
 
 ## Mit kell tudnom, mielőtt belekezdenék?
 
-- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
+- Windows-on ajánlott, hogy megjelenjenek a [fájl kiterjesztések](file-extensions-windows.html), ha az alapértelmezett Fájlkezelőt használod
 - Ez egyetlen brickelési kockázat az Unlaunch telepítésekor lehetséges, de a kockázat minimális
 
 ::: tip
 
-Continue to [Get Started](get-started.html)
+Folytatás a [Kezdeti lépésekkel](get-started.html)
 
 :::

@@ -3,7 +3,7 @@ layout: home
 title: DSi 破解指南
 hero:
   text: DSi 破解指南
-  tagline: 最完整的 Nintendo DSi 破解指南
+  tagline: "最完整的 Nintendo DSi 破解指南"
   image:
     src: /assets/images/home-page-feature.png
 ---
@@ -42,16 +42,16 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ## 在哪里能找到自制软件？
 
-- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
+- [Universal-DB](https://db.universal-team.net/ds)有很多现代的自制软件，还拥有一个超棒的搜索与排序来快速查找近期有更新的软件。
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) 有很多古老的自制程序， 但大多数只能配合烧录卡使用。
 
 ## 在开始之前我应该知道什么？
 
-- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
-- 唯一会使设备变砖的风险来自 Unlaunch，但机率微乎其微
+- 在 Windows 操作系统中，如果使用默认的文件资源管理器，建议显示文件扩展名
+- 唯一会使设备变砖的风险来自 Unlaunch，但几率微乎其微
 
 ::: tip
 
-Continue to [Get Started](get-started.html)
+对这玩意感兴趣？**[点这里开始吧！](get-started.html)**
 
 :::

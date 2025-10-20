@@ -27,14 +27,20 @@ Wenn Sie dumpTool bereits von einem anderen Abschnitt dieser Anleitung herunterg
 
 ## Abschnitt II - NAND-Dump durchführen
 
-1. Launch `dumpTool` through TWiLight Menu++
+1. Launch `dumpTool` through the menu you have installed
+   - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
+   - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. Drücke die <kbd class="face">A</kbd> Taste auf deinem DSi um den NAND-Dump zu starten
    - Ein NAND-Backup dauert in der Regel um die 7 Minuten
 3. Sobald das NAND-Backup fertig ist, drücke <kbd>START</kbd> auf deinem DSi um <code>dumpTool</code> zu verlassen
 4. Schalte die Konsole aus und schiebe die SD-Karte zurück in den Computer
-5. Verschiebe das Nand-Backup an einen Ort, wo es nicht verloren geht
+5. On the SD card, go to where `dumpTool.nds` is placed, and you'll see a new folder called `DT######...` which contains the NAND backup
+   - If dumpTool is downloaded from the [Get Started](get-started.html) page, it'll be named `boot.nds`
+   - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 hash of the backup
+6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Wenn möglich, mache eine Kopie/backup vom Nand-Backup auf verschiedenen Geräten
    - Erst wenn das NAND-Backup auf einem anderen Gerät gespeichert wurde, kann man es von der SD-Karte löschen
+7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 
@@ -44,6 +50,6 @@ The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Continue to [Choosing a Menu](choosing-a-menu.html)
 
 :::

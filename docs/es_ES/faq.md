@@ -2,9 +2,9 @@
 
 ## ¿Debería actualizar el sistema?
 
-It is **not** recommended to update your DSi unless you know there are purchased DSiWare. Si bien es posible seguir esta guía si actualizas, el único beneficio real sería acceder a la tienda de Nintendo DSi para volver a descargar tus títulos comprados. Todos los demás beneficios, como la integración de Facebook a la aplicación Cámara Nintendo DSi, ya no son utilizables o suficientemente provechosos para justificar las desventajas:
+**No** se recomienda a instalar una actualización a menos que sepas que se han comprado DSiWare. Si bien es posible seguir esta guía si actualizas, el único beneficio real sería acceder a la tienda de Nintendo DSi para volver a descargar tus títulos comprados. Todos los demás beneficios, como la integración de Facebook a la aplicación Cámara Nintendo DSi, ya no son utilizables o suficientemente provechosos para justificar las desventajas:
 
-- Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch
+- Instalando Actualizaciones de Sistema es conocido a **causar bloqueos** consolas, con el mismo frecuencia como cuando instalando Unlaunch
 - Ya no podrás usar exploits antiguos, lo que es posible que necesites hacer si no puedes usar los exploits recomendados
 - La compatibilidad con flashcards se ve reducida. Instalar Unlaunch previene que esto ocurra
 
@@ -27,7 +27,7 @@ Desventajas:
 - Las aplicaciones homebrew no pueden acceder a la ranura Slot-1 (donde van los cartuchos de DS)
 - El acceso al DSP está bloqueado, lo que resulta en peor calidad de audio en GBARunner2
 - Las fotos en la tarjeta SD no se pueden ver en la aplicación Cámara Nintendo DSi mientras Memory Pit esté instalado, ya que por ahí se accede al exploit
-  - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+  - La única forma de acceder a las fotos en la tarjeta de SD mientras Memory Pit esté instalado, es a iniciar una volcada de ROM de la aplicación de DSi Camera usando nds-bootstrap (v0.61.3 or posterior) a través de **TW**i**L**ight Menu++
 
 ### stylehax
 
@@ -74,16 +74,16 @@ Ventajas:
 
 Desventajas:
 
-- Very minor risk of **bricking** the console when installing
-- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
+- Muy pequeño riesgo de **bloquear** la consola cuando instalando
+- Luego, un poco más alto, riesgo de bloquearlo si decides a [desintsalarlo](uninstalling-unlaunch.html)
 - No es compatible con consolas de desarrollo
 
 ## ¿Perderé funcionalidades si modifico mi consola?
 
-Si instalas Unlaunch o Flipnote Lenny, no se perderá ninguna funcionalidad. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
+Si instalas Unlaunch o Flipnote Lenny, no se perderá ninguna funcionalidad. Si usas MemoryPit, no podrás ver las fotos en la tarjeta SD usando la Cámara DSi , a menos que inicies una ROM volcada de aplicación Cámara DSi usando nds-bootstrap a través de **TW**i**L**ight Menu++ .
 
-- To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
-  - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
+- Para recuperar la habilidad a ver las fotos de tu tarjeta SD cuando iniciando la Cámara DSi del menú DSi, instala Unlaunch o cambiar a un exploit diferente, entonces elimina el archivo `pit.bin` de Memory Pit
+  - Si `tip.bin` existe en la misma carpeta, renómbrarlo a `pit.bin`
 
 ## ¿Cómo juego a ROMs volcadas de cartuchos de Nintendo DS?
 
@@ -122,12 +122,6 @@ Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar:
 - Si quieres cambiar la región del sistema y estás usando hiyaCFW, abre el menú de configuración y cambia la configuración de región (no es posible con NANDs de las regiones de China y Corea)
   - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
-
-## ¿Qué pasó con la guía de instalación de hiyaCFW?
-
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-
-- Si fuiste referido a la página en cuestión desde otra guía, las instrucciones que estabas siguiendo muy probablemente estaban desactualizadas. Se te recomienda seguir esta guía en su lugar, ya que es mantenida y constantemente actualizada por los desarrolladores de estos proyectos
 
 ## ¿Qué pasó con Lazy DSi Downloader? ¿Cómo instalo homebrew sin usarlo?
 

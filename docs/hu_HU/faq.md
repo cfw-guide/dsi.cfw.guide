@@ -2,9 +2,9 @@
 
 ## Kell frissítenem a rendszert?
 
-It is **not** recommended to update your DSi unless you know there are purchased DSiWare. Habár továbbra is folytatható az útmutató, ha így teszel, az egyetlen előnye a frissítésnek, a képesség, hogy elérd a Nintendo DSi Shop-ot, hogy újra letöltsd a már megvásárolt címeket. Minden más előny, mint például a Facebook integráció a Nintendo DSi Camera alkalmazásban már nem használható vagy nem fontos annyira, hogy igazolja a hátrányokat:
+**Nem** ajánlott a DSi frissítése, ha nem tudod biztosan, hogy van-e rajta vásárolt DSiWare. Habár továbbra is folytatható az útmutató, ha így teszel, az egyetlen előnye a frissítésnek, a képesség, hogy elérd a Nintendo DSi Shop-ot, hogy újra letöltsd a már megvásárolt címeket. Minden más előny, mint például a Facebook integráció a Nintendo DSi Camera alkalmazásban már nem használható vagy nem fontos annyira, hogy igazolja a hátrányokat:
 
-- Installing System Updates is known to occasionally **brick** consoles, with roughly the same frequency as when installing Unlaunch
+- A rendszer frissítések telepítése alkalmanként **brickeli** a konzolokat, közel hasonló frekvenciával, mint az Unlaunch telepítése
 - A régi exploitok már nem használhatók, amik szükségesek lehetnek, ha nem tudod használni az ajánlott exploitokat
 - A flashcard kompatibilitás csökkentett, azonban ez megkerült, ha telepíted az Unlaunch-öt
 
@@ -27,7 +27,7 @@ Hátrányok:
 - Hozzáférés a Slot-1-hez (a DS játék kártyához) blokkolt homebrew esetén
 - A hozzáférés a DSP-hez blokkolt, ezért rosszabb a hang a GBARunner2-ben
 - A fényképek az SD kártyán nem megtekinthetők a DSi Camera alkalmazásban, amíg a Memory Pit telepített, mert ez a trigger az exploithoz
-  - The only way to view SD card photos while Memory Pit is installed, is to launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap (v0.61.3 or later)
+  - Az egyetlen módja, hogy az SD kártyán található fotókat megtekintsd amíg a Memory Pit telepített, hogy elindítod a ROM dumpját a DSi Camera alkalmazásnak **TW**i**L**ight Menu++-szal, hgy bootoljon nds-bootstrap-re (v0.61.3 vagy későbbi)
 
 ### stylehax
 
@@ -74,45 +74,46 @@ Előnyök:
 
 Hátrányok:
 
-- Very minor risk of **bricking** the console when installing
-- Another, slightly higher, risk of bricking if you decide to [uninstall it](uninstalling-unlaunch.html)
+- Van egy nagyon kicsi kockázata a konzol **brickelésének** a telepítésekor
+- Egy másik kicsit magasabb kockázata van a brickelésnek, amikor [eltávolítod](uninstalling-unlaunch.html)
 - Nem kompatibilis fejlesztői konzolokkal
 
 ## Vesztek el funkcionalitást, ha moddolom a rendszerem?
 
-Ha telepíted az Unlaunch-öt vagy a Flipnote Lenny-t használod, nem vesztesz el funkcionalitást. If you use Memory Pit, you will be unable to view photos on the SD card using the DSi Camera, unless you launch a ROM dump of the DSi Camera application using **TW**i**L**ight Menu++ to boot it via nds-bootstrap.
+Ha telepíted az Unlaunch-öt vagy a Flipnote Lenny-t használod, nem vesztesz el funkcionalitást. Ha a Memory Pit-et használod, nem fogsz tudni fotókat megnézni az SD kártyáról a DSi Camera alkalmazással, kivéve ha egy DSi Camera ROM-ot indítasz a **TW**i**L**ight Menu++ használatával,
+bootoljon be rá az nds-bootstrap használatával.
 
-- To regain the ability to view your SD card photos when launching the DSi Camera from the DSi Menu, install Unlaunch or switch to a different exploit, then delete Memory Pit's `pit.bin` file
-  - If `tip.bin` exists in the same folder, rename it back to `pit.bin`
+- Ahhoz, hogy újra tudjál az SD kártyáról fotókat megtekinteni a DSi Camera indításakor, telepítsd az Unlaunch-öt vagy válts más exploitra és töröld a Memory Pit `pit.bin` fájlját
+  - Ha a `tip.bin` létezik ugyanabban a mappában, nevezd vissza azt `pit.bin`-re
 
 ## Hogyan játszhatok Nintendo DS játék kártya dumpokkal?
 
 A játék kártya dump játékok használatához a konzolnak szüksége van flashcard-ra vagy nds-bootstrap-re, egy programra, ami lehetővé teszi, hogy a belső SD kártyáról játszhatók legyenek a játékok a Slot-1 írás és olvasás átirányításával.
 
 - A TWiLight Menu++-szal navigálhatsz az SD kártyádon, hogy megtaláld a ROM fájlokat, amiket nds-bootstrap-pel játszhatsz. A TWiLight Menu++ használatának előnye a csalás menü, a játékonkénti beállítások és hogy megkerüli a korlátozásokat, amikkel a forwarder-ek rendelkeznek. Más szavakkal, csak felmásolod a ROM fájlokat és játszhatsz velük bármilyen telepítés nélkül. Nincs 39 cím limit, sem hiyaCFW, sem Unlaunch nem szükséges és nincs korlátozás az SD kártya szabad tárhelyével kapcsolatosan sem
-- hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Van egy 39 címes limit és kevésbé kényelmes beállítani, mint használni a TWiLight Menu++-t
-  - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
+- A hiyaCFW felhasználók létrehozhatnak forwarder-eket az SDNAND DSi Menu-be a [DS játék forwarder-ek](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) útmutató használatával, de vannak korlátozások. Van egy 39 címes limit és kevésbé kényelmes beállítani, mint használni a TWiLight Menu++-t
+  - Ha nincs hiyaCFW-d és szeretnél forwarder-eket használni, kövesd a [hiyaCFW telepítési útmutatót](https://wiki.ds-homebrew.com/hiyacfw/installing) a DS-Homebrew Wiki-n
 
 ## Hogyan tudom frissíteni a homebrew appjaim?
 
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
-  - You do **not** need to uninstall Unlaunch before doing this
-- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
-- **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
+- \*\*Unlaunch - Kövesd az útmutatót az [Unlaunch telepítése](installing-unlaunch.html) oldalon
+  - **Nem** kell eltávolítanod az Unlaunch-öt mielőtt ezt csinálod
+- **hiyaCFW** - Cseréld a `hiya.dsi`-t az SD kártyád gyökerében a [legfrissebb kiadásból](https://github.com/RocketRobz/hiyaCFW/releases)
+- \*\*TWiLight Menu++ - Kövesd a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi) lépéseit
+- \*\*nds-bootstrap - Másold az `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` fájlokat az `_nds` mappába, az SD kártyád gyökerében
   - Ha használsz TWiLight Menu++-t, erős rá az esély, hogy a legfrissebb nds-bootstrap kiadás is megtalálható a TWiLight Menu++-ban
-- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, Forwarder3-DS, stb.** - Kövesd azokat az útmutatókat ami alapján letöltötted őket
 
 Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre.
 
 ## Új vagyok vagy szeretném újra csinálni a telepítést. Hol kezdjem?
 
 - Ha még nem módosítottad a konzolodat, vagy frissíteni szeretnéd az Unlaunch-öt a rendszereden, azt ajánljuk, hogy kezd az elejétől az útmutatót, követve az oldalakat. Legyél biztos abban, hogy mindent elolvastál a honlapon
-- If you have the latest version Unlaunch, follow the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) to set up TWiLight Menu++ on your system
+- Ha rendelkezel a legutolsó Unlaunch verzióval, kövesd a [TWiLight Menu+ telepítési útmutatót](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) a TWiLight Menu++ rendszeredre telepítéséhez
 
 ## Hogyan tudom eltávolítani a szülői felügyeletet?
 
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- Az [mkey generátor](https://mkey.salthax.org) tud generálni olyan kódot, amivel eltávolítható a szülői felügyelet
 
 ## Meg tudom változtatni a Nintendo DSi konzolom régióját?
 
@@ -120,20 +121,14 @@ Igen, néhány különböző metódus áll rendelkezésre, attól függően mit 
 
 - A legbiztonságosabb és legegyszerűbb metódus a TWiLight Menu++ telepítése, az bármelyik hivatalos nyelvet tudja használni, és még többet a NAND módosítása nélkül
 - Ha tényleg szeretnéd cserélni a régiót és hiyaCFW-t használsz, nyisd meg a konfigurációs menüt és állítsd át a régiós beállításokat (nem lehetséges CHN vagy KOR NAND-okkal)
-  - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
-- Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
-
-## Mi történt a hiyaCFW telepítési útmutatóval?
-
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-
-- Ha linkelve lettél az oldalra egy másik útmutatóból, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutatót helyette, mert folyamatosan karbantartott a projekt fejlesztői által
+  - Ha ez elrontja az érintőképernyős bevitelt, állítsd vissza a beállítást az eredetire, és akkor használhatod helyette erre Yoti [hiyalang](https://github.com/Yoti/cli_hiyalang/releases)-ját az ázsiai DSi rendszerekhez. Amerikai DSi rendszerekhez használd a [hiyalang ezen verzióját](https://github.com/Simonsator/cli_hiyalang/releases/)
+- Végül, ha cserélni akarod a régiót az aktuális rendszer NAND-ban, használhatod Mighty Max [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)-ét
 
 ## Mi történt a Lazy DSi Downloader-rel? Hogyan telepítek CFW-t nélküle?
 
 A Lazy DSi Downloader egy olyan program volt, ami lehetővé tette, hogy átugorjuk a kézi telepítést azzal, hogy letölti és a helyére rakja a szükséges fájlokat és mappákat az SD kártyádra. Azonban a módtól, ahogy programozva és terjesztve lett, sok felhasználó tapasztalt különböző hibákat és végül kötött ki a kézi teleptésnél, mivel az gyorsabb és/vagy könnyebb, mint kijavtani azt ami a hibát okozta.
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+Azért, hogy megóvjuk a felhasználókat ezektől a problémáktól, már nem javasoljuk a Lazy DSi Downloader használatát, és helyette [a kézi telepítés végrehajtása](get-started.html) a javasolt út.
 
 - Ha linkelve lettél az oldalra egy másik útmutatóból, ami a Lazy DSi Downloader-t ajánlja, akkor a lépések amit követtél valószínűleg elavultak. Kérjük használd ezt az útmutatót helyette, mert folyamatosan karbantartott a projekt fejlesztői által.
 
@@ -154,13 +149,13 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 
 ## Hogyan váltok egy új SD kártyára, miután beállítottam a homebrew-t?
 
-Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructions, then simply move your data from the old SD card to the new one.
+Formázd az SD kártyát [az SD kártya telepítés](sd-card-setup.html) lépései alapján, majd egyszerűen mozgasd az adatod a régi SD kártyáról az újra.
 
 ## Tudom használni a rendszeremet normálisan az SD kártya behelyezése nélkül, miután telepítettem a homebrew-t?
 
-Igen. Ha nem telepíted az Unlaunch-öt, a rendszered teljesen módosítatlan marad. If you _did_ install Unlaunch, you may need to [configure Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) to automatically boot the original DSi Menu under specified conditions.
+Igen. Ha nem telepíted az Unlaunch-öt, a rendszered teljesen módosítatlan marad. Ha _telepíted_ az Unlaunch-öt, szükséged lehet az [Unlaunch beállítására](installing-unlaunch.html#section-iii-post-unlaunch-configuration), hogy automatikusan bootolj az eredeti DSi Menüre bizonyos kondíciók esetén.
 
-## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. Javasolt helyette egy korábbi verzió használata?
+## Az [Unlaunch oldal](https://problemkaputt.de/unlaunch.htm) azt mondja, hogy a 2.0 verzió nem tekinthető biztonságosnak. Javasolt helyette egy korábbi verzió használata?
 
 Az Unlaunch oldal nem került frissítésre, mióta a 2.0 verzió kiadásra került 2019-ben. A legtöbb felhasználó nem tapasztalt problémát ezzel a verzióval, így biztonságosnak tekinthető.
 
@@ -168,4 +163,4 @@ Az Unlaunch oldal nem került frissítésre, mióta a 2.0 verzió kiadásra ker�
 
 Az ajánlott módszer, hogy egyszerűen futtasd a TWiLight Menu++-szal az egyszerű húzd-és-vidd metódussal és nincs semmilen korlátja. Ha az nds-bootstrap a beállított indítási metódus, akkor még megkapja a csalások és a képernyőképek előnyeit és minden más előnyt ami a játékbani menüből érhető el.
 
-However, for the few titles that are incompatible, you can use [NTM](https://github.com/Epicpkmn11/NTM/releases) to install them on either internal memory or [hiyaCFW's SDNAND](https://wiki.ds-homebrew.com/hiyacfw/installing). Továbbá a fenti előnyök hiánya mellett a 39 címes limit is megmarad, amik nem léphetik től a 128 MiB/1,024 block méretet. A SysNAND esetén van egy nagyon kicsi rizikója a rendszer brickelésének, amikor az ír a belső NAND-ba.
+Azonban a néhány inkompatibilis címhez használhatod az [NTM](https://github.com/Epicpkmn11/NTM/releases)-et, hogy telepítsd őket vagy a belső memóriára vagy a [hiyaCFW SDNAND](https://wiki.ds-homebrew.com/hiyacfw/installing)-jára. Továbbá a fenti előnyök hiánya mellett a 39 címes limit is megmarad, amik nem léphetik től a 128 MiB/1,024 block méretet. A SysNAND esetén van egy nagyon kicsi rizikója a rendszer brickelésének, amikor az ír a belső NAND-ba.

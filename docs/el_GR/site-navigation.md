@@ -2,24 +2,26 @@
 
 ## Κύρια διαδικασία οδηγού
 
-- [Get Started](get-started.html)
-- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
-- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-- [Dumping NAND](dumping-nand.html)
-- [Installing Unlaunch](installing-unlaunch.html)
+- [Έναρξη](get-started.html)
+- [Εκκίνηση του exploit (Memory Pit)](launching-the-exploit.html)
+- [Εκκίνηση του exploit (stylehax)](launching-the-browser-exploit.html)
+- [Εκκίνηση του exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [Αποτύπωση της NAND](dumping-nand.html)
+- [Επιλογή ενός μενού](choosing-a-menu.html)
+- [Εγκατάσταση του Unlaunch](installing-unlaunch.html)
 
 ## Πρόσθετες ενότητες
 
-- [SD Card Setup](sd-card-setup.html)
-- [File Extensions (Windows)](file-extensions-windows.html)
-- [Dumping Game Cards](dumping-game-cards.html)
-- [DSiWare Backups](dsiware-backups.html)
-- [Uninstalling Unlaunch](uninstalling-unlaunch.html)
-- [Restoring NAND](restoring-nand.html)
+- [Διαμόρφωση της κάρτας SD](sd-card-setup.html)
+- [Επεκτάσεις αρχείων (Windows)](file-extensions-windows.html)
+- [Αποτύπωση κασετών παιχνιδιών](dumping-game-cards.html)
+- [Αντίγραφα ασφαλείας για DSiWare](dsiware-backups.html)
+- [Αφαίρεση του Unlaunch](uninstalling-unlaunch.html)
+- [Επαναφορά της NAND](restoring-nand.html)
 
 ## Άλλες σελίδες του ιστοτόπου
 
-- [Home](index)
-- [Frequently Asked Questions (FAQ)](faq.html)
-- [Troubleshooting](troubleshooting.html)
-- [Credits](credits.html)
+- [Αρχική](index)
+- [Συχνές ερωτήσεις](faq.html)
+- [Επίλυση προβλημάτων](troubleshooting.html)
+- [Ευχαριστίες](credits.html)

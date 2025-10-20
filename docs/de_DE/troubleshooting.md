@@ -10,11 +10,15 @@ To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/r
 
 ### Es gibt kein Ton- oder Boot-splash beim ausführen von "Launcher" mit Unlaunch
 
-Der Entwickler von Unlaunch (nocash) hat absichtlich die Hintergrundmusik und Bootsplashes standardmäßig entfernt. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Der Entwickler von Unlaunch (nocash) hat absichtlich die Hintergrundmusik und Bootsplashes standardmäßig entfernt. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Der Systemstart nach Unlaunchinstallation zeigt nur einen schwarzen Bildschirm
 
-Versuche, deine SD Karte zu entfernen und die Konsole erneut zu starten. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Versuche, deine SD Karte zu entfernen und die Konsole erneut zu starten. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### Nach der Unlaunchinstallation stecke ich beim Systemstart in einer Anwendung oder dem Unlaunch Dateimenü fest
 

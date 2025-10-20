@@ -1,20 +1,22 @@
 # Unlaunchのインストール
 
-::: warning
+You are about to install Unlaunch, a permanent bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required in order to fix some issues that may occur after installing Unlaunch.
+::: danger
+
+If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). A NAND backup + [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) (or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod), provided you know how to solder) would allow you to restore this backup in case the console gets bricked afterwards.
 
 :::
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). 可能性は僅かながら、Unlaunchの事故でDSiをブリックすることがあります。 A NAND backup + [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod) would allow you to restore this backup, provided you know how to solder.
+Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
 
 :::
 
 ::: warning
 
-この手順を実行するときは、本体が十分に充電されていることを確認してください。 作業中に電池切れを起こすと本体に深刻なダメージを与える可能性があります。
+If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required to ensure the SD Card used is formatted in a way compatible with Unlaunch.
 
 :::
 
@@ -26,52 +28,71 @@ UnlaunchにはニンテンドーDSi開発機との互換性はありません。
 
 ## セクション I - SD カードのセットアップ
 
-1. Download the latest version of [Unlaunch](https://problemkaputt.de/unlaunch.zip)
-   - [Mirror link](https://web.archive.org/web/20201112031436/https://problemkaputt.de/unlaunch.zip), if the above doesn't work
-2. Extract `UNLAUNCH.DSI` from the `unlaunch.zip` archive and place it anywhere on your SD card
-3. SDカードにTWiLight Menu++が残っていることを確認します
-   - If you are unsure, follow the instructions from the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi)
+1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
+2. Place `unlaunch-installer.dsi` anywhere on your SD card
 
-## セクション II - Unlaunchのインストール・更新
+## Section II - Updating DSi system version
 
-1. TWiLight Menu++を起動します
-   - If this is your first time installing Unlaunch, relaunch TWiLight Menu++ through the [exploit that you used](launching-the-exploit.html)
-   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting and select the option labeled `TWiLight Menu++`
-   - If several options are labeled `TWiLight Menu++`, select the option in where `BOOT.NDS` is shown at the end of the path on the bottom screen
-     - This happens because you are running an older version of TWiLight Menu++, unless you're doing it on purpose, is suggested that you [update your installation](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-2. TWiLight Menu++設定を起動します
-   - If you haven't changed your theme, press `SELECT` and touch the small DS icon on the bottom of the touch screen. それ以外の場合は、TWiLight Menu++ Manualを参照してください
-3. Hit <kbd class="l">L</kbd> / <kbd class="r">R</kbd> or <kbd class="face">X</kbd> / <kbd class="face">Y</kbd> until you reach the `Unlaunch settings` page
-4. If you want to change Unlaunch's background image, select `Background` and choose the one you want
-   - If you want to create your own Unlaunch background, see the [DS-Homebrew Wiki page](https://wiki.ds-homebrew.com/twilightmenu/custom-unlaunch-backgrounds)
-5. TWiLight Menu++設定を終了します
-6. In the file navigation menu, launch `Unlaunch DSi Installer`
-   - If you see two black screens after launching, download [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases), put its .dsi file on the SD root, then launch GodMode9i using TWiLight Menu++, and start `Unlaunch.dsi`\
-     This method does not enable Unlaunch to use custom patches and background
-7. Select the "install now" option
-   - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please take a look at the [Troubleshooting](troubleshooting.html) page
-8. 完了したら、本体を再起動します
+::: tip
+
+If Unlaunch is already installed and you are looking to update or uninstall Unlaunch, skip to Section III
+
+:::
+
+1. In the DSi Menu, launch the System Settings application (the icon is gray and has a white wrench)
+   - The version will be shown on the bottom-right of the top screen
+   - If the version is `Ver 1.4.2`, proceed with performing a system update
+   - Otherwise, go straight to Section III
+2. Touch the number `4` to go to the fourth page
+3. Touch `System Update`
+   - It is the third option if your console isn't in your native language
+4. Touch `Yes` when asked to connect to the internet and update
+   - It is the left-side option if your console isn't in your native language
+   - If the version is already up to date, go straight to Section III
+5. Touch the `Next` button
+   - It is the right-side option if your console isn't in your native language
+6. Touch the `I Accept` button
+   - It is the top option if your console isn't in your native language
+7. Touch the `OK` button
+   - It is the bottom right-side option if your console isn't in your native language
+8. Wait for the system to update, and reboot when finished
+
+## Section III - Installing/Updating Unlaunch
+
+1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
+   - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
+   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
+2. In the menu where the icons are listed, launch `Safe Unlaunch installer` (listed as `unlaunch-installer.dsi` depending on which menu is used and/or how it's displayed)
+3. Press the <kbd class="face">A</kbd> button after the `WARNING` message appears
+   - If the battery LED is red, it'll tell you to plug in the console. Select `Yes` to continue after plugging it in
+4. If you want to change the default background, select `[Custom background]` and press <kbd class="face">A</kbd> to select the one you want to use
+   - Three custom backgrounds are included, but you can add more into a folder called `backgrounds` on the SD card root (create the folder if it doesn't exist)
+5. If you want to keep both the DSi splash (with health and safety message) and the sound in the DSi system menu, select `Enable sound and splash` and press <kbd class="face">A</kbd> to turn it on
+6. If Unlaunch is already installed, select the `Uninstall unlaunch` or `Restore launcher tmd` option, and press <kbd class="face">A</kbd> once it's done
+   - If you only want to **uninstall** Unlaunch, you can stop here
+7. Select the `Install unlaunch` option, and press the <kbd class="face">A</kbd> button
+8. Press the <kbd class="face">A</kbd> button once installation is done
+9. Press <kbd class="face">POWER</kbd> to reboot your system
 
 If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
 
 - If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
 
-## セクション III - Unlaunchインストール後の設定
+## Section IV - Post-Unlaunch configuration
 
-Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed launch whatever you want.
+Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed to launch whatever you want.
 
 1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源を入れます
    - これはUnlaunchのファイルメニューを開くホットキーです
-   - If nothing is listed, or if only `TWiLight Menu++` isn't listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
+   - If nothing is listed, or if only the NAND contents are listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
 2. Navigate to `OPTIONS`, and look at the available options
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd>はUnlaunchメニューを起動するためにハードコードされているため変更はできません
-   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. DSiウェアも、Homebrewも、Slot-1ゲームカードも、wifibootも、UnlaunchのFilemenuも選べます
-     - For TWiLight Menu++, select  `TWiLight Menu++`
+   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
      - For the original DSi Menu, select `Launcher`
    - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
 3. Select `SAVE & EXIT` to save your settings, then turn off your DSi
 
-## セクション IV - SDカードのクリーンアップ
+## Section V - Cleaning up your SD card
 
 ::: tip
 
@@ -86,7 +107,7 @@ This section is optional and only serves for keeping your SD card tidy of files 
 - Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
 - Rename `tip.bin` back to `pit.bin`, and leave it intact
 - You can now restore the `DCIM` folder that was on the root of your SD card
-- Delete the `UNLAUNCH.DSI` file from your SD card
+- Delete the `unlaunch-installer.dsi` file from your SD card
 
 :::
 
@@ -97,6 +118,6 @@ This section is optional and only serves for keeping your SD card tidy of files 
   - `sd:/private/ds/app/4B475545/001` (USA)
   - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
   - 自分の地域以外のフォルダを丸ごと削除してもOKです
-- Delete the `UNLAUNCH.DSI` file from your SD card
+- Delete the `unlaunch-installer.dsi` file from your SD card
 
 :::

@@ -3,7 +3,7 @@ layout: home
 title: Guide DSi
 hero:
   text: Guide DSi
-  tagline: Le guide complet pour modder votre Nintendo DSi.
+  tagline: "Le guide complet pour modder votre Nintendo DSi."
   image:
     src: /assets/images/home-page-feature.png
 ---

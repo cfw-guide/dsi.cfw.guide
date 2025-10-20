@@ -27,14 +27,20 @@
 
 ## Розділ ІІ - Створення копії NAND
 
-1. Launch `dumpTool` through TWiLight Menu++
+1. Launch `dumpTool` through the menu you have installed
+   - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
+   - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. Натисніть кнопку <kbd class="face">A</kbd> на Nintendo DSi, щоб почати процес створення копії NAND
    - Створення резервної копії NAND зазвичай займає близько 7 хвилин
 3. Коли створення резервної копії буде завершено, натисніть кнопку <kbd>START</kbd> на вашому Nintendo DSi, щоб вийти з dumpTool
 4. Вимкніть консоль та вставте SD карту у свій пристрій (наприклад, комп'ютер)
-5. Збережіть цю резервну копію у надійному місці, де ви не втратите її
+5. On the SD card, go to where `dumpTool.nds` is placed, and you'll see a new folder called `DT######...` which contains the NAND backup
+   - If dumpTool is downloaded from the [Get Started](get-started.html) page, it'll be named `boot.nds`
+   - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 hash of the backup
+6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Якщо можливо, зробіть декілька резервних копій на різних носіях інформації (жорсткий диск, SSD тощо)
    - Після копіювання резервної копії її на різноманітні носії інформації, ви можете видалити її з SD карти
+7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 
@@ -44,6 +50,6 @@ The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Continue to [Choosing a Menu](choosing-a-menu.html)
 
 :::

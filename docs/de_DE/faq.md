@@ -123,12 +123,6 @@ Ja, es gibt ein paar verschiedene Methoden, je nachdem, was Sie ändern möchten
   - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
 - Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
 
-## Was ist mit der hiyaCFW Installationsanleitung passiert?
-
-Because hiyaCFW does not serve much functional purpose and was a problematic and confusing part of the guide for many users, it was moved to the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/hiyacfw/installing).
-
-- Wenn du zu der hiyaCFW Installationsseite von einer anderen Anleitung weitergeleitet wurdest, ist diese Anleitung höchstwahrscheinlich veraltet. Nutze diese Anleitung daher stattdessen, weil sie dauerhaft von den Entwicklern dieser Projekte aufrechterhalten wird
-
 ## Was ist mit Lazy DSi Downloader passiert? Wie installiere ich CFW ohne sie?
 
 Lazy DSi Downloader war ein Programm, mit dem du den manuellen Einrichtungsprozess überspringen kannst, indem du die notwendigen Dateien und Ordner auf deiner SD-Karte herunterlädst. Aufgrund der Art und Weise, wie es programmiert und verteilt wurde, stießen viele Benutzer auf verschiedene Probleme und mussten schließlich das Handbuch einrichten, da es schneller und/oder einfacher war, als alles zu reparieren, was das Problem verursacht hat.

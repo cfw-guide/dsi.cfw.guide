@@ -10,11 +10,15 @@ To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/r
 
 ### Nu se aude nimic sau splash-ul de lansare nu apare când lansez "Launcher" în Unlaunch
 
-The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+The developer of Unlaunch (nocash) has intentionally patched out the background audio and boot-splash by default. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Când pornesc consola după ce am instalat Unlaunch apare doar un ecran negru
 
-Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Try ejecting the SD card and powering the console on again. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### După ce am insatlat Unlaunch, sunt blocat la pornirea unei aplicații sau în Meniul de Fișiere Unlaunch
 

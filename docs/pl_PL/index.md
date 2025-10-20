@@ -3,26 +3,26 @@ layout: home
 title: Przewodnik DSi
 hero:
   text: Przewodnik DSi
-  tagline: Kompletny przewodnik do modyfikacji twojego Nintendo DSi
+  tagline: "Kompletny przewodnik do modyfikacji twojego Nintendo DSi"
   image:
     src: /assets/images/home-page-feature.png
 ---
 
 ::: tip
 
-For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide/).
+Dla kompletnych poradników do homebrew i CFW dla innych urządzeń zobacz [CFW.Guide](https://cfw.guide/).
 
 :::
 
 ::: tip
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Dokładnie przeczytaj wszystkie strony wprowadzające (w tym też tą!) przed kontynuowaniem.
 
 :::
 
 ## Czym jest homebrew?
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) applications are unlicensed software made for closed systems such as the Nintendo DSi. Aplikacje te mogą obejmować zarówno programy użytkowe, jak i niestandardowe gry homebrew.
+Aplikacje [homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) to nielicencjonowane oprogramowanie stworzone dla zamkniętych systemów takich jak Nintendo DSi. Aplikacje te mogą obejmować zarówno programy użytkowe, jak i niestandardowe gry homebrew.
 
 Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezależnie od wersji firmware'u czy regionu. Wszystko, czego potrzebujesz, to exploit i karta SD do przechowywania twojego homebrew. Główny punkt wejścia użyty w tym poradniku nazywa się Memory Pit, ale istnieją inne punkty wejścia, których możesz użyć, jeśli Memory Pit jest dla ciebie bezużyteczny.
 
@@ -42,16 +42,16 @@ Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezal
 
 ## Gdzie mogę znaleźć aplikacje homebrew?
 
-- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
+- [Universal-DB](https://db.universal-team.net/ds) ma większość nowoczesnego homebrew, z miłym wyszukiwaniem i sortowaniem do śledzenia nowo zakrualizowanych rzeczy
+- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) ma dużo starszego homebrew, jednakże wiele będzie działało tylko na flashcard'ach
 
 ## Co należy wiedzieć przed rozpoczęciem?
 
-- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
+- Na Windowsie, zalecane jest, aby [wyświetlać rozszerzenia plików](file-extensions-windows.html), jeśli używasz domyślnego Eksploratora Windows
 - Jedyne ryzyko związane z awarią pochodzi z instalacji Unlaunch, a ryzyko to jest minimalne
 
 ::: tip
 
-Continue to [Get Started](get-started.html)
+Kontynuuj, do [Rozpocznij](get-started.html)
 
 :::

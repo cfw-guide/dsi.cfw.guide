@@ -22,28 +22,34 @@
 
 :::
 
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-2. Place `dumpTool.nds` anywhere on your SD card
+1. Κάντε λήψη της πιο πρόσφατης έκδοσης του [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
+2. Τοποθετήστε το `dumpTool.nds` οπουδήποτε στην κάρτα SD σας
 
 ## Ενότητα II - Αποτύπωση της NAND
 
-1. Launch `dumpTool` through TWiLight Menu++
+1. Εκκινήστε το `dumpTool` μέσω του μενού που έχετε εγκαταστήσει
+   - Εάν έχετε χρησιμοποιήσει κάποιο exploit για να το εκκινήσετε και βρίσκεστε ήδη στο μενού του dumpTool, παραλείψτε αυτό το βήμα
+   - Εάν το Unlaunch είναι ήδη εγκατεστημένο και κατευθυνθήκατε σε αυτήν τη σελίδα από τη σελίδα [Έναρξη](get-started.html#section-ii-checking-if-unlaunch-is-already-installed), κρατήστε πατημένα τα <kbd class="face">A</kbd> + <kbd class="face">B</kbd> κατά την εκκίνηση
 2. Πατήστε το κουμπί <kbd class="face">A</kbd> στο Nintendo DSi σας για να ξεκινήσετε την αποτύπωση της NAND σας
    - Η δημιουργία ενός αντιγράφου ασφαλείας της NAND συνήθως διαρκεί περίπου 7 λεπτά
 3. Όταν ολοκληρωθεί η δημιουργία του αντιγράφου ασφαλείας της NAND, πατήστε το κουμπί <kbd>START</kbd> στο Nintendo DSi σας για να κλείσετε το dumpTool
 4. Απενεργοποιήστε την κονσόλα σας και εισαγάγετε ξανά την κάρτα SD στη συσκευή σας
-5. Αποθηκεύστε αυτό το αντίγραφο ασφαλείας σε ασφαλές μέρος, όπου δεν θα υπάρχει κίνδυνος απώλειάς του
+5. Στην κάρτα SD, μεταβείτε στην τοποθεσία όπου βρίσκεται το αρχείο `dumpTool.nds`. Εκεί, θα δείτε έναν νέο φάκελο με το όνομα `DT######...`, ο οποίος περιέχει το αντίγραφο ασφαλείας της NAND
+   - Εάν κάνατε λήψη του dumpTool από τη σελίδα [Έναρξη](get-started.html), το αρχείο θα ονομάζεται `boot.nds`
+   - Μέσα στον φάκελο υπάρχει το αρχείο `nand.bin` που είναι το ίδιο το αντίγραφο ασφαλείας, καθώς και το `nand.bin.sha1` που είναι το SHA1 hash του αντιγράφου ασφαλείας
+6. Αποθηκεύστε τον φάκελο `DT######...` σε ασφαλές μέρος, όπου δεν θα τον χάσετε
    - Εάν είναι δυνατόν, δημιουργήστε πολλαπλά αντίγραφα ασφαλείας αυτού του αρχείου σε διαφορετικές συσκευές αποθήκευσης
    - Μόλις το αποθηκεύσετε κάπου αλλού, μπορείτε να το διαγράψετε από την κάρτα SD
+7. Εάν έχετε εκκινήσει το dumpTool μέσω ενός exploit και κάνατε λήψη του από τη σελίδα [Έναρξη](get-started.html), διαγράψτε το `boot.nds` από τη ρίζα της κάρτας SD
 
 ::: warning
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
+Το SHA1 hash του `nand.bin` δεν θα αντιστοιχεί στο hash που έχει αποθηκευτεί στο `nand.bin.sha1`. Αυτό συμβαίνει επειδή το dumpTool προσθέτει επιπλέον δεδομένα, γνωστά κι ως «υποσέλιδο no$gba», στο αρχείο `nand.bin` μετά τον υπολογισμό του SHA1 hash. Μπορείτε να χρησιμοποιήσετε το [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) για να δημιουργήσετε ένα αντίγραφο χωρίς το υποσέλιδο.
 
 :::
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Συνέχεια στην [Επιλογή ενός μενού](choosing-a-menu.html)
 
 :::

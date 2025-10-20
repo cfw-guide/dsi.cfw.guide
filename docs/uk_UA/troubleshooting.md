@@ -10,11 +10,15 @@ To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/r
 
 ### Немає звуку або заставки під час запуску "Launcher" з використанням Unlaunch
 
-Розробник Unlaunch (nocash) навмисно викреслив фонові аудіо та заставку за замовчуванням. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Розробник Unlaunch (nocash) навмисно викреслив фонові аудіо та заставку за замовчуванням. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Консоль показує тільки чорний екран під час увімкнення після встановлення Unlaunch
 
-Спробуйте вийняти SD карту та увімкнути консоль ще раз. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Спробуйте вийняти SD карту та увімкнути консоль ще раз. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### Після встановлення Unlaunch, я застряг у запуску в додаток чи у Меню Unlaunch
 

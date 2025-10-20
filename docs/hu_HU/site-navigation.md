@@ -2,24 +2,26 @@
 
 ## Fő folyamat útmutató
 
-- [Get Started](get-started.html)
-- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
-- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-- [Dumping NAND](dumping-nand.html)
-- [Installing Unlaunch](installing-unlaunch.html)
+- [Kezdeti lépések](get-started.html)
+- [Az Exploit indítása (Memory Pit)](launching-the-exploit.html)
+- [Az Exploit indítása (stylehax)](launching-the-browser-exploit.html)
+- [Az Exploit indítása (Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [NAND dumpolása](dumping-nand.html)
+- [Egy Menü választása](choosing-a-menu.html)
+- [Az Unlaunch telepítése](installing-unlaunch.html)
 
 ## Kiegészítő fejezetek
 
-- [SD Card Setup](sd-card-setup.html)
-- [File Extensions (Windows)](file-extensions-windows.html)
-- [Dumping Game Cards](dumping-game-cards.html)
-- [DSiWare Backups](dsiware-backups.html)
-- [Uninstalling Unlaunch](uninstalling-unlaunch.html)
-- [Restoring NAND](restoring-nand.html)
+- [SD kártya készítés](sd-card-setup.html)
+- [Fájlkiterjesztések (Windows)](file-extensions-windows.html)
+- [Játékkártyák dumpolása](dumping-game-cards.html)
+- [DSiWare mentések](dsiware-backups.html)
+- [Az Unlaunch eltávolítása](uninstalling-unlaunch.html)
+- [NAND helyreállítása](restoring-nand.html)
 
 ## Más website oldalak
 
-- [Home](index)
-- [Frequently Asked Questions (FAQ)](faq.html)
-- [Troubleshooting](troubleshooting.html)
-- [Credits](credits.html)
+- [Kezdőlap](index)
+- [Gyakran Ismételt Kérdések (GYIK)](faq.html)
+- [Hibaelhárítás](troubleshooting.html)
+- [Készítők](credits.html)

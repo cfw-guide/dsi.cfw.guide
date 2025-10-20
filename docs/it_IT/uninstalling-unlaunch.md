@@ -2,14 +2,15 @@
 
 ::: danger
 
-**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
 
 :::
 
-**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. Ecco alcune ragione per cui potresti voler disinstallare Unlaunch ma con soluzioni che non necessitano la disinstallazione.
+**WARNING:** While uninstalling Unlaunch is relatively safe, there is still a small chance of bricking your Nintendo DSi. Ecco alcune ragioni per cui potresti voler disinstallare Unlaunch ma con soluzioni che non necessitano la disinstallazione.
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. Ora contengono istruzioni su come cambiare lo sfondo
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
+- **I don't want to use a custom menu anymore and I don't like having the Unlaunch file menu show on boot:** You can follow the [Unlaunch post install steps](installing-unlaunch.html#section-iv-post-unlaunch-configuration) to have Unlaunch autoboot the DSi menu
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) by selecting one of the available custom backgrounds
+- **Ho un problema con Unlaunch o la mia console dopo averlo installato**: La pagina [risoluzione dei problemi](troubleshooting.html#unlaunch) spiegherà come risolvere i problemi che potrebbero verificarsi
 
 ::: warning
 
@@ -17,12 +18,4 @@ Per ridurre le probabilità di brick, assicurati di non aver installato nessun t
 
 :::
 
-::: warning
-
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Si prega di consultare quanto segue per la corretta disinstallazione.
-
-:::
-
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). Ti guiderà attraverso la disinstallazione di Unlaunch dal backup della NAND e al suo flash alla tua console.
-
-Se non sei in grado di usare no$gba o di ottenere un errore dopo la disinstallazione di Unlaunch in no$gba è anche possibile effettuare un flash del backup della NAND fatto prima dell'installazione di Unlaunch se ne hai ancora uno; tuttavia, si consiglia di provare a utilizzare un backup della NAND che precedentemente aveva Unlaunch prima. Questo renderà il recupero significativamente più facile nel caso di un brick che richiede un hardmod poiché Unlaunch lascia il footer no$gba incorporato nella NAND anche quando disinstallato.
+Once you have reviewed the above information, follow the [Installing Unlaunch](installing-unlaunch.html) instructions up to the uninstall part.

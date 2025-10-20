@@ -2,13 +2,14 @@
 
 ::: danger
 
-**Installing or uninstalling Unlaunch may randomly brick your console! You have been warned!**
+Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
 
 :::
 
-**WARNING:** An uninstall of Unlaunch may brick your Nintendo DSi. 这里有一些关于您可能想要卸载Unlaunch，但并不需要卸载Unlaunch就可解决问题的例子。
+**WARNING:** While uninstalling Unlaunch is relatively safe, there is still a small chance of bricking your Nintendo DSi. 这里有一些关于您可能想要卸载Unlaunch，但并不需要卸载Unlaunch就可解决问题的例子。
 
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) using the new instructions. 它们现在包含关于如何改变背景的说明
+- **I don't want to use a custom menu anymore and I don't like having the Unlaunch file menu show on boot:** You can follow the [Unlaunch post install steps](installing-unlaunch.html#section-iv-post-unlaunch-configuration) to have Unlaunch autoboot the DSi menu
+- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) by selecting one of the available custom backgrounds
 - **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
 
 ::: warning
@@ -17,12 +18,4 @@
 
 :::
 
-::: warning
-
-When uninstalling Unlaunch, you should **NOT** use its built-in uninstaller directly on your console as there is a chance that it will brick the console. Please see below for information on uninstalling it properly.
-
-:::
-
-Once you have reviewed the above information, follow the [Dumping NAND](dumping-nand.html) instructions to make a new NAND backup, then proceed to [Restoring a NAND Backup](restoring-nand.html). This will guide you through uninstalling Unlaunch from the NAND backup and flashing that to your console.
-
-If you are not able to use no$gba or get an error after uninstalling Unlaunch in no$gba it is also possible to flash a NAND backup made prior to installing Unlaunch if you still have one, however it is recommended to try using a NAND backup that previously had Unlaunch first. This will make recovery significantly easier in the case of a brick requiring a hardmod as Unlaunch leaves the no$gba footer embedded in the NAND even when uninstalled.
+Once you have reviewed the above information, follow the [Installing Unlaunch](installing-unlaunch.html) instructions up to the uninstall part.

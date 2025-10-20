@@ -22,7 +22,7 @@ Ta sekcja formatuje kartę SD do specyfikacji przez SD Card Association. Może t
 
 ::: danger
 
-Wszystkie karty 64GB lub większe zostaną sformatowane do systemu plików `exFAT` w tym procesie. You _must_ follow both Sections I & II to re-format to `FAT32`.
+Wszystkie karty 64GB lub większe zostaną sformatowane do systemu plików `exFAT` w tym procesie. **Musisz** przeczytać zarówno Sekcję I & II aby sformatować do `FAT32`.
 
 :::
 
@@ -38,8 +38,8 @@ Wszystkie karty 64GB lub większe zostaną sformatowane do systemu plików `exFA
 
 ### Sekcja II - Formatowanie karty SD za pomocą GUIFormat
 
-This section formats SD cards which are 64GB or larger to FAT32.\
-This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
+Ta sekcja formatuje karty SD, które są większe lub równe 64GB, na FAT32.  
+Dotyczy to również kart SD 4GB-32GB, które nie zostały sformatowane z wielkością klastr 32kb.
 
 ::: tip
 
@@ -117,15 +117,22 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 
-1. Zapamiętaj nazwę urządzenia. In our example above, it was `mmcblk0p1`
+1. Zapamiętaj nazwę urządzenia. W naszym przykładzie powyżej było to `mmcblk0p1`
    - Jeśli `RO` jest ustawione na 1, upewnij się, że przełącznik blokady nie jest przesunięty w dół
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+   - Upewnij się, że targetujesz **partycję**, `mmcblk0p1` a nie `mmcblk0`
 2. Naciśnij CTRL + C, aby wyjść z menu
-3. Follow the instructions relevant to your SD card's capacity:
-   - 2GB or lower: `sudo mkdosfs /dev/(device name from above) -s 64 -F 16`
-     - This creates a single FAT16 partition with 32 KB cluster size on the SD card
-   - 4GB or higher: `sudo mkdosfs /dev/(device name from above) -s 64 -F 32`
-     - This creates a single FAT32 partition with 32 KB cluster size on the SD card
+3. Podążaj za instrukcjami zgodnej z pojemnością twojej karty SD:
+   - 2GB lub mniej: `sudo mkdosfs /dev/(nazwa urządzenia z powyżej) -s 64 -F 16`
+     - Tworzy to pojedyńczą partycję FAT16 z wielkością klastr 32 KB na karcie SD
+   - 4GB lub więcej: `sudo mkdosfs /dev/(nazwa urządzenia z powyżej) -s 64 -F 32`
+     - Tworzy to pojedyńczą partycję FAT32 z wielkością klastr 32 KB na karcie SD
+
+::: tip
+
+If you get an error message saying: `mkdosfs: /dev/(device name) contains a mounted file system`, you will need to `sudo umount /dev/(device name from above)` in order to complete the above step.
+You should then reinsert the SD card **or** recreate the MOUNTPOINT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) to continue.
+
+:::
 
 ### Sekcja II – Używanie F3
 
@@ -143,7 +150,7 @@ mmcblk0     179:0    0   3,8G  0 disk
    Free space: 0.00 Byte
    Average Writing speed: 4.90 MB/s
    ```
-5. Run `./f3read <your sd card mount point>`
+5. Uruchom `./f3read <your sd card mount point>`
 
 - Poczekaj do zakończenia procesu. Poniżej przedstawiono przykładowe wyniki:
   ```
@@ -165,7 +172,7 @@ ___
 
 ::: tip
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+Jeżeli test pokazuje wynik `Data LOST: 0.00 Byte (0 sectors)`, to twoja karta SD jest zdrowa i możesz usunąć wszystkie pliki `.h2w` na karcie SD.
 
 :::
 
@@ -193,15 +200,15 @@ Wszystkie karty 64GB lub większe zostaną sformatowane do systemu plików `exFA
 
 :::
 
-1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
+1. Pobierz najnowszą wersję [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-mac-download/)
    - Zaakceptuj umowę licencyjną użytkownika, aby rozpocząć pobieranie
-2. Run `Install SD Card Formatter` (the `.mpkg` file) in the downloaded `.zip` file
-3. Run `SD Card Formatter`
+2. Uruchom `Install SD Card Formatter` (plik `.mpkg`) w pobranym pliku `zip`
+3. Uruchom `SD Card Formatter`
 4. Wybierz swoją kartę SD
 5. Upewnij się, że pole wyboru `Quick Format` jest zaznaczone
 6. Rozpocznij proces formatowania
 
-### Section II - Formatting your SD card with Disk Utility
+### Sekcja II - Formatowanie twojej karty SD za pomocą Disk Utility
 
 Ta sekcja formatuje karty SD większe niż 32GB na FAT32.
 
@@ -273,7 +280,7 @@ ___
 
 ::: tip
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is healthy and you can delete all `.h2w` files on your SD card.
+Jeżeli test pokazuje wynik `Data LOST: 0.00 Byte (0 sectors)`, to twoja karta SD jest zdrowa i możesz usunąć wszystkie pliki `.h2w` na karcie SD.
 
 :::
 
@@ -289,6 +296,7 @@ Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona, i być może b
 
 ::: tip
 
-You can now restore the contents of your SD card and continue.
+Możesz teraz przywrócić zawartości twojej karty SD i kontynuować.
 
 :::
+

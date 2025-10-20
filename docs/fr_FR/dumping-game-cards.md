@@ -5,14 +5,14 @@ Cette section est dédiée au dumping des cartes de jeu avec GodMode9i, afin que
 ## Prérequis
 
 - La carte de jeu du titre que vous souhaitez dumper
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- Votre console Nintendo DSi avec [Unlaunch](installing-unlaunch.html) installé
 
 ## Instructions
 
 ### Section I - Configuration de la carte SD
 
-1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
-2. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. Téléchargez la dernière version de [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
+2. Extrayez `GodMode9i.nds` de l'archive GodMode9i et placez-le n'importe où sur votre carte SD
 
 ### Section II - Instructions Nintendo DSi
 
@@ -25,6 +25,6 @@ Cette section est dédiée au dumping des cartes de jeu avec GodMode9i, afin que
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Les cartes de jeu dumpées se trouvent dans `sd:/gm9i/out`.
 
 :::

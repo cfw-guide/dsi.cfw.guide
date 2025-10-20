@@ -3,7 +3,7 @@ layout: home
 title: Посібник DSi
 hero:
   text: Посібник DSi
-  tagline: Повний посібник по модифікації Nintendo DSi
+  tagline: "Повний посібник по модифікації Nintendo DSi"
   image:
     src: /assets/images/home-page-feature.png
 ---

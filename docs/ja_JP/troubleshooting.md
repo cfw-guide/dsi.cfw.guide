@@ -10,11 +10,15 @@ To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/r
 
 ### Unlaunchで「Launcher」を起動すると音や起動スプラッシュ画面がない
 
-Unlaunchの開発者（nocash）は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Unlaunchの開発者（nocash）は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Unlaunchインストール後、電源を入れても画面が点かない
 
-SDカードを取り出して、本体の電源を入れてみてください。 If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+SDカードを取り出して、本体の電源を入れてみてください。 If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+
+### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+
+The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
 
 ### Unlaunchのインストール後、アプリやUnlaunchファイルメニューの起動が止まる
 

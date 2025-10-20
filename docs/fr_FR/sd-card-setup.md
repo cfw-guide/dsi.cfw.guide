@@ -38,7 +38,7 @@ Toutes les cartes SD de 64 Go ou plus seront formatées en `exFAT` au cours de c
 
 ### Section II - Formatage de votre carte SD avec GUIFormat
 
-This section formats SD cards which are 64GB or larger to FAT32.\
+This section formats SD cards which are 64GB or larger to FAT32.  
 This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
 
 ::: tip
@@ -126,6 +126,13 @@ mmcblk0     179:0    0   3,8G  0 disk
      - Cela crée une seule partition FAT16 avec une taille de cluster de 32 ko sur la carte SD
    - 4 Go ou plus : `sudo mkdosfs /dev/(nom de l'appareil ci-dessus) -s 64 -F 32`
      - Cela crée une seule partition FAT32 avec une taille de cluster de 32 ko sur la carte SD
+
+::: tip
+
+If you get an error message saying: `mkdosfs: /dev/(device name) contains a mounted file system`, you will need to `sudo umount /dev/(device name from above)` in order to complete the above step.
+You should then reinsert the SD card **or** recreate the MOUNTPOINT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) to continue.
+
+:::
 
 ### Section II - Utilisation de F3
 
@@ -292,3 +299,4 @@ Si le test donne d'autres résultats, votre carte SD est peut-être corrompue ou
 Vous pouvez maintenant restaurer le contenu de votre carte SD et continuer.
 
 :::
+

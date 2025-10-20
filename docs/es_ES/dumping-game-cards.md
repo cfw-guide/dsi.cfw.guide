@@ -5,14 +5,14 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 ## Requisitos
 
 - El cartucho del juego que quieras volcar
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- Tu consola Nintendo DSi con  [Unlaunch](installing-unlaunch.html) instalada
 
 ## Instrucciones
 
 ### Sección I - Configuración de la tarjeta SD
 
-1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
-2. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. Descarga la última versión de  [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
+2. Extrae `GodMode9i.nds` del archivo de GodMode9i y colócalo en cualquier lugar de tu tarjeta SD
 
 ### Sección II - Instrucciones para Nintendo DSi
 
@@ -25,6 +25,6 @@ Esta sección es para volcar los cartuchos de juegos usando GodMode9i para que p
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Las cartas de juegos volcadas se encontrarán en `sd:/gm9i/out`.
 
 :::

@@ -2,40 +2,40 @@
 
 ::: danger
 
-ΠΡΟΕΙΔΟΠΟΙΗΣΗ! This is _**dangerous**_. Ακόμα κι αν ακολουθήσετε κατά γράμμα αυτά τα βήματα, εξακολουθεί να υπάρχει κίνδυνος να καταστεί μη λειτουργικό το DSi, καθώς η NAND είναι πολύ χαμηλής ποιότητας, ειδικά αν κάνετε φόρτωση πολλαπλές φορές! Χρησιμοποιήστε τη μόνο ως έσχατη λύση!
+ΠΡΟΕΙΔΟΠΟΙΗΣΗ! Αυτό είναι _**επικίνδυνο**_. Ακόμα κι αν ακολουθήσετε κατά γράμμα αυτά τα βήματα, εξακολουθεί να υπάρχει κίνδυνος να καταστεί μη λειτουργικό το DSi, καθώς η NAND είναι πολύ χαμηλής ποιότητας, ειδικά αν κάνετε φόρτωση πολλαπλές φορές! Χρησιμοποιήστε τη μόνο ως έσχατη λύση!
 
 :::
 
 ::: tip
 
-Do not skip _anything_ on this page, any mistake greatly increases chance of bricking your DSi.
+Μην παραλείψετε _τίποτα_ σε αυτήν τη σελίδα, καθώς οποιοδήποτε λάθος θα αυξήσει σημαντικά την πιθανότητα να καταστεί μη λειτουργικό το DSi σας.
 
 :::
 
 Αρχικά, δείτε ορισμένες, πιο ασφαλείς, εναλλακτικές λύσεις για τις περιπτώσεις που θα μπορούσαν να σας οδηγήσουν να το κάνετε αυτό:
 
 - Η εγκατάσταση των DSiWare μπορεί να γίνει μέσω του hiyaCFW ή του TWiLight Menu++
-- Recovering pictures can be done using [ninfs](https://github.com/ihaveamac/ninfs/releases), in combination with hiyaCFW or TWiLight Menu++ if you want them on console. Η πιο πρόσφατη έκδοση του HiyaCFW Helper σάς επιτρέπει να αντιγράψετε τις φωτογραφίες σας από τη NAND στην SDNAND κατά την εγκατάσταση
+- Η ανάκτηση των εικόνων μπορεί να γίνει με το [ninfs](https://github.com/ihaveamac/ninfs/releases), σε συνδυασμό με το hiyaCFW ή το TWiLight Menu++, αν τις θέλετε στην κονσόλα. Η πιο πρόσφατη έκδοση του HiyaCFW Helper σάς επιτρέπει να αντιγράψετε τις φωτογραφίες σας από τη NAND στην SDNAND κατά την εγκατάσταση
 - Η επαναφορά μιας ρύθμισης κουμπιών του Unlaunch μπορεί να γίνει από το μενού του Unlaunch, στο οποίο μπορείτε να αποκτήσετε πρόσβαση κρατώντας πατημένα τα <kbd class="face">A</kbd> + <kbd class="face">B</kbd> κατά την ενεργοποίηση της κονσόλας
 - Παρουσιάζεται σφάλμα κατά την εκκίνηση στο Unlaunch; Αφαιρέστε την κάρτα SD σας και δοκιμάστε να εκκινήσετε ξανά το σύστημα. Εάν αυτό λειτουργήσει, τότε υπάρχει κάποιο πρόβλημα με την κάρτα SD σας και η επαναφορά ενός αντιγράφου ασφαλείας της NAND δεν θα το διορθώσει
-- "An error has occurred..." on boot is likely a hiyaCFW error and is not related to your NAND, see [hiyaCFW FAQ & Troubleshooting](https://wiki.ds-homebrew.com/hiyacfw/faq) on the DS-Homebrew Wiki for more information
-- Any errors in TWiLight Menu++ are unrelated and you should try reinstalling TWiLight Menu++ or ask for help on [Discord](https://ds-homebrew.com/discord)
+- Το μήνυμα «An error has occurred...» κατά την εκκίνηση οφείλεται κατά πάσα πιθανότητα σε σφάλμα του hiyaCFW και δεν σχετίζεται με τη NAND σας. Για περισσότερες πληροφορίες, δείτε τις [Συχνές ερωτήσεις και επίλυση προβλημάτων του hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/faq) στο DS-Homebrew Wiki
+- Τυχόν σφάλματα στο TWiLight Menu++ δεν είναι σχετικά και θα πρέπει να δοκιμάσετε να εγκαταστήσετε εκ νέου το TWiLight Menu++ ή να ζητήσετε βοήθεια στο [Discord](https://ds-homebrew.com/discord)
 - Θα πρέπει να αποφύγετε την αφαίρεση του Unlaunch, είτε φορτώντας τη NAND είτε χρησιμοποιώντας το πρόγραμμα κατάργησης εγκατάστασης, εκτός κι αν είναι απολύτως απαραίτητη. Μπορείτε να ορίσετε τα πλήκτρα αυτόματης εκκίνησης στην επιλογή «Launcher» και το DSi σας θα συμπεριφέρεται όπως συμπεριφερόταν πριν από την τροποποίηση
 
 Το μόνο πράγμα που θα πρέπει να κάνετε με τη NAND σας είναι η εγκατάσταση του Unlaunch. Διαφορετικά, χρησιμοποιήστε τις εναλλακτικές λύσεις.
 
 ## Προαπαιτούμενα
 
-- Your NAND backup **from the same DSi**
-- The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
+- Το αντίγραφο ασφαλείας της NAND σας **από το ίδιο DSi**
+- Την πιο πρόσφατη έκδοση του [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Έναν τρόπο εκτέλεσης εφαρμογών homebrew με πρόσβαση στη NAND, όπως το Unlaunch ή το Memory Pit
-- [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
-  - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
-- [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
+- Το [no$gba](https://problemkaputt.de/gba.htm), προκειμένου να ελέγξετε το αντίγραφο ασφαλείας της NAND σας (Κάντε λήψη του 'Windows gaming version')
+  - Οι χρήστες macOS και Linux μπορούν να χρησιμοποιήσουν το [WINE](https://winehq.org) για την εκτέλεση του no$gba
+- Το [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Αποτύπωση του BIOS για χρήση στο no$gba
 
-1. Extract `dsibiosdumper.nds` from the `dsibiosdumper.zip` archive and place it anywhere on your SD card
+1. Αποσυμπιέστε το `dsibiosdumper.nds` από το συμπιεσμένο αρχείο `dsibiosdumper.zip` και τοποθετήστε το οπουδήποτε στην κάρτα SD σας
 2. Ενεργοποιήστε την κονσόλα σας κρατώντας πατημένα τα <kbd class="face">A</kbd> και <kbd class="face">B</kbd>
    - Αυτή η ενέργεια θα πρέπει να εκκινήσει το μενού του Unlaunch
 3. Εκκινήστε το dsibiosdumper από το μενού του Unlaunch
@@ -46,31 +46,31 @@ Do not skip _anything_ on this page, any mistake greatly increases chance of bri
 
 Είναι πολύ σημαντικό να ελέγξετε ότι το αντίγραφο ασφαλείας της NAND λειτουργεί πριν επιχειρήσετε να το επαναφέρετε στην κονσόλα σας. Εάν δείξει κάποιο σφάλμα «brick» στο no$gba, τότε θα καταστήσει πιθανότατα μη λειτουργική την κονσόλα σας.
 
-1. Extract `NO$GBA.EXE` from `no$gba-w.zip` to a folder on your computer
-2. Copy your NAND backup to the folder you put `NO$GBA.EXE` in and rename it to `DSI-1.MMC`
-3. Copy `bios7i.bin` and `bios9i.bin` to the folder you put `NO$GBA.EXE`, named `BIOSDSI7.ROM` and `BIOSDSI9.ROM`, respectively.
-4. Run `NO$GBA.EXE`
-5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
-6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
-7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
-8. Click `Save Now`
-9. Launch any Nintendo DS ROM (`.nds` file)
+1. Αποσυμπιέστε το `NO$GBA.EXE` από το `no$gba-w.zip` σε έναν φάκελο του υπολογιστή σας
+2. Αντιγράψτε το αντίγραφο ασφαλείας της NAND σας στον φάκελο όπου τοποθετήσατε το `NO$GBA.EXE` και μετονομάστε το σε `DSI-1.MMC`
+3. Αντιγράψτε τα `bios7i.bin` και `bios9i.bin` στον φάκελο όπου τοποθετήσατε το `NO$GBA.EXE`, με τα ονόματα `BIOSDSI7.ROM` και `BIOSDSI9.ROM` αντίστοιχα.
+4. Εκτελέστε το `NO$GBA.EXE`
+5. Κάντε κλικ στο `Options` > `Emulation Setup` για να ανοίξετε το παράθυρο ρυθμίσεων εξομοίωσης
+6. Αλλάξτε το `Reset/Startup Entrypoint` σε `GBA/NDS BIOS (Nintendo logo)`
+7. Αλλάξτε το `NDS Mode/Colors` σε `DSi (retail/16MB)`
+8. Κάντε κλικ στο `Save Now`
+9. Εκκινήστε οποιαδήποτε ROM για Nintendo DS (αρχείο `.nds`)
 
-Εάν το no$gba φορτώσει το μενού του DSi (ή το μενού του Unlaunch), τότε συνεχίστε στην επόμενη ενότητα. If it shows any kind of error _**do not flash that backup**_!
+Εάν το no$gba φορτώσει το μενού του DSi (ή το μενού του Unlaunch), τότε συνεχίστε στην επόμενη ενότητα. Εάν εμφανιστεί οποιοδήποτε σφάλμα, _**μη φορτώσετε αυτό το αντίγραφο ασφαλείας**_!
 
 ## Αφαίρεση του Unlaunch από το αντίγραφο ασφαλείας της NAND (προαιρετικό)
 
-Ακολουθήστε αυτά τα βήματα αν κάνατε αποτύπωση του αντιγράφου ασφαλείας της NAND σας μετά την εγκατάσταση του Unlaunch και επιθυμείτε να αφαιρέσετε το Unlaunch από το σύστημά σας. If you are not trying to uninstall Unlaunch, you do **not** need to do this section.
+Ακολουθήστε αυτά τα βήματα αν κάνατε αποτύπωση του αντιγράφου ασφαλείας της NAND σας μετά την εγκατάσταση του Unlaunch και επιθυμείτε να αφαιρέσετε το Unlaunch από το σύστημά σας. Εάν δεν προσπαθείτε να αφαιρέσετε το Unlaunch, **δεν** χρειάζεται να ακολουθήσετε τα βήματα αυτής της ενότητας.
 
-1. Download the latest version of the [Unlaunch installer](https://problemkaputt.de/unlaunch.zip)
-2. Extract `UNLAUNCH.DSI` from `unlaunch.zip`
-3. Launch `UNLAUNCH.DSI` in no$gba and start it from the Game Card slot
+1. Κάντε λήψη της πιο πρόσφατης έκδοσης του [προγράμματος εγκατάστασης του Unlaunch](https://problemkaputt.de/unlaunch.zip)
+2. Αποσυμπιέστε το `UNLAUNCH.DSI` από το `unlaunch.zip`
+3. Εκκινήστε το `UNLAUNCH.DSI` στο no$gba και εκτελέστε το από την υποδοχή της κασέτας παιχνιδιού (Game Card)
    - Αυτή η ενέργεια θα πρέπει να εκκινήσει το πρόγραμμα εγκατάστασης του Unlaunch, το οποίο είναι παρόμοιο με το μενού του Unlaunch
-4. Choose `Uninstall`
-5. Once complete, choose `Power down`
+4. Επιλέξτε `Uninstall`
+5. Μόλις ολοκληρωθεί η διαδικασία, επιλέξτε `Power down`
 6. Εκκινήστε ξανά οποιαδήποτε ROM για Nintendo DS και βεβαιωθείτε ότι το μενού του DSi σας φορτώνεται και λειτουργεί σωστά
 
-If no$gba shows any kind of error instead of loading the DSi menu, _**do not flash that backup**_! Εάν διαθέτετε κάποιο παλαιότερο αντίγραφο ασφαλείας της NAND, δοκιμάστε να το χρησιμοποιήσετε. Do **not** try to uninstall Unlaunch using its uninstaller on the console, it is extremely likely doing so will brick your DSi.
+Εάν το no$gba εμφανίσει κάποιου είδους σφάλμα αντί να φορτώσει το μενού του DSi, _**μη φορτώσετε αυτό το αντίγραφο ασφαλείας**_! Εάν διαθέτετε κάποιο παλαιότερο αντίγραφο ασφαλείας της NAND, δοκιμάστε να το χρησιμοποιήσετε. **Μην** προσπαθήσετε να αφαιρέσετε το Unlaunch μέσω του προγράμματος κατάργησης εγκατάστασής του στην κονσόλα, καθώς είναι εξαιρετικά πιθανό να καταστήσει μη λειτουργικό το DSi σας.
 
 ## Φόρτωση του αντιγράφου ασφαλείας της NAND (Λογισμικό)
 
@@ -88,11 +88,11 @@ If no$gba shows any kind of error instead of loading the DSi menu, _**do not fla
 
 1. Έχοντας εισαγάγει την κάρτα SD σας, ενεργοποιήστε το Nintendo DSi σας κρατώντας πατημένα τα <kbd class="face">A</kbd> και <kbd class="face">B</kbd>
 2. Εκκινήστε το SafeNANDManager
-3. Press the button to `begin NAND restore`
+3. Πατήστε το κουμπί `begin NAND restore`
 4. Μόλις ολοκληρωθεί η επαναφορά, πατήστε το <kbd>START</kbd> για να απενεργοποιήσετε το DSi σας
 
 Η NAND σας θα πρέπει να έχει ανακτηθεί τώρα.
 
 ## Φόρτωση του αντιγράφου ασφαλείας της NAND (Hardmod)
 
-Εάν δεν μπορείτε να εκκινήσετε το Nintendo DSi σας, ένα hardmod είναι ο μόνος τρόπος επαναφοράς ενός αντιγράφου ασφαλείας της NAND. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+Εάν δεν μπορείτε να εκκινήσετε το Nintendo DSi σας, ένα hardmod είναι ο μόνος τρόπος επαναφοράς ενός αντιγράφου ασφαλείας της NAND. Ο καλύτερος οδηγός που υπάρχει αυτήν τη στιγμή είναι ο [οδηγός hardmod για Nintendo DSi στο DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

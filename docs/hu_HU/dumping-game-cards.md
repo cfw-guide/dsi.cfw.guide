@@ -5,14 +5,14 @@ Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszh
 ## Követelmények
 
 - A dumpolando cím játék kártyája
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- A Nintendo DSi konzolod telepített [Unlaunch](installing-unlaunch.html)-csel
 
 ## Instrukciók
 
 ### I. rész - SD kártya telepítés
 
-1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
-2. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. Töltsd le a [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) legutolsó kiadását
+2. Csomagold ki a `GodMode9i.nds`-t a GodMode9i archívból és rakd valahova az SD kártyádon
 
 ### II. rész - Nintendo DSi lépések
 
@@ -25,6 +25,6 @@ Ez a rész a játék kártyák dumpolásáról szól GodMode9i-vel, így játszh
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+A dumpolt játék kártyák az `sd:/gm9i/out` mappában lesznek megtalálhatók.
 
 :::

@@ -3,30 +3,30 @@ layout: home
 title: Οδηγός DSi
 hero:
   text: Οδηγός DSi
-  tagline: Ένας πλήρης οδηγός τροποποίησης για το Nintendo DSi σας
+  tagline: "Ένας πλήρης οδηγός τροποποίησης για το Nintendo DSi σας"
   image:
     src: /assets/images/home-page-feature.png
 ---
 
 ::: tip
 
-For complete guides to homebrew and custom firmware for other devices, check out [CFW.Guide](https://cfw.guide/).
+Για πλήρεις οδηγούς σχετικά με το homebrew και το custom firmware για άλλες συσκευές, ανατρέξτε στο [CFW.Guide](https://cfw.guide/).
 
 :::
 
 ::: tip
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Διαβάστε προσεκτικά όλες τις εισαγωγικές σελίδες (συμπεριλαμβανομένης και της τρέχουσας!) πριν συνεχίσετε.
 
 :::
 
 ## Τι είναι το homebrew;
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) applications are unlicensed software made for closed systems such as the Nintendo DSi. Αυτές οι εφαρμογές μπορούν να είναι διάφορων τύπων, από βοηθητικά εργαλεία έως προσαρμοσμένα παιχνίδια homebrew.
+Οι εφαρμογές [homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) είναι μη αδειοδοτημένα λογισμικά που αναπτύσσονται για κλειστά συστήματα, όπως το Nintendo DSi. Αυτές οι εφαρμογές μπορούν να είναι διάφορων τύπων, από βοηθητικά εργαλεία έως προσαρμοσμένα παιχνίδια homebrew.
 
 Μπορείτε να εκτελέσετε δωρεάν τις εφαρμογές homebrew σε όλες τις κονσόλες Nintendo DSi, ανεξάρτητα από την έκδοση του firmware ή την περιοχή τους. Το μόνο που χρειάζεστε είναι ένα «σημείο εισόδου» και μια κάρτα SD για να αποθηκεύσετε το homebrew σας. Το κύριο σημείο εισόδου που χρησιμοποιείται σε αυτόν τον οδηγό ονομάζεται «Memory Pit», αλλά υπάρχουν και άλλα σημεία εισόδου που μπορείτε να χρησιμοποιήσετε αν δεν είναι δυνατή η χρήση του Memory Pit.
 
-## Τι μπορώ να κάνω με ένα τροποιημένο σύστημα;
+## Τι μπορώ να κάνω με ένα τροποποιημένο σύστημα;
 
 - Εκτέλεση αντιγράφων ασφαλείας για παιχνίδια Nintendo DS(i) ή ROM hack από την κάρτα SD του DSi σας, χωρίς να απαιτείται κάποια flashcard
 - Εκκίνηση οποιουδήποτε DSiWare από την κάρτα SD σας
@@ -42,16 +42,16 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ## Πού μπορώ να βρω εφαρμογές homebrew;
 
-- [Universal-DB](https://db.universal-team.net/ds) has most modern homebrew, with nice search and sorting to keep track of what's been updated recently
-- [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) has a lot of older homebrew, however many will only work on flashcards
+- Το [Universal-DB](https://db.universal-team.net/ds) περιλαμβάνει τις πιο σύγχρονες εφαρμογές homebrew, με δυνατότητες αναζήτησης και ταξινόμησης που σας επιτρέπουν να παρακολουθείτε ποιες εφαρμογές ενημερώθηκαν πρόσφατα
+- Το [GameBrew](https://www.gamebrew.org/wiki/List_of_all_DS_homebrew) περιλαμβάνει πολλές από τις παλαιότερες εφαρμογές homebrew, αλλά οι περισσότερες λειτουργούν μόνο σε flashcard
 
 ## Τι πρέπει να γνωρίζω πριν ξεκινήσω;
 
-- On Windows, it's recommended to [show file extensions](file-extensions-windows.html) if you are using the default File Explorer
-- Ο μόνος κίνδυνος να καταστεί μη λειτουργική η κονσόλα σας προέρχεται από την εγκατάσταση του Unlaunch και η πιθανότητα να συμβεί αυτό είναι πολύ μικρή
+- Στα Windows, προτείνεται η [εμφάνιση των επεκτάσεων αρχείων](file-extensions-windows.html) αν χρησιμοποιείτε την προεπιλεγμένη εφαρμογή εξερεύνησης αρχείων
+- Ο μόνος κίνδυνος να καταστεί μη λειτουργική η κονσόλα σας προέρχεται από την εγκατάσταση του Unlaunch, αλλά η πιθανότητα να συμβεί αυτό είναι πολύ μικρή
 
 ::: tip
 
-Continue to [Get Started](get-started.html)
+Συνέχεια στην [Έναρξη](get-started.html)
 
 :::

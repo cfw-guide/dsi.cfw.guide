@@ -5,26 +5,26 @@ Ta sekcja służy do zrzucania kart z grami przy użyciu GodMode9i, aby można j
 ## Wymagania
 
 - Tytuł, który chcesz zrzucić
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- Twoją konsolę Nintendo DSi z zainstalowanym [Unlaunch](installing-unlaunch.html)
 
 ## Instrukcje
 
 ### Sekcja I - Konfiguracja karty SD
 
-1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
-2. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. Pobierz najnowsze wydanie [GodMode9u](https://github.com/DS-Homebrew/GodMode9i/releases)
+2. Wypakuj `GodMode9i.nds` z archiwum GodMode9i oraz przenieś je gdziekolwiek na twoją kartę SD
 
 ### Sekcja II – Instrukcje Nintendo DSi
 
-1. Launch GodMode9i
-2. Ensure the Game Card is inserted into the console
-3. Select the "NDS GAMECARD" option in GodMode9i
-4. Select what you want to dump
-   - The "Trimmed" options for the ROM will dump a smaller file that can save SD card space, however they won't work for most patches such as ROM hacks
-5. Repeat steps 2-4 for all Game Cards you wish to dump
+1. Uruchom GodMode9i
+2. Upewnij się, że Karta Gry jest włożona do konsoli
+3. Wybierz opcję "NDS GAMECARD" w GodMode9i
+4. Wybierz gdzie chcesz zrzucić
+   - "Przycięte" opcje dla ROM-u zrzucą niższy plik, który oszczędzi miejsce na karcie SD, jednak nie będą działać z większością patchy, takimi jak ROM hacki
+5. Powtórz kroki 2-4 dla wszystkich Kart Gier, które chcesz zrzucić
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Zrzucone Karty Gry będzie można znaleźć w `sd:/gm9i/out`.
 
 :::

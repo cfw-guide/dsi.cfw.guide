@@ -26,7 +26,7 @@ Do not skip _anything_ on this page, any mistake greatly increases chance of bri
 
 ## 首先需要…
 
-- Your NAND backup **from the same DSi**
+- 你的来自同一个**DSi NAND**备份
 - The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - 有利用NAND运行自制程序的方法，例如Unlaunch或Memory Pit 漏洞
 - [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
@@ -36,15 +36,15 @@ Do not skip _anything_ on this page, any mistake greatly increases chance of bri
 ## 提取BIOS 以便使用no$gba
 
 1. Extract `dsibiosdumper.nds` from the `dsibiosdumper.zip` archive and place it anywhere on your SD card
-2. 摁住 <kbd class="face">A</kbd> 和 <kbd class="face">B</kbd>键 后，再摁下 Dsi 的电源键
-   - 这应该能启动到Unlaunch Filemenu
+2. 摁住 <kbd class="face">A</kbd> 和 <kbd class="face">B</kbd>键 后，再摁下 DSi 的电源键
+   - 这应该能启动到Unlaunch File menu
 3. 从Unlaunch Filemenu启动 dsibiosdumper。
 4. 按 <kbd class="face">A</kbd> 将BIOS 导出到SD卡
 5. 按 <kbd>Start</kbd> 退出 dsibiosdumer
 
 ## 测试你的NAND备份
 
-在尝试将NAND备份恢复到您的机器之前，测试您的NAND备份是否能用非常重要， 如果它在no$gba 时显示变砖错误，它很可能也会使您的机器变砖。
+在尝试将NAND备份恢复到你的设备之前，请务必测试你的NAND备份是否能用！ 如果它在no$gba 时显示变砖错误，它很可能也会使你的机器变砖。
 
 1. Extract `NO$GBA.EXE` from `no$gba-w.zip` to a folder on your computer
 2. Copy your NAND backup to the folder you put `NO$GBA.EXE` in and rename it to `DSI-1.MMC`
@@ -76,23 +76,23 @@ If no$gba shows any kind of error instead of loading the DSi menu, _**do not fla
 
 ::: danger
 
-Make sure you have read through the above steps as this is where it gets dangerous. If you were linked directly to here without following the above, then go back to the top and read this whole page.
+一定要务必确保上述步骤你已经**认真的**阅读过了，因为接下来的操作会开始变得很危险！ 如果你是直接跳转到这里而没有阅读上述的内容的话，请回到顶部并仔细阅读上述内容。
 
 :::
 
 ::: danger
 
-Make sure your Nintendo DSi system is well charged before beginning this section.
+请确保你的 DSi 在开始本节之前已经充满电或者正在充电
 
 :::
 
 1. 在插入 SD 卡的状态下，按住 <kbd class="face">A</kbd> 和<kbd class="face">B</kbd> 开机
 2. 启动 SafeNANDManager
-3. Press the button to `begin NAND restore`
+3. 按下按键以`开始还原NAND`
 4. 一旦恢复完成，按 <kbd>start</kbd> 关闭您的 DSi
 
-Your NAND should now be restored.
+现在你的NAND应该已被还原。
 
 ## 刷入你的NAND备份 (硬件修改)
 
-If you cannot boot your Nintendo DSi, a hardmod is the only way to restore a NAND backup. The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).
+如果你不能启动你的Nintendo DSi，硬刷是恢复NAND备份的唯一途径。 The best guide that currently exists is the [Nintendo DSi hardmod guide on the DS-Homebrew Wiki](https://wiki.ds-homebrew.com/ds-index/hardmod#nintendo-dsi).

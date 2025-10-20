@@ -2,32 +2,36 @@
 
 ## Unlaunch
 
-### Unlaunch freezes at `MISMATCH IN FAT COPIES`
+### Az Unlaunch lefagy a `MISMATCH IN FAT COPIES` üzenetnél
 
 A twlnf-nek van egy kritikus hibája, amikor nem frissíti megfelelően az egész NAND-ot a módosítása után, ami bizonyos homebrew-ok esetén (mint példul az Unlaunch telepítő) hibát dob.
 
-To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
+Ennek a javításához, nyisd meg a [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases)-t és válaszd a Fix FAT copy mismatch opciót\`.
 
 ### Nincs hang vagy boot képernyő, amikor a "LAUNCHER" kerül indításra az Unlaunch-csel
 
-Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) using TWiLight Menu++ with "Launcher Patches" set to "Default" on the Unlaunch page of TWiLight Menu++ settings, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Az Unlaunch fejlesztője (nocash) szándékosan kipatchelte alapértelmezésként háttérzenét és a boot képernyőt. Visszaszerezheted ezeket az effekteket az [Unlaunch újratelepítésével](installing-unlaunch.html) az `Enable sound and splash` opció bekapcsolásávak vagy a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) használatával.
 
 ### A bekapcsolás csak fekete képernyőt mutat az Unlaunch telepítése után
 
-Vedd ki az SD kártyád és próbáld újra indítani a rendszered. If it still only shows a black screen, you may need to flash your NAND via a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Vedd ki az SD kártyád és próbáld újra indítani a rendszered. Ha továbbra is fekete képernyőt mutat, lehet, hogy flash-elned kell a NAND-od [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot)-tal vagy [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)-on keresztül.
+
+### A kikapcsolás a DSi Menüben és/vagy System Settings-ben 5-10 másodpercet igényel
+
+A lehetséges megoldások, a DSi Menu és/vagy System Settings indítása kivett SD kártyával, a [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) telepítése vagy az Unlaunch eltávolítása.
 
 ### Az Unlaunch telepítése után beragadok egy alkalmazásba bootolásnál
 
-This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
+Ez valószínűleg egy rossz app választása miatt van a `NO BUTTON` opciónál az Unlaunch-ben. Tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat a konzol indításakor és menj az `OPTIONS` menübe, majd állítsd be a `NO BUTTON` opciót arra, amire szeretnéd.
 
 ### Egyéb Unlaunch problémák
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
+Ha az Unlaunch `Clusters too large`, `Bad VBR`, `Bad MBR` hibát jelenít meg vagy nem jelenít meg semmilyen alkalmazást, miközben az SD kártya behelyezett, az SD kártyád valószínűleg nem jól formázott. Kövesd újra az [SD kártya készítést](sd-card-setup.html).
 
 ## TWiLight Menu++ hibaelhárítás
 
-For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
+Az általános TWiLight Menu++ hibaelhárításhoz tekintsd meg a [GYIK & hibaelhárítás](https://wiki.ds-homebrew.com/twilightmenu/faq) oldalt a DS-Homebrew Wiki-n.
 
 ## További segítség
 
-If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.
+Ha olyan hibába ütköztél, ami nincs megoldva itt, vagy egy olyanba, ami továbbra is fenn áll a megadott megoldások ellenére kérj segítséget a [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord szerveren.

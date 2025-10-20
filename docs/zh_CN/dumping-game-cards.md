@@ -1,11 +1,11 @@
-# Dumping Game Cards
+# 导出游戏卡
 
 This section is for dumping Game Cards using GodMode9i so they can be played on emulators, flashcards, or your SD card via nds-bootstrap.
 
-## 首先需要…
+## 首先，你需要…
 
-- The Game Card of the title you would like to dump
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- 你想提取的游戏卡
+- 一台安装了[Unlaunch](installing-unlaunch.html)的 Nintendo DSi主机
 
 ## 操作步骤
 

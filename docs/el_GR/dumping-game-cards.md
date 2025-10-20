@@ -4,15 +4,15 @@
 
 ## Προαπαιτούμενα
 
-- Την κασέτα παιχνιδίου του τίτλου που επιθυμείτε να αποτυπώσετε
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- Την κασέτα παιχνιδιού του τίτλου που επιθυμείτε να αποτυπώσετε
+- Την κονσόλα Nintendo DSi σας με εγκατεστημένο το [Unlaunch](installing-unlaunch.html)
 
 ## Οδηγίες
 
 ### Ενότητα I - Διαμόρφωση κάρτας SD
 
-1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
-2. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. Κάντε λήψη της πιο πρόσφατης έκδοσης του [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
+2. Αποσυμπιέστε το `GodMode9i.nds` από το συμπιεσμένο αρχείο του GodMode9i και τοποθετήστε το οπουδήποτε στην κάρτα SD σας
 
 ### Ενότητα II - Οδηγίες Nintendo DSi
 
@@ -25,6 +25,6 @@
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+Οι αποτυπωμένες κασέτες παιχνιδιών θα βρίσκονται στη διαδρομή `sd:/gm9i/out`.
 
 :::
