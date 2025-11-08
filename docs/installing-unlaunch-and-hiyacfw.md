@@ -44,8 +44,8 @@ If Unlaunch is already installed, skip to Section IV
 
 1. In the DSi Menu, launch the System Settings application (the icon is gray and has a white wrench)
     - The version will be shown on the bottom-right of the top screen
-    - If the version is `Ver 1.4.2` exactly (and not lower or higher), proceed with performing a system update
-	- Otherwise, go straight to Section III
+    - If the version is `Ver 1.4.2`, proceed with performing a system update
+    - If the version is *not* `Ver 1.4.2`, go straight to Section III
 1. Touch the number `4` to go to the fourth page
 1. Touch `System Update`
     - It is the third option if your console isn't in your native language
