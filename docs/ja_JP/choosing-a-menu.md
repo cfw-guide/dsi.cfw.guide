@@ -1,57 +1,57 @@
-# Choosing a Menu
+# メニューの選択
 
-There are three menus available in order to launch games. Choose whichever one that suits your needs.
+ゲームを起動するためのメニューの選択肢は3つあります。 必要に応じて選択してください。
 
-If you are unsure (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
+どれを使用すればいいかわからない(または決められない)場合は、[**TW**i**L**Iight Menu++](#twilight-menu)を選択してください。
 
 ## [hiyaCFW](installing-unlaunch-and-hiyacfw.html)
 
-The first and only custom firmware which redirects NAND access to the SD card, and as a result, runs the DSi system menu along with system applications and DSiWare from the SD card instead of the system memory.
+NAND アクセスを SD カードにリダイレクトすることで、システム メモリではなく SD カードから DSi システム メニュー、システム アプリ、および DSiWare を実行する、最初で唯一のカスタム ファームウェアです。
 
-Install this if you're looking for an experience which is close to stock as possible.
+可能な限り純正に近い機能のメニューを探している場合は、これをインストールしてください。
 
-### Pros
+### 長所
 
-- The original Nintendo DSi Menu is used. No recreation here!
-- Games that are launched originally on DS(i) game cards can be launched from the DSi Menu after [creating forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders) for them.
+- 元のニンテンドーDSiメニューを使用しています。 再構成はされていません！
+- もともと DS(i) ゲーム カードで起動されるゲームは、[フォワーダーを作成](https://wiki.ds-homebrew.com/ds-index/forwarders) した後、DSi メニューから起動できます。
 
-### Cons
+### 短所
 
-- Restricted to only launching DS or DSi games. To launch games from prior consoles, you'll need to create forwarders for apps which emulate those consoles.
-- Limited to 39 icons on-screen due to how the original DSi Menu works.
-- Menu UI is not customizeable.
+- DSまたはDSi ゲームのみに制限されています。 以前のコンソールからゲームを起動するには、それらのコンソールをエミュレートするアプリのフォワーダーを作成する必要があります。
+- 元のDSiメニューの動作により、画面上で39個のアイコンに制限されます。
+- メニューUIはカスタマイズできません。
 
 ## [**TW**i**L**ight Menu++](installing-twilight-menu.html)
 
-This is developed an upgrade/replacement to the original Nintendo DSi Menu that allows running other homebrew applications, retail DS games, emulators for various older systems, and more.
+これは、他の自作アプリケーション、市販の DS ゲーム、さまざまな古いシステムのエミュレーターなどを実行できる、オリジナルの Nintendo DSi メニューのアップグレード/置き換えとして開発されました。
 
-### Pros
+### 長所
 
-- Includes near-faithful recreations of the DSi Menu, the 3DS HOME Menu, and some flashcard UIs.
-- Most UIs are customizeable by installing user-made custom themes.
-- Games from the DS, DSi, and GBA can be launched.
-- Games from older consoles prior to the GBA can be launched by installing an add-on.
-- Can be installed alongside hiyaCFW.
+- DSiメニュー、3DSホームメニュー、およびいくつかのフラッシュカードUIに近い見た目の再構成が含まれています。
+- ほとんどの UI は、ユーザーが作成したカスタムテーマをインストールすることでカスタマイズできます。
+- DS、DSi、及びGBAのゲームを起動することができます。
+- GBA よりも古いコンソールからのゲームはアドオンをインストールすることによって起動することができます。
+- hiyaCFWと一緒にインストールすることができます。
 
-### Cons
+### 短所
 
-- The DSi Menu UI has a few inaccuracies, such as the music being shortened and in low quality (can be worked around by installing an add-on), and different scrolling when dragging the scroll bar.
-- The Wood UI is missing some features, such as the start menu.
-- Can take a few seconds to switch between menus, such as the ROM selection menu, the DS Classic Menu, and/or Settings menu.
+- DSi メニュー UI には、音楽が短く低品質である (アドオンをインストールすることで回避可能)、スクロール バーをドラッグしたときのスクロールが異なるなど、いくつかの不正確な点があります。
+- Wood UIにはスタートメニューなどのいくつかの機能がありません。
+- ROM選択メニュー、DSクラシックメニュー、設定メニューなど、メニューを切り替えるのに数秒かかります。
 
 ## [AKMenu-Next](installing-akmenu-next.html)
 
-This is an upgraded version of the original Wood/akmenu flashcard menu, made to be compatible with the DSi SD card.
+これは、DSi SD カードと互換性があるように作成された、オリジナルの Wood/akmenu フラッシュカード メニューのアップグレード バージョンです。
 
-### Pros
+### 長所
 
-- The fastest and most lightweight menu available.
-- No features are missing from the menu (ex. start menu and graphical info/settings menu) when compared to the Wood UI from TWLMenu++.
-- Customizeable by installing user-made custom themes.
-- Can be installed alongside hiyaCFW.
+- 最速かつ最も軽量なメニューです。
+- TWiLight Menu++のWood UIと比較した場合、メニューから機能(例:スタートメニューとグラフィカル情報/設定メニュー)が欠落することはありません。
+- ユーザーが作成したカスタムテーマをインストールすることでカスタマイズできます。
+- hiyaCFWと一緒にインストールすることができます。
 
-### Cons
+### 短所
 
-- Restricted to only launching DS or DSi games. To launch games from prior consoles, you'll need to install emulators.
-- Music and/or sound effects cannot be used.
-- Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually.
+- DSまたはDSi ゲームのみに制限されています。 古いコンソールのゲームを起動するには、エミュレーターをインストールする必要があります。
+- 音楽および効果音は使用できません。
+- DSi 拡張ゲームを Unlaunch なしで DSi モードでプレイできるようにするためのドナー ROM を自動設定しないため、手動で設定する必要があります。

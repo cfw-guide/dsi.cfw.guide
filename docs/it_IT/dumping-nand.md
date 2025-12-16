@@ -28,7 +28,7 @@ Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare
 ## Sezione II - Effettuare dump della NAND
 
 1. Avvia `dumpTool` attraverso il menu che hai installato
-   - Se hai usato un exploit per avviarlo, e sei già nel menu di dumpTool, ignora questo passaggio
+   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
    - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. Premi il pulsante <kbd class="face">A</kbd> sul tuo Nintendo DSi per iniziare a creare un backup della NAND
    - Un backup della NAND richiede di solito circa 7 minuti

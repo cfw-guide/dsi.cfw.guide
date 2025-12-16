@@ -1,51 +1,51 @@
 # はじめる
 
-We'll begin with downloading some homebrew tool(s), in preparation for the exploit steps.
+エクスプロイトの準備として、まずはHomebrewツールをダウンロードすることから始めます。
 
 ## 必要事項
 
 - ダウンロードしたファイルをSDカードへコピーする手段
-- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+- [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), または [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook) などのZipファイルを解凍できるアプリケーション
   - WinRARの使用はお勧めしません。ファイルが壊れる恐れがあるためです。
-  - If you're using Windows 11, we also advise you to not use it's built-in extractor (Windows Explorer), as it'll cause an error saying that the filename is too long or not valid
+  - Windows 11を使用している場合は、ファイル名が長すぎるか無効であるというエラーが発生するため、Windows標準の解凍機能を使用しないことをお勧めします。
 
 ## セクション I - 準備
 
 ::: warning
 
-Ensure your SD card is [formatted correctly](sd-card-setup.html).
+SDカードが[正しくフォーマット](sd-card-setup.html)されているか確認してください。
 
 :::
 
 1. SDカードをPCに挿入します
-2. Download the latest release of [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) as `boot.nds`
-3. Copy the `boot.nds` file to the root of your SD card
+2. 最新の [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) を`boot.nds`としてダウンロードしてください
+3. `boot.nds`ファイルをSDカードのルートにコピーします
 
 ::: tip
 
-Unsure what the SD "root" is? [See this image](/assets/images/sdroot/en_US.png)
+SDカードの「ルート」が何だか分からないって？ [この画像を見てください](/assets/images/sdroot/en_US.png)
 
 :::
 
-## Section II - Checking if Unlaunch is already installed
+## セクション II - Unlaunchがインストール済みか確認する
 
-Unlaunch is a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+Unlaunch は DSi コンソール自体にインストールされるブートコードエクスプロイトで、起動時にコンソールを完全に制御できます。 その結果、DSiシステムアプリやDSiWareタイトルからの制限を受けず、Homebrewアプリがハードウェアにフルアクセスできるようになります。
 
-Some DSi consoles that are sold as used/refurbished might already have Unlaunch installed.
+中古品の一部のDSiコンソールには、既にUnlaunchがインストールされている可能性があります。
 
-To check, press the <kbd class="face">POWER</kbd> button and immediately hold the <kbd class="face">A</kbd> + <kbd class="face">B</kbd> buttons.
+確認するには、 <kbd class="face">A</kbd> + <kbd class="face">B</kbd> ボタンを押しながら<kbd class="face">POWER</kbd> ボタンを押してください。
 
-- If you see a menu which shows `Nocash Unlaunch.dsi` on the top screen, this means Unlaunch is already installed, and you can continue with [dumping the NAND](dumping-nand.html).
-- If the DSi starts normally with the DSi Menu appearing, proceed with Section III.
+- 上部の画面に`Nocash Unlaunch.dsi`と表示されるメニューが表示された場合は、Unlaunch がすでにインストールされていることを意味し、[NANDのバックアップ](dumping-nand.html) を続行できます。
+- DSi メニューが表示された状態で正常に起動する場合は、セクションIIIに進みます。
 
-## Section III - Memory Pit
+## セクション III - Memory Pit
 
-Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions.
+Memory PitはDSiカメラを利用したエクスプロイトで、すべてのファームウェアバージョンに対応しています。
 
-If using the exploit without installing Unlaunch, compatibility with some homebrews could be limited. If you encounter issues with DSi homebrews, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
+Unlaunchをインストールせずにエクスプロイトを使用すると、一部のHomebrewとの互換性が制限される可能性があります。 DSiのHomebrewで問題が発生した場合は、このガイドに戻って、代わりに[他のエクスプロイト](alternate-exploits.html) を試すことができます。
 
 ::: tip
 
-Continue to [Launching the Exploit](launching-the-exploit.html)
+[エクスプロイトの起動](launching-the-exploit.html)に進む
 
 :::

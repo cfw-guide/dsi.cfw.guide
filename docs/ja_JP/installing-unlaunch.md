@@ -1,22 +1,22 @@
 # Unlaunchのインストール
 
-You are about to install Unlaunch, a permanent bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+あなたはUnlaunchをインストールしようとしています。UnlaunchはDSiコンソールにインストールされる永久ブートコードエクスプロイトです。 起動時にコンソールを完全に制御できます。その結果、DSiシステムアプリやDSiWareタイトルから制限なく、Homebrewアプリケーションがハードウェアにフルアクセスできるようになります。
 
 ::: danger
 
-If you have not yet done so, please follow [Dumping NAND](dumping-nand.html). A NAND backup + [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) (or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod), provided you know how to solder) would allow you to restore this backup in case the console gets bricked afterwards.
+まだ完了していない場合は、先に[NANDバックアップ](dumping-nand.html)を行ってください。 NANDバックアップ + [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) (または [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)) がある場合は、その後コンソールが壊れた場合に備えて、このバックアップを復元することができます。
 
 :::
 
 ::: danger
 
-Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
+Unlaunchをインストールまたはアンインストールする場合、コンソールのNANDに書き込むので、コンソールがブリックする可能性がわずかにあります！
 
 :::
 
 ::: warning
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch. A PC (running Windows, Linux, or macOS) is required to ensure the SD Card used is formatted in a way compatible with Unlaunch.
+PCにアクセスできない場合、またはお使いのPCがChromeOSを実行している場合は、Unlaunchをインストールしないでください。 PC(Windows、Linux、またはmacOSを実行)は、使用されているSDカードがUnlaunchと互換性のある方法でフォーマットされていることを確認するために必要です。
 
 :::
 
@@ -28,75 +28,75 @@ UnlaunchにはニンテンドーDSi開発機との互換性はありません。
 
 ## セクション I - SD カードのセットアップ
 
-1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
-2. Place `unlaunch-installer.dsi` anywhere on your SD card
+1. [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi) の最新版をダウンロード
+2. `unlaunch-installer.dsi`をSDカードのどこかに移動します
 
-## Section II - Updating DSi system version
+## セクション II - DSi システムバージョンの更新
 
 ::: tip
 
-If Unlaunch is already installed and you are looking to update or uninstall Unlaunch, skip to Section III
+Unlaunch が既にインストールされていて、Unlaunch を更新またはアンインストールしようとしている場合は、セクション III に進んでください
 
 :::
 
-1. In the DSi Menu, launch the System Settings application (the icon is gray and has a white wrench)
-   - The version will be shown on the bottom-right of the top screen
+1. DSi メニューで、本体設定を起動します(アイコンはグレーで、白いレンチがあります)
+   - バージョンは上画面の右下に表示されます
    - If the version is `Ver 1.4.2`, proceed with performing a system update
-   - Otherwise, go straight to Section III
-2. Touch the number `4` to go to the fourth page
-3. Touch `System Update`
-   - It is the third option if your console isn't in your native language
-4. Touch `Yes` when asked to connect to the internet and update
-   - It is the left-side option if your console isn't in your native language
-   - If the version is already up to date, go straight to Section III
-5. Touch the `Next` button
-   - It is the right-side option if your console isn't in your native language
-6. Touch the `I Accept` button
-   - It is the top option if your console isn't in your native language
-7. Touch the `OK` button
-   - It is the bottom right-side option if your console isn't in your native language
-8. Wait for the system to update, and reboot when finished
+   - If the version is _not_ `Ver 1.4.2`, go straight to [Section III](#section-iii-installing-updating-unlaunch)
+2. `4`をタッチして4ページ目に進んでください
+3. `システムアップデート` をタッチします。
+   - コンソールの言語があなたの母国語でない場合は、3番目のオプションを選択してください
+4. インターネットに接続して更新するように求められたら「はい」をタッチしてください
+   - コンソールの言語があなたの母国語でない場合は、左側のオプションを選択してください
+   - If the version is already up to date, go straight to [Section III](#section-iii-installing-updating-unlaunch)
+5. `次へ`をタッチしてください
+   - コンソールの言語があなたの母国語でない場合は、右側のオプションを選択してください
+6. `同意する`をタッチしてください
+   - コンソールの言語があなたの母国語でない場合は、上側のオプションを選択してください
+7. `OK`をタッチしてください
+   - コンソールの言語があなたの母国語でない場合は、右下のオプションを選択してください
+8. システムが更新されるのを待ち、終了したら再起動してください
 
-## Section III - Installing/Updating Unlaunch
+## セクション III - Unlaunchのインストール/更新
 
-1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
-   - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
-   - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
-2. In the menu where the icons are listed, launch `Safe Unlaunch installer` (listed as `unlaunch-installer.dsi` depending on which menu is used and/or how it's displayed)
-3. Press the <kbd class="face">A</kbd> button after the `WARNING` message appears
-   - If the battery LED is red, it'll tell you to plug in the console. Select `Yes` to continue after plugging it in
-4. If you want to change the default background, select `[Custom background]` and press <kbd class="face">A</kbd> to select the one you want to use
-   - Three custom backgrounds are included, but you can add more into a folder called `backgrounds` on the SD card root (create the folder if it doesn't exist)
-5. If you want to keep both the DSi splash (with health and safety message) and the sound in the DSi system menu, select `Enable sound and splash` and press <kbd class="face">A</kbd> to turn it on
-6. If Unlaunch is already installed, select the `Uninstall unlaunch` or `Restore launcher tmd` option, and press <kbd class="face">A</kbd> once it's done
-   - If you only want to **uninstall** Unlaunch, you can stop here
-7. Select the `Install unlaunch` option, and press the <kbd class="face">A</kbd> button
-8. Press the <kbd class="face">A</kbd> button once installation is done
-9. Press <kbd class="face">POWER</kbd> to reboot your system
+1. インストールしたメニューを開いてください(**TW**i**L**ightメニュー++ または akmenu-next)
+   - Unlaunch を初めてインストールする場合は、[使用したエクスプロイト](launching-the-exploit.html)でメニューを起動してください
+   - Unlaunchを既にインストールしており、アップデートしようとしている場合は、起動時に <kbd class="face">A</kbd> + <kbd class="face">B</kbd> を長押ししてください
+2. アイコンが表示されているメニューで、「Safe Unlaunch installer」(使用されているメニューや表示方法に応じて「unlaunch-installer.dsi」としてリストされます)を起動します
+3. `WARNING`メッセージが表示されたら、 <kbd class="face">A</kbd> ボタンを押してください
+   - バッテリーLEDが赤色の場合、コンソールを充電するように教えてくれます。 充電コードを接続後に`Yes`を選択してください
+4. デフォルトの背景を変更したい場合は、 `[Custom background]` を選択し、 <kbd class="face">A</kbd> を押して使用する背景を選択してください
+   - 3 つのカスタム背景が含まれていますが、SD カードのルートにある `backgrounds` というフォルダーにさらに追加できます (フォルダーが存在しない場合は作成してください)
+5. DSiスプラッシュ(「健康と安全のために」の画面)とサウンドの両方をDSiシステムメニューに保持したい場合は、‘`Enable sound and splash`を選択し、 <kbd class="face">A</kbd> を押してオンにしてください
+6. Unlaunchがすでにインストールされている場合は、`Uninstall unlaunch` または `Restore launcher tmd` を選択し、完了したら <kbd class="face">A</kbd> を押してください
+   - Unlaunchを**アンインストール**したいだけの場合は、ここで終わりにしてください
+7. `Install unlaunch`を選択し、<kbd class="face">A</kbd>を押してください
+8. インストールが完了したら、 <kbd class="face">A</kbd> ボタンを押してください
+9. <kbd class="face">POWER</kbd> を押してシステムを再起動してください
 
-If you see Unlaunch's Filemenu screen at this point, you have successfully modded your Nintendo DSi.
+この時点でUnlaunchのファイルメニューが表示されていれば、DSiの改造に成功しました。
 
-- If you see a black screen, please take a look at the [Troubleshooting](troubleshooting.html) page
+- 黒い画面が表示された場合は、 [トラブルシューティング](troubleshooting.html)をご覧ください
 
-## Section IV - Post-Unlaunch configuration
+## セクション IV - Unlaunchの設定
 
-Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be changed to launch whatever you want.
+Unlaunchは今はデフォルトでファイルメニューを起動しますが、好きなものを起動するように変更できます。
 
 1. <kbd class="face">A</kbd>と<kbd class="face">B</kbd>を押したままDSiの電源を入れます
    - これはUnlaunchのファイルメニューを開くホットキーです
-   - If nothing is listed, or if only the NAND contents are listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
-2. Navigate to `OPTIONS`, and look at the available options
+   - 何もリストされていない場合、または NAND の内容のみリストされている場合 (下にスクロールしても)、[SD カードを再フォーマット](sd-card-setup.html)する必要があります
+2. `OPTIONS`に移動し、利用可能なオプションを見てください
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd>はUnlaunchメニューを起動するためにハードコードされているため変更はできません
-   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
-     - For the original DSi Menu, select `Launcher`
-   - `LOAD ERROR` is what your DSi will load if loading what you have set fails, such as the SD card not being inserted
-3. Select `SAVE & EXIT` to save your settings, then turn off your DSi
+   - `NO BUTTON`および`BUTTON A / B / X / Y`オプションは好きなように設定でき、どのボタンが押されているかに応じて起動時に DSi が読み込むものを選択します。 DSiWare、Homebrew (インストールしたメニューを含む)、Slot-1カード、wifiboot、UnlaunchのFilemenuのいずれかを選択できます
+     - 元の DSi メニューの場合は、`Launcher`を選択してください
+   - `LOAD ERROR`は、SDカードが挿入されてないなどで、設定されたものが開始できなかったときのオプションです
+3. `SAVE & EXIT`を選択し、本体の電源を切ってください
 
-## Section V - Cleaning up your SD card
+## セクション V - SDカードのクリーンアップ
 
 ::: tip
 
-This section is optional and only serves for keeping your SD card tidy of files you won't need.
+このセクションは任意です。不要なファイルを削除してSDカードを整理するためだけのものです。
 
 :::
 
@@ -104,20 +104,20 @@ This section is optional and only serves for keeping your SD card tidy of files 
 
 :::tab default Memory Pit
 
-- Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-- Rename `tip.bin` back to `pit.bin`, and leave it intact
-- You can now restore the `DCIM` folder that was on the root of your SD card
-- Delete the `unlaunch-installer.dsi` file from your SD card
+- SDカードから`sd:/private/ds/app/484E494A/pit.bin`を削除してください
+- `tip.bin`の名前を`pit.bin`に戻してください
+- SDカードのルートにあった`DCIM`フォルダを復元できます
+- SDカードから`unlaunch-installer.dsi`ファイルを削除してください
 
 :::
 
 :::tab Flipnote Lenny（うごくメモ帳エクスプロイト）
 
-- Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
-  - `sd:/private/ds/app/4B47554A/001` (Japan)
-  - `sd:/private/ds/app/4B475545/001` (USA)
-  - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
+- 次のフォルダの中から`800031_104784BAB6B57_000.ppm`と`T00031_1038C2A757B77_000.ppm`ファイルを削除してください:
+  - `sd:/private/ds/app/4B47554A/001` (日本)
+  - `sd:/private/ds/app/4B475545/001` (アメリカ)
+  - `sd:/private/ds/app/4B475556/001` (ヨーロッパ/オーストラリア)
   - 自分の地域以外のフォルダを丸ごと削除してもOKです
-- Delete the `unlaunch-installer.dsi` file from your SD card
+- SDカードから`unlaunch-installer.dsi`ファイルを削除してください
 
 :::

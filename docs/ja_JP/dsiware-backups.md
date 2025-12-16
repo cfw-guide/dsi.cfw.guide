@@ -2,8 +2,8 @@
 
 ## 必要事項
 
-- The latest version of [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
-  - Download the archive, extract the contents and place `GodMode9i.nds` anywhere on your SD card
+- 最新バージョンの [GodMode9i](https://github.com/RocketRobz/godmode9i/releases)
+  - Zipファイルをダウンロードし、解凍して、SDカードの任意の場所に`GodMode9i.nds`を配置してください
 
 ## ニンテンドーDSi - 手順
 
@@ -11,7 +11,7 @@
 
 1. GodMode9iを起動します
 2. <kbd>START</kbd>を押してSTARTメニューを開きます
-3. Select `Title manager...`
+3. `Title manager...` を選択してください
    - 表示されていない場合は、SDカードとNANDがマウントされていることを確認してください。 hiyaCFWから起動した場合は、別の場所から起動してください
 4. バックアップするタイトルを選択します
 5. 吸い出すデータを選択します
@@ -19,6 +19,6 @@
 
 ::: tip
 
-The dumped DSiWare will be found in `sd:/gm9i/out`.
+DSiウェアのバックアップは`sd:/gm9i/out`にあります。
 
 :::

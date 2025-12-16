@@ -38,8 +38,8 @@
 
 ### セクション II - GUIFormatでフォーマット
 
-This section formats SD cards which are 64GB or larger to FAT32.  
-This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
+このセクションでは、64GB 以上の SD カードを FAT32 にフォーマットします。  
+これは、32KBクラスタサイズでフォーマットされていない4GB-32GBのSDカードにも適用されます。
 
 ::: tip
 
@@ -117,9 +117,9 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 
-1. 追加されたデバイス名をメモしてください。 In our example above, it was `mmcblk0p1`
+1. 追加されたデバイス名をメモしてください。 上記の例では`mmcblk0p1`です
    - `RO`が1になっていたら、ロックスイッチが下にスライドしないようにしてください
-   - Make sure you're targetting the **partition**, `mmcblk0p1` not `mmcblk0`
+   - `mmcblk0` ではなく `mmcblk0p1` という **パーティション** をターゲットにしていることを確認してください
 2. Ctrl + C を押してメニューを終了します
 3. 次のうち、お使いのSDカードの容量にあった手順に従ってください：
    - 2GB以下：`sudo mkdosfs /dev/(上で見つけたデバイス名) -s 64 -F 16`
@@ -129,8 +129,8 @@ mmcblk0     179:0    0   3,8G  0 disk
 
 ::: tip
 
-If you get an error message saying: `mkdosfs: /dev/(device name) contains a mounted file system`, you will need to `sudo umount /dev/(device name from above)` in order to complete the above step.
-You should then reinsert the SD card **or** recreate the MOUNTPOINT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) to continue.
+`mkdosfs: /dev/(device name) contains a mounted file system`というエラー メッセージが表示された場合は、上記の手順を完了するために`sudo umount /dev/(上記のデバイス名)`を実行する必要があります。
+その後、続行するには、SD カードを再挿入する**か**、マウントポイントを再作成する必要があります (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(デバイス名) /run/media/user/FFFF-FFFF`)。
 
 :::
 

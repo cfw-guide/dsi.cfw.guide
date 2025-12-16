@@ -28,7 +28,7 @@ Wenn Sie dumpTool bereits von einem anderen Abschnitt dieser Anleitung herunterg
 ## Abschnitt II - NAND-Dump durchführen
 
 1. Launch `dumpTool` through the menu you have installed
-   - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
+   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
    - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. Drücke die <kbd class="face">A</kbd> Taste auf deinem DSi um den NAND-Dump zu starten
    - Ein NAND-Backup dauert in der Regel um die 7 Minuten

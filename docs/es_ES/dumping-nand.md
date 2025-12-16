@@ -28,7 +28,7 @@ Si ya has descargado dumpTool desde otra sección de esta guía, puedes saltarte
 ## Seccion II - Volcar la NAND
 
 1. Ejecuta `dumpTool` a través del menú que has instalado
-   - Si has usado un exploit para iniciarlo, y ya estás en el menú de dumpTool, ignora este paso
+   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
    - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. Presiona el botón <kbd class="face">A</kbd> de la Nintendo DSi para empazar a volcar la NAND
    - Hacer un respaldo de la NAND usualmente toma al rededor de 7 minutos

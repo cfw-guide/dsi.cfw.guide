@@ -23,11 +23,11 @@ Ensure your SD card is [formatted correctly](sd-card-setup.html).
 
 ::: tip
 
-Vous ne savez pas ce qu'est la « racine » de la carte SD ? [See this image](/assets/images/sdroot/en_US.png)
+Vous ne savez pas ce qu'est la « racine » de la carte SD ? [Voir cette image](/assets/images/sdroot/en_US.png)
 
 :::
 
-## Section II - Checking if Unlaunch is already installed
+##
 
 Unlaunch is a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
 

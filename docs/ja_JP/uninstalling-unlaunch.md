@@ -2,15 +2,15 @@
 
 ::: danger
 
-Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
+Unlaunchをインストールまたはアンインストールする場合、コンソールのNANDに書き込むので、コンソールがブリックする可能性がわずかにあります！
 
 :::
 
-**WARNING:** While uninstalling Unlaunch is relatively safe, there is still a small chance of bricking your Nintendo DSi. Unlaunchをアンインストールしたくても、そうせずに済む場合がいくつかあります。例えば：
+\*\*警告:\*\*Unlaunchをアンインストールすると、安全ではあるものの、Nintendo DSiがブリックする可能性がわずかにあります。 Unlaunchをアンインストールしたくても、そうせずに済む場合がいくつかあります。例えば：
 
-- **I don't want to use a custom menu anymore and I don't like having the Unlaunch file menu show on boot:** You can follow the [Unlaunch post install steps](installing-unlaunch.html#section-iv-post-unlaunch-configuration) to have Unlaunch autoboot the DSi menu
-- **The Unlaunch Background is scary:** [Reinstall Unlaunch](installing-unlaunch.html) by selecting one of the available custom backgrounds
-- **I'm having an issue with Unlaunch or my console after installing it:** The [Troubleshooting](troubleshooting.html#unlaunch) page will explain how to fix many issues you may have
+- **カスタムメニューはもう使いたくないし、起動時にUnlaunchファイルメニューが表示されるのも嫌だ:** [Unlaunchのインストール後の手順](installing-unlaunch.html#section-iv-post-unlaunch-configuration)に従って、UnlaunchがDSiメニューを自動起動するように設定できます
+- **Unlaunchの背景が怖い:** 利用可能なカスタム背景の1つを選択して[Unlaunchを再インストール](installing-unlaunch.html)してください
+- **Unlaunchをインストールした後、Unlaunchやコンソールで問題が発生しています:** [トラブルシューティング](troubleshooting.html#unlaunch)ページでは、発生する可能性のある多くの問題を解決する方法について説明しています
 
 ::: warning
 
@@ -18,4 +18,4 @@ Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, s
 
 :::
 
-Once you have reviewed the above information, follow the [Installing Unlaunch](installing-unlaunch.html) instructions up to the uninstall part.
+上記の情報を確認したら、[Unlaunch のインストール](installing-unlaunch.html)の手順に従ってアンインストールまで実行してください。

@@ -31,7 +31,7 @@ Développé pour remplacer le menu Nintendo DSi d'origine par un menu plus à jo
 - La plupart des interfaces peuvent être personnalisées en installant des thèmes utilisateur.
 - Les jeux DS, DSi et GBA peuvent être lancés.
 - Les jeux des consoles plus anciennes que la GBA peuvent être lancés en installant une extension.
-- Can be installed alongside hiyaCFW.
+- Peut être installé à côté de hiyaCFW.
 
 ### Inconvénients
 
@@ -48,7 +48,7 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 - The fastest and most lightweight menu available.
 - No features are missing from the menu (ex. start menu and graphical info/settings menu) when compared to the Wood UI from TWLMenu++.
 - Customizeable by installing user-made custom themes.
-- Can be installed alongside hiyaCFW.
+- Peut être installé à côté de hiyaCFW.
 
 ### Inconvénients
 

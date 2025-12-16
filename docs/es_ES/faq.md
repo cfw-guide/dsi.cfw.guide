@@ -33,7 +33,7 @@ Desventajas:
 
 Ventajas:
 
-- Mejor compatibilidad con títulos en modo DSi y homebrew, en comparación con Memory Pit
+- Mejor compatibilidad con títulos en modo DSi y Homebrew, en comparación con Memory Pit
 - Fácil de usar
 - No existe riesgo de averiar la consola
 - Utilizable en las consolas que tengan la cámara averiada
@@ -49,7 +49,7 @@ Desventajas:
 
 Ventajas:
 
-- Mejor compatibilidad con títulos en modo DSi y homebrew, en comparación con Memory Pit
+- Mejor compatibilidad con títulos en modo DSi y Homebrew, en comparación con Memory Pit
 - No hay riesgo de dañar la consola, y desinstalar es tan simple como remover la tarjeta SD o eliminar una carpeta
 - Utilizable en las consolas que tengan la cámara averiada
 - Mejor sonido en GBARunner2

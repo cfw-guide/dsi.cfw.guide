@@ -28,7 +28,7 @@
 ## 第二节——提取NAND
 
 1. Launch `dumpTool` through the menu you have installed
-   - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
+   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
    - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. 点击Nintendo DSi上的 <kbd class="face">A</kbd> 键来开始提取你的 NAND
    - NAND备份一般需要7分钟左右

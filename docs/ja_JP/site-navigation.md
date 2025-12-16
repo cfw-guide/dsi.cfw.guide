@@ -2,26 +2,26 @@
 
 ## 基本ガイド
 
-- [Get Started](get-started.html)
-- [Launching the Exploit (Memory Pit)](launching-the-exploit.html)
-- [Launching the Exploit (stylehax)](launching-the-browser-exploit.html)
-- [Launching the Exploit (Flipnote Lenny)](launching-the-flipnote-exploit.html)
-- [Dumping NAND](dumping-nand.html)
-- [Choosing a Menu](choosing-a-menu.html)
-- [Installing Unlaunch](installing-unlaunch.html)
+- [はじめる](get-started.html)
+- [エクスプロイトの実行(Memory Pit)](launching-the-exploit.html)
+- [エクスプロイトの実行(stylehax)](launching-the-browser-exploit.html)
+- [エクスプロイトの実行(Flipnote Lenny)](launching-the-flipnote-exploit.html)
+- [NANDのバックアップ](dumping-nand.html)
+- [メニューの選択](choosing-a-menu.html)
+- [Unlaunchのインストール](installing-unlaunch.html)
 
 ## 応用ガイド
 
-- [SD Card Setup](sd-card-setup.html)
-- [File Extensions (Windows)](file-extensions-windows.html)
-- [Dumping Game Cards](dumping-game-cards.html)
-- [DSiWare Backups](dsiware-backups.html)
-- [Uninstalling Unlaunch](uninstalling-unlaunch.html)
-- [Restoring NAND](restoring-nand.html)
+- [SDカードのセットアップ](sd-card-setup.html)
+- [ファイル拡張子 (Windows)](file-extensions-windows.html)
+- [ゲームカードの吸い出し](dumping-game-cards.html)
+- [DSiWareのバックアップ](dsiware-backups.html)
+- [Unlaunchのインストール](uninstalling-unlaunch.html)
+- [NANDの復元](restoring-nand.html)
 
 ## その他のページ
 
-- [Home](index)
-- [Frequently Asked Questions (FAQ)](faq.html)
-- [Troubleshooting](troubleshooting.html)
-- [Credits](credits.html)
+- [ホーム](index)
+- [よくある質問(FAQ)](faq.html)
+- [トラブルシューティング](troubleshooting.html)
+- [クレジット](credits.html)

@@ -2,36 +2,36 @@
 
 ## Unlaunch
 
-### Unlaunch freezes at `MISMATCH IN FAT COPIES`
+### `MISMATCH IN FAT COPIES`と表示されてUnlaunchがフリーズする
 
-twlnfには、NAND変更後に全体を適切に更新しない重大なバグがあります。これはUnlaunchインストーラなどの特定のHomebrewアプリでエラーが発生する原因となります。
+twlnfには、NAND変更後に全体を適切に更新しない重大なバグがあります。これは特定のHomebrewアプリ(Unlaunchインストーラなど)でエラーが発生する原因となります。
 
-To fix this, open [NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases), and select `Fix FAT copy mismatch`.
+これを修正するには、[NAND Title Manager (NTM)](https://github.com/Epicpkmn11/NTM/releases)を開き、`Fix FAT copy mismatch` を選択します。
 
 ### Unlaunchで「Launcher」を起動すると音や起動スプラッシュ画面がない
 
-Unlaunchの開発者（nocash）は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Unlaunchの開発者(nocash)は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 これらを取り戻すには、[Unlaunch を再インストール](installing-unlaunch.html)して「サウンドとスプラッシュを有効にする」をオンにするか、[hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) を使用してください。
 
 ### Unlaunchインストール後、電源を入れても画面が点かない
 
-SDカードを取り出して、本体の電源を入れてみてください。 If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+SDカードを取り出して、本体の電源を入れてみてください。 それでもまだ黒い画面しか表示されない場合は、 [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) または [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)を介してNANDをフラッシュする必要があるかもしれません。
 
-### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+### DSi メニューかシステム設定で電源を切るのに 5-10 秒かかります
 
-The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
+唯一の解決策は、SD カードを取り外した状態で DSi メニューやシステム設定を起動するか、[hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) をインストールするか、Unlaunch をアンインストールすることです。
 
 ### Unlaunchのインストール後、アプリやUnlaunchファイルメニューの起動が止まる
 
-This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
+これは、Unlaunch の`NO BUTTON`オプションで間違ったアプリを選択したために発生した可能性があります。 <kbd class="face">A</kbd> + <kbd class="face">B</kbd> を押したままコンソールを起動し、`OPTIONS` に移動して、`NO BUTTON` をお好みに設定してください。
 
 ### その他のUnlaunchの問題
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
+Unlaunch が `Clusters too large`, `Bad VBR`, `Bad MBR`を表示したり、SDカードのアプリケーションが表示されない場合は、SDカードが正しくフォーマットされていない可能性があります。 [SD Card Setup](sd-card-setup.html) をもう一度行ってください。
 
 ## TWiLight Menu++
 
-For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
+一般的なTWilight Menu++トラブルシューティングについては、DS-Homebrew Wikiの[FAQ & トラブルシューティング](https://wiki.ds-homebrew.com/twilightmenu/faq)ページを参照してください。
 
 ## サポート
 
-If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.
+ここで解決されない問題、または提供された解決策を行ったにもかかわらず問題が解決しない場合は、[DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord サーバーで助けを求めてください。

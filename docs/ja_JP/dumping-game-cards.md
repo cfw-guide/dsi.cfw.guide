@@ -1,18 +1,18 @@
-# ゲームカードのダンプ
+# ゲームカードの吸い出し
 
 このセクションでは、GodMode9iを使ってゲームカードの吸い出しをします。エミュレータ、マジコン、またはnds-bootstrap経由でSDカードから遊べるようになります。
 
 ## 必要事項
 
 - 吸い出したいソフトのゲームカード
-- Your Nintendo DSi console with [Unlaunch](installing-unlaunch.html) installed
+- [Unlaunch](installing-unlaunch.html) がインストールされた Nintendo DSi コンソール
 
 ## 手順
 
 ### セクション I - SD カードのセットアップ
 
-1. Download the latest release of [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases)
-2. Extract `GodMode9i.nds` from the GodMode9i archive and place it anywhere on your SD card
+1. 最新の [GodMode9i](https://github.com/DS-Homebrew/GodMode9i/releases) をダウンロードしてください
+2. GodMode9iのZipファイルから`GodMode9i.nds`を解凍し、SDカード上の任意の場所に配置してください
 
 ### セクション II - ニンテンドーDSi上での操作
 
@@ -25,6 +25,6 @@
 
 ::: tip
 
-The dumped Game Cards will be found in `sd:/gm9i/out`.
+吸いだされたゲームカードは `sd:/gm9i/out` にあります。
 
 :::

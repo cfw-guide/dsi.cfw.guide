@@ -42,13 +42,13 @@ Ha az Unlaunch már telepített és frissíteni vagy eltávolítani szeretnéd a
 1. A DSi Menuben indítsd el a System Settings alkalmazást (szürke ikon egy fehér csavarkulcssal)
    - A verzió a felső képernyő jobb alsp részén látható
    - Ha a verzió `Ver 1.4.2`, folytasd egy rendszer frissítéssel
-   - Egyébként menj egyenesen a III. részhez
+   - Ha a verzió _nem_ `Ver 1.4.2`, menj egyenesen a [III. részhez](#section-iii-installing-updating-unlaunch)
 2. Érintsd meg a `4`-et, hogy a 4. oldalhoz menj
 3. Érintsd meg az `System Update`-et
    - Ez a harmadik opció, ha a konzol nem az anyanyelveden van
 4. Érintsd meg a `Yes`-t amikor kérdi a csatlakozást az internethez és frissítéshez
    - Ez a bal oldali opció, ha a konzol nem az anyanyelveden van
-   - Ha a verzió már friss, menjd egyenesen a III. részhez
+   - Ha a verzió már friss, menjd egyenesen a [III. részhez](#section-iii-installing-updating-unlaunch)
 5. Érintsd meg a `Next` gombot
    - Ez a jobb oldali opció, ha a konzol nem az anyanyelveden van
 6. Érintsd meg az `I Accept` gombot

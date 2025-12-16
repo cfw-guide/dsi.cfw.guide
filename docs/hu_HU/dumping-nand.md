@@ -28,7 +28,7 @@ Ha már letöltötted a dumpTool-t az útmutató egy másik része alapján, akk
 ## II. rész - A NAND dumpolása
 
 1. Indítsd el a `dumpTool`-t a telepített menüdön keresztül
-   - Ha egy exploit használtál az elindításához, és már a dumpTool menüben vagy, hagyd figyelmen kívül ezt a lépést
+   - Ha egy exploit használtál az elindításához, és már a dumpTool-ban vagy, hagyd figyelmen kívül ezt a lépést
    - Ha az Unlaunch már telepített és ide irányított a [Kezdeti lépések](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) oldal, akkor tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat bootoláskor
 2. Nyomd meg az <kbd class="face">A</kbd> gombot a Nintendo DSi-den a NAND dumpolás indításához
    - Egy NAND mentés általában 7 percig tart

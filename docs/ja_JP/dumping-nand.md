@@ -4,13 +4,13 @@
 
 ::: tip
 
-Make sure the SD card has at least 250MB of free space, or else you'll run into an error message in dumpTool.
+SDカードに少なくとも250MBの空き容量があることを確認してください。そうしないとdumpToolでエラーメッセージが表示されます。
 
 :::
 
 ::: tip
 
-It is highly recommended that you do this. A NAND backup can be used as a restore point in the future, in case of a brick.
+このセクションの手順を行うことを強くお勧めします。 NANDバックアップは、DSiがブリックした場合、将来的に復元ポイントとして使用できます。
 
 :::
 
@@ -18,38 +18,38 @@ It is highly recommended that you do this. A NAND backup can be used as a restor
 
 ::: tip
 
-If you have already downloaded dumpTool from another section of this guide, you can skip this section.
+すでにこのガイドの別のセクションから dumpTool をダウンロードしている場合は、このセクションをスキップできます。
 
 :::
 
-1. Download the latest release of [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds)
-2. Place `dumpTool.nds` anywhere on your SD card
+1. 最新の [dumpTool](https://github.com/zoogie/dumpTool/releases/latest/download/dumpTool.nds) をダウンロード
+2. SDカードのどこかに`dumpTool.nds`を配置してください
 
 ## Section II - NANDのバックアップ
 
-1. Launch `dumpTool` through the menu you have installed
-   - If you've used an exploit to launch it, and you're already in the dumpTool menu, ignore this step
-   - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
+1. インストールしたメニューから`dumpTool`を起動します
+   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
+   - Unlaunchがすでにインストールされていて、「[はじめる](get-started.html#section-ii-checking-if-unlaunch-is-already-installed)」のページからこのページに移動した場合は、<kbd class="face">A</kbd> + <kbd class="face">B</kbd>を押しながら起動してください
 2. NANDのバックアップを開始するには、DSiの<kbd class="face">A</kbd>ボタンを押します
    - NANDバックアップは通常約7分かかります
 3. NANDバックアップが完了したら、<kbd>START</kbd>ボタンを押してdumpToolを終了します
 4. 本体の電源を切ってSDカードをパソコンなどに挿入します
-5. On the SD card, go to where `dumpTool.nds` is placed, and you'll see a new folder called `DT######...` which contains the NAND backup
-   - If dumpTool is downloaded from the [Get Started](get-started.html) page, it'll be named `boot.nds`
-   - Inside the folder is `nand.bin` which is the backup itself, and `nand.bin.sha1` which is the SHA1 hash of the backup
-6. Store the `DT######...` folder somewhere safe, where you won't lose it
-   - 可能であれば、異なるストレージ機器に複数のバックアップを作成します
-   - 他の場所にバックアップできたら、SDカードからは消してOKです
-7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
+5. SDカード上で`dumpTool.nds`がある場所に移動すると、NANDバックアップを含む`DT######...`という名前の新しいフォルダが表示されます
+   - dumpToolを「[はじめる](get-started.html)」のページからダウンロードした場合、ファイル名は`boot.nds`です
+   - フォルダ内にはバックアップ自体である`nand.bin`と、バックアップのSHA1ハッシュである`nand.bin.sha1`があります
+6. `DT######...`フォルダを失くさない安全な場所に保存してください
+   - 可能であれば、異なるストレージ機器に複数のバックアップを作成してください
+   - 他の場所にバックアップできたら、SDカードからは削除して大丈夫です
+7. dumpToolをエクスプロイトで起動し、「[はじめる](get-started.html)」のページからダウンロードされた場合は、SDカードのルートから`boot.nds`を削除してください
 
 ::: warning
 
-The SHA1 hash of the `nand.bin` will not match the hash stored in `nand.bin.sha1`. This is because dumpTool adds additional data known as a no$gba footer to the `nand.bin` file after the SHA1 hash is calculated. You can use the [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) to create a copy without the footer.
+`nand.bin`のSHA1ハッシュは、`nand.bin.sha1`に保存されているハッシュと一致しません。 これはdumpToolがSHA1ハッシュが計算された後に`nand.bin`ファイルに$gba フッターとして知られていない追加データを追加するためです。 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)を使ってフッターなしのコピーを作成できます。
 
 :::
 
 ::: tip
 
-Continue to [Choosing a Menu](choosing-a-menu.html)
+[メニューの選択](choosing-a-menu.html)に進む
 
 :::
