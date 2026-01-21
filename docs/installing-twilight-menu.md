@@ -7,6 +7,7 @@
 1. Copy the `BOOT.NDS` file to your SD card root
     - If there's already a `BOOT.NDS` file on the SD card root, then overwrite it when asked to
 1. Copy the `roms` folder to your SD card root
+    - If hiyaCFW is installed, copy the `title` folder to your SD card root as well
 
 ::: tip
 
