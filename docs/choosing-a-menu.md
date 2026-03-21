@@ -3,7 +3,7 @@
 There are three menus available in order to launch games. Choose whichever one that suits your needs.
 
 - If you are unsure (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
-- If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occurred" Screen, Choose [Unlaunch Standalone](#unlaunch-standalone).
+- If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occurred" screen, choose [Unlaunch Standalone](#unlaunch-standalone).
 
 ## [hiyaCFW](installing-unlaunch-and-hiyacfw.html)
 
