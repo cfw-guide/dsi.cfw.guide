@@ -2,7 +2,8 @@
 
 There are three menus available in order to launch games. Choose whichever one that suits your needs.
 
-If you are unsure (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
+- If you are unsure (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
+- If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occcured" Screen, Choose [Unlaunch Standalone](#unlaunch-standalone).
 
 ## [hiyaCFW](installing-unlaunch-and-hiyacfw.html)
 
@@ -55,3 +56,17 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 - Restricted to only launching DS or DSi games. To launch games from prior consoles, you'll need to install emulators.
 - Music and/or sound effects cannot be used.
 - Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually.
+
+## [Unlaunch Standalone](installing-unlaunch-standalone.html)
+
+This does not install a custom menu and relies on the stock DSi Menu, but installing Unlaunch unlocks the DSi including allowing the use of previously blocked flashcarts
+
+### Pros
+
+- Allows for previously blocked DSi-Compatible flashcarts to work (prevents "An Error Occured" screen for applicable flashcarts)
+- Allows for other menus to be installed in the future without requiring a prior exploit
+
+### Cons
+
+- Does not install a menu with game loader capabilities
+- No additional customisation options
