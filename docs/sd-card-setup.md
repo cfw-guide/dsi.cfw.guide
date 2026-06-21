@@ -24,7 +24,7 @@ It is **not** recommended to use the built in default Windows Formatting utility
 1. Run the `sdFormatWindows` application (the `.exe` file) from the location you downloaded it to. Adminstrator privileges are required.
 1. Select your SD card drive.
     - If your MicroSD card is **32GB or less**, you can use the default settings.
-    - If your MicroSD card is **64GB or more**, Enable the **"Force FAT32"** and **"Force 32KiB Cluster Size"** options.
+    - If your MicroSD card is **64GB or more**, Enable the **"Format as FAT32"** and **"Force 32KiB Cluster Size"** options.
 1. Press `Format` to start the format process.
 
 ### Section II - Checking SD card read/write for errors
