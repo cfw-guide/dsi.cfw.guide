@@ -36,7 +36,7 @@ It is **not** recommended to use the built in default Windows Formatting utility
 1. Select which language you'd like to see h2testw in
 1. Set your SD card's drive letter as your target
 1. Ensure `all available space` is selected
-1. Click `Write + Verify` (If this option is greyed out, ensure you formatted the SD card with the steps in Section I).
+1. Click `Write + Verify` (If this option is greyed out, ensure you formatted the SD card with the steps in Section I)
 - Wait until the process is completed
 
 ::: tip
