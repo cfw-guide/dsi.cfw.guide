@@ -6,6 +6,7 @@
     - `_nds` folder
     - `BOOT.NDS`
     - `akmenu-next.dsi`
+    - If hiyaCFW is installed, copy the `title` folder to your SD card root as well
 1. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
 1. Extract `nds-bootstrap.zip`
 1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card

@@ -12,63 +12,22 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 
 :::: tab default Windows
 
-### Section I - Formatting your SD card with SD Formatter
+### Section I - Formatting your SD card with sdFormatWindows
 
-::: tip
+::: warning
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
-
-:::
-
-::: danger
-
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow both Sections I & II to re-format to `FAT32`.
+It is **not** recommended to use the built in default Windows Formatting utility since this can cause compatibility problems with homebrew, as it does not format SD cards to the correct specifications set by the SD Association.
 
 :::
 
-1. Download the latest version of [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-    - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-    - Accept the End User License Agreement to start the download
-1. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
-1. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
-1. Select your SD card
-1. Make sure the `Quick Format` check box is checked
+1. Download the latest version of [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe)
+1. Run the `sdFormatWindows` application (the `.exe` file) from the location you downloaded it to, adminstrator privileges are required
+1. Select your SD card drive
+    - If your MicroSD card is **32GB or less**, you can use the default settings
+    - If your MicroSD card is **64GB or more**, enable the **"Format as FAT32"** and **"Force 32KiB Cluster Size"** options
 1. Press `Format` to start the format process
-    - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well
-   ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
 
-### Section II - Formatting your SD card with GUIFormat
-
-This section formats SD cards which are 64GB or larger to FAT32.     
-This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
-
-::: tip
-
-If your SD card is 32GB or less in capacity, skip to Section III.
-
-:::
-
-1. Download the latest version of [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-    - Click on the picture on the website to download the app
-1. Run GUIFormat with Administrator permissions
-1. Select your drive letter
-1. Set the `Allocation size unit` to `32768`
-    - If this is too large for your SD, set it to the highest one that works
-1. Make sure the `Quick Format` check box is checked
-1. Start the format process
-
-![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-
-### Section III - Checking for errors
-1. Go to the properties window of your SD card
-    - `Windows Explorer` -> `This PC` -> Right click your SD card -> `Properties`
-1. In the tools tab, Select `Check Now`
-1. Check both `Automatically fix file system errors` and `Scan for and attempt recovery of bad sectors`
-1. Start the checking process
-
-This will scan the SD card and correct any errors it finds.
-
-### Section IV - Checking SD card read/write
+### Section II - Checking SD card read/write for errors
 
 1. Download and extract [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) anywhere on your computer
     - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
@@ -77,7 +36,7 @@ This will scan the SD card and correct any errors it finds.
 1. Select which language you'd like to see h2testw in
 1. Set your SD card's drive letter as your target
 1. Ensure `all available space` is selected
-1. Click `Write + Verify`
+1. Click `Write + Verify` (If this option is greyed out, ensure you formatted the SD card with the steps in Section I)
 - Wait until the process is completed
 
 ::: tip
