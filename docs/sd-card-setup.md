@@ -92,7 +92,7 @@ If you get an error message stating: `Error: Device is mounted`, you will need t
 
 :::
 
-### Section II - Formatting your SD card with mkdosfs
+### Section II - Formatting your SD card with fdisk and mkdosfs
 
 This section formats SD cards which are 64GB or larger to FAT32.
 
@@ -116,6 +116,15 @@ mmcblk0     179:0    0   3,8G  0 disk
     - If `RO` is set to 1, make sure the lock switch is not slid down
     - Make sure you're targetting the **partition**, `mmcblk0p1`, not the device, `mmcblk0`
 1. Hit CTRL + C to exit the menu
+1. Run `sudo fdisk /dev/(partition name from above)`
+1. Type `o`, then press enter to create a new partition table
+1. Type `n`, then press enter to create a new partition
+1. Press enter four times to select partition type `primary`, set the partition number to `1` and confirm the partition start and end positions to their default values (fill the whole disk)
+
+   When asked if you want to remove an existing signature, type `y` and press enter to confirm.
+1. Type `t` and press enter to change the partition type
+1. Type `0c` and press enter to set the partition type to `W95 FAT32 (LBA)`
+1. Type `w` and press enter to write your changes to disk
 1. Run `sudo mkdosfs /dev/(partition name from above) -s 64 -F 32` to format your SD card to FAT32
 
 ### Section III - Using F3
