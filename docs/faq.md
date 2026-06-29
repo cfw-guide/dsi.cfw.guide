@@ -92,7 +92,7 @@ Other homebrew might use other methods to update.
 - If you have the latest version Unlaunch, follow the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) to set up TWiLight Menu++ on your system
 
 ## How can I remove parental controls?
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- The [mkey generator](https://mkey.nintendohomebrew.com) can generate the code required to remove parental controls
 
 ## Can I change my Nintendo DSi's region?
 Yes, there are a few different methods depending on what you want to change:
