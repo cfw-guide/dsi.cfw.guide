@@ -84,7 +84,7 @@ mmcblk0     179:0    0   3,8G  0 disk
     - Make sure that you're targetting the **device**, `mmcblk0`, not the partition, `mmcblk0p1`
 1. Hit CTRL + C to exit the menu
 1. Navigate to where you have extracted sdFormatLinux
-1. Run `sudo ./sdFormatLinux -e trim /dev/(device name from above)` to format your SD card
+1. Run `sudo ./sdFormatLinux -f -e trim /dev/(device name from above)` to format your SD card
 
 ::: tip
 
