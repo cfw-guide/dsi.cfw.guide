@@ -2,6 +2,7 @@
 
 1. Download the latest release of [AKMenu-Next DSi Edition](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-dsi.zip)
 1. Extract `akmenu-next-dsi.zip`
+1. If Unlaunch is not installed, delete `boot.nds` from the root of your SD card
 1. From within the AKMenu-Next files, copy the following files/folders to your SD card root:
     - `_nds` folder
     - `BOOT.NDS`
