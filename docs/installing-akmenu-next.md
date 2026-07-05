@@ -12,6 +12,12 @@
 1. Extract `nds-bootstrap.zip`
 1. Copy the *contents* of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card
 
+::: tip
+
+If you want to play games from before the DS(i) (such as GBA and below) and/or use other additional features (known as plugins), see [Installing Plugins](https://coderkei.github.io/akmenu-next-docs/guides/plugins/).
+
+:::
+
 ### After installation
 
 Run the [exploit that you used](launching-the-exploit.html) to start dumpTool, and AKMenu-Next will then start.
