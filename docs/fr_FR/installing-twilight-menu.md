@@ -3,10 +3,13 @@
 1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
    - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) and scroll down to `Assets` to download the file
 2. Extract `TWiLightMenu-DSi.7z`
-3. Copy the `_nds` folder to your SD card root
-4. Copy the `BOOT.NDS` file to your SD card root
-   - If there's already a `BOOT.NDS` file on the SD card root, then overwrite it when asked to
-5. Copy the `roms` folder to your SD card root
+   - If you're using Windows, right-click on `TWiLightMenu-DSi.7z`, click `Show more options` (if using Win11), hover over `7-zip`, then click `Open archive`
+3. If Unlaunch is not installed, delete `boot.nds` from the root of your SD card
+4. From `TWiLightMenu-DSi`, copy the following files/folders to your SD card root:
+   - `_nds`
+   - `BOOT.NDS`
+   - `roms`
+   - If hiyaCFW is installed, copy the `title` folder to your SD card root as well
 
 ::: tip
 

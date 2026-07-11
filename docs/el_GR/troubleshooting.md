@@ -32,6 +32,10 @@
 
 Για την επίλυση γενικών προβλημάτων του TWiLight Menu++, δείτε τη σελίδα [Συχνές ερωτήσεις και επίλυση προβλημάτων](https://wiki.ds-homebrew.com/twilightmenu/faq) στο DS-Homebrew Wiki.
 
+## AKMenu-Next
+
+Για την επίλυση προβλημάτων του AKMenu-Next, δείτε τη [σελίδα επίλυσης προβλημάτων](https://coderkei.github.io/akmenu-next-docs/guides/troubleshooting) και τη σελίδα [Συχνές ερωτήσεις](https://coderkei.github.io/akmenu-next-docs/guides/faq) στον ιστότοπο τεκμηρίωσης του AKMenu-Next.
+
 ## Περαιτέρω βοήθεια
 
 Εάν έχετε συναντήσει κάποιο ζήτημα που δεν επιλύεται εδώ ή κάποιο πρόβλημα που παραμένει παρά τις παρεχόμενες λύσεις, ζητήστε βοήθεια στον διακομιστή [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) στο Discord.

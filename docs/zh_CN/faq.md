@@ -8,6 +8,8 @@ It is **not** recommended to update your DSi unless you know there are purchased
 - Older exploits are no longer possible to use, which may be required if you are unable use the recommended exploits
 - Flashcard compatibility is reduced, however this is bypassed if you install Unlaunch
 
+The only exception is an Unlaunch installation on a DSi with System Version 1.4.2 – this version is currently unsupported by Safe Unlaunch Installer (due to a bug), and requires updating your DSi console to 1.4.5.
+
 ## Which is the best exploit?
 
 Unlaunch is overall the best exploit for the DSi, with the only downside being that there is a minor brick risk on install. In general it's recommended to use Memory Pit to install Unlaunch. If you want to avoid any risk it's recommended to instead use Flipnote Lenny as it has fewer issues in homebrew than Memory Pit while being just as safe and simple to remove. Below is a list of the pros and cons of each exploit:
@@ -89,7 +91,7 @@ If you install Unlaunch or use Flipnote Lenny, no functionality will be lost. If
 
 Playing Game Card dumps on the console requires the use of a flashcard or nds-bootstrap, a program which enables games to be played from the internal SD card by redirecting Slot-1 reads and writes to it.
 
-- With TWiLight Menu++ you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using TWiLight Menu++ are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
+- With TWiLight Menu++ & AKMenu-Next you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using these menus are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. In other words, you can drop your ROM files directly and play without any setup. There is no 39 title limit, neither hiyaCFW or Unlaunch are required and there are no restrictions on SD card free space you can have
 - hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. There is a hard limit of 39 titles, and they are less convenient to make than using TWiLight Menu++
   - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
@@ -99,6 +101,7 @@ Playing Game Card dumps on the console requires the use of a flashcard or nds-bo
   - You do **not** need to uninstall Unlaunch before doing this
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **AKMenu-Next** - Follow the instructions on the [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5)
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - If you use TWiLight Menu++, there is a high chance that the latest nds-bootstrap release is included with TWiLight Menu++
 - **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
@@ -112,7 +115,7 @@ Other homebrew might use other methods to update.
 
 ## How can I remove parental controls?
 
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- The [mkey generator](https://mkey.nintendohomebrew.com) can generate the code required to remove parental controls
 
 ## Can I change my Nintendo DSi's region?
 
@@ -138,6 +141,7 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 - Any capacity between 1 GB and 2 TB will work. For general usage, 8 GB is enough
   - Some software, such as hiyaCFW, may experience incrementally longer loading times with larger SD card capacities
 - Speed class 8 or higher is recommended
+- Read the [Counterfeit MicroSD Cards Guide](https://www.flashcarts.net/microsd-fakes) to ensure you do not end up with a counterfeit SD/MicroSD card
 
 ## Can I use my DSi SD card on other systems?
 

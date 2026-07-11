@@ -59,7 +59,7 @@ Ha az Unlaunch már telepített és frissíteni vagy eltávolítani szeretnéd a
 
 ## III. rész - Az Unlaunch telepítése/frissítése
 
-1. Nyisd meg a menüt amit telepítettél (**TW**i**L**ight Menu++ vagy akmenu-next)
+1. Nyisd meg a menüt amit telepítettél (**TW**i**L**ight Menu++ vagy AKMenu-Next)
    - Ha ez az első alkalom, hogy telepíted az Unlaunch-öt, töltsd újra a menütt az [exploiton keresztül, amit használtál](launching-the-exploit.html)
    - Ha már telepítetted az Unlaunch-öt és frissíteni szeretnéd, tartsd nyomva az <kbd class="face">A</kbd> + <kbd class="face">B</kbd> gombokat, amíg bootolsz
 2. A menüben ahol az ikonok listázódnak, indítsd el a `Safe Unlaunch installer`-t (ami `unlaunch-installer.dsi`-nek listázott függően a menütől ahol használva lett és/vagy hogyan van megjelenítve)
@@ -87,8 +87,11 @@ Jelenleg az Unlaunch alapértelmezésben a Filemenu-t indítja bootoláskor, de 
    - Ha semmi nem listázott vagy csak a NAND tartalom listázott (még legörgetés után sem), akkor [újra kell formáznod az SD kártyád](sd-card-setup.html)
 2. Navigálj az `OPTIONS`-höz és nézd meg az elérhető opciókat
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> hardkódolt az Unlaunch menühöz, így az nem cserélhető
-   - A `NO BUTTON` és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t (beleértve bármelyik menüt amit telepítettél), a Slot-1 kártyát, wifiboot-ot vagy az Unlaunch Filemenu-jét
+   - A `NO BUTTON` (ami autobootol) és `BUTTON A / B / X / Y` opciók beállíthatók, ahogy szeretnéd, hogy mit töltsön a DSi-d a bootolásnál, attól függően melyik gomb volt lenyomva. Kiválaszthatsz bármilyen DSiWare-t, homebrew-t (beleértve bármelyik menüt amit telepítettél), a Slot-1 kártyát, wifiboot-ot vagy az Unlaunch Filemenu-jét
      - Az eredeti DSi Menühöz, válaszd a `Launcher`-t\`
+     - A TWiLight Menu++-hoz válaszd a `TWiLight Menu++` opciót (`sdmc:/BOOT.NDS`-ként listázott az alsó képernyőn)
+     - Az AKMenu-Next-hez válaszd az `AKMenu-Next`-et (sdmc:/akmenu-next.dsi\`-ként listázott az alsó képernyőn)
+     - Az hiyaCFW-hez válaszd az `hiyaCFW`-t (sdmc:/hiya.dsi\`-ként listázott az alsó képernyőn)
    - `LOAD ERROR` az, amit a DSi be fog tölteni, amikor amit beállítottál az hibára fut, mert például az SD kártya nem lett beillesztve
 3. Válaszd a `SAVE & EXIT` opciót a beállításaid mentéséhez, majd kapcsold ki a DSi konzolod
 

@@ -59,7 +59,7 @@ If Unlaunch is already installed and you are looking to update or uninstall Unla
 
 ## Section III - Installing/Updating Unlaunch
 
-1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
+1. Open the menu you have installed (**TW**i**L**ight Menu++ or AKMenu-Next)
    - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. In the menu where the icons are listed, launch `Safe Unlaunch installer` (listed as `unlaunch-installer.dsi` depending on which menu is used and/or how it's displayed)
@@ -87,8 +87,11 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
    - If nothing is listed, or if only the NAND contents are listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
 2. Przejdź do `OPTIONS` oraz sprawdź dostępne opcje
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd> jest zakodowane, aby uruchomić w menu Unlaunch i jako takie nie może być zmienione
-   - Opcje `NO BUTTON` i `BUTTON A / B / X / Y` mogą być ustawione dowolnie i zdecydują co załaduje twoje DSi podczas uruchamiania, gdy te przyciski są przytrzymane. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
+   - The `NO BUTTON` (Which autoboots) and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
      - Dla oryginalnego Menu DSi wybierz `Launcher`
+     - For TWiLight Menu++, select `TWiLight Menu++` (Listed as `sdmc:/BOOT.NDS` on the bottom screen)
+     - For AKMenu-Next, select `AKMenu-Next` (Listed as `sdmc:/akmenu-next.dsi` on the bottom screen)
+     - For hiyaCFW, select `hiyaCFW` (Listed as `sdmc:/hiya.dsi` on the bottom screen)
    - Twoje DSi załaduje `LOAD ERROR` jeżeli ładowanie czegokolwiek co wybrałeś, nie powiedzie się, np. jeśli karta SD nie jest włożona
 3. Wybierz `SAVE & EXIT` aby zapisać swoje ustawienia, po czym wyłącz swoje DSi
 

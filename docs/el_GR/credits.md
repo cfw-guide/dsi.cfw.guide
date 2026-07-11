@@ -12,7 +12,7 @@
 - [WinterMute](https://devkitpro.org/support-devkitpro): Συντηρητής της αλυσίδας εργαλείων ανάπτυξης homebrew για DS· δημιούργησε παραλλαγή του exploit «ugopwn» για το Flipnote Studio, ώστε να δημιουργήσει το Flipnote Lenny (υποστηρίζει ολα τα firmware και τις περιοχές)
 - [nocash](http://problemkaputt.de/donate.htm): Προγραμματιστής του Unlaunch
 - [RocketRobz](https://github.com/RocketRobz): Προγραμματιστής των TWiLight Menu++ & GodMode9i και συνεισφέρει στο hiyaCFW
-- [Kei](https://github.com/coderkei): Προγραμματιστής του AKMenu-Next και συντάκτης των βημάτων εγκατάστασης του AKMenu-Next από τους [Οδηγούς για flashcart](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2)
+- [Kai](https://github.com/coderkei): Προγραμματιστής του AKMenu-Next και συγγραφέας των βημάτων εγκατάστασης του AKMenu-Next από την [Τεκμηρίωση του AKMenu-Next](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_3)
 - [zoogie](https://github.com/zoogie): Προγραμματιστής του dumpTool· δημιούργησε παραλλαγή του Memory Pit για την υποστήριξη όλων των περιοχών και των firmware
 - [Plailect](https://github.com/Plailect): Δημιούργησε τον αρχικό οδηγό τροποποίησης για 3DS, ο οποίος αποτέλεσε έμπνευση για τον παρόντα οδηγό
 

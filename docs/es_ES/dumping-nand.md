@@ -40,7 +40,6 @@ Si ya has descargado dumpTool desde otra sección de esta guía, puedes saltarte
 6. Guarda la carpeta  `DT######...` en algún lugar seguro, donde no la perderás
    - De ser posible, haz multiples copias y almacénalas en dispositivos distintos
    - Cuando lo hayas guardado en otro lugar, puedes borrarlo de la tarjeta SD
-7. Si has iniciado dumpTool por un exploit, y ha sido descargado desde la página [Empezar](get-started.html), elimina `boot.nds` de la raíz de la tarjeta SD
 
 ::: warning
 
@@ -50,6 +49,6 @@ El hash SHA1 del `nand.bin` no coincidirá el hash almacenado en `nand.bin.sha1`
 
 ::: tip
 
-Continua a [Elefir un menú](choosing-a-menu.html)
+Continue to [Choosing a Menu](choosing-a-menu.html)
 
 :::

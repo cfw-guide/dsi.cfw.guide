@@ -1,6 +1,6 @@
 {
-    "title": "Guida DSi",
-    "description": "La guida completa per moddare il tuo Nintendo DSi",
+    "title": "Guida agli hack per DSi",
+    "description": "La guida completa per modificare il Nintendo DSi",
     "langMenuLabel": "Cambia lingua",
     "darkModeSwitchLabel": "Aspetto",
     "darkModeSwitchTitle": "Passa al tema scuro",
@@ -20,7 +20,7 @@
         "faq": "FAQ",
         "file-extensions-windows": "Estensioni file (Windows)",
         "get-started": "Per iniziare",
-        "installing-unlaunch": "Installazione di Unlaunch",
+        "installing-unlaunch": "Installare Unlaunch",
         "launching-the-exploit": "Avvio dell'exploit",
         "launching-the-browser-exploit": "Avvio dell'exploit (stylehax)",
         "launching-the-flipnote-exploit": "Avvio dell'exploit (Flipnote Lenny)",

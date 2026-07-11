@@ -31,8 +31,9 @@ Unlaunch n'est pas compatible avec les consoles de développement Nintendo DSi.
 ## Section I - Configuration de la carte SD
 
 1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
-2. Place `unlaunch-installer.dsi` on the root of your SD card
-3. Rename `unlaunch-installer.dsi` to `boot.nds`
+2. Delete `boot.nds` from the root of your SD card
+3. Place `unlaunch-installer.dsi` on the root of your SD card
+4. Rename `unlaunch-installer.dsi` to `boot.nds`
 
 ## Section II - Updating DSi system version
 

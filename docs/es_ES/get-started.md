@@ -8,22 +8,24 @@ We'll begin with downloading some homebrew tool(s), in preparation for the explo
 - An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
   - Se recomienda evitar el uso de WinRAR, ya que usualmente arruina el proceso
   - Si estás usando Windows 11, evitar también usar el extractor incorporado en el sistema (Explorador de archivos), ya que causa un error referente al nombre del archivo siendo inválido o muy grande
+- A good quality name-brand SD card (or name-brand MicroSD with SD adapter). **This is important as you may encounter compatibility issues and loss of data using an off-brand or counterfeit SD card!** For more information, [please see this article](https://www.flashcarts.net/microsd-fakes) on fake MicroSD cards, the information it has also applies to full size SD cards.
 
 ## Sección I - Preparación
 
 ::: warning
 
-Ensure your SD card is [formatted correctly](sd-card-setup.html).
+Ensure your SD card is [formatted correctly with this guide](sd-card-setup.html). You may encounter compatibility problems with homebrew or an SD Card with the wrong filesystem by skipping this step.
 
 :::
 
 1. Inserta tu tarjeta SD en tu ordenador
 2. Download the latest release of [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) as `boot.nds`
 3. Copy the `boot.nds` file to the root of your SD card
+   - Make sure it is specifically named `boot.nds` instead of `boot (1).nds` or any other name
 
 ::: tip
 
-Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [See this image](/assets/images/sdroot/en_US.png)
+Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [Ver esta imagen](/assets/images/sdroot/en_US.png)
 
 :::
 
@@ -38,11 +40,11 @@ To check, press the <kbd class="face">POWER</kbd> button and immediately hold th
 - If you see a menu which shows `Nocash Unlaunch.dsi` on the top screen, this means Unlaunch is already installed, and you can continue with [dumping the NAND](dumping-nand.html).
 - If the DSi starts normally with the DSi Menu appearing, proceed with Section III.
 
-## Section III - Memory Pit
+## Sección III - Foso de memoria
 
 Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions.
 
-If using the exploit without installing Unlaunch, compatibility with some homebrews could be limited. If you encounter issues with DSi homebrews, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
+If using the exploit without installing Unlaunch, compatibility with some homebrews could be limited. If you encounter issues with DSi homebrews and/or the camera function in DSi-Enhanced games, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
 
 ::: tip
 

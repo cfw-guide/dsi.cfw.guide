@@ -1,21 +1,29 @@
-# Installing AKMenu-Next
+# Installare AKMenu-Next
 
-1. Download the latest release of [AKMenu-Next DSi Edition](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-dsi.zip)
-2. Extract `akmenu-next-dsi.zip`
-3. From within the AKMenu-Next files, copy the following files/folders to your SD card root:
-   - `_nds` folder
+1. Scarica l'ultima versione di [AKMenu-Next DSi Edition](https://github.com/coderkei/akmenu-next/releases/latest/download/akmenu-next-dsi.zip)
+2. Estrai `akmenu-next-dsi.zip`
+3. Se Unlaunch non è installato, elimina `boot.nds` dalla root della scheda SD
+4. Da all'interno dei file di AKMenu-Next, copia i seguenti file/cartelle nella root della scheda SD:
+   - Cartella `_nds`
    - `BOOT.NDS`
    - `akmenu-next.dsi`
-4. Download the latest release of [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
-5. Extract `nds-bootstrap.zip`
-6. Copy the _contents_ of the files from the extracted `nds-bootstrap.zip` file to the `_nds` folder on your SD card
-
-### After installation
-
-Run the [exploit that you used](launching-the-exploit.html) to start dumpTool, and AKMenu-Next will then start.
+   - Se hiyaCFW è installato, copia anche la cartella `title` nella root della tua SD
+5. Scarica l'ultima versione di [nds-bootstrap](https://github.com/DS-Homebrew/nds-bootstrap/releases/latest/download/nds-bootstrap.zip)
+6. Estrai `nds-bootstrap.zip`
+7. Copia i _contenuti_ dei file dal file `nds-bootstrap.zip` estratto nella cartella `_nds` della tua scheda SD
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Se desideri giocare ai titoli rilasciati prima del DS(i) (come GBA e ancora prima), e/o usare funzioni aggiuntive (chiamati plugin), vedi [Installare i plugin](https://coderkei.github.io/akmenu-next-docs/guides/plugins/).
+
+:::
+
+### Dopo l'installazione
+
+Esegui l'[exploit che hai usato](launching-the-exploit.html) per avviare dumpTool, po AKMenu-Next verrà avviato.
+
+::: tip
+
+Prosegui con l'[Installazione di Unlaunch](installing-unlaunch.html) (facoltativa)
 
 :::

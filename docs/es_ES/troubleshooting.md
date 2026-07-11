@@ -32,6 +32,10 @@ If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't disp
 
 For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
 
+## AKMenu-Next
+
+For AKMenu-Next troubleshooting, please see the [Troubleshooting Page](https://coderkei.github.io/akmenu-next-docs/guides/troubleshooting) and [FAQ](https://coderkei.github.io/akmenu-next-docs/guides/faq) page on the AKMenu-Next Documentation Website.
+
 ## Más asistencia
 
 If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.

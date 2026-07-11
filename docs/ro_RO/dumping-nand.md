@@ -40,7 +40,6 @@ If you have already downloaded dumpTool from another section of this guide, you 
 6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Dacă este posibil, creează mai multe copii pe mai multe dispozitive
    - Odată ce ai salvat-o în alt loc, poți să o ștergi de pe cardul SD
-7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 

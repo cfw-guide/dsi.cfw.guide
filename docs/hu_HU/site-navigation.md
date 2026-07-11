@@ -7,7 +7,7 @@
 - [Az Exploit indítása (stylehax)](launching-the-browser-exploit.html)
 - [Az Exploit indítása (Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [NAND dumpolása](dumping-nand.html)
-- [Egy Menü választása](choosing-a-menu.html)
+- [Egy menü választása](choosing-a-menu.html)
 - [Az Unlaunch telepítése](installing-unlaunch.html)
 
 ## Kiegészítő fejezetek

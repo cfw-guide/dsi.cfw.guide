@@ -1,0 +1,33 @@
+{
+    "title": "DSi 가이드",
+    "description": "완벽한 닌텐도 DSi 해킹 가이드",
+    "langMenuLabel": "언어 변경",
+    "darkModeSwitchLabel": "외관",
+    "darkModeSwitchTitle": "다크 모드로 전환",
+    "lightModeSwitchTitle": "라이트 모드로 전환",
+    "sidebarMenuLabel": "메뉴",
+    "returnToTopLabel": "맨 위로 돌아가기",
+    "backups": "백업",
+    "guide": "안내서",
+    "extras": "부가 기능",
+    "other": "기타",
+    "pages": {
+        "choosing-a-menu": "Choosing a Menu",
+        "credits": "크레딧",
+        "dsiware-backups": "DSiWare 백업하기",
+        "dumping-game-cards": "게임 카드 덤핑하기",
+        "dumping-nand": "NAND 덤프",
+        "faq": "자주 묻는 질문(FAQ)",
+        "file-extensions-windows": "파일 확장자 (Windows)",
+        "get-started": "시작하기",
+        "installing-unlaunch": "Unlaunch 설치하기",
+        "launching-the-exploit": "익스플로잇 실행하기",
+        "launching-the-browser-exploit": "익스플로잇 실행하기 (stylehax)",
+        "launching-the-flipnote-exploit": "익스플로잇 실행하기 (Flipnote Lenny)",
+        "restoring-nand": "NAND 백업 복구",
+        "sd-card-setup": "SD 카드 준비하기",
+        "site-navigation": "사이트 탐색",
+        "troubleshooting": "문제 해결하기",
+        "uninstalling-unlaunch": "Unlaunch 제거하기"
+    }
+}

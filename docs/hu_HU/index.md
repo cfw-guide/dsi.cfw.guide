@@ -22,7 +22,7 @@ Alaposan olvasd végig az összes bevezető oldalt (beleértve ezt is!) mielőtt
 
 ## Mi az a Homebrew?
 
-A [Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) alkalmazások nem licencszelt szoftverek, zárt rendszerekre mint például a Nintendo DSi. Ezek az alkalmazások lehetnek segédeszközök, egyedi homebrew játékok.
+A [Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) alkalmazások nem licencszelt szoftverek, zárt rendszerekre mint például a Nintendo DSi. Ezek az alkalmazások lehetnek segédeszközök, egyedi homebrew játékok.
 
 Egy Homebrew ingyenesen futtatható bármilyen Nintendo DSi konzolon, függetlenül a firmware-től és a régiótól. Az egyetlen amire szükséged van egy belépési pont és egy SD kártya, amint a homebrew-ot tárolod. A fő belépési pont ebben az útmutatóban a Memory Pit, de léteznek más belépési pontok is, amit használhatsz, ha a Memory Pit nem elérhető számodra.
 

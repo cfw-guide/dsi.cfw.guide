@@ -1,0 +1,33 @@
+{
+    "title": "DSi 破解指南",
+    "description": "破解 Nintendo DSi 的完整指南",
+    "langMenuLabel": "變更語言",
+    "darkModeSwitchLabel": "外觀",
+    "darkModeSwitchTitle": "切換至深色主題",
+    "lightModeSwitchTitle": "切換至淺色主題",
+    "sidebarMenuLabel": "選單",
+    "returnToTopLabel": "返回頂部",
+    "backups": "備份",
+    "guide": "指南",
+    "extras": "額外內容",
+    "other": "其他",
+    "pages": {
+        "choosing-a-menu": "選擇一種選單",
+        "credits": "致謝",
+        "dsiware-backups": "DSiWare 備份",
+        "dumping-game-cards": "匯出遊戲卡",
+        "dumping-nand": "匯出系統NAND",
+        "faq": "常見問題",
+        "file-extensions-windows": "檔案副檔名 (Windows)",
+        "get-started": "開始使用",
+        "installing-unlaunch": "安裝 Unlaunch",
+        "launching-the-exploit": "啟動漏洞",
+        "launching-the-browser-exploit": "啟動漏洞 (stylehax)",
+        "launching-the-flipnote-exploit": "啟動漏洞 (Flipnote Lenny)",
+        "restoring-nand": "復原 NAND 備份",
+        "sd-card-setup": "SD卡設定",
+        "site-navigation": "網站導覽",
+        "troubleshooting": "疑難排解",
+        "uninstalling-unlaunch": "解除安裝 Unlaunch"
+    }
+}

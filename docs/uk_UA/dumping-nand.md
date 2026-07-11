@@ -40,7 +40,6 @@
 6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Якщо можливо, зробіть декілька резервних копій на різних носіях інформації (жорсткий диск, SSD тощо)
    - Після копіювання резервної копії її на різноманітні носії інформації, ви можете видалити її з SD карти
-7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 

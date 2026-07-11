@@ -1,25 +1,28 @@
-# Installing TWiLight Menu++
+# Installazione di TWiLight Menu++
 
-1. Download the latest [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
-   - If it does not download, see the [release page](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) and scroll down to `Assets` to download the file
-2. Extract `TWiLightMenu-DSi.7z`
-3. Copy the `_nds` folder to your SD card root
-4. Copy the `BOOT.NDS` file to your SD card root
-   - If there's already a `BOOT.NDS` file on the SD card root, then overwrite it when asked to
-5. Copy the `roms` folder to your SD card root
+1. Scarica l'ultimo [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z)
+   - Se non si scarica, vedi la [pagina di rilascio](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) e scorri verso il basso su `Assets` per scaricare il file
+2. Estrai `TWiLightMenu-DSi.7z`
+   - Se stai usando Windows, clicca col tasto destro del mouse su `TWiLightMenu-DSi.7z`, poi `Mostra più opzioni` (se stai usando Windows 11), passa sopra `7-zip`, poi clicca `Apri archivio`
+3. Se Unlaunch non è installato, elimina `boot.nds` dalla root della scheda SD
+4. Da `TWiLightMenu-DSi`, copia i seguenti file/cartelle nella root della scheda SD:
+   - `_nds`
+   - `BOOT.NDS`
+   - `roms`
+   - Se hiyaCFW è installato, copia anche la cartella `title` nella root della tua SD
 
 ::: tip
 
-If you want to play games from before the DS(i) & GBA and/or use other additional features (known as add-ons), see [Installing Add-ons](https://wiki.ds-homebrew.com/twilightmenu/installing-addons?tab=manual).
+Se desideri giocare ai titoli rilasciati prima del DS(i) e del GBA, e/o usare funzioni aggiuntive (come gli add-on), vedi [Installare gli add-on](https://wiki.ds-homebrew.com/twilightmenu/installing-addons?tab=manual).
 
 :::
 
-### After installation
+### Dopo l'installazione
 
-Run the [exploit that you used](launching-the-exploit.html) to start dumpTool, and TWiLight Menu++ will then start. It will ask you to select your language and region. These do not need to match your console's language or region so set them to whichever you prefer.
+Esegui l'[exploit che hai usato](launching-the-exploit.html) per avviare dumpTool, poi TWiLight Menu++ verrà avviato. Ti chiederà di selezionare la lingua e la regione. Non devono per forza combaciare con quelle della console, quindi inseriscile come desideri.
 
 ::: tip
 
-Continue to [Installing Unlaunch](installing-unlaunch.html) (Optional)
+Prosegui con l'[Installazione di Unlaunch](installing-unlaunch.html) (facoltativa)
 
 :::

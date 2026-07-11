@@ -12,7 +12,7 @@ Jeśli podoba Ci się to, co zrobili, rozważ przekazanie darowizny (jeśli maj�
 - [WinterMute](https://devkitpro.org/support-devkitpro): Opiekun toolchain'a do Homebrew DE & zforkował exploit ugopwn Flipnote Studio, żeby stworzyć Flipnote Lenny (wspiera każdą wersję oprogramowania i regiony)
 - [nocash](http://problemkaputt.de/donate.htm): Deweloper Unlaunch
 - [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++ & GodMode9i, and contributor to hiyaCFW
-- [Kei](https://github.com/coderkei): Developer of AKMenu-Next and writer of the AKMenu-Next installation steps from [Flashcart Guides](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2)
+- [Kai](https://github.com/coderkei): Developer of AKMenu-Next and writer of the AKMenu-Next installation steps from [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_3)
 - [zoogie](https://github.com/zoogie): Deweloper dumpTool & zforkował Memory Pit, aby wspierał wszystkie regiony i wersje oprogramowania
 - [Plailect](https://github.com/Plailect): Stworzył oryginalny Poradnik Modowania 3DS, od którego ten poradnik wziął inspirację
 

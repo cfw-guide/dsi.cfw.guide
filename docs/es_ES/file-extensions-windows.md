@@ -2,9 +2,9 @@
 
 Esta es una sección adicional para desactivar el comportamiento predeterminado de Windows de ocultar las extensiones de archivo, lo que facilitará mucho la búsqueda de archivos referenciados en la guía.
 
-::::: tabs
+::::: pestañas
 
-:::: tab default Windows 11
+:::: pestaña por defecto Windows 11
 
 1. Inicia el explorador de archivos. Puedes hacerlo abriendo cualquier carpeta (como la de tu tarjeta SD), o presionando el ícono en la barra de tareas.
 2. Haz clic en la opción "Ver" en la barra superior
@@ -15,7 +15,7 @@ Esta es una sección adicional para desactivar el comportamiento predeterminado 
 
 ::::
 
-:::: tab Windows 10 / 8.1 / 8
+:::: pestaña Windows 10 / 8.1 / 8
 
 1. Inicia el explorador de archivos. Puedes hacerlo abriendo cualquier carpeta (como la de tu tarjeta SD), o presionando el ícono en la barra de tareas.
 2. Haz clic en la opción "Ver" en el menú de cinta de la barra superior
@@ -24,7 +24,7 @@ Esta es una sección adicional para desactivar el comportamiento predeterminado 
 
 ::::
 
-:::: tab Windows 7 / Vista / XP
+:::: pestaña Windows 7 / Vista / XP
 
 1. Abre el menú de inicio haciendo clic en él o usando la tecla Windows
 2. Search for "Folder Options" and select the corresponding result

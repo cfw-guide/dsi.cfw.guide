@@ -12,7 +12,7 @@
 - [WinterMute](https://devkitpro.org/support-devkitpro): DS Homebrew 開発ツールチェーンのメンテナーで、ugopwn うごくメモ帳 エクスプロイトをフォークして Flipnote Lenny を作成 (すべてのファームウェアと地域をサポート)
 - [nocash](http://problemkaputt.de/donate.htm): Unlaunch の開発者
 - [RocketRobz](https://github.com/RocketRobz): TWilight Menu++ & GodMode9iの開発者、hiyaCFWの貢献者
-- [Kei](https://github.com/coderkei): AKMenu-Next の開発者、[Flashcart Guides](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2) の AKMenu-Next インストール手順の作成者
+- [Kai](https://github.com/coderkei): Developer of AKMenu-Next and writer of the AKMenu-Next installation steps from [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_3)
 - [zoogie](https://github.com/zoogie): dumpTool の開発者、Memory Pit をフォークしてすべての地域とファームウェアをサポート
 - [Plailect](https://github.com/Plailect): オリジナルの3DS改造ガイドを作成
 

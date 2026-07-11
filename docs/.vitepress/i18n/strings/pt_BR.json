@@ -1,0 +1,33 @@
+{
+    "title": "Guia do DSi",
+    "description": "O guia completo para modificar seu Nintendo DSi",
+    "langMenuLabel": "Selecionar idioma",
+    "darkModeSwitchLabel": "Tema",
+    "darkModeSwitchTitle": "Mudar para o tema escuro",
+    "lightModeSwitchTitle": "Mudar para o tema claro",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Retornar ao topo",
+    "backups": "Backups",
+    "guide": "Guia",
+    "extras": "Extras",
+    "other": "Outro",
+    "pages": {
+        "choosing-a-menu": "Choosing a Menu",
+        "credits": "Créditos",
+        "dsiware-backups": "Backups de DSiWare",
+        "dumping-game-cards": "Extraindo Cartuchos de Jogos",
+        "dumping-nand": "Extraindo a NAND",
+        "faq": "Perguntas Frequentes",
+        "file-extensions-windows": "Extensões de arquivos (Windows)",
+        "get-started": "Vamos começar",
+        "installing-unlaunch": "Instalando o Unlaunch",
+        "launching-the-exploit": "Iniciando o Exploit",
+        "launching-the-browser-exploit": "Iniciando o Exploit (stylehax)",
+        "launching-the-flipnote-exploit": "Iniciando o Exploit (Flipnote Lenny)",
+        "restoring-nand": "Restaurando um Backup da NAND",
+        "sd-card-setup": "Configuração do cartão SD",
+        "site-navigation": "Navegação do site",
+        "troubleshooting": "Solução de problemas",
+        "uninstalling-unlaunch": "Desinstalando o Unlaunch"
+    }
+}

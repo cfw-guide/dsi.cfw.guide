@@ -59,7 +59,7 @@ If Unlaunch is already installed and you are looking to update or uninstall Unla
 
 ## Section III - Installing/Updating Unlaunch
 
-1. Open the menu you have installed (**TW**i**L**ight Menu++ or akmenu-next)
+1. Open the menu you have installed (**TW**i**L**ight Menu++ or AKMenu-Next)
    - If this is your first time installing Unlaunch, relaunch the menu through the [exploit that you used](launching-the-exploit.html)
    - If you have already installed Unlaunch and are looking to update it, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
 2. In the menu where the icons are listed, launch `Safe Unlaunch installer` (listed as `unlaunch-installer.dsi` depending on which menu is used and/or how it's displayed)
@@ -87,8 +87,11 @@ Currently, Unlaunch defaults to launching its Filemenu on boot, but this can be 
    - If nothing is listed, or if only the NAND contents are listed (even after scrolling down), then you'll need to [reformat the SD card](sd-card-setup.html)
 2. Navigate to `OPTIONS`, and look at the available options
    - <kbd class="face">A</kbd> + <kbd class="face">B</kbd>被硬编码启动到Unlaunch的菜单，因此无法更改
-   - The `NO BUTTON` and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
+   - The `NO BUTTON` (Which autoboots) and `BUTTON A / B / X / Y` options can be set however you like and will choose what your DSi loads at boot depending on which buttons are held. You can select any DSiWare, homebrew (including whichever menu you installed), the Slot-1 card, wifiboot, or Unlaunch's Filemenu
      - 想要原生 DSi 菜单，请选择 `Launcher`
+     - For TWiLight Menu++, select `TWiLight Menu++` (Listed as `sdmc:/BOOT.NDS` on the bottom screen)
+     - For AKMenu-Next, select `AKMenu-Next` (Listed as `sdmc:/akmenu-next.dsi` on the bottom screen)
+     - For hiyaCFW, select `hiyaCFW` (Listed as `sdmc:/hiya.dsi` on the bottom screen)
    - `LOAD ERROR`出现时说明加载出现问题，例如SD卡未插入
 3. 选择`SAVE & EXIT`来保存设置，然后关闭你的DSi
 

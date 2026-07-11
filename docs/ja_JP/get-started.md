@@ -8,18 +8,20 @@
 - [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), または [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook) などのZipファイルを解凍できるアプリケーション
   - WinRARの使用はお勧めしません。ファイルが壊れる恐れがあるためです。
   - Windows 11を使用している場合は、ファイル名が長すぎるか無効であるというエラーが発生するため、Windows標準の解凍機能を使用しないことをお勧めします。
+- A good quality name-brand SD card (or name-brand MicroSD with SD adapter). **This is important as you may encounter compatibility issues and loss of data using an off-brand or counterfeit SD card!** For more information, [please see this article](https://www.flashcarts.net/microsd-fakes) on fake MicroSD cards, the information it has also applies to full size SD cards.
 
 ## セクション I - 準備
 
 ::: warning
 
-SDカードが[正しくフォーマット](sd-card-setup.html)されているか確認してください。
+Ensure your SD card is [formatted correctly with this guide](sd-card-setup.html). You may encounter compatibility problems with homebrew or an SD Card with the wrong filesystem by skipping this step.
 
 :::
 
 1. SDカードをPCに挿入します
 2. 最新の [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) を`boot.nds`としてダウンロードしてください
 3. `boot.nds`ファイルをSDカードのルートにコピーします
+   - Make sure it is specifically named `boot.nds` instead of `boot (1).nds` or any other name
 
 ::: tip
 
@@ -42,7 +44,7 @@ Unlaunch は DSi コンソール自体にインストールされるブートコ
 
 Memory PitはDSiカメラを利用したエクスプロイトで、すべてのファームウェアバージョンに対応しています。
 
-Unlaunchをインストールせずにエクスプロイトを使用すると、一部のHomebrewとの互換性が制限される可能性があります。 DSiのHomebrewで問題が発生した場合は、このガイドに戻って、代わりに[他のエクスプロイト](alternate-exploits.html) を試すことができます。
+Unlaunchをインストールせずにエクスプロイトを使用すると、一部のHomebrewとの互換性が制限される可能性があります。 If you encounter issues with DSi homebrews and/or the camera function in DSi-Enhanced games, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
 
 ::: tip
 

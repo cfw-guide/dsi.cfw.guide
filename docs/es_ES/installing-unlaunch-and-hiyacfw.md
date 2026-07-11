@@ -31,8 +31,9 @@ Unlaunch no es compatible con consolas de desarrollo de Nintendo DSi.
 ## Sección I - Configuración de la tarjeta SD
 
 1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
-2. Place `unlaunch-installer.dsi` on the root of your SD card
-3. Rename `unlaunch-installer.dsi` to `boot.nds`
+2. Delete `boot.nds` from the root of your SD card
+3. Place `unlaunch-installer.dsi` on the root of your SD card
+4. Rename `unlaunch-installer.dsi` to `boot.nds`
 
 ## Section II - Updating DSi system version
 
@@ -64,14 +65,14 @@ If Unlaunch is already installed, skip to Section IV
 
 1. Open the installer by re-running the [exploit that you used](launching-the-exploit.html)
 2. Press the <kbd class="face">A</kbd> button after the `WARNING` message appears
-   - If the battery LED is red, it'll tell you to plug in the console. Select `Yes` to continue after plugging it in
+   - If the battery LED is red, it'll tell you to plug in the console. Selecciona `Sí` para continuar después de conectarlo
 3. If you want to change the default background, select `[Custom background]` and press <kbd class="face">A</kbd> to select the one you want to use
    - Three custom backgrounds are included, but you can add more into a folder called `backgrounds` on the SD card root (create the folder if it doesn't exist)
 4. If you want to keep both the DSi splash (with health and safety message) and the sound in the DSi system menu, select `Enable sound and splash` and press <kbd class="face">A</kbd> to turn it on
 5. If Unlaunch is already installed, select the `Uninstall unlaunch` or `Restore launcher tmd` option, and press <kbd class="face">A</kbd> once it's done
 6. Select the `Install unlaunch` option, and press the <kbd class="face">A</kbd> button
-7. Press the <kbd class="face">A</kbd> button once installation is done
-8. Press <kbd class="face">POWER</kbd> to reboot your system
+7. Pulsa el botón <kbd class="face">A</kbd> una vez finalizada la instalación
+8. Presiona <kbd class="face">POWER</kbd> para reiniciar tu sistema
 
 Si en este punto ves el sistema de archivos de Unlaunch, significa que has modificado exitosamente tu Nintendo DSi.
 
@@ -89,12 +90,12 @@ Esta sección es opcional y solo sirve para mantener ordenada la tarjeta SD y re
 
 :::
 
-:::: tabs
+:::: pestañas
 
 :::tab default Memory Pit
 
-- Delete the `sd:/private/ds/app/484E494A/pit.bin` file from your SD card
-- Rename `tip.bin` back to `pit.bin`, and leave it intact
+- Elimina el archivo `sd:/private/ds/app/484E494A/pit.bin` de tu tarjeta SD
+- Renombra `tip.bin` de vuelta a `pit.bin`, y dejarlo intacto
 - You can now restore the `DCIM` folder that was on the root of your SD card
 - Delete the `boot.nds` file from your SD card
 
@@ -102,11 +103,11 @@ Esta sección es opcional y solo sirve para mantener ordenada la tarjeta SD y re
 
 :::tab Flipnote Lenny
 
-- Delete the `800031_104784BAB6B57_000.ppm` and `T00031_1038C2A757B77_000.ppm` files from inside the following folders:
-  - `sd:/private/ds/app/4B47554A/001` (Japan)
+- Elimina los archivos `800031_104784BAB6B57_000.pm` y `T00031_1038C2A757B77_000.ppm` de dentro de las siguientes carpetas:
+  - `sd:/private/ds/app/4B47554A/001` (Japón)
   - `sd:/private/ds/app/4B475545/001` (USA)
-  - `sd:/private/ds/app/4B475556/001` (Europe/Australia)
+  - `sd:/private/ds/app/4B475556/001` (Europa/Australia)
   - También puedes eliminar las carpetas de otras regiones que no sean la tuya
-- Delete the `unlaunch-installer.dsi` file from your SD card
+- Elimina el archivo `unlaunch-installer.dsi` de tu tarjeta SD
 
 :::

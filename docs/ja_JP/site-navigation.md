@@ -7,7 +7,7 @@
 - [エクスプロイトの実行(stylehax)](launching-the-browser-exploit.html)
 - [エクスプロイトの実行(Flipnote Lenny)](launching-the-flipnote-exploit.html)
 - [NANDのバックアップ](dumping-nand.html)
-- [メニューの選択](choosing-a-menu.html)
+- [Choosing a Menu](choosing-a-menu.html)
 - [Unlaunchのインストール](installing-unlaunch.html)
 
 ## 応用ガイド

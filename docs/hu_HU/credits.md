@@ -12,7 +12,7 @@ Ha tetszik amit csináltak, gondolkozz el a támogatásukon (ha van támogatási
 - [WinterMute](https://devkitpro.org/support-devkitpro): A DS Homebrew Tools fejlesztője & forkolta az ugopwn Flipnote Studio exploit-ot, hogy elkészítse a Flipnote Lenny-t (támogat minden firmware-t és régiót)
 - [nocash](http://problemkaputt.de/donate.htm): Az Unlaunch fejlesztője
 - [RocketRobz](https://github.com/RocketRobz): A TWiLight Menu++ a GodMode9i fejlesztője és hozzájáruló a hiyaCFW-hez
-- [Kei](https://github.com/coderkei): Az AKMenu-Next fejlesztője és írója az AKMenu-Next telepítési lépéseinek a [Flashcart útmutatók](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2) résztől
+- [Kei](https://github.com/coderkei): Az AKMenu-Next fejlesztője és írója az AKMenu-Next telepítési lépéseinek az [AKMenu-Next Documentation]](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_3) résztől
 - [zoogie](https://github.com/zoogie): A dumpTool fejlesztője & forkolta a Memory Pit-et, hogy minden régiót és firmware-t támogasson
 - [Plailect](https://github.com/Plailect): Az eredeti 3DS Modding Guide készítője, ahonnan az inspiráció jött
 

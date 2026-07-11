@@ -40,7 +40,6 @@ Jeśli już pobrałeś narzędzie dumpTool z innej sekcji tego poradnika, możes
 6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Jeśli to możliwe, utwórz wiele kopii zapasowych na różnych urządzeniach pamięci masowej
    - Po wykonaniu kopii zapasowej w innym miejscu, możesz usunąć ją z karty SD
-7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 

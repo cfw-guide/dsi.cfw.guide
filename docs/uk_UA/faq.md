@@ -8,6 +8,8 @@ It is **not** recommended to update your DSi unless you know there are purchased
 - Старіші експлойти буде неможливо використати, що може бути потрібно, якщо ви не в змозі використати жоден з рекомендованих експлойтів
 - Сумісність з флешкартами скорочена, проте ця можливість відновлюється встановленням Unlaunch
 
+The only exception is an Unlaunch installation on a DSi with System Version 1.4.2 – this version is currently unsupported by Safe Unlaunch Installer (due to a bug), and requires updating your DSi console to 1.4.5.
+
 ## Який експлойт є найкращим?
 
 У цілому для DSi найкращим експлойтом є Unlaunch, з єдиним недоліком як незначний ризик цеглювання при встановленні. Загалом, рекомендується використовувати Memory Pit для встановлення Unlaunch. Якщо ви хочете уникнути будь-якого ризику, рекомендується замість цього використовувати Flipnote Lenny, оскільки у нього є менше проблем у доморобками, ніж у Memory Pit, будучи безпечним і простим в користуванні та видаленні. Нижче наведено список переваг і недоліків кожного експлойту:
@@ -89,7 +91,7 @@ It is **not** recommended to update your DSi unless you know there are purchased
 
 Щоб грати в скопійовані ігри з Ігрових Картриджів, потрібно використовувати флешкарти або nds-bootstrap - програму, що дозволяє грати в ігри DS зі внутрішньої пам'яті SD карти, перенаправляючи процеси зчитування та запису Slot-1 до ROM.
 
-- Використовуючи TWiLight Menu++, ви можете переміщатися по SD картці, щоб знайти файли ROM для гри через nds-bootstrap. Переваги використання TWiLight Menu++ - чит-меню, меню, налаштування прямо в грі та уникання обмежень, які приносять перенаправлячі. Іншими словами, ви можете кинути свої файли ROM безпосередньо на SD карту та грати без будь-яких додаткових конфігурацій. Немає ліміту в 39 додатків, ні hiyaCFW, ні Unlaunch не потрібні, та немає обмежень на SD картці
+- With TWiLight Menu++ & AKMenu-Next you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using these menus are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. Іншими словами, ви можете кинути свої файли ROM безпосередньо на SD карту та грати без будь-яких додаткових конфігурацій. Немає ліміту в 39 додатків, ні hiyaCFW, ні Unlaunch не потрібні, та немає обмежень на SD картці
 - hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Існує жорстка межа у 39 додатків, та їхнє створення менш зручне, ніж використання TWiLight Menu++
   - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
@@ -99,6 +101,7 @@ It is **not** recommended to update your DSi unless you know there are purchased
   - You do **not** need to uninstall Unlaunch before doing this
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **AKMenu-Next** - Follow the instructions on the [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5)
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - Якщо ви використовуєте TWiLight Menu++, то, скоріш за все, останній реліз nds-bootstrap вже включений в TWiLight Menu++
 - **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
@@ -112,7 +115,7 @@ It is **not** recommended to update your DSi unless you know there are purchased
 
 ## Як можна видалити батьківський контроль?
 
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- The [mkey generator](https://mkey.nintendohomebrew.com) can generate the code required to remove parental controls
 
 ## Чи можу я змінити регіон своєї Nintendo DSi?
 
@@ -138,6 +141,7 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 - Будь-яка місткість між 1 Гб і 2 ТБ добре працюватимуть. Зазвичай, достатньо всього 8 ГБ
   - Деякі програми, такі як hiyaCFW, можуть довше завантажуватися з більшою місткістю SD карти
 - Рекомендовано клас швидкості 8 або вище
+- Read the [Counterfeit MicroSD Cards Guide](https://www.flashcarts.net/microsd-fakes) to ensure you do not end up with a counterfeit SD/MicroSD card
 
 ## Чи можу я використовувати свою SD карту з однієї DSi на іншій?
 

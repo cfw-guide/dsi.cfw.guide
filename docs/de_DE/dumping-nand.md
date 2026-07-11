@@ -40,7 +40,6 @@ Wenn Sie dumpTool bereits von einem anderen Abschnitt dieser Anleitung herunterg
 6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - Wenn möglich, mache eine Kopie/backup vom Nand-Backup auf verschiedenen Geräten
    - Erst wenn das NAND-Backup auf einem anderen Gerät gespeichert wurde, kann man es von der SD-Karte löschen
-7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 
