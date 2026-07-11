@@ -8,7 +8,7 @@ Make sure to backup your SD card contents BEFORE following this. Your SD card wi
 
 :::
 
-::::: pestañas
+::::: tabs
 
 :::: tab default Windows
 

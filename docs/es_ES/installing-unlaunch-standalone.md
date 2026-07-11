@@ -95,7 +95,7 @@ Esta sección es opcional y solo sirve para mantener ordenada la tarjeta SD y re
 
 :::
 
-:::: pestañas
+:::: tabs
 
 :::tab default Memory Pit
 
