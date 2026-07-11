@@ -1,5 +1,5 @@
-const locale = 'uk_UA';
-import { uk_UA as localeData } from './strings'
+const locale = 'zh_CN';
+import { zh_CN as localeData } from './strings'
 
 const backups = localeData.backups;
 const guide = localeData.guide;
@@ -109,8 +109,8 @@ const themeConfig = {
 };
 
 export default {
-	lang: "uk",
-	label: "Українська",
+	lang: "zh-CN",
+	label: "中文 (简体)",
     title: localeData.title,
     description: localeData.description,
 	themeConfig: themeConfig

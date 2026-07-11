@@ -16,15 +16,21 @@ export default defineConfig({
     hostname: 'https://dsi.cfw.guide'
   },
   locales: {
-    root: i18n.en_US,
+    id_ID: i18n.id_ID,
     de_DE: i18n.de_DE,
-    el_GR: i18n.el_GR,
+    root: i18n.en_US,
     es_ES: i18n.es_ES,
     fr_FR: i18n.fr_FR,
-    hu_HU: i18n.hu_HU,
     it_IT: i18n.it_IT,
+    hu_HU: i18n.hu_HU,
+    pl_PL: i18n.pl_PL,
+    pt_BR: i18n.pt_BR,
+    el_GR: i18n.el_GR,
+    uk_UA: i18n.uk_UA,
+    zh_CN: i18n.zh_CN,
+    zh_TW: i18n.zh_TW,
     ja_JP: i18n.ja_JP,
-    uk_UA: i18n.uk_UA
+    ko_KR: i18n.ko_KR
   },
   themeConfig: {
     docFooter: {
@@ -78,10 +84,5 @@ export default defineConfig({
         }
       });
     }
-  },
-  srcExclude: [
-    'pl_PL/**',
-    'ro_RO/**',
-    'zh_CN/**'
-  ]
+  }
 })
