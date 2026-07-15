@@ -4,7 +4,7 @@ Berikut daftar nama yang telah membantu terkait situs panduan, _homebrew_, dan h
 
 Jika suka karya jasa mereka, boleh menyumbang (jika ada tautan sumbangan).
 
-- [Peter0x44](https://github.com/Peter0x44), [Pk11](https://pk11.us/), [NightScript](https://nightscript370.github.io/): Pemelihara panduan
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Pemilik ranah web
 - Halvorsen: Penyumbang gambar latar Nintendo DSi XL di laman beranda
 - [shutterbug2000](https://paypal.me/projectkaeru): Penemu serta Pengembang eksploit DSi Camera & Flipnote Studio

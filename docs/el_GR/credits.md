@@ -4,7 +4,7 @@
 
 Εάν σας αρέσει το έργο τους, μπορείτε να κάνετε μια δωρεά (αν παρέχουν κάποιο σύνδεσμο για δωρεά).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Συντηρητές του οδηγού
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Κάτοχος του τομέα
 - Halvorsen: Παρείχε μια εικόνα του Nintendo DSi του για την αρχική σελίδα
 - [shutterbug2000](https://paypal.me/projectkaeru): Ανακάλυψε και ανέπτυξε τα exploit για την DSi Camera και το Flipnote Studio

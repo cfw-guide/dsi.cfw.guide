@@ -4,7 +4,7 @@ To są zasługi dla tych, którzy pomagali przy stronie przewodnika, homebrew i 
 
 Jeśli podoba Ci się to, co zrobili, rozważ przekazanie darowizny (jeśli mają link).
 
-- [Nightscript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) i [Peter0x44](https://github.com/Peter0x44): Opiekunowie poradnika
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Posiadaczka domeny
 - Halvorsen: Dostarczył obraz swojego Nintendo DSi do wykorzystania na stronie głównej
 - [shutterbug2000](https://paypal.me/projectkaeru): Odkrywca i Deweloper exploit'ów DSi Camera & Flipnote Studio

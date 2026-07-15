@@ -4,7 +4,7 @@
 
 그 분들이 해내신 결과물을 좋아하신다면, (후원 링크가 있는 경우) 후원 하는 것을 고려해 보세요.
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): 가이드 주요 관리자
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): 도메인 소유자
 - Halvorsen: 홈페이지에 쓰일 닌텐도 DSi 사진 제공
 - [shutterbug2000](https://paypal.me/projectkaeru): DSi 카메라 & Flipnote Studio 취약점 발견 & 개발자

@@ -4,7 +4,7 @@
 
 如果你喜欢他们的所做，请考虑捐助(如果他们有捐赠链接)。
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44)：本指南的维护者
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal)：这个有趣域名的拥有者！
 - Halvorsen: 提供了在主页上使用的Nintendo DSi图片
 - [shutterbug2000](https://paypal.me/projectkaeru)：用他那机智的大脑发现并开发了“DSi趣照”与“便携笔记”的漏洞操作步骤。

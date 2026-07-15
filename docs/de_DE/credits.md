@@ -4,7 +4,7 @@ Die Credits für Personen, welche bei der Website, homebrew und anderen Sachen g
 
 Wenn dir gefällt, was sie gemacht haben, erwäge zu spenden (wenn sie einen Spendenlink haben).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Domain holder
 - Halvorsen: Hat ein Bild von ihrem Nintendo DSi zur Verwendung auf der Startseite bereitgestellt
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits

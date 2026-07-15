@@ -4,7 +4,7 @@
 
 如果您喜歡他們所做的事情，可以考慮捐款（如果他們有捐款連結）。
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): 指南維護者
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): 域名持有人
 - Halvorsen: 提供一張 Nintendo DSi 的圖片用於首頁
 - [shutterbug2000](https://paypal.me/projectkaeru): Nintendo DSi 照相館和 Flipnote Studio 漏洞的發現者和開發者

@@ -4,7 +4,7 @@ Questi sono i crediti per coloro che hanno aiutato con il sito web della guida, 
 
 Se ti piace quello che hanno fatto, considera una donazione (se hanno un link di donazione).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Manutentori della guida
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Proprietario del dominio
 - Halvorsen: Fornì un'immagine del proprio Nintendo DSi utilizzata sulla pagina principale
 - [shutterbug2000](https://paypal.me/projectkaeru): Scopritore e sviluppatore degli exploit della Fotocamera Nintendo DSi e di Flipnote Studio

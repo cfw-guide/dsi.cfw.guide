@@ -4,7 +4,7 @@ Estes são os créditos para aqueles que ajudaram com o site do guia, as homebre
 
 Se você gostou do que eles fizeram, considere doar (se eles tiverem um link de doação).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Mantedores do Guia
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Mantedor do domínio
 - Halvorsen: Providenciou uma imagem de seu Nintendo DSi para ser usada na página inicial
 - [shutterbug2000](https://paypal.me/projectkaeru): Descobridor e Desenvolvedor dos exploits da Câmera DSi e do Flipnote Studio

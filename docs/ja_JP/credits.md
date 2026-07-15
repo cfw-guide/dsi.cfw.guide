@@ -4,7 +4,7 @@
 
 彼らの功績に感心したら、是非寄付をご検討ください（寄付リンクがある場合）。
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): ガイドメンテナー
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): ドメイン所有者
 - Halvorsen：ガイドのDSi画像提供者
 - [shutterbug2000](https://paypal.me/projectkaeru): DSiカメラ & うごくメモ帳 エクスプロイトの発見者と開発者

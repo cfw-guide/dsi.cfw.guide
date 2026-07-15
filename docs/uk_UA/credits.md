@@ -4,7 +4,7 @@
 
 Якщо вам сподобалося, що вони зробили, зробіть їм донат (якщо вони мають посилання на донат).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Domain holder
 - Halvorsen: Надали зображення їх Nintendo DSi для використання на головній сторінці
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits
