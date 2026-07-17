@@ -1,24 +1,24 @@
-# Installing Unlaunch + hiyaCFW
+# Installare Unlaunch + hiyaCFW
 
-You are about to install Unlaunch, a permanent bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
+Stai per installare Unlaunch, un exploit di bootcode permanente che viene installato nella console DSi stessa, permettendo il pieno controllo della console all'avvio e, di conseguenza, consente alle applicazioni homebrew di accedere completamente all'hardware senza restrizioni dalle app di sistema DSI o dai titoli DSiWare.
 
-Installing Unlaunch is required in order to use hiyaCFW.
+L'installazione di Unlaunch è necessaria per utilizzare hiyaCFW.
 
 ::: danger
 
-Se non lo hai ancora fatto, [effettua un dump della NAND](dumping-nand.html). A NAND backup + [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) (or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod), provided you know how to solder) would allow you to restore this backup in case the console gets bricked afterwards.
+Se non lo hai ancora fatto, [esegui un dump della NAND](dumping-nand.html). Un backup della NAND + [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) (o [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod), purché tu sappia come saldare) ti permetterebbe di ripristinare questo backup nel caso in cui la console venga brickata in seguito.
 
 :::
 
 ::: danger
 
-Installing or uninstalling Unlaunch, while safe, writes to the console's NAND, so there's a small chance to brick your console!
+Installare o disinstallare Unlaunch, mentre sicuro, scrive sulla NAND della console, quindi c'è una piccola possibilità di brickare la tua console!
 
 :::
 
 ::: warning
 
-If you do not have access to a PC, or if your PC is running ChromeOS, then please do not install Unlaunch and hiyaCFW. A PC (running Windows, Linux, or macOS) is required to ensure the SD Card used is formatted in a way compatible with Unlaunch.
+Se non hai accesso a un PC, o se il PC ha come sistema operativo ChromeOS, allora evita di installare Unlaunch e hiyaCFW. Per garantire che la scheda SD utilizzata sia formattata in modo compatibile con Unlaunch, è necessario un PC (Windows, Linux o macOS).
 
 :::
 
@@ -30,58 +30,59 @@ Unlaunch non è compatibile con le console di sviluppo Nintendo DSi.
 
 ## Sezione I - Configurazione della scheda SD
 
-1. Download the latest version of [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
-2. Place `unlaunch-installer.dsi` on the root of your SD card
-3. Rename `unlaunch-installer.dsi` to `boot.nds`
+1. Scarica l'ultima versione di [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
+2. Elimina `boot.firm` dalla root della scheda SD
+3. Posiziona `unlaunch-installer.dsi` nella root della tua scheda SD
+4. Rinomina `unlaunch-installer.dsi` in `boot.nds`
 
-## Section II - Updating DSi system version
+## Sezione II - Aggiornare la versione del DSi
 
 ::: tip
 
-If Unlaunch is already installed, skip to Section IV
+Se Unlaunch è già installato, salta alla Sezione IV
 
 :::
 
-1. In the DSi Menu, launch the System Settings application (the icon is gray and has a white wrench)
-   - The version will be shown on the bottom-right of the top screen
-   - If the version is `Ver 1.4.2`, proceed with performing a system update
-   - If the version is _not_ `Ver 1.4.2`, go straight to [Section III](#section-iii-installing-unlaunch)
-2. Touch the number `4` to go to the fourth page
-3. Touch `System Update`
-   - It is the third option if your console isn't in your native language
-4. Touch `Yes` when asked to connect to the internet and update
-   - It is the left-side option if your console isn't in your native language
-   - If the version is already up to date, go straight to [Section III](#section-iii-installing-unlaunch)
-5. Touch the `Next` button
-   - It is the right-side option if your console isn't in your native language
-6. Touch the `I Accept` button
-   - It is the top option if your console isn't in your native language
-7. Touch the `OK` button
-   - It is the bottom right-side option if your console isn't in your native language
-8. Wait for the system to update, and reboot when finished
+1. Nel menu DSi, avviare l'applicazione Impostazioni di sistema (icona grigia con chiave bianca)
+   - La versione verrà visualizzata in basso a destra dello schermo in alto
+   - Se la versione è `Ver 1.4.2`, procedi con l'aggiornamento del sistema
+   - Se la versione _non_ è `Ver 1.4.2`, vai direttamente alla [Sezione III](#section-iii-installing-unlaunch)
+2. Tocca il numero `4` per andare alla quarta pagina
+3. Tocca `Aggiornamento del sistema`
+   - È la terza opzione se la console non è nella tua lingua madre
+4. Tocca `Sì` quando ti viene chiesto di connetterti a Internet e di aggiornare
+   - È l'opzione a sinistra se la console non è nella tua lingua madre
+   - Se la versione è già aggiornata, vai direttamente alla [Sezione III](#section-iii-installing-unlaunch)
+5. Clicca su `Avanti`
+   - È l'opzione a destra se la console non è nella tua lingua madre
+6. Clicca su `Accetto`
+   - È l'opzione in alto se la console non è nella tua lingua madre
+7. Clicca su `OK`
+   - È l'opzione in basso a destra se la console non è nella tua lingua madre
+8. Attendi che il sistema aggiorni e riavvia quando terminato
 
-## Section III - Installing Unlaunch
+## Sezione III - Installare Unlaunch
 
-1. Open the installer by re-running the [exploit that you used](launching-the-exploit.html)
-2. Press the <kbd class="face">A</kbd> button after the `WARNING` message appears
-   - If the battery LED is red, it'll tell you to plug in the console. Select `Yes` to continue after plugging it in
-3. If you want to change the default background, select `[Custom background]` and press <kbd class="face">A</kbd> to select the one you want to use
-   - Three custom backgrounds are included, but you can add more into a folder called `backgrounds` on the SD card root (create the folder if it doesn't exist)
-4. If you want to keep both the DSi splash (with health and safety message) and the sound in the DSi system menu, select `Enable sound and splash` and press <kbd class="face">A</kbd> to turn it on
-5. If Unlaunch is already installed, select the `Uninstall unlaunch` or `Restore launcher tmd` option, and press <kbd class="face">A</kbd> once it's done
-6. Select the `Install unlaunch` option, and press the <kbd class="face">A</kbd> button
-7. Press the <kbd class="face">A</kbd> button once installation is done
-8. Press <kbd class="face">POWER</kbd> to reboot your system
+1. Apri il programma di installazione rieseguendo l'[exploit che hai usato](launching-the-exploit.html)
+2. Premi il pulsante <kbd class="face">A</kbd> dopo che appare il messaggio `WARNING`
+   - Se il LED della batteria è rosso, dirà di mettere in carica la console. Seleziona `Yes` per continuare dopo averlo messo in carica
+3. Se vuoi modificare lo sfondo predefinito, seleziona `[Custom background]` e premi <kbd class="face">A</kbd> per selezionare quello che desideri utilizzare
+   - Sono inclusi tre sfondi personalizzati, ma puoi aggiungerne di più in una cartella chiamata `backgrounds` nella root della scheda SD (crea la cartella se non esiste)
+4. Se vuoi mantenere sia lo splash del DSi (col messaggio di salute e sicurezza) che il suono nel menu del sistema DSi, seleziona `Enable sound and splash` e premi <kbd class="face">A</kbd> per attivarlo
+5. Se Unlaunch è già installato, seleziona l'opzione `Uninstall unlaunch` o `Restore launcher tmd` e premi <kbd class="face">A</kbd> una volta terminato
+6. Seleziona l'opzione `Install unlaunch` e premi il pulsante <kbd class="face">A</kbd>
+7. Premi il pulsante <kbd class="face">A</kbd> una volta completata l'installazione
+8. Premi <kbd class="face">POWER</kbd> per riavviare il sistema
 
 Se vedi la schermata del menu di Unlaunch a questo punto, significa che hai modificato con successo il tuo Nintendo DSi.
 
-- If you see a black screen or if nothing is listed, please take a look at the [Troubleshooting](troubleshooting.html) page
+- Se vedi uno schermo nero o non è listato nulla, dai un'occhiata alla pagina di [risoluzione dei problemi](troubleshooting.html)
 
-## Section IV - Installing hiyaCFW
+## Sezione IV - Installare hiyaCFW
 
-Go to [this page](https://wiki.ds-homebrew.com/hiyacfw/installing) to install hiyaCFW.
+Vai su [questa pagina](https://wiki.ds-homebrew.com/hiyacfw/installing) per installare hiyaCFW.
 
-## Section V - Cleaning up your SD card
+## Sezione V - Pulizia della scheda SD
 
 ::: tip
 
@@ -94,9 +95,9 @@ Questa sezione è facoltativa e serve solo per mantenere la scheda SD ordinata.
 :::tab default Memory Pit
 
 - Elimina il file `sd:/private/ds/app/484E494A/pit.bin` dalla tua scheda SD
-- Rinomina `tip.bin` in `pit.bin`, e lascialo intatto
+- Rinomina `tip.bin` in `pit.bin` e lascialo intatto
 - Puoi ripristinare la cartella `DCIM` che era nella root della scheda SD
-- Delete the `boot.nds` file from your SD card
+- Elimina il file `boot.nds` dalla tua scheda SD
 
 :::
 
@@ -107,6 +108,6 @@ Questa sezione è facoltativa e serve solo per mantenere la scheda SD ordinata.
   - `sd:/private/ds/app/4B475545/001` (USA)
   - `sd:/private/ds/app/4B475556/001` (Europa/Australia)
   - È inoltre possibile eliminare le cartelle per le altre regioni
-- Delete the `unlaunch-installer.dsi` file from your SD card
+- Elimina il file `unlaunch-installer.dsi` dalla tua scheda SD
 
 :::

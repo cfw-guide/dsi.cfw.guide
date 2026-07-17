@@ -28,8 +28,8 @@ Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare
 ## Sezione II - Effettuare dump della NAND
 
 1. Avvia `dumpTool` attraverso il menu che hai installato
-   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
-   - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
+   - Se hai usato un exploit per avviarlo, e sei già nel menu di dumpTool, ignora questo passaggio
+   - Se Unlaunch è già installato e sei stato reinderizzato qui dalla pagina [Per iniziare](get-started.html#section-ii-checking-if-unlaunch-is-already-installed), tieni premuto <kbd class="face">A</kbd> + <kbd class="face">B</kbd> durante l'avvio della console
 2. Premi il pulsante <kbd class="face">A</kbd> sul tuo Nintendo DSi per iniziare a creare un backup della NAND
    - Un backup della NAND richiede di solito circa 7 minuti
 3. Quando il backup della NAND è completato, premi il pulsante <kbd>START</kbd> sul tuo Nintendo DSi per uscire da dumpTool
@@ -40,7 +40,6 @@ Se hai già scaricato dumpTool da un'altra sezione di questa guida, puoi saltare
 6. Salva la cartella `DT######...` in un posto sicuro, dove non lo perderai
    - Se possibile, effettua molteplici backup su diversi dispositivi di archiviazione
    - Una volta conservato il backup altrove, lo si può eliminare dalla scheda SD
-7. Se hai avviato dumpTool tramite un exploit, ed è stato scaricato dalla pagina [Per iniziare](get-started.html), elimina `boot.nds` dalla scheda SD
 
 ::: warning
 
@@ -50,6 +49,6 @@ L'hash SHA1 del `nand.bin` non corrisponderà all'hash memorizzato in `nand.bin.
 
 ::: tip
 
-Prosegui a [Scegliere un menu](choosing-a-menu.html)
+Prosegui a [scegliere un menu](choosing-a-menu.html)
 
 :::

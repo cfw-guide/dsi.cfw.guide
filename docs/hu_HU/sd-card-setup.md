@@ -12,64 +12,22 @@ Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT köve
 
 :::: tab default Windows
 
-### I. rész - Az SD kártya formázása az SD Formatter-rel
+### I. rész - Az SD kártya formázása az sdFormatWindows-szal
 
-::: tip
+::: warning
 
-Ez a rész leformázza az SD kártyát az SD Card Association előírásai szerint. Ez javíthat számtalan problémát, ami homebrew alkalmazások futtatásakor előfordulhat.
-
-:::
-
-::: danger
-
-Bármilyen 64GB vagy nagyobb SD exFAT-ra lesz formázva ebben a folyamatban. Követned _kell az I. és II. részt egyaránt a `FAT32`-re újra formázáshoz.
+**Nem** ajánlott a Windows beépített formáző eszközének használata, mert kompatibilitási problémákat okozhat a homebrew-okkal, mivel az SD kártyát nem a megfelelő (SD Association) specifikáció szerint formázza.
 
 :::
 
-1. Töltsd le az [SD Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) legutolsó verzióját
-   - Ha a fenti link nem múködik neke, töltsd le az [archive.org-ról](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Fogadd el a Végfelhasználói licencszerződést a letöltés indításához
-2. Futtasd az `SD Card Formatter Setup`-ot (az `.exe` fájlt) a letöltött `.zip` fájlból rendszergazda joggal a program telepítéséhez
-3. Futtasd az `SD Card Formatter`-t a Start menüből rendszergazda joggal
-4. Válaszd ki az SD kártyád
-5. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-6. Nyomd meg a `Format` gombot a formázás elindításához
-   - Ha 4GB-32GB SD kártyát használsz, és a cluster méret nem 32 kilobájt-nak jelezett, akkor követned kell a II. részt is
-     ![Az SD Card Formatter képernyőképe Windows 11-en](/assets/images/sd-card-formatter.png)
+1. Töltsd le az [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe) legutolsó verzióját
+2. Futtasd az `sdFormatWindows` -ot (az `.exe` fájlt) a letöltési helyén, adminisztrátori joggal ha szükséges
+3. Válaszd ki az SD kártya meghajtód
+   - Ha az SD kártyád 32 GB vagy kevesebb használhatod az alapértelmezett beállításokat
+   - Ha az SD kártyád **64 GB vagy több** engedélyezd a **"Format as FAT32"** és a **"Force 32KiB Cluster Size"** opciókat
+4. Nyomd meg a `Format` gombot a formázás elindításához
 
-### II. rész - Az SD kártya formázása a GUIFormat-tal
-
-Ez a rész 64 GB-nál nagyobb SD kártyák FAT32-re formázását írja le.  
-Ez vomatkozik azokra a 4GB-32GB SD kártyákra is, amiket nem 32kb cluster mérettel formáztak.
-
-::: tip
-
-Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
-
-:::
-
-1. Töltsd le a [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm) legutolsó verzióját
-   - Kattints a képre a weboldalon, hogy letöltsd az appot
-2. Futtasd a GUIFormat-ot Adminisztrátor joggal
-3. Válaszd ki az SD kártyád betűjelét
-4. Állítsd be az `Allocation size unit`-ot `32768`-ra
-   - Ha ez túl nagy az SD-d számára, állítsd a legnagyobbra ami működik
-5. Ellenőrizd, hogy a `Quick Format` opció be van-e pipálva
-6. Indíts el a formázást
-
-![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-
-### III. rész - Ellenőrzés hibákra
-
-1. Menj a tulajdonságaihoz az SD kártyádnak
-   - `Windows Explorer` -> `Ez a gép` -> Jobb kattintás az SD kártyádon -> `Tulajdonságok`
-2. Az eszközök fülön válaszd az `Ellenőrzés most` opciót
-3. Válaszd ki `Fájl rendszer hibák automatikus javítása` és a `Hibás szektorok keresése és javítása` opciókat egyaránt
-4. Indítsd el az ellenőrzési folyamatot
-
-Ez ellenőrizni fogja az SD kártyádat és kijavít minden hibát, amit talál.
-
-### IV. rész - Az SD kártya írás/olvasás ellenőrzése
+### II. rész - Az SD kártya írás/olvasás ellenőrzése
 
 1. Töltsd le és csomagold ki [a h2testw archívot](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) bárhova a számítógépeden
    - Ha a fenti link nem működik, töltsd le az [archive.org-ról](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip-ról)
@@ -78,7 +36,7 @@ Ez ellenőrizni fogja az SD kártyádat és kijavít minden hibát, amit talál.
 3. Válaszd ki milyen nyelven szeretnéd a h2testw-t látni
 4. Válaszd ki az SD kártyád betűjelét, mint célt
 5. Bizonyosodj meg róla, hogy az `all available space` van kiválasztva
-6. Kattints a `Write + Verify`-ra
+6. Kattints a `Write + Verify`-re (Ha ez az opció ki van szürkítve, biztosítsd, hogy formáztad az SD kártyát az I. részben írt lépések szerint
 
 - Várj, amíg a folyamat befejeződik
 
@@ -100,11 +58,53 @@ Ha a teszt bármi más eredményt mutat, akkor az SD kártyád valószínűleg h
 
 ::: tip
 
-Ha TWiLight Menu++ indtása sikertelen ezen metódus végrehajtása után, kérjük kövesd a Windows metódust e helyett, vagy Windows-ra bootolással, vagy Windows virtuális gép használatával
+Ez a rész leformázza az SD kártyát az SD Card Association előírásai szerint. Ez javíthat számtalan problémát, ami homebrew alkalmazások futtatásakor előfordulhat.
 
 :::
 
-### I. rész - Az SD kártya formázása
+::: danger
+
+Bármilyen 64GB vagy nagyobb SD exFAT-ra lesz formázva ebben a folyamatban. Követned _kell az I. és II. részt egyaránt a `FAT32`-re újra formázáshoz.
+
+:::
+
+### I. rész - Az SD kártya formázása az sdFormatLinux-szal
+
+1. Ellenőrizd, hogy az SD kártyád **nincs** bedugva a Linux gépedbe
+2. Töltsd le az [sdFormatLinux](https://github.com/profi200/sdFormatLinux/releases/download/v0.2.0/sdFormatLinux_v0.2.0.7z) legutolsó verzióját a számítógépedre
+3. Indítsd el a Linux Terminal-t
+4. Írd be, hogy `watch "lsblk"`
+5. Helyezd az SD kártyád a Linux számítógépbe
+6. Figyeld a kimenetet. Valami hasonlót kell kapj:
+
+```
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+mmcblk0     179:0    0   3,8G  0 disk
+└─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
+```
+
+1. Jegyezd fel az eszköz nevét. A fenti példánkban ez `mmcblk0` volt
+   - - Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
+   - Legyél biztos benne, hogy a megcélzott **eszköz** az az `mmcblk0`eszköz, nem pedig az `mmcblk0p1` partíció
+2. Nyomj CTRL + C-t a menüből kilépéshez
+3. Navigálj oda, ahova kicsomagoltad az sdFormatLinux-ot
+4. Futtasd a `sudo ./sdFormatLinux -f -e trim /dev/(eszköz neve fentről)` parancsot az SD kártyád formázásához
+
+::: tip
+
+Ha egy hibaüzentet kapsz ezzel a tartalommal: `Error: Device is mounted` akkor futtatnod kell a `sudo umount /dev/(partíció neve fentről)` parancsot annak érdekében, hogy végre tudd hajtani a fenti lépést.
+
+:::
+
+### II. rész - Az SD kártya formázása az mkdosfs-sel
+
+Ez a rész 64 GB-nál nagyobb SD kártyák FAT32-re formázását írja le.
+
+::: tip
+
+Ha az SD kártyád 32GB vagy kevesebb ugorj a III. részhez.
+
+:::
 
 1. Ellenőrizd, hogy az SD kártyád **nincs** bedugva a Linux gépedbe
 2. Indítsd el a Linux Terminal-t
@@ -118,26 +118,15 @@ mmcblk0     179:0    0   3,8G  0 disk
 └─mmcblk0p1 179:1    0   3,7G  0 part /run/media/user/FFFF-FFFF
 ```
 
-1. Jegyezd fel az eszköz nevét. A fenti példánkban ez `mmcblk0p1` volt
+1. Jegyezd fel a partíció nevét. A fenti példánkban ez `mmcblk0p1` volt
    - - Ha az `RO` 1-re állított, ellenőrizd, hogy a zároló csúszka nincs-e lehúzva
-   - Legyél biztos benne, hogy a megcélzott **partíció**, az `mmcblk0p1` nem pedig az `mmcblk0`
+   - Legyél biztos benne, hogy a megcélzott **partíció**, az `mmcblk0p1` nem pedig az `mmcblk0` eszköz
 2. Nyomj CTRL + C-t a menüből kilépéshez
-3. Kövesd az SD kártyád kapacitásának megfelelő lépéseket:
-   - 2GB vagy kisebb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 16`
-     - Ez létrehoz egy FAT16 partíciót 32 KB cluster mérettel az SD kártyán
-   - 4GB vagy nagyobb: `sudo mkdosfs /dev/(az eszköz neve fentről) -s 64 -F 32`
-     - Ez létrehoz egy FAT32 partíciót 32 KB cluster mérettel az SD kártyán
+3. Futtasd a `sudo mkdosfs /dev/(partíció neve fentről) -s 64 -F 32` parancsot az SD kártyád FAT32-re formázásához
 
-::: tip
+### III. rész - Az F3 használata
 
-Ha egy hibaüzentet kapsz ezzel a tartalommal: `mkdosfs: /dev/(eszköznév) contains a mounted file system`, akkor futtatnod kell a `sudo umount /dev/(esköz neve fentről)` parancsot annak érdekében, hogy végre tudd hajtani a fenti lépést.
-Ez után újra kell csatlakoztatnod az SD kártyát **vagy** újra létre kell hoznod a CSATOLÁSI PONTOT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) a folytatáshoz.
-
-:::
-
-### II. rész - Az F3 használata
-
-1. Töltsd le és csomagold ki [az F3 archívot](https://github.com/AltraMayor/f3/archive/v7.2.zip) bárhova a számítógépeden.
+1. Töltsd le és csomagold ki [az F3 archívot](https://github.com/AltraMayor/f3/archive/v9.0.zip) bárhova a számítógépeden.
 2. Indítsd el a terminált az F3 könyvtárában
 3. Futtasd a `make`-et az F3 fordításához
 4. Bedugott és csatolt SD kártya mellett futtasd az `./f3write <your sd card mount point>` parancsot

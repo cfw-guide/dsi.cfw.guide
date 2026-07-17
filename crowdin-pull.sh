@@ -2,7 +2,7 @@
 
 # Add new languages here, space separated and using the ID for `crowdin pull`
 # `lol` (LOLCAT) is In-Context
-LANGUAGES="de el es-ES fr hu it ja pl ro uk zh-CN lol"
+LANGUAGES="de el es-ES fr hu id it ja ko pl pt-BR uk zh-CN zh-TW lol"
 
 # Delete old translations (incase a page was removed/renamed)
 rm -rf docs/*_*/

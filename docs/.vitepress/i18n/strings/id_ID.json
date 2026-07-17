@@ -1,0 +1,33 @@
+{
+    "title": "Panduan DSi",
+    "description": "Panduan lengkap modifikasi konsol Nintendo DSi",
+    "langMenuLabel": "Ganti bahasa",
+    "darkModeSwitchLabel": "Penampilan",
+    "darkModeSwitchTitle": "Beralih ke tema gelap",
+    "lightModeSwitchTitle": "Beralih ke tema terang",
+    "sidebarMenuLabel": "Menu",
+    "returnToTopLabel": "Kembali ke atas",
+    "backups": "Mencadang",
+    "guide": "Panduan",
+    "extras": "Lebihan",
+    "other": "Lainnya",
+    "pages": {
+        "choosing-a-menu": "Choosing a Menu",
+        "credits": "Daftar Nama",
+        "dsiware-backups": "Mencadang DSiWare",
+        "dumping-game-cards": "Membuat Dump Kartrid",
+        "dumping-nand": "Membuat Dump NAND",
+        "faq": "Pertanyaan Umum",
+        "file-extensions-windows": "Ekstens Berkas (Windows)",
+        "get-started": "Memulai",
+        "installing-unlaunch": "Memasang Unlaunch",
+        "launching-the-exploit": "Menjalankan Eksploit",
+        "launching-the-browser-exploit": "Menjalankan Eksploit (stylehax)",
+        "launching-the-flipnote-exploit": "Menjalankan Eksploit (Flipnote Lenny)",
+        "restoring-nand": "Memulihkan Cadangan NAND",
+        "sd-card-setup": "Penyiapan Kartu SD",
+        "site-navigation": "Navigasi Situs",
+        "troubleshooting": "Sidik Gangguan",
+        "uninstalling-unlaunch": "Mencopot Unlaunch"
+    }
+}

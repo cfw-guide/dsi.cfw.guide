@@ -40,7 +40,6 @@
 6. Store the `DT######...` folder somewhere safe, where you won't lose it
    - 如果可能，请在不同的存储设备上做多个备份
    - 如果你在其他地方完成了备份，你可以在SD卡中将其删除
-7. If you've started dumpTool via an exploit, and was downloaded from the [Get Started](get-started.html) page, delete `boot.nds` from the SD card root
 
 ::: warning
 

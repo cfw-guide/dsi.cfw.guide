@@ -31,8 +31,9 @@ UnlaunchにはニンテンドーDSi開発機との互換性はありません。
 ## セクション I - SD カードのセットアップ
 
 1. [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi) の最新版をダウンロード
-2. SDカードのルートに`unlaunch-installer.dsi`を配置してください
-3. `unlaunch-installer.dsi` の名前を `boot.nds` に変更してください
+2. Delete `boot.nds` from the root of your SD card
+3. SDカードのルートに`unlaunch-installer.dsi`を配置してください
+4. `unlaunch-installer.dsi` の名前を `boot.nds` に変更してください
 
 ## セクション II - DSi システムバージョンの更新
 

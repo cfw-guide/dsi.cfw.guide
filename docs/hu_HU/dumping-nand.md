@@ -40,7 +40,6 @@ Ha már letöltötted a dumpTool-t az útmutató egy másik része alapján, akk
 6. Tárold a `DT######...` mappát egy biztonságos helyen, ahol nem veszted el
    - Ha lehet, több mentésed legyen különböző tároló eszközökön
    - Ha elmentetted máshová, törölheted az SD kártyádról
-7. Ha egy exploit használtál a dumpTool elindításához, és [Kezdeti lépések](get-started.html) oldalról lett letöltve, töröld le `boot.nds` fájlt az SD kártya gyökeréből
 
 ::: warning
 

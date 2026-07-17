@@ -31,8 +31,9 @@
 ## Ενότητα I - Διαμόρφωση κάρτας SD
 
 1. Κάντε λήψη της πιο πρόσφατης έκδοσης του [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi)
-2. Τοποθετήστε το `unlaunch-installer.dsi` στη ρίζα της κάρτας SD σας
-3. Μετονομάστε το `unlaunch-installer.dsi` σε `boot.nds`
+2. Διαγράψτε το `boot.nds` από τη ρίζα της κάρτας SD σας
+3. Τοποθετήστε το `unlaunch-installer.dsi` στη ρίζα της κάρτας SD σας
+4. Μετονομάστε το `unlaunch-installer.dsi` σε `boot.nds`
 
 ## Ενότητα II - Ενημέρωση της έκδοσης συστήματος DSi
 

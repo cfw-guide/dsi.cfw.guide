@@ -2,7 +2,8 @@
 
 Trois menus sont disponibles pour lancer les jeux. Choisissez celui qui vous convient le mieux.
 
-Si vous ne savez pas (ou ne pouvez pas décider) lequel utiliser, choisissez [**TW**i**L**ight Menu++](#twilight-menu).
+- **If you are unsure** (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
+- If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occurred" screen, choose [Unlaunch Standalone](#unlaunch-standalone).
 
 ## [hiyaCFW](installing-unlaunch-and-hiyacfw.html)
 
@@ -13,11 +14,13 @@ Installez ce menu si vous souhaitez une utilisation aussi fidèle que possible a
 ### Avantages
 
 - Le menu Nintendo DSi d'origine est utilisé. Il ne s'agit pas d'une reproduction !
-- Les jeux lancés à l'origine sur des cartes de jeu DS(i) peuvent être lancés à partir du menu DSi après leur avoir [créé des redirections](https://wiki.ds-homebrew.com/fr-FR/ds-index/forwarders).
+- Games that are launched originally on DS(i) game cards can be launched from the DSi Menu after [creating forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders) for them, and DSiWare can be installed with [NTM](https://github.com/Epicpkmn11/NTM/releases).
 
 ### Inconvénients
 
+- As this requires Unlaunch, the console's NAND will be written, so there's a small chance to brick your console!
 - Limité au lancement de jeux DS ou DSi. Pour lancer des jeux de consoles plus anciennes, vous devrez créer des redirections pour les applications qui émulent ces consoles.
+- Creating forwarders for games can be time-consuming when compared to just adding them to the SD card.
 - Limité à 39 icônes à l'écran en raison du fonctionnement du menu DSi d'origine.
 - L'interface du menu n'est pas personnalisable.
 
@@ -30,7 +33,7 @@ Développé pour remplacer le menu Nintendo DSi d'origine par un menu plus à jo
 - Intègre des recréations presque fidèles du menu DSi, du menu HOME de la 3DS et des interfaces de certains linkers.
 - La plupart des interfaces peuvent être personnalisées en installant des thèmes utilisateur.
 - Les jeux DS, DSi et GBA peuvent être lancés.
-- Les jeux des consoles plus anciennes que la GBA peuvent être lancés en installant une extension.
+- Games from older consoles prior to the GBA can be launched by [installing an add-on.](https://wiki.ds-homebrew.com/twilightmenu/installing-addons)
 - Peut être installé à côté de hiyaCFW.
 
 ### Inconvénients
@@ -47,11 +50,27 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 
 - The fastest and most lightweight menu available.
 - No features are missing from the menu (ex. start menu and graphical info/settings menu) when compared to the Wood UI from TWLMenu++.
-- Customizeable by installing user-made custom themes.
+- Customizeable by installing user-made custom themes compatible with Wood R4 & AKAIO.
+- Games from older consoles including GBA can be launched by [installing a plugin.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - Peut être installé à côté de hiyaCFW.
 
 ### Inconvénients
 
-- Limité au lancement de jeux DS ou DSi. To launch games from prior consoles, you'll need to install emulators.
+- Does not support DSiWare.
 - Music and/or sound effects cannot be used.
 - Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually.
+
+## [Unlaunch Standalone](installing-unlaunch-standalone.html)
+
+This does not install a custom menu and relies on the stock DSi Menu, but installing Unlaunch unlocks the DSi including allowing the use of previously blocked flashcarts
+
+### Avantages
+
+- Allows for previously blocked DSi-Compatible flashcarts to work (prevents "An Error Occurred" screen for applicable flashcarts)
+- Allows for other menus to be installed in the future without requiring a prior exploit
+- Still uses stock DSi Menu
+
+### Inconvénients
+
+- Does not install a menu with game loader capabilities
+- No additional customisation options

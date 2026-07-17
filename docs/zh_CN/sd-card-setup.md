@@ -12,63 +12,22 @@ This page is for preparing your SD card for your device. In the process, we'll f
 
 :::: tab default Windows
 
-### 第一节 —— 用SD Formatter 格式化你的SD卡
+### Section I - Formatting your SD card with sdFormatWindows
 
-::: tip
+::: warning
 
-This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
-
-:::
-
-::: danger
-
-Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow both Sections I & II to re-format to `FAT32`.
+It is **not** recommended to use the built in default Windows Formatting utility since this can cause compatibility problems with homebrew, as it does not format SD cards to the correct specifications set by the SD Association.
 
 :::
 
-1. 去这里下载最新版本的 **[SD Formatter]**(https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - If the above link doesn't work for you, download [from archive.org](https://web.archive.org/web/20220626204124/https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/)
-   - Accept the End User License Agreement to start the download
-2. Run `SD Card Formatter Setup` (the `.exe` file) in the downloaded `.zip` file with Adminstrator privileges, then install the program
-3. Run `SD Card Formatter` from the Start Menu with Adminstrator privileges
-4. 选择你的 SD 卡
-5. 确认 `Quick Format` 复选框已被勾选
-6. Press `Format` to start the format process
-   - If you're using a 4GB-32GB SD card, and the cluster size is not reported as `32 kilobytes`, you'll need to follow Section II as well ![Screenshot of SD Card Formatter on Windows 11](/assets/images/sd-card-formatter.png)
+1. Download the latest version of [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe)
+2. Run the `sdFormatWindows` application (the `.exe` file) from the location you downloaded it to, adminstrator privileges are required
+3. Select your SD card drive
+   - If your SD card is **32GB or less**, you can use the default settings
+   - If your SD card is **64GB or more**, enable the **"Format as FAT32"** and **"Force 32KiB Cluster Size"** options
+4. Press `Format` to start the format process
 
-### Section II - Formatting your SD card with GUIFormat
-
-This section formats SD cards which are 64GB or larger to FAT32.  
-This also applies to 4GB-32GB SD cards which have not been formatted with 32kb cluster size.
-
-::: tip
-
-If your SD card is 32GB or less in capacity, skip to Section III.
-
-:::
-
-1. 下载最新版本的 [GUIFormat](http://ridgecrop.co.uk/index.htm?guiformat.htm)
-   - 点击网页上的图片以下载应用程序
-2. 使用管理员权限运行 GUIFormat
-3. Select your drive letter
-4. 将 `Allocation size unit`（簇大小） 设置为 `32768`
-   - 如果这对你的 SD卡来说太大了，请将它尽可能设置的高
-5. 确认 `Quick Format` 复选框已被勾选
-6. 开始格式化
-
-![](https://user-images.githubusercontent.com/1000503/83831499-8f330b80-a6b5-11ea-9ab9-ec2196150751.png)
-
-### 第三节——检查错误
-
-1. 转到SD卡的属性窗口
-   - `Windows 文件管理器` -> `此电脑` -> 右键点击你的SD卡 -> `属性`
-2. 在`工具`选项卡中选择`检查`
-3. 同时检查`"自动修复文件系统错误"`和`"扫描并尝试恢复错误扇区"`
-4. 开始进行检查
-
-这会扫描SD卡并纠正它发现的任何错误。
-
-### 第四节 - 检查 SD 卡读/写
+### Section II - Checking SD card read/write for errors
 
 1. 下载 [the h2testw archive](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip) 并将其解压到你电脑上任意地方
    - 如果上述链接不可用，请前往 [**这里**](https://web.archive.org/web/20210912045431/http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)下载Archive.org上的备份（中国大陆可能需要代理软件）
@@ -77,7 +36,7 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 3. 在 h2testw 中选择中文或其他语言
 4. 在“Drive”一行选择你的 SD 卡盘符
 5. 确保 `all available space` 已勾选
-6. 点击 `Write + Verify`
+6. Click `Write + Verify` (If this option is greyed out, ensure you formatted the SD card with the steps in Section I)
 
 - 等待完成
 
@@ -99,11 +58,50 @@ If your SD card is 32GB or less in capacity, skip to Section III.
 
 ::: tip
 
-If TWiLight Menu++ fails to start after following this method, please follow the Windows method instead, by either rebooting to Windows or running a Windows Virtual Machine
+This section formats the SD card to the specifications by the SD Card Association. This can fix many issues that may occur with running homebrew applications.
 
 :::
 
-### 第一节 - 格式化您的 SD 卡
+::: danger
+
+Any 64GB or larger SD cards will be formatted to `exFAT` in this process. You _must_ follow both Sections I & II to re-format to `FAT32`.
+
+:::
+
+### Section I - Formatting your SD card with sdFormatLinux
+
+1. 请确保你的SD卡 **没有** 插入到你的Linux设备
+2. Download and extract the latest version of [sdFormatLinux](https://github.com/profi200/sdFormatLinux/releases/download/v0.2.0/sdFormatLinux_v0.2.0.7z) to your computer
+3. 启动Linux终端
+4. 输入 `watch "lsblk"`
+5. 插入你的SD卡到你的Linux设备
+6. 观察终端输出内容 它输出内容应该是下面这样的：
+
+```
+```
+
+1. 注意设备名， In our example above, it was `mmcblk0`
+   - 如果 `RO` 设置为1，请确认SD卡的写保护滑块没有滑下
+   - Make sure that you're targetting the **device**, `mmcblk0`, not the partition, `mmcblk0p1`
+2. 按 CTRL + C 键退出菜单
+3. Navigate to where you have extracted sdFormatLinux
+4. Run `sudo ./sdFormatLinux -f -e trim /dev/(device name from above)` to format your SD card
+
+::: tip
+
+If you get an error message stating: `Error: Device is mounted`, you will need to run `sudo umount /dev/(partition name from above)` in order to complete the above step.
+
+:::
+
+### Section II - Formatting your SD card with mkdosfs
+
+This section formats SD cards which are 64GB or larger to FAT32.
+
+::: tip
+
+If your SD card is 32GB or less in capacity, skip to Section III.
+
+:::
 
 1. 请确保你的SD卡 **没有** 插入到你的Linux设备
 2. 启动Linux终端
@@ -114,26 +112,15 @@ If TWiLight Menu++ fails to start after following this method, please follow the
 ```
 ```
 
-1. 注意设备名， 在我们上面的示例中，它是 `mmcblk0p1`
+1. Take note of the device partition name. 在我们上面的示例中，它是 `mmcblk0p1`
    - 如果 `RO` 设置为1，请确认SD卡的写保护滑块没有滑下
-   - 请确保你的目标**分区**是`mmcblk0p1` 而不是 `mmcblk0`
+   - Make sure you're targetting the **partition**, `mmcblk0p1`, not the device, `mmcblk0`
 2. 按 CTRL + C 键退出菜单
-3. 请根据你的SD卡容量来选择下面的操作
-   - 2GB 或更小`sudo mkdosfs /dev/(上面提到的设备名) -s 64 -F 16`
-     - 这将在 SD 卡上创建一个簇大小为 32KB 的 FAT16 分区
-   - 4GB 或更大： `sudo mkdosfs /dev/(上面提到的设备名) -s 64 -F 32`
-     - 这将在 SD 卡上创建一个簇大小为 32KB 的 FAT32 分区
+3. Run `sudo mkdosfs /dev/(partition name from above) -s 64 -F 32` to format your SD card to FAT32
 
-::: tip
+### 第 三 节 - 使用F3键
 
-If you get an error message saying: `mkdosfs: /dev/(device name) contains a mounted file system`, you will need to `sudo umount /dev/(device name from above)` in order to complete the above step.
-You should then reinsert the SD card **or** recreate the MOUNTPOINT (`sudo mkdir -p /run/media/user/FFFF-FFFF && sudo mount /dev/(device name) /run/media/user/FFFF-FFFF`) to continue.
-
-:::
-
-### 第 二 节 - 使用F3
-
-1. 下载并解压 [ F3 文件](https://github.com/AltraMayor/f3/archive/v7.2.zip) 到你计算机的任意地方
+1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v9.0.zip) anywhere on your computer.
 2. 在F3文件夹里启动终端
 3. 输入 `make` 对F3进行打包
 4. 插入并安装SD卡，输入 `./f3write <your sd card mount point>`
@@ -258,7 +245,7 @@ ___
 
 
 
-
+:::::
 
 ::: tip
 

@@ -10,28 +10,32 @@ Per risolvere questo problema, apri [NAND Title Manager (NTM)](https://github.co
 
 ### Non c'è alcun audio o schermata d'avvio quando si avvia "Launcher" utilizzando Unlaunch
 
-Lo sviluppatore di Unlaunch (nocash) ha intenzionalmente rimosso l'audio di sottofondo e la schermata d'avvio come impostazione predefinita. You can regain these effects by [reinstalling Unlaunch](installing-unlaunch.html) with `Enable sound and splash` turned on, or by using [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
+Lo sviluppatore di Unlaunch (nocash) ha intenzionalmente rimosso l'audio di sottofondo e la schermata d'avvio come impostazione predefinita. Puoi recuperare questi effetti [reinstallando Unlaunch](installing-unlaunch.html) con `Enable sound and splash` attivato, o usando [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing).
 
 ### Accendere la console mostra solo uno schermo nero dopo aver installato di Unlaunch
 
-Prova a estrarre la scheda SD e riaccendere la console. If it still only shows a black screen, you may need to flash your NAND via either [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) or a [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
+Prova a estrarre la scheda SD e riaccendere la console. Se mostra solo una schermata nera, potrebbe essere necessario flashare la NAND tramite [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) o [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod).
 
-### Powering off in the DSi Menu and/or System Settings takes 5-10 seconds
+### Spegnere nel menu DSi e/o Impostazioni di sistema impiega 5-10 secondi
 
-The only solutions are starting the DSi Menu and/or System Settings with the SD card ejected, installing [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing), or uninstalling Unlaunch.
+Le uniche soluzioni sono l'avvio del menu DSi e/o impostazioni di sistema con la scheda SD tolta, l'installazione di [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) o la disinstallazione di Unlaunch.
 
 ### Dopo aver installato Unlaunch, sono bloccato all'avvio di un'applicazione o al menu di Unlaunch
 
-This was likely caused by choosing the wrong app for the `NO BUTTON` option in Unlaunch. Hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while starting the console, go to `OPTIONS`, and set `NO BUTTON` to whatever your preference is.
+La causa è probabilmente la scelta dell'app sbagliata per l'opzione `NO BUTTON` in Unlaunch. Tieni premuto <kbd class="face">A</kbd> + <kbd class="face">B</kbd> durante l'avvio della console, vai a `OPTIONS`, e imposta `NO BUTTON` come preferisci.
 
 ### Altri problemi con Unlaunch
 
-If Unlaunch displays `Clusters too large`, `Bad VBR`, `Bad MBR`, or doesn't display any applications while the SD card is inserted, your SD card likely wasn't formatted correctly. Re-follow [SD Card Setup](sd-card-setup.html).
+Se Unlaunch mostra `Clusters too large`, `Bad VBR`, `Bad MBR`, o non mostra alcuna applicazione mentre la scheda SD è inserita, probabilmente la scheda SD non è stata formattata correttamente. Risegui la [configurazione scheda SD](sd-card-setup.html).
 
 ## TWiLight Menu++
 
-For general TWiLight Menu++ troubleshooting, see its [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) page on the DS-Homebrew Wiki.
+Per la risoluzione generale dei problemi TWiLight Menu++, consulta la pagina [FAQ & Troubleshooting](https://wiki.ds-homebrew.com/twilightmenu/faq) su DS-Homebrew Wiki.
+
+## AKMenu-Next
+
+Per la risoluzione dei problemi di AKMenu-Next, consulta la [pagina di risoluzione ai problemi](https://coderkei.github.io/akmenu-next-docs/guides/troubleshooting) e le [domande frequenti](https://coderkei.github.io/akmenu-next-docs/guides/faq) sul loro sito di documentazione.
 
 ## Ulteriore assistenza
 
-If you have encountered an issue that is not solved here, or one that persists despite the given solutions, ask for assistance in the [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4) Discord server.
+Se hai incontrato un problema che non viene risolto qui, o che persiste nonostante le soluzioni fornite, chiedi assistenza nel server Discord [DS<sup>(i)</sup> Mode Hacking!](https://discord.gg/fCzqcWteC4).

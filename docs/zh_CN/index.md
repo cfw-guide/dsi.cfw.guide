@@ -22,7 +22,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 ## 自制程序（Homebrew）是什么 ？
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) applications are unlicensed software made for closed systems such as the Nintendo DSi. 这些软件涵盖实用工具到自制游戏。
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) applications are unlicensed software made for closed systems such as the Nintendo DSi. 这些软件涵盖实用工具到自制游戏。
 
 自制软件可以在所有 Nintendo DSi 机器上免费、自由地运行，与固件版本或区域无关。 您需要的只是一个入口点和一个SD卡来存储您的自制程序。 本指南中使用的主要入口点将称为 Memory Pit. 但如果 Memory Pit 不可用，您还可以使用其他入口点。
 

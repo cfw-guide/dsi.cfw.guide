@@ -8,6 +8,8 @@
 - Ya no podrás usar exploits antiguos, lo que es posible que necesites hacer si no puedes usar los exploits recomendados
 - La compatibilidad con flashcards se ve reducida. Instalar Unlaunch previene que esto ocurra
 
+The only exception is an Unlaunch installation on a DSi with System Version 1.4.2 – this version is currently unsupported by Safe Unlaunch Installer (due to a bug), and requires updating your DSi console to 1.4.5.
+
 ## ¿Cuál es el mejor exploit?
 
 Unlaunch suele ser la mejor opción. La única desventaja es que tiene un pequeño riesgo de bloqueo total al instalar. En general, se recomienda usar Memory Pit para instalar Unlaunch. Si quieres evitar riesgos, se recomienda usar Flipnote Lenny en su lugar, ya que tiene menos problemas con homebrew que Memory Pit mientras que es igual de seguro y fácil de desinstalar. Abo podrás ver una lista de ventajas y desventajas de cada exploit principal:
@@ -89,7 +91,7 @@ Si instalas Unlaunch o Flipnote Lenny, no se perderá ninguna funcionalidad. Si 
 
 Jugar ROMs volcadas en la consola requiere el uso de una flashcart o de nds-bootstrap, un programa que permite cargar juegos desde la tarjeta SD redirigiendo hacia esta las instrucciones de lectura/escritura originalmente dirigidas a la ranura Slot-1 de la consola.
 
-- Con TWiLight Menu++ puedes navegar por tu tarjeta SD para buscar ROMs que puedas ejecutar con nds-bootstrap. Las ventajas de usar TWiLight Menu++ son: tener un menú de trucos, configuraciones separadas para cada juego, y evitar las restricciones que conlleva utilizar redireccionadores. En otras palabras, puedes colocar ROMs directamente en tu tarjeta SD y jugar sin más configuraciones. No hay límite de 39 juegos por pantalla, no se requieren hiyaFCW o Unlaunch, y no hay restricciones en cuanto al tamaño disponible en la tarjeta SD
+- With TWiLight Menu++ & AKMenu-Next you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using these menus are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. En otras palabras, puedes colocar ROMs directamente en tu tarjeta SD y jugar sin más configuraciones. No hay límite de 39 juegos por pantalla, no se requieren hiyaFCW o Unlaunch, y no hay restricciones en cuanto al tamaño disponible en la tarjeta SD
 - hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Sólo se pueden tener 39 títulos en pantalla, y es menos conveniente hacerlos que usar TWiLight Menu++
   - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
 
@@ -99,6 +101,7 @@ Jugar ROMs volcadas en la consola requiere el uso de una flashcart o de nds-boot
   - You do **not** need to uninstall Unlaunch before doing this
 - **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **AKMenu-Next** - Follow the instructions on the [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5)
 - **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
   - Si usas TWiLight Menu++, es muy probable que la última versión de nds-bootstrap esté incluida en TWiLight Menu++
 - **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
@@ -112,7 +115,7 @@ Otras aplicaciones homebrew pueden usar otros métodos para actualizar.
 
 ## ¿Cómo elimino el control parental?
 
-- The [mkey generator](https://mkey.salthax.org) can generate the code required to remove parental controls
+- The [mkey generator](https://mkey.nintendohomebrew.com) can generate the code required to remove parental controls
 
 ## ¿Puedo cambiar la región de mi consola?
 
@@ -138,6 +141,7 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 - Cualquier capacidad de entre 1 GB y 2 TB funcionarán. 8 GB suele ser suficiente para el uso general
   - Algunas aplicaciones, como hiyaCFW, pueden ver tiempos de carga prolongados según la capacidad de la tarjeta utilizada
 - Se recomienda el uso de tarjetas de velocidad clase 8 o superior
+- Read the [Counterfeit MicroSD Cards Guide](https://www.flashcarts.net/microsd-fakes) to ensure you do not end up with a counterfeit SD/MicroSD card
 
 ## ¿Puedo usar la tarjeta SD de mi consola en otros sistemas?
 

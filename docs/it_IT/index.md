@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Guida DSi
+title: Guida agli hack per DSi
 hero:
-  text: Guida DSi
-  tagline: "La guida completa per moddare il tuo Nintendo DSi"
+  text: Guida agli hack per DSi
+  tagline: "La guida completa per modificare il Nintendo DSi"
   image:
     src: /assets/images/home-page-feature.png
 ---
@@ -22,7 +22,7 @@ Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di pros
 
 ## Cos'è l'homebrew?
 
-Le applicazioni [Homebrew](https://it.m.wikipedia.org/wiki/Homebrew_\(informatica\)) sono software senza licenza fatte per sistemi chiusi come il Nintendo DSi. Queste applicazioni possono variare da app utili a giochi homebrew personalizzati.
+Le applicazioni [Homebrew](https://it.m.wikipedia.org/wiki/Homebrew_(informatica)) sono software senza licenza fatte per sistemi chiusi come il Nintendo DSi. Queste applicazioni possono variare da app utili a giochi homebrew personalizzati.
 
 L'homebrew può essere eseguito gratuitamente su tutte le console Nintendo DSi, indipendentemente dalla versione del firmware o dalla regione. Tutto ciò di cui hai bisogno è un punto di ingresso e una scheda SD per memorizzare i tuoi homebrew. Il punto di entrata principale utilizzato in questa guida sarà chiamato Memory Pit, ma ce ne sono altri che si potrebbero utilizzare se Memory Pit è inutilizzabile.
 

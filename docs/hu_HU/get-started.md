@@ -8,18 +8,20 @@ Néhány homebrew eszköz letöltésével fogjuk kezdeni, hogy előkészüljünk
 - Egy alkalmazás, ami ki tud tömöríteni csomagolt állományokat, mint például a [7-Zip](https://www.7-zip.org/) (Windows), a [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS) vagy a [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
   - Azt tanácsoljuk, hogy ne használj WinRAR-t, mert ismert arról, hogy elront dolgokat
   - Ha Windows 11-et használsz javasoljuk, hogy ne használd a beépített csomagolót (Windows Explorer), mert hibát okoz azzal, hogy azt mondja a fájlnév túl hosszú vagy nem érvényes
+- Egy jó minőségű neves SD kártya (vagy neves MicroSD SD kártya adapterrel). **Ez fontos, mert kompatibilitási problémákba ütközhetsz és adatot veszthetsz, ha egy nem márkás vagy hamis SD kártyát használsz!** További információkért, [tekintsd meg azt a cikket](https://www.flashcarts.net/microsd-fakes) a hamis MicroSD kártyákról; az információ vonatkozik a teljes méretű kártyákra is.
 
 ## I. rész - Előkészületek
 
 ::: warning
 
-Biztosítsd, hogy az SD kártyád [megfelelően formázott](sd-card-setup.html) legyen.
+Biztosítsd, hogy az SD kártyád [megfelelően formázott legyen ezen útmutató alapján](sd-card-setup.html). Kompatibilitási problémákba ütközhetsz a homebrew-okkal, vagy egy SD kártyával rossz fájlrendszerrel, ha kihagyod ezt a lépést.
 
 :::
 
 1. Tedd be az SD kártyád a PC számítógépedbe
 2. Töltsd le a [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) legutolsó kiadását, mint `boot.nds`
 3. Másold a `boot.nds` fájlt az SD kártyád gyökerébe
+   - Legyél biztos abban, hogy `boot.nds` a neve, nem `boot (1).nds` vagy valami más név
 
 ::: tip
 
@@ -42,7 +44,7 @@ Ennek ellenőrzéséhez nyomd meg a <kbd class="face">POWER</kbd> gombot, és r�
 
 A Memory Pit egy exploit ami a DSi Camera-t használja és kompatibilis minden firmware verzióval.
 
-Az exploit használata Unlaunch telepítése nélkül kompatibilitási problémákat okozhat néhány homebrew-nál. Ha hibába futnál DSi homebrew-ok esetében, visszatérhetsz ehhez az útmutatóhoz és beállíthatsz egy [alternatív exploit-ot](alternate-exploits.html) helyette.
+Az exploit használata Unlaunch telepítése nélkül kompatibilitási problémákat okozhat néhány homebrew-nál. Ha hibába futnál DSi homebrew-ok és/vagy a kamera funkciókkal a DSi-Enchanced játékok esetében, visszatérhetsz ehhez az útmutatóhoz és beállíthatsz egy [alternatív exploit-ot](alternate-exploits.html) helyette.
 
 ::: tip
 

@@ -40,7 +40,6 @@ Si vous avez déjà téléchargé dumpTool dans une autre section de ce guide, v
 6. Stocker le dossier `DT######...` dans un endroit sûr, où vous ne le perdrez pas
    - Si possible, faites plusieurs sauvegardes sur différents périphériques de stockage
    - Une fois que vous l'avez sauvegardée ailleurs, vous pouvez la supprimer de la carte SD
-7. Si vous avez démarré dumpTool par un "exploit", et que vous avez été téléchargé depuis la page [Get Started](get-started.html), supprimez `boot.nds` de la racine de la carte SD
 
 ::: warning
 
@@ -50,6 +49,6 @@ Le hachage SHA1 de `nand.bin` ne correspondra pas à celui stocké dans `nand.bi
 
 ::: tip
 
-Continuez vers [Choisir un Menu](choosing-a-menu.html)
+Continue to [Choosing a Menu](choosing-a-menu.html)
 
 :::

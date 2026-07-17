@@ -31,8 +31,9 @@ Az Unlaunch nem kompatibilis a Nintendo DSi fejlesztői konzolokkal.
 ## I. rész - SD kártya telepítés
 
 1. Töltsd le a [Safe Unlaunch installer](https://github.com/edo9300/unlaunch-installer/releases/latest/download/unlaunch-installer.dsi) legutolsó verzióját
-2. Rakd az `unlaunch-installer.dsi`-t az SD kártyád gyökerébe
-3. Nevezd át az `unlaunch-installer.dsi`-t `boot.nds`-sé
+2. Töröld a `boot.nds` fájlt az SD kártyád gyökeréből
+3. Rakd az `unlaunch-installer.dsi`-t az SD kártyád gyökerébe
+4. Nevezd át az `unlaunch-installer.dsi`-t `boot.nds`-sé
 
 ## II. rész - A DSi rendszer verzió frissítése
 

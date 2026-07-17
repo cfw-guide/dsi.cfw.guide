@@ -55,7 +55,7 @@ const themeConfig = {
 			{
 				text: guide,
 				items: [
-					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`}, 
+					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`},
 					{ text: localeData.pages["launching-the-exploit"], link: `/${locale}/launching-the-exploit` },
 					{ text: localeData.pages["launching-the-browser-exploit"], link: `/${locale}/launching-the-browser-exploit` },
 					{ text: localeData.pages["launching-the-flipnote-exploit"], link: `/${locale}/launching-the-flipnote-exploit` },
@@ -70,7 +70,7 @@ const themeConfig = {
 			{
 				text: guide,
 				items: [
-					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`}, 
+					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`},
 					{ text: localeData.pages["launching-the-browser-exploit"], link: `/${locale}/launching-the-browser-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/${locale}/dumping-nand` },
 					{ text: localeData.pages["installing-unlaunch"], link: `/${locale}/installing-unlaunch` }
@@ -83,7 +83,7 @@ const themeConfig = {
 			{
 				text: guide,
 				items: [
-					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`}, 
+					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`},
 					{ text: localeData.pages["launching-the-flipnote-exploit"], link: `/${locale}/launching-the-flipnote-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/${locale}/dumping-nand` },
 					{ text: localeData.pages["installing-unlaunch"], link: `/${locale}/installing-unlaunch` }
@@ -96,7 +96,7 @@ const themeConfig = {
 			{
 				text: guide,
 				items: [
-					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`}, 
+					{ text: localeData.pages["get-started"], link: `/${locale}/get-started`},
 					{ text: localeData.pages["launching-the-exploit"], link: `/${locale}/launching-the-exploit` },
 					{ text: localeData.pages["dumping-nand"], link: `/${locale}/dumping-nand` },
 					{ text: localeData.pages["installing-unlaunch"], link: `/${locale}/installing-unlaunch` }
@@ -110,7 +110,7 @@ const themeConfig = {
 
 export default {
 	lang: "uk",
-	label: "українська мова",
+	label: "Українська",
     title: localeData.title,
     description: localeData.description,
 	themeConfig: themeConfig

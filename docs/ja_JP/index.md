@@ -1,5 +1,5 @@
 ---
-layout: ホーム
+layout: home
 title: DSi ガイド
 hero:
   text: DSi ガイド
@@ -22,7 +22,7 @@ hero:
 
 ## Homebrewとは何ですか？
 
-[Homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) アプリは、Nintendo DSi のようなクローズドシステム用に作られたライセンス不要のソフトウェアです。 これには、ユーティリティから自作ゲームまで様々なものがあります。
+[Homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) アプリは、Nintendo DSi のようなクローズドシステム用に作られたライセンス不要のソフトウェアです。 これには、ユーティリティから自作ゲームまで様々なものがあります。
 
 ファームウェアのバージョンや地域に関係なく、すべてのニンテンドーDSi機種で費用をかけずにHomebrewを実行できます。 必要なのは、改造に使うエントリポイントとHomebrewを保存するためのSDカードだけです。 このガイドで使用される主なエントリポイントは、Memory Pitと呼ばれます。もしMemory Pitが使用できない場合でも選択肢は他にもあります。
 

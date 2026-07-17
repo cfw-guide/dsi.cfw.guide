@@ -22,7 +22,7 @@ Dokładnie przeczytaj wszystkie strony wprowadzające (w tym też tą!) przed ko
 
 ## Czym jest homebrew?
 
-Aplikacje [homebrew](https://en.wikipedia.org/wiki/Homebrew_\(video_games\)) to nielicencjonowane oprogramowanie stworzone dla zamkniętych systemów takich jak Nintendo DSi. Aplikacje te mogą obejmować zarówno programy użytkowe, jak i niestandardowe gry homebrew.
+Aplikacje [homebrew](https://en.wikipedia.org/wiki/Homebrew_(video_games)) to nielicencjonowane oprogramowanie stworzone dla zamkniętych systemów takich jak Nintendo DSi. Aplikacje te mogą obejmować zarówno programy użytkowe, jak i niestandardowe gry homebrew.
 
 Homebrew można uruchomić za darmo na wszystkich konsolach Nintendo DSi, niezależnie od wersji firmware'u czy regionu. Wszystko, czego potrzebujesz, to exploit i karta SD do przechowywania twojego homebrew. Główny punkt wejścia użyty w tym poradniku nazywa się Memory Pit, ale istnieją inne punkty wejścia, których możesz użyć, jeśli Memory Pit jest dla ciebie bezużyteczny.
 

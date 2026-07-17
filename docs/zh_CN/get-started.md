@@ -8,18 +8,20 @@ We'll begin with downloading some homebrew tool(s), in preparation for the explo
 - An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
   - 我们不建议您使用WinRAR，因为它可能会损坏数据
   - 如果您正在使用 Windows 11，我们也建议您不要使用它的内置解压 (Windows资源管理器)， 它会导致一个错误，说文件名太长或无效
+- A good quality name-brand SD card (or name-brand MicroSD with SD adapter). **This is important as you may encounter compatibility issues and loss of data using an off-brand or counterfeit SD card!** For more information, [please see this article](https://www.flashcarts.net/microsd-fakes) on fake MicroSD cards, the information it has also applies to full size SD cards.
 
 ## 第一步 – 准备工作
 
 ::: warning
 
-Ensure your SD card is [formatted correctly](sd-card-setup.html).
+Ensure your SD card is [formatted correctly with this guide](sd-card-setup.html). You may encounter compatibility problems with homebrew or an SD Card with the wrong filesystem by skipping this step.
 
 :::
 
 1. 将您的 SD 卡插入计算机
 2. Download the latest release of [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) as `boot.nds`
 3. Copy the `boot.nds` file to the root of your SD card
+   - Make sure it is specifically named `boot.nds` instead of `boot (1).nds` or any other name
 
 ::: tip
 
@@ -42,7 +44,7 @@ To check, press the <kbd class="face">POWER</kbd> button and immediately hold th
 
 Memory Pit is an exploit utilizing the DSi Camera, compatible with all firmware versions.
 
-If using the exploit without installing Unlaunch, compatibility with some homebrews could be limited. If you encounter issues with DSi homebrews, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
+If using the exploit without installing Unlaunch, compatibility with some homebrews could be limited. If you encounter issues with DSi homebrews and/or the camera function in DSi-Enhanced games, you can return to this guide and set up an [alternate exploit](alternate-exploits.html) instead.
 
 ::: tip
 

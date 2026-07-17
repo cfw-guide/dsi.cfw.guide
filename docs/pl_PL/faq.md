@@ -8,6 +8,8 @@
 - Starsze exploit'y mogą już nie być zdatne do użytku, jeżeli nie jesteś w stanie użyć zalecanych exploit'ów
 - Kompatybilność z Flashcard'ami jest zmniejszona, jednak jest to obchodzone, jeśli zainstalujesz Unlaunch
 
+The only exception is an Unlaunch installation on a DSi with System Version 1.4.2 – this version is currently unsupported by Safe Unlaunch Installer (due to a bug), and requires updating your DSi console to 1.4.5.
+
 ## Jaki jest najlepszy exploit?
 
 Unlaunch jest ogółem najlepszym exploit'em dla DSi, z jedynym minusem, że jest mała szansa na awarię podczas instalacji. Ogółem jest zalecane, aby użyć Memory Pit do instalacji Unlaunch. Jeżeli chcesz ominąć jakiekolwiek ryzyko to zalecane jest użycie Flipnote Lenny, bo ma mniej problemów z homebrew niż Memory Pit, podczas gdy jest tak samo bezpieczne i proste do usunięcia. Poniżej jest lista plusów i minusów każdego exploit'a:
@@ -89,7 +91,7 @@ Jeśli zainstalujesz Unlaunch albo użyjesz Flipnote Lenny, nie stracisz żadnej
 
 Granie w zrzuty Kart Gier na konsoli wymaga użycia flashcard'a albo nds-bootstrap, programu, który pozwala na granie w gry z wewnętrzej karty SD poprzez przekierowanie odczytów i zapisów do Slot-1.
 
-- Z TWiLight Menu++ możesz nawigować po twojej karcie SD, aby znaleźć pliki ROM do uruchamiania poprzez nds-bootstrap. Zaletami używania TWiLight Menu++ jest menu oszustw, ustawienia na grę i unikanie restrykcji, które posiadają forwarder'y. Innymi słowy, możesz przenieść swoje pliki ROM bezpośrednio i grać bez żadnej konfiguracji. Nie ma limitu 39 tytułów ani hiyaCFW, ani Unlaunch nie są wymagane i nie ma restrykcji o wolnym miejscu na karcie SD, jakie możesz mieć
+- With TWiLight Menu++ & AKMenu-Next you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using these menus are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. Innymi słowy, możesz przenieść swoje pliki ROM bezpośrednio i grać bez żadnej konfiguracji. Nie ma limitu 39 tytułów ani hiyaCFW, ani Unlaunch nie są wymagane i nie ma restrykcji o wolnym miejscu na karcie SD, jakie możesz mieć
 - Użytkownicy hiyaCFW mogą tworzyć przekazywacze do DSi Menu SDNAND-u używając poradnika [Przekazywaczy DS Game](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) na Wiki DS-Homebrew, ale ma swoje limitacje. Jest twardy limit 39 tytułów, ale są mniej praktyczne do zrobienia niż używanie TWiLight Menu++
   - Użytkownicy hiyaCFW mogą tworzyć forwarder'y do DSi Menu SDNAND-u używając poradnika [Fowarder'ów DS Game](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) na Wiki DS-Homebrew, ale ma to swoje limitacje
 
@@ -99,6 +101,7 @@ Granie w zrzuty Kart Gier na konsoli wymaga użycia flashcard'a albo nds-bootstr
   - **Nie** potrzebujesz odinstalowywać Unlaunch przed robieniem tego
 - **hiyaCFW** - Zamień `hiya.dsi` na początku karty SD z [zaktualizowanego wydania](https://github.com/RocketRobz/hiyaCFW/releases)
 - **TWiLight Menu++** - Podążaj za instrukcjami na [Wiki DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **AKMenu-Next** - Follow the instructions on the [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5)
 - **nds-bootstrap** - Skopiuj `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` do folderu `_nds` na początku twojej karty SD
   - Jeżeli używasz TWiLight Menu++, to jest duża szansa, że masz najnowszą wersję nds-bootstrap zawartą z TWiLight Menu++
 - **GodMode9i, dumpTool, Forwarder3-DS, itp.** - Podążaj za instrukcjami używanymi do pobrania ich
@@ -112,7 +115,7 @@ Inne homebrew mogą używać inne metody aktualizacji.
 
 ## Jak mogę usunąć kontrolę rodzicielską?
 
-- [Generator mkey](https://mkey.salthax.org) może wygenerować kod wymagany do usunięcia kontroli rodzicielskiej
+- The [mkey generator](https://mkey.nintendohomebrew.com) can generate the code required to remove parental controls
 
 ## Czy mogę zmienić region mojego Nintendo DSi?
 
@@ -138,6 +141,7 @@ Aby zapobiec większej liczbie użytkowników przed napotykaniem tych problemów
 - Jakakolwiek wielkość pomiędzy 1 GB a 2 TB będzie działać. Dla ogólnego użytku, 8 GB jest wystarczające
   - Niektóre oprogramowanie, takie jak hitaCFW, może mieć o wiele dłuższy czas ładowania z kartami SD o większej pojemności
 - Klasa prędkości 8 lub większa jest zalecana
+- Read the [Counterfeit MicroSD Cards Guide](https://www.flashcarts.net/microsd-fakes) to ensure you do not end up with a counterfeit SD/MicroSD card
 
 ## Czy mogę użyć moją karte SD DSi na innych systemach?
 

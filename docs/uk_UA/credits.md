@@ -4,7 +4,7 @@
 
 Якщо вам сподобалося, що вони зробили, зробіть їм донат (якщо вони мають посилання на донат).
 
-- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.us/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
+- [NightScript](https://nightscript370.github.io/), [Pk11](https://pk11.sh/) & [Peter0x44](https://github.com/Peter0x44): Guide maintainers
 - [emiyl](https://emiyl.com/paypal): Domain holder
 - Halvorsen: Надали зображення їх Nintendo DSi для використання на головній сторінці
 - [shutterbug2000](https://paypal.me/projectkaeru): Discoverer & Developer of DSi Camera & Flipnote Studio exploits
@@ -12,7 +12,7 @@
 - [WinterMute](https://devkitpro.org/support-devkitpro): Maintainer of the DS Homebrew development toolchain & forked the ugopwn Flipnote Studio exploit to make Flipnote Lenny (supports all firmwares and regions)
 - [nocash](http://problemkaputt.de/donate.htm): Developer of Unlaunch
 - [RocketRobz](https://github.com/RocketRobz): Developer of TWiLight Menu++ & GodMode9i, and contributor to hiyaCFW
-- [Kei](https://github.com/coderkei): Developer of AKMenu-Next and writer of the AKMenu-Next installation steps from [Flashcart Guides](https://sanrax.github.io/flashcart-guides/tutorials/akmenu-next/#__tabbed_1_2)
+- [Kai](https://github.com/coderkei): Developer of AKMenu-Next and writer of the AKMenu-Next installation steps from [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_3)
 - [zoogie](https://github.com/zoogie): Developer of dumpTool & forked Memory Pit to support all regions and firmwares
 - [Plailect](https://github.com/Plailect): Made the original 3DS Modding Guide, which this took inspiration from
 

@@ -3,10 +3,13 @@
 1. Töltsd le a [`TWiLightMenu-DSi.7z`](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest/download/TWiLightMenu-DSi.7z) legutolsó verzióját
    - Ha nem tölt le, tekintsd meg a [release oldalt](https://github.com/DS-Homebrew/TWiLightMenu/releases/latest) és görgess le a `Assets`-ig a fájl letöltéséhez
 2. Csomagold a `TWiLightMenu-DSi.7z` fájlt
-3. Másold az `_nds` mappát az SD kártyád gyökerébe
-4. Másold a `BOOT.NDS` fájlt az SD kártyád gyökerébe
-   - Ha már van `BOOT.NDS` fájl az SD kárya gyökerében, írd felül amikor kérdezi
-5. Másold a `roms` mappát az SD kártyád gyökerébe
+   - Ha Windows-t használsz, kattints jobb gombbal a `TWiLightMenu-DSi.7z` fájlra, válaszd a `További lehetőségek megjelenítése' (Show more options) opciót (ha Win11-et használsz), menj `7-zip`felé, majd kattints az`Archívum megnyitása\` (Open archive) opcióra
+3. Ha az Unlaunxh nincs telepítve, töröld a `boot.nds` fájlt az SD kártyád gyökeréből
+4. A `TWiLightMenu-DSi`- ből másold a következő fájlokat/mappákat az SD kártyát gyökerébe:
+   - `_nds`
+   - `BOOT.NDS`
+   - `roms`
+   - Ha a hiyaCFW telepített, másold a `title` mappát is az SD kártyád gyökerébe
 
 ::: tip
 

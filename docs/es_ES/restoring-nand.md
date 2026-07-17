@@ -2,13 +2,13 @@
 
 ::: danger
 
-¡ADVERTENCIA! This is _**dangerous**_. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso!
+¡ADVERTENCIA! Esto es _**peligroso**_. Incluso siguiendo al pie de la letra estos pasos, existe la poslibilidad de bloquear al completo la consola, ya que la memoria NAND es de muy baja calidad, especialmente si la sobreescribes multiples veces. ¡Esto debería ser usado única y exclusivamente como último recurso!
 
 :::
 
 ::: tip
 
-Do not skip _anything_ on this page, any mistake greatly increases chance of bricking your DSi.
+No omita _nada_ en esta página, cualquier error aumenta en gran medida la posibilidad de brickear su DSi.
 
 :::
 
@@ -26,16 +26,16 @@ La única cosa que deberías hacer con tu NAND es instalar Unlaunch. De cualquie
 
 ## Requisitos
 
-- Your NAND backup **from the same DSi**
-- The latest release of [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
+- Tu copia de seguridad de la NAND **de la misma DSi**
+- La última versión de [SafeNANDManager](https://github.com/DS-Homebrew/SafeNANDManager/releases/latest/download/SafeNANDManager.nds)
 - Una forma de ejecutar homebrew con acceso a la NAND, como Unlaunch o Memory Pit.
-- [no$gba](https://problemkaputt.de/gba.htm), to check your NAND backup (Download the 'Windows gaming version')
-  - macOS and Linux users can use [WINE](https://winehq.org) to run no$gba
+- [no$gba](https://problemkaputt.de/gba.htm), para comprobar tu copia de seguridad de la NAND (Descarga la 'versión de juegos de Windows')
+  - los usuarios de macOS y Linux pueden usar [WINE](https://winehq.org) para ejecutar no$gba
 - [dsibiosdumper](https://melonds.kuribo64.net/downloads/dsibiosdumper.7z)
 
 ## Volcar la BIOS para su uso en no$gba
 
-1. Extract `dsibiosdumper.nds` from the `dsibiosdumper.zip` archive and place it anywhere on your SD card
+1. Extrae `dsibiosdumper.nds` del archivo `dsibiosdumper.zip` y colócalo en cualquier lugar de tu tarjeta SD
 2. Enciende tu consola manteniendo pulsado <kbd class="face">A</kbd> y <kbd class="face">B</kbd>.
    - Esto debería iniciar el sistema de archivos de Unlaunch.
 3. Ejecuta dsbiosdumper desde el sistema de archivos de Unlaunch.
@@ -46,15 +46,15 @@ La única cosa que deberías hacer con tu NAND es instalar Unlaunch. De cualquie
 
 Es muy importante asegurarse de que tu respaldo de la NAND funciona antes de intentar restaurarla. Si al probarla en no$gba resulta en un bloqueo total, es muy posible que pase lo mismo en tu consola.
 
-1. Extract `NO$GBA.EXE` from `no$gba-w.zip` to a folder on your computer
+1. Extrae `NO$GBA.EXE` de `no$gba-w.zip` a una carpeta en tu computadora
 2. Copy your NAND backup to the folder you put `NO$GBA.EXE` in and rename it to `DSI-1.MMC`
-3. Copy `bios7i.bin` and `bios9i.bin` to the folder you put `NO$GBA.EXE`, named `BIOSDSI7.ROM` and `BIOSDSI9.ROM`, respectively.
-4. Run `NO$GBA.EXE`
+3. Copia `bios7i.bin` y `bios9i.bin` a la carpeta que pones `NO$GBA.EXE`, llamada `BIOSDSI7.ROM` y `BIOSDSI9.ROM`, respectivamente.
+4. Ejecuta `NO$GBA.EXE`
 5. Click `Options` > `Emulation Setup` to open the Emulation Setup window
 6. Change `Reset/Startup Entrypoint` to `GBA/NDS BIOS (Nintendo logo)`
-7. Change `NDS Mode/Colors` to `DSi (retail/16MB)`
-8. Click `Save Now`
-9. Launch any Nintendo DS ROM (`.nds` file)
+7. Cambia `NDS Mode/Colors` a `DSi (retail/16MB)`
+8. Haz clic en `Guardar ahora`
+9. Ejecuta cualquier ROM de Nintendo DS (archivo `.nds`)
 
 Si no$gba carga el menú DSi (o el sistema de archivos de Unlaunch), continúa a la siguiente sección. If it shows any kind of error _**do not flash that backup**_!
 

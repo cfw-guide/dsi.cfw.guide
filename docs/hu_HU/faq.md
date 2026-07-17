@@ -8,6 +8,8 @@
 - A régi exploitok már nem használhatók, amik szükségesek lehetnek, ha nem tudod használni az ajánlott exploitokat
 - A flashcard kompatibilitás csökkentett, azonban ez megkerült, ha telepíted az Unlaunch-öt
 
+Az egyetlen kivétel az Unlaunch telepítés egy DSi rendszeren, ahol a System Version 1.4.2 – ez a verzió jelenleg mem támogatott a Safe Unlaunch Installer által (egy hiba miatt), és igényli a DSi konzolod frissítését 1.4.5-re.
+
 ## Melyik a legjobb exploit?
 
 Az Unlaunch a legjobb exploit a DSi-hez, az egyetlen hátránya, hogy van egy kicsi kockázata a brickelésnek a telepítéskor. Általában ajánlott, hogy a Mamory Pit-et használd az Unlaunch telepítéséhez. Ha szeretnél elkerülni bármilyen kockázatot, akkor ajánlott a Flipnote Lenny használata helyette, mert kevesebb homebrew problémája van mint a Memory Pit-nek, miközben ugyanannyira biztonságos és egyszerű eltávolítani. Alább az előnyök és hátrányok listája minden exploithoz:
@@ -90,7 +92,7 @@ bootoljon be rá az nds-bootstrap használatával.
 
 A játék kártya dump játékok használatához a konzolnak szüksége van flashcard-ra vagy nds-bootstrap-re, egy programra, ami lehetővé teszi, hogy a belső SD kártyáról játszhatók legyenek a játékok a Slot-1 írás és olvasás átirányításával.
 
-- A TWiLight Menu++-szal navigálhatsz az SD kártyádon, hogy megtaláld a ROM fájlokat, amiket nds-bootstrap-pel játszhatsz. A TWiLight Menu++ használatának előnye a csalás menü, a játékonkénti beállítások és hogy megkerüli a korlátozásokat, amikkel a forwarder-ek rendelkeznek. Más szavakkal, csak felmásolod a ROM fájlokat és játszhatsz velük bármilyen telepítés nélkül. Nincs 39 cím limit, sem hiyaCFW, sem Unlaunch nem szükséges és nincs korlátozás az SD kártya szabad tárhelyével kapcsolatosan sem
+- A TWiLight Menu++-szal & AKMenu-Next-tel navigálhatsz az SD kártyádon, hogy megtaláld a ROM fájlokat, amiket nds-bootstrap-pel játszhatsz. Ezen menük használatának előnye a csalás menü, a játékonkénti beállítások és hogy megkerüli a korlátozásokat, amikkel a forwarder-ek rendelkeznek. Más szavakkal, csak felmásolod a ROM fájlokat és játszhatsz velük bármilyen telepítés nélkül. Nincs 39 cím limit, sem hiyaCFW, sem Unlaunch nem szükséges és nincs korlátozás az SD kártya szabad tárhelyével kapcsolatosan sem
 - A hiyaCFW felhasználók létrehozhatnak forwarder-eket az SDNAND DSi Menu-be a [DS játék forwarder-ek](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) útmutató használatával, de vannak korlátozások. Van egy 39 címes limit és kevésbé kényelmes beállítani, mint használni a TWiLight Menu++-t
   - Ha nincs hiyaCFW-d és szeretnél forwarder-eket használni, kövesd a [hiyaCFW telepítési útmutatót](https://wiki.ds-homebrew.com/hiyacfw/installing) a DS-Homebrew Wiki-n
 
@@ -100,6 +102,7 @@ A játék kártya dump játékok használatához a konzolnak szüksége van flas
   - **Nem** kell eltávolítanod az Unlaunch-öt mielőtt ezt csinálod
 - **hiyaCFW** - Cseréld a `hiya.dsi`-t az SD kártyád gyökerében a [legfrissebb kiadásból](https://github.com/RocketRobz/hiyaCFW/releases)
 - \*\*TWiLight Menu++ - Kövesd a [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi) lépéseit
+- **AKMenu-Next** - Kövesd az [AKMenu-Next dokumentáció](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5) lépéseit
 - \*\*nds-bootstrap - Másold az `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` fájlokat az `_nds` mappába, az SD kártyád gyökerében
   - Ha használsz TWiLight Menu++-t, erős rá az esély, hogy a legfrissebb nds-bootstrap kiadás is megtalálható a TWiLight Menu++-ban
 - **GodMode9i, dumpTool, Forwarder3-DS, stb.** - Kövesd azokat az útmutatókat ami alapján letöltötted őket
@@ -113,7 +116,7 @@ Más homebrew-ok elképzelhető, hogy más metódust használnak a frissítésre
 
 ## Hogyan tudom eltávolítani a szülői felügyeletet?
 
-- Az [mkey generátor](https://mkey.salthax.org) tud generálni olyan kódot, amivel eltávolítható a szülői felügyelet
+- Az [mkey generátor](https://mkey.nintendohomebrew.com) tud generálni olyan kódot, amivel eltávolítható a szülői felügyelet
 
 ## Meg tudom változtatni a Nintendo DSi konzolom régióját?
 
@@ -139,6 +142,7 @@ Azért, hogy megóvjuk a felhasználókat ezektől a problémáktól, már nem j
 - Bármilyen méret 1 GB és 2 TB között működni fog. Általános használatra 8 GB elég
   - Néhány szoftver, mint például a hiyaCFW, hosszabb töltési idővel rendelkezhet nagyobb SD kártya kapacitás esetén
 - 8-as sebesség osztályú vagy gyorsabb ajánlott
+- Olvasd el a [Hamis MicroSD kártyák útmutató](https://www.flashcarts.net/microsd-fakes) hogy ne egy hamis SD/MicroSD kártyát vegyél
 
 ## Használhatom a DSi SD kártyámat más rendszereken is?
 

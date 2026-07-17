@@ -4,8 +4,14 @@ import el_GR from './el_GR'
 import es_ES from './es_ES'
 import fr_FR from './fr_FR'
 import hu_HU from './hu_HU'
+import id_ID from './id_ID'
 import it_IT from './it_IT'
 import ja_JP from './ja_JP'
+import ko_KR from './ko_KR'
+import pl_PL from './pl_PL'
+import pt_BR from './pt_BR'
 import uk_UA from './uk_UA'
+import zh_CN from './zh_CN'
+import zh_TW from './zh_TW'
 
-export { en_US, de_DE, el_GR, es_ES, fr_FR, hu_HU, it_IT, ja_JP, uk_UA }
+export { en_US, de_DE, el_GR, es_ES, fr_FR, hu_HU, id_ID, it_IT, ja_JP, ko_KR, pl_PL, pt_BR, uk_UA, zh_CN, zh_TW }
