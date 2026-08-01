@@ -50,7 +50,7 @@ Questa è una versione aggiornata del menu originale delle flashcard Wood/akmenu
 
 - Il menu più veloce e leggero disponibile.
 - Non mancano funzionalità dal menu (es. menu START e menu di informazioni grafiche/impostazioni) rispetto a Wood IU di TWLMenu++.
-- Personalizzabile installando temi personalizzati realizzati dagli utenti che siano compatibili con Wood R4 & AKAIO.
+- Personalizzabile installando temi personalizzati realizzati dagli utenti che siano compatibili con Wood R4 e AKAIO.
 - I giochi delle vecchie console, GBA incluso, possono essere avviati [installando un plugin.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - Può essere installato assieme a hiyaCFW.
 

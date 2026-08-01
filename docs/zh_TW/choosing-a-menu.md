@@ -50,7 +50,7 @@
 
 - 最快及最輕的選單。
 - 與 TWLMenu++ 的 Wood 使用者介面相比，選單中沒有缺少任何功能（例如：開始選單、圖形資訊/設定選單）。
-- Customizeable by installing user-made custom themes compatible with Wood R4 & AKAIO.
+- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO.
 - Games from older consoles including GBA can be launched by [installing a plugin.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - 可以與 hiyaCFW 一起安裝。
 

@@ -50,7 +50,7 @@ NAND アクセスを SD カードにリダイレクトすることで、シス�
 
 - 最速かつ最も軽量なメニューです。
 - TWiLight Menu++のWood UIと比較した場合、メニューから機能(例:スタートメニューとグラフィカル情報/設定メニュー)が欠落することはありません。
-- Customizeable by installing user-made custom themes compatible with Wood R4 & AKAIO.
+- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO.
 - Games from older consoles including GBA can be launched by [installing a plugin.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - hiyaCFWと一緒にインストールすることができます。
 
