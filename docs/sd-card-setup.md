@@ -20,6 +20,12 @@ It is **not** recommended to use the built in default Windows Formatting utility
 
 :::
 
+::: tip
+
+Your antivirus software may detect this application as a virus. It is a false positive, as the application is safe to use.
+
+:::
+
 1. Download the latest version of [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe)
 1. Run the `sdFormatWindows` application (the `.exe` file) from the location you downloaded it to, adminstrator privileges are required
 1. Select your SD card drive
