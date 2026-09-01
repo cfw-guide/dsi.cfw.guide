@@ -67,12 +67,13 @@ Unlaunch が既にインストールされていて、Unlaunch を更新また�
    - バッテリーLEDが赤色の場合、コンソールを充電するように教えてくれます。 充電コードを接続後に`Yes`を選択してください
 4. デフォルトの背景を変更したい場合は、 `[Custom background]` を選択し、 <kbd class="face">A</kbd> を押して使用する背景を選択してください
    - 3 つのカスタム背景が含まれていますが、SD カードのルートにある `backgrounds` というフォルダーにさらに追加できます (フォルダーが存在しない場合は作成してください)
-5. DSiスプラッシュ(「健康と安全のために」の画面)とサウンドの両方をDSiシステムメニューに保持したい場合は、‘`Enable sound and splash`を選択し、 <kbd class="face">A</kbd> を押してオンにしてください
-6. Unlaunchがすでにインストールされている場合は、`Uninstall unlaunch` または `Restore launcher tmd` を選択し、完了したら <kbd class="face">A</kbd> を押してください
+5. If you want to disable the DSi menu music, select `Disable DSi menu sound` and press <kbd class="face">A</kbd> to turn it off
+6. If you want to disable the DSi splash (with health and safety message), select `Disable DSi menu H&S` and press <kbd class="face">A</kbd> to turn it off
+7. Unlaunchがすでにインストールされている場合は、`Uninstall unlaunch` または `Restore launcher tmd` を選択し、完了したら <kbd class="face">A</kbd> を押してください
    - Unlaunchを**アンインストール**したいだけの場合は、ここで終わりにしてください
-7. `Install unlaunch`を選択し、<kbd class="face">A</kbd>を押してください
-8. インストールが完了したら、 <kbd class="face">A</kbd> ボタンを押してください
-9. <kbd class="face">POWER</kbd> を押してシステムを再起動してください
+8. `Install unlaunch`を選択し、<kbd class="face">A</kbd>を押してください
+9. インストールが完了したら、 <kbd class="face">A</kbd> ボタンを押してください
+10. <kbd class="face">POWER</kbd> を押してシステムを再起動してください
 
 この時点でUnlaunchのファイルメニューが表示されていれば、DSiの改造に成功しました。
 

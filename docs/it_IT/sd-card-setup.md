@@ -20,6 +20,12 @@ Usare gli strumenti di formattazione integrati in Windows **non** è consigliato
 
 :::
 
+::: tip
+
+L'antivirus potrebbe rivelare il programma come virus. È un falso positivo, in quanto l'app è sicura da usare.
+
+:::
+
 1. Scarica la versione più recente di [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe)
 2. Esegui `sdFormatWindows` (il file `.exe`) da dove l'hai scaricato, dandogli i permessi di amministratore
 3. Seleziona la tua scheda SD

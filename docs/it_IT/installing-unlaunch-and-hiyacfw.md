@@ -68,11 +68,12 @@ Se Unlaunch è già installato, salta alla Sezione IV
    - Se il LED della batteria è rosso, dirà di mettere in carica la console. Seleziona `Yes` per continuare dopo averlo messo in carica
 3. Se vuoi modificare lo sfondo predefinito, seleziona `[Custom background]` e premi <kbd class="face">A</kbd> per selezionare quello che desideri utilizzare
    - Sono inclusi tre sfondi personalizzati, ma puoi aggiungerne di più in una cartella chiamata `backgrounds` nella root della scheda SD (crea la cartella se non esiste)
-4. Se vuoi mantenere sia lo splash del DSi (col messaggio di salute e sicurezza) che il suono nel menu del sistema DSi, seleziona `Enable sound and splash` e premi <kbd class="face">A</kbd> per attivarlo
-5. Se Unlaunch è già installato, seleziona l'opzione `Uninstall unlaunch` o `Restore launcher tmd` e premi <kbd class="face">A</kbd> una volta terminato
-6. Seleziona l'opzione `Install unlaunch` e premi il pulsante <kbd class="face">A</kbd>
-7. Premi il pulsante <kbd class="face">A</kbd> una volta completata l'installazione
-8. Premi <kbd class="face">POWER</kbd> per riavviare il sistema
+4. Per disabilitare la musica del menu DSi, seleziona `Disable DSi menu sound` e premi <kbd class="face">A</kbd> per confermare
+5. Per disabilitare l'immagine d'avvio (e la schermata di salute e sicurezza), seleziona `Disable DSi menu H&S` e premi <kbd class="face">A</kbd> per confermare
+6. Se Unlaunch è già installato, seleziona l'opzione `Uninstall unlaunch` o `Restore launcher tmd` e premi <kbd class="face">A</kbd> una volta terminato
+7. Seleziona l'opzione `Install unlaunch` e premi il pulsante <kbd class="face">A</kbd>
+8. Premi il pulsante <kbd class="face">A</kbd> una volta completata l'installazione
+9. Premi <kbd class="face">POWER</kbd> per riavviare il sistema
 
 Se vedi la schermata del menu di Unlaunch a questo punto, significa che hai modificato con successo il tuo Nintendo DSi.
 

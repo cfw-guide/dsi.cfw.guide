@@ -68,11 +68,12 @@ Ha az Unlaunch már telepített, ugorj a IV. részre
    - Ha az elem LED piros, akkor azt mondja neked, hogy dugd be a konzolt. Válassz `Yes`-t a folytatáshoz, miután bedugtad
 3. Ha szeretnéd cserélni az Unlaunch hátterét, válaszd a `[Custom background]` opciót és nyomj <kbd class="face">A</kbd> gombot neked tetsző használatához
    - Három egyedi háttér található a csomagban, de továbbiakat is hozzáadhatsz az SD kártya gyökérkönyvtárában található `backgrounds` mappába (ha a mappa még nem létezik, hozd létre)
-4. Ha szretnéd megtartani a DSi kezdőképernyőt (az egészségügyi üzenettel) és a hangját a DSi rendszer menünek, válaszd az `Enable sound and splash` opciót ás nyomj <kbd class="face">A</kbd> gombot a bekapcsolásához
-5. Ha az Unlaunch már telepített, válaszd az `Uninstall unlaunch` vagy a `Restore launcher tmd` opciót és nyomj <kbd class="face">A</kbd> gombot, ha kész
-6. Válaszd az `Install unlaunch` opciót és nyomj <kbd class="face">A</kbd> gombot
-7. Nyomj <kbd class="face">A</kbd> gombot, ha a telepítés kész
-8. Nyomj <kbd class="face">POWER</kbd> gombot a rendszered újraindításához
+4. Ha szeretnéd kikapcsolni a DSi menü zenét, válaszd a `Disable DSi menu sound` opciót és nyomjd <kbd class="face">A</kbd> gombot a kikapcsolásához
+5. Ha szeretnéd kikapcsolni a DSi kezdőképernyőt (az egészségügyi üzenettel), válaszd a `Disable DSi menu H&S` opciót és nyomj <kbd class="face">A</kbd> gombot a kikapcsolásához
+6. Ha az Unlaunch már telepített, válaszd az `Uninstall unlaunch` vagy a `Restore launcher tmd` opciót és nyomj <kbd class="face">A</kbd> gombot, ha kész
+7. Válaszd az `Install unlaunch` opciót és nyomj <kbd class="face">A</kbd> gombot
+8. Nyomj <kbd class="face">A</kbd> gombot, ha a telepítés kész
+9. Nyomj <kbd class="face">POWER</kbd> gombot a rendszered újraindításához
 
 Ha az Unlaunch Filemenu képernyőt látod ezen a ponton, akkor sikeresen moddoltad a Nintendo DSi-det.
 

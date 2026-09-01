@@ -20,6 +20,12 @@ Legyél biztos abban, hogy lementetted az SD kártyád tartalmát MIELŐTT köve
 
 :::
 
+::: tip
+
+A víruskereső szoftvered lehet, hogy vírusként jelzi ezt az alkalmazást. Ez hamis pozitív, az alkalmazás használata biztonságos.
+
+:::
+
 1. Töltsd le az [sdFormatWindows](https://github.com/flashcarts/sdFormatWindows/releases/latest/download/sdFormatWindows.exe) legutolsó verzióját
 2. Futtasd az `sdFormatWindows` -ot (az `.exe` fájlt) a letöltési helyén, adminisztrátori joggal ha szükséges
 3. Válaszd ki az SD kártya meghajtód
