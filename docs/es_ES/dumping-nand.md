@@ -28,8 +28,8 @@ Si ya has descargado dumpTool desde otra sección de esta guía, puedes saltarte
 ## Seccion II - Volcar la NAND
 
 1. Ejecuta `dumpTool` a través del menú que has instalado
-   - If you've used an exploit to launch it, and you're already in dumpTool, ignore this step
-   - If Unlaunch is already installed and you we're directed to this page from the [Get Started](get-started.html#section-ii-checking-if-unlaunch-is-already-installed) page, hold <kbd class="face">A</kbd> + <kbd class="face">B</kbd> while booting
+   - Si has usado un exploit para iniciarlo y ya estás dentro de dumpTool, ignora este paso.
+   - Si ya has instalado Unlaunch y has llegado a esta página desde [Empezando el proceso](get-started.html#section-ii-checking-if-unlaunch-is-already-installed), mantén pulsados <kbd class="face">A</kbd> + <kbd class="face">B</kbd> mientras arrancas la consola.
 2. Presiona el botón <kbd class="face">A</kbd> de la Nintendo DSi para empazar a volcar la NAND
    - Hacer un respaldo de la NAND usualmente toma al rededor de 7 minutos
 3. Cuando el respaldo esté completo, presiona el botón <kbd>START</kbd> de tu consola para salir de dumpTool
@@ -49,6 +49,6 @@ El hash SHA1 del `nand.bin` no coincidirá el hash almacenado en `nand.bin.sha1`
 
 ::: tip
 
-Continue to [Choosing a Menu](choosing-a-menu.html)
+Continúa a [Elegir un menú](choosing-a-menu.html)
 
 :::

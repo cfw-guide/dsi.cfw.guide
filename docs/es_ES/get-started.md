@@ -1,27 +1,27 @@
 # Empezando el proceso
 
-We'll begin with downloading some homebrew tool(s), in preparation for the exploit steps.
+Empezaremos descargando una serie de herramientas homebrew a modo de preparación para lanzar un exploit.
 
 ## Requisitos
 
 - Una forma de copiar archivos a tu tarjeta SD
-- An application that can extract archives, such as [7-Zip](https://www.7-zip.org/) (Windows), [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (macOS), or [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (Chromebook)
+- Una aplicación que pueda extraer archivos comprimidos, como [7-Zip](https://www.7-zip.org/) (para Windows), <[The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353) (para macOS) o [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) (para Chromebook)
   - Se recomienda evitar el uso de WinRAR, ya que usualmente arruina el proceso
   - Si estás usando Windows 11, evitar también usar el extractor incorporado en el sistema (Explorador de archivos), ya que causa un error referente al nombre del archivo siendo inválido o muy grande
-- A good quality name-brand SD card (or name-brand MicroSD with SD adapter). **This is important as you may encounter compatibility issues and loss of data using an off-brand or counterfeit SD card!** For more information, [please see this article](https://www.flashcarts.net/microsd-fakes) on fake MicroSD cards, the information it has also applies to full size SD cards.
+- Una tarjeta SD de marca buena (o una microSD de marca buena con un adaptador a SD). **¡Es muy importante que sea de calidad, si utilizas una tarjeta SD de marca genérica o falsificada, podrías tener problemas de compatibilidad y pérdida de datos!** Para más información, [lee este artículo](https://www.flashcarts.net/microsd-fakes) sobre las tarjetas MicroSD falsas. Su información también se aplica a las tarjetas SD.
 
 ## Sección I - Preparación
 
 ::: warning
 
-Ensure your SD card is [formatted correctly with this guide](sd-card-setup.html). You may encounter compatibility problems with homebrew or an SD Card with the wrong filesystem by skipping this step.
+Comprueba que tu tarjeta SD [esté formateada correctamente siguiendo esta guía](sd-card-setup.html). Si omites este paso, podrías tener problemas de compatibilidad con aplicaciones homebrew o que tu tarjeta SD tenga el sistema de archivos que no corresponde.
 
 :::
 
 1. Inserta tu tarjeta SD en tu ordenador
-2. Download the latest release of [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) as `boot.nds`
-3. Copy the `boot.nds` file to the root of your SD card
-   - Make sure it is specifically named `boot.nds` instead of `boot (1).nds` or any other name
+2. Descarga la última versión de [dumpTool](https://dsi.cfw.guide/assets/files/dumptool/boot.nds) con el nombre `boot.nds`.
+3. Copia el archivo `boot.nds` a la raíz de tu tarjeta SD.
+   - Asegúrate de que tiene exactamente el nombre `boot.nds` y no `boot (1).nds`o cualquier otro nombre.
 
 ::: tip
 
@@ -29,7 +29,7 @@ Si no sabes qué carpeta es la carpeta raíz, echa un vistazo a [Ver esta imagen
 
 :::
 
-## Section II - Checking if Unlaunch is already installed
+## Sección II - Comprobar que Unlaunch ya esté instalado
 
 Unlaunch is a bootcode exploit which gets installed onto the DSi console itself, allowing full control of the console on boot, and as a result, allows homebrew applications full access to the hardware without restrictions from DSi system apps or DSiWare titles.
 

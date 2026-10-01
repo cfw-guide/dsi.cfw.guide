@@ -8,7 +8,7 @@
 - Ya no podrás usar exploits antiguos, lo que es posible que necesites hacer si no puedes usar los exploits recomendados
 - La compatibilidad con flashcards se ve reducida. Instalar Unlaunch previene que esto ocurra
 
-The only exception is an Unlaunch installation on a DSi with System Version 1.4.2 – this version is currently unsupported by Safe Unlaunch Installer (due to a bug), and requires updating your DSi console to 1.4.5.
+La única excepción es si quieres instalar Unlaunch en una DSi con la versión 1.4.2 del sistema: ahora mismo no es compatible con el Safe Unlaunch Installer (por un fallo) y será necesario que actualices tu DSi a la versión 1.4.5.
 
 ## ¿Cuál es el mejor exploit?
 
@@ -91,31 +91,31 @@ Si instalas Unlaunch o Flipnote Lenny, no se perderá ninguna funcionalidad. Si 
 
 Jugar ROMs volcadas en la consola requiere el uso de una flashcart o de nds-bootstrap, un programa que permite cargar juegos desde la tarjeta SD redirigiendo hacia esta las instrucciones de lectura/escritura originalmente dirigidas a la ranura Slot-1 de la consola.
 
-- With TWiLight Menu++ & AKMenu-Next you can navigate your SD card to find ROM files to play with nds-bootstrap. The advantages to using these menus are having a cheat menu, per-game settings, and avoiding the restrictions that forwarders bring. En otras palabras, puedes colocar ROMs directamente en tu tarjeta SD y jugar sin más configuraciones. No hay límite de 39 juegos por pantalla, no se requieren hiyaFCW o Unlaunch, y no hay restricciones en cuanto al tamaño disponible en la tarjeta SD
-- hiyaCFW users can create forwarders for the SDNAND's DSi Menu using the [DS Game Forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) guide on the DS-Homebrew Wiki, but it has some limitations. Sólo se pueden tener 39 títulos en pantalla, y es menos conveniente hacerlos que usar TWiLight Menu++
-  - If you do not have hiyaCFW and would like to use forwarders, you can follow the [hiyaCFW installation guide](https://wiki.ds-homebrew.com/hiyacfw/installing) on the DS-Homebrew Wiki
+- Con TWiLight Menu++ y AKMenu-Next puedes navegar por tu tarjeta SD para buscar ROMs que puedas ejecutar con nds-bootstrap. Las ventajas de usar estos menús son: tener un menú de trucos, configuraciones separadas para cada juego y evitar las restricciones que conlleva utilizar redireccionadores. En otras palabras, puedes colocar ROMs directamente en tu tarjeta SD y jugar sin más configuraciones. No hay límite de 39 juegos por pantalla, no se requieren hiyaFCW o Unlaunch, y no hay restricciones en cuanto al tamaño disponible en la tarjeta SD
+- Los usuarios de hiyaCFW pueden crear redireccionadores para el menú DSi de la SDNAND usando la guía para [Redireccionadores para juegos de DS](https://wiki.ds-homebrew.com/ds-index/forwarders?tab=tab-dsi-sd-card) en la wiki de DS-Homebrew, pero esto tiene algunas limitaciones. Sólo se pueden tener 39 títulos en pantalla, y es menos conveniente hacerlos que usar TWiLight Menu++
+  - Si no tienes instalado hiyaCFW y te gustaría usar redireccionadores, puedes seguir la [guía de instalación de hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) en la wiki de DS-Homebrew.
 
 ## ¿Como actualizo mis aplicaciones homebrew?
 
-- **Unlaunch** - Follow the instructions on the [Installing Unlaunch](installing-unlaunch.html) page
-  - You do **not** need to uninstall Unlaunch before doing this
-- **hiyaCFW** - Replace `hiya.dsi` on the root of the SD card from the [updated release](https://github.com/RocketRobz/hiyaCFW/releases)
-- **TWiLight Menu++** - Follow the instructions on the [DS-Homebrew Wiki](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
-- **AKMenu-Next** - Follow the instructions on the [AKMenu-Next Documentation](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5)
-- **nds-bootstrap** - Copy `nds-bootstrap-hb-release.nds` & `nds-bootstrap-release.nds` to the `_nds` folder on the root of your SD card
+- **Unlaunch** - Sigue las instrucciones de la página [Instalando Unlaunch](installing-unlaunch.html)
+  - **NO ES NECESARIO** desinstalar Unlaunch primero
+- **hiyaCFW** - Reemplaza el archivo `hiya.dsi` de la raíz de la tarjeta SD con la [versión más actualizada](https://github.com/RocketRobz/hiyaCFW/releases).
+- **TWiLight Menu++** - Sigue las instrucciones de la [wiki de DS-Homebrew](https://wiki.ds-homebrew.com/twilightmenu/updating-dsi)
+- **AKMenu-Next** - Sigue las instrucciones de la [documentación de AKMenu-Next](https://coderkei.github.io/akmenu-next-docs/guides/akmenu-next/#__tabbed_1_5)
+- **nds-bootstrap** - Copia los archivos `nds-bootstrap-hb-release.nds` y `nds-bootstrap-release.nds` a la carpeta `_nds` en la raíz de tu tarjeta SD
   - Si usas TWiLight Menu++, es muy probable que la última versión de nds-bootstrap esté incluida en TWiLight Menu++
-- **GodMode9i, dumpTool, Forwarder3-DS, etc** - Follow the instructions used to download them
+- **GodMode9i, dumpTool, Forwarder3-DS, etcétera** - Sigue las instrucciones usadas para descargarlos
 
 Otras aplicaciones homebrew pueden usar otros métodos para actualizar.
 
 ## Soy nuevo o me gustaría rehacer mi configuración. ¿Por dónde empiezo?
 
 - Si todavía no has modificado tu consola o quieres actualizar Unlaunch en tu sistema, recomendamos empezar por el inicio de esta guía y continuar con las páginas siguientes. Asegúrate de leer todo en la página de inicio
-- If you have the latest version Unlaunch, follow the [TWiLight Menu++ install guide](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) to set up TWiLight Menu++ on your system
+- Si tienes la versión más reciente de Unlaunch, sigue la [guía de instalación de TWiLight Menu++](https://wiki.ds-homebrew.com/twilightmenu/installing-dsi) para instalar TWiLight Menu++ en tu sistema
 
 ## ¿Cómo elimino el control parental?
 
-- The [mkey generator](https://mkey.nintendohomebrew.com) can generate the code required to remove parental controls
+- El [generador de mkey](https://mkey.nintendohomebrew.com) puede generar el código que necesitas para eliminar el control parental
 
 ## ¿Puedo cambiar la región de mi consola?
 
@@ -123,14 +123,14 @@ Sí, hay distintos métodos para hacerlo, dependiendo de lo que quieras cambiar:
 
 - El método más simple y seguro es instalar TWiLight Menu++, te permite usar cualquier lenguaje oficial y aún más sin requerir modificaciones de la NAND
 - Si quieres cambiar la región del sistema y estás usando hiyaCFW, abre el menú de configuración y cambia la configuración de región (no es posible con NANDs de las regiones de China y Corea)
-  - If this breaks touch input, revert the region setting back to the original, and you can instead use Yoti's [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) for Asian DSi systems. For American DSi systems use [this version of hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/)
-- Lastly, if you want to change the region on the actual system NAND, you can use Mighty Max's [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/)
+  - Si al hacerlo deja de funcionar la pantalla táctil, vuelve a poner el valor original de la región y, en su lugar, utiliza el parcheador [hiyalang](https://github.com/Yoti/cli_hiyalang/releases) de Yoti en consolas DSi asiáticas. Para consolas DSi americanas, puedes utilizar [esta versión de hiyalang](https://github.com/Simonsator/cli_hiyalang/releases/).
+- Por último, si quieres cambiar la región en la propia NAND del sistema, puedes utilizar [DSi Language Patcher](https://gbatemp.net/threads/release-dsi-language-patcher.582836/) de Mighty Max.
 
 ## ¿Qué pasó con Lazy DSi Downloader? ¿Cómo instalo homebrew sin usarlo?
 
 Lazy DSi Downloader era un programa que, esencialmente, te permitía saltar el proceso de instalación manual, ya que descargaba e instalaba los archivos necesarios en tu tarjeta SD. Sin embargo, por como fue programado y distribuido, muchos usuarios encontraban problemas varios y terminaban teniendo que instalar homebrew de forma manual, ya que eras más rápido y/o sencillo que resolver lo que fuese que estuviese causando el problema.
 
-To avoid more users encountering these issues, we no longer recommend using Lazy DSi Downloader, and instead [doing the manual setup](get-started.html) is the recommended way to go.
+Hemos dejado de recomendar el uso de Lazy DSi Downloader para evitar que otros usuarios tengan estos problemas y ahora recomendamos [la instalación manual](get-started.html).
 
 - Si llegaste a esta página por un tercero que recomendaba usar Lazy DSi Downloader, las instrucciones que estabas siguiendo estaban desactualizadas. Por favor, usa esta guía, ya que es mantenida constantemente por los desarrolladores de estos proyectos.
 
@@ -141,7 +141,7 @@ To avoid more users encountering these issues, we no longer recommend using Lazy
 - Cualquier capacidad de entre 1 GB y 2 TB funcionarán. 8 GB suele ser suficiente para el uso general
   - Algunas aplicaciones, como hiyaCFW, pueden ver tiempos de carga prolongados según la capacidad de la tarjeta utilizada
 - Se recomienda el uso de tarjetas de velocidad clase 8 o superior
-- Read the [Counterfeit MicroSD Cards Guide](https://www.flashcarts.net/microsd-fakes) to ensure you do not end up with a counterfeit SD/MicroSD card
+- Lee la [guía de tarjetas MicroSD falsificadas](https://www.flashcarts.net/microsd-fakes) para confirmar que no vas a comprar una tarjeta SD o MicroSD falsa.
 
 ## ¿Puedo usar la tarjeta SD de mi consola en otros sistemas?
 
@@ -152,13 +152,13 @@ Usualmente, sí, con un par de excepciones:
 
 ## ¿Puedo cambiar de tarjeta SD después de que ya esté todo listo y configurado?
 
-Format your new SD card using the [SD Card Setup](sd-card-setup.html) instructions, then simply move your data from the old SD card to the new one.
+Formatea tu nueva tarjeta SD siguiendo las instrucciones de [Preparación de la tarjeta SD](sd-card-setup.html) y luego simplemente mueve tus archivos de tu tarjeta antigua a la nueva.
 
 ## ¿Puedo usar mi consola normalmente sin introducir la tarjeta SD después de instalar homebrew?
 
-Sí. Si no instalaste Unlaunch, tu consola permanecerá con el sistema intacto. If you _did_ install Unlaunch, you may need to [configure Unlaunch](installing-unlaunch.html#section-iii-post-unlaunch-configuration) to automatically boot the original DSi Menu under specified conditions.
+Sí. Si no instalaste Unlaunch, tu consola permanecerá con el sistema intacto. _Si desinstalaste Unlaunch_, tal vez debas [configurarlo](installing-unlaunch.html#section-iii-post-unlaunch-configuration) para que se cargue automáticamente el menú de DSi original en casos concretos.
 
-## The [Unlaunch page](https://problemkaputt.de/unlaunch.htm) says that version 2.0 is not known to be safe. ¿Debería usar una versión anterior?
+## La [página de Unlaunch](https://problemkaputt.de/unlaunch.htm) indica que se desconoce si la versión 2.0 es segura. ¿Debería usar una versión anterior?
 
 La página de Unlaunch no ha sido actualizada desde que se publicó la versión 2.0, en 2019. La gran mayoría de usuarios no han experimentado problemas usando esta versión, así que puede considerarse segura.
 
@@ -166,4 +166,4 @@ La página de Unlaunch no ha sido actualizada desde que se publicó la versión 
 
 La forma recomendado es iniciarlos usando TWiLight Meni++, debido a su métedo simple para añadir juegos al menú, y que no hay un límite arbitrario de cuántos títulos puedes instalar. Si el método de ejecución de DSiWare es nds-bootstrap, además, ganas el beneficio de poder hacer capturas de pantalla y usar trucos, junto con cualquier otra ventaja proporcionada por el menú dentro del juego.
 
-However, for the few titles that are incompatible, you can use [NTM](https://github.com/Epicpkmn11/NTM/releases) to install them on either internal memory or [hiyaCFW's SDNAND](https://wiki.ds-homebrew.com/hiyacfw/installing). Además de carecer de los beneficios previamente mencionados, también hay un límite de 39 títulos, y no se pueden exceder 128Mib/1024 bloques en tamaño. Para la memoria interna, también hay un pequeño riesgo de bloqueo total del sistema al escribir al almacenamiento interno.
+Sin embargo, para los pocos títulos incompatibles, puedes usar [NTM](https://github.com/Epicpkmn11/NTM/releases) para instalarlos, o bien en la memoria interna o en la [SDNAND de hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing). Además de carecer de los beneficios previamente mencionados, también hay un límite de 39 títulos, y no se pueden exceder 128Mib/1024 bloques en tamaño. Para la memoria interna, también hay un pequeño riesgo de bloqueo total del sistema al escribir al almacenamiento interno.
