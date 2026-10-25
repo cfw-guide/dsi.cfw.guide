@@ -50,15 +50,15 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 
 - The fastest and most lightweight menu available.
 - No features are missing from the menu (ex. start menu and graphical info/settings menu) when compared to the Wood UI from TWLMenu++.
-- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO.
+- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO as well as it's own upgraded themes.
 - Games from older consoles including GBA can be launched by [installing a plugin.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - Can be installed alongside hiyaCFW.
 
 ### Cons
 
-- Does not support DSiWare.
-- Music and/or sound effects cannot be used.
-- Does not auto-set a donor ROM in order for DSi-Enhanced games to be played in DSi mode without Unlaunch, and would have to be set manually.
+- Only offers the Wood/Acekard-style interface; TWiLight Menu++ offers several interface styles.
+- GBA support requires a separately installed plugin.
+- Animated DSi game icons are displayed as static icons.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 

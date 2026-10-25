@@ -50,15 +50,15 @@
 
 - 最快及最輕的選單。
 - 與 TWLMenu++ 的 Wood 使用者介面相比，選單中沒有缺少任何功能（例如：開始選單、圖形資訊/設定選單）。
-- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO.
+- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO as well as it's own upgraded themes.
 - Games from older consoles including GBA can be launched by [installing a plugin.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - 可以與 hiyaCFW 一起安裝。
 
 ### 缺點
 
-- Does not support DSiWare.
-- 無法使用音樂和/或音效。
-- 不會自動設定"donor ROM"，以便 Nintendo DSi 增強型遊戲可以在沒有取消啟動的情況下在 DSi 模式下遊玩，而必須手動設定。
+- Only offers the Wood/Acekard-style interface; TWiLight Menu++ offers several interface styles.
+- GBA support requires a separately installed plugin.
+- Animated DSi game icons are displayed as static icons.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 
