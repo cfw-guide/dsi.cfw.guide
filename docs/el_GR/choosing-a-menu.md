@@ -50,15 +50,15 @@
 
 - Το πιο γρήγορο και πιο «ελαφρύ» μενού που είναι διαθέσιμο.
 - Δεν λείπουν λειτουργίες από το μενού (π.χ. μενού εκκίνησης και μενού πληροφοριών/ρυθμίσεων γραφικών) σε σύγκριση με το Wood UI από το TWLMenu++.
-- Δυνατότητα προσαρμογής με την εγκατάσταση προσαρμοσμένων θεμάτων, συμβατών με τα Wood R4 και AKAIO.
+- Customizable by installing user-made custom themes compatible with Wood R4 & AKAIO as well as it's own upgraded themes.
 - Δυνατότητα εκκίνησης παιχνιδιών από παλαιότερες κονσόλες, συμπεριλαμβανομένου του GBA, με την [εγκατάσταση ενός προσθέτου.](https://coderkei.github.io/akmenu-next-docs/guides/plugins/)
 - Δυνατότητα παράλληλης εγκατάστασης με το hiyaCFW.
 
 ### Μειονεκτήματα
 
-- Δεν υποστηρίζει DSiWare.
-- Δεν είναι δυνατή η χρήση μουσικής ή/και εφέ ήχου.
-- Δεν ορίζει αυτόματα μια ROM-δότη για την εκτέλεση παιχνιδιών DSi-Enhanced στη λειτουργία DSi χωρίς το Unlaunch (θα πρέπει να την ορίζετε χειροκίνητα).
+- Only offers the Wood/Acekard-style interface; TWiLight Menu++ offers several interface styles.
+- GBA support requires a separately installed plugin.
+- Animated DSi game icons are displayed as static icons.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 

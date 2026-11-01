@@ -63,7 +63,7 @@ Unlaunchが既にインストールされている場合は、セクション IV
 
 1. [使用したエクスプロイト](launching-the-exploit.html)を再実行してインストーラーを開いてください
 2. `WARNING`メッセージが表示されたら、 <kbd class="face">A</kbd> ボタンを押してください
-   - バッテリーLEDが赤色の場合、コンソールを充電するように教えてくれます。 充電コードを接続後に`Yes`を選択してください
+   - バッテリーLEDが赤色の場合、コンソールを充電するように教えてくれます。充電コードを接続後に`Yes`を選択してください
 3. デフォルトの背景を変更したい場合は、 `[Custom background]` を選択し、 <kbd class="face">A</kbd> を押して使用する背景を選択してください
    - 3 つのカスタム背景が含まれていますが、SD カードのルートにある `backgrounds` というフォルダーにさらに追加できます (フォルダーが存在しない場合は作成してください)
 4. If you want to disable the DSi menu music, select `Disable DSi menu sound` and press <kbd class="face">A</kbd> to turn it off

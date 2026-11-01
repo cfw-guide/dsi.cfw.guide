@@ -1,6 +1,6 @@
 # 匯出系統NAND
 
-此頁面用於備份系統NAND，即 Nintendo DSi 主機記憶體上資料的副本。 可以用於設定 hiyaCFW，以及用於 Nintendo DSi 主機模擬的 no$gba 和 melonDS。
+此頁面用於備份系統NAND，即 Nintendo DSi 主機記憶體上資料的副本。可以用於設定 hiyaCFW，以及用於 Nintendo DSi 主機模擬的 no$gba 和 melonDS。
 
 ::: tip
 
@@ -10,7 +10,7 @@
 
 ::: tip
 
-強烈建議您這樣做。 系統NAND備份可以作為將來萬一發生當機時的還原點。
+強烈建議您這樣做。系統NAND備份可以作為將來萬一發生當機時的還原點。
 
 :::
 
@@ -43,7 +43,7 @@
 
 ::: warning
 
-`nand.bin`的SHA1雜湊值與儲存在`nand.bin.sha1`中的雜湊值不符。 這是因為 dumpTool 在計算SHA1雜湊值後，會在`nand.bin`檔案中加入額外的資料（稱為 no$gba 頁腳）。 您可以使用 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) 建立不含頁腳的副本。
+`nand.bin`的SHA1雜湊值與儲存在`nand.bin.sha1`中的雜湊值不符。這是因為 dumpTool 在計算SHA1雜湊值後，會在`nand.bin`檔案中加入額外的資料（稱為 no$gba 頁腳）。您可以使用 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases) 建立不含頁腳的副本。
 
 :::
 

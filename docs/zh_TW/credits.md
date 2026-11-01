@@ -18,4 +18,4 @@
 
 您也可以透過 [GitHub 上傳送請求](https://github.com/cfw-guide/dsi.cfw.guide/)為我們的指南做出貢獻！
 
-如果您懂其他語言，您可以幫助我們將指南翻譯成其他語言。 您可以加入我們的 [Crowdin 專案](https://crowdin.com/project/dsi-guide)來開始使用。
+如果您懂其他語言，您可以幫助我們將指南翻譯成其他語言。您可以加入我們的 [Crowdin 專案](https://crowdin.com/project/dsi-guide)來開始使用。

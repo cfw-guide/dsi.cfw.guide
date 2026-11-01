@@ -25,7 +25,7 @@ Ensure your SD card is [formatted correctly with this guide](sd-card-setup.html)
 
 ::: tip
 
-不知道SD卡的「根目錄」是什麼？ [查看此圖片](/assets/images/sdroot/en_US.png)
+不知道SD卡的「根目錄」是什麼？[查看此圖片](/assets/images/sdroot/en_US.png)
 
 :::
 

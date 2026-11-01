@@ -25,7 +25,7 @@ Ensure your SD card is [formatted correctly with this guide](sd-card-setup.html)
 
 ::: tip
 
-SDカードの「ルート」が何だか分からないって？ [この画像を見てください](/assets/images/sdroot/en_US.png)
+SDカードの「ルート」が何だか分からないって？[この画像を見てください](/assets/images/sdroot/en_US.png)
 
 :::
 

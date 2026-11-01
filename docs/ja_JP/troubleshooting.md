@@ -10,11 +10,11 @@ twlnfには、NAND変更後に全体を適切に更新しない重大なバグ�
 
 ### Unlaunchで「Launcher」を起動すると音や起動スプラッシュ画面がない
 
-Unlaunchの開発者(nocash)は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。 これらを取り戻すには、[Unlaunch を再インストール](installing-unlaunch.html)して「サウンドとスプラッシュを有効にする」をオンにするか、[hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) を使用してください。
+Unlaunchの開発者(nocash)は、意図的にBGMとスプラッシュ画面を消すパッチをデフォルトで適用しています。これらを取り戻すには、[Unlaunch を再インストール](installing-unlaunch.html)して「サウンドとスプラッシュを有効にする」をオンにするか、[hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/installing) を使用してください。
 
 ### Unlaunchインストール後、電源を入れても画面が点かない
 
-SDカードを取り出して、本体の電源を入れてみてください。 それでもまだ黒い画面しか表示されない場合は、 [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) または [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)を介してNANDをフラッシュする必要があるかもしれません。
+SDカードを取り出して、本体の電源を入れてみてください。それでもまだ黒い画面しか表示されない場合は、 [ntrboot](https://wiki.ds-homebrew.com/ds-index/ntrboot) または [hardmod](https://wiki.ds-homebrew.com/ds-index/hardmod)を介してNANDをフラッシュする必要があるかもしれません。
 
 ### DSi メニューかシステム設定で電源を切るのに 5-10 秒かかります
 

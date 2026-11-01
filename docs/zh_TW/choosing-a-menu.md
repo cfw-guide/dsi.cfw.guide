@@ -1,6 +1,6 @@
 # 選擇一種選單
 
-有三個選單可用於啟動遊戲。 請選擇適合您需求的選單。
+有三個選單可用於啟動遊戲。請選擇適合您需求的選單。
 
 - **If you are unsure** (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
 - If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occurred" screen, choose [Unlaunch Standalone](#unlaunch-standalone).
@@ -13,13 +13,13 @@
 
 ### 優點
 
-- 使用原始的 Nintendo DSi 選單。 無需重新製作！
+- 使用原始的 Nintendo DSi 選單。無需重新製作！
 - Games that are launched originally on DS(i) game cards can be launched from the DSi Menu after [creating forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders) for them, and DSiWare can be installed with [NTM](https://github.com/Epicpkmn11/NTM/releases).
 
 ### 缺點
 
 - As this requires Unlaunch, the console's NAND will be written, so there's a small chance to brick your console!
-- 僅限於啟動 Nintendo DS 或 DSi 的遊戲。 要啟動舊版主機的遊戲，您需要為模擬這些主機的軟體建立轉發器。
+- 僅限於啟動 Nintendo DS 或 DSi 的遊戲。要啟動舊版主機的遊戲，您需要為模擬這些主機的軟體建立轉發器。
 - Creating forwarders for games can be time-consuming when compared to just adding them to the SD card.
 - 由於原始 Nintendo DSi 選單的運行方式，螢幕上的圖示限制為39個。
 - 選單的使用者介面不可自訂。

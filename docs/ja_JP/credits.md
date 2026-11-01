@@ -18,4 +18,4 @@
 
 [プルリクエストを送信する](https://github.com/cfw-guide/dsi.cfw.guide/)だけでガイドに貢献できます！
 
-他の言語をご存知なら、ガイドの翻訳作業を通じて私たちの活動にご協力いただけます。 まずは[Crowdinプロジェクト](https://crowdin.com/project/dsi-guide)に参加してみてください。
+他の言語をご存知なら、ガイドの翻訳作業を通じて私たちの活動にご協力いただけます。まずは[Crowdinプロジェクト](https://crowdin.com/project/dsi-guide)に参加してみてください。

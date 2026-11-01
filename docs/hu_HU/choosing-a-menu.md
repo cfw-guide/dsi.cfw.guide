@@ -50,15 +50,15 @@ Ez egy frissített verziója az eredeti Fa/akmenu flashcard menünek, amit kompa
 
 - A leggyorsabb és legkönnyebb elérhető menü.
 - Nem hiányzik semmilyen szolgáltatás a menüből (pl. start menü és grafikus info/settings menu) összehasonlítva a Fa felülettel a TWLMenu++-ből.
-- Egyedivé tehető a felhasználók által készített Wood R4 & AKAIO kompatibilis témák telepítésével.
+- Egyedivé tehető a felhasználók által készített Wood R4 & AKAIO kompatibilis témák telepítésével vagy akár a saját fejlettebb témáival.
 - A játékok régebbi konzolokról beleértve a GBA-t is egy [add-on segítségével](https://coderkei.github.io/akmenu-next-docs/guides/plugins/) indíthatók
 - Telepíthető a hiyaCFW mellé.
 
 ### Hátrányok
 
-- Nem támogatja a DSiWare-t.
-- Zene és/vagy hangeffektek nem használhatók.
-- Nem állít be automatikusan donor ROM-ot annak érdekében, hogy a DSi-Enhanced játékok DSi módban legyenek játszhatók Unlaunch nélkül, és kézzel kell beállítani.
+- Csak Wood/Acekard-stilusú felület; a TWiLight Menu++ többféle felület stílust biztosít.
+- A GBA támogatáshoz egy plugin önálló telepítése szükséges.
+- Az animált DS játék ikonok álló ikonként jelennek meg.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 

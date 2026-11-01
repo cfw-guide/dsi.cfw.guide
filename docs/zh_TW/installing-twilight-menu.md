@@ -19,7 +19,7 @@
 
 ### 完成安裝後
 
-執行您[使用的漏洞程式](launching-the-exploit.html)來啟動 dumpTool，然後 TWiLight Menu++ 就會啟動。 有可能會要求您選擇語言和地區。 這些選項無需與您的主機語言或地區匹配，您可以根據自己的喜好進行設定。
+執行您[使用的漏洞程式](launching-the-exploit.html)來啟動 dumpTool，然後 TWiLight Menu++ 就會啟動。有可能會要求您選擇語言和地區。這些選項無需與您的主機語言或地區匹配，您可以根據自己的喜好進行設定。
 
 ::: tip
 

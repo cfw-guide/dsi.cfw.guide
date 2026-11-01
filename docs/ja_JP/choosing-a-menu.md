@@ -1,6 +1,6 @@
 # メニューの選択
 
-ゲームを起動するためのメニューの選択肢は3つあります。 必要に応じて選択してください。
+ゲームを起動するためのメニューの選択肢は3つあります。必要に応じて選択してください。
 
 - **If you are unsure** (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
 - If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occurred" screen, choose [Unlaunch Standalone](#unlaunch-standalone).
@@ -13,13 +13,13 @@ NAND アクセスを SD カードにリダイレクトすることで、シス�
 
 ### 長所
 
-- 元のニンテンドーDSiメニューを使用しています。 再構成はされていません！
+- 元のニンテンドーDSiメニューを使用しています。再構成はされていません！
 - Games that are launched originally on DS(i) game cards can be launched from the DSi Menu after [creating forwarders](https://wiki.ds-homebrew.com/ds-index/forwarders) for them, and DSiWare can be installed with [NTM](https://github.com/Epicpkmn11/NTM/releases).
 
 ### 短所
 
 - As this requires Unlaunch, the console's NAND will be written, so there's a small chance to brick your console!
-- DSまたはDSi ゲームのみに制限されています。 以前のコンソールからゲームを起動するには、それらのコンソールをエミュレートするアプリのフォワーダーを作成する必要があります。
+- DSまたはDSi ゲームのみに制限されています。以前のコンソールからゲームを起動するには、それらのコンソールをエミュレートするアプリのフォワーダーを作成する必要があります。
 - Creating forwarders for games can be time-consuming when compared to just adding them to the SD card.
 - 元のDSiメニューの動作により、画面上で39個のアイコンに制限されます。
 - メニューUIはカスタマイズできません。
@@ -56,9 +56,9 @@ NAND アクセスを SD カードにリダイレクトすることで、シス�
 
 ### 短所
 
-- Does not support DSiWare.
-- 音楽および効果音は使用できません。
-- DSi 拡張ゲームを Unlaunch なしで DSi モードでプレイできるようにするためのドナー ROM を自動設定しないため、手動で設定する必要があります。
+- Only offers the Wood/Acekard-style interface; TWiLight Menu++ offers several interface styles.
+- GBA support requires a separately installed plugin.
+- Animated DSi game icons are displayed as static icons.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 

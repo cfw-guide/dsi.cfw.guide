@@ -1,10 +1,10 @@
 # SDカードのセットアップ
 
-このページは、お持ちの機器用にSDカードの準備をするためのものです。 この操作でSDカードをフォーマットし、エラーがないかの確認をします。 このセクションでは、SDアソシエーションの仕様に合わせてSDカードをフォーマットします。 Homebrewアプリの実行において発生しうる多くの問題を修正できるでしょう。
+このページは、お持ちの機器用にSDカードの準備をするためのものです。 この操作でSDカードをフォーマットし、エラーがないかの確認をします。このセクションでは、SDアソシエーションの仕様に合わせてSDカードをフォーマットします。 Homebrewアプリの実行において発生しうる多くの問題を修正できるでしょう。
 
 ::: danger
 
-追加されたデバイス名をメモしてください。 上記の例では`mmcblk0p1`です この手順を進める前に必ずSDカードの内容をバックアップしてください。 処理によってカード内のデータは完全に失われます。
+追加されたデバイス名をメモしてください。 上記の例では`mmcblk0p1`ですこの手順を進める前に必ずSDカードの内容をバックアップしてください。 処理によってカード内のデータは完全に失われます。
 
 :::
 
@@ -70,7 +70,7 @@ Your antivirus software may detect this application as a virus. It is a false po
 
 ::: danger
 
-このセクションでは、SDアソシエーションの仕様に合わせてSDカードをフォーマットします。 Homebrewアプリの実行において発生しうる多くの問題を修正できるでしょう。 この操作では、64GB以上のSDカードは`exFAT`でフォーマットされます。 You _must_ follow both Sections I & II to re-format to `FAT32`.
+このセクションでは、SDアソシエーションの仕様に合わせてSDカードをフォーマットします。 Homebrewアプリの実行において発生しうる多くの問題を修正できるでしょう。この操作では、64GB以上のSDカードは`exFAT`でフォーマットされます。 You _must_ follow both Sections I & II to re-format to `FAT32`.
 
 :::
 
@@ -81,7 +81,7 @@ Your antivirus software may detect this application as a virus. It is a false po
 3. Linuxのターミナルを起動します
 4. `watch "lsblk"`を打ちます
 5. SDカードをLinuxマシンに挿入します
-6. 出力を見ます。 以下のように映るはずです：
+6. 出力を見ます。以下のように映るはずです：
 
 ```
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
@@ -116,7 +116,7 @@ SDカードの容量が32GB以下の場合は、ここを飛ばしてセクシ�
 2. Linuxのターミナルを起動します
 3. `watch "lsblk"`を打ちます
 4. SDカードをLinuxマシンに挿入します
-5. 出力を見ます。 以下のように映るはずです：
+5. 出力を見ます。以下のように映るはずです：
 
 ```
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
@@ -136,7 +136,7 @@ mmcblk0     179:0    0   3,8G  0 disk
 2. F3のディレクトリでターミナルを起動します
 3. `make`を実行してF3をコンパイルします
 4. SDカードを挿入してマウントしたら、`./f3write <your sd card mount point>`を実行します
-   - 処理が完了するまで待ちます。 下記は出力の例です： 下記は出力の例です：
+   - 処理が完了するまで待ちます。 下記は出力の例です：下記は出力の例です：
    ```
    $ ./f3write /media/michel/6135-3363/
    Free space: 29.71 GB
@@ -148,7 +148,7 @@ mmcblk0     179:0    0   3,8G  0 disk
    ```
 5. `./f3read <your sd card mount point>`を実行します
 
-- 処理が完了するまで待ちます。 下記は出力の例です： 下記は出力の例です：
+- 処理が完了するまで待ちます。 下記は出力の例です：下記は出力の例です：
   ```
   $ ./f3read /media/michel/6135-3363/
                     SECTORS      ok/corrupted/changed/overwritten
@@ -192,7 +192,7 @@ ___
 
 ::: danger
 
-このセクションでは、SDアソシエーションの仕様に合わせてSDカードをフォーマットします。 Homebrewアプリの実行において発生しうる多くの問題を修正できるでしょう。 出力を見ます。 以下のように映るはずです：
+このセクションでは、SDアソシエーションの仕様に合わせてSDカードをフォーマットします。 Homebrewアプリの実行において発生しうる多くの問題を修正できるでしょう。出力を見ます。 以下のように映るはずです：
 
 :::
 
@@ -245,7 +245,7 @@ SDカードの容量が32GB以下の場合は、ここを飛ばしてセクシ�
 2. `brew install f3`を実行して、brewからF3をインストールします
    - brewを持っていない場合は、[brew.sh](https://brew.sh)の指示に従ってインストールしてください
 3. SDカードを挿入してマウントしたら、`f3write <your sd card mount point>`を実行します
-   - 処理が完了するまで待ちます。 下記は出力の例です： 下記は出力の例です：
+   - 処理が完了するまで待ちます。 下記は出力の例です：下記は出力の例です：
    ```
    $ f3write /Volumes/SD\ CARD
    Free space: 29.71 GB
@@ -256,7 +256,7 @@ SDカードの容量が32GB以下の場合は、ここを飛ばしてセクシ�
    Average Writing speed: 4.90 MB/s
    ```
 4. `f3read <your sd card mount point>`を実行します
-   - 処理が完了するまで待ちます。 下記は出力の例です： 下記は出力の例です：
+   - 処理が完了するまで待ちます。 下記は出力の例です：下記は出力の例です：
    ```
    $ f3read /Volumes/SD\ CARD
                      SECTORS      ok/corrupted/changed/overwritten

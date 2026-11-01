@@ -2,8 +2,8 @@
 
 Trois menus sont disponibles pour lancer les jeux. Choisissez celui qui vous convient le mieux.
 
-- **If you are unsure** (or cannot decide) which one to use, then choose [**TW**i**L**ight Menu++](#twilight-menu).
-- If you are only looking to run a DSi-Compatible Flashcart that now shows the "An Error Occurred" screen, choose [Unlaunch Standalone](#unlaunch-standalone).
+- **Si vous ne savez pas** (ou ne pouvez pas décider) lequel utiliser, choisissez [**TW**i**L**ight Menu++](#twilight-menu).
+- Si vous souhaitez uniquement utiliser un linker compatible avec la DSi qui affiche actuellement le message « Une erreur s'est produite », choisissez [Unlaunch seul](#unlaunch-standalone).
 
 ## [hiyaCFW](installing-unlaunch-and-hiyacfw.html)
 
@@ -60,7 +60,7 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 - GBA support requires a separately installed plugin.
 - Animated DSi game icons are displayed as static icons.
 
-## [Unlaunch Standalone](installing-unlaunch-standalone.html)
+## [Unlaunch seul](installing-unlaunch-standalone.html)
 
 This does not install a custom menu and relies on the stock DSi Menu, but installing Unlaunch unlocks the DSi including allowing the use of previously blocked flashcarts
 

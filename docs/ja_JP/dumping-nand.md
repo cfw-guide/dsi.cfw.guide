@@ -43,7 +43,7 @@ SDカードに少なくとも250MBの空き容量があることを確認して�
 
 ::: warning
 
-`nand.bin`のSHA1ハッシュは、`nand.bin.sha1`に保存されているハッシュと一致しません。 これはdumpToolがSHA1ハッシュが計算された後に`nand.bin`ファイルに$gba フッターとして知られていない追加データを追加するためです。 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)を使ってフッターなしのコピーを作成できます。
+`nand.bin`のSHA1ハッシュは、`nand.bin.sha1`に保存されているハッシュと一致しません。これはdumpToolがSHA1ハッシュが計算された後に`nand.bin`ファイルに$gba フッターとして知られていない追加データを追加するためです。 [hiyaCFW Helper](https://github.com/mondul/HiyaCFW-Helper/releases)を使ってフッターなしのコピーを作成できます。
 
 :::
 

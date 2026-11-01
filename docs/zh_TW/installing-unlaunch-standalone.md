@@ -16,7 +16,7 @@
 
 ::: warning
 
-如果您無法使用電腦，或者您的電腦執行的作業系統是 ChromeOS，請不要安裝 Unlaunch。 需要一台個人電腦（執行 Windows、Linux 或 macOS）來確認所使用的SD卡格式與 Unlaunch 相容。
+如果您無法使用電腦，或者您的電腦執行的作業系統是 ChromeOS，請不要安裝 Unlaunch。需要一台個人電腦（執行 Windows、Linux 或 macOS）來確認所使用的SD卡格式與 Unlaunch 相容。
 
 :::
 
