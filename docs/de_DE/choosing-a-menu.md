@@ -58,7 +58,7 @@ This is an upgraded version of the original Wood/akmenu flashcard menu, made to 
 
 - Only offers the Wood/Acekard-style interface; TWiLight Menu++ offers several interface styles.
 - GBA support requires a separately installed plugin.
-- Animated DSi game icons are displayed as static icons.
+- Box art is only shown with themes that support covers.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 

@@ -58,7 +58,7 @@ Ez egy frissített verziója az eredeti Fa/akmenu flashcard menünek, amit kompa
 
 - Csak Wood/Acekard-stilusú felület; a TWiLight Menu++ többféle felület stílust biztosít.
 - A GBA támogatáshoz egy plugin önálló telepítése szükséges.
-- Az animált DS játék ikonok álló ikonként jelennek meg.
+- Box art is only shown with themes that support covers.
 
 ## [Unlaunch Standalone](installing-unlaunch-standalone.html)
 
