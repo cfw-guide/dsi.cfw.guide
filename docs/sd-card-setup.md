@@ -125,9 +125,10 @@ mmcblk0     179:0    0   3,8G  0 disk
 1. Run `sudo mkdosfs /dev/(partition name from above) -s 64 -F 32` to format your SD card to FAT32
 
 ### Section III - Using F3
-1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v9.0.zip) anywhere on your computer.
+1. Download and extract [the F3 archive](https://github.com/AltraMayor/f3/archive/v10.0.zip) anywhere on your computer.
 1. Launch the terminal in the F3 directory
 1. Run `make` to compile F3
+1. Run `cd build` to move to the `build` directory where F3 has been compiled
 1. With your SD card inserted and mounted, run `./f3write <your sd card mount point>`
     - Wait until the process is complete. See below for an example output:
    ```
